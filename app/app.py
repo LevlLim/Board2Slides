@@ -29,6 +29,7 @@ from pydantic import BaseModel, Field
 from starlette.concurrency import run_in_threadpool
 
 from llm_infer import model_paths
+from lesson_lines import assemble_ocr
 from ocr_infer import MODEL_NAMES, model_paths as ocr_model_paths, recognizer_path
 
 
@@ -254,14 +255,56 @@ def repair_visual_claims(plan: dict, ocr: dict) -> tuple[dict, list[str]]:
     return validate_plan(fixed, ocr), ["Chart teaching claims were recomputed from the cited chart values."]
 
 
-def render_deck(folder: Path, job: dict, plan: dict, output_file: Path, demo: bool) -> None:
+def omit_unsupported_visual(plan: dict, ocr: dict) -> tuple[dict, list[str]]:
+    """Keep the LLM prose while removing a visual rejected by evidence checks."""
+    from copy import deepcopy
+    fixed = deepcopy(plan)
+    fixed["visual"] = {"type": "none", "title": "Explanation only",
+                       "reason": "The proposed visual did not pass the board-evidence check.",
+                       "source_region_ids": [], "data": {}}
+    return validate_plan(fixed, ocr), ["The LLM's visual was removed because its details were not supported by the reviewed board text."]
+
+
+def planner_ocr(job: dict) -> dict:
+    return assemble_ocr(job["ocr"], job.get("region_evidence", []), job.get("photos", []))
+
+
+def photo_coverage_notes(plan: dict, source_ocr: dict, photos: list[dict]) -> list[str]:
+    """Flag a photo whose distinctive words are absent from the slide draft."""
+    if len(photos) < 2:
+        return []
+    stop = {"about", "after", "also", "and", "are", "for", "from", "has", "have",
+            "into", "its", "more", "not", "that", "the", "their", "this", "type",
+            "was", "were", "what", "when", "which", "with"}
+    tokens = lambda value: {word.lower() for word in re.findall(r"[A-Za-z][A-Za-z0-9]{2,}", value)
+                            if word.lower() not in stop}
+    by_photo = {photo["id"]: tokens(" ".join(
+        region["text"] for region in source_ocr["regions"] if region.get("photo_id") == photo["id"]))
+                for photo in photos}
+    prose = " ".join([plan["title"], plan["summary"],
+                      *[point["heading"] + " " + point["explanation"] for point in plan["key_points"]],
+                      plan["example"]["description"]])
+    if plan["visual"]["type"] != "none":
+        prose += " " + json.dumps(plan["visual"], ensure_ascii=False)
+    mentioned = tokens(prose)
+    notes = []
+    for index, photo in enumerate(photos, 1):
+        distinct = by_photo[photo["id"]] - set().union(
+            *(terms for other_id, terms in by_photo.items() if other_id != photo["id"]))
+        if distinct and not distinct.intersection(mentioned):
+            notes.append(f"Check Photo {index}: its distinct terms do not appear in the slide draft.")
+    return notes
+
+
+def render_deck(folder: Path, job: dict, plan: dict, output_file: Path, demo: bool,
+                source_ocr: dict | None = None) -> None:
     node = shutil.which("node")
     if not node or not NODE_MODULE.is_dir():
         raise HTTPException(503, "PowerPoint renderer is not installed. Run python scripts/setup.py.")
     envelope = {
         "generation_mode": "reviewed_demo" if demo else "adaptive_llm_v3",
         "model_condition": "Reviewed board text · demo planner" if demo else "Qwen3-1.7B · adaptive visual LoRA v3",
-        "ocr": job["ocr"], "model_output": plan,
+        "ocr": source_ocr if source_ocr is not None else job["ocr"], "model_output": plan,
     }
     input_file = folder / f"renderer-input-{uuid4().hex}.json"
     input_file.write_text(json.dumps(envelope, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -319,6 +362,7 @@ def response_job(job: dict) -> dict:
         "ocr_status": job.get("ocr_status", "manual"),
         "ocr_message": job.get("ocr_message", ""),
         "region_evidence": job.get("region_evidence", []),
+        "planner_input": planner_ocr(job),
         "plan": job.get("plan"),
         "plan_notes": job.get("plan_notes", []),
         "download_url": job.get("download_url"),
@@ -725,7 +769,7 @@ def create_plan(job_id: str, payload: PlanRequest):
             missing = [photo["name"] for photo in job["photos"] if photo["id"] not in covered]
             if missing:
                 raise HTTPException(400, "Add at least one reviewed line for each photo. Missing: " + ", ".join(missing))
-        ocr = job["ocr"]
+        ocr = planner_ocr(job) if payload.mode == "llm" else job["ocr"]
     if payload.mode == "llm":
         if not llm_ready():
             raise HTTPException(503, "The saved LLM is unavailable here. Install the model environment or select Demo planner.")
@@ -741,7 +785,9 @@ def create_plan(job_id: str, payload: PlanRequest):
                 if "JSONDecodeError" in detail:
                     raise HTTPException(422, "The LLM returned incomplete JSON. Try again or select Demo planner.")
                 raise HTTPException(503, f"LLM generation failed: {detail}")
-            plan = validate_plan(json.loads(output_file.read_text(encoding="utf-8")), ocr)
+            raw_plan = json.loads(output_file.read_text(encoding="utf-8"))
+            format_repaired = bool(raw_plan.pop("_format_repaired", False))
+            plan = validate_plan(raw_plan, ocr)
         except subprocess.TimeoutExpired as exc:
             raise HTTPException(504, "LLM generation timed out. Try again or select Demo planner.") from exc
         except json.JSONDecodeError as exc:
@@ -749,23 +795,42 @@ def create_plan(job_id: str, payload: PlanRequest):
         finally:
             input_file.unlink(missing_ok=True)
             output_file.unlink(missing_ok=True)
-        notes = []
+        notes = (["The LLM's JSON formatting was repaired. Check the draft before sharing it."]
+                 if format_repaired else [])
         preview_file = folder / f"plan-check-{uuid4().hex}.pptx"
         try:
             try:
-                render_deck(folder, job, plan, preview_file, demo=False)
+                render_deck(folder, job, plan, preview_file, demo=False, source_ocr=ocr)
             except HTTPException as first_error:
                 if first_error.status_code != 422:
                     raise
-                plan, notes = repair_visual_claims(plan, ocr)
-                if not notes:
+                if plan["visual"]["type"] == "none":
                     raise first_error
-                render_deck(folder, job, plan, preview_file, demo=False)
+                repaired_plan, repair_notes = repair_visual_claims(plan, ocr)
+                if repair_notes:
+                    try:
+                        render_deck(folder, job, repaired_plan, preview_file,
+                                    demo=False, source_ocr=ocr)
+                        plan = repaired_plan
+                        notes.extend(repair_notes)
+                    except HTTPException as retry_error:
+                        if retry_error.status_code != 422:
+                            raise
+                        plan, visual_notes = omit_unsupported_visual(plan, ocr)
+                        render_deck(folder, job, plan, preview_file,
+                                    demo=False, source_ocr=ocr)
+                        notes.extend(visual_notes)
+                else:
+                    plan, visual_notes = omit_unsupported_visual(plan, ocr)
+                    render_deck(folder, job, plan, preview_file,
+                                demo=False, source_ocr=ocr)
+                    notes.extend(visual_notes)
         finally:
             preview_file.unlink(missing_ok=True)
         explanations = [" ".join(point["explanation"].lower().split()) for point in plan["key_points"]]
         if len(explanations) != len(set(explanations)):
             notes.append("The model repeated a key-point explanation. Edit the slide draft before sharing it.")
+        notes.extend(photo_coverage_notes(plan, ocr, job.get("photos", [])))
         if len(regions) <= 3 and sum(len(region["text"]) for region in regions) < 120:
             notes.append("These board notes are short. Check that the slides add useful, supported explanations.")
     else:
@@ -809,7 +874,8 @@ def update_plan(job_id: str, payload: PlanUpdate):
         check_revision(job, payload.revision)
         if not job["ocr"]["regions"]:
             raise HTTPException(400, "Review the board text first.")
-        job["plan"] = validate_plan(payload.model_dump(exclude={"revision"}), job["ocr"])
+        source_ocr = planner_ocr(job) if job.get("planner_mode") == "llm" else job["ocr"]
+        job["plan"] = validate_plan(payload.model_dump(exclude={"revision"}), source_ocr)
         job["download_url"] = None
         job["revision"] = payload.revision + 1
         save_job(job_dir(job_id), job)
@@ -826,11 +892,12 @@ def export_pptx(job_id: str, payload: RevisionRequest):
         if not job.get("plan"):
             raise HTTPException(400, "Create a slide plan first.")
         folder = job_dir(job_id)
-        model_output = validate_plan(job["plan"], job["ocr"])
+        source_ocr = planner_ocr(job) if job.get("planner_mode") == "llm" else job["ocr"]
+        model_output = validate_plan(job["plan"], source_ocr)
         demo = job.get("planner_mode", "demo") == "demo"
         output_file = folder / "study-slides.pptx"
         output_file.unlink(missing_ok=True)
-        render_deck(folder, job, model_output, output_file, demo)
+        render_deck(folder, job, model_output, output_file, demo, source_ocr=source_ocr)
         job["download_url"] = f"/api/jobs/{job_id}/download"
         job["revision"] = payload.revision + 1
         save_job(folder, job)

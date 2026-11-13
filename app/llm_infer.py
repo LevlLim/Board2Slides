@@ -36,6 +36,27 @@ PROMPT = (
     'JSON only. WHITEBOARD OCR: '
 )
 
+PLAN_KEYS = {"title", "summary", "key_points", "example", "visual", "uncertain_ocr_terms"}
+
+
+def parse_plan(raw: str) -> tuple[dict, bool]:
+    """Repair syntax only; the server still validates structure and evidence."""
+    try:
+        parsed = json.loads(raw)
+        repaired = False
+    except json.JSONDecodeError as original_error:
+        from json_repair import repair_json
+        try:
+            parsed = repair_json(raw, return_objects=True)
+        except Exception:
+            raise original_error from None
+        if not isinstance(parsed, dict) or set(parsed) != PLAN_KEYS:
+            raise original_error
+        repaired = True
+    if not isinstance(parsed, dict):
+        raise ValueError("The LLM did not return a JSON object")
+    return parsed, repaired
+
 
 def model_paths() -> tuple[Path, Path]:
     base = Path(os.environ.get("BOARD2SLIDES_LLM_BASE", str(DEFAULT_BASE)))
@@ -90,7 +111,9 @@ def main() -> None:
         generated = model.generate(input_ids, max_new_tokens=800, do_sample=False,
                                    pad_token_id=tokenizer.eos_token_id)
     raw = tokenizer.decode(generated[0, input_ids.shape[-1]:], skip_special_tokens=True).strip()
-    parsed = json.loads(raw)
+    parsed, repaired = parse_plan(raw)
+    if repaired:
+        parsed["_format_repaired"] = True
     args.output.write_text(json.dumps(parsed, ensure_ascii=False, indent=2), encoding="utf-8")
 
 

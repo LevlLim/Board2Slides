@@ -261,6 +261,13 @@ function renderOcr() {
   el("ocr-lines").replaceChildren(...regions.map((region, i) =>
     makeOcrRow(region, i, evidence.get(region.id)?.confidence)));
   el("ocr-run").hidden = state.job.mode === "sample" || !state.ocrReady;
+  const plannerLines = el("planner-lines");
+  plannerLines.replaceChildren(...(state.job.planner_input?.regions || []).map((line) => {
+    const item = document.createElement("li");
+    const index = state.job.photos?.findIndex((photo) => photo.id === line.photo_id) ?? -1;
+    item.textContent = (index >= 0 ? `Photo ${index + 1}: ` : "") + line.text;
+    return item;
+  }));
   renderBoxes();
 }
 
