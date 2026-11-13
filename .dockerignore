@@ -1,0 +1,11 @@
+.git
+.venv-web
+.venv-ocr
+.venv-llm
+node_modules
+data
+.cache
+models/llm/base
+__pycache__
+*.pyc
+.DS_Store

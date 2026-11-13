@@ -1,0 +1,116 @@
+# Board2Slides
+
+A phone-friendly browser app that turns one lesson's board photos into one editable four-slide PowerPoint. This folder is the standalone application. It does not import code or models from the old Assignment folders.
+
+## What happens in the app
+
+1. Open the website on a phone or laptop and take or upload **one to four ordered JPG, PNG, or WebP photos from the same lesson**. Reorder or remove photos before continuing. Start a separate draft for a different lesson.
+2. The default **Automatic preparation** checks each photo separately for supported perspective, rotation, and lighting corrections, and crops around detected writing. More than one correction may be applied to a photo. Compare each original with the prepared result and read the applied/skipped decisions. The individual modes remain available for the class demo; each runs independently from the original, rather than stacking corrections. These checks are experimental, and blemish removal is not enabled.
+3. Select an OCR recognizer **before running OCR**. V1 uses the official PP-OCRv5 mobile detector and recognizer. V2 uses the same official detector with the team's current fine-tuned recognizer. V3 is reserved for the recognizer trained with augmented data and remains disabled until its exported model files are present.
+4. Review each photo's coloured text boxes beside matching editable lines. Add missing lines and correct recognition mistakes. The percentage remains the **original OCR confidence**, even after editing. The sample lesson and manual text entry still work when OCR is unavailable.
+5. Choose the **Qwen3-1.7B + adaptive-visual LoRA v3** planner or the explicit text-only demo planner. All reviewed lines from the photos go to **one** slide plan and **one** editable PowerPoint. Review the proposed content and visual choice before export. The renderer may use an explanation, process, comparison table, formula, line chart, or bar chart only when the reviewed text supports it.
+
+Drafts live on the server in `data/jobs`. A link or QR code opens the same draft on another device connected to that server. Save on one device and press **Refresh from server** on the other; editing is not live-synced. Anyone with a reachable draft link can edit it, so use this prototype only with your team.
+
+## Requirements
+
+- **Windows 64-bit** or **Apple Silicon macOS**. The Mac model path is provided but has not yet been physically tested by our team. Intel Macs can use the browser against a Windows or deployed server; local model installation may need a different runtime.
+- **Python 3.12 or 3.13**, **Node.js 22+** with npm, and internet for the first setup.
+- About **10 GB free disk space** for Python packages and the Qwen base model. A CUDA GPU on Windows or Apple GPU on Mac is preferred. CPU LLM generation can be very slow and needs substantial RAM; use the demo planner if the LLM is unavailable.
+- The `models/ocr/detector`, `models/ocr/baseline_rec`, `models/ocr/recognizer`, and `models/llm/adapter` folders supplied in this repository. `models/ocr/augmented_rec` is optional until that training run is exported.
+
+The Qwen base weights are about 4.1 GB and exceed GitHub's normal file limit. This **local copy** already includes them under `models/llm/base`, but `.gitignore` excludes that directory. After your team clones the GitHub repo, `scripts/setup.py` downloads the same pinned [Qwen/Qwen3-1.7B](https://huggingface.co/Qwen/Qwen3-1.7B) base into that directory. The custom OCR and LoRA weights are small enough to commit. Do not force-add the base weights, virtual environments, `node_modules`, or student photos to Git.
+
+Before committing, run `git status --short` **from this folder** and check the staged file list. `models/llm/base`, `.venv-*`, `node_modules`, `.cache`, and `data` should stay out of commits. `.gitignore` handles this for normal Git commands; uploading the entire folder through a browser file picker can bypass it.
+
+This folder is now the root of the team's GitHub repository. Teammates should **clone the repository**, then follow the Windows or Mac setup below. Keep experiments, training datasets, checkpoints, and evaluation outputs outside this clone. Commit only a tested inference export when updating a model. For UI or model changes, use a branch so teammates can review the change before merging:
+
+```bash
+git clone https://github.com/LevlLim/Board2Slides.git
+cd Board2Slides
+git switch -c feature/my-change
+# Edit files, then inspect exactly what will be shared.
+git status --short
+git add app/static    # or the specific model/code files you changed
+git commit -m "Describe the change"
+git push -u origin feature/my-change
+```
+
+Open a pull request on GitHub to merge the branch into `main`. Before starting new work later, run `git switch main` and `git pull`. A teammate needs repository access to push a branch to this GitHub repository; otherwise they can fork it and propose a pull request.
+
+## Windows setup and run
+
+Open PowerShell in the new folder. On this computer, the exact folder command is:
+
+```powershell
+cd 'C:\Users\levll\SIT\Year 2\Tri 1\3001 CVDL (6)\Assignment\Board2Slides-App'
+python scripts\setup.py
+python scripts\run.py
+```
+
+On another Windows computer, replace the `cd` path with the location where the team cloned this repository. The first setup creates `.venv-web`, `.venv-ocr`, and `.venv-llm`, installs the locked Node packages, and downloads the pinned Qwen base if it is absent. It can take a while. Subsequent starts need only `python scripts\run.py`. Use Ctrl+C to stop.
+
+For a quick website and slide-renderer run without installing the models, use `python scripts\setup.py --demo-only`, then `python scripts\run.py`. The health page will show OCR and LLM as unavailable until full setup is completed. For uploaded photos, choose **Use original upright photo**, press **Prepare photos**, then **Enter board text manually instead**. Use **Demo planner** to export slides.
+
+If PowerShell says `python` is not found, install Python 3.12 or 3.13 and select **Add Python to PATH**. Check with `python --version`. Check Node with `node --version` and `npm --version`. `setup.py` installs CUDA PyTorch on a Windows computer with `nvidia-smi`; otherwise it installs CPU PyTorch.
+
+## Apple Silicon Mac setup and run
+
+Open Terminal in the cloned folder:
+
+```bash
+cd /path/to/Board2Slides-App
+python3 scripts/setup.py
+python3 scripts/run.py
+```
+
+Use a Python 3.12 or 3.13 executable. If `python3 --version` reports another version, use the appropriate executable (for example `python3.12`) for both commands. The setup installs CPU PaddleOCR and Mac PyTorch; the app selects MPS for Qwen when available. The first setup downloads the same pinned Qwen base. The Mac path still needs a real run on your teammate's Mac; if a package install or MPS operation fails, run the website on the Windows laptop and open it from the Mac browser while the team resolves that platform issue.
+
+## Open on the phone or another computer
+
+The server prints `http://localhost:8000` for the computer running it. A second device needs the **server computer's Wi-Fi IP address**, not its own. Both devices must be on a network that allows them to reach each other.
+
+- Windows server: run `ipconfig` and find **Wi-Fi → IPv4 Address**.
+- Mac server: run `ipconfig getifaddr en0` in Terminal. If that is blank, check the active network interface in System Settings.
+- On the phone, open `http://SERVER-IP:8000`, replacing `SERVER-IP` with that address. If direct camera capture is unavailable over local HTTP, use **Choose a photo**. A public deployment should use HTTPS.
+
+Open `http://localhost:8000/api/health` on the server computer. For the full local pipeline, `ocr_ready`, `llm_ready`, and `renderer_ready` should all be `true`. These checks confirm files and executables; the first real photo and LLM request also test their runtimes.
+
+## Folder map and team handoff
+
+| Path | Change it when… |
+| --- | --- |
+| `app/static/` | You redesign the phone and laptop website. No frontend build step is needed. |
+| `app/app.py` | You change uploads, jobs, review, API routes, or model orchestration. |
+| `app/ocr_infer.py` and `app/ocr_mapping.py` | You change model selection, PaddleOCR inference, or its output mapping. |
+| `app/preprocessing/` and `app/prepare_infer.py` | You change photo preparation and decision logs. The individual operations came from the team's `pipeline.ipynb`; this repository adds the automatic sequence that gates and combines them. The notebook is not needed to run the application. |
+| `models/ocr/baseline_rec/` | The official, untuned PP-OCRv5 mobile recognizer for V1. |
+| `models/ocr/recognizer/` | Your teammate exports a newer tuned recognizer. Keep `inference.json`, `inference.pdiparams`, and `inference.yml` together. |
+| `models/ocr/augmented_rec/` | Put the future V3 exported recognizer here. The menu enables it only when all three inference files are present. |
+| `models/ocr/detector/` | You intentionally replace the official untuned mobile detector. |
+| `app/llm_infer.py` and `models/llm/adapter/` | You replace the LoRA model. Keep its prompt and JSON schema aligned with training. |
+| `renderer/` | You change the actual PowerPoint slide design or evidence checks. |
+| `requirements/`, `package.json`, `package-lock.json` | You change runtime dependencies. |
+| `scripts/` | You change setup, base-model download, or startup behavior. |
+
+The current LoRA adapter expects the pinned **Qwen3-1.7B** base and produces JSON with `title`, `summary`, `key_points`, `example`, `visual`, and `uncertain_ocr_terms`. The renderer supports `none`, `process`, `comparison_table`, `formula`, `line_chart`, and `bar_chart`. Replacing the adapter with another training run can require updating the prompt and checking every renderer layout. The app never silently treats the demo planner as model output.
+
+To try a newly exported V2 recognizer, stop the server, replace the three files in `models/ocr/recognizer`, restart, then choose **Change model or preparation** on an existing draft or upload new photos. For V3, create `models/ocr/augmented_rec` and put its exported `inference.json`, `inference.pdiparams`, and `inference.yml` there, then restart. A training checkpoint (`.pdparams`) is not an inference export (`.pdiparams`). Rerunning OCR replaces that draft's old text and invalidates its old slide plan. Keep a backup of a working model before replacing team files.
+
+For a fair model comparison, prepare the **same photos in the same mode**, run V1, record the result, then run V2. Switching versions replaces the draft's OCR text. The old `Code/evaluation` baseline measured **server** models and is not a score for the mobile V1 menu option. Report accuracy only against human-checked labels on held-out photos; high OCR confidence is not proof that a word is correct.
+
+For other model locations or Python environments, set `BOARD2SLIDES_OCR_PYTHON`, `BOARD2SLIDES_OCR_DET_DIR`, `BOARD2SLIDES_OCR_REC_DIR`, `BOARD2SLIDES_OCR_DEVICE`, `BOARD2SLIDES_LLM_PYTHON`, `BOARD2SLIDES_LLM_BASE`, `BOARD2SLIDES_LLM_ADAPTER`, or `BOARD2SLIDES_LLM_DEVICE` before starting. OCR defaults to CPU. LLM device `auto` chooses CUDA, then Apple MPS, then CPU.
+
+## Deploying later
+
+This is a **single-server prototype**. It currently stores jobs as JSON files, uses an in-process revision lock, and has no accounts, retention policy, or storage quota. Run one web worker. Before public class use, add authentication, storage limits and cleanup, a shared database for multiple workers, HTTPS, and model service monitoring.
+
+At packaging time, `npm audit --omit=dev` reports two high-severity advisories in PptxGenJS's `image-size` dependency. The current renderer does not embed uploaded photos in slides, but review this dependency before a public deployment or adding image-based slide layouts.
+
+The application code is contained here and can be containerized. The 4.1 GB Qwen base should be downloaded or mounted on the deployment host rather than committed to Git. A production GPU deployment can run OCR and LLM as persistent workers to avoid loading models for each request. The current repo is prepared for that separation through the `ocr_infer.py` and `llm_infer.py` JSON interfaces; a cloud model deployment has **not** yet been verified.
+
+## What has been checked
+
+On the Windows development machine, **this standalone folder** passed: independent setup; the original single-photo route; two-photo upload, preparation, model selection, box-linked edits, and one Qwen-to-PowerPoint flow; explanation and bar-chart cases; and HTTP/browser checks at desktop and phone widths. On the two supplied fat/solubility crops, V1 read the first line better and V2 read the second better. This is a two-photo demonstration, **not an accuracy estimate**. The automatic sequence skips perspective and rotation on these one-line crops because there is insufficient evidence, and also skips lighting because a narrow crop is too small to judge it safely. The individual lighting mode remains available for controlled comparison; it did not improve OCR on these crops. The current LLM made a valid deck but repeated one explanation in its plan because the source has only two short lines. Review and edit that plan, or add more lesson context; further LLM tuning may be needed for consistently strong multi-photo teaching content. macOS still needs a real run on a teammate's machine. Project validation scripts and temporary results are kept **outside this clean application folder**.
+
+Official model sources: [PP-OCRv5 mobile detector](https://huggingface.co/PaddlePaddle/PP-OCRv5_mobile_det), [PP-OCRv5 mobile recognizer](https://huggingface.co/PaddlePaddle/PP-OCRv5_mobile_rec), [Qwen3-1.7B](https://huggingface.co/Qwen/Qwen3-1.7B). Verify the licenses when publishing your team's repository.

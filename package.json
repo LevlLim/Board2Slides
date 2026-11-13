@@ -1,0 +1,12 @@
+{
+  "name": "board2slides-app",
+  "version": "1.0.0",
+  "description": "Editable PowerPoint renderer for Board2Slides",
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "dependencies": {
+    "pptxgenjs": "4.0.1"
+  }
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-label="Sample classroom board about mitosis">
+  <rect width="1000" height="700" fill="#d8c9a8"/>
+  <rect x="27" y="27" width="946" height="646" rx="12" fill="#254d4d" stroke="#f3e8c9" stroke-width="14"/>
+  <g fill="#f3f4df" font-family="Arial, sans-serif">
+    <text x="86" y="112" font-size="49" font-weight="700">Cell division: mitosis</text>
+    <path d="M84 131H596" stroke="#f3f4df" stroke-width="3" opacity=".7"/>
+    <text x="92" y="214" font-size="34">Interphase: DNA is copied</text>
+    <text x="92" y="294" font-size="34">Metaphase: chromosomes align at the centre</text>
+    <text x="92" y="374" font-size="34">Anaphase: chromosomes move to opposite poles</text>
+    <text x="92" y="454" font-size="34">Cytokinesis: one cell divides into two daughter cells</text>
+  </g>
+  <g stroke="#d3e9d9" stroke-width="6" fill="none" opacity=".82">
+    <circle cx="800" cy="104" r="43"/><path d="M780 104h40M800 84v40"/>
+    <path d="M108 534c138 18 237 19 360-3M110 552c163 20 277 20 426-8"/>
+  </g>
+  <rect x="53" y="626" width="894" height="13" rx="6" fill="#a88864"/>
+  <rect x="734" y="610" width="102" height="21" rx="8" fill="#f6f5e8"/>
+</svg>

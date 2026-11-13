@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123f4a">
+  <meta name="description" content="Turn a classroom board photo into an editable study deck.">
+  <title>Board2Slides · Photo to study deck</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="Board2Slides home">
+        <span class="brand-mark" aria-hidden="true">B<span>2</span></span>
+        <span>Board2Slides</span>
+      </a>
+      <span class="topbar-note">Classroom notes, made usable.</span>
+      <span class="demo-pill"><span class="demo-dot"></span> Prototype</span>
+    </header>
+
+    <main>
+      <div class="intro">
+        <div>
+          <p class="eyebrow">WHITEBOARD TO STUDY DECK</p>
+          <h1 id="page-title">From board photo<br>to <em>study slides.</em></h1>
+          <p class="intro-copy">Capture the board, check the text, shape the lesson, and take an editable PowerPoint with you.</p>
+        </div>
+        <div class="intro-number" aria-hidden="true"><span>01</span><i></i><span>05</span></div>
+      </div>
+
+      <nav class="steps" aria-label="Workflow progress">
+        <div class="step active" data-step="upload"><span>01</span> Capture</div>
+        <div class="step" data-step="prepare"><span>02</span> Prepare</div>
+        <div class="step" data-step="review"><span>03</span> Check text</div>
+        <div class="step" data-step="plan"><span>04</span> Review slides</div>
+        <div class="step" data-step="export"><span>05</span> Download</div>
+      </nav>
+
+      <div class="notice" role="note">
+        <span class="notice-icon" aria-hidden="true">i</span>
+        <p><strong>Working prototype.</strong> Uploaded photos are read by PaddleOCR when its models are installed. Check and correct the text before using the adaptive LLM or demo planner.</p>
+      </div>
+
+      <div id="workspace-bar" class="workspace-bar" hidden>
+        <div><strong>Current draft</strong><span id="save-state">Saved on this laptop server</span></div>
+        <div class="workspace-actions">
+          <button id="refresh-job" class="text-button" type="button">Refresh from server</button>
+          <button id="share-toggle" class="button secondary" type="button" aria-expanded="false" aria-controls="share-panel">Share this draft</button>
+        </div>
+      </div>
+      <div id="share-panel" class="share-panel" hidden>
+        <div class="share-copy">
+          <p class="section-kicker">CONTINUE ON ANOTHER DEVICE</p>
+          <h3>One draft, two screens.</h3>
+          <p>Open this link on your laptop or phone. Save edits on one device, then use <strong>Refresh from server</strong> on the other.</p>
+          <div class="share-link-row">
+            <input id="share-url" type="text" readonly aria-label="Link to this draft">
+            <button id="copy-share" class="button primary" type="button">Copy link</button>
+          </div>
+          <p id="share-network-note" class="share-note"></p>
+          <p class="share-note">Anyone who has this link and can reach this server can view and edit the draft. Share it only with people you trust.</p>
+        </div>
+        <div class="share-qr-wrap"><img id="share-qr" alt="QR code for this draft"><span>Scan to open this draft</span></div>
+      </div>
+
+      <section id="step-upload" class="view" aria-labelledby="upload-title">
+        <div class="upload-grid">
+          <div class="upload-copy">
+            <p class="section-kicker">START HERE</p>
+            <h2 id="upload-title">Bring the board<br>into focus.</h2>
+            <p>Take a fresh photo in class or choose one from your phone. A clear, straight image makes text easier to review.</p>
+            <ul class="photo-tips">
+              <li><span>01</span> Fit the whole board in frame.</li>
+              <li><span>02</span> Avoid glare and hands over writing.</li>
+              <li><span>03</span> Check small text before continuing.</li>
+            </ul>
+          </div>
+          <div class="upload-panel">
+            <div class="upload-illustration" aria-hidden="true">
+              <div class="mock-board">
+                <span class="board-line long"></span><span class="board-line medium"></span>
+                <span class="board-line short"></span><span class="board-line medium"></span>
+              </div>
+              <div class="camera-bubble">◎</div>
+            </div>
+            <h3>One lesson, up to four photos</h3>
+            <p>JPG, PNG or WebP · Up to 15 MB each · Use a new draft for another topic</p>
+            <div class="upload-actions">
+              <button id="camera-button" class="button primary" type="button">Take a photo <span aria-hidden="true">↗</span></button>
+              <button id="file-button" class="button secondary" type="button">Choose photos</button>
+            </div>
+            <input id="camera-input" class="visually-hidden" type="file" accept="image/*" capture="environment">
+            <input id="file-input" class="visually-hidden" type="file" accept="image/jpeg,image/png,image/webp" multiple>
+            <div id="selected-photos" class="selected-photos" aria-live="polite"></div>
+            <button id="start-upload" class="button primary upload-continue" type="button" hidden>Continue with these photos →</button>
+            <p id="upload-status" class="upload-status" role="status" hidden>Saving your photos…</p>
+            <div class="sample-separator"><span>or explore first</span></div>
+            <button id="sample-button" class="sample-button" type="button">Try the sample lesson <span aria-hidden="true">→</span></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="step-prepare" class="view" aria-labelledby="prepare-title" hidden>
+        <div class="section-heading">
+          <div><p class="section-kicker">STEP 02 · PREPARE PHOTOS</p><h2 id="prepare-title">See what the model will read.</h2></div>
+          <p>Automatic preparation checks each photo separately. You can also compare individual corrections.</p>
+        </div>
+        <div id="prepare-photo-tabs" class="photo-tabs" aria-label="Photos in this lesson"></div>
+        <div class="prepare-grid">
+          <div class="comparison-card">
+            <div class="comparison-images">
+              <figure><figcaption>Original</figcaption><div><img id="prepare-original" alt="Original uploaded photo"></div></figure>
+              <figure><figcaption>Prepared for OCR</figcaption><div><img id="prepare-processed" alt="Photo prepared for OCR"></div></figure>
+            </div>
+            <div id="prepare-decision" class="decision-note">Choose a preparation mode, then prepare the photos.</div>
+          </div>
+          <div class="settings-card">
+            <p class="section-kicker">PHOTO PREPARATION</p>
+            <h3>Choose how to read them</h3>
+            <label class="field"><span>Photo preparation</span>
+              <select id="prepare-mode">
+                <optgroup label="Recommended for normal use">
+                  <option value="auto" selected>Automatic preparation</option>
+                  <option value="original">Use original upright photo</option>
+                </optgroup>
+                <optgroup label="Compare individual steps">
+                  <option value="baseline">Crop around detected writing</option>
+                  <option value="rotation">Try rotation correction</option>
+                  <option value="lighting">Try lighting correction</option>
+                  <option value="perspective">Try perspective correction</option>
+                </optgroup>
+              </select>
+            </label>
+            <p class="settings-note">Automatic preparation checks perspective, rotation and lighting for each photo, and crops around detected writing. Compare individual steps for the class demo. Always inspect the result; blemish removal is not enabled.</p>
+            <button id="prepare-button" class="button secondary" type="button">Prepare photos</button>
+            <div class="settings-divider"></div>
+            <label class="field"><span>OCR recognizer version</span><select id="ocr-model"></select></label>
+            <p class="settings-note">Every option uses the same official mobile detector. Model choice is saved with this draft.</p>
+            <button id="run-ocr-button" class="button primary" type="button" disabled>Run OCR on all photos →</button>
+            <button id="skip-ocr-button" class="text-button manual-entry" type="button" disabled>Enter board text manually instead</button>
+          </div>
+        </div>
+        <div class="view-actions"><button id="prepare-back" class="button secondary" type="button">← Back to capture</button></div>
+      </section>
+
+      <section id="step-review" class="view" aria-labelledby="review-title" hidden>
+        <div class="section-heading">
+          <div><p class="section-kicker">STEP 03 · CHECK TEXT</p><h2 id="review-title">Match every line to the photo.</h2></div>
+          <p>Check each photo. Your reviewed lines become the source for one slide deck.</p>
+        </div>
+        <div id="review-photo-tabs" class="photo-tabs" aria-label="Choose a photo to review"></div>
+        <div class="review-grid">
+          <div class="photo-card">
+            <div class="card-topline"><span>YOUR BOARD</span><span id="photo-tag">Uploaded photo</span></div>
+            <div class="photo-frame"><div class="board-image-stage"><img id="board-preview" alt="Prepared board photo being reviewed"><svg id="ocr-boxes" aria-label="Detected text regions" role="group"></svg></div></div>
+            <p class="card-caption">Select a coloured box to find its matching numbered text row. Boxes show what the detector found; check for missing writing too.</p>
+          </div>
+          <div class="editor-card">
+            <div class="card-topline"><span>BOARD TEXT</span><span id="ocr-status" class="placeholder-tag">Checking OCR</span></div>
+            <h3>What does the board say?</h3>
+            <p id="ocr-help" class="editor-help">Check each detected line against the highlighted photo. Correct mistakes before creating slides.</p>
+            <div id="ocr-lines" class="ocr-lines"></div>
+            <div class="editor-inline-actions">
+              <button id="add-line" class="text-button" type="button">+ Add another line</button>
+              <button id="save-ocr" class="text-button" type="button">Save board text</button>
+              <button id="ocr-run" class="text-button" type="button" hidden>Change model or preparation</button>
+            </div>
+          </div>
+        </div>
+        <div class="view-actions">
+          <button id="review-back" class="button secondary" type="button">← Photo preparation</button>
+          <label class="planner-choice">Slide planner
+            <select id="planner-mode"><option value="llm">Adaptive LLM (recommended)</option><option value="demo">Demo planner (text only)</option></select>
+          </label>
+          <button id="review-next" class="button primary" type="button">Create draft slides <span aria-hidden="true">→</span></button>
+        </div>
+      </section>
+
+      <section id="step-plan" class="view" aria-labelledby="plan-title" hidden>
+        <div class="section-heading">
+          <div><p class="section-kicker">STEP 04 · REVIEW SLIDES</p><h2 id="plan-title">Shape the final story.</h2></div>
+          <p>Check every statement before downloading. These are draft notes from your reviewed text.</p>
+        </div>
+        <div class="plan-grid">
+          <form id="plan-form" class="editor-card">
+            <div class="card-topline"><span>EDITABLE SLIDE CONTENT</span><span id="planner-tag" class="placeholder-tag">Adaptive LLM</span></div>
+            <label class="field"><span>Deck title</span><input id="plan-title-input" maxlength="90" required></label>
+            <label class="field"><span>Opening summary</span><textarea id="plan-summary" maxlength="300" rows="3" required></textarea></label>
+            <div class="field-head"><span>Key points</span><small>2 to 4 points</small></div>
+            <div id="point-list" class="point-list"></div>
+            <div class="field-head field-head-spaced"><span>Review activity</span></div>
+            <label class="field"><span>Title</span><input id="example-title" maxlength="70" required></label>
+            <label class="field"><span>Prompt</span><textarea id="example-description" maxlength="280" rows="3" required></textarea></label>
+            <div class="field-head field-head-spaced"><span>Visual slide</span></div>
+            <label class="field"><span>Layout</span><select id="visual-choice"><option value="model">Use selected visual</option><option value="none">Explanation only</option></select></label>
+            <p id="visual-reason" class="editor-help"></p>
+            <div id="visual-data" class="visual-data"></div>
+            <p id="plan-notes" class="editor-help" hidden></p>
+            <p class="card-caption">Charts and other visuals are made only when the reviewed board text supports them. Check the values before exporting.</p>
+          </form>
+          <div class="preview-column">
+            <div class="slide-preview">
+              <div class="preview-topline"><span>CONTENT PREVIEW</span><span>01 / 04</span></div>
+              <div class="preview-slide">
+                <div class="preview-accent"></div>
+                <p>STUDY DECK</p>
+                <h3 id="preview-title">Your board topic</h3>
+                <div class="preview-rule"></div>
+                <p id="preview-summary">Your reviewed board notes will appear here.</p>
+                <span>Board2Slides</span>
+              </div>
+              <p class="card-caption">Preview shows the content; the downloaded PowerPoint uses the project renderer.</p>
+            </div>
+            <div class="review-reminder"><span aria-hidden="true">✳</span><p><strong>Human check matters.</strong> The current models can miss context or add incorrect details. Compare this draft with the board before sharing.</p></div>
+          </div>
+        </div>
+        <div class="view-actions">
+          <button id="plan-back" class="button secondary" type="button">← Edit board text</button>
+          <button id="save-plan" class="button secondary" type="button">Save draft</button>
+          <button id="export-button" class="button primary" type="button">Build PowerPoint <span aria-hidden="true">→</span></button>
+        </div>
+      </section>
+
+      <section id="step-export" class="view" aria-labelledby="export-title" hidden>
+        <div class="export-card">
+          <div class="success-icon" aria-hidden="true">✓</div>
+          <p class="section-kicker">STEP 05 · READY TO STUDY</p>
+          <h2 id="export-title">Your slides are ready.</h2>
+          <p>You can edit the downloaded PowerPoint. Review the deck once more before sharing it with classmates.</p>
+          <div class="export-actions">
+            <a id="download-link" class="button primary" href="#" download>Download PowerPoint <span aria-hidden="true">↓</span></a>
+            <button id="export-back" class="button secondary" type="button">Edit slides</button>
+          </div>
+          <div class="export-footnote">This photo and draft are saved on the laptop server. Keep the share link if you want to reopen them later.</div>
+        </div>
+        <button id="start-over" class="text-button start-over" type="button">Start a new board →</button>
+      </section>
+    </main>
+
+    <footer class="footer"><span>Board2Slides · AAI3001 project prototype</span><span>Capture → review → study</span></footer>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

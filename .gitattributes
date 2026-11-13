@@ -1,0 +1,6 @@
+* text=auto
+*.pdiparams binary
+*.safetensors binary
+*.png binary
+*.jpg binary
+*.webp binary
