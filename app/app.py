@@ -100,6 +100,18 @@ class RevisionRequest(BaseModel):
 
 class PlanRequest(RevisionRequest):
     mode: str = "llm"
+    regenerate: bool = False
+
+
+class PlannerRegion(BaseModel):
+    id: str = Field(min_length=1, max_length=20)
+    text: str = Field(min_length=1, max_length=350)
+    photo_id: str | None = None
+    source_region_ids: list[str] = Field(min_length=1, max_length=MAX_REGIONS)
+
+
+class PlannerInputUpdate(RevisionRequest):
+    regions: list[PlannerRegion] = Field(min_length=1, max_length=MAX_REGIONS)
 
 
 class PrepareRequest(RevisionRequest):
@@ -266,7 +278,17 @@ def omit_unsupported_visual(plan: dict, ocr: dict) -> tuple[dict, list[str]]:
 
 
 def planner_ocr(job: dict) -> dict:
-    return assemble_ocr(job["ocr"], job.get("region_evidence", []), job.get("photos", []))
+    return job.get("reviewed_planner_input") or assemble_ocr(
+        job["ocr"], job.get("region_evidence", []), job.get("photos", []))
+
+
+def plan_quality_notes(plan: dict, source_ocr: dict, photos: list[dict]) -> list[str]:
+    explanations = [" ".join(point["explanation"].lower().split()) for point in plan["key_points"]]
+    notes = []
+    if len(explanations) != len(set(explanations)):
+        notes.append("The draft repeats a key-point explanation. Edit it or regenerate the draft.")
+    notes.extend(photo_coverage_notes(plan, source_ocr, photos))
+    return notes
 
 
 def photo_coverage_notes(plan: dict, source_ocr: dict, photos: list[dict]) -> list[str]:
@@ -605,6 +627,7 @@ def prepare_images(job_id: str, payload: PrepareRequest):
             photo["ocr_message"] = ""
             photo["line_count"] = 0
         job["ocr"] = {"regions": []}
+        job["reviewed_planner_input"] = None
         job["region_evidence"] = []
         job["ocr_status"] = "pending"
         job["ocr_message"] = "Photos prepared. Choose a model and run OCR."
@@ -652,6 +675,7 @@ def update_ocr(job_id: str, payload: OcrUpdate):
             job["region_evidence"] = []
         job["ocr_status"] = "reviewed"
         job["ocr_message"] = "Board text was corrected and saved."
+        job["reviewed_planner_input"] = None
         job["plan"] = None
         job["plan_notes"] = []
         job["planner_mode"] = None
@@ -706,6 +730,7 @@ def rerun_ocr(job_id: str, payload: OcrRunRequest):
             job = read_job(job_id)
             check_revision(job, payload.revision)
             job["ocr"] = {"regions": all_regions}
+            job["reviewed_planner_input"] = None
             job["region_evidence"] = all_evidence
             job["selected_model"] = model
             for photo, (status, count, note) in zip(job["photos"], outcomes):
@@ -740,6 +765,7 @@ def rerun_ocr(job_id: str, payload: OcrRunRequest):
         job = read_job(job_id)
         check_revision(job, payload.revision)
         job["ocr"] = {"regions": regions}
+        job["reviewed_planner_input"] = None
         job["selected_model"] = model
         job["region_evidence"] = evidence
         job["ocr_status"] = "auto" if regions else "empty"
@@ -754,10 +780,53 @@ def rerun_ocr(job_id: str, payload: OcrRunRequest):
     return response_job(job)
 
 
+@app.put("/api/jobs/{job_id}/planner-input")
+def update_planner_input(job_id: str, payload: PlannerInputUpdate):
+    with JOB_LOCK:
+        job = read_job(job_id)
+        check_revision(job, payload.revision)
+        source = {region["id"]: region for region in job["ocr"]["regions"]}
+        if not source:
+            raise HTTPException(400, "Save the board text before editing joined text.")
+        seen: list[str] = []
+        groups = []
+        photo_order = {photo["id"]: index for index, photo in enumerate(job.get("photos", []))}
+        last_photo = -1
+        for region in payload.regions:
+            ids = region.source_region_ids
+            if region.id != ids[0] or any(rid not in source for rid in ids):
+                raise HTTPException(400, "Each joined line must use its first real board box as its ID.")
+            if any(source[rid].get("photo_id") != region.photo_id for rid in ids):
+                raise HTTPException(400, "Joined lines cannot combine different photos.")
+            if photo_order:
+                index = photo_order.get(region.photo_id, -1)
+                if index < last_photo or index < 0:
+                    raise HTTPException(400, "Keep the joined lines in photo order.")
+                last_photo = index
+            seen.extend(ids)
+            groups.append({"id": region.id, "text": region.text.strip(),
+                           "photo_id": region.photo_id, "source_region_ids": ids})
+        if len(seen) != len(source) or set(seen) != set(source):
+            raise HTTPException(400, "Every saved board box must appear exactly once in the joined text.")
+        if any(not region["text"] for region in groups):
+            raise HTTPException(400, "Joined lines cannot be empty.")
+        job["reviewed_planner_input"] = {"regions": groups}
+        job["plan"] = None
+        job["plan_notes"] = []
+        job["plan_system_notes"] = []
+        job["planner_mode"] = None
+        job["download_url"] = None
+        job["revision"] += 1
+        save_job(job_dir(job_id), job)
+    return response_job(job)
+
+
 @app.post("/api/jobs/{job_id}/plan")
 def create_plan(job_id: str, payload: PlanRequest):
     if payload.mode not in {"llm", "demo"}:
         raise HTTPException(400, "Choose the LLM or demo planner.")
+    if payload.regenerate and payload.mode != "llm":
+        raise HTTPException(400, "Only an LLM draft can be regenerated.")
     with JOB_LOCK:
         job = read_job(job_id)
         check_revision(job, payload.revision)
@@ -770,13 +839,25 @@ def create_plan(job_id: str, payload: PlanRequest):
             if missing:
                 raise HTTPException(400, "Add at least one reviewed line for each photo. Missing: " + ", ".join(missing))
         ocr = planner_ocr(job) if payload.mode == "llm" else job["ocr"]
+        if payload.regenerate and (not job.get("plan") or job.get("planner_mode") != "llm"):
+            raise HTTPException(400, "Create an LLM draft before regenerating it.")
     if payload.mode == "llm":
         if not llm_ready():
             raise HTTPException(503, "The saved LLM is unavailable here. Install the model environment or select Demo planner.")
         folder = job_dir(job_id)
         input_file = folder / f"llm-input-{uuid4().hex}.json"
         output_file = folder / f"llm-output-{uuid4().hex}.json"
-        input_file.write_text(json.dumps(ocr, ensure_ascii=False), encoding="utf-8")
+        llm_input = dict(ocr)
+        if payload.regenerate:
+            feedback = job.get("plan_notes", [])
+            old_points = [point["heading"] + ": " + point["explanation"]
+                          for point in job["plan"].get("key_points", [])]
+            llm_input["revision_feedback"] = (
+                "Write a new draft with distinct key points. Cover every photo and keep claims "
+                "grounded in the reviewed board text. Avoid repeating these previous points: "
+                + " | ".join(old_points)[:350] + ". Review flags: "
+                + " ".join(feedback)[:250])
+        input_file.write_text(json.dumps(llm_input, ensure_ascii=False), encoding="utf-8")
         try:
             result = subprocess.run([str(llm_python()), str(LLM_SCRIPT), str(input_file), str(output_file)],
                                     cwd=PROJECT, capture_output=True, text=True, timeout=240, check=False)
@@ -827,10 +908,8 @@ def create_plan(job_id: str, payload: PlanRequest):
                     notes.extend(visual_notes)
         finally:
             preview_file.unlink(missing_ok=True)
-        explanations = [" ".join(point["explanation"].lower().split()) for point in plan["key_points"]]
-        if len(explanations) != len(set(explanations)):
-            notes.append("The model repeated a key-point explanation. Edit the slide draft before sharing it.")
-        notes.extend(photo_coverage_notes(plan, ocr, job.get("photos", [])))
+        system_notes = notes[:]
+        notes.extend(plan_quality_notes(plan, ocr, job.get("photos", [])))
         if len(regions) <= 3 and sum(len(region["text"]) for region in regions) < 120:
             notes.append("These board notes are short. Check that the slides add useful, supported explanations.")
     else:
@@ -860,6 +939,7 @@ def create_plan(job_id: str, payload: PlanRequest):
         check_revision(job, payload.revision)
         job["plan"] = plan
         job["plan_notes"] = notes if payload.mode == "llm" else []
+        job["plan_system_notes"] = system_notes if payload.mode == "llm" else []
         job["planner_mode"] = payload.mode
         job["download_url"] = None
         job["revision"] = payload.revision + 1
@@ -876,6 +956,9 @@ def update_plan(job_id: str, payload: PlanUpdate):
             raise HTTPException(400, "Review the board text first.")
         source_ocr = planner_ocr(job) if job.get("planner_mode") == "llm" else job["ocr"]
         job["plan"] = validate_plan(payload.model_dump(exclude={"revision"}), source_ocr)
+        job["plan_notes"] = (job.get("plan_system_notes", []) +
+                             plan_quality_notes(job["plan"], source_ocr, job.get("photos", []))
+                             if job.get("planner_mode") == "llm" else [])
         job["download_url"] = None
         job["revision"] = payload.revision + 1
         save_job(job_dir(job_id), job)

@@ -96,6 +96,9 @@ def main() -> None:
     ocr = {"regions": [{"id": row["id"], "text": row["text"]}
                        for row in incoming["regions"]]}
     prompt = PROMPT + json.dumps(ocr, ensure_ascii=False, separators=(",", ":"))
+    feedback = incoming.get("revision_feedback")
+    if isinstance(feedback, str) and feedback.strip():
+        prompt += " REVISION GUIDANCE: " + feedback.strip()[:600]
     tokenizer = AutoTokenizer.from_pretrained(base, local_files_only=True)
     dtype = torch.bfloat16 if device == "cuda" else torch.float16 if device == "mps" else torch.float32
     model = AutoModelForCausalLM.from_pretrained(

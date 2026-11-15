@@ -172,8 +172,9 @@
         </div>
         <section class="planner-source" aria-labelledby="planner-source-title">
           <div><p class="section-kicker">ADAPTIVE LLM INPUT</p><h3 id="planner-source-title">How the board text is joined</h3>
-            <p>Nearby boxes are put in reading order and combined into sentences for the LLM. Your coloured boxes stay separate above. Save edits to update this preview.</p></div>
-          <ol id="planner-lines"></ol>
+            <p>Edit the text and reading order the LLM will receive. Split or merge groups when the automatic joining is wrong. The coloured OCR boxes stay above as your source. Saving a new OCR correction resets these groups.</p>
+            <button id="save-planner-input" class="button secondary" type="button">Save joined text</button></div>
+          <div id="planner-lines" class="planner-lines"></div>
         </section>
         <div class="view-actions">
           <button id="review-back" class="button secondary" type="button">← Photo preparation</button>
@@ -203,10 +204,13 @@
             <label class="field"><span>Layout</span><select id="visual-choice"><option value="model">Use selected visual</option><option value="none">Explanation only</option></select></label>
             <p id="visual-reason" class="editor-help"></p>
             <div id="visual-data" class="visual-data"></div>
-            <p id="plan-notes" class="editor-help" hidden></p>
             <p class="card-caption">Charts and other visuals are made only when the reviewed board text supports them. Check the values before exporting.</p>
           </form>
           <div class="preview-column">
+            <div id="plan-warning-card" class="plan-warning-card" role="status" hidden>
+              <strong>Check this draft</strong><ul id="plan-notes"></ul>
+              <p>Edit the slide fields, or ask the LLM for another draft. Compare it with every photo before export.</p>
+            </div>
             <div class="slide-preview">
               <div class="preview-topline"><span>CONTENT PREVIEW</span><span>01 / 04</span></div>
               <div class="preview-slide">
@@ -224,6 +228,7 @@
         </div>
         <div class="view-actions">
           <button id="plan-back" class="button secondary" type="button">← Edit board text</button>
+          <button id="regenerate-plan" class="button secondary" type="button" hidden>Regenerate LLM draft</button>
           <button id="save-plan" class="button secondary" type="button">Save draft</button>
           <button id="export-button" class="button primary" type="button">Build PowerPoint <span aria-hidden="true">→</span></button>
         </div>

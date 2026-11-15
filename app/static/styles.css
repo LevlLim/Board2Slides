@@ -146,9 +146,20 @@ h1 em { color: var(--teal); font-weight: 400; }
 .planner-source { display: grid; grid-template-columns: minmax(180px, .75fr) minmax(0, 1.25fr); gap: 24px; margin-top: 22px; padding: 21px 24px; border: 1px solid var(--line); border-radius: 12px; background: #f7faf8; }
 .planner-source h3 { margin: 5px 0 8px; font-size: 21px; letter-spacing: -.03em; }
 .planner-source p:not(.section-kicker) { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.5; }
-.planner-source ol { margin: 0; padding-left: 24px; color: var(--ink); font-size: 13px; line-height: 1.55; }
-.planner-source li { overflow-wrap: anywhere; }
-.planner-source li + li { margin-top: 7px; }
+.planner-source > div:first-child > button { margin-top: 18px; }
+.planner-lines { display: grid; gap: 10px; min-width: 0; }
+.planner-line { padding: 12px; border: 1px solid #d5e3df; border-radius: 9px; background: white; }
+.planner-line-head { display: flex; justify-content: space-between; gap: 8px; margin-bottom: 7px; color: var(--teal); font-size: 11px; font-weight: 800; }
+.planner-line textarea { width: 100%; min-height: 64px; padding: 9px 10px; border: 1px solid #cad8d5; border-radius: 7px; color: var(--ink); font: inherit; font-size: 13px; line-height: 1.45; resize: vertical; }
+.planner-line textarea:focus { border-color: var(--teal); box-shadow: 0 0 0 3px #0c787621; outline: none; }
+.planner-line-actions { display: flex; flex-wrap: wrap; gap: 5px 12px; margin-top: 7px; }
+.planner-line-actions button { padding: 5px 0; border: 0; background: transparent; color: var(--teal); font-size: 11px; font-weight: 750; cursor: pointer; }
+.planner-line-actions button:disabled { color: #9ba9a8; cursor: default; }
+.plan-warning-card { padding: 17px 18px; border: 1px solid #e4c28c; border-left: 5px solid #c98427; border-radius: 9px; background: #fff7e9; color: #624b2a; }
+.plan-warning-card strong { font-size: 14px; }
+.plan-warning-card ul { margin: 9px 0; padding-left: 20px; font-size: 13px; line-height: 1.5; }
+.plan-warning-card li + li { margin-top: 5px; }
+.plan-warning-card p { margin: 0; font-size: 12px; }
 .editor-help { color: var(--muted); font-size: 13px; margin-bottom: 22px; }
 .ocr-lines { display: grid; gap: 10px; margin-bottom: 15px; }
 .editor-inline-actions { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; }
@@ -162,7 +173,7 @@ h1 em { color: var(--teal); font-weight: 400; }
 .ocr-row input { height: 44px; font-size: 13px; }
 .icon-button { flex: 0 0 30px; width: 30px; height: 30px; border: none; border-radius: 5px; background: #f2f5f2; color: #6b7c7c; font-size: 20px; line-height: 1; }
 .icon-button:hover { color: #ae4d45; background: #fbeceb; }
-.view-actions { display: flex; justify-content: space-between; gap: 15px; margin: 24px 0 65px; }
+.view-actions { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 15px; margin: 24px 0 65px; }
 .field { display: block; margin-bottom: 15px; }
 .field span, .field-head > span, .point-item label span { display: block; margin-bottom: 7px; color: #3b5558; font-size: 12px; font-weight: 750; }
 .field input, .field textarea, .point-item input, .point-item textarea { font-size: 13px; }

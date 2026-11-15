@@ -1,5 +1,6 @@
 const state = { job: null, step: "upload", busy: false, dirty: false, originalVisual: null,
-  ocrReady: false, models: [], files: [], activePhotoId: null, draftByPhoto: new Map() };
+  ocrReady: false, models: [], files: [], activePhotoId: null, draftByPhoto: new Map(),
+  plannerDraft: [], plannerDirty: false };
 const stepNames = ["upload", "prepare", "review", "plan", "export"];
 const regionColor = (index) => `hsl(${Math.round(index * 137.508) % 360} 67% 37%)`;
 const el = (id) => document.getElementById(id);
@@ -39,17 +40,34 @@ function showStep(step) {
     marker.classList.toggle("active", name === step);
     marker.classList.toggle("done", index < stepNames.indexOf(step));
   });
+  updateReviewEditLocks();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function setDirty(dirty) {
   state.dirty = dirty;
-  el("save-state").textContent = dirty
+  const anyDirty = dirty || state.plannerDirty;
+  el("save-state").textContent = anyDirty
     ? "Unsaved changes on this device"
     : "Saved on this laptop server";
-  el("refresh-job").textContent = dirty
+  el("refresh-job").textContent = anyDirty
     ? "Discard edits & refresh"
     : "Refresh from server";
+  updateReviewEditLocks();
+}
+
+function setPlannerDirty(dirty) {
+  state.plannerDirty = dirty;
+  setDirty(state.dirty);
+}
+
+function updateReviewEditLocks() {
+  if (state.step !== "review") return;
+  el("ocr-lines").querySelectorAll("input, button").forEach((node) => { node.disabled = state.plannerDirty; });
+  el("add-line").disabled = state.plannerDirty;
+  el("save-ocr").disabled = state.plannerDirty;
+  el("planner-lines").querySelectorAll("textarea, button").forEach((node) => { node.disabled = state.dirty; });
+  el("save-planner-input").disabled = state.dirty;
 }
 
 function updateShare() {
@@ -76,6 +94,10 @@ function setCurrentJob(job) {
     state.activePhotoId = null;
     state.draftByPhoto = new Map();
   }
+  state.plannerDraft = (job.planner_input?.regions || []).map((line) => ({
+    ...line, source_region_ids: [...(line.source_region_ids || [line.id])],
+  }));
+  state.plannerDirty = false;
   localStorage.setItem("board2slides_job", job.id);
   history.replaceState(null, "", "/?job=" + encodeURIComponent(job.id));
   updateShare();
@@ -261,14 +283,65 @@ function renderOcr() {
   el("ocr-lines").replaceChildren(...regions.map((region, i) =>
     makeOcrRow(region, i, evidence.get(region.id)?.confidence)));
   el("ocr-run").hidden = state.job.mode === "sample" || !state.ocrReady;
-  const plannerLines = el("planner-lines");
-  plannerLines.replaceChildren(...(state.job.planner_input?.regions || []).map((line) => {
-    const item = document.createElement("li");
-    const index = state.job.photos?.findIndex((photo) => photo.id === line.photo_id) ?? -1;
-    item.textContent = (index >= 0 ? `Photo ${index + 1}: ` : "") + line.text;
-    return item;
-  }));
+  renderPlannerInput();
   renderBoxes();
+}
+
+function renderPlannerInput() {
+  const list = el("planner-lines");
+  list.replaceChildren(...state.plannerDraft.map((line, index) => {
+    const card = document.createElement("div");
+    card.className = "planner-line";
+    const head = document.createElement("div");
+    head.className = "planner-line-head";
+    const photoIndex = state.job.photos?.findIndex((photo) => photo.id === line.photo_id) ?? -1;
+    const label = document.createElement("span");
+    label.textContent = `Group ${index + 1}${photoIndex >= 0 ? ` · Photo ${photoIndex + 1}` : ""}`;
+    const source = document.createElement("span");
+    source.textContent = `${line.source_region_ids.length} source box${line.source_region_ids.length === 1 ? "" : "es"}`;
+    head.append(label, source);
+    const textarea = document.createElement("textarea");
+    textarea.maxLength = 350;
+    textarea.value = line.text;
+    textarea.setAttribute("aria-label", `Joined text group ${index + 1}`);
+    textarea.addEventListener("input", () => { line.text = textarea.value; setPlannerDirty(true); });
+    const actions = document.createElement("div");
+    actions.className = "planner-line-actions";
+    const action = (title, enabled, callback) => {
+      const button = document.createElement("button");
+      button.type = "button"; button.textContent = title; button.disabled = !enabled;
+      button.addEventListener("click", callback); actions.append(button);
+    };
+    const previous = state.plannerDraft[index - 1];
+    const next = state.plannerDraft[index + 1];
+    action("Split into boxes", line.source_region_ids.length > 1, () => {
+      const originals = line.source_region_ids.map((id) => state.job.ocr.regions.find((row) => row.id === id));
+      if (line.text.trim() !== originals.map((row) => row.text).join(" ").trim() &&
+          !window.confirm("Splitting restores the saved text in each source box. Continue?")) return;
+      state.plannerDraft.splice(index, 1, ...originals.map((row) => ({
+        id: row.id, text: row.text, photo_id: row.photo_id || null, source_region_ids: [row.id],
+      })));
+      setPlannerDirty(true); renderPlannerInput();
+    });
+    action("Merge with previous", Boolean(previous && previous.photo_id === line.photo_id &&
+      previous.text.length + line.text.length + 1 <= 350), () => {
+      previous.text = `${previous.text.trim()} ${line.text.trim()}`.trim();
+      previous.source_region_ids.push(...line.source_region_ids);
+      state.plannerDraft.splice(index, 1);
+      setPlannerDirty(true); renderPlannerInput();
+    });
+    action("Move up", Boolean(previous && previous.photo_id === line.photo_id), () => {
+      [state.plannerDraft[index - 1], state.plannerDraft[index]] = [line, previous];
+      setPlannerDirty(true); renderPlannerInput();
+    });
+    action("Move down", Boolean(next && next.photo_id === line.photo_id), () => {
+      [state.plannerDraft[index + 1], state.plannerDraft[index]] = [line, next];
+      setPlannerDirty(true); renderPlannerInput();
+    });
+    card.append(head, textarea, actions);
+    return card;
+  }));
+  updateReviewEditLocks();
 }
 
 function manualId(photoId) {
@@ -387,6 +460,7 @@ async function begin(sample) {
 
 async function rerunOcr() {
   if (!state.job || state.busy) return;
+  if (state.plannerDirty) { notify("Save the joined text before changing the OCR model.", true); return; }
   if (state.job.mode === "photos") {
     if (state.dirty) { notify("Save your text edits before changing the OCR model.", true); return; }
     renderPrepare(); showStep("prepare"); return;
@@ -434,6 +508,32 @@ async function persistOcr() {
   setCurrentJob(job);
 }
 
+async function persistPlannerInput() {
+  const regions = state.plannerDraft.map((line) => ({
+    id: line.source_region_ids[0], text: line.text.trim(),
+    photo_id: line.photo_id || null, source_region_ids: line.source_region_ids,
+  }));
+  if (regions.some((line) => !line.text)) throw new Error("Complete every joined text group before saving.");
+  const job = await request("/api/jobs/" + state.job.id + "/planner-input", {
+    method: "PUT", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ revision: state.job.revision, regions }),
+  });
+  setCurrentJob(job);
+}
+
+async function savePlannerInput() {
+  if (!state.job || state.busy) return;
+  if (!state.plannerDirty) { notify("Joined text is already saved."); return; }
+  const button = el("save-planner-input");
+  setBusy(button, true, "Saving…");
+  try {
+    await persistPlannerInput();
+    renderOcr();
+    notify("Joined text saved. The LLM will use this version.");
+  } catch (error) { notify(error.message, true); }
+  finally { setBusy(button, false); }
+}
+
 async function saveBoardText() {
   if (!state.job || state.busy) return;
   if (!state.dirty) { notify("Board text is already saved."); return; }
@@ -466,6 +566,7 @@ async function createDraft() {
   setBusy(button, true, mode === "llm" ? "Running the LLM…" : "Creating demo draft…");
   try {
     if (state.dirty || !state.job.ocr.regions.length) await persistOcr();
+    if (state.plannerDirty) await persistPlannerInput();
     const job = await request("/api/jobs/" + state.job.id + "/plan", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -518,8 +619,12 @@ function renderPlan() {
   state.originalVisual = plan.visual || { type: "none", title: "Explanation only", reason: "No visual selected.", source_region_ids: [], data: {} };
   el("visual-choice").value = state.originalVisual.type === "none" ? "none" : "model";
   el("planner-tag").textContent = state.job.planner_mode === "llm" ? "Qwen + LoRA v3" : "Demo planner";
-  el("plan-notes").textContent = (state.job.plan_notes || []).join(" ");
-  el("plan-notes").hidden = !(state.job.plan_notes || []).length;
+  const notes = state.job.plan_notes || [];
+  el("plan-notes").replaceChildren(...notes.map((note) => {
+    const item = document.createElement("li"); item.textContent = note; return item;
+  }));
+  el("plan-warning-card").hidden = !notes.length;
+  el("regenerate-plan").hidden = state.job.planner_mode !== "llm";
   renderVisual();
   updatePreview();
   setDirty(false);
@@ -564,7 +669,9 @@ function collectPlan() {
     visual: el("visual-choice").value === "model" && state.originalVisual.type !== "none"
       ? state.originalVisual
       : { type: "none", title: "Explanation only", reason: "Selected during human review.",
-          source_region_ids: state.job.ocr.regions.map((region) => region.id), data: {} },
+          source_region_ids: state.job.planner_mode === "llm"
+            ? state.job.planner_input.regions.map((region) => region.id)
+            : state.job.ocr.regions.map((region) => region.id), data: {} },
     uncertain_ocr_terms: state.job.plan.uncertain_ocr_terms || [],
   };
   if (!plan.title || !plan.summary || !plan.example.title || !plan.example.description ||
@@ -591,12 +698,33 @@ async function saveDraft() {
   setBusy(button, true, "Saving…");
   try {
     await persistPlan();
+    renderPlan();
     notify("Slide draft saved. Refresh on the other device to see it.");
   } catch (error) {
     notify(error.message, true);
   } finally {
     setBusy(button, false);
   }
+}
+
+async function regenerateDraft() {
+  if (!state.job || state.busy || state.job.planner_mode !== "llm") return;
+  if (state.dirty) {
+    notify("Save your slide edits before regenerating; regeneration replaces the current draft.", true);
+    return;
+  }
+  if (!window.confirm("Regenerate this LLM draft? The new result will replace your saved slide edits.")) return;
+  const button = el("regenerate-plan");
+  setBusy(button, true, "Regenerating…");
+  try {
+    const job = await request("/api/jobs/" + state.job.id + "/plan", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ revision: state.job.revision, mode: "llm", regenerate: true }),
+    });
+    setCurrentJob(job); renderPlan();
+    notify("New LLM draft ready. Review every slide before export.");
+  } catch (error) { notify(error.message, true); }
+  finally { setBusy(button, false); }
 }
 
 async function exportDeck() {
@@ -625,6 +753,8 @@ async function startOver() {
   state.job = null;
   state.files = [];
   state.draftByPhoto = new Map();
+  state.plannerDraft = [];
+  state.plannerDirty = false;
   renderSelectedFiles();
   localStorage.removeItem("board2slides_job");
   history.replaceState(null, "", "/");
@@ -656,7 +786,7 @@ async function refreshJob() {
   setBusy(button, true, "Refreshing…");
   try {
     const before = state.job.revision;
-    const hadLocalEdits = state.dirty;
+    const hadLocalEdits = state.dirty || state.plannerDirty;
     const job = await request("/api/jobs/" + state.job.id + "?v=" + Date.now());
     showCurrentJob(job);
     notify(hadLocalEdits
@@ -731,9 +861,10 @@ el("add-line").addEventListener("click", () => {
   row.querySelector("input").focus();
 });
 el("save-ocr").addEventListener("click", saveBoardText);
+el("save-planner-input").addEventListener("click", savePlannerInput);
 el("ocr-run").addEventListener("click", rerunOcr);
 el("review-back").addEventListener("click", () => {
-  if (state.dirty) { notify("Save board text before leaving this step.", true); return; }
+  if (state.dirty || state.plannerDirty) { notify("Save board and joined text before leaving this step.", true); return; }
   if (state.job?.mode === "photos") { renderPrepare(); showStep("prepare"); }
   else showStep("upload");
 });
@@ -746,6 +877,7 @@ el("plan-form").addEventListener("input", () => { updatePreview(); setDirty(true
 el("visual-choice").addEventListener("change", () => { renderVisual(); setDirty(true); });
 el("plan-form").addEventListener("submit", (event) => event.preventDefault());
 el("save-plan").addEventListener("click", saveDraft);
+el("regenerate-plan").addEventListener("click", regenerateDraft);
 el("export-button").addEventListener("click", exportDeck);
 el("export-back").addEventListener("click", () => { renderPlan(); showStep("plan"); });
 el("start-over").addEventListener("click", startOver);
@@ -776,7 +908,7 @@ request("/api/health").then((health) => {
   }));
   select.value = state.job?.selected_model || "tuned";
   if (state.job?.mode === "photos" && state.step === "prepare") renderPrepare();
-  if (state.job && state.step === "review" && !state.dirty) renderOcr();
+  if (state.job && state.step === "review" && !state.dirty && !state.plannerDirty) renderOcr();
   if (!health.llm_ready) {
     el("planner-mode").value = "demo";
     el("planner-mode").querySelector('option[value="llm"]').disabled = true;
