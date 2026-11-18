@@ -1,0 +1,15 @@
+{
+ "source": "results_versions_2x2 (experiment versions_2x2, 6 Nov 2026)",
+ "lists": {
+  "train_C1": "e71f5090ad9f494aff634542c6f358fdd7eff24ab55141a6c01eaeb9961f6c1e",
+  "train_P40": "e71f5090ad9f494aff634542c6f358fdd7eff24ab55141a6c01eaeb9961f6c1e",
+  "train_P128": "e71f5090ad9f494aff634542c6f358fdd7eff24ab55141a6c01eaeb9961f6c1e",
+  "train_V2": "66675d06018d4da35853652faf789fc5d1a4b74169d6fb6153c3efaaa918446b",
+  "train_V3": "71114eaa8b64b6b277a7829c1a121fdf99bb85f26a31617a6550a89c2c0a06b7",
+  "val_wb": "041e0bae5e4f18cadcb2c5cce29d9edb93e954845d24f590789dba24b52eacf4",
+  "test_cnn": "1676c84ade145ca89d9c0d7731d8b8943a31a756b660ec99f3027308fafb4eb1",
+  "long_test": "77c9097b4d03316b6f6f7ed0641402c47bd629d3bd4fe5cf637cbaf8fa4d6e81",
+  "val_iam": "5493a662fa1fa30d54587ac5fd1cf789cdafbda59203a3aad93ec3efee26e585",
+  "export_fixture": "97fdd8a7c51dee292f9aea0acdb408557159cb3dadc0cbe3ccac04df23d15669"
+ }
+}

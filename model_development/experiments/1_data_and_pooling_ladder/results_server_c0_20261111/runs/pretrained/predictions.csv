@@ -1,0 +1,137 @@
+model,set,file,cluster,label,pred,err,chars,cer,exact_case,length,insertions,extra_repeats,adjacent_double_excess
+pretrained,whiteboard val,reader__images__wb__lecture_01_004.png,lecture_01.png,K-Nearest Neighbours,K-Nearest Neighbours,0,20,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_01_010.png,lecture_01.png,Model,Model,0,5,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_01_026.png,lecture_01.png,4 Generation,4. Generation,1,12,0.08333333333333333,0,1-20 chars,1,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_01_041.png,lecture_01.png,Activation,Activation,0,10,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_01_073.png,lecture_01.png,N = number of data samples,N= number of data samples,1,26,0.038461538461538464,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_01_081.png,lecture_01.png,3 vs 1 channel,3vs /channel,3,14,0.21428571428571427,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_01_094.png,lecture_01.png,"- but when x<0, gradient = 0 so neuron","- but when x<O, gradient =0 so neuron",2,38,0.05263157894736842,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_01_101.png,lecture_01.png,Parameter Count,Parameter Count,0,15,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_01_106.png,lecture_01.png,θ = parameters (can be weight),= parameters (can be weight),2,30,0.06666666666666667,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_01_107.png,lecture_01.png,- works only for one-hot (one correct),-works only for one-hot lone corred),4,38,0.10526315789473684,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_01_111.png,lecture_01.png,- punishes low probability of correct class,-punishes low probubility of correct class,2,43,0.046511627906976744,0,over 40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_01_114.png,lecture_01.png,bias,bias,0,4,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_01_120.png,lecture_01.png,Test,Test,0,4,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_01_124.png,lecture_01.png,which is right,wes,12,14,0.8571428571428571,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_02_019.png,lecture_02.png,"Augment flip, rotate, transform (make sense)","Augment →flip,rotate, transformn (make sense)",3,44,0.06818181818181818,0,over 40 chars,2,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_02_029.png,lecture_02.png,Activation,Activation,0,10,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_02_032.png,lecture_02.png,Dropout drop neurons so they can learn from others,Dropout → drop neuins so they con learn from othars,6,50,0.12,0,over 40 chars,2,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_02_036.png,lecture_02.png,Stochastic Gradient Descent,Stochastic Gradient Descent,0,27,0.0,1,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_02_048.png,lecture_02.png,"Shrinks weights, those close to 0","Shrin ks weights, those close to O",2,33,0.06060606060606061,0,21-40 chars,1,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_02_051.png,lecture_02.png,- 3x3 kernels,-3×3 kernels,2,13,0.15384615384615385,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_02_056.png,lecture_02.png,Stack to see larger region,Stack to see lasger region,1,26,0.038461538461538464,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_02_080.png,lecture_02.png,Adam,Adam,0,4,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_02_082.png,lecture_02.png,Parameter Count,Parameter Count,0,15,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_02_083.png,lecture_02.png,normalises values close to 0,normalises → values closre to O,4,28,0.14285714285714285,0,21-40 chars,3,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_02_092.png,lecture_02.png,scale,cale,1,5,0.2,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_02_096.png,lecture_02.png,bias,bias,0,4,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_02_102.png,lecture_02.png,Test = running stats,Test = Funning Stats,1,20,0.05,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_02_107.png,lecture_02.png,zero_grad() clears gradients,zero_grad() → clears gradlients,3,28,0.10714285714285714,0,21-40 chars,3,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_02_109.png,lecture_02.png,→ update gradients,→ update gradients,0,18,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_02_110.png,lecture_02.png,calculates new gradients,calculates new gradients,0,24,0.0,1,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_02_111.png,lecture_02.png,starting values should not be too big or small,Starting values should not be to big or small,1,46,0.021739130434782608,0,over 40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_004.png,lecture_03.png,K-Nearest Neighbours,K-Nerest Neighkoors,3,20,0.15,0,1-20 chars,0,0,1
+pretrained,whiteboard val,reader__images__wb__lecture_03_021.png,lecture_03.png,Model,Model,0,5,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_041.png,lecture_03.png,"Augment flip, rotate, transform (make sense)","Augment →flhp,rotate,transforom (make sanse)",6,44,0.13636363636363635,0,over 40 chars,2,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_042.png,lecture_03.png,4 Generation,4 Gerration,2,12,0.16666666666666666,0,1-20 chars,0,0,1
+pretrained,whiteboard val,reader__images__wb__lecture_03_053.png,lecture_03.png,Activation,Adtiration,2,10,0.2,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_056.png,lecture_03.png,Dropout drop neurons so they can learn from others,Dropout→ drop neas so they co learn from sthers,8,50,0.16,0,over 40 chars,1,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_059.png,lecture_03.png,Stochastic Gradient Descent,Stochastic Gradrent Descent,1,27,0.037037037037037035,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_079.png,lecture_03.png,"Shrinks weights, those close to 0","Shrinks welights, thase close to O",3,33,0.09090909090909091,0,21-40 chars,1,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_082.png,lecture_03.png,3.1 Softmax probability,3.1 Sofma→probab.iy,6,23,0.2608695652173913,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_087.png,lecture_03.png,- 3x3 kernels,-3×3 kernels,2,13,0.15384615384615385,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_094.png,lecture_03.png,N = number of data samples,N= roba of dt mpl,12,26,0.46153846153846156,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_097.png,lecture_03.png,Stack to see larger region,Stack to see larger regon,1,26,0.038461538461538464,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_104.png,lecture_03.png,3 vs 1 channel,3|chal,9,14,0.6428571428571429,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_124.png,lecture_03.png,"- but when x<0, gradient = 0 so neuron","-bt whe x<O,gradicet =o so u",14,38,0.3684210526315789,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_134.png,lecture_03.png,Adam,Adam,0,4,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_136.png,lecture_03.png,θ = parameters (can be weight),= parmeton (an beh),13,30,0.43333333333333335,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_137.png,lecture_03.png,- works only for one-hot (one correct),-workes only for one-hot (ore coad),8,38,0.21052631578947367,0,21-40 chars,1,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_139.png,lecture_03.png,Parameter Count,Parameter Count,0,15,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_140.png,lecture_03.png,normalises values close to 0,normalues → valkes clore to O,7,28,0.25,0,21-40 chars,1,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_142.png,lecture_03.png,- punishes low probability of correct class,-pstes l prababy od coctd,22,43,0.5116279069767442,0,over 40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_154.png,lecture_03.png,scale,s,4,5,0.8,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_158.png,lecture_03.png,bias,bas,1,4,0.25,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_167.png,lecture_03.png,Test = running stats,Test = oepg stats,6,20,0.3,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_175.png,lecture_03.png,zero_grad() clears gradients,zoro grad() → dears gradients,5,28,0.17857142857142858,0,21-40 chars,1,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_03_180.png,lecture_03.png,starting values should not be too big or small,Storting values should rat be to by or soall,7,46,0.15217391304347827,0,over 40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_04_012.png,lecture_04.png,"Shrinks weights, those close to 0",h ,32,33,0.9696969696969697,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_04_013.png,lecture_04.png,Stochastic Gradient Descent,Stochastic GradentDescent,2,27,0.07407407407407407,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_04_026.png,lecture_04.png,"Shrinks weights, those close to 0","Shrin ks weights,thase close to O",4,33,0.12121212121212122,0,21-40 chars,1,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_04_037.png,lecture_04.png,Stack to see larger region,Shak bo se nn,16,26,0.6153846153846154,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_04_057.png,lecture_04.png,Parameter Count,Pas2l,13,15,0.8666666666666667,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_04_064.png,lecture_04.png,Adam,Adam,0,4,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_05_013.png,lecture_05.png,Stochastic Gradient Descent,Stochastic Grndent Descnt,3,27,0.1111111111111111,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_05_022.png,lecture_05.png,"Shrinks weights, those close to 0","Shrinks weights, those close to O",1,33,0.030303030303030304,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_05_032.png,lecture_05.png,Stack to see larger region,Sbad bos up,20,26,0.7692307692307693,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_05_050.png,lecture_05.png,Adam,Adam,0,4,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_06_013.png,lecture_06.png,Stochastic Gradient Descent,Stochastic GrndrentDescent,3,27,0.1111111111111111,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_06_024.png,lecture_06.png,"Shrinks weights, those close to 0","Shrinks weights,thase lose to O",4,33,0.12121212121212122,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_06_035.png,lecture_06.png,Stack to see larger region,Soak to suee ugs,14,26,0.5384615384615384,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_06_052.png,lecture_06.png,Parameter Count,Aake Lt,10,15,0.6666666666666666,0,1-20 chars,0,0,1
+pretrained,whiteboard val,reader__images__wb__lecture_06_060.png,lecture_06.png,Adam,Adam,0,4,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_07_012.png,lecture_07.png,Stochastic Gradient Descent,Stochasti Gradent Desent,3,27,0.1111111111111111,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_07_023.png,lecture_07.png,"Shrinks weights, those close to 0","Shrinks weights,thase close to O",3,33,0.09090909090909091,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_07_032.png,lecture_07.png,Stack to see larger region,Soad bm e,21,26,0.8076923076923077,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_07_050.png,lecture_07.png,Adam,Adam,0,4,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_08_014.png,lecture_08.png,Stochastic Gradient Descent,Stochastic Gradient Descent,0,27,0.0,1,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_08_024.png,lecture_08.png,"Shrinks weights, those close to 0","Shrinks weights,thase close to O",3,33,0.09090909090909091,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_08_032.png,lecture_08.png,Stack to see larger region,Stauk toe ieng nigm,14,26,0.5384615384615384,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_08_051.png,lecture_08.png,Adam,Adam,0,4,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_09_007.png,lecture_09.png,Model,Model,0,5,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_09_009.png,lecture_09.png,4 Generation,4. Generation,1,12,0.08333333333333333,0,1-20 chars,1,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_09_013.png,lecture_09.png,K-Nearest Neighbours,K -Nerot Negts,10,20,0.5,0,1-20 chars,1,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_09_076.png,lecture_09.png,N = number of data samples,N = number of data somples,1,26,0.038461538461538464,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_09_094.png,lecture_09.png,Handcrafted features,Handcrafted features,0,20,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_10_007.png,lecture_10.png,Model,Model,0,5,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_10_010.png,lecture_10.png,4 Generation,4.Generation,1,12,0.08333333333333333,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_10_012.png,lecture_10.png,K-Nearest Neighbours,K-Nevot Neibar!,9,20,0.45,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_10_076.png,lecture_10.png,N = number of data samples,N = number of data somples,1,26,0.038461538461538464,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_10_087.png,lecture_10.png,3 vs 1 channel,3vs /chanell,5,14,0.35714285714285715,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_10_091.png,lecture_10.png,Handcrafted features,Handcrafted features,0,20,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_11_007.png,lecture_11.png,Model,Model,0,5,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_11_010.png,lecture_11.png,4 Generation,4.Generation,1,12,0.08333333333333333,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_11_011.png,lecture_11.png,K-Nearest Neighbours,K -Nevest ibar!,10,20,0.5,0,1-20 chars,1,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_11_073.png,lecture_11.png,N = number of data samples,N=number of data samples,2,26,0.07692307692307693,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_11_085.png,lecture_11.png,3 vs 1 channel,3vs / channel,2,14,0.14285714285714285,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_11_092.png,lecture_11.png,θ = parameters (can be weight),O=parameters (can be weight),3,30,0.1,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_11_093.png,lecture_11.png,Handcrafted features,Handcrafted features,0,20,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_12_008.png,lecture_12.png,Model,Model,0,5,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_12_011.png,lecture_12.png,4 Generation,4.Generation,1,12,0.08333333333333333,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_12_012.png,lecture_12.png,K-Nearest Neighbours,K -Narst N bo!,10,20,0.5,0,1-20 chars,1,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_12_042.png,lecture_12.png,2. Transformation,2.Transformation,1,17,0.058823529411764705,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_12_079.png,lecture_12.png,N = number of data samples,N = number of data soamples,1,26,0.038461538461538464,0,21-40 chars,1,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_12_089.png,lecture_12.png,3 vs 1 channel,3 vs /channel,2,14,0.14285714285714285,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_12_092.png,lecture_12.png,Handcrafted features,Handcrafted features,0,20,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_13_008.png,lecture_13.png,Model,Model,0,5,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_13_010.png,lecture_13.png,4 Generation,4.Generation,1,12,0.08333333333333333,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_13_014.png,lecture_13.png,K-Nearest Neighbours,K -Werest eithears,8,20,0.4,0,1-20 chars,1,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_13_073.png,lecture_13.png,N = number of data samples,N = number of data somples,1,26,0.038461538461538464,0,21-40 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__lecture_13_085.png,lecture_13.png,3 vs 1 channel,3 vs /channnel,3,14,0.21428571428571427,0,1-20 chars,1,1,1
+pretrained,whiteboard val,reader__images__wb__lecture_13_089.png,lecture_13.png,Handcrafted features,Handcrafted featuwres,1,20,0.05,0,1-20 chars,1,0,0
+pretrained,whiteboard val,reader__images__wb__television_01_000.png,television_01.png,television,Television,0,10,0.0,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_01_001.png,television_01.png,apple car,apple car,0,9,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_02_000.png,television_02.png,television,felvison,3,10,0.3,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_02_001.png,television_02.png,apple car,appk car,2,9,0.2222222222222222,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_03_000.png,television_03.png,television,television,0,10,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_03_001.png,television_03.png,apple car,apple car,0,9,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_04_001.png,television_04.png,television,television,0,10,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_04_002.png,television_04.png,apple car,apple car,0,9,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_05_000.png,television_05.png,television,televison,1,10,0.1,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_05_001.png,television_05.png,apple car,apple car,0,9,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_06_000.png,television_06.png,television,felevision,1,10,0.1,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_06_001.png,television_06.png,apple car,apple car,0,9,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_07_000.png,television_07.png,television,teleion,3,10,0.3,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_07_001.png,television_07.png,apple car,apple car,0,9,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_08_000.png,television_08.png,television,telvision,1,10,0.1,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_08_001.png,television_08.png,apple car,appk car,2,9,0.2222222222222222,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_09_000.png,television_09.png,television,telkvion,3,10,0.3,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_09_001.png,television_09.png,apple car,applk car,1,9,0.1111111111111111,0,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_10_000.png,television_10.png,television,television,0,10,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_10_001.png,television_10.png,apple car,apple car,0,9,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_11_000.png,television_11.png,television,television,0,10,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_11_001.png,television_11.png,apple car,apple car,0,9,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_12_000.png,television_12.png,television,television,0,10,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_12_001.png,television_12.png,apple car,apple car,0,9,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_13_006.png,television_13.png,television,television,0,10,0.0,1,1-20 chars,0,0,0
+pretrained,whiteboard val,reader__images__wb__television_13_011.png,television_13.png,apple car,appk car,2,9,0.2222222222222222,0,1-20 chars,0,0,0

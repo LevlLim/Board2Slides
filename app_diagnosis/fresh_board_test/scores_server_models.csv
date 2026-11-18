@@ -1,0 +1,1217 @@
+model,id,board,photo,writing,label,pred,err,chars,cer
+S0,A_5095_1,A,IMG_5095,A1,bookkeeper,bookkeeeer,1,10,0.1
+S0,A_5095_2,A,IMG_5095,A2,parallel,Para11el,2,8,0.25
+S0,A_5095_3,A,IMG_5095,A3,access,dccess,1,6,0.16666666666666666
+S0,A_5095_4,A,IMG_5095,A4,food,fgud,2,4,0.5
+S0,A_5095_5,A,IMG_5095,A5,weights,weights,0,7,0.0
+S0,A_5095_6,A,IMG_5095,A6,ghosts,ghusts,1,6,0.16666666666666666
+S0,A_5096_1,A,IMG_5096,A1,bookkeeper,book keeees,3,10,0.3
+S0,A_5096_2,A,IMG_5096,A2,parallel,Para11el,2,8,0.25
+S0,A_5096_3,A,IMG_5096,A3,access,d(Cess,2,6,0.3333333333333333
+S0,A_5096_4,A,IMG_5096,A4,food,foud,1,4,0.25
+S0,A_5096_5,A,IMG_5096,A5,weights,weights,0,7,0.0
+S0,A_5096_6,A,IMG_5096,A6,ghosts,9nGSt,4,6,0.6666666666666666
+S0,A_5097_1,A,IMG_5097,A1,bookkeeper, bookkeeper,0,10,0.0
+S0,A_5097_2,A,IMG_5097,A2,parallel,Parallel,0,8,0.0
+S0,A_5097_3,A,IMG_5097,A3,access,dCCCSS,2,6,0.3333333333333333
+S0,A_5097_4,A,IMG_5097,A4,food,fagd,2,4,0.5
+S0,A_5098_1,A,IMG_5098,A1,bookkeeper,book keeper,1,10,0.1
+S0,A_5098_2,A,IMG_5098,A2,parallel,Pa1a11el,3,8,0.375
+S0,A_5098_3,A,IMG_5098,A3,access,dCCCSS,2,6,0.3333333333333333
+S0,A_5098_4,A,IMG_5098,A4,food,fgat,3,4,0.75
+S0,A_5098_5,A,IMG_5098,A5,weights,wonghts,2,7,0.2857142857142857
+S0,A_5098_6,A,IMG_5098,A6,ghosts,ghasts,1,6,0.16666666666666666
+S0,A_5099_1,A,IMG_5099,A1,bookkeeper,boOk keeper,1,10,0.1
+S0,A_5099_2,A,IMG_5099,A2,parallel,Parallel,0,8,0.0
+S0,A_5099_3,A,IMG_5099,A3,access,dCCCsS,2,6,0.3333333333333333
+S0,A_5099_4,A,IMG_5099,A4,food,fgod,1,4,0.25
+S0,A_5099_5,A,IMG_5099,A5,weights,nonghts,3,7,0.42857142857142855
+S0,A_5099_6,A,IMG_5099,A6,ghosts,ghasts,1,6,0.16666666666666666
+S0,A_5100_1,A,IMG_5100,A1,bookkeeper,Dookkoeper,2,10,0.2
+S0,A_5100_2,A,IMG_5100,A2,parallel,Parai1lel,2,8,0.25
+S0,A_5100_3,A,IMG_5100,A3,access,dCCess,1,6,0.16666666666666666
+S0,A_5100_4,A,IMG_5100,A4,food,t0gd,3,4,0.75
+S0,A_5100_5,A,IMG_5100,A5,weights,weights,0,7,0.0
+S0,A_5100_6,A,IMG_5100,A6,ghosts,ghosts,0,6,0.0
+S0,A_5101_1,A,IMG_5101,A1,bookkeeper,Dookkeeper,1,10,0.1
+S0,A_5101_2,A,IMG_5101,A2,parallel,Parallet,1,8,0.125
+S0,A_5101_3,A,IMG_5101,A3,access,dCCUss,2,6,0.3333333333333333
+S0,A_5101_4,A,IMG_5101,A4,food,f00d,2,4,0.5
+S0,A_5101_5,A,IMG_5101,A5,weights,Weights,0,7,0.0
+S0,A_5101_6,A,IMG_5101,A6,ghosts,9husts,2,6,0.3333333333333333
+S0,A_5102_1,A,IMG_5102,A1,bookkeeper,Dookkeeper,1,10,0.1
+S0,A_5102_2,A,IMG_5102,A2,parallel,Parallet,1,8,0.125
+S0,A_5102_3,A,IMG_5102,A3,access,dCCess,1,6,0.16666666666666666
+S0,A_5102_4,A,IMG_5102,A4,food,fgod,1,4,0.25
+S0,A_5102_5,A,IMG_5102,A5,weights,Weights,0,7,0.0
+S0,A_5102_6,A,IMG_5102,A6,ghosts,9husts,2,6,0.3333333333333333
+S0,A_5103_1,A,IMG_5103,A1,bookkeeper, Dookkeeper,1,10,0.1
+S0,A_5103_2,A,IMG_5103,A2,parallel,Para1lel,1,8,0.125
+S0,A_5103_3,A,IMG_5103,A3,access,dCCess,1,6,0.16666666666666666
+S0,A_5103_4,A,IMG_5103,A4,food,fgod,1,4,0.25
+S0,A_5103_5,A,IMG_5103,A5,weights,Weights,0,7,0.0
+S0,A_5103_6,A,IMG_5103,A6,ghosts,ghosts,0,6,0.0
+S0,A_5104_1,A,IMG_5104,A1,bookkeeper, 0ookkeeper,1,10,0.1
+S0,A_5104_2,A,IMG_5104,A2,parallel,Parallel,0,8,0.0
+S0,A_5104_3,A,IMG_5104,A3,access,dCCCss,2,6,0.3333333333333333
+S0,A_5104_4,A,IMG_5104,A4,food,food,0,4,0.0
+S0,A_5104_5,A,IMG_5104,A5,weights,Weights,0,7,0.0
+S0,A_5104_6,A,IMG_5104,A6,ghosts,ghosts,0,6,0.0
+S0,A_5105_1,A,IMG_5105,A1,bookkeeper,Dookkeeper,1,10,0.1
+S0,A_5105_2,A,IMG_5105,A2,parallel,Para1lel,1,8,0.125
+S0,A_5105_3,A,IMG_5105,A3,access,dCCess,1,6,0.16666666666666666
+S0,A_5105_4,A,IMG_5105,A4,food,fgot,2,4,0.5
+S0,A_5105_5,A,IMG_5105,A5,weights,woights,1,7,0.14285714285714285
+S0,A_5105_6,A,IMG_5105,A6,ghosts,ghasts,1,6,0.16666666666666666
+S0,A_5106_1,A,IMG_5106,A1,bookkeeper,Dookkeeper,1,10,0.1
+S0,A_5106_2,A,IMG_5106,A2,parallel,Para1lel,1,8,0.125
+S0,A_5106_3,A,IMG_5106,A3,access,dCC ess,2,6,0.3333333333333333
+S0,A_5106_4,A,IMG_5106,A4,food,fgod,1,4,0.25
+S0,A_5106_5,A,IMG_5106,A5,weights,weights,0,7,0.0
+S0,A_5106_6,A,IMG_5106,A6,ghosts,ghusts,1,6,0.16666666666666666
+S0,A_5107_1,A,IMG_5107,A1,bookkeeper,book keeper,1,10,0.1
+S0,A_5107_2,A,IMG_5107,A2,parallel,Para11el.,3,8,0.375
+S0,A_5107_3,A,IMG_5107,A3,access,aCCCsS,1,6,0.16666666666666666
+S0,A_5107_4,A,IMG_5107,A4,food,fgod,1,4,0.25
+S0,A_5107_5,A,IMG_5107,A5,weights,Wonghts,2,7,0.2857142857142857
+S0,A_5107_6,A,IMG_5107,A6,ghosts,ghusts,1,6,0.16666666666666666
+S0,A_5108_1,A,IMG_5108,A1,bookkeeper,book keever,2,10,0.2
+S0,A_5108_2,A,IMG_5108,A2,parallel,Para11el,2,8,0.25
+S0,A_5108_3,A,IMG_5108,A3,access,dCCesS,1,6,0.16666666666666666
+S0,A_5108_4,A,IMG_5108,A4,food,fggd,2,4,0.5
+S0,A_5108_5,A,IMG_5108,A5,weights,weights,0,7,0.0
+S0,A_5108_6,A,IMG_5108,A6,ghosts,9hasts,2,6,0.3333333333333333
+S0,B_5109_1,B,IMG_5109,B1,book keeper,book keeper,0,11,0.0
+S0,B_5109_2,B,IMG_5109,B2,letter,letter,0,6,0.0
+S0,B_5109_3,B,IMG_5109,B3,gradient,gradient,0,8,0.0
+S0,B_5110_1,B,IMG_5110,B1,book keeper,book keeper,0,11,0.0
+S0,B_5110_2,B,IMG_5110,B2,letter,lefter,1,6,0.16666666666666666
+S0,B_5110_3,B,IMG_5110,B3,gradient,gradient,0,8,0.0
+S0,B_5111_1,B,IMG_5111,B1,book keeper,oook keeper,1,11,0.09090909090909091
+S0,B_5111_2,B,IMG_5111,B2,letter,letter,0,6,0.0
+S0,B_5111_3,B,IMG_5111,B3,gradient,gradient,0,8,0.0
+S0,B_5112_1,B,IMG_5112,B1,book keeper,ODok keeper-,3,11,0.2727272727272727
+S0,B_5112_2,B,IMG_5112,B2,letter,letter,0,6,0.0
+S0,B_5112_3,B,IMG_5112,B3,gradient,gradient,0,8,0.0
+S0,C_5113_1,C,IMG_5113,C1,earth,earth,0,5,0.0
+S0,C_5113_2,C,IMG_5113,C2,generalization,generalizatton,1,14,0.07142857142857142
+S0,C_5114_1,C,IMG_5114,C1,earth,earth,0,5,0.0
+S0,C_5114_2,C,IMG_5114,C2,generalization,generalizatton,1,14,0.07142857142857142
+S0,C_5115_1,C,IMG_5115,C1,earth,earth,0,5,0.0
+S0,C_5115_2,C,IMG_5115,C2,generalization,generalizatton,1,14,0.07142857142857142
+S0,D_5116_1,D,IMG_5116,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated letters in wovok such as Aiken and Xavier.,4,77,0.05194805194805195
+S0,D_5116_2,D,IMG_5116,D2,"The white board contains a mixture of short words, long phrases and numbers","The white bonrd comains a mixtureof short words, long phroces, and numbors.",9,75,0.12
+S0,D_5116_3,D,IMG_5116,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand wriotten character inside the recognition region,1,79,0.012658227848101266
+S0,D_5117_1,D,IMG_5117,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated etters in wovok such as Aiken and Xavier.,5,77,0.06493506493506493
+S0,D_5117_2,D,IMG_5117,D2,"The white board contains a mixture of short words, long phrases and numbers","The white bonrd comaine a mixtureof short words, long phroes and numoors.",10,75,0.13333333333333333
+S0,D_5117_3,D,IMG_5117,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop kecps every hand writteh character inside the recognition region,2,79,0.02531645569620253
+S0,D_5118_1,D,IMG_5118,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated ettevs in wovok such as Aiken and Xavier.,6,77,0.07792207792207792
+S0,D_5118_2,D,IMG_5118,D2,"The white board contains a mixture of short words, long phrases and numbers","The white bonrd contains a mixtureof short words, long phres and numboors.",7,75,0.09333333333333334
+S0,D_5118_3,D,IMG_5118,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand written character inside the recognition rogion,1,79,0.012658227848101266
+S0,D_5122_1,D,IMG_5122,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserve repeated lotters in wovok such as Aiken and Xavier.,4,77,0.05194805194805195
+S0,D_5122_2,D,IMG_5122,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board contains ai mixture of short words, long phroces and numbors.",5,75,0.06666666666666667
+S0,D_5122_3,D,IMG_5122,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand witteh character inside the recognition region,2,79,0.02531645569620253
+S0,D_5123_1,D,IMG_5123,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserve repented lottors in wovok such as Aiken and Xauier.,7,77,0.09090909090909091
+S0,D_5123_2,D,IMG_5123,D2,"The white board contains a mixture of short words, long phrases and numbers","The white bonrd containe a mixture of short words, long phroces and numbors",5,75,0.06666666666666667
+S0,D_5123_3,D,IMG_5123,D3,A careful crop keeps every hand written character inside the recognition region,A coreful crop keeps every hand writton character inside the recognition region,2,79,0.02531645569620253
+S0,D_5124_1,D,IMG_5124,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should proserve repented lettors in wovok such as Aiken and Xavier.,6,77,0.07792207792207792
+S0,D_5124_2,D,IMG_5124,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board cortaine a mixtureof short words, long phroces and numnbors.",8,75,0.10666666666666667
+S0,D_5124_3,D,IMG_5124,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keps erery hand writtoh character inside the recognition region,4,79,0.05063291139240506
+S0,D_5119_1,D,IMG_5119,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeanted lettors in wovo such as Aien and Kanlter..,12,77,0.15584415584415584
+S0,D_5119_2,D,IMG_5119,D2,"The white board contains a mixture of short words, long phrases and numbers",The white boord comtains aimitureof shot words ongphres and onabor.,16,75,0.21333333333333335
+S0,D_5120_1,D,IMG_5120,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repented lettes in wove such as Aiken and avir.,8,77,0.1038961038961039
+S0,D_5120_2,D,IMG_5120,D2,"The white board contains a mixture of short words, long phrases and numbers",The whitte bord conmtain ai mitwre of shot words lon phoesand wnbor.,19,75,0.25333333333333335
+S0,D_5121_1,D,IMG_5121,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repented ettors in wove such as Aiken and autlers,12,77,0.15584415584415584
+S0,D_5121_2,D,IMG_5121,D2,"The white board contains a mixture of short words, long phrases and numbers",The white bonrd contains ai mitreof short words o phrces and nlbor.,15,75,0.2
+S0,E_5125_1,E,IMG_5125,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+S0,E_5125_2,E,IMG_5125,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences.",1,94,0.010638297872340425
+S0,E_5126_1,E,IMG_5126,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+S0,E_5126_2,E,IMG_5126,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the deteder does not merge neighbouring setenes",5,94,0.05319148936170213
+S0,E_5127_1,E,IMG_5127,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+S0,E_5127_2,E,IMG_5127,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring setenes",2,94,0.02127659574468085
+S0,E_5128_1,E,IMG_5128,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use diffent spacing, presure, heighton the same bwarnd",7,76,0.09210526315789473
+S0,E_5128_2,E,IMG_5128,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so th deteo dos hot erg neighborig tee.",16,94,0.1702127659574468
+S0,E_5129_1,E,IMG_5129,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing,presue, heighton te same boarn.",6,76,0.07894736842105263
+S0,E_5129_2,E,IMG_5129,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the deote des not mere eigouirng etee.",17,94,0.18085106382978725
+S0,E_5130_1,E,IMG_5130,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, presure, heighton the sawe boarn..",5,76,0.06578947368421052
+S0,E_5130_2,E,IMG_5130,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough spare between lies, so the detectedoes not megeneigourng ntos.",17,94,0.18085106382978725
+S0,E_5131_1,E,IMG_5131,E1,"Different writers use different spacing, pressure, height on the same board.","Pifernt writers use diferent spacing, presure, height on the same board.",5,76,0.06578947368421052
+S0,E_5131_2,E,IMG_5131,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enoug spare between lines, so the detector does not merge neighbouring sentences.",3,94,0.031914893617021274
+S0,E_5132_1,E,IMG_5132,E1,"Different writers use different spacing, pressure, height on the same board.","Pifrent writers usediffernt spacing,pressure, height on the same board.",6,76,0.07894736842105263
+S0,E_5132_2,E,IMG_5132,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Pleaselave enough space betwen lines, so the detector does not merge neighbouring sentences.",4,94,0.0425531914893617
+S0,E_5133_1,E,IMG_5133,E1,"Different writers use different spacing, pressure, height on the same board.","Piferentwriters use difent spacing, presre, height on the same board.",8,76,0.10526315789473684
+S0,E_5133_2,E,IMG_5133,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space betwen lines, so the detector does not merge neighbouring sentences.",2,94,0.02127659574468085
+S0,E_5134_1,E,IMG_5134,E1,"Different writers use different spacing, pressure, height on the same board.","Piferont writers usediferent spacing, presure, height on the same board.",6,76,0.07894736842105263
+S0,E_5134_2,E,IMG_5134,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space beteen lines, so the detector does not merge neighbouring sentences.",2,94,0.02127659574468085
+S0,E_5135_1,E,IMG_5135,E1,"Different writers use different spacing, pressure, height on the same board.","Diferent writers use iferent spacing, presure, height on the same board.",4,76,0.05263157894736842
+S0,E_5135_2,E,IMG_5135,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Pleaseleave enough space betucen lines, so the detector does not merge neighbouring sentences.",4,94,0.0425531914893617
+S0,E_5136_1,E,IMG_5136,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+S0,E_5136_2,E,IMG_5136,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough spare between lines, so the detect does not merge eigtoring entemes",10,94,0.10638297872340426
+S0,E_5137_1,E,IMG_5137,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+S0,E_5137_2,E,IMG_5137,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space betwcen lines, so the detectr does not merg neigtorig etenes",10,94,0.10638297872340426
+S0,E_5138_1,E,IMG_5138,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use diffrent spacing, pressure, height on the same bourd.",2,76,0.02631578947368421
+S0,E_5138_2,E,IMG_5138,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space betwceen lines, so the doterter does not merge netourn oetene",14,94,0.14893617021276595
+S0s2,A_5095_1,A,IMG_5095,A1,bookkeeper,booKkeeee,2,10,0.2
+S0s2,A_5095_2,A,IMG_5095,A2,parallel,Para!lel,1,8,0.125
+S0s2,A_5095_3,A,IMG_5095,A3,access,access,0,6,0.0
+S0s2,A_5095_4,A,IMG_5095,A4,food,foud,1,4,0.25
+S0s2,A_5095_5,A,IMG_5095,A5,weights,wei9hts,1,7,0.14285714285714285
+S0s2,A_5095_6,A,IMG_5095,A6,ghosts,9husts,2,6,0.3333333333333333
+S0s2,A_5096_1,A,IMG_5096,A1,bookkeeper,booKkeeleer,2,10,0.2
+S0s2,A_5096_2,A,IMG_5096,A2,parallel,Para!!el,2,8,0.25
+S0s2,A_5096_3,A,IMG_5096,A3,access,dCCesS,1,6,0.16666666666666666
+S0s2,A_5096_4,A,IMG_5096,A4,food,foud,1,4,0.25
+S0s2,A_5096_5,A,IMG_5096,A5,weights,Weights,0,7,0.0
+S0s2,A_5096_6,A,IMG_5096,A6,ghosts,ohCStS,2,6,0.3333333333333333
+S0s2,A_5097_1,A,IMG_5097,A1,bookkeeper, bookkeeper,0,10,0.0
+S0s2,A_5097_2,A,IMG_5097,A2,parallel,Para!lel,1,8,0.125
+S0s2,A_5097_3,A,IMG_5097,A3,access,aCCesS,0,6,0.0
+S0s2,A_5097_4,A,IMG_5097,A4,food,foud,1,4,0.25
+S0s2,A_5098_1,A,IMG_5098,A1,bookkeeper,DooKKeeper,1,10,0.1
+S0s2,A_5098_2,A,IMG_5098,A2,parallel,Parq!1el,3,8,0.375
+S0s2,A_5098_3,A,IMG_5098,A3,access,aCCesS,0,6,0.0
+S0s2,A_5098_4,A,IMG_5098,A4,food,foad,1,4,0.25
+S0s2,A_5098_5,A,IMG_5098,A5,weights,wenghts,1,7,0.14285714285714285
+S0s2,A_5098_6,A,IMG_5098,A6,ghosts,ghasts,1,6,0.16666666666666666
+S0s2,A_5099_1,A,IMG_5099,A1,bookkeeper,DooKKeeper,1,10,0.1
+S0s2,A_5099_2,A,IMG_5099,A2,parallel,Para!el,2,8,0.25
+S0s2,A_5099_3,A,IMG_5099,A3,access,aCCess,0,6,0.0
+S0s2,A_5099_4,A,IMG_5099,A4,food,food,0,4,0.0
+S0s2,A_5099_5,A,IMG_5099,A5,weights,wenghts,1,7,0.14285714285714285
+S0s2,A_5099_6,A,IMG_5099,A6,ghosts,ohasts,2,6,0.3333333333333333
+S0s2,A_5100_1,A,IMG_5100,A1,bookkeeper,DOOKKeeper,1,10,0.1
+S0s2,A_5100_2,A,IMG_5100,A2,parallel,Par9!lel,2,8,0.25
+S0s2,A_5100_3,A,IMG_5100,A3,access,dCCess,1,6,0.16666666666666666
+S0s2,A_5100_4,A,IMG_5100,A4,food,food,0,4,0.0
+S0s2,A_5100_5,A,IMG_5100,A5,weights,Weights,0,7,0.0
+S0s2,A_5100_6,A,IMG_5100,A6,ghosts,ghasts,1,6,0.16666666666666666
+S0s2,A_5101_1,A,IMG_5101,A1,bookkeeper,DooKkeeper,1,10,0.1
+S0s2,A_5101_2,A,IMG_5101,A2,parallel,Parallel,0,8,0.0
+S0s2,A_5101_3,A,IMG_5101,A3,access,dCCess,1,6,0.16666666666666666
+S0s2,A_5101_4,A,IMG_5101,A4,food,food,0,4,0.0
+S0s2,A_5101_5,A,IMG_5101,A5,weights,Weights,0,7,0.0
+S0s2,A_5101_6,A,IMG_5101,A6,ghosts,9hasts,2,6,0.3333333333333333
+S0s2,A_5102_1,A,IMG_5102,A1,bookkeeper,DOoKKeeper,1,10,0.1
+S0s2,A_5102_2,A,IMG_5102,A2,parallel,Parallel,0,8,0.0
+S0s2,A_5102_3,A,IMG_5102,A3,access,dCCess,1,6,0.16666666666666666
+S0s2,A_5102_4,A,IMG_5102,A4,food,fogd,1,4,0.25
+S0s2,A_5102_5,A,IMG_5102,A5,weights,Weights,0,7,0.0
+S0s2,A_5102_6,A,IMG_5102,A6,ghosts,9hasts,2,6,0.3333333333333333
+S0s2,A_5103_1,A,IMG_5103,A1,bookkeeper,bookkeeper,0,10,0.0
+S0s2,A_5103_2,A,IMG_5103,A2,parallel,Paraulel,1,8,0.125
+S0s2,A_5103_3,A,IMG_5103,A3,access,aCCess,0,6,0.0
+S0s2,A_5103_4,A,IMG_5103,A4,food,foud,1,4,0.25
+S0s2,A_5103_5,A,IMG_5103,A5,weights,Wei9hts,1,7,0.14285714285714285
+S0s2,A_5103_6,A,IMG_5103,A6,ghosts,ghasts,1,6,0.16666666666666666
+S0s2,A_5104_1,A,IMG_5104,A1,bookkeeper, book keeper,1,10,0.1
+S0s2,A_5104_2,A,IMG_5104,A2,parallel,Parallel,0,8,0.0
+S0s2,A_5104_3,A,IMG_5104,A3,access,aCCess,0,6,0.0
+S0s2,A_5104_4,A,IMG_5104,A4,food,foud,1,4,0.25
+S0s2,A_5104_5,A,IMG_5104,A5,weights,Wei9hts,1,7,0.14285714285714285
+S0s2,A_5104_6,A,IMG_5104,A6,ghosts,ghosts,0,6,0.0
+S0s2,A_5105_1,A,IMG_5105,A1,bookkeeper,booKKeeper,0,10,0.0
+S0s2,A_5105_2,A,IMG_5105,A2,parallel,Para!lel,1,8,0.125
+S0s2,A_5105_3,A,IMG_5105,A3,access,aCCess,0,6,0.0
+S0s2,A_5105_4,A,IMG_5105,A4,food,food,0,4,0.0
+S0s2,A_5105_5,A,IMG_5105,A5,weights,Weights,0,7,0.0
+S0s2,A_5105_6,A,IMG_5105,A6,ghosts,ghasts,1,6,0.16666666666666666
+S0s2,A_5106_1,A,IMG_5106,A1,bookkeeper,boOKkeeper,0,10,0.0
+S0s2,A_5106_2,A,IMG_5106,A2,parallel,Parallel,0,8,0.0
+S0s2,A_5106_3,A,IMG_5106,A3,access,aCCess,0,6,0.0
+S0s2,A_5106_4,A,IMG_5106,A4,food,foud,1,4,0.25
+S0s2,A_5106_5,A,IMG_5106,A5,weights,Weights,0,7,0.0
+S0s2,A_5106_6,A,IMG_5106,A6,ghosts,9hasts,2,6,0.3333333333333333
+S0s2,A_5107_1,A,IMG_5107,A1,bookkeeper,booKkeeper,0,10,0.0
+S0s2,A_5107_2,A,IMG_5107,A2,parallel,Para!lel.,2,8,0.25
+S0s2,A_5107_3,A,IMG_5107,A3,access,aCCesS,0,6,0.0
+S0s2,A_5107_4,A,IMG_5107,A4,food,foad,1,4,0.25
+S0s2,A_5107_5,A,IMG_5107,A5,weights,Wenghts,1,7,0.14285714285714285
+S0s2,A_5107_6,A,IMG_5107,A6,ghosts,9hests,2,6,0.3333333333333333
+S0s2,A_5108_1,A,IMG_5108,A1,bookkeeper,booKkeeper,0,10,0.0
+S0s2,A_5108_2,A,IMG_5108,A2,parallel,Para!lel,1,8,0.125
+S0s2,A_5108_3,A,IMG_5108,A3,access,aCCesS,0,6,0.0
+S0s2,A_5108_4,A,IMG_5108,A4,food,foud,1,4,0.25
+S0s2,A_5108_5,A,IMG_5108,A5,weights,Weights,0,7,0.0
+S0s2,A_5108_6,A,IMG_5108,A6,ghosts,9husts,2,6,0.3333333333333333
+S0s2,B_5109_1,B,IMG_5109,B1,book keeper,booK keeper,0,11,0.0
+S0s2,B_5109_2,B,IMG_5109,B2,letter,letter,0,6,0.0
+S0s2,B_5109_3,B,IMG_5109,B3,gradient,gradienf,1,8,0.125
+S0s2,B_5110_1,B,IMG_5110,B1,book keeper,booK keeper-,1,11,0.09090909090909091
+S0s2,B_5110_2,B,IMG_5110,B2,letter,efter,2,6,0.3333333333333333
+S0s2,B_5110_3,B,IMG_5110,B3,gradient,gradienf,1,8,0.125
+S0s2,B_5111_1,B,IMG_5111,B1,book keeper,DooK keeper,1,11,0.09090909090909091
+S0s2,B_5111_2,B,IMG_5111,B2,letter,lefter,1,6,0.16666666666666666
+S0s2,B_5111_3,B,IMG_5111,B3,gradient,gradienf,1,8,0.125
+S0s2,B_5112_1,B,IMG_5112,B1,book keeper,DOOK keeper-,2,11,0.18181818181818182
+S0s2,B_5112_2,B,IMG_5112,B2,letter,lefter,1,6,0.16666666666666666
+S0s2,B_5112_3,B,IMG_5112,B3,gradient,gradienf,1,8,0.125
+S0s2,C_5113_1,C,IMG_5113,C1,earth,earth,0,5,0.0
+S0s2,C_5113_2,C,IMG_5113,C2,generalization,generalization,0,14,0.0
+S0s2,C_5114_1,C,IMG_5114,C1,earth,earth,0,5,0.0
+S0s2,C_5114_2,C,IMG_5114,C2,generalization,generalization,0,14,0.0
+S0s2,C_5115_1,C,IMG_5115,C1,earth,ear th,1,5,0.2
+S0s2,C_5115_2,C,IMG_5115,C2,generalization,generalization,0,14,0.0
+S0s2,D_5116_1,D,IMG_5116,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue vepeated lettevs in wovd such as Aiken and Xavier.,5,77,0.06493506493506493
+S0s2,D_5116_2,D,IMG_5116,D2,"The white board contains a mixture of short words, long phrases and numbers","The white booard contains a mixtureof short words, long phraces and numbors",4,75,0.05333333333333334
+S0s2,D_5116_3,D,IMG_5116,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand witten character inside the recoghition region,2,79,0.02531645569620253
+S0s2,D_5117_1,D,IMG_5117,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue vepeated lettevs in wovok such as Aiken and Xavier.,6,77,0.07792207792207792
+S0s2,D_5117_2,D,IMG_5117,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board comtains a mixtureof short words, long phraces and numoors,",6,75,0.08
+S0s2,D_5117_3,D,IMG_5117,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps evevy hand writteh character inside the recoghition region,3,79,0.0379746835443038
+S0s2,D_5118_1,D,IMG_5118,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue vepeated lettevs in wovot such as Aiken and Xavier.,6,77,0.07792207792207792
+S0s2,D_5118_2,D,IMG_5118,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board contains a mixtureof short words, long phraes and numbors.",4,75,0.05333333333333334
+S0s2,D_5118_3,D,IMG_5118,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand writteh chavacter inside the recoghition region,3,79,0.0379746835443038
+S0s2,D_5122_1,D,IMG_5122,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated lottevs in wovod such as Aiken and Xavier.,6,77,0.07792207792207792
+S0s2,D_5122_2,D,IMG_5122,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board contains a mixtureof short wovds, long phraces and numbors",4,75,0.05333333333333334
+S0s2,D_5122_3,D,IMG_5122,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand witteh character inside the recoghition region,3,79,0.0379746835443038
+S0s2,D_5123_1,D,IMG_5123,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated lottevs in wovok such as Aiken and Xavier.,6,77,0.07792207792207792
+S0s2,D_5123_2,D,IMG_5123,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board contains a mixtureof short words, long phraces and numbors",3,75,0.04
+S0s2,D_5123_3,D,IMG_5123,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand writteh character inside the recoghition region,2,79,0.02531645569620253
+S0s2,D_5124_1,D,IMG_5124,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserve vepeated lottevs in wovok such as Aiken and Xauier.,7,77,0.09090909090909091
+S0s2,D_5124_2,D,IMG_5124,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board contains a mixtweof short wovds, long phraces and numbors",6,75,0.08
+S0s2,D_5124_3,D,IMG_5124,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hane written character inside the recoghition region,2,79,0.02531645569620253
+S0s2,D_5119_1,D,IMG_5119,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue vepeated lottevs in wovo such as Aiken and aviers.,9,77,0.11688311688311688
+S0s2,D_5119_2,D,IMG_5119,D2,"The white board contains a mixture of short words, long phrases and numbers",The white board contains a mitureof photwods long phres an enos.,17,75,0.22666666666666666
+S0s2,D_5120_1,D,IMG_5120,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated lettes in wovok such as Aiken ad Kaier,9,77,0.11688311688311688
+S0s2,D_5120_2,D,IMG_5120,D2,"The white board contains a mixture of short words, long phrases and numbers",The white booard contains amiture of lshort wods on phroes nd nuwlrs.,15,75,0.2
+S0s2,D_5121_1,D,IMG_5121,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue vepeated lotters in wovot such as Aien aned avives.,11,77,0.14285714285714285
+S0s2,D_5121_2,D,IMG_5121,D2,"The white board contains a mixture of short words, long phrases and numbers",The white booard contains a mistre ofphort words on proes and nore.,16,75,0.21333333333333335
+S0s2,E_5125_1,E,IMG_5125,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+S0s2,E_5125_2,E,IMG_5125,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough spact between lines, so the detector does not merge neighbouring sentences.",2,94,0.02127659574468085
+S0s2,E_5126_1,E,IMG_5126,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+S0s2,E_5126_2,E,IMG_5126,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the deteds does not merge neighbouring sentences",4,94,0.0425531914893617
+S0s2,E_5127_1,E,IMG_5127,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+S0s2,E_5127_2,E,IMG_5127,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detedtor does not merge neighbouring sentenes",2,94,0.02127659574468085
+S0s2,E_5128_1,E,IMG_5128,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing,presure, height on the same bard.",3,76,0.039473684210526314
+S0s2,E_5128_2,E,IMG_5128,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough spact between lines, so th etect oes not merge eighonin res",18,94,0.19148936170212766
+S0s2,E_5129_1,E,IMG_5129,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use diffent spacing presure,height on the samebrd.",8,76,0.10526315789473684
+S0s2,E_5129_2,E,IMG_5129,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space betweeh lines, so the detectodos notmere highorig ete.",17,94,0.18085106382978725
+S0s2,E_5130_1,E,IMG_5130,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, presure,heiglnt on te same be ard.",7,76,0.09210526315789473
+S0s2,E_5130_2,E,IMG_5130,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lies, so the detech does hot mere heighorti es",19,94,0.20212765957446807
+S0s2,E_5131_1,E,IMG_5131,E1,"Different writers use different spacing, pressure, height on the same board.","Diferent writers use dierent spacin, presure, height on the same board.",5,76,0.06578947368421052
+S0s2,E_5131_2,E,IMG_5131,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enoug space betweehn lines, so the detector does not merge neighbouring sentences.",3,94,0.031914893617021274
+S0s2,E_5132_1,E,IMG_5132,E1,"Different writers use different spacing, pressure, height on the same board.","Difrent writers usedifent spacing, presure, height on the same board.",7,76,0.09210526315789473
+S0s2,E_5132_2,E,IMG_5132,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enogh space beteen lines, so the detects does not merge neighbouring sentences",4,94,0.0425531914893617
+S0s2,E_5133_1,E,IMG_5133,E1,"Different writers use different spacing, pressure, height on the same board.","Difrent witers use ierentspacin, presur, height on the same board.",10,76,0.13157894736842105
+S0s2,E_5133_2,E,IMG_5133,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please eave enough space betwen lines, so the detector does not merge neighbouring sentences.",3,94,0.031914893617021274
+S0s2,E_5134_1,E,IMG_5134,E1,"Different writers use different spacing, pressure, height on the same board.","Diferent writers usedifferen spacin, presur, height on the same board.",6,76,0.07894736842105263
+S0s2,E_5134_2,E,IMG_5134,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space betwen lines, so the detectsr does not merge neighbouring sentences.",3,94,0.031914893617021274
+S0s2,E_5135_1,E,IMG_5135,E1,"Different writers use different spacing, pressure, height on the same board.","Diferent writers usedifferentspating, presure, height on the same board.",5,76,0.06578947368421052
+S0s2,E_5135_2,E,IMG_5135,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space betwucen lines, so the detector does not merge neighbouring sentences",2,94,0.02127659574468085
+S0s2,E_5136_1,E,IMG_5136,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+S0s2,E_5136_2,E,IMG_5136,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough spact between lines, so the detects does not merge eighouin sentences",7,94,0.07446808510638298
+S0s2,E_5137_1,E,IMG_5137,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use diffent spacing, pressure, height on the same board.",2,76,0.02631578947368421
+S0s2,E_5137_2,E,IMG_5137,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough spact betwen lines, so the detecto does not merg neighourig etenes",9,94,0.09574468085106383
+S0s2,E_5138_1,E,IMG_5138,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use dient spacing, pressre, height on the same board.",5,76,0.06578947368421052
+S0s2,E_5138_2,E,IMG_5138,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space betwcen lines, so the denteonr does not merge neihourin entenen.",12,94,0.1276595744680851
+S1,A_5095_1,A,IMG_5095,A1,bookkeeper,book keee,3,10,0.3
+S1,A_5095_2,A,IMG_5095,A2,parallel,Parallel,0,8,0.0
+S1,A_5095_3,A,IMG_5095,A3,access,dccess,1,6,0.16666666666666666
+S1,A_5095_4,A,IMG_5095,A4,food,fou1,2,4,0.5
+S1,A_5095_5,A,IMG_5095,A5,weights,Wei9hts,1,7,0.14285714285714285
+S1,A_5095_6,A,IMG_5095,A6,ghosts,ghasts,1,6,0.16666666666666666
+S1,A_5096_1,A,IMG_5096,A1,bookkeeper,booKkeeeesr,2,10,0.2
+S1,A_5096_2,A,IMG_5096,A2,parallel,Para11el,2,8,0.25
+S1,A_5096_3,A,IMG_5096,A3,access,dCcess,1,6,0.16666666666666666
+S1,A_5096_4,A,IMG_5096,A4,food,fou1,2,4,0.5
+S1,A_5096_5,A,IMG_5096,A5,weights,Weights,0,7,0.0
+S1,A_5096_6,A,IMG_5096,A6,ghosts,UGST,4,6,0.6666666666666666
+S1,A_5097_1,A,IMG_5097,A1,bookkeeper, bookkeeper,0,10,0.0
+S1,A_5097_2,A,IMG_5097,A2,parallel,parallel,0,8,0.0
+S1,A_5097_3,A,IMG_5097,A3,access,dCCesS,1,6,0.16666666666666666
+S1,A_5097_4,A,IMG_5097,A4,food,fogd,1,4,0.25
+S1,A_5098_1,A,IMG_5098,A1,bookkeeper,booKKeeper.,1,10,0.1
+S1,A_5098_2,A,IMG_5098,A2,parallel,Para1lel,1,8,0.125
+S1,A_5098_3,A,IMG_5098,A3,access,dCCess,1,6,0.16666666666666666
+S1,A_5098_4,A,IMG_5098,A4,food,foad,1,4,0.25
+S1,A_5098_5,A,IMG_5098,A5,weights,woights,1,7,0.14285714285714285
+S1,A_5098_6,A,IMG_5098,A6,ghosts,ghasts,1,6,0.16666666666666666
+S1,A_5099_1,A,IMG_5099,A1,bookkeeper,bOOKKeeper.,1,10,0.1
+S1,A_5099_2,A,IMG_5099,A2,parallel,para!lel,1,8,0.125
+S1,A_5099_3,A,IMG_5099,A3,access,dCCesS,1,6,0.16666666666666666
+S1,A_5099_4,A,IMG_5099,A4,food,food,0,4,0.0
+S1,A_5099_5,A,IMG_5099,A5,weights,noights,2,7,0.2857142857142857
+S1,A_5099_6,A,IMG_5099,A6,ghosts,ghasts,1,6,0.16666666666666666
+S1,A_5100_1,A,IMG_5100,A1,bookkeeper,DOOKkeeper,1,10,0.1
+S1,A_5100_2,A,IMG_5100,A2,parallel,parallel,0,8,0.0
+S1,A_5100_3,A,IMG_5100,A3,access,dCCess,1,6,0.16666666666666666
+S1,A_5100_4,A,IMG_5100,A4,food,toud,2,4,0.5
+S1,A_5100_5,A,IMG_5100,A5,weights,Weights,0,7,0.0
+S1,A_5100_6,A,IMG_5100,A6,ghosts,ghosts,0,6,0.0
+S1,A_5101_1,A,IMG_5101,A1,bookkeeper,Dook keeper,2,10,0.2
+S1,A_5101_2,A,IMG_5101,A2,parallel,paralle,1,8,0.125
+S1,A_5101_3,A,IMG_5101,A3,access,aCCess,0,6,0.0
+S1,A_5101_4,A,IMG_5101,A4,food,foud,1,4,0.25
+S1,A_5101_5,A,IMG_5101,A5,weights,Weights,0,7,0.0
+S1,A_5101_6,A,IMG_5101,A6,ghosts,ghasts,1,6,0.16666666666666666
+S1,A_5102_1,A,IMG_5102,A1,bookkeeper,DOOK keeper,2,10,0.2
+S1,A_5102_2,A,IMG_5102,A2,parallel,Parallel,0,8,0.0
+S1,A_5102_3,A,IMG_5102,A3,access,aCCess,0,6,0.0
+S1,A_5102_4,A,IMG_5102,A4,food,foud,1,4,0.25
+S1,A_5102_5,A,IMG_5102,A5,weights,Weights,0,7,0.0
+S1,A_5102_6,A,IMG_5102,A6,ghosts,9hasts,2,6,0.3333333333333333
+S1,A_5103_1,A,IMG_5103,A1,bookkeeper, Dookkeeper,1,10,0.1
+S1,A_5103_2,A,IMG_5103,A2,parallel,Parallel,0,8,0.0
+S1,A_5103_3,A,IMG_5103,A3,access,aCCess,0,6,0.0
+S1,A_5103_4,A,IMG_5103,A4,food,foud,1,4,0.25
+S1,A_5103_5,A,IMG_5103,A5,weights,Weights,0,7,0.0
+S1,A_5103_6,A,IMG_5103,A6,ghosts,ghasts,1,6,0.16666666666666666
+S1,A_5104_1,A,IMG_5104,A1,bookkeeper, OOOk keeper,2,10,0.2
+S1,A_5104_2,A,IMG_5104,A2,parallel,Parallel,0,8,0.0
+S1,A_5104_3,A,IMG_5104,A3,access,aCCess,0,6,0.0
+S1,A_5104_4,A,IMG_5104,A4,food,foud,1,4,0.25
+S1,A_5104_5,A,IMG_5104,A5,weights,Wei9hts,1,7,0.14285714285714285
+S1,A_5104_6,A,IMG_5104,A6,ghosts,ghosts,0,6,0.0
+S1,A_5105_1,A,IMG_5105,A1,bookkeeper,boOK keeper,1,10,0.1
+S1,A_5105_2,A,IMG_5105,A2,parallel,Parallel,0,8,0.0
+S1,A_5105_3,A,IMG_5105,A3,access,aCcess,0,6,0.0
+S1,A_5105_4,A,IMG_5105,A4,food,foud,1,4,0.25
+S1,A_5105_5,A,IMG_5105,A5,weights,Weights,0,7,0.0
+S1,A_5105_6,A,IMG_5105,A6,ghosts,ghasts,1,6,0.16666666666666666
+S1,A_5106_1,A,IMG_5106,A1,bookkeeper,booK keeper,1,10,0.1
+S1,A_5106_2,A,IMG_5106,A2,parallel,Parallel,0,8,0.0
+S1,A_5106_3,A,IMG_5106,A3,access,aCCess,0,6,0.0
+S1,A_5106_4,A,IMG_5106,A4,food,foud,1,4,0.25
+S1,A_5106_5,A,IMG_5106,A5,weights,Weights,0,7,0.0
+S1,A_5106_6,A,IMG_5106,A6,ghosts,ghasts,1,6,0.16666666666666666
+S1,A_5107_1,A,IMG_5107,A1,bookkeeper,bOOK keeper,1,10,0.1
+S1,A_5107_2,A,IMG_5107,A2,parallel,Parallel.,1,8,0.125
+S1,A_5107_3,A,IMG_5107,A3,access,aCCess,0,6,0.0
+S1,A_5107_4,A,IMG_5107,A4,food,foud,1,4,0.25
+S1,A_5107_5,A,IMG_5107,A5,weights,woights,1,7,0.14285714285714285
+S1,A_5107_6,A,IMG_5107,A6,ghosts,ghasts,1,6,0.16666666666666666
+S1,A_5108_1,A,IMG_5108,A1,bookkeeper,boOk keeper,1,10,0.1
+S1,A_5108_2,A,IMG_5108,A2,parallel,parallel,0,8,0.0
+S1,A_5108_3,A,IMG_5108,A3,access,aCCess,0,6,0.0
+S1,A_5108_4,A,IMG_5108,A4,food,foud,1,4,0.25
+S1,A_5108_5,A,IMG_5108,A5,weights,weights,0,7,0.0
+S1,A_5108_6,A,IMG_5108,A6,ghosts,ghasts,1,6,0.16666666666666666
+S1,B_5109_1,B,IMG_5109,B1,book keeper,book keeper,0,11,0.0
+S1,B_5109_2,B,IMG_5109,B2,letter,1etter,1,6,0.16666666666666666
+S1,B_5109_3,B,IMG_5109,B3,gradient,gradient,0,8,0.0
+S1,B_5110_1,B,IMG_5110,B1,book keeper,book keeper,0,11,0.0
+S1,B_5110_2,B,IMG_5110,B2,letter,etter,1,6,0.16666666666666666
+S1,B_5110_3,B,IMG_5110,B3,gradient,gradient,0,8,0.0
+S1,B_5111_1,B,IMG_5111,B1,book keeper,OOok keeper,1,11,0.09090909090909091
+S1,B_5111_2,B,IMG_5111,B2,letter,letter,0,6,0.0
+S1,B_5111_3,B,IMG_5111,B3,gradient,gradient,0,8,0.0
+S1,B_5112_1,B,IMG_5112,B1,book keeper,DOok keeper-,2,11,0.18181818181818182
+S1,B_5112_2,B,IMG_5112,B2,letter,1etter,1,6,0.16666666666666666
+S1,B_5112_3,B,IMG_5112,B3,gradient,gradient,0,8,0.0
+S1,C_5113_1,C,IMG_5113,C1,earth,Carth,1,5,0.2
+S1,C_5113_2,C,IMG_5113,C2,generalization,generalizatton,1,14,0.07142857142857142
+S1,C_5114_1,C,IMG_5114,C1,earth,earth,0,5,0.0
+S1,C_5114_2,C,IMG_5114,C2,generalization,generalization,0,14,0.0
+S1,C_5115_1,C,IMG_5115,C1,earth,Carth,1,5,0.2
+S1,C_5115_2,C,IMG_5115,C2,generalization,generalizatton,1,14,0.07142857142857142
+S1,D_5116_1,D,IMG_5116,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated lettevs in wovok such as Aiken and Xavier.,5,77,0.06493506493506493
+S1,D_5116_2,D,IMG_5116,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board contains a mixture of short words, long phroces and numbors",3,75,0.04
+S1,D_5116_3,D,IMG_5116,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand written character inside the recognition region,0,79,0.0
+S1,D_5117_1,D,IMG_5117,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated lettevs in wovok such as Aiken and Xavier.,5,77,0.06493506493506493
+S1,D_5117_2,D,IMG_5117,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board contains a mixtureof short words, long phroes and nuwboors",6,75,0.08
+S1,D_5117_3,D,IMG_5117,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand writteh character inside the recognition region,1,79,0.012658227848101266
+S1,D_5118_1,D,IMG_5118,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated lettevs in wovok such as Aiken and Xavier.,5,77,0.06493506493506493
+S1,D_5118_2,D,IMG_5118,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board contains a mixtureof short words, long phroces and numboors.",6,75,0.08
+S1,D_5118_3,D,IMG_5118,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand writteh character inside the recoanitior region,3,79,0.0379746835443038
+S1,D_5122_1,D,IMG_5122,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserve repeated letters in wovok such as Aiken and Kavier.,4,77,0.05194805194805195
+S1,D_5122_2,D,IMG_5122,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board contains a mixtwre of short words, long phroes and nuwborg",6,75,0.08
+S1,D_5122_3,D,IMG_5122,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand witteh character Tnside the recoghition region,4,79,0.05063291139240506
+S1,D_5123_1,D,IMG_5123,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserve repeated lettevs in wovok such as Aiken and Xavier.,4,77,0.05194805194805195
+S1,D_5123_2,D,IMG_5123,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board contains a mixtureof short words, long phroces and nuwbors",5,75,0.06666666666666667
+S1,D_5123_3,D,IMG_5123,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand writtoh character Tnside the recognition region,3,79,0.0379746835443038
+S1,D_5124_1,D,IMG_5124,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated letters in wovok such as Aiken and Xavier.,4,77,0.05194805194805195
+S1,D_5124_2,D,IMG_5124,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board contains a mixtureof short words, long phroces and nuwboors",6,75,0.08
+S1,D_5124_3,D,IMG_5124,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop kees every hand written character Tnside the recoghition region,3,79,0.0379746835443038
+S1,D_5119_1,D,IMG_5119,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeatedl lettes in wovok such as iken awd Kasier.,10,77,0.12987012987012986
+S1,D_5119_2,D,IMG_5119,D2,"The white board contains a mixture of short words, long phrases and numbers",The white board contains a mitwre of short words lon phres oan nwnbors.,12,75,0.16
+S1,D_5120_1,D,IMG_5120,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated ettevs in wovok such as Aiken aud Kasiere.,10,77,0.12987012987012986
+S1,D_5120_2,D,IMG_5120,D2,"The white board contains a mixture of short words, long phrases and numbers",The white board contains ai mixtwe of shortworos ln proes and nwilor.,16,75,0.21333333333333335
+S1,D_5121_1,D,IMG_5121,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated lettes in wovk such as Aiken ad Kasier,9,77,0.11688311688311688
+S1,D_5121_2,D,IMG_5121,D2,"The white board contains a mixture of short words, long phrases and numbers",The white booard comtains a mixtre of shot words lo prosand n bor.,16,75,0.21333333333333335
+S1,E_5125_1,E,IMG_5125,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+S1,E_5125_2,E,IMG_5125,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences",0,94,0.0
+S1,E_5126_1,E,IMG_5126,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+S1,E_5126_2,E,IMG_5126,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences",0,94,0.0
+S1,E_5127_1,E,IMG_5127,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+S1,E_5127_2,E,IMG_5127,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentenes",1,94,0.010638297872340425
+S1,E_5128_1,E,IMG_5128,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, presur, height n the smebarr.",7,76,0.09210526315789473
+S1,E_5128_2,E,IMG_5128,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detectrdoes not erge neihoig eos",15,94,0.1595744680851064
+S1,E_5129_1,E,IMG_5129,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spaing presue, eight on the same ars.",8,76,0.10526315789473684
+S1,E_5129_2,E,IMG_5129,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences",Please leave enough space between lines so the deteotodoes not mere nighwrig atetes.,16,94,0.1702127659574468
+S1,E_5130_1,E,IMG_5130,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use difrent spacing, presr, height n th sameb rs.",11,76,0.14473684210526316
+S1,E_5130_2,E,IMG_5130,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detectrdoes not mege neighorig e es.",13,94,0.13829787234042554
+S1,E_5131_1,E,IMG_5131,E1,"Different writers use different spacing, pressure, height on the same board.","Difrent writers use difrent spacin, presur, height on the same board.",7,76,0.09210526315789473
+S1,E_5131_2,E,IMG_5131,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please lenve enoug space betwee lines, so the detector does not merge neighbouring sentences.",4,94,0.0425531914893617
+S1,E_5132_1,E,IMG_5132,E1,"Different writers use different spacing, pressure, height on the same board.","Diffrent writers us diffent spacin, pressure, height on the same board.",5,76,0.06578947368421052
+S1,E_5132_2,E,IMG_5132,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences.",1,94,0.010638297872340425
+S1,E_5133_1,E,IMG_5133,E1,"Different writers use different spacing, pressure, height on the same board.","Diffrent writers us dierent spacing, presure, height on the same board.",5,76,0.06578947368421052
+S1,E_5133_2,E,IMG_5133,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences.",1,94,0.010638297872340425
+S1,E_5134_1,E,IMG_5134,E1,"Different writers use different spacing, pressure, height on the same board.","Diffrentwriters use iferent spacing, presur, height on the same board.",6,76,0.07894736842105263
+S1,E_5134_2,E,IMG_5134,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please lenave enough space between lines, so the detector does not merge neighbouring sentences.",2,94,0.02127659574468085
+S1,E_5135_1,E,IMG_5135,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers usedifferentspacing, preure, height on the same board.",4,76,0.05263157894736842
+S1,E_5135_2,E,IMG_5135,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences.",1,94,0.010638297872340425
+S1,E_5136_1,E,IMG_5136,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+S1,E_5136_2,E,IMG_5136,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detects does not mergeneighoring sentences",5,94,0.05319148936170213
+S1,E_5137_1,E,IMG_5137,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+S1,E_5137_2,E,IMG_5137,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detecto does not merge neigtourig oetenes",7,94,0.07446808510638298
+S1,E_5138_1,E,IMG_5138,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressre height on the same board.",2,76,0.02631578947368421
+S1,E_5138_2,E,IMG_5138,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","PTease leave enough space between lines, so the denecte does not merge neghourng oenens",11,94,0.11702127659574468
+S1s2,A_5095_1,A,IMG_5095,A1,bookkeeper,booKKeeer,1,10,0.1
+S1s2,A_5095_2,A,IMG_5095,A2,parallel,Parallel,0,8,0.0
+S1s2,A_5095_3,A,IMG_5095,A3,access,dccess,1,6,0.16666666666666666
+S1s2,A_5095_4,A,IMG_5095,A4,food,fgut,3,4,0.75
+S1s2,A_5095_5,A,IMG_5095,A5,weights,Weights,0,7,0.0
+S1s2,A_5095_6,A,IMG_5095,A6,ghosts,9husts,2,6,0.3333333333333333
+S1s2,A_5096_1,A,IMG_5096,A1,bookkeeper,booKKeeeer,1,10,0.1
+S1s2,A_5096_2,A,IMG_5096,A2,parallel,Para1lel,1,8,0.125
+S1s2,A_5096_3,A,IMG_5096,A3,access,dccess,1,6,0.16666666666666666
+S1s2,A_5096_4,A,IMG_5096,A4,food,fuut,3,4,0.75
+S1s2,A_5096_5,A,IMG_5096,A5,weights,Weights,0,7,0.0
+S1s2,A_5096_6,A,IMG_5096,A6,ghosts,MGSt,4,6,0.6666666666666666
+S1s2,A_5097_1,A,IMG_5097,A1,bookkeeper, bookkeeper,0,10,0.0
+S1s2,A_5097_2,A,IMG_5097,A2,parallel,Parallel,0,8,0.0
+S1s2,A_5097_3,A,IMG_5097,A3,access,dCcess,1,6,0.16666666666666666
+S1s2,A_5097_4,A,IMG_5097,A4,food,fogt,2,4,0.5
+S1s2,A_5098_1,A,IMG_5098,A1,bookkeeper,booKKeeper,0,10,0.0
+S1s2,A_5098_2,A,IMG_5098,A2,parallel,Pa1a1lel,2,8,0.25
+S1s2,A_5098_3,A,IMG_5098,A3,access,access,0,6,0.0
+S1s2,A_5098_4,A,IMG_5098,A4,food,fggt,3,4,0.75
+S1s2,A_5098_5,A,IMG_5098,A5,weights,Won9hts,3,7,0.42857142857142855
+S1s2,A_5098_6,A,IMG_5098,A6,ghosts,ghgsts,1,6,0.16666666666666666
+S1s2,A_5099_1,A,IMG_5099,A1,bookkeeper,boOKKeePer,0,10,0.0
+S1s2,A_5099_2,A,IMG_5099,A2,parallel,Para1lel,1,8,0.125
+S1s2,A_5099_3,A,IMG_5099,A3,access,dccess,1,6,0.16666666666666666
+S1s2,A_5099_4,A,IMG_5099,A4,food,fugd,2,4,0.5
+S1s2,A_5099_5,A,IMG_5099,A5,weights,woights,1,7,0.14285714285714285
+S1s2,A_5099_6,A,IMG_5099,A6,ghosts,ghasts,1,6,0.16666666666666666
+S1s2,A_5100_1,A,IMG_5100,A1,bookkeeper,DooKkeeper,1,10,0.1
+S1s2,A_5100_2,A,IMG_5100,A2,parallel,Parallel,0,8,0.0
+S1s2,A_5100_3,A,IMG_5100,A3,access,dccess,1,6,0.16666666666666666
+S1s2,A_5100_4,A,IMG_5100,A4,food,tog1,3,4,0.75
+S1s2,A_5100_5,A,IMG_5100,A5,weights,Weights,0,7,0.0
+S1s2,A_5100_6,A,IMG_5100,A6,ghosts,ghosts,0,6,0.0
+S1s2,A_5101_1,A,IMG_5101,A1,bookkeeper,booKkeeper,0,10,0.0
+S1s2,A_5101_2,A,IMG_5101,A2,parallel,Pdrallel,1,8,0.125
+S1s2,A_5101_3,A,IMG_5101,A3,access,access,0,6,0.0
+S1s2,A_5101_4,A,IMG_5101,A4,food,fgud,2,4,0.5
+S1s2,A_5101_5,A,IMG_5101,A5,weights,Weights,0,7,0.0
+S1s2,A_5101_6,A,IMG_5101,A6,ghosts,ghusts,1,6,0.16666666666666666
+S1s2,A_5102_1,A,IMG_5102,A1,bookkeeper,DooKKeeper,1,10,0.1
+S1s2,A_5102_2,A,IMG_5102,A2,parallel,Parallel,0,8,0.0
+S1s2,A_5102_3,A,IMG_5102,A3,access,access,0,6,0.0
+S1s2,A_5102_4,A,IMG_5102,A4,food,fogd,1,4,0.25
+S1s2,A_5102_5,A,IMG_5102,A5,weights,Weights,0,7,0.0
+S1s2,A_5102_6,A,IMG_5102,A6,ghosts,ghosts,0,6,0.0
+S1s2,A_5103_1,A,IMG_5103,A1,bookkeeper, bookkeeper,0,10,0.0
+S1s2,A_5103_2,A,IMG_5103,A2,parallel,Parallel,0,8,0.0
+S1s2,A_5103_3,A,IMG_5103,A3,access,access,0,6,0.0
+S1s2,A_5103_4,A,IMG_5103,A4,food,foud,1,4,0.25
+S1s2,A_5103_5,A,IMG_5103,A5,weights,Weights,0,7,0.0
+S1s2,A_5103_6,A,IMG_5103,A6,ghosts,ghosts,0,6,0.0
+S1s2,A_5104_1,A,IMG_5104,A1,bookkeeper, booKkeeper,0,10,0.0
+S1s2,A_5104_2,A,IMG_5104,A2,parallel,P arallel,1,8,0.125
+S1s2,A_5104_3,A,IMG_5104,A3,access,access,0,6,0.0
+S1s2,A_5104_4,A,IMG_5104,A4,food,fggd,2,4,0.5
+S1s2,A_5104_5,A,IMG_5104,A5,weights,Weights,0,7,0.0
+S1s2,A_5104_6,A,IMG_5104,A6,ghosts,ghosts,0,6,0.0
+S1s2,A_5105_1,A,IMG_5105,A1,bookkeeper,booKkeeper,0,10,0.0
+S1s2,A_5105_2,A,IMG_5105,A2,parallel,Parallel,0,8,0.0
+S1s2,A_5105_3,A,IMG_5105,A3,access,access,0,6,0.0
+S1s2,A_5105_4,A,IMG_5105,A4,food,fggd,2,4,0.5
+S1s2,A_5105_5,A,IMG_5105,A5,weights,Weights,0,7,0.0
+S1s2,A_5105_6,A,IMG_5105,A6,ghosts,ghasts,1,6,0.16666666666666666
+S1s2,A_5106_1,A,IMG_5106,A1,bookkeeper,booKkeeper,0,10,0.0
+S1s2,A_5106_2,A,IMG_5106,A2,parallel,Parallel,0,8,0.0
+S1s2,A_5106_3,A,IMG_5106,A3,access,access,0,6,0.0
+S1s2,A_5106_4,A,IMG_5106,A4,food,fggd,2,4,0.5
+S1s2,A_5106_5,A,IMG_5106,A5,weights,Weights,0,7,0.0
+S1s2,A_5106_6,A,IMG_5106,A6,ghosts,ghasts,1,6,0.16666666666666666
+S1s2,A_5107_1,A,IMG_5107,A1,bookkeeper,booKKeeper,0,10,0.0
+S1s2,A_5107_2,A,IMG_5107,A2,parallel,Parallel.,1,8,0.125
+S1s2,A_5107_3,A,IMG_5107,A3,access,aCCess,0,6,0.0
+S1s2,A_5107_4,A,IMG_5107,A4,food,fogt,2,4,0.5
+S1s2,A_5107_5,A,IMG_5107,A5,weights,Wonghts,2,7,0.2857142857142857
+S1s2,A_5107_6,A,IMG_5107,A6,ghosts,ghasts,1,6,0.16666666666666666
+S1s2,A_5108_1,A,IMG_5108,A1,bookkeeper,booKkeeper,0,10,0.0
+S1s2,A_5108_2,A,IMG_5108,A2,parallel,Parallel,0,8,0.0
+S1s2,A_5108_3,A,IMG_5108,A3,access,access,0,6,0.0
+S1s2,A_5108_4,A,IMG_5108,A4,food,fggt,3,4,0.75
+S1s2,A_5108_5,A,IMG_5108,A5,weights,Weights,0,7,0.0
+S1s2,A_5108_6,A,IMG_5108,A6,ghosts,ghasts,1,6,0.16666666666666666
+S1s2,B_5109_1,B,IMG_5109,B1,book keeper,book keeper,0,11,0.0
+S1s2,B_5109_2,B,IMG_5109,B2,letter,Tetter,1,6,0.16666666666666666
+S1s2,B_5109_3,B,IMG_5109,B3,gradient,gradienf,1,8,0.125
+S1s2,B_5110_1,B,IMG_5110,B1,book keeper,book keeper-,1,11,0.09090909090909091
+S1s2,B_5110_2,B,IMG_5110,B2,letter,Teeft er,4,6,0.6666666666666666
+S1s2,B_5110_3,B,IMG_5110,B3,gradient,gradienf,1,8,0.125
+S1s2,B_5111_1,B,IMG_5111,B1,book keeper,DOok keeper,1,11,0.09090909090909091
+S1s2,B_5111_2,B,IMG_5111,B2,letter,Tefter,2,6,0.3333333333333333
+S1s2,B_5111_3,B,IMG_5111,B3,gradient,gradienf,1,8,0.125
+S1s2,B_5112_1,B,IMG_5112,B1,book keeper,Dook keeper-.,3,11,0.2727272727272727
+S1s2,B_5112_2,B,IMG_5112,B2,letter,1etter,1,6,0.16666666666666666
+S1s2,B_5112_3,B,IMG_5112,B3,gradient,gradienf.,2,8,0.25
+S1s2,C_5113_1,C,IMG_5113,C1,earth,earth,0,5,0.0
+S1s2,C_5113_2,C,IMG_5113,C2,generalization,generalizatton,1,14,0.07142857142857142
+S1s2,C_5114_1,C,IMG_5114,C1,earth,earth,0,5,0.0
+S1s2,C_5114_2,C,IMG_5114,C2,generalization,generalizatton,1,14,0.07142857142857142
+S1s2,C_5115_1,C,IMG_5115,C1,earth,earth,0,5,0.0
+S1s2,C_5115_2,C,IMG_5115,C2,generalization,generalizatfon,1,14,0.07142857142857142
+S1s2,D_5116_1,D,IMG_5116,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue vrepeated letters in wovok such as Aiken and Xocuier.,8,77,0.1038961038961039
+S1s2,D_5116_2,D,IMG_5116,D2,"The white board contains a mixture of short words, long phrases and numbers","The white bonrd contains a mixtureof short words, long phroces and numbors.",6,75,0.08
+S1s2,D_5116_3,D,IMG_5116,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand witten Character inside the recognition region.,2,79,0.02531645569620253
+S1s2,D_5117_1,D,IMG_5117,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue vepeated letters in wovok such as Aiken and Xuier.,7,77,0.09090909090909091
+S1s2,D_5117_2,D,IMG_5117,D2,"The white board contains a mixture of short words, long phrases and numbers","The white bonrd contains a mixtureof short words, long phraes and numbors",4,75,0.05333333333333334
+S1s2,D_5117_3,D,IMG_5117,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand writteh character inside the recognition region,1,79,0.012658227848101266
+S1s2,D_5118_1,D,IMG_5118,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue vepeated lettevs in wovok such as Aiken and Xauier.,7,77,0.09090909090909091
+S1s2,D_5118_2,D,IMG_5118,D2,"The white board contains a mixture of short words, long phrases and numbers","The white bonrd contains a mixtureof short words, long phraes and numbors.",5,75,0.06666666666666667
+S1s2,D_5118_3,D,IMG_5118,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand wetteh character inside  the recognition region,3,79,0.0379746835443038
+S1s2,D_5122_1,D,IMG_5122,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserve repeated letters in wovok such as Aiken and Xauier.,4,77,0.05194805194805195
+S1s2,D_5122_2,D,IMG_5122,D2,"The white board contains a mixture of short words, long phrases and numbers","The white bourd contains a mixture of short words, long phraces and nunbors",4,75,0.05333333333333334
+S1s2,D_5122_3,D,IMG_5122,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand witteh character inside the recognition region,2,79,0.02531645569620253
+S1s2,D_5123_1,D,IMG_5123,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated letters in wovot such as Aiken and Xauier.,5,77,0.06493506493506493
+S1s2,D_5123_2,D,IMG_5123,D2,"The white board contains a mixture of short words, long phrases and numbers","The white borrd contains a mixture of short words, long phrases and nunbors",3,75,0.04
+S1s2,D_5123_3,D,IMG_5123,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand writteh character inside the recognition region,1,79,0.012658227848101266
+S1s2,D_5124_1,D,IMG_5124,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated letters in wovok such as Aiken and Xauier.,5,77,0.06493506493506493
+S1s2,D_5124_2,D,IMG_5124,D2,"The white board contains a mixture of short words, long phrases and numbers","The white bonrd contains ai mixtureof short words, long phraces and nunbors",6,75,0.08
+S1s2,D_5124_3,D,IMG_5124,D3,A careful crop keeps every hand written character inside the recognition region,A A careful crop keeps every hand written character inside the recognition region,2,79,0.02531645569620253
+S1s2,D_5119_1,D,IMG_5119,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue vepeated letters in wovok such as Aiken ad Xasier.,7,77,0.09090909090909091
+S1s2,D_5119_2,D,IMG_5119,D2,"The white board contains a mixture of short words, long phrases and numbers",The white board contains a miture of shont words ongpoes ane ors.,16,75,0.21333333333333335
+S1s2,D_5120_1,D,IMG_5120,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated lettes n wovok such as Aien ad Xaier.,9,77,0.11688311688311688
+S1s2,D_5120_2,D,IMG_5120,D2,"The white board contains a mixture of short words, long phrases and numbers",The whte bord contains ai mixtwre of hort wioros on phoes an ors.,20,75,0.26666666666666666
+S1s2,D_5121_1,D,IMG_5121,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated letters in wovek such as Aiken ad Xauir.,7,77,0.09090909090909091
+S1s2,D_5121_2,D,IMG_5121,D2,"The white board contains a mixture of short words, long phrases and numbers",The whte board contains a mixtre of hort words on phroes and n ors.,13,75,0.17333333333333334
+S1s2,E_5125_1,E,IMG_5125,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+S1s2,E_5125_2,E,IMG_5125,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences",0,94,0.0
+S1s2,E_5126_1,E,IMG_5126,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+S1s2,E_5126_2,E,IMG_5126,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences",0,94,0.0
+S1s2,E_5127_1,E,IMG_5127,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+S1s2,E_5127_2,E,IMG_5127,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighburing sentences",1,94,0.010638297872340425
+S1s2,E_5128_1,E,IMG_5128,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use diffent spacing presure, height on thesamebd.",9,76,0.11842105263157894
+S1s2,E_5128_2,E,IMG_5128,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between ines, so the etecordoe not erenihtoig es",21,94,0.22340425531914893
+S1s2,E_5129_1,E,IMG_5129,E1,"Different writers use different spacing, pressure, height on the same board.",Different writers use diffrent spacing presure height on tesamebad.,9,76,0.11842105263157894
+S1s2,E_5129_2,E,IMG_5129,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences",Please leave enough space between lines so the et etodoe not mere eighori tes.,20,94,0.2127659574468085
+S1s2,E_5130_1,E,IMG_5130,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use diferent spacing, presre, height on tesanmebcad.",9,76,0.11842105263157894
+S1s2,E_5130_2,E,IMG_5130,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the etectrdoes ot megeneighoiy es.",19,94,0.20212765957446807
+S1s2,E_5131_1,E,IMG_5131,E1,"Different writers use different spacing, pressure, height on the same board.","Diferent writers use diffrentspacing, pressure, height on the same board.",3,76,0.039473684210526314
+S1s2,E_5131_2,E,IMG_5131,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between ines, so the detectsr does not merge neighbouring sentences.",3,94,0.031914893617021274
+S1s2,E_5132_1,E,IMG_5132,E1,"Different writers use different spacing, pressure, height on the same board.","Diferent writes use dierent spacing, pressure, height on the same board.",4,76,0.05263157894736842
+S1s2,E_5132_2,E,IMG_5132,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Pleace leave enough space between lines, so the detector does not merge neighbouring sentences.",2,94,0.02127659574468085
+S1s2,E_5133_1,E,IMG_5133,E1,"Different writers use different spacing, pressure, height on the same board.","Difent writers use iffrent spacing, pesure, height on the same board.",7,76,0.09210526315789473
+S1s2,E_5133_2,E,IMG_5133,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences.",1,94,0.010638297872340425
+S1s2,E_5134_1,E,IMG_5134,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers usedifferent spacing, pressure, height on the same board.",1,76,0.013157894736842105
+S1s2,E_5134_2,E,IMG_5134,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between ines, so the detector does not merge neighbouring sentences",1,94,0.010638297872340425
+S1s2,E_5135_1,E,IMG_5135,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers usedifferentspacing, pressure, height on the same bourd.",3,76,0.039473684210526314
+S1s2,E_5135_2,E,IMG_5135,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences",0,94,0.0
+S1s2,E_5136_1,E,IMG_5136,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+S1s2,E_5136_2,E,IMG_5136,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detecte does not merge eigorn enteces",10,94,0.10638297872340426
+S1s2,E_5137_1,E,IMG_5137,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use diffrent spacing, pressre, height on the same board.",2,76,0.02631578947368421
+S1s2,E_5137_2,E,IMG_5137,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detecto does not merge neighorigi eteses",9,94,0.09574468085106383
+S1s2,E_5138_1,E,IMG_5138,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use diffrent spacing, presure,height on the same board.",3,76,0.039473684210526314
+S1s2,E_5138_2,E,IMG_5138,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detecter does not merge neghtorin enes",10,94,0.10638297872340426
+G0,A_5095_1,A,IMG_5095,A1,bookkeeper,bookkeeeer,1,10,0.1
+G0,A_5095_2,A,IMG_5095,A2,parallel,Parallel,0,8,0.0
+G0,A_5095_3,A,IMG_5095,A3,access,dccess,1,6,0.16666666666666666
+G0,A_5095_4,A,IMG_5095,A4,food,fogd,1,4,0.25
+G0,A_5095_5,A,IMG_5095,A5,weights,we1ghts,1,7,0.14285714285714285
+G0,A_5095_6,A,IMG_5095,A6,ghosts,9husts,2,6,0.3333333333333333
+G0,A_5096_1,A,IMG_5096,A1,bookkeeper,bookkeeer,1,10,0.1
+G0,A_5096_2,A,IMG_5096,A2,parallel,Parallel,0,8,0.0
+G0,A_5096_3,A,IMG_5096,A3,access,dCcess,1,6,0.16666666666666666
+G0,A_5096_4,A,IMG_5096,A4,food,fogd,1,4,0.25
+G0,A_5096_5,A,IMG_5096,A5,weights,woights,1,7,0.14285714285714285
+G0,A_5096_6,A,IMG_5096,A6,ghosts,mngstS,3,6,0.5
+G0,A_5097_1,A,IMG_5097,A1,bookkeeper, bookkeeper,0,10,0.0
+G0,A_5097_2,A,IMG_5097,A2,parallel,parallel,0,8,0.0
+G0,A_5097_3,A,IMG_5097,A3,access,dCCeSS,1,6,0.16666666666666666
+G0,A_5097_4,A,IMG_5097,A4,food,foud,1,4,0.25
+G0,A_5098_1,A,IMG_5098,A1,bookkeeper,bookkeeper,0,10,0.0
+G0,A_5098_2,A,IMG_5098,A2,parallel,Parallel,0,8,0.0
+G0,A_5098_3,A,IMG_5098,A3,access,aCCesS,0,6,0.0
+G0,A_5098_4,A,IMG_5098,A4,food,fgod,1,4,0.25
+G0,A_5098_5,A,IMG_5098,A5,weights,wonghts,2,7,0.2857142857142857
+G0,A_5098_6,A,IMG_5098,A6,ghosts,ghosts,0,6,0.0
+G0,A_5099_1,A,IMG_5099,A1,bookkeeper,bookkeePer,0,10,0.0
+G0,A_5099_2,A,IMG_5099,A2,parallel,parallel,0,8,0.0
+G0,A_5099_3,A,IMG_5099,A3,access,aCCesS,0,6,0.0
+G0,A_5099_4,A,IMG_5099,A4,food,fogd,1,4,0.25
+G0,A_5099_5,A,IMG_5099,A5,weights,woights,1,7,0.14285714285714285
+G0,A_5099_6,A,IMG_5099,A6,ghosts,ghosts,0,6,0.0
+G0,A_5100_1,A,IMG_5100,A1,bookkeeper,bo0kkeeper,1,10,0.1
+G0,A_5100_2,A,IMG_5100,A2,parallel,Parallel,0,8,0.0
+G0,A_5100_3,A,IMG_5100,A3,access,dCCess,1,6,0.16666666666666666
+G0,A_5100_4,A,IMG_5100,A4,food,tggd,3,4,0.75
+G0,A_5100_5,A,IMG_5100,A5,weights,Weights,0,7,0.0
+G0,A_5100_6,A,IMG_5100,A6,ghosts,ghosts,0,6,0.0
+G0,A_5101_1,A,IMG_5101,A1,bookkeeper,bookkeeper,0,10,0.0
+G0,A_5101_2,A,IMG_5101,A2,parallel,Parallel,0,8,0.0
+G0,A_5101_3,A,IMG_5101,A3,access,aCCess,0,6,0.0
+G0,A_5101_4,A,IMG_5101,A4,food,food,0,4,0.0
+G0,A_5101_5,A,IMG_5101,A5,weights,Weights,0,7,0.0
+G0,A_5101_6,A,IMG_5101,A6,ghosts,ghosts,0,6,0.0
+G0,A_5102_1,A,IMG_5102,A1,bookkeeper,bo0kkeeper,1,10,0.1
+G0,A_5102_2,A,IMG_5102,A2,parallel,Parallet,1,8,0.125
+G0,A_5102_3,A,IMG_5102,A3,access,dCCess,1,6,0.16666666666666666
+G0,A_5102_4,A,IMG_5102,A4,food,foud,1,4,0.25
+G0,A_5102_5,A,IMG_5102,A5,weights,Weights,0,7,0.0
+G0,A_5102_6,A,IMG_5102,A6,ghosts,9husts,2,6,0.3333333333333333
+G0,A_5103_1,A,IMG_5103,A1,bookkeeper,bookkeeper,0,10,0.0
+G0,A_5103_2,A,IMG_5103,A2,parallel,Parallel,0,8,0.0
+G0,A_5103_3,A,IMG_5103,A3,access,aCCess,0,6,0.0
+G0,A_5103_4,A,IMG_5103,A4,food,foud,1,4,0.25
+G0,A_5103_5,A,IMG_5103,A5,weights,Weights,0,7,0.0
+G0,A_5103_6,A,IMG_5103,A6,ghosts,ghosts,0,6,0.0
+G0,A_5104_1,A,IMG_5104,A1,bookkeeper,ookkeeper,1,10,0.1
+G0,A_5104_2,A,IMG_5104,A2,parallel,Parallel,0,8,0.0
+G0,A_5104_3,A,IMG_5104,A3,access,aCCess,0,6,0.0
+G0,A_5104_4,A,IMG_5104,A4,food,food,0,4,0.0
+G0,A_5104_5,A,IMG_5104,A5,weights,Weights,0,7,0.0
+G0,A_5104_6,A,IMG_5104,A6,ghosts,ghosts,0,6,0.0
+G0,A_5105_1,A,IMG_5105,A1,bookkeeper,bo0kkeeper,1,10,0.1
+G0,A_5105_2,A,IMG_5105,A2,parallel,Parallel,0,8,0.0
+G0,A_5105_3,A,IMG_5105,A3,access,aCCess,0,6,0.0
+G0,A_5105_4,A,IMG_5105,A4,food,food,0,4,0.0
+G0,A_5105_5,A,IMG_5105,A5,weights,We19hts,2,7,0.2857142857142857
+G0,A_5105_6,A,IMG_5105,A6,ghosts,ghasts,1,6,0.16666666666666666
+G0,A_5106_1,A,IMG_5106,A1,bookkeeper,bookkeeper,0,10,0.0
+G0,A_5106_2,A,IMG_5106,A2,parallel,Parallel,0,8,0.0
+G0,A_5106_3,A,IMG_5106,A3,access,dCCesS,1,6,0.16666666666666666
+G0,A_5106_4,A,IMG_5106,A4,food,food,0,4,0.0
+G0,A_5106_5,A,IMG_5106,A5,weights,Weights,0,7,0.0
+G0,A_5106_6,A,IMG_5106,A6,ghosts,ghusts,1,6,0.16666666666666666
+G0,A_5107_1,A,IMG_5107,A1,bookkeeper,bookkeeper,0,10,0.0
+G0,A_5107_2,A,IMG_5107,A2,parallel,Parallel,0,8,0.0
+G0,A_5107_3,A,IMG_5107,A3,access,aCCesS,0,6,0.0
+G0,A_5107_4,A,IMG_5107,A4,food,fogd,1,4,0.25
+G0,A_5107_5,A,IMG_5107,A5,weights,Wenghts,1,7,0.14285714285714285
+G0,A_5107_6,A,IMG_5107,A6,ghosts,9hosts,1,6,0.16666666666666666
+G0,A_5108_1,A,IMG_5108,A1,bookkeeper,bo0kkeeper,1,10,0.1
+G0,A_5108_2,A,IMG_5108,A2,parallel,Parallel,0,8,0.0
+G0,A_5108_3,A,IMG_5108,A3,access,aCCess,0,6,0.0
+G0,A_5108_4,A,IMG_5108,A4,food,food,0,4,0.0
+G0,A_5108_5,A,IMG_5108,A5,weights,Wenghts,1,7,0.14285714285714285
+G0,A_5108_6,A,IMG_5108,A6,ghosts,9hosts,1,6,0.16666666666666666
+G0,B_5109_1,B,IMG_5109,B1,book keeper,book keeper,0,11,0.0
+G0,B_5109_2,B,IMG_5109,B2,letter,letter,0,6,0.0
+G0,B_5109_3,B,IMG_5109,B3,gradient,gradienf,1,8,0.125
+G0,B_5110_1,B,IMG_5110,B1,book keeper,book keeper,0,11,0.0
+G0,B_5110_2,B,IMG_5110,B2,letter,etter,1,6,0.16666666666666666
+G0,B_5110_3,B,IMG_5110,B3,gradient,gradient,0,8,0.0
+G0,B_5111_1,B,IMG_5111,B1,book keeper,oook keeper,1,11,0.09090909090909091
+G0,B_5111_2,B,IMG_5111,B2,letter,etter,1,6,0.16666666666666666
+G0,B_5111_3,B,IMG_5111,B3,gradient,gradient.,1,8,0.125
+G0,B_5112_1,B,IMG_5112,B1,book keeper,book keeper,0,11,0.0
+G0,B_5112_2,B,IMG_5112,B2,letter,etter,1,6,0.16666666666666666
+G0,B_5112_3,B,IMG_5112,B3,gradient,gradient.,1,8,0.125
+G0,C_5113_1,C,IMG_5113,C1,earth,已arth,1,5,0.2
+G0,C_5113_2,C,IMG_5113,C2,generalization,generalizatton,1,14,0.07142857142857142
+G0,C_5114_1,C,IMG_5114,C1,earth,earth,0,5,0.0
+G0,C_5114_2,C,IMG_5114,C2,generalization,generalization,0,14,0.0
+G0,C_5115_1,C,IMG_5115,C1,earth,earth,0,5,0.0
+G0,C_5115_2,C,IMG_5115,C2,generalization,generalizatton,1,14,0.07142857142857142
+G0,D_5116_1,D,IMG_5116,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should presevue vepeated lettevs ln wovok such as Aiken and Xocuier.,11,77,0.14285714285714285
+G0,D_5116_2,D,IMG_5116,D2,"The white board contains a mixture of short words, long phrases and numbers","The whitte looard contains a mixture of short wovds, long phraces and numbors",6,75,0.08
+G0,D_5116_3,D,IMG_5116,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand wrtten character inside the recognition region,1,79,0.012658227848101266
+G0,D_5117_1,D,IMG_5117,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should presevue vepeated lettevs in wovok such as Aiken and xauier.,8,77,0.1038961038961039
+G0,D_5117_2,D,IMG_5117,D2,"The white board contains a mixture of short words, long phrases and numbers","The white ooard contains a mixture of short wovds, long phraces and numoors",5,75,0.06666666666666667
+G0,D_5117_3,D,IMG_5117,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand wriotten character inside the recognition region,1,79,0.012658227848101266
+G0,D_5118_1,D,IMG_5118,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue vepeated lettevs ln wovok such as Aiken and Xacvier.,8,77,0.1038961038961039
+G0,D_5118_2,D,IMG_5118,D2,"The white board contains a mixture of short words, long phrases and numbers","The white ooard contains a mixture of short words, long phraces and numoors",4,75,0.05333333333333334
+G0,D_5118_3,D,IMG_5118,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keieps every hand wriatten (haractev inside the recognition region,4,79,0.05063291139240506
+G0,D_5122_1,D,IMG_5122,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should presevue vepeated lotters ln wovok such as Aiken and Xavier.,8,77,0.1038961038961039
+G0,D_5122_2,D,IMG_5122,D2,"The white board contains a mixture of short words, long phrases and numbers","The white boord contains a mixture of short words, long phraces and nunbors",4,75,0.05333333333333334
+G0,D_5122_3,D,IMG_5122,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps erery hand writrten character inside the recognition region,2,79,0.02531645569620253
+G0,D_5123_1,D,IMG_5123,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue vepeated lottevs ln wovok such as Aiken and Xxuier.,10,77,0.12987012987012986
+G0,D_5123_2,D,IMG_5123,D2,"The white board contains a mixture of short words, long phrases and numbers","The white booard contains a mixture of short wovds, long phroses and numbors",4,75,0.05333333333333334
+G0,D_5123_3,D,IMG_5123,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand written character inside the recognition region,0,79,0.0
+G0,D_5124_1,D,IMG_5124,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should presevue vepeated lottevs ln wovok sych as Aiken and Xavier.,10,77,0.12987012987012986
+G0,D_5124_2,D,IMG_5124,D2,"The white board contains a mixture of short words, long phrases and numbers","The white bonrd contains a mixtwe of short wovds, long phroces and numbors.",8,75,0.10666666666666667
+G0,D_5124_3,D,IMG_5124,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keps every hand written character inside the recognition region,1,79,0.012658227848101266
+G0,D_5119_1,D,IMG_5119,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue vepeated letters in wovok such as Aiken and Kaveres.,9,77,0.11688311688311688
+G0,D_5119_2,D,IMG_5119,D2,"The white board contains a mixture of short words, long phrases and numbers",The white booard contains a moieture of shot weods og pres e  ber.,19,75,0.25333333333333335
+G0,D_5120_1,D,IMG_5120,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue vepeated lettevs ln wovoke such as Atiken ad avisre.,13,77,0.16883116883116883
+G0,D_5120_2,D,IMG_5120,D2,"The white board contains a mixture of short words, long phrases and numbers",The white oonrd comtains a mitreof shot wods on proes and wore,20,75,0.26666666666666666
+G0,D_5121_1,D,IMG_5121,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue vepeated letters lnwovok such as Aiken an xavier.,8,77,0.1038961038961039
+G0,D_5121_2,D,IMG_5121,D2,"The white board contains a mixture of short words, long phrases and numbers",The white loonrd comtains a mietreof shot wods lon preces a e iboer.,21,75,0.28
+G0,E_5125_1,E,IMG_5125,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, presure, height on the same board.",1,76,0.013157894736842105
+G0,E_5125_2,E,IMG_5125,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences",Please leave enough space between linesj so the detector does not merge neighbouring setenes,3,94,0.031914893617021274
+G0,E_5126_1,E,IMG_5126,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+G0,E_5126_2,E,IMG_5126,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences",0,94,0.0
+G0,E_5127_1,E,IMG_5127,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+G0,E_5127_2,E,IMG_5127,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the deteoctor does not merge neighbouring sentences",1,94,0.010638297872340425
+G0,E_5128_1,E,IMG_5128,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing,presur, height on te same bboad.",6,76,0.07894736842105263
+G0,E_5128_2,E,IMG_5128,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences",Please leave enough space between lnese o the etert does nt ege nghboi ee.,23,94,0.24468085106382978
+G0,E_5129_1,E,IMG_5129,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spaing presure, height on the same bbord.",5,76,0.06578947368421052
+G0,E_5129_2,E,IMG_5129,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences",Please leave enough space between lies o te e eot doe nt mege eghori ere,25,94,0.26595744680851063
+G0,E_5130_1,E,IMG_5130,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use dierent spacing,presur, hight on te same bbord",10,76,0.13157894736842105
+G0,E_5130_2,E,IMG_5130,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences",Please leave enough space between lnes sente detest oes nt megenighoines,25,94,0.26595744680851063
+G0,E_5131_1,E,IMG_5131,E1,"Different writers use different spacing, pressure, height on the same board.","Diferentwriters usediferent spacing, presure, height on the same board.",5,76,0.06578947368421052
+G0,E_5131_2,E,IMG_5131,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space betwen lines, so the detector does not merge neighbouring sentences.",2,94,0.02127659574468085
+G0,E_5132_1,E,IMG_5132,E1,"Different writers use different spacing, pressure, height on the same board.","Diferentwriters use difent spaing, presure, height on the same board.",7,76,0.09210526315789473
+G0,E_5132_2,E,IMG_5132,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences",Please leave erough space between lines so the detector does not merge neighbouring sentences,2,94,0.02127659574468085
+G0,E_5133_1,E,IMG_5133,E1,"Different writers use different spacing, pressure, height on the same board.","Dierent writers usedifferent spaein, pressure, height on the same board.",5,76,0.06578947368421052
+G0,E_5133_2,E,IMG_5133,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences",Please leave enouh space betwen linesj so the detectsr does not merge neighbouring sentences,4,94,0.0425531914893617
+G0,E_5134_1,E,IMG_5134,E1,"Different writers use different spacing, pressure, height on the same board.","Dierentwriters usedifferentspacing , presure, height on the same board.",7,76,0.09210526315789473
+G0,E_5134_2,E,IMG_5134,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences",0,94,0.0
+G0,E_5135_1,E,IMG_5135,E1,"Different writers use different spacing, pressure, height on the same board.","Diferent writers usedifferentspaeing, pressue, height on the same board.",5,76,0.06578947368421052
+G0,E_5135_2,E,IMG_5135,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences",0,94,0.0
+G0,E_5136_1,E,IMG_5136,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+G0,E_5136_2,E,IMG_5136,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detedor does nt merge eighorini eces",12,94,0.1276595744680851
+G0,E_5137_1,E,IMG_5137,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+G0,E_5137_2,E,IMG_5137,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences",Please leave enough space between lines so the detectr do es not merg neighorini etenes,10,94,0.10638297872340426
+G0,E_5138_1,E,IMG_5138,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressur, height on the same board.",1,76,0.013157894736842105
+G0,E_5138_2,E,IMG_5138,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the doneoter does not merge heighori entenes",11,94,0.11702127659574468
+G0s2,A_5095_1,A,IMG_5095,A1,bookkeeper,bookkeeer,1,10,0.1
+G0s2,A_5095_2,A,IMG_5095,A2,parallel,Parallel,0,8,0.0
+G0s2,A_5095_3,A,IMG_5095,A3,access,dccess,1,6,0.16666666666666666
+G0s2,A_5095_4,A,IMG_5095,A4,food,fog!,2,4,0.5
+G0s2,A_5095_5,A,IMG_5095,A5,weights,Weights,0,7,0.0
+G0s2,A_5095_6,A,IMG_5095,A6,ghosts,9hasts,2,6,0.3333333333333333
+G0s2,A_5096_1,A,IMG_5096,A1,bookkeeper,bookkeeeer,1,10,0.1
+G0s2,A_5096_2,A,IMG_5096,A2,parallel,Parallel,0,8,0.0
+G0s2,A_5096_3,A,IMG_5096,A3,access,dccess,1,6,0.16666666666666666
+G0s2,A_5096_4,A,IMG_5096,A4,food,fogs,2,4,0.5
+G0s2,A_5096_5,A,IMG_5096,A5,weights,weights,0,7,0.0
+G0s2,A_5096_6,A,IMG_5096,A6,ghosts,9hast,3,6,0.5
+G0s2,A_5097_1,A,IMG_5097,A1,bookkeeper, bookkeeper,0,10,0.0
+G0s2,A_5097_2,A,IMG_5097,A2,parallel,Parallel,0,8,0.0
+G0s2,A_5097_3,A,IMG_5097,A3,access,aCCesS,0,6,0.0
+G0s2,A_5097_4,A,IMG_5097,A4,food,fogl,2,4,0.5
+G0s2,A_5098_1,A,IMG_5098,A1,bookkeeper,bookkeeper,0,10,0.0
+G0s2,A_5098_2,A,IMG_5098,A2,parallel,Parallel,0,8,0.0
+G0s2,A_5098_3,A,IMG_5098,A3,access,aCCess,0,6,0.0
+G0s2,A_5098_4,A,IMG_5098,A4,food,fogt,2,4,0.5
+G0s2,A_5098_5,A,IMG_5098,A5,weights,Veights,1,7,0.14285714285714285
+G0s2,A_5098_6,A,IMG_5098,A6,ghosts,ghosts,0,6,0.0
+G0s2,A_5099_1,A,IMG_5099,A1,bookkeeper,bookkeeper,0,10,0.0
+G0s2,A_5099_2,A,IMG_5099,A2,parallel,Parallel,0,8,0.0
+G0s2,A_5099_3,A,IMG_5099,A3,access,aCCesS,0,6,0.0
+G0s2,A_5099_4,A,IMG_5099,A4,food,fogd,1,4,0.25
+G0s2,A_5099_5,A,IMG_5099,A5,weights,Weights,0,7,0.0
+G0s2,A_5099_6,A,IMG_5099,A6,ghosts,ghasts,1,6,0.16666666666666666
+G0s2,A_5100_1,A,IMG_5100,A1,bookkeeper,bookkeeper,0,10,0.0
+G0s2,A_5100_2,A,IMG_5100,A2,parallel,Parallel,0,8,0.0
+G0s2,A_5100_3,A,IMG_5100,A3,access,dCCess,1,6,0.16666666666666666
+G0s2,A_5100_4,A,IMG_5100,A4,food,f0od,1,4,0.25
+G0s2,A_5100_5,A,IMG_5100,A5,weights,weights,0,7,0.0
+G0s2,A_5100_6,A,IMG_5100,A6,ghosts,ghosts,0,6,0.0
+G0s2,A_5101_1,A,IMG_5101,A1,bookkeeper,Dookkeeper,1,10,0.1
+G0s2,A_5101_2,A,IMG_5101,A2,parallel,Parallel,0,8,0.0
+G0s2,A_5101_3,A,IMG_5101,A3,access,dCCess,1,6,0.16666666666666666
+G0s2,A_5101_4,A,IMG_5101,A4,food,fogd,1,4,0.25
+G0s2,A_5101_5,A,IMG_5101,A5,weights,Weights,0,7,0.0
+G0s2,A_5101_6,A,IMG_5101,A6,ghosts,ghosts,0,6,0.0
+G0s2,A_5102_1,A,IMG_5102,A1,bookkeeper,bookkeeper,0,10,0.0
+G0s2,A_5102_2,A,IMG_5102,A2,parallel,Parallel,0,8,0.0
+G0s2,A_5102_3,A,IMG_5102,A3,access,dCCess,1,6,0.16666666666666666
+G0s2,A_5102_4,A,IMG_5102,A4,food,foud,1,4,0.25
+G0s2,A_5102_5,A,IMG_5102,A5,weights,Weights,0,7,0.0
+G0s2,A_5102_6,A,IMG_5102,A6,ghosts,ghosts,0,6,0.0
+G0s2,A_5103_1,A,IMG_5103,A1,bookkeeper,bookkeeper,0,10,0.0
+G0s2,A_5103_2,A,IMG_5103,A2,parallel,Parallel,0,8,0.0
+G0s2,A_5103_3,A,IMG_5103,A3,access,dCCess,1,6,0.16666666666666666
+G0s2,A_5103_4,A,IMG_5103,A4,food,food,0,4,0.0
+G0s2,A_5103_5,A,IMG_5103,A5,weights,Weights,0,7,0.0
+G0s2,A_5103_6,A,IMG_5103,A6,ghosts,ghosts,0,6,0.0
+G0s2,A_5104_1,A,IMG_5104,A1,bookkeeper,bookkeeper,0,10,0.0
+G0s2,A_5104_2,A,IMG_5104,A2,parallel,P arallel,1,8,0.125
+G0s2,A_5104_3,A,IMG_5104,A3,access,dCCess,1,6,0.16666666666666666
+G0s2,A_5104_4,A,IMG_5104,A4,food,fogd,1,4,0.25
+G0s2,A_5104_5,A,IMG_5104,A5,weights,Weights,0,7,0.0
+G0s2,A_5104_6,A,IMG_5104,A6,ghosts,ghosts,0,6,0.0
+G0s2,A_5105_1,A,IMG_5105,A1,bookkeeper,bookkeeper,0,10,0.0
+G0s2,A_5105_2,A,IMG_5105,A2,parallel,Parallel,0,8,0.0
+G0s2,A_5105_3,A,IMG_5105,A3,access,dCCess,1,6,0.16666666666666666
+G0s2,A_5105_4,A,IMG_5105,A4,food,food,0,4,0.0
+G0s2,A_5105_5,A,IMG_5105,A5,weights,weights,0,7,0.0
+G0s2,A_5105_6,A,IMG_5105,A6,ghosts,9hasts,2,6,0.3333333333333333
+G0s2,A_5106_1,A,IMG_5106,A1,bookkeeper,bookkeeper,0,10,0.0
+G0s2,A_5106_2,A,IMG_5106,A2,parallel,Parallel,0,8,0.0
+G0s2,A_5106_3,A,IMG_5106,A3,access,dCCess,1,6,0.16666666666666666
+G0s2,A_5106_4,A,IMG_5106,A4,food,fogd,1,4,0.25
+G0s2,A_5106_5,A,IMG_5106,A5,weights,Weights,0,7,0.0
+G0s2,A_5106_6,A,IMG_5106,A6,ghosts,ghasts,1,6,0.16666666666666666
+G0s2,A_5107_1,A,IMG_5107,A1,bookkeeper,bookkeeper,0,10,0.0
+G0s2,A_5107_2,A,IMG_5107,A2,parallel,Parallel,0,8,0.0
+G0s2,A_5107_3,A,IMG_5107,A3,access,dCCess,1,6,0.16666666666666666
+G0s2,A_5107_4,A,IMG_5107,A4,food,fogd,1,4,0.25
+G0s2,A_5107_5,A,IMG_5107,A5,weights,weights,0,7,0.0
+G0s2,A_5107_6,A,IMG_5107,A6,ghosts,9hasts,2,6,0.3333333333333333
+G0s2,A_5108_1,A,IMG_5108,A1,bookkeeper,bookkeeper,0,10,0.0
+G0s2,A_5108_2,A,IMG_5108,A2,parallel,Parallel,0,8,0.0
+G0s2,A_5108_3,A,IMG_5108,A3,access,dCCess,1,6,0.16666666666666666
+G0s2,A_5108_4,A,IMG_5108,A4,food,fogt,2,4,0.5
+G0s2,A_5108_5,A,IMG_5108,A5,weights,weights,0,7,0.0
+G0s2,A_5108_6,A,IMG_5108,A6,ghosts,9hasts,2,6,0.3333333333333333
+G0s2,B_5109_1,B,IMG_5109,B1,book keeper,book keeper,0,11,0.0
+G0s2,B_5109_2,B,IMG_5109,B2,letter,efter,2,6,0.3333333333333333
+G0s2,B_5109_3,B,IMG_5109,B3,gradient,gradienf,1,8,0.125
+G0s2,B_5110_1,B,IMG_5110,B1,book keeper,book keeper,0,11,0.0
+G0s2,B_5110_2,B,IMG_5110,B2,letter,etter,1,6,0.16666666666666666
+G0s2,B_5110_3,B,IMG_5110,B3,gradient,gradient,0,8,0.0
+G0s2,B_5111_1,B,IMG_5111,B1,book keeper,book keeper,0,11,0.0
+G0s2,B_5111_2,B,IMG_5111,B2,letter,efter,2,6,0.3333333333333333
+G0s2,B_5111_3,B,IMG_5111,B3,gradient,gradienf,1,8,0.125
+G0s2,B_5112_1,B,IMG_5112,B1,book keeper,book keeper-,1,11,0.09090909090909091
+G0s2,B_5112_2,B,IMG_5112,B2,letter,efter,2,6,0.3333333333333333
+G0s2,B_5112_3,B,IMG_5112,B3,gradient,gradienf.,2,8,0.25
+G0s2,C_5113_1,C,IMG_5113,C1,earth,earth,0,5,0.0
+G0s2,C_5113_2,C,IMG_5113,C2,generalization,generalizattor,2,14,0.14285714285714285
+G0s2,C_5114_1,C,IMG_5114,C1,earth,earth,0,5,0.0
+G0s2,C_5114_2,C,IMG_5114,C2,generalization,generalization,0,14,0.0
+G0s2,C_5115_1,C,IMG_5115,C1,earth,earth,0,5,0.0
+G0s2,C_5115_2,C,IMG_5115,C2,generalization,generalizatfor,2,14,0.14285714285714285
+G0s2,D_5116_1,D,IMG_5116,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated lettevs in wovdk such as Aiken and Xacvier.,5,77,0.06493506493506493
+G0s2,D_5116_2,D,IMG_5116,D2,"The white board contains a mixture of short words, long phrases and numbers","The white booard contains a mixture of short wovds, long phraces and nunbers",4,75,0.05333333333333334
+G0s2,D_5116_3,D,IMG_5116,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand wxiotten character ihside the recognition regior,4,79,0.05063291139240506
+G0s2,D_5117_1,D,IMG_5117,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated lettevs in wovok such as Aiken and Xavier.,5,77,0.06493506493506493
+G0s2,D_5117_2,D,IMG_5117,D2,"The white board contains a mixture of short words, long phrases and numbers","The white booard contains a mixture of short wovds, long phraces and nunbors",5,75,0.06666666666666667
+G0s2,D_5117_3,D,IMG_5117,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand wriotteh character inside the recognition region,2,79,0.02531645569620253
+G0s2,D_5118_1,D,IMG_5118,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue vepeated lettevs in wovd such as Aiken and Xacvier.,6,77,0.07792207792207792
+G0s2,D_5118_2,D,IMG_5118,D2,"The white board contains a mixture of short words, long phrases and numbers","The white booard contains a mixture of short words, long phvaces and numbors",4,75,0.05333333333333334
+G0s2,D_5118_3,D,IMG_5118,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand wxiotteh character inside the recognition region,3,79,0.0379746835443038
+G0s2,D_5122_1,D,IMG_5122,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserne repeated lettevs in wovok such as Aiken and Xxvier.,6,77,0.07792207792207792
+G0s2,D_5122_2,D,IMG_5122,D2,"The white board contains a mixture of short words, long phrases and numbers","The white bonrd contains ai mixtwre of short wovds, long phvaces and nuwbers",7,75,0.09333333333333334
+G0s2,D_5122_3,D,IMG_5122,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand witten character ihside the recognition region,2,79,0.02531645569620253
+G0s2,D_5123_1,D,IMG_5123,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserve repeated lettevs in wovok such as Aiken and Xxuier.,6,77,0.07792207792207792
+G0s2,D_5123_2,D,IMG_5123,D2,"The white board contains a mixture of short words, long phrases and numbers","The white bonrd contains a mixture of short wovds, long phroses and nunbcors",6,75,0.08
+G0s2,D_5123_3,D,IMG_5123,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand written character ihside the recoghition region,2,79,0.02531645569620253
+G0s2,D_5124_1,D,IMG_5124,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated lettevs in wovok such as Aiken and Xxuier.,7,77,0.09090909090909091
+G0s2,D_5124_2,D,IMG_5124,D2,"The white board contains a mixture of short words, long phrases and numbers","The white lbonrd contains ai mixtuve of short wovds, long phvoces and nunbors",10,75,0.13333333333333333
+G0s2,D_5124_3,D,IMG_5124,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keepsevery hand written character inside the recoghition region,2,79,0.02531645569620253
+G0s2,D_5119_1,D,IMG_5119,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue vepeated lettevs in wovok such as Aiken ant avier.,8,77,0.1038961038961039
+G0s2,D_5119_2,D,IMG_5119,D2,"The white board contains a mixture of short words, long phrases and numbers",The white booard contains a mitureof shot wors ongphoes send um  brs,16,75,0.21333333333333335
+G0s2,D_5120_1,D,IMG_5120,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated lettevs in wovok such as Aiken aud avies,9,77,0.11688311688311688
+G0s2,D_5120_2,D,IMG_5120,D2,"The white board contains a mixture of short words, long phrases and numbers","The white boonrd contains ai mixture of shont wovos, on phoes an nunbbre",15,75,0.2
+G0s2,D_5121_1,D,IMG_5121,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue vepeated letters in wovek such as Aiken ant auier.,8,77,0.1038961038961039
+G0s2,D_5121_2,D,IMG_5121,D2,"The white board contains a mixture of short words, long phrases and numbers",The whtte oonrd contains a mixtureofshont wovds lon phoes andn  brs,16,75,0.21333333333333335
+G0s2,E_5125_1,E,IMG_5125,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+G0s2,E_5125_2,E,IMG_5125,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences",0,94,0.0
+G0s2,E_5126_1,E,IMG_5126,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+G0s2,E_5126_2,E,IMG_5126,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detedtor does not merge neighbouring sentences",1,94,0.010638297872340425
+G0s2,E_5127_1,E,IMG_5127,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+G0s2,E_5127_2,E,IMG_5127,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detedtor does not merge neighbouring sentences",1,94,0.010638297872340425
+G0s2,E_5128_1,E,IMG_5128,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing presur, height on te same bard.",5,76,0.06578947368421052
+G0s2,E_5128_2,E,IMG_5128,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences",Please leave enough space betreen lines so the deteotr does not merge eigboi steses,14,94,0.14893617021276595
+G0s2,E_5129_1,E,IMG_5129,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use diffrent spacing, presure, height on hesme board.",5,76,0.06578947368421052
+G0s2,E_5129_2,E,IMG_5129,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences",Please leave enough space between lies so the eteoto des not mere egoril stess,19,94,0.20212765957446807
+G0s2,E_5130_1,E,IMG_5130,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use diferent spacing presr, height on te sme boare.",8,76,0.10526315789473684
+G0s2,E_5130_2,E,IMG_5130,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences",Please leave enough space between lines so the etectr does not merg neighboiy ors,16,94,0.1702127659574468
+G0s2,E_5131_1,E,IMG_5131,E1,"Different writers use different spacing, pressure, height on the same board.","Diferentwritersuse iferent spacing, presure, height on the same board.",6,76,0.07894736842105263
+G0s2,E_5131_2,E,IMG_5131,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences.",1,94,0.010638297872340425
+G0s2,E_5132_1,E,IMG_5132,E1,"Different writers use different spacing, pressure, height on the same board.","Differentwriters use diffent spacing, presure, height on the same board.",4,76,0.05263157894736842
+G0s2,E_5132_2,E,IMG_5132,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences.",1,94,0.010638297872340425
+G0s2,E_5133_1,E,IMG_5133,E1,"Different writers use different spacing, pressure, height on the same board.","Different riters usediferent spacing, pesure, height on the same board.",5,76,0.06578947368421052
+G0s2,E_5133_2,E,IMG_5133,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences.",1,94,0.010638297872340425
+G0s2,E_5134_1,E,IMG_5134,E1,"Different writers use different spacing, pressure, height on the same board.","Pifferent writers use different spacing, presure, height on the same board.",2,76,0.02631578947368421
+G0s2,E_5134_2,E,IMG_5134,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences",0,94,0.0
+G0s2,E_5135_1,E,IMG_5135,E1,"Different writers use different spacing, pressure, height on the same board.","Pifferent writers use different spacing, presure, height on the same board.",2,76,0.02631578947368421
+G0s2,E_5135_2,E,IMG_5135,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences",0,94,0.0
+G0s2,E_5136_1,E,IMG_5136,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing,presure, height on the same board.",2,76,0.02631578947368421
+G0s2,E_5136_2,E,IMG_5136,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the deteder does not merge neigborin etences",8,94,0.0851063829787234
+G0s2,E_5137_1,E,IMG_5137,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing,presure, height on the same board.",2,76,0.02631578947368421
+G0s2,E_5137_2,E,IMG_5137,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the deteoctor does not merge neighborig ete.",9,94,0.09574468085106383
+G0s2,E_5138_1,E,IMG_5138,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing , pressre, height on the same board.",2,76,0.02631578947368421
+G0s2,E_5138_2,E,IMG_5138,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the denteder does not merge eighborigi etenes.",12,94,0.1276595744680851
+V2,A_5095_1,A,IMG_5095,A1,bookkeeper,booK keeperd,2,10,0.2
+V2,A_5095_2,A,IMG_5095,A2,parallel,parallel,0,8,0.0
+V2,A_5095_3,A,IMG_5095,A3,access,access,0,6,0.0
+V2,A_5095_4,A,IMG_5095,A4,food,fogd,1,4,0.25
+V2,A_5095_5,A,IMG_5095,A5,weights,weights,0,7,0.0
+V2,A_5095_6,A,IMG_5095,A6,ghosts,ghosts,0,6,0.0
+V2,A_5096_1,A,IMG_5096,A1,bookkeeper,bookkeeleer,2,10,0.2
+V2,A_5096_2,A,IMG_5096,A2,parallel,Parallel,0,8,0.0
+V2,A_5096_3,A,IMG_5096,A3,access,dccess,1,6,0.16666666666666666
+V2,A_5096_4,A,IMG_5096,A4,food,food,0,4,0.0
+V2,A_5096_5,A,IMG_5096,A5,weights,weights,0,7,0.0
+V2,A_5096_6,A,IMG_5096,A6,ghosts,GhoSt9,1,6,0.16666666666666666
+V2,A_5097_1,A,IMG_5097,A1,bookkeeper, bookkeeper,0,10,0.0
+V2,A_5097_2,A,IMG_5097,A2,parallel,parallel,0,8,0.0
+V2,A_5097_3,A,IMG_5097,A3,access,aCCeSS,0,6,0.0
+V2,A_5097_4,A,IMG_5097,A4,food,foud,1,4,0.25
+V2,A_5098_1,A,IMG_5098,A1,bookkeeper,booKKeeper,0,10,0.0
+V2,A_5098_2,A,IMG_5098,A2,parallel,Parallel,0,8,0.0
+V2,A_5098_3,A,IMG_5098,A3,access,aCCesS,0,6,0.0
+V2,A_5098_4,A,IMG_5098,A4,food,food,0,4,0.0
+V2,A_5098_5,A,IMG_5098,A5,weights,woights,1,7,0.14285714285714285
+V2,A_5098_6,A,IMG_5098,A6,ghosts,ghosts,0,6,0.0
+V2,A_5099_1,A,IMG_5099,A1,bookkeeper,booKKeeper,0,10,0.0
+V2,A_5099_2,A,IMG_5099,A2,parallel,parallel,0,8,0.0
+V2,A_5099_3,A,IMG_5099,A3,access,aCCesS,0,6,0.0
+V2,A_5099_4,A,IMG_5099,A4,food,food,0,4,0.0
+V2,A_5099_5,A,IMG_5099,A5,weights,woights,1,7,0.14285714285714285
+V2,A_5099_6,A,IMG_5099,A6,ghosts,ghosts,0,6,0.0
+V2,A_5100_1,A,IMG_5100,A1,bookkeeper,Dookkeeper,1,10,0.1
+V2,A_5100_2,A,IMG_5100,A2,parallel,Parallel,0,8,0.0
+V2,A_5100_3,A,IMG_5100,A3,access,aCcess,0,6,0.0
+V2,A_5100_4,A,IMG_5100,A4,food,fogd,1,4,0.25
+V2,A_5100_5,A,IMG_5100,A5,weights,weights,0,7,0.0
+V2,A_5100_6,A,IMG_5100,A6,ghosts,ghosts,0,6,0.0
+V2,A_5101_1,A,IMG_5101,A1,bookkeeper,bookkeeper,0,10,0.0
+V2,A_5101_2,A,IMG_5101,A2,parallel,Paralled,1,8,0.125
+V2,A_5101_3,A,IMG_5101,A3,access,access,0,6,0.0
+V2,A_5101_4,A,IMG_5101,A4,food,food,0,4,0.0
+V2,A_5101_5,A,IMG_5101,A5,weights,weights,0,7,0.0
+V2,A_5101_6,A,IMG_5101,A6,ghosts,ghosts,0,6,0.0
+V2,A_5102_1,A,IMG_5102,A1,bookkeeper,Dookkeeper,1,10,0.1
+V2,A_5102_2,A,IMG_5102,A2,parallel,Parallel,0,8,0.0
+V2,A_5102_3,A,IMG_5102,A3,access,aCcess,0,6,0.0
+V2,A_5102_4,A,IMG_5102,A4,food,food,0,4,0.0
+V2,A_5102_5,A,IMG_5102,A5,weights,weights,0,7,0.0
+V2,A_5102_6,A,IMG_5102,A6,ghosts,ghosts,0,6,0.0
+V2,A_5103_1,A,IMG_5103,A1,bookkeeper, bookkeeper,0,10,0.0
+V2,A_5103_2,A,IMG_5103,A2,parallel,Parallel,0,8,0.0
+V2,A_5103_3,A,IMG_5103,A3,access,aCcess,0,6,0.0
+V2,A_5103_4,A,IMG_5103,A4,food,food,0,4,0.0
+V2,A_5103_5,A,IMG_5103,A5,weights,weights,0,7,0.0
+V2,A_5103_6,A,IMG_5103,A6,ghosts,ghosts,0,6,0.0
+V2,A_5104_1,A,IMG_5104,A1,bookkeeper, book keeper,1,10,0.1
+V2,A_5104_2,A,IMG_5104,A2,parallel,Parallel,0,8,0.0
+V2,A_5104_3,A,IMG_5104,A3,access,access,0,6,0.0
+V2,A_5104_4,A,IMG_5104,A4,food,food,0,4,0.0
+V2,A_5104_5,A,IMG_5104,A5,weights,weights,0,7,0.0
+V2,A_5104_6,A,IMG_5104,A6,ghosts,ghosts,0,6,0.0
+V2,A_5105_1,A,IMG_5105,A1,bookkeeper,bookkeeper,0,10,0.0
+V2,A_5105_2,A,IMG_5105,A2,parallel,Parallel,0,8,0.0
+V2,A_5105_3,A,IMG_5105,A3,access,aCcess,0,6,0.0
+V2,A_5105_4,A,IMG_5105,A4,food,foad,1,4,0.25
+V2,A_5105_5,A,IMG_5105,A5,weights,weights,0,7,0.0
+V2,A_5105_6,A,IMG_5105,A6,ghosts,ghasts,1,6,0.16666666666666666
+V2,A_5106_1,A,IMG_5106,A1,bookkeeper,booKkeeper,0,10,0.0
+V2,A_5106_2,A,IMG_5106,A2,parallel,Parallel,0,8,0.0
+V2,A_5106_3,A,IMG_5106,A3,access,aCcesS,0,6,0.0
+V2,A_5106_4,A,IMG_5106,A4,food,foud,1,4,0.25
+V2,A_5106_5,A,IMG_5106,A5,weights,weights,0,7,0.0
+V2,A_5106_6,A,IMG_5106,A6,ghosts,ghasts,1,6,0.16666666666666666
+V2,A_5107_1,A,IMG_5107,A1,bookkeeper,book keeper,1,10,0.1
+V2,A_5107_2,A,IMG_5107,A2,parallel,Parallel.,1,8,0.125
+V2,A_5107_3,A,IMG_5107,A3,access,aCCesS,0,6,0.0
+V2,A_5107_4,A,IMG_5107,A4,food,foad,1,4,0.25
+V2,A_5107_5,A,IMG_5107,A5,weights,weights,0,7,0.0
+V2,A_5107_6,A,IMG_5107,A6,ghosts,ghosts,0,6,0.0
+V2,A_5108_1,A,IMG_5108,A1,bookkeeper,bookkeeper,0,10,0.0
+V2,A_5108_2,A,IMG_5108,A2,parallel,Parallel,0,8,0.0
+V2,A_5108_3,A,IMG_5108,A3,access,aCcess,0,6,0.0
+V2,A_5108_4,A,IMG_5108,A4,food,food,0,4,0.0
+V2,A_5108_5,A,IMG_5108,A5,weights,weights,0,7,0.0
+V2,A_5108_6,A,IMG_5108,A6,ghosts,ghosts,0,6,0.0
+V2,B_5109_1,B,IMG_5109,B1,book keeper,book keeper,0,11,0.0
+V2,B_5109_2,B,IMG_5109,B2,letter,lettex,1,6,0.16666666666666666
+V2,B_5109_3,B,IMG_5109,B3,gradient,gradienf,1,8,0.125
+V2,B_5110_1,B,IMG_5110,B1,book keeper,book Keeper,0,11,0.0
+V2,B_5110_2,B,IMG_5110,B2,letter,LefteR,1,6,0.16666666666666666
+V2,B_5110_3,B,IMG_5110,B3,gradient,gradienf,1,8,0.125
+V2,B_5111_1,B,IMG_5111,B1,book keeper,Oook Keeper,1,11,0.09090909090909091
+V2,B_5111_2,B,IMG_5111,B2,letter,Lefter,1,6,0.16666666666666666
+V2,B_5111_3,B,IMG_5111,B3,gradient,gradienf,1,8,0.125
+V2,B_5112_1,B,IMG_5112,B1,book keeper,book Keeper,0,11,0.0
+V2,B_5112_2,B,IMG_5112,B2,letter,Lefter,1,6,0.16666666666666666
+V2,B_5112_3,B,IMG_5112,B3,gradient,gradienf,1,8,0.125
+V2,C_5113_1,C,IMG_5113,C1,earth,earth,0,5,0.0
+V2,C_5113_2,C,IMG_5113,C2,generalization,generalization,0,14,0.0
+V2,C_5114_1,C,IMG_5114,C1,earth,earth,0,5,0.0
+V2,C_5114_2,C,IMG_5114,C2,generalization,generalization,0,14,0.0
+V2,C_5115_1,C,IMG_5115,C1,earth,earth,0,5,0.0
+V2,C_5115_2,C,IMG_5115,C2,generalization,generalizati on,1,14,0.07142857142857142
+V2,D_5116_1,D,IMG_5116,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserve repeated lettevs in wovok such as Aiken and Xacvier.,5,77,0.06493506493506493
+V2,D_5116_2,D,IMG_5116,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board contains a mixture of short words, long phraces and numbors",2,75,0.02666666666666667
+V2,D_5116_3,D,IMG_5116,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps evevy hand wriotteh character inside the recognition vegior,5,79,0.06329113924050633
+V2,D_5117_1,D,IMG_5117,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated Vettevs in wovok such as Aiken and Xaovier.,7,77,0.09090909090909091
+V2,D_5117_2,D,IMG_5117,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board contains a mixtureof short wovds, long phroces and numbors.",6,75,0.08
+V2,D_5117_3,D,IMG_5117,D3,A careful crop keeps every hand written character inside the recognition region,A caveful crop keeps evevy hand writteh character inside the recognition region,3,79,0.0379746835443038
+V2,D_5118_1,D,IMG_5118,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserve vepeated Vettevs in wovok such as Aiken and Xavier.,6,77,0.07792207792207792
+V2,D_5118_2,D,IMG_5118,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board contains a mixtureof short words, long phraces and numbors.",4,75,0.05333333333333334
+V2,D_5118_3,D,IMG_5118,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand writteh character inside the recognition region,1,79,0.012658227848101266
+V2,D_5122_1,D,IMG_5122,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserve repeated letters in wovok such as Aiken and Xavier.,3,77,0.03896103896103896
+V2,D_5122_2,D,IMG_5122,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board contains a mixtwreof short wovds, long phraces and numbors.",6,75,0.08
+V2,D_5122_3,D,IMG_5122,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand witth chavacter inside the recognition region.,5,79,0.06329113924050633
+V2,D_5123_1,D,IMG_5123,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserve vepeated lettevs in wovok such as Aiken and Xavier.,5,77,0.06493506493506493
+V2,D_5123_2,D,IMG_5123,D2,"The white board contains a mixture of short words, long phrases and numbers","The white bonrd contains a mixtureof short words, long phraces and numbiors.",6,75,0.08
+V2,D_5123_3,D,IMG_5123,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop kes every hand wittoh character inside the recoghition region,6,79,0.0759493670886076
+V2,D_5124_1,D,IMG_5124,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserve vepeated lettevs in wovok such as Aiken and Xavier.,5,77,0.06493506493506493
+V2,D_5124_2,D,IMG_5124,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board contains a mixtwe of short wovds, long phraces and numbors",5,75,0.06666666666666667
+V2,D_5124_3,D,IMG_5124,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop kecpsevery hand writton chavacter inside the recoghition region,5,79,0.06329113924050633
+V2,D_5119_1,D,IMG_5119,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserve repeatedl lettos in wovoe such as Aiken ad Kasvies..,11,77,0.14285714285714285
+V2,D_5119_2,D,IMG_5119,D2,"The white board contains a mixture of short words, long phrases and numbers",The white board contains a mistwe o shont words ong phroes and nos.,15,75,0.2
+V2,D_5120_1,D,IMG_5120,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserve vrepeated lettevs in wovoe such as Aiken ad Kasies.,9,77,0.11688311688311688
+V2,D_5120_2,D,IMG_5120,D2,"The white board contains a mixture of short words, long phrases and numbers",The white board contains a mitweof short words ongproes andnwm ors.,15,75,0.2
+V2,D_5121_1,D,IMG_5121,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserve repeated lettevs in wovot such as Aiken ad acier,8,77,0.1038961038961039
+V2,D_5121_2,D,IMG_5121,D2,"The white board contains a mixture of short words, long phrases and numbers",The white board contains a mitxtre of sort wonds ln proesand nos.,17,75,0.22666666666666666
+V2,E_5125_1,E,IMG_5125,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+V2,E_5125_2,E,IMG_5125,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neghbouring sentences",1,94,0.010638297872340425
+V2,E_5126_1,E,IMG_5126,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+V2,E_5126_2,E,IMG_5126,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the deteadtr does not merge neighbouring senteces",4,94,0.0425531914893617
+V2,E_5127_1,E,IMG_5127,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+V2,E_5127_2,E,IMG_5127,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detedtor does not merge neighbouring senteces",2,94,0.02127659574468085
+V2,E_5128_1,E,IMG_5128,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use diffrent spacin, presure, height n the samebvrd.",7,76,0.09210526315789473
+V2,E_5128_2,E,IMG_5128,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences",Please leave enough spacre between ines so the deteotr oes not ere neighborig eoe.,17,94,0.18085106382978725
+V2,E_5129_1,E,IMG_5129,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing presure, height on the samebavrd.",5,76,0.06578947368421052
+V2,E_5129_2,E,IMG_5129,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the deteto oes not merge nigorin es.",16,94,0.1702127659574468
+V2,E_5130_1,E,IMG_5130,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, presur, height on the same beard.",3,76,0.039473684210526314
+V2,E_5130_2,E,IMG_5130,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detetedoe not mege neigorin nees.",16,94,0.1702127659574468
+V2,E_5131_1,E,IMG_5131,E1,"Different writers use different spacing, pressure, height on the same board.","Difrentwritersuse diffrent spacing, prsure, height on the same board.",7,76,0.09210526315789473
+V2,E_5131_2,E,IMG_5131,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enouh space between lines, so the detector does not merge neighbouring sentences.",2,94,0.02127659574468085
+V2,E_5132_1,E,IMG_5132,E1,"Different writers use different spacing, pressure, height on the same board.","Diferent writers use diffent spacing, presure, height on the same board.",4,76,0.05263157894736842
+V2,E_5132_2,E,IMG_5132,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enogh space beteen lines, so the deteotsr does not merge neighbouring sentences",4,94,0.0425531914893617
+V2,E_5133_1,E,IMG_5133,E1,"Different writers use different spacing, pressure, height on the same board.","Diferent writers use difent spacing, pressur, height on the same board.",5,76,0.06578947368421052
+V2,E_5133_2,E,IMG_5133,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space beteen lines, so the detectsr does not merge neighbouring sentences.",3,94,0.031914893617021274
+V2,E_5134_1,E,IMG_5134,E1,"Different writers use different spacing, pressure, height on the same board.","Diferent writers us different spacing, prsure, height on the same board.",4,76,0.05263157894736842
+V2,E_5134_2,E,IMG_5134,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave erough space between lines, so the detector does not merge neighbouring sentences",1,94,0.010638297872340425
+V2,E_5135_1,E,IMG_5135,E1,"Different writers use different spacing, pressure, height on the same board.","Diferent writers use ient spacing, presure, height on the same board.",7,76,0.09210526315789473
+V2,E_5135_2,E,IMG_5135,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences",0,94,0.0
+V2,E_5136_1,E,IMG_5136,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+V2,E_5136_2,E,IMG_5136,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detecter does not merge negourin oenteces.",8,94,0.0851063829787234
+V2,E_5137_1,E,IMG_5137,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressure, height on the same board.",0,76,0.0
+V2,E_5137_2,E,IMG_5137,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the deteoto does not mergs eighouringroenece.",10,94,0.10638297872340426
+V2,E_5138_1,E,IMG_5138,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use diferent spacing, pressue, height on the same board.",2,76,0.02631578947368421
+V2,E_5138_2,E,IMG_5138,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the deneorr does not merge neihouinroentes",13,94,0.13829787234042554
+S1his,A_5095_1,A,IMG_5095,A1,bookkeeper,bookkeeper,0,10,0.0
+S1his,A_5095_2,A,IMG_5095,A2,parallel,Parallel,0,8,0.0
+S1his,A_5095_3,A,IMG_5095,A3,access,Cdccess,2,6,0.3333333333333333
+S1his,A_5095_4,A,IMG_5095,A4,food,food,0,4,0.0
+S1his,A_5095_5,A,IMG_5095,A5,weights,Weights,0,7,0.0
+S1his,A_5095_6,A,IMG_5095,A6,ghosts,ghosts,0,6,0.0
+S1his,A_5096_1,A,IMG_5096,A1,bookkeeper,bookkeceer,2,10,0.2
+S1his,A_5096_2,A,IMG_5096,A2,parallel,Parallel,0,8,0.0
+S1his,A_5096_3,A,IMG_5096,A3,access,dccess,1,6,0.16666666666666666
+S1his,A_5096_4,A,IMG_5096,A4,food,food,0,4,0.0
+S1his,A_5096_5,A,IMG_5096,A5,weights,Weights,0,7,0.0
+S1his,A_5096_6,A,IMG_5096,A6,ghosts,Mosts,2,6,0.3333333333333333
+S1his,A_5097_1,A,IMG_5097,A1,bookkeeper,bookkeerer,1,10,0.1
+S1his,A_5097_2,A,IMG_5097,A2,parallel,Parallel,0,8,0.0
+S1his,A_5097_3,A,IMG_5097,A3,access,access,0,6,0.0
+S1his,A_5097_4,A,IMG_5097,A4,food,food,0,4,0.0
+S1his,A_5098_1,A,IMG_5098,A1,bookkeeper,bookkeerer,1,10,0.1
+S1his,A_5098_2,A,IMG_5098,A2,parallel,Parallel,0,8,0.0
+S1his,A_5098_3,A,IMG_5098,A3,access,access,0,6,0.0
+S1his,A_5098_4,A,IMG_5098,A4,food,food,0,4,0.0
+S1his,A_5098_5,A,IMG_5098,A5,weights,weights,0,7,0.0
+S1his,A_5098_6,A,IMG_5098,A6,ghosts,ghosts,0,6,0.0
+S1his,A_5099_1,A,IMG_5099,A1,bookkeeper,bookkeerer,1,10,0.1
+S1his,A_5099_2,A,IMG_5099,A2,parallel,Parallel,0,8,0.0
+S1his,A_5099_3,A,IMG_5099,A3,access,access,0,6,0.0
+S1his,A_5099_4,A,IMG_5099,A4,food,food,0,4,0.0
+S1his,A_5099_5,A,IMG_5099,A5,weights,Woights,1,7,0.14285714285714285
+S1his,A_5099_6,A,IMG_5099,A6,ghosts,ghosts,0,6,0.0
+S1his,A_5100_1,A,IMG_5100,A1,bookkeeper,bookkeeper,0,10,0.0
+S1his,A_5100_2,A,IMG_5100,A2,parallel,Parallel,0,8,0.0
+S1his,A_5100_3,A,IMG_5100,A3,access,dccess,1,6,0.16666666666666666
+S1his,A_5100_4,A,IMG_5100,A4,food,tood,1,4,0.25
+S1his,A_5100_5,A,IMG_5100,A5,weights,Weights,0,7,0.0
+S1his,A_5100_6,A,IMG_5100,A6,ghosts,gnosts,1,6,0.16666666666666666
+S1his,A_5101_1,A,IMG_5101,A1,bookkeeper,bookkeeper,0,10,0.0
+S1his,A_5101_2,A,IMG_5101,A2,parallel,Porallel,1,8,0.125
+S1his,A_5101_3,A,IMG_5101,A3,access,dccess,1,6,0.16666666666666666
+S1his,A_5101_4,A,IMG_5101,A4,food,food,0,4,0.0
+S1his,A_5101_5,A,IMG_5101,A5,weights,Weights,0,7,0.0
+S1his,A_5101_6,A,IMG_5101,A6,ghosts,ghosts,0,6,0.0
+S1his,A_5102_1,A,IMG_5102,A1,bookkeeper,bookkeeper,0,10,0.0
+S1his,A_5102_2,A,IMG_5102,A2,parallel,Parallel,0,8,0.0
+S1his,A_5102_3,A,IMG_5102,A3,access,dccess,1,6,0.16666666666666666
+S1his,A_5102_4,A,IMG_5102,A4,food,food,0,4,0.0
+S1his,A_5102_5,A,IMG_5102,A5,weights,Weights,0,7,0.0
+S1his,A_5102_6,A,IMG_5102,A6,ghosts,9hosts,1,6,0.16666666666666666
+S1his,A_5103_1,A,IMG_5103,A1,bookkeeper, bookkeeper,0,10,0.0
+S1his,A_5103_2,A,IMG_5103,A2,parallel,Parallel,0,8,0.0
+S1his,A_5103_3,A,IMG_5103,A3,access,aCcess,0,6,0.0
+S1his,A_5103_4,A,IMG_5103,A4,food,food,0,4,0.0
+S1his,A_5103_5,A,IMG_5103,A5,weights,Weights,0,7,0.0
+S1his,A_5103_6,A,IMG_5103,A6,ghosts,9nosts,2,6,0.3333333333333333
+S1his,A_5104_1,A,IMG_5104,A1,bookkeeper, bookkeeper,0,10,0.0
+S1his,A_5104_2,A,IMG_5104,A2,parallel,Parallel,0,8,0.0
+S1his,A_5104_3,A,IMG_5104,A3,access,access,0,6,0.0
+S1his,A_5104_4,A,IMG_5104,A4,food,food,0,4,0.0
+S1his,A_5104_5,A,IMG_5104,A5,weights,Weights,0,7,0.0
+S1his,A_5104_6,A,IMG_5104,A6,ghosts,ghosts,0,6,0.0
+S1his,A_5105_1,A,IMG_5105,A1,bookkeeper,bookkeeper,0,10,0.0
+S1his,A_5105_2,A,IMG_5105,A2,parallel,Parallel,0,8,0.0
+S1his,A_5105_3,A,IMG_5105,A3,access,aCcess,0,6,0.0
+S1his,A_5105_4,A,IMG_5105,A4,food,food,0,4,0.0
+S1his,A_5105_5,A,IMG_5105,A5,weights,Weights,0,7,0.0
+S1his,A_5105_6,A,IMG_5105,A6,ghosts,ghosts,0,6,0.0
+S1his,A_5106_1,A,IMG_5106,A1,bookkeeper,bookkeeper,0,10,0.0
+S1his,A_5106_2,A,IMG_5106,A2,parallel,Parallel,0,8,0.0
+S1his,A_5106_3,A,IMG_5106,A3,access,access,0,6,0.0
+S1his,A_5106_4,A,IMG_5106,A4,food,food,0,4,0.0
+S1his,A_5106_5,A,IMG_5106,A5,weights,Weights,0,7,0.0
+S1his,A_5106_6,A,IMG_5106,A6,ghosts,ghosts,0,6,0.0
+S1his,A_5107_1,A,IMG_5107,A1,bookkeeper,bookkeerer,1,10,0.1
+S1his,A_5107_2,A,IMG_5107,A2,parallel,Parallel,0,8,0.0
+S1his,A_5107_3,A,IMG_5107,A3,access,access,0,6,0.0
+S1his,A_5107_4,A,IMG_5107,A4,food,food,0,4,0.0
+S1his,A_5107_5,A,IMG_5107,A5,weights,Weights,0,7,0.0
+S1his,A_5107_6,A,IMG_5107,A6,ghosts,ghosts,0,6,0.0
+S1his,A_5108_1,A,IMG_5108,A1,bookkeeper,bookkeerer,1,10,0.1
+S1his,A_5108_2,A,IMG_5108,A2,parallel,Parallel,0,8,0.0
+S1his,A_5108_3,A,IMG_5108,A3,access,aCcess,0,6,0.0
+S1his,A_5108_4,A,IMG_5108,A4,food,food,0,4,0.0
+S1his,A_5108_5,A,IMG_5108,A5,weights,Weights,0,7,0.0
+S1his,A_5108_6,A,IMG_5108,A6,ghosts,9hosts,1,6,0.16666666666666666
+S1his,B_5109_1,B,IMG_5109,B1,book keeper,book keeper,0,11,0.0
+S1his,B_5109_2,B,IMG_5109,B2,letter,letter,0,6,0.0
+S1his,B_5109_3,B,IMG_5109,B3,gradient,gradient,0,8,0.0
+S1his,B_5110_1,B,IMG_5110,B1,book keeper,book keeper,0,11,0.0
+S1his,B_5110_2,B,IMG_5110,B2,letter,etter,1,6,0.16666666666666666
+S1his,B_5110_3,B,IMG_5110,B3,gradient,gradient,0,8,0.0
+S1his,B_5111_1,B,IMG_5111,B1,book keeper,book keeper,0,11,0.0
+S1his,B_5111_2,B,IMG_5111,B2,letter,letter,0,6,0.0
+S1his,B_5111_3,B,IMG_5111,B3,gradient,gradient,0,8,0.0
+S1his,B_5112_1,B,IMG_5112,B1,book keeper,book keeper,0,11,0.0
+S1his,B_5112_2,B,IMG_5112,B2,letter,letter,0,6,0.0
+S1his,B_5112_3,B,IMG_5112,B3,gradient,gradient,0,8,0.0
+S1his,C_5113_1,C,IMG_5113,C1,earth,earth,0,5,0.0
+S1his,C_5113_2,C,IMG_5113,C2,generalization,generalization,0,14,0.0
+S1his,C_5114_1,C,IMG_5114,C1,earth,earth,0,5,0.0
+S1his,C_5114_2,C,IMG_5114,C2,generalization,generalization,0,14,0.0
+S1his,C_5115_1,C,IMG_5115,C1,earth,earth,0,5,0.0
+S1his,C_5115_2,C,IMG_5115,C2,generalization,generalization,0,14,0.0
+S1his,D_5116_1,D,IMG_5116,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated lottevs ln wovod such as Aiken and Xouvier.,9,77,0.11688311688311688
+S1his,D_5116_2,D,IMG_5116,D2,"The white board contains a mixture of short words, long phrases and numbers","The whfte board contains a mixtureof short words, long phroes and numbors",5,75,0.06666666666666667
+S1his,D_5116_3,D,IMG_5116,D3,A careful crop keeps every hand written character inside the recognition region,Acareful crop keeps every hane written character inside the recognitior regior,4,79,0.05063291139240506
+S1his,D_5117_1,D,IMG_5117,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated letters in wovok such as Aiken and Xaver.,5,77,0.06493506493506493
+S1his,D_5117_2,D,IMG_5117,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board comtains a mixtureof short words, long phroces and numbors",5,75,0.06666666666666667
+S1his,D_5117_3,D,IMG_5117,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand written character inside the recognitior region,1,79,0.012658227848101266
+S1his,D_5118_1,D,IMG_5118,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserue repeated letters in wovd such as Aiken and Xavier.,3,77,0.03896103896103896
+S1his,D_5118_2,D,IMG_5118,D2,"The white board contains a mixture of short words, long phrases and numbers","The whfte board contains a mixtureof short words, long phroces and numbors",5,75,0.06666666666666667
+S1his,D_5118_3,D,IMG_5118,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand written character inside the recognitior regior,2,79,0.02531645569620253
+S1his,D_5122_1,D,IMG_5122,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should presewve repeated lotters in wovok Such as Aiken and uier.,8,77,0.1038961038961039
+S1his,D_5122_2,D,IMG_5122,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board contains a mixtureof short words, long phroces and numbors",4,75,0.05333333333333334
+S1his,D_5122_3,D,IMG_5122,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps erery hand written character inside the recognition region,1,79,0.012658227848101266
+S1his,D_5123_1,D,IMG_5123,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserve repeated letters in wovok such as Aiken and Xuier.,5,77,0.06493506493506493
+S1his,D_5123_2,D,IMG_5123,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board contains a mixtureof short words, long phroces and numbors",4,75,0.05333333333333334
+S1his,D_5123_3,D,IMG_5123,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps every hand written character inside the recognitior region,1,79,0.012658227848101266
+S1his,D_5124_1,D,IMG_5124,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserve repeated lotters in wovok Such as Aiken and Xuier.,6,77,0.07792207792207792
+S1his,D_5124_2,D,IMG_5124,D2,"The white board contains a mixture of short words, long phrases and numbers","The white board contains a mixtureof short words, long phroces and numbors",4,75,0.05333333333333334
+S1his,D_5124_3,D,IMG_5124,D3,A careful crop keeps every hand written character inside the recognition region,A careful crop keeps eiery hand witten character i nside the recognitior region,4,79,0.05063291139240506
+S1his,D_5119_1,D,IMG_5119,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should presere repeeated letters in wovok such os Aiken and xier,9,77,0.11688311688311688
+S1his,D_5119_2,D,IMG_5119,D2,"The white board contains a mixture of short words, long phrases and numbers",The white board contalins amixtureof short wods ng phoes and nrs,14,75,0.18666666666666668
+S1his,D_5120_1,D,IMG_5120,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should preserve repeated letters in wovk such as Aiken ad xairs,7,77,0.09090909090909091
+S1his,D_5120_2,D,IMG_5120,D2,"The white board contains a mixture of short words, long phrases and numbers",The white board contains a moixturef short words on phos and nunrs,13,75,0.17333333333333334
+S1his,D_5121_1,D,IMG_5121,D1,The model should preserve repeated letters in words such as Aiken and Xavier.,The model should presere repeeated letters in wovek such as Aiken and Xawer.,7,77,0.09090909090909091
+S1his,D_5121_2,D,IMG_5121,D2,"The white board contains a mixture of short words, long phrases and numbers",The white bonrd comtains a mixtureof short words longphrces and anrs,12,75,0.16
+S1his,E_5125_1,E,IMG_5125,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressare, height on the same board.",1,76,0.013157894736842105
+S1his,E_5125_2,E,IMG_5125,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between ines, so the detector does not merge neighbouring sentences",1,94,0.010638297872340425
+S1his,E_5126_1,E,IMG_5126,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressare, height on the same board.",1,76,0.013157894736842105
+S1his,E_5126_2,E,IMG_5126,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between ines, so the detecter does not merge neighbouring sentence",3,94,0.031914893617021274
+S1his,E_5127_1,E,IMG_5127,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers ase different spacing,pressare, height on the same board.",3,76,0.039473684210526314
+S1his,E_5127_2,E,IMG_5127,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between ines, so the detector does not merge neighbouring setences",2,94,0.02127659574468085
+S1his,E_5128_1,E,IMG_5128,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use diferent spacing, presare, height on the sae br.",7,76,0.09210526315789473
+S1his,E_5128_2,E,IMG_5128,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detectr does not mergeneighong es",13,94,0.13829787234042554
+S1his,E_5129_1,E,IMG_5129,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different sparcing presure, height on the some ard.",6,76,0.07894736842105263
+S1his,E_5129_2,E,IMG_5129,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between ines, so the detotr ds not mere nigho e.",22,94,0.23404255319148937
+S1his,E_5130_1,E,IMG_5130,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use diffent spacing, presare, height on the same rd.",7,76,0.09210526315789473
+S1his,E_5130_2,E,IMG_5130,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detectr does not megeneigho s",17,94,0.18085106382978725
+S1his,E_5131_1,E,IMG_5131,E1,"Different writers use different spacing, pressure, height on the same board.","Difrentwriters ase diferent spacing, pressure, height on the same bard.",6,76,0.07894736842105263
+S1his,E_5131_2,E,IMG_5131,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Plese leave enough space between ines, so the detector does not merge neighbouring sentences",2,94,0.02127659574468085
+S1his,E_5132_1,E,IMG_5132,E1,"Different writers use different spacing, pressure, height on the same board.","Diferent writers ase diferent spacing, pressure, height on the same board.",3,76,0.039473684210526314
+S1his,E_5132_2,E,IMG_5132,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please eave enough space beteen lines, so the detector does not merge neighbouring sentences",2,94,0.02127659574468085
+S1his,E_5133_1,E,IMG_5133,E1,"Different writers use different spacing, pressure, height on the same board.","Difrent writers use diferent spacing, resare, height on the same board.",6,76,0.07894736842105263
+S1his,E_5133_2,E,IMG_5133,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space beween ines, so the detector does not merge neighbouring sentences",2,94,0.02127659574468085
+S1his,E_5134_1,E,IMG_5134,E1,"Different writers use different spacing, pressure, height on the same board.","Difrent writers asediffentspacing, pressure, height on the same board.",7,76,0.09210526315789473
+S1his,E_5134_2,E,IMG_5134,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space beteen lines, so the detector does not merge neighbouring sentences",1,94,0.010638297872340425
+S1his,E_5135_1,E,IMG_5135,E1,"Different writers use different spacing, pressure, height on the same board.","Difrent writers us diferent spacing, pressure, height on the same board.",4,76,0.05263157894736842
+S1his,E_5135_2,E,IMG_5135,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge neighbouring sentences",0,94,0.0
+S1his,E_5136_1,E,IMG_5136,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use different spacing, pressre, height on the same board.",1,76,0.013157894736842105
+S1his,E_5136_2,E,IMG_5136,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detectr does not merge neighboring sentens",4,94,0.0425531914893617
+S1his,E_5137_1,E,IMG_5137,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use diffrent spacing, pressre, height on the same board.",2,76,0.02631578947368421
+S1his,E_5137_2,E,IMG_5137,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the detector does not merge negbouring sene",7,94,0.07446808510638298
+S1his,E_5138_1,E,IMG_5138,E1,"Different writers use different spacing, pressure, height on the same board.","Different writers use diferent spacing, presure, height on the same board.",2,76,0.02631578947368421
+S1his,E_5138_2,E,IMG_5138,E2,"Please leave enough space between lines, so the detector does not merge neighbouring sentences","Please leave enough space between lines, so the deteter does not merge neighbouring sentocs",5,94,0.05319148936170213

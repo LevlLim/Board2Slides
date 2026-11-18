@@ -1,0 +1,11 @@
+Convolutional Neural Networks
+A filter slides across the image
+Each filter learns one kind of edge or texture
+2x2 max pooling with stride 2 halves the width and height
+Max pooling keeps the strongest response in each window and ignores small shifts
+Stride 2 skips every second position
+The output size is (W - F + 2P) / S + 1
+ReLU sets negative values to zero
+Deeper layers detect larger patterns
+Fully connected layer → class scores
+Softmax turns scores into probabilities

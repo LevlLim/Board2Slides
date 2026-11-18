@@ -1,0 +1,397 @@
+/workspace/venv_b2n/lib/python3.12/site-packages/paddle/utils/cpp_extension/extension_utils.py:718: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+Skipping import of the encryption module.
+[2026/11/11 10:35:08] ppocr INFO: Architecture : 
+[2026/11/11 10:35:08] ppocr INFO:     Backbone : 
+[2026/11/11 10:35:08] ppocr INFO:         name : PPHGNetV2_B4
+[2026/11/11 10:35:08] ppocr INFO:         text_rec : True
+[2026/11/11 10:35:08] ppocr INFO:     Head : 
+[2026/11/11 10:35:08] ppocr INFO:         head_list : 
+[2026/11/11 10:35:08] ppocr INFO:             CTCHead : 
+[2026/11/11 10:35:08] ppocr INFO:                 Head : 
+[2026/11/11 10:35:08] ppocr INFO:                     fc_decay : 1e-05
+[2026/11/11 10:35:08] ppocr INFO:                 Neck : 
+[2026/11/11 10:35:08] ppocr INFO:                     depth : 2
+[2026/11/11 10:35:08] ppocr INFO:                     dims : 120
+[2026/11/11 10:35:08] ppocr INFO:                     hidden_dims : 120
+[2026/11/11 10:35:08] ppocr INFO:                     kernel_size : [1, 3]
+[2026/11/11 10:35:08] ppocr INFO:                     name : svtr
+[2026/11/11 10:35:08] ppocr INFO:                     use_guide : True
+[2026/11/11 10:35:08] ppocr INFO:             NRTRHead : 
+[2026/11/11 10:35:08] ppocr INFO:                 max_text_length : 100
+[2026/11/11 10:35:08] ppocr INFO:                 nrtr_dim : 384
+[2026/11/11 10:35:08] ppocr INFO:         name : MultiHead
+[2026/11/11 10:35:08] ppocr INFO:     Transform : None
+[2026/11/11 10:35:08] ppocr INFO:     algorithm : SVTR_HGNet
+[2026/11/11 10:35:08] ppocr INFO:     model_type : rec
+[2026/11/11 10:35:08] ppocr INFO: Eval : 
+[2026/11/11 10:35:08] ppocr INFO:     dataset : 
+[2026/11/11 10:35:08] ppocr INFO:         data_dir : /workspace/b2n/experiments/server_c0_20261111/data/b2n_data
+[2026/11/11 10:35:08] ppocr INFO:         label_file_list : ['/workspace/b2n/experiments/server_c0_20261111/data/val_wb.txt']
+[2026/11/11 10:35:08] ppocr INFO:         name : SimpleDataSet
+[2026/11/11 10:35:08] ppocr INFO:         transforms : 
+[2026/11/11 10:35:08] ppocr INFO:             DecodeImage : 
+[2026/11/11 10:35:08] ppocr INFO:                 channel_first : False
+[2026/11/11 10:35:08] ppocr INFO:                 img_mode : BGR
+[2026/11/11 10:35:08] ppocr INFO:             MultiLabelEncode : 
+[2026/11/11 10:35:08] ppocr INFO:                 gtc_encode : NRTRLabelEncode
+[2026/11/11 10:35:08] ppocr INFO:             RecResizeImg : 
+[2026/11/11 10:35:08] ppocr INFO:                 image_shape : [3, 48, 1024]
+[2026/11/11 10:35:08] ppocr INFO:             KeepKeys : 
+[2026/11/11 10:35:08] ppocr INFO:                 keep_keys : ['image', 'label_ctc', 'label_gtc', 'length', 'valid_ratio']
+[2026/11/11 10:35:08] ppocr INFO:     loader : 
+[2026/11/11 10:35:08] ppocr INFO:         batch_size_per_card : 16
+[2026/11/11 10:35:08] ppocr INFO:         drop_last : False
+[2026/11/11 10:35:08] ppocr INFO:         num_workers : 4
+[2026/11/11 10:35:08] ppocr INFO:         shuffle : False
+[2026/11/11 10:35:08] ppocr INFO: Global : 
+[2026/11/11 10:35:08] ppocr INFO:     cal_metric_during_train : True
+[2026/11/11 10:35:08] ppocr INFO:     calc_epoch_interval : 1
+[2026/11/11 10:35:08] ppocr INFO:     character_dict_path : /workspace/b2n/PaddleOCR_versions/ppocr/utils/dict/ppocrv5_dict.txt
+[2026/11/11 10:35:08] ppocr INFO:     checkpoints : None
+[2026/11/11 10:35:08] ppocr INFO:     d2s_train_image_shape : [3, 48, 1024]
+[2026/11/11 10:35:08] ppocr INFO:     debug : False
+[2026/11/11 10:35:08] ppocr INFO:     distributed : False
+[2026/11/11 10:35:08] ppocr INFO:     epoch_num : 17
+[2026/11/11 10:35:08] ppocr INFO:     eval_batch_step : [0, 400]
+[2026/11/11 10:35:08] ppocr INFO:     infer_img : /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb
+[2026/11/11 10:35:08] ppocr INFO:     infer_mode : False
+[2026/11/11 10:35:08] ppocr INFO:     log_smooth_window : 20
+[2026/11/11 10:35:08] ppocr INFO:     max_text_length : 100
+[2026/11/11 10:35:08] ppocr INFO:     model_name : PP-OCRv5_server_rec
+[2026/11/11 10:35:08] ppocr INFO:     pretrained_model : /workspace/b2n/PaddleOCR_versions/PP-OCRv5_server_rec_pretrained
+[2026/11/11 10:35:08] ppocr INFO:     print_batch_step : 50
+[2026/11/11 10:35:08] ppocr INFO:     save_epoch_step : 1000000
+[2026/11/11 10:35:08] ppocr INFO:     save_inference_dir : None
+[2026/11/11 10:35:08] ppocr INFO:     save_model_dir : /workspace/b2n/experiments/server_c0_20261111/runs/pretrained
+[2026/11/11 10:35:08] ppocr INFO:     save_res_path : /workspace/b2n/experiments/server_c0_20261111/runs/pretrained/infer_val_wb.txt
+[2026/11/11 10:35:08] ppocr INFO:     seed : 1
+[2026/11/11 10:35:08] ppocr INFO:     use_gpu : True
+[2026/11/11 10:35:08] ppocr INFO:     use_space_char : True
+[2026/11/11 10:35:08] ppocr INFO:     use_visualdl : False
+[2026/11/11 10:35:08] ppocr INFO: Loss : 
+[2026/11/11 10:35:08] ppocr INFO:     loss_config_list : 
+[2026/11/11 10:35:08] ppocr INFO:         CTCLoss : None
+[2026/11/11 10:35:08] ppocr INFO:         NRTRLoss : None
+[2026/11/11 10:35:08] ppocr INFO:     name : MultiLoss
+[2026/11/11 10:35:08] ppocr INFO: Metric : 
+[2026/11/11 10:35:08] ppocr INFO:     main_indicator : norm_edit_dis
+[2026/11/11 10:35:08] ppocr INFO:     name : RecMetric
+[2026/11/11 10:35:08] ppocr INFO: Optimizer : 
+[2026/11/11 10:35:08] ppocr INFO:     beta1 : 0.9
+[2026/11/11 10:35:08] ppocr INFO:     beta2 : 0.999
+[2026/11/11 10:35:08] ppocr INFO:     lr : 
+[2026/11/11 10:35:08] ppocr INFO:         learning_rate : 0.0001
+[2026/11/11 10:35:08] ppocr INFO:         name : Cosine
+[2026/11/11 10:35:08] ppocr INFO:         warmup_epoch : 0.8721
+[2026/11/11 10:35:08] ppocr INFO:     name : Adam
+[2026/11/11 10:35:08] ppocr INFO:     regularizer : 
+[2026/11/11 10:35:08] ppocr INFO:         factor : 3e-05
+[2026/11/11 10:35:08] ppocr INFO:         name : L2
+[2026/11/11 10:35:08] ppocr INFO: PostProcess : 
+[2026/11/11 10:35:08] ppocr INFO:     name : CTCLabelDecode
+[2026/11/11 10:35:08] ppocr INFO: Train : 
+[2026/11/11 10:35:08] ppocr INFO:     dataset : 
+[2026/11/11 10:35:08] ppocr INFO:         data_dir : /workspace/b2n/experiments/server_c0_20261111/data/b2n_data
+[2026/11/11 10:35:08] ppocr INFO:         ds_width : False
+[2026/11/11 10:35:08] ppocr INFO:         ext_op_transform_idx : 1
+[2026/11/11 10:35:08] ppocr INFO:         label_file_list : ['/workspace/b2n/experiments/server_c0_20261111/data/train_V3.txt']
+[2026/11/11 10:35:08] ppocr INFO:         name : MultiScaleDataSet
+[2026/11/11 10:35:08] ppocr INFO:         transforms : 
+[2026/11/11 10:35:08] ppocr INFO:             DecodeImage : 
+[2026/11/11 10:35:08] ppocr INFO:                 channel_first : False
+[2026/11/11 10:35:08] ppocr INFO:                 img_mode : BGR
+[2026/11/11 10:35:08] ppocr INFO:             RecAug : None
+[2026/11/11 10:35:08] ppocr INFO:             MultiLabelEncode : 
+[2026/11/11 10:35:08] ppocr INFO:                 gtc_encode : NRTRLabelEncode
+[2026/11/11 10:35:08] ppocr INFO:             KeepKeys : 
+[2026/11/11 10:35:08] ppocr INFO:                 keep_keys : ['image', 'label_ctc', 'label_gtc', 'length', 'valid_ratio']
+[2026/11/11 10:35:08] ppocr INFO:     loader : 
+[2026/11/11 10:35:08] ppocr INFO:         batch_size_per_card : 16
+[2026/11/11 10:35:08] ppocr INFO:         drop_last : True
+[2026/11/11 10:35:08] ppocr INFO:         num_workers : 8
+[2026/11/11 10:35:08] ppocr INFO:         shuffle : True
+[2026/11/11 10:35:08] ppocr INFO:     sampler : 
+[2026/11/11 10:35:08] ppocr INFO:         divided_factor : [8, 16]
+[2026/11/11 10:35:08] ppocr INFO:         first_bs : 16
+[2026/11/11 10:35:08] ppocr INFO:         fix_bs : False
+[2026/11/11 10:35:08] ppocr INFO:         is_training : True
+[2026/11/11 10:35:08] ppocr INFO:         name : MultiScaleSampler
+[2026/11/11 10:35:08] ppocr INFO:         scales : [[1024, 48]]
+[2026/11/11 10:35:08] ppocr INFO: profiler_options : None
+[2026/11/11 10:35:08] ppocr INFO: train with paddle 3.2.0 and device Place(gpu:0)
+W1111 10:35:09.032253   333 gpu_resources.cc:114] Please NOTE: device: 0, GPU Compute Capability: 8.9, Driver API Version: 13.2, Runtime API Version: 12.8
+[2026/11/11 10:35:10] ppocr INFO: load pretrain successful from /workspace/b2n/PaddleOCR_versions/PP-OCRv5_server_rec_pretrained
+[2026/11/11 10:35:10] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_01_004.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: K-Nearest Neighbours	0.9521646499633789
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_01_010.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: Model	0.9780296087265015
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_01_026.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: 4. Generation	0.9119171500205994
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_01_041.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: Activation	0.9607107043266296
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_01_073.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: N= number of data samples	0.9572223424911499
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_01_081.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: 3vs /channel	0.8518492579460144
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_01_094.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: - but when x<O, gradient =0 so neuron	0.9220570921897888
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_01_101.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: Parameter Count	0.9431741833686829
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_01_106.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: = parameters (can be weight)	0.9334322810173035
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_01_107.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: -works only for one-hot lone corred)	0.9304602742195129
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_01_111.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: -punishes low probubility of correct class	0.9059210419654846
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_01_114.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: bias	0.9195176362991333
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_01_120.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: Test	0.9848180413246155
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_01_124.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: wes	0.3617093563079834
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_02_019.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: Augment →flip,rotate, transformn (make sense)	0.8792924880981445
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_02_029.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: Activation	0.9799416661262512
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_02_032.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: Dropout → drop neuins so they con learn from othars	0.8764233589172363
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_02_036.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: Stochastic Gradient Descent	0.9638628959655762
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_02_048.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: Shrin ks weights, those close to O	0.8916621208190918
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_02_051.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: -3×3 kernels	0.9027661681175232
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_02_056.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: Stack to see lasger region	0.9257751107215881
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_02_080.png
+[2026/11/11 10:35:11] ppocr INFO: 	 result: Adam	0.991521954536438
+[2026/11/11 10:35:11] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_02_082.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Parameter Count	0.9671763181686401
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_02_083.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: normalises → values closre to O	0.8434534668922424
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_02_092.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: cale	0.866163432598114
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_02_096.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: bias	0.8809286952018738
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_02_102.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Test = Funning Stats	0.8258684873580933
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_02_107.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: zero_grad() → clears gradlients	0.9023661613464355
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_02_109.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: → update gradients	0.9294291734695435
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_02_110.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: calculates new gradients	0.909617006778717
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_02_111.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Starting values should not be to big or small	0.8806501626968384
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_004.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: K-Nerest Neighkoors	0.730912983417511
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_021.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Model	0.9582184553146362
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_041.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Augment →flhp,rotate,transforom (make sanse)	0.7693960666656494
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_042.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: 4 Gerration	0.8611368536949158
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_053.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Adtiration	0.9050353169441223
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_056.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Dropout→ drop neas so they co learn from sthers	0.7902659773826599
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_059.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Stochastic Gradrent Descent	0.9081941246986389
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_079.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Shrinks welights, thase close to O	0.897260308265686
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_082.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: 3.1 Sofma→probab.iy	0.7007657885551453
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_087.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: -3×3 kernels	0.8824443817138672
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_094.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: N= roba of dt mpl	0.5669891238212585
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_097.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Stack to see larger regon	0.9186217784881592
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_104.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: 3|chal	0.6060094237327576
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_124.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: -bt whe x<O,gradicet =o so u	0.6663724184036255
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_134.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Adam	0.9928026795387268
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_136.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: = parmeton (an beh)	0.5448330640792847
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_137.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: -workes only for one-hot (ore coad)	0.7384982109069824
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_139.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Parameter Count	0.9633471369743347
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_140.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: normalues → valkes clore to O	0.7666087746620178
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_142.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: -pstes l prababy od coctd	0.5699794292449951
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_154.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: s	0.24732135236263275
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_158.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: bas	0.8384340405464172
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_167.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Test = oepg stats	0.6908145546913147
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_175.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: zoro grad() → dears gradients	0.7868907451629639
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_03_180.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Storting values should rat be to by or soall	0.8315261602401733
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_04_012.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: h 	0.252947062253952
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_04_013.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Stochastic GradentDescent	0.8374710083007812
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_04_026.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Shrin ks weights,thase close to O	0.893375813961029
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_04_037.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Shak bo se nn	0.5783568024635315
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_04_057.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Pas2l	0.39084047079086304
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_04_064.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Adam	0.9890372157096863
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_05_013.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Stochastic Grndent Descnt	0.8189062476158142
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_05_022.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Shrinks weights, those close to O	0.8894184827804565
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_05_032.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Sbad bos up	0.55527263879776
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_05_050.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Adam	0.9900252819061279
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_06_013.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Stochastic GrndrentDescent	0.8499287366867065
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_06_024.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Shrinks weights,thase lose to O	0.8843609690666199
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_06_035.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Soak to suee ugs	0.5579349994659424
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_06_052.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Aake Lt	0.46649107336997986
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_06_060.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Adam	0.9771829843521118
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_07_012.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Stochasti Gradent Desent	0.779888927936554
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_07_023.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Shrinks weights,thase close to O	0.8545268177986145
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_07_032.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Soad bm e	0.4496235251426697
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_07_050.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Adam	0.9833401441574097
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_08_014.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Stochastic Gradient Descent	0.8852211833000183
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_08_024.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Shrinks weights,thase close to O	0.9039222002029419
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_08_032.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Stauk toe ieng nigm	0.5348299145698547
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_08_051.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Adam	0.9839200973510742
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_09_007.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Model	0.9074658155441284
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_09_009.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: 4. Generation	0.9411572217941284
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_09_013.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: K -Nerot Negts	0.6615009307861328
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_09_076.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: N = number of data somples	0.9242236018180847
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_09_094.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Handcrafted features	0.8977649807929993
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_10_007.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Model	0.9811285734176636
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_10_010.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: 4.Generation	0.965848445892334
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_10_012.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: K-Nevot Neibar!	0.6352730393409729
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_10_076.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: N = number of data somples	0.9586901068687439
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_10_087.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: 3vs /chanell	0.75621098279953
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_10_091.png
+[2026/11/11 10:35:12] ppocr INFO: 	 result: Handcrafted features	0.9386976361274719
+[2026/11/11 10:35:12] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_11_007.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: Model	0.9771060943603516
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_11_010.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: 4.Generation	0.9599496722221375
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_11_011.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: K -Nevest ibar!	0.706190288066864
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_11_073.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: N=number of data samples	0.9520556330680847
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_11_085.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: 3vs / channel	0.8222295045852661
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_11_092.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: O=parameters (can be weight)	0.921484112739563
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_11_093.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: Handcrafted features	0.9204861521720886
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_12_008.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: Model	0.9859480857849121
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_12_011.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: 4.Generation	0.9826973080635071
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_12_012.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: K -Narst N bo!	0.674423098564148
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_12_042.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: 2.Transformation	0.9253469705581665
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_12_079.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: N = number of data soamples	0.8660372495651245
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_12_089.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: 3 vs /channel	0.7753287553787231
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_12_092.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: Handcrafted features	0.8912888765335083
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_13_008.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: Model	0.9752248525619507
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_13_010.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: 4.Generation	0.9544543623924255
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_13_014.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: K -Werest eithears	0.5976309776306152
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_13_073.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: N = number of data somples	0.9276090264320374
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_13_085.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: 3 vs /channnel	0.8903867602348328
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__lecture_13_089.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: Handcrafted featuwres	0.9044857025146484
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_01_000.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: Television	0.8633040189743042
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_01_001.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: apple car	0.9404080510139465
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_02_000.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: felvison	0.8187551498413086
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_02_001.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: appk car	0.9448729157447815
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_03_000.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: television	0.9289681315422058
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_03_001.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: apple car	0.9253451228141785
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_04_001.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: television	0.9779364466667175
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_04_002.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: apple car	0.9829635620117188
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_05_000.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: televison	0.890508770942688
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_05_001.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: apple car	0.8861586451530457
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_06_000.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: felevision	0.9344853162765503
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_06_001.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: apple car	0.9378557205200195
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_07_000.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: teleion	0.8380379676818848
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_07_001.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: apple car	0.8914567232131958
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_08_000.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: telvision	0.911747932434082
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_08_001.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: appk car	0.9075405597686768
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_09_000.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: telkvion	0.8831982612609863
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_09_001.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: applk car	0.8275558948516846
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_10_000.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: television	0.9807556867599487
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_10_001.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: apple car	0.8642870187759399
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_11_000.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: television	0.9894809722900391
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_11_001.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: apple car	0.9444001317024231
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_12_000.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: television	0.9458234906196594
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_12_001.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: apple car	0.9805082678794861
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_13_006.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: television	0.9002975225448608
+[2026/11/11 10:35:13] ppocr INFO: infer_img: /workspace/b2n/experiments/server_c0_20261111/data/flat/val_wb/reader__images__wb__television_13_011.png
+[2026/11/11 10:35:13] ppocr INFO: 	 result: appk car	0.9670684337615967
+[2026/11/11 10:35:13] ppocr INFO: success!

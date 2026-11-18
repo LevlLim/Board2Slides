@@ -1,0 +1,3872 @@
+{
+ "per_photo": {
+  "1": {
+   "lines": 9,
+   "raw_boxes": 9,
+   "regions": 9,
+   "grouped": {
+    "one_to_one": 9
+   },
+   "raw": {
+    "one_to_one": 9
+   },
+   "detect_path": "text large enough (39 px) -> quick boxes kept",
+   "detect_seconds": 0.5606592919793911
+  },
+  "2": {
+   "lines": 4,
+   "raw_boxes": 6,
+   "regions": 5,
+   "grouped": {
+    "one_to_one": 4,
+    "extra_region": 1
+   },
+   "raw": {
+    "split": 1,
+    "one_to_one": 3,
+    "extra_region": 1
+   },
+   "detect_path": "text large enough (71 px) -> quick boxes kept",
+   "detect_seconds": 0.5767633329960518
+  },
+  "3": {
+   "lines": 8,
+   "raw_boxes": 8,
+   "regions": 8,
+   "grouped": {
+    "one_to_one": 8
+   },
+   "raw": {
+    "one_to_one": 8
+   },
+   "detect_path": "text large enough (43 px) -> quick boxes kept",
+   "detect_seconds": 0.5950568330008537
+  },
+  "4": {
+   "lines": 10,
+   "raw_boxes": 10,
+   "regions": 10,
+   "grouped": {
+    "one_to_one": 10
+   },
+   "raw": {
+    "one_to_one": 10
+   },
+   "detect_path": "text large enough (49 px) -> quick boxes kept",
+   "detect_seconds": 0.6481357080047019
+  },
+  "5": {
+   "lines": 10,
+   "raw_boxes": 11,
+   "regions": 11,
+   "grouped": {
+    "one_to_one": 10,
+    "extra_region": 1
+   },
+   "raw": {
+    "one_to_one": 10,
+    "extra_region": 1
+   },
+   "detect_path": "text large enough (44 px) -> quick boxes kept",
+   "detect_seconds": 0.566266333044041
+  },
+  "6": {
+   "lines": 8,
+   "raw_boxes": 8,
+   "regions": 8,
+   "grouped": {
+    "one_to_one": 8
+   },
+   "raw": {
+    "one_to_one": 8
+   },
+   "detect_path": "text large enough (41 px) -> quick boxes kept",
+   "detect_seconds": 0.5682274170103483
+  },
+  "7": {
+   "lines": 10,
+   "raw_boxes": 10,
+   "regions": 10,
+   "grouped": {
+    "one_to_one": 10
+   },
+   "raw": {
+    "one_to_one": 10
+   },
+   "detect_path": "text large enough (40 px) -> quick boxes kept",
+   "detect_seconds": 0.5704618750023656
+  }
+ },
+ "one_to_one": [
+  {
+   "photo": 1,
+   "line": "jhs__train__JH1.1.jpg",
+   "label": "A network is a system of interconnected people",
+   "region": 1,
+   "app_text": "A network is a system of interconnected people",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 46
+   },
+   "app_width64": 1051,
+   "app_crop_wh": [
+    1723,
+    105
+   ],
+   "app_residual_slope": -0.2,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_1/g001_crop.png",
+    "reader": "Photo_1/g001_reader.png"
+   },
+   "raw_members": [
+    9
+   ],
+   "original": {
+    "text": "A networe s e yst s fof tnet netete eple",
+    "file": "JH_datasetNov5Sentence/train/JH1.1.jpg",
+    "width64": 346,
+    "cer": 0.391304347826087,
+    "S": 10,
+    "D": 7,
+    "I": 1,
+    "errors": 18,
+    "chars": 46
+   },
+   "tight": {
+    "text": "A networe s e yst s fof tnet netete eple",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH1.1.png",
+    "width64": 346,
+    "cer": 0.391304347826087,
+    "S": 10,
+    "D": 7,
+    "I": 1,
+    "errors": 18,
+    "chars": 46
+   },
+   "straightened": {
+    "text": "A network is a system of interonected people",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH1.1.png",
+    "width64": 463,
+    "cer": 0.043478260869565216,
+    "S": 0,
+    "D": 2,
+    "I": 0,
+    "errors": 2,
+    "chars": 46
+   }
+  },
+  {
+   "photo": 1,
+   "line": "jhs__train__JH1.3.jpg",
+   "label": "mesh of wires or roads to a group",
+   "region": 3,
+   "app_text": "mesh of wires or roads to a group",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 33
+   },
+   "app_width64": 878,
+   "app_crop_wh": [
+    1056,
+    77
+   ],
+   "app_residual_slope": -0.6,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_1/g003_crop.png",
+    "reader": "Photo_1/g003_reader.png"
+   },
+   "raw_members": [
+    7
+   ],
+   "original": {
+    "text": "mesh of wires or roads ts grgour",
+    "file": "JH_datasetNov5Sentence/train/JH1.3.jpg",
+    "width64": 289,
+    "cer": 0.15151515151515152,
+    "S": 4,
+    "D": 1,
+    "I": 0,
+    "errors": 5,
+    "chars": 33
+   },
+   "tight": {
+    "text": "mesh of wires or roads ts grgour",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH1.3.png",
+    "width64": 289,
+    "cer": 0.15151515151515152,
+    "S": 4,
+    "D": 1,
+    "I": 0,
+    "errors": 5,
+    "chars": 33
+   },
+   "straightened": {
+    "text": "mesh of wires or roads to a group",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH1.3.png",
+    "width64": 594,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 33
+   }
+  },
+  {
+   "photo": 1,
+   "line": "jhs__train__JH1.4.jpg",
+   "label": "of people forming a social or professional network",
+   "region": 4,
+   "app_text": "of people forming a soaal or professional network",
+   "app": {
+    "cer": 0.04,
+    "S": 1,
+    "D": 1,
+    "I": 0,
+    "errors": 2,
+    "chars": 50
+   },
+   "app_width64": 926,
+   "app_crop_wh": [
+    1576,
+    109
+   ],
+   "app_residual_slope": -0.5,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_1/g004_crop.png",
+    "reader": "Photo_1/g004_reader.png"
+   },
+   "raw_members": [
+    6
+   ],
+   "original": {
+    "text": "of pople f oin o o araoa rf a a twtort",
+    "file": "JH_datasetNov5Sentence/train/JH1.4.jpg",
+    "width64": 289,
+    "cer": 0.5,
+    "S": 13,
+    "D": 12,
+    "I": 0,
+    "errors": 25,
+    "chars": 50
+   },
+   "tight": {
+    "text": "of pople f oin o o araoa rf a a twtort",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH1.4.png",
+    "width64": 289,
+    "cer": 0.5,
+    "S": 13,
+    "D": 12,
+    "I": 0,
+    "errors": 25,
+    "chars": 50
+   },
+   "straightened": {
+    "text": "Oof pape femna cada araorata h uwurk",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH1.4.png",
+    "width64": 324,
+    "cer": 0.6,
+    "S": 12,
+    "D": 16,
+    "I": 2,
+    "errors": 30,
+    "chars": 50
+   }
+  },
+  {
+   "photo": 1,
+   "line": "jhs__train__JH1.5.jpg",
+   "label": "Computer network, social network, infrastructure network",
+   "region": 5,
+   "app_text": "Computer network, social network, infrastructure network",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 56
+   },
+   "app_width64": 1186,
+   "app_crop_wh": [
+    1759,
+    95
+   ],
+   "app_residual_slope": -0.1,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_1/g005_crop.png",
+    "reader": "Photo_1/g005_reader.png"
+   },
+   "raw_members": [
+    5
+   ],
+   "original": {
+    "text": "Compter otmor ora are nar rv rtrert te te nture",
+    "file": "JH_datasetNov5Sentence/train/JH1.5.jpg",
+    "width64": 353,
+    "cer": 0.5714285714285714,
+    "S": 21,
+    "D": 10,
+    "I": 1,
+    "errors": 32,
+    "chars": 56
+   },
+   "tight": {
+    "text": "Compter metwotet ec caca a nt iat ttu te ntwork",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH1.5.png",
+    "width64": 387,
+    "cer": 0.5,
+    "S": 11,
+    "D": 13,
+    "I": 4,
+    "errors": 28,
+    "chars": 56
+   },
+   "straightened": {
+    "text": "Computer network, social network, intrastructure network",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH1.5.png",
+    "width64": 755,
+    "cer": 0.017857142857142856,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 56
+   }
+  },
+  {
+   "photo": 1,
+   "line": "jhs__train__JH1.6.jpg",
+   "label": "A computer network is a collection",
+   "region": 6,
+   "app_text": "A computer network is a collection",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 34
+   },
+   "app_width64": 791,
+   "app_crop_wh": [
+    1198,
+    97
+   ],
+   "app_residual_slope": -0.3,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_1/g006_crop.png",
+    "reader": "Photo_1/g006_reader.png"
+   },
+   "raw_members": [
+    4
+   ],
+   "original": {
+    "text": "A computer network is a lolecion",
+    "file": "JH_datasetNov5Sentence/train/JH1.6.jpg",
+    "width64": 355,
+    "cer": 0.08823529411764706,
+    "S": 1,
+    "D": 2,
+    "I": 0,
+    "errors": 3,
+    "chars": 34
+   },
+   "tight": {
+    "text": "A computer network is a lollection",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH1.6.png",
+    "width64": 428,
+    "cer": 0.029411764705882353,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 34
+   },
+   "straightened": {
+    "text": "A computer network is a collection",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH1.6.png",
+    "width64": 471,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 34
+   }
+  },
+  {
+   "photo": 1,
+   "line": "jhs__test__JH1.2.jpg",
+   "label": "This can range from a physical",
+   "region": 2,
+   "app_text": "This can range from a physical",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 30
+   },
+   "app_width64": 608,
+   "app_crop_wh": [
+    950,
+    100
+   ],
+   "app_residual_slope": -1.2,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_1/g002_crop.png",
+    "reader": "Photo_1/g002_reader.png"
+   },
+   "raw_members": [
+    8
+   ],
+   "original": {
+    "text": "This canm range ftona haiical",
+    "file": "JH_datasetNov5Sentence/test/JH1.2.jpg",
+    "width64": 252,
+    "cer": 0.23333333333333334,
+    "S": 4,
+    "D": 2,
+    "I": 1,
+    "errors": 7,
+    "chars": 30
+   },
+   "tight": {
+    "text": "This canm range ftona haiical",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__test__JH1.2.png",
+    "width64": 252,
+    "cer": 0.23333333333333334,
+    "S": 4,
+    "D": 2,
+    "I": 1,
+    "errors": 7,
+    "chars": 30
+   },
+   "straightened": {
+    "text": "This can range froma physial",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__test__JH1.2.png",
+    "width64": 256,
+    "cer": 0.06666666666666667,
+    "S": 0,
+    "D": 2,
+    "I": 0,
+    "errors": 2,
+    "chars": 30
+   }
+  },
+  {
+   "photo": 1,
+   "line": "jhs__test__JH1.7.jpg",
+   "label": "Client Server architecture is a centralized approach",
+   "region": 7,
+   "app_text": "Client Server architecture is a centralized approach",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 52
+   },
+   "app_width64": 988,
+   "app_crop_wh": [
+    1743,
+    113
+   ],
+   "app_residual_slope": -0.6,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_1/g007_crop.png",
+    "reader": "Photo_1/g007_reader.png"
+   },
+   "raw_members": [
+    3
+   ],
+   "original": {
+    "text": "Clent Server architecturetst t ece arivenedaiepch",
+    "file": "JH_datasetNov5Sentence/test/JH1.7.jpg",
+    "width64": 434,
+    "cer": 0.34615384615384615,
+    "S": 13,
+    "D": 4,
+    "I": 1,
+    "errors": 18,
+    "chars": 52
+   },
+   "tight": {
+    "text": "Client Server architecture is a entalized apraht",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__test__JH1.7.png",
+    "width64": 501,
+    "cer": 0.11538461538461539,
+    "S": 2,
+    "D": 4,
+    "I": 0,
+    "errors": 6,
+    "chars": 52
+   },
+   "straightened": {
+    "text": "Client Server architecture is a centralized approach",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__test__JH1.7.png",
+    "width64": 611,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 52
+   }
+  },
+  {
+   "photo": 1,
+   "line": "jhs__test__JH1.8.jpg",
+   "label": "more scalable for large networks",
+   "region": 8,
+   "app_text": "more scalable for large networks",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 32
+   },
+   "app_width64": 731,
+   "app_crop_wh": [
+    1233,
+    108
+   ],
+   "app_residual_slope": 0.1,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_1/g008_crop.png",
+    "reader": "Photo_1/g008_reader.png"
+   },
+   "raw_members": [
+    2
+   ],
+   "original": {
+    "text": "more scalable for large networks",
+    "file": "JH_datasetNov5Sentence/test/JH1.8.jpg",
+    "width64": 384,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 32
+   },
+   "tight": {
+    "text": "more scalable for large networks",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__test__JH1.8.png",
+    "width64": 461,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 32
+   },
+   "straightened": {
+    "text": "more scalable for large networkes",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__test__JH1.8.png",
+    "width64": 495,
+    "cer": 0.03125,
+    "S": 0,
+    "D": 0,
+    "I": 1,
+    "errors": 1,
+    "chars": 32
+   }
+  },
+  {
+   "photo": 1,
+   "line": "jhs__test__JH1.9.jpg",
+   "label": "Peer to peer is a decentralised approach",
+   "region": 9,
+   "app_text": "Peer to peer is a decentralised appruach",
+   "app": {
+    "cer": 0.025,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 40
+   },
+   "app_width64": 913,
+   "app_crop_wh": [
+    1355,
+    95
+   ],
+   "app_residual_slope": 0.3,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_1/g009_crop.png",
+    "reader": "Photo_1/g009_reader.png"
+   },
+   "raw_members": [
+    1
+   ],
+   "original": {
+    "text": "Peer to peer is a decentralised appruach",
+    "file": "JH_datasetNov5Sentence/test/JH1.9.jpg",
+    "width64": 438,
+    "cer": 0.025,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 40
+   },
+   "tight": {
+    "text": "Peer to peer is a decentralised appruach",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__test__JH1.9.png",
+    "width64": 505,
+    "cer": 0.025,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 40
+   },
+   "straightened": {
+    "text": "Peer to peer is a decentralised appruach",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__test__JH1.9.png",
+    "width64": 598,
+    "cer": 0.025,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 40
+   }
+  },
+  {
+   "photo": 2,
+   "line": "jhs__train__JH2.1.jpg",
+   "label": "Sunlight warms the quiet forest",
+   "region": 1,
+   "app_text": "Sunlight warms the quiet forest",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 31
+   },
+   "app_width64": 378,
+   "app_crop_wh": [
+    1640,
+    278
+   ],
+   "app_residual_slope": -2.4,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_2/g001_crop.png",
+    "reader": "Photo_2/g001_reader.png"
+   },
+   "raw_members": [
+    5,
+    6
+   ],
+   "original": {
+    "text": "Suntight warms theque trest",
+    "file": "JH_datasetNov5Sentence/train/JH2.1.jpg",
+    "width64": 258,
+    "cer": 0.1935483870967742,
+    "S": 2,
+    "D": 4,
+    "I": 0,
+    "errors": 6,
+    "chars": 31
+   },
+   "tight": {
+    "text": "Sunlight warms the quetftrest",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH2.1.png",
+    "width64": 284,
+    "cer": 0.0967741935483871,
+    "S": 1,
+    "D": 2,
+    "I": 0,
+    "errors": 3,
+    "chars": 31
+   },
+   "straightened": {
+    "text": "Sunlight warms the quiet forest",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH2.1.png",
+    "width64": 341,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 31
+   }
+  },
+  {
+   "photo": 2,
+   "line": "jhs__train__JH2.2.jpg",
+   "label": "Bright stars shine every night",
+   "region": 2,
+   "app_text": "Bright stars shine every night",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 30
+   },
+   "app_width64": 395,
+   "app_crop_wh": [
+    1524,
+    247
+   ],
+   "app_residual_slope": -1.1,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_2/g002_crop.png",
+    "reader": "Photo_2/g002_reader.png"
+   },
+   "raw_members": [
+    4
+   ],
+   "original": {
+    "text": "Brght stars shme eirenght",
+    "file": "JH_datasetNov5Sentence/train/JH2.2.jpg",
+    "width64": 220,
+    "cer": 0.26666666666666666,
+    "S": 3,
+    "D": 5,
+    "I": 0,
+    "errors": 8,
+    "chars": 30
+   },
+   "tight": {
+    "text": "Bright stars shim we inght",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH2.2.png",
+    "width64": 240,
+    "cer": 0.26666666666666666,
+    "S": 4,
+    "D": 4,
+    "I": 0,
+    "errors": 8,
+    "chars": 30
+   },
+   "straightened": {
+    "text": "Bright stars shine every night",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH2.2.png",
+    "width64": 320,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 30
+   }
+  },
+  {
+   "photo": 2,
+   "line": "jhs__train__JH2.3.jpg",
+   "label": "Cold wind moves the leaves",
+   "region": 3,
+   "app_text": "Cold wind moves the leaves",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 26
+   },
+   "app_width64": 536,
+   "app_crop_wh": [
+    1221,
+    146
+   ],
+   "app_residual_slope": -1.4,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_2/g003_crop.png",
+    "reader": "Photo_2/g003_reader.png"
+   },
+   "raw_members": [
+    3
+   ],
+   "original": {
+    "text": "Cold vind moves the leavees",
+    "file": "JH_datasetNov5Sentence/train/JH2.3.jpg",
+    "width64": 252,
+    "cer": 0.07692307692307693,
+    "S": 1,
+    "D": 0,
+    "I": 1,
+    "errors": 2,
+    "chars": 26
+   },
+   "tight": {
+    "text": "Cold vind moves the leaves",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH2.3.png",
+    "width64": 282,
+    "cer": 0.038461538461538464,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 26
+   },
+   "straightened": {
+    "text": "Cold vind moves the leaves",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH2.3.png",
+    "width64": 447,
+    "cer": 0.038461538461538464,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 26
+   }
+  },
+  {
+   "photo": 2,
+   "line": "jhs__train__JH2.4.jpg",
+   "label": "Small bird sing soft songs",
+   "region": 4,
+   "app_text": "Small bird sing soft songs",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 26
+   },
+   "app_width64": 496,
+   "app_crop_wh": [
+    1192,
+    154
+   ],
+   "app_residual_slope": -1.3,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_2/g004_crop.png",
+    "reader": "Photo_2/g004_reader.png"
+   },
+   "raw_members": [
+    2
+   ],
+   "original": {
+    "text": "Small bird sing soft songs",
+    "file": "JH_datasetNov5Sentence/train/JH2.4.jpg",
+    "width64": 298,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 26
+   },
+   "tight": {
+    "text": "Small bird sing soft songs",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH2.4.png",
+    "width64": 357,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 26
+   },
+   "straightened": {
+    "text": "Small bird sing soft songs",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH2.4.png",
+    "width64": 357,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 26
+   }
+  },
+  {
+   "photo": 3,
+   "line": "jhs__train__JH3.1.jpg",
+   "label": "Network packets are crafted and processed",
+   "region": 1,
+   "app_text": "Network packets are crafted and processed",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 41
+   },
+   "app_width64": 821,
+   "app_crop_wh": [
+    1576,
+    123
+   ],
+   "app_residual_slope": -0.8,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_3/g001_crop.png",
+    "reader": "Photo_3/g001_reader.png"
+   },
+   "raw_members": [
+    8
+   ],
+   "original": {
+    "text": "etor paclets are raudsad  oo ssed",
+    "file": "JH_datasetNov5Sentence/train/JH3.1.jpg",
+    "width64": 322,
+    "cer": 0.34146341463414637,
+    "S": 5,
+    "D": 9,
+    "I": 0,
+    "errors": 14,
+    "chars": 41
+   },
+   "tight": {
+    "text": "Netore paclet are cratd and rosed",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH3.1.png",
+    "width64": 360,
+    "cer": 0.24390243902439024,
+    "S": 2,
+    "D": 8,
+    "I": 0,
+    "errors": 10,
+    "chars": 41
+   },
+   "straightened": {
+    "text": "Network packets are crfted and proessed",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH3.1.png",
+    "width64": 484,
+    "cer": 0.04878048780487805,
+    "S": 0,
+    "D": 2,
+    "I": 0,
+    "errors": 2,
+    "chars": 41
+   }
+  },
+  {
+   "photo": 3,
+   "line": "jhs__train__JH3.4.jpg",
+   "label": "added with specific headers for each",
+   "region": 4,
+   "app_text": "added with specific headers for each",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 36
+   },
+   "app_width64": 829,
+   "app_crop_wh": [
+    1360,
+    105
+   ],
+   "app_residual_slope": 0.1,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_3/g004_crop.png",
+    "reader": "Photo_3/g004_reader.png"
+   },
+   "raw_members": [
+    5
+   ],
+   "original": {
+    "text": "added with specifi haders for eact",
+    "file": "JH_datasetNov5Sentence/train/JH3.4.jpg",
+    "width64": 326,
+    "cer": 0.08333333333333333,
+    "S": 1,
+    "D": 2,
+    "I": 0,
+    "errors": 3,
+    "chars": 36
+   },
+   "tight": {
+    "text": "added with specific headers for ench",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH3.4.png",
+    "width64": 382,
+    "cer": 0.027777777777777776,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 36
+   },
+   "straightened": {
+    "text": "added with specific headers for each",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH3.4.png",
+    "width64": 538,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 36
+   }
+  },
+  {
+   "photo": 3,
+   "line": "jhs__train__JH3.6.jpg",
+   "label": "network form the source to the destination",
+   "region": 6,
+   "app_text": "network form the source to the destination",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 42
+   },
+   "app_width64": 985,
+   "app_crop_wh": [
+    1584,
+    103
+   ],
+   "app_residual_slope": -0.3,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_3/g006_crop.png",
+    "reader": "Photo_3/g006_reader.png"
+   },
+   "raw_members": [
+    3
+   ],
+   "original": {
+    "text": "network form the source to the destination",
+    "file": "JH_datasetNov5Sentence/train/JH3.6.jpg",
+    "width64": 508,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 42
+   },
+   "tight": {
+    "text": "network form the source to the destination",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH3.6.png",
+    "width64": 625,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 42
+   },
+   "straightened": {
+    "text": "network form the source to the destination",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH3.6.png",
+    "width64": 734,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 42
+   }
+  },
+  {
+   "photo": 3,
+   "line": "jhs__train__JH3.7.jpg",
+   "label": "The vulnerability will NEVER cause any risk",
+   "region": 7,
+   "app_text": "The vulnerability will NEvER Cause any risk",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 43
+   },
+   "app_width64": 848,
+   "app_crop_wh": [
+    1496,
+    113
+   ],
+   "app_residual_slope": 0.3,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_3/g007_crop.png",
+    "reader": "Photo_3/g007_reader.png"
+   },
+   "raw_members": [
+    2
+   ],
+   "original": {
+    "text": "The vulnerability will NEVEeR cause any risk",
+    "file": "JH_datasetNov5Sentence/train/JH3.7.jpg",
+    "width64": 513,
+    "cer": 0.023255813953488372,
+    "S": 0,
+    "D": 0,
+    "I": 1,
+    "errors": 1,
+    "chars": 43
+   },
+   "tight": {
+    "text": "The vulnerability will NEVER cause any risk",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH3.7.png",
+    "width64": 600,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 43
+   },
+   "straightened": {
+    "text": "The vlnerability will NEVER Cause any risk",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH3.7.png",
+    "width64": 600,
+    "cer": 0.023255813953488372,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "errors": 1,
+    "chars": 43
+   }
+  },
+  {
+   "photo": 3,
+   "line": "jhs__train__JH3.8.jpg",
+   "label": "or loss WITHOUT any attacks or exploits",
+   "region": 8,
+   "app_text": "Or loss WITHOUT any attacks or exploits",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 39
+   },
+   "app_width64": 878,
+   "app_crop_wh": [
+    1550,
+    113
+   ],
+   "app_residual_slope": 0.1,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_3/g008_crop.png",
+    "reader": "Photo_3/g008_reader.png"
+   },
+   "raw_members": [
+    1
+   ],
+   "original": {
+    "text": "Or loss WITHOUT any attacks or expleits",
+    "file": "JH_datasetNov5Sentence/train/JH3.8.jpg",
+    "width64": 466,
+    "cer": 0.02564102564102564,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 39
+   },
+   "tight": {
+    "text": "Or loss WITHOUT any attacks or expluits",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH3.8.png",
+    "width64": 561,
+    "cer": 0.02564102564102564,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 39
+   },
+   "straightened": {
+    "text": "Or loss WITHOUT any attacks or exploits",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH3.8.png",
+    "width64": 570,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 39
+   }
+  },
+  {
+   "photo": 3,
+   "line": "jhs__test__JH3.2.jpg",
+   "label": "based on the network layers hierarchy",
+   "region": 2,
+   "app_text": "based on the network layers hierarchy",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 37
+   },
+   "app_width64": 764,
+   "app_crop_wh": [
+    1372,
+    115
+   ],
+   "app_residual_slope": -0.4,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_3/g002_crop.png",
+    "reader": "Photo_3/g002_reader.png"
+   },
+   "raw_members": [
+    7
+   ],
+   "original": {
+    "text": "based on the network lere resrrchy",
+    "file": "JH_datasetNov5Sentence/test/JH3.2.jpg",
+    "width64": 316,
+    "cer": 0.1891891891891892,
+    "S": 4,
+    "D": 3,
+    "I": 0,
+    "errors": 7,
+    "chars": 37
+   },
+   "tight": {
+    "text": "based on the network layers herchy",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__test__JH3.2.png",
+    "width64": 355,
+    "cer": 0.08108108108108109,
+    "S": 0,
+    "D": 3,
+    "I": 0,
+    "errors": 3,
+    "chars": 37
+   },
+   "straightened": {
+    "text": "based on the network layers hierarchy",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__test__JH3.2.png",
+    "width64": 486,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 37
+   }
+  },
+  {
+   "photo": 3,
+   "line": "jhs__test__JH3.3.jpg",
+   "label": "where the application data will be",
+   "region": 3,
+   "app_text": "Where the application data will be",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 34
+   },
+   "app_width64": 744,
+   "app_crop_wh": [
+    1266,
+    109
+   ],
+   "app_residual_slope": -0.0,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_3/g003_crop.png",
+    "reader": "Photo_3/g003_reader.png"
+   },
+   "raw_members": [
+    6
+   ],
+   "original": {
+    "text": "Where the aplicatio nin al u i lll be",
+    "file": "JH_datasetNov5Sentence/test/JH3.3.jpg",
+    "width64": 272,
+    "cer": 0.3235294117647059,
+    "S": 6,
+    "D": 1,
+    "I": 4,
+    "errors": 11,
+    "chars": 34
+   },
+   "tight": {
+    "text": "Where the aplicatio dt l l l l l be",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__test__JH3.3.png",
+    "width64": 306,
+    "cer": 0.29411764705882354,
+    "S": 5,
+    "D": 2,
+    "I": 3,
+    "errors": 10,
+    "chars": 34
+   },
+   "straightened": {
+    "text": "Where the application data will be",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__test__JH3.3.png",
+    "width64": 523,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 34
+   }
+  },
+  {
+   "photo": 3,
+   "line": "jhs__test__JH3.5.jpg",
+   "label": "layer before being sent to the",
+   "region": 5,
+   "app_text": "Tayer before being sent to the",
+   "app": {
+    "cer": 0.03333333333333333,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 30
+   },
+   "app_width64": 646,
+   "app_crop_wh": [
+    1059,
+    105
+   ],
+   "app_residual_slope": -0.2,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_3/g005_crop.png",
+    "reader": "Photo_3/g005_reader.png"
+   },
+   "raw_members": [
+    4
+   ],
+   "original": {
+    "text": "layer betore being sent to the",
+    "file": "JH_datasetNov5Sentence/test/JH3.5.jpg",
+    "width64": 330,
+    "cer": 0.03333333333333333,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 30
+   },
+   "tight": {
+    "text": "layer betore being sent to the",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__test__JH3.5.png",
+    "width64": 400,
+    "cer": 0.03333333333333333,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 30
+   },
+   "straightened": {
+    "text": "layer betore being sent to the",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__test__JH3.5.png",
+    "width64": 384,
+    "cer": 0.03333333333333333,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 30
+   }
+  },
+  {
+   "photo": 4,
+   "line": "jhs__train__JH4.1.jpg",
+   "label": "DoS and DDoS exploit open services",
+   "region": 1,
+   "app_text": "DoS and DDoS exploit open services",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 34
+   },
+   "app_width64": 635,
+   "app_crop_wh": [
+    1527,
+    154
+   ],
+   "app_residual_slope": -0.7,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_4/g001_crop.png",
+    "reader": "Photo_4/g001_reader.png"
+   },
+   "raw_members": [
+    10
+   ],
+   "original": {
+    "text": "DoS and DDoS exloit oen eices",
+    "file": "JH_datasetNov5Sentence/train/JH4.1.jpg",
+    "width64": 308,
+    "cer": 0.14705882352941177,
+    "S": 0,
+    "D": 5,
+    "I": 0,
+    "errors": 5,
+    "chars": 34
+   },
+   "tight": {
+    "text": "DoS and DDOS explit opn servies",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH4.1.png",
+    "width64": 342,
+    "cer": 0.08823529411764706,
+    "S": 0,
+    "D": 3,
+    "I": 0,
+    "errors": 3,
+    "chars": 34
+   },
+   "straightened": {
+    "text": " DoS and DDoS exploit open services",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH4.1.png",
+    "width64": 511,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 34
+   }
+  },
+  {
+   "photo": 4,
+   "line": "jhs__train__JH4.2.jpg",
+   "label": "for TCP and UDP port numbers",
+   "region": 2,
+   "app_text": "for TCP and VDP port numbers",
+   "app": {
+    "cer": 0.03571428571428571,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 28
+   },
+   "app_width64": 667,
+   "app_crop_wh": [
+    1093,
+    105
+   ],
+   "app_residual_slope": -0.5,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_4/g002_crop.png",
+    "reader": "Photo_4/g002_reader.png"
+   },
+   "raw_members": [
+    9
+   ],
+   "original": {
+    "text": "for TCP and UDP port numbers",
+    "file": "JH_datasetNov5Sentence/train/JH4.2.jpg",
+    "width64": 255,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 28
+   },
+   "tight": {
+    "text": "for TCP and UDP port numbers",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH4.2.png",
+    "width64": 255,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 28
+   },
+   "straightened": {
+    "text": "fr TCP and UDP port numbers",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH4.2.png",
+    "width64": 256,
+    "cer": 0.03571428571428571,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "errors": 1,
+    "chars": 28
+   }
+  },
+  {
+   "photo": 4,
+   "line": "jhs__train__JH4.3.jpg",
+   "label": "MitM exploits unsecured physical ports",
+   "region": 3,
+   "app_text": "MitM exploits unsecured physical ports",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 38
+   },
+   "app_width64": 770,
+   "app_crop_wh": [
+    1226,
+    102
+   ],
+   "app_residual_slope": -0.4,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_4/g003_crop.png",
+    "reader": "Photo_4/g003_reader.png"
+   },
+   "raw_members": [
+    8
+   ],
+   "original": {
+    "text": "mim exlit uneoesetspu cprts",
+    "file": "JH_datasetNov5Sentence/train/JH4.3.jpg",
+    "width64": 256,
+    "cer": 0.47368421052631576,
+    "S": 7,
+    "D": 11,
+    "I": 0,
+    "errors": 18,
+    "chars": 38
+   },
+   "tight": {
+    "text": "mitm exptits uancredorusts cports",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH4.3.png",
+    "width64": 292,
+    "cer": 0.39473684210526316,
+    "S": 10,
+    "D": 5,
+    "I": 0,
+    "errors": 15,
+    "chars": 38
+   },
+   "straightened": {
+    "text": "MitM exploits unsecured physical ports",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH4.3.png",
+    "width64": 532,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 38
+   }
+  },
+  {
+   "photo": 4,
+   "line": "jhs__train__JH4.4.jpg",
+   "label": "Packet sniffing exploits unencrypted packets",
+   "region": 4,
+   "app_text": "Packet sniffing exploits unencrypted packets",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 44
+   },
+   "app_width64": 838,
+   "app_crop_wh": [
+    1609,
+    123
+   ],
+   "app_residual_slope": -0.6,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_4/g004_crop.png",
+    "reader": "Photo_4/g004_reader.png"
+   },
+   "raw_members": [
+    7
+   ],
+   "original": {
+    "text": "Padcet siing explais umencrypted accets",
+    "file": "JH_datasetNov5Sentence/train/JH4.4.jpg",
+    "width64": 403,
+    "cer": 0.22727272727272727,
+    "S": 5,
+    "D": 5,
+    "I": 0,
+    "errors": 10,
+    "chars": 44
+   },
+   "tight": {
+    "text": "Packet sniffing exploits unencrypted paciets",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH4.4.png",
+    "width64": 475,
+    "cer": 0.022727272727272728,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 44
+   },
+   "straightened": {
+    "text": "Packet sniffing exploits unencrypted pacliets",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH4.4.png",
+    "width64": 564,
+    "cer": 0.045454545454545456,
+    "S": 1,
+    "D": 0,
+    "I": 1,
+    "errors": 2,
+    "chars": 44
+   }
+  },
+  {
+   "photo": 4,
+   "line": "jhs__train__JH4.5.jpg",
+   "label": "that contain credentials. Port scanning",
+   "region": 5,
+   "app_text": "that contain credentials. Port scanning",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 39
+   },
+   "app_width64": 726,
+   "app_crop_wh": [
+    1417,
+    125
+   ],
+   "app_residual_slope": -1.1,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_4/g005_crop.png",
+    "reader": "Photo_4/g005_reader.png"
+   },
+   "raw_members": [
+    6
+   ],
+   "original": {
+    "text": "that contain credentials. Port scanning",
+    "file": "JH_datasetNov5Sentence/train/JH4.5.jpg",
+    "width64": 408,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 39
+   },
+   "tight": {
+    "text": "that contain credentials. Port scanning",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH4.5.png",
+    "width64": 482,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 39
+   },
+   "straightened": {
+    "text": "that contain credentials. Port scanning",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH4.5.png",
+    "width64": 568,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 39
+   }
+  },
+  {
+   "photo": 4,
+   "line": "jhs__train__JH4.6.jpg",
+   "label": "exploits unfiltered service for TCP and UDP",
+   "region": 6,
+   "app_text": "exploits unfiltered service for TCP and uDp",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 43
+   },
+   "app_width64": 831,
+   "app_crop_wh": [
+    1622,
+    125
+   ],
+   "app_residual_slope": 0.2,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_4/g006_crop.png",
+    "reader": "Photo_4/g006_reader.png"
+   },
+   "raw_members": [
+    5
+   ],
+   "original": {
+    "text": "exploits unfiltered sernce for TCcr and UDp",
+    "file": "JH_datasetNov5Sentence/train/JH4.6.jpg",
+    "width64": 442,
+    "cer": 0.09302325581395349,
+    "S": 2,
+    "D": 1,
+    "I": 1,
+    "errors": 4,
+    "chars": 43
+   },
+   "tight": {
+    "text": "exploits unfiltered service for Tcr and UDp",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH4.6.png",
+    "width64": 526,
+    "cer": 0.023255813953488372,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 43
+   },
+   "straightened": {
+    "text": "exploits unfiltered service for TCp and UDp",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH4.6.png",
+    "width64": 687,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 43
+   }
+  },
+  {
+   "photo": 4,
+   "line": "jhs__train__JH4.7.jpg",
+   "label": "port numbers. ARP spoofing exploits",
+   "region": 7,
+   "app_text": "port numbers. ARP spoofing exploits",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 35
+   },
+   "app_width64": 718,
+   "app_crop_wh": [
+    1435,
+    128
+   ],
+   "app_residual_slope": 0.4,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_4/g007_crop.png",
+    "reader": "Photo_4/g007_reader.png"
+   },
+   "raw_members": [
+    4
+   ],
+   "original": {
+    "text": "port numbers. ARP spofing exploits",
+    "file": "JH_datasetNov5Sentence/train/JH4.7.jpg",
+    "width64": 375,
+    "cer": 0.02857142857142857,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "errors": 1,
+    "chars": 35
+   },
+   "tight": {
+    "text": "port numbers. ARP spoofing exploits",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH4.7.png",
+    "width64": 445,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 35
+   },
+   "straightened": {
+    "text": "port numbers. ARP spoofing exploits",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH4.7.png",
+    "width64": 455,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 35
+   }
+  },
+  {
+   "photo": 4,
+   "line": "jhs__train__JH4.8.jpg",
+   "label": "unsecured physical ports connected to attackers",
+   "region": 8,
+   "app_text": "unsecured physical ports connected to attackers",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 47
+   },
+   "app_width64": 1011,
+   "app_crop_wh": [
+    1815,
+    115
+   ],
+   "app_residual_slope": 0.5,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_4/g008_crop.png",
+    "reader": "Photo_4/g008_reader.png"
+   },
+   "raw_members": [
+    3
+   ],
+   "original": {
+    "text": "Unsecred physical ports connected to attackers",
+    "file": "JH_datasetNov5Sentence/train/JH4.8.jpg",
+    "width64": 517,
+    "cer": 0.02127659574468085,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "errors": 1,
+    "chars": 47
+   },
+   "tight": {
+    "text": "Unsecured physical ports connected to attackers",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH4.8.png",
+    "width64": 616,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 47
+   },
+   "straightened": {
+    "text": "Unsecured physical ports connected to attackers",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH4.8.png",
+    "width64": 670,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 47
+   }
+  },
+  {
+   "photo": 4,
+   "line": "jhs__train__JH4.9.jpg",
+   "label": "Overwhelm the bandwidth of the target",
+   "region": 9,
+   "app_text": "Overwhelm the bandwidth of the target",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 37
+   },
+   "app_width64": 814,
+   "app_crop_wh": [
+    1602,
+    126
+   ],
+   "app_residual_slope": -0.5,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_4/g009_crop.png",
+    "reader": "Photo_4/g009_reader.png"
+   },
+   "raw_members": [
+    2
+   ],
+   "original": {
+    "text": "Overwhelm the bandwidth of the target",
+    "file": "JH_datasetNov5Sentence/train/JH4.9.jpg",
+    "width64": 366,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 37
+   },
+   "tight": {
+    "text": "Overwhclm the bandwidth of the target",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH4.9.png",
+    "width64": 422,
+    "cer": 0.02702702702702703,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 37
+   },
+   "straightened": {
+    "text": "Overwhelm the bandwidth of the target",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH4.9.png",
+    "width64": 500,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 37
+   }
+  },
+  {
+   "photo": 4,
+   "line": "jhs__train__JH4.10.jpg",
+   "label": "If the target can only service requests",
+   "region": 10,
+   "app_text": "If the target con onhy service requests",
+   "app": {
+    "cer": 0.05128205128205128,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "errors": 2,
+    "chars": 39
+   },
+   "app_width64": 681,
+   "app_crop_wh": [
+    1553,
+    146
+   ],
+   "app_residual_slope": -1.6,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_4/g010_crop.png",
+    "reader": "Photo_4/g010_reader.png"
+   },
+   "raw_members": [
+    1
+   ],
+   "original": {
+    "text": "If the target con onhy serice requests",
+    "file": "JH_datasetNov5Sentence/train/JH4.10.jpg",
+    "width64": 397,
+    "cer": 0.07692307692307693,
+    "S": 2,
+    "D": 1,
+    "I": 0,
+    "errors": 3,
+    "chars": 39
+   },
+   "tight": {
+    "text": "If the target con onhy service requests",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH4.10.png",
+    "width64": 470,
+    "cer": 0.05128205128205128,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "errors": 2,
+    "chars": 39
+   },
+   "straightened": {
+    "text": "If the target con onhy service requests",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH4.10.png",
+    "width64": 457,
+    "cer": 0.05128205128205128,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "errors": 2,
+    "chars": 39
+   }
+  },
+  {
+   "photo": 5,
+   "line": "jhs__train__JH5.1.jpg",
+   "label": "Disrupt the service by sending anomaly",
+   "region": 1,
+   "app_text": "Disrupt the service by sending anomaly",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 38
+   },
+   "app_width64": 793,
+   "app_crop_wh": [
+    1462,
+    118
+   ],
+   "app_residual_slope": -0.6,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_5/g001_crop.png",
+    "reader": "Photo_5/g001_reader.png"
+   },
+   "raw_members": [
+    11
+   ],
+   "original": {
+    "text": "Disrupt the service by sending amammaly",
+    "file": "JH_datasetNov5Sentence/train/JH5.1.jpg",
+    "width64": 335,
+    "cer": 0.07894736842105263,
+    "S": 2,
+    "D": 0,
+    "I": 1,
+    "errors": 3,
+    "chars": 38
+   },
+   "tight": {
+    "text": "Disrupt the sevice by sending anomaly",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH5.1.png",
+    "width64": 381,
+    "cer": 0.02631578947368421,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "errors": 1,
+    "chars": 38
+   },
+   "straightened": {
+    "text": "Disrupt the service by sending anomaly",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH5.1.png",
+    "width64": 468,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 38
+   }
+  },
+  {
+   "photo": 5,
+   "line": "jhs__train__JH5.2.jpg",
+   "label": "HTTP requests, DNS queries, TCP connection request",
+   "region": 2,
+   "app_text": "HTTP requests, DNs queries, TCP connection request",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 50
+   },
+   "app_width64": 907,
+   "app_crop_wh": [
+    1601,
+    113
+   ],
+   "app_residual_slope": 0.3,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_5/g002_crop.png",
+    "reader": "Photo_5/g002_reader.png"
+   },
+   "raw_members": [
+    10
+   ],
+   "original": {
+    "text": "THiTP rquests, uns ueses t c ttcCreneueqest",
+    "file": "JH_datasetNov5Sentence/train/JH5.2.jpg",
+    "width64": 348,
+    "cer": 0.4,
+    "S": 11,
+    "D": 8,
+    "I": 1,
+    "errors": 20,
+    "chars": 50
+   },
+   "tight": {
+    "text": "HrTP raquests, Nrs qu susrnues CcO cec ecequest",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH5.2.png",
+    "width64": 397,
+    "cer": 0.44,
+    "S": 11,
+    "D": 7,
+    "I": 4,
+    "errors": 22,
+    "chars": 50
+   },
+   "straightened": {
+    "text": "HTTP requests, DNs queries, TCP connection request.",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH5.2.png",
+    "width64": 652,
+    "cer": 0.02,
+    "S": 0,
+    "D": 0,
+    "I": 1,
+    "errors": 1,
+    "chars": 50
+   }
+  },
+  {
+   "photo": 5,
+   "line": "jhs__train__JH5.3.jpg",
+   "label": "The requests don't actually need to be succeeded",
+   "region": 3,
+   "app_text": "The requests dont actually need to be succeeded",
+   "app": {
+    "cer": 0.020833333333333332,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "errors": 1,
+    "chars": 48
+   },
+   "app_width64": 959,
+   "app_crop_wh": [
+    1587,
+    106
+   ],
+   "app_residual_slope": -0.4,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_5/g003_crop.png",
+    "reader": "Photo_5/g003_reader.png"
+   },
+   "raw_members": [
+    9
+   ],
+   "original": {
+    "text": "Th requestsot tuitaieni t db scsuce uces",
+    "file": "JH_datasetNov5Sentence/train/JH5.3.jpg",
+    "width64": 294,
+    "cer": 0.5208333333333334,
+    "S": 17,
+    "D": 8,
+    "I": 0,
+    "errors": 25,
+    "chars": 48
+   },
+   "tight": {
+    "text": "Th requestsot tuitaieni t db scsuce uces",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH5.3.png",
+    "width64": 294,
+    "cer": 0.5208333333333334,
+    "S": 17,
+    "D": 8,
+    "I": 0,
+    "errors": 25,
+    "chars": 48
+   },
+   "straightened": {
+    "text": "The requsts sot tn ainint l bo busece uced",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH5.3.png",
+    "width64": 316,
+    "cer": 0.4791666666666667,
+    "S": 17,
+    "D": 6,
+    "I": 0,
+    "errors": 23,
+    "chars": 48
+   }
+  },
+  {
+   "photo": 5,
+   "line": "jhs__train__JH5.4.jpg",
+   "label": "Distributed reflective denial of service attacks",
+   "region": 4,
+   "app_text": "Distributed reflective denial of service attacks",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 48
+   },
+   "app_width64": 1027,
+   "app_crop_wh": [
+    1572,
+    98
+   ],
+   "app_residual_slope": -0.5,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_5/g004_crop.png",
+    "reader": "Photo_5/g004_reader.png"
+   },
+   "raw_members": [
+    8
+   ],
+   "original": {
+    "text": "Distiuted etflecte e da eans tcttcks",
+    "file": "JH_datasetNov5Sentence/train/JH5.4.jpg",
+    "width64": 342,
+    "cer": 0.4375,
+    "S": 9,
+    "D": 12,
+    "I": 0,
+    "errors": 21,
+    "chars": 48
+   },
+   "tight": {
+    "text": "Distibute refletiededm na ervn tctcks",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH5.4.png",
+    "width64": 386,
+    "cer": 0.375,
+    "S": 7,
+    "D": 11,
+    "I": 0,
+    "errors": 18,
+    "chars": 48
+   },
+   "straightened": {
+    "text": " Distributed reflective denial of serice attacks",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH5.4.png",
+    "width64": 749,
+    "cer": 0.020833333333333332,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "errors": 1,
+    "chars": 48
+   }
+  },
+  {
+   "photo": 5,
+   "line": "jhs__train__JH5.5.jpg",
+   "label": "focus on taking down the availability of an",
+   "region": 5,
+   "app_text": "focus on taking down the availability of an",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 43
+   },
+   "app_width64": 890,
+   "app_crop_wh": [
+    1571,
+    113
+   ],
+   "app_residual_slope": -0.2,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_5/g005_crop.png",
+    "reader": "Photo_5/g005_reader.png"
+   },
+   "raw_members": [
+    7
+   ],
+   "original": {
+    "text": "Tocus on tkimg dowo heanvaiaitltoff f an",
+    "file": "JH_datasetNov5Sentence/train/JH5.5.jpg",
+    "width64": 355,
+    "cer": 0.3488372093023256,
+    "S": 12,
+    "D": 3,
+    "I": 0,
+    "errors": 15,
+    "chars": 43
+   },
+   "tight": {
+    "text": "tocus on taking dom the availabilil t an",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH5.5.png",
+    "width64": 406,
+    "cer": 0.16279069767441862,
+    "S": 4,
+    "D": 3,
+    "I": 0,
+    "errors": 7,
+    "chars": 43
+   },
+   "straightened": {
+    "text": "focus on taking down the availability of an",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH5.5.png",
+    "width64": 520,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 43
+   }
+  },
+  {
+   "photo": 5,
+   "line": "jhs__train__JH5.6.jpg",
+   "label": "asset through an overwhelming volume of HTTP",
+   "region": 6,
+   "app_text": "asset through an overwhelming volume of HTTP",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 44
+   },
+   "app_width64": 872,
+   "app_crop_wh": [
+    1702,
+    125
+   ],
+   "app_residual_slope": 0.3,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_5/g006_crop.png",
+    "reader": "Photo_5/g006_reader.png"
+   },
+   "raw_members": [
+    6
+   ],
+   "original": {
+    "text": "Asset through an overwhelming volume of HTp",
+    "file": "JH_datasetNov5Sentence/train/JH5.6.jpg",
+    "width64": 491,
+    "cer": 0.022727272727272728,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "errors": 1,
+    "chars": 44
+   },
+   "tight": {
+    "text": "asset through an overwhelming volume of HTTP",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH5.6.png",
+    "width64": 597,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 44
+   },
+   "straightened": {
+    "text": "asset through an overwhelming volume of HTP",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH5.6.png",
+    "width64": 578,
+    "cer": 0.022727272727272728,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "errors": 1,
+    "chars": 44
+   }
+  },
+  {
+   "photo": 5,
+   "line": "jhs__train__JH5.7.jpg",
+   "label": "the attacker would send an HTTP request as the",
+   "region": 7,
+   "app_text": "the attacker would send an HTTP request as the",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 46
+   },
+   "app_width64": 1046,
+   "app_crop_wh": [
+    1682,
+    103
+   ],
+   "app_residual_slope": -0.3,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_5/g007_crop.png",
+    "reader": "Photo_5/g007_reader.png"
+   },
+   "raw_members": [
+    5
+   ],
+   "original": {
+    "text": "the attacker would send an HTTP request as the",
+    "file": "JH_datasetNov5Sentence/train/JH5.7.jpg",
+    "width64": 590,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 46
+   },
+   "tight": {
+    "text": "the attacker would send an HTTP request as the",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH5.7.png",
+    "width64": 737,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 46
+   },
+   "straightened": {
+    "text": "the attacker would send an HTTP request as the",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH5.7.png",
+    "width64": 722,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 46
+   }
+  },
+  {
+   "photo": 5,
+   "line": "jhs__train__JH5.8.jpg",
+   "label": "the protocol of choice for this type",
+   "region": 8,
+   "app_text": "the protocol of choice for this type",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 36
+   },
+   "app_width64": 649,
+   "app_crop_wh": [
+    1166,
+    115
+   ],
+   "app_residual_slope": -0.3,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_5/g008_crop.png",
+    "reader": "Photo_5/g008_reader.png"
+   },
+   "raw_members": [
+    4
+   ],
+   "original": {
+    "text": "the protocol of chie e r tos   s tyuope",
+    "file": "JH_datasetNov5Sentence/train/JH5.8.jpg",
+    "width64": 317,
+    "cer": 0.25,
+    "S": 4,
+    "D": 2,
+    "I": 3,
+    "errors": 9,
+    "chars": 36
+   },
+   "tight": {
+    "text": "the protocol of choice tor this tupe",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH5.8.png",
+    "width64": 367,
+    "cer": 0.05555555555555555,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "errors": 2,
+    "chars": 36
+   },
+   "straightened": {
+    "text": "the protocol of choice tor this type",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH5.8.png",
+    "width64": 408,
+    "cer": 0.027777777777777776,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 36
+   }
+  },
+  {
+   "photo": 5,
+   "line": "jhs__train__JH5.9.jpg",
+   "label": "of attack WITHOUT establish connection state",
+   "region": 9,
+   "app_text": "of atack WITHOUT establish Connection state",
+   "app": {
+    "cer": 0.022727272727272728,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "errors": 1,
+    "chars": 44
+   },
+   "app_width64": 1018,
+   "app_crop_wh": [
+    1669,
+    105
+   ],
+   "app_residual_slope": 0.1,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_5/g009_crop.png",
+    "reader": "Photo_5/g009_reader.png"
+   },
+   "raw_members": [
+    3
+   ],
+   "original": {
+    "text": "Of attack WITHoUT establish Connection state",
+    "file": "JH_datasetNov5Sentence/train/JH5.9.jpg",
+    "width64": 516,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 44
+   },
+   "tight": {
+    "text": "of attack WITHouT establish Connection state",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH5.9.png",
+    "width64": 630,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 44
+   },
+   "straightened": {
+    "text": "of attack WITHoUT establish Connection state",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH5.9.png",
+    "width64": 691,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 44
+   }
+  },
+  {
+   "photo": 5,
+   "line": "jhs__test__JH5.10.jpg",
+   "label": "Bots send a modified source address, and unsolicited",
+   "region": 10,
+   "app_text": "Bots send a modified source address, and vnsoliated",
+   "app": {
+    "cer": 0.057692307692307696,
+    "S": 2,
+    "D": 1,
+    "I": 0,
+    "errors": 3,
+    "chars": 52
+   },
+   "app_width64": 1060,
+   "app_crop_wh": [
+    1870,
+    113
+   ],
+   "app_residual_slope": -0.1,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_5/g010_crop.png",
+    "reader": "Photo_5/g010_reader.png"
+   },
+   "raw_members": [
+    2
+   ],
+   "original": {
+    "text": "Bots send a moditied source address, and unsolicited",
+    "file": "JH_datasetNov5Sentence/test/JH5.10.jpg",
+    "width64": 571,
+    "cer": 0.019230769230769232,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 52
+   },
+   "tight": {
+    "text": "Bots send a moditied source addrss, and unsolicited",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__test__JH5.10.png",
+    "width64": 685,
+    "cer": 0.038461538461538464,
+    "S": 1,
+    "D": 1,
+    "I": 0,
+    "errors": 2,
+    "chars": 52
+   },
+   "straightened": {
+    "text": "Bots send a moditied source address, and unsolicited",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__test__JH5.10.png",
+    "width64": 735,
+    "cer": 0.019230769230769232,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 52
+   }
+  },
+  {
+   "photo": 6,
+   "line": "jhs__train__JH6.1.jpg",
+   "label": "Bot is a type of malicious software",
+   "region": 1,
+   "app_text": "Bot is a type of maliciovs software",
+   "app": {
+    "cer": 0.02857142857142857,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 35
+   },
+   "app_width64": 753,
+   "app_crop_wh": [
+    1246,
+    106
+   ],
+   "app_residual_slope": 0.4,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_6/g001_crop.png",
+    "reader": "Photo_6/g001_reader.png"
+   },
+   "raw_members": [
+    8
+   ],
+   "original": {
+    "text": "Bot is a type of maliciousotwure",
+    "file": "JH_datasetNov5Sentence/train/JH6.1.jpg",
+    "width64": 329,
+    "cer": 0.11428571428571428,
+    "S": 1,
+    "D": 3,
+    "I": 0,
+    "errors": 4,
+    "chars": 35
+   },
+   "tight": {
+    "text": "Bot is a type of malieiovs softwhare",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH6.1.png",
+    "width64": 374,
+    "cer": 0.08571428571428572,
+    "S": 2,
+    "D": 0,
+    "I": 1,
+    "errors": 3,
+    "chars": 35
+   },
+   "straightened": {
+    "text": "Bot is a type of maliciovs software",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH6.1.png",
+    "width64": 411,
+    "cer": 0.02857142857142857,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 35
+   }
+  },
+  {
+   "photo": 6,
+   "line": "jhs__train__JH6.2.jpg",
+   "label": "that allows the attacker complete control of the computer",
+   "region": 2,
+   "app_text": "that allows the attacker complete control of the computer",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 57
+   },
+   "app_width64": 1219,
+   "app_crop_wh": [
+    1676,
+    88
+   ],
+   "app_residual_slope": -0.4,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_6/g002_crop.png",
+    "reader": "Photo_6/g002_reader.png"
+   },
+   "raw_members": [
+    7
+   ],
+   "original": {
+    "text": "that alos se auae ncpr crmecehe tcs t e ho cmuter",
+    "file": "JH_datasetNov5Sentence/train/JH6.2.jpg",
+    "width64": 349,
+    "cer": 0.47368421052631576,
+    "S": 15,
+    "D": 10,
+    "I": 2,
+    "errors": 27,
+    "chars": 57
+   },
+   "tight": {
+    "text": "that allos te e taer c cpeovme cte co o ho coputer",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH6.2.png",
+    "width64": 398,
+    "cer": 0.3684210526315789,
+    "S": 12,
+    "D": 8,
+    "I": 1,
+    "errors": 21,
+    "chars": 57
+   },
+   "straightened": {
+    "text": "that allows the attacker complete control of the computer",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH6.2.png",
+    "width64": 721,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 57
+   }
+  },
+  {
+   "photo": 6,
+   "line": "jhs__train__JH6.4.jpg",
+   "label": "A botnet is a collection of zombies all used to do things",
+   "region": 4,
+   "app_text": "A botnet is a collection of zombies all used to do things",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 57
+   },
+   "app_width64": 1172,
+   "app_crop_wh": [
+    1758,
+    96
+   ],
+   "app_residual_slope": -0.7,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_6/g004_crop.png",
+    "reader": "Photo_6/g004_reader.png"
+   },
+   "raw_members": [
+    5
+   ],
+   "original": {
+    "text": "A btelts te o s s   du f ing.",
+    "file": "JH_datasetNov5Sentence/train/JH6.4.jpg",
+    "width64": 280,
+    "cer": 0.6491228070175439,
+    "S": 7,
+    "D": 30,
+    "I": 0,
+    "errors": 37,
+    "chars": 57
+   },
+   "tight": {
+    "text": "A btelts te o s s   du f ing.",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH6.4.png",
+    "width64": 280,
+    "cer": 0.6491228070175439,
+    "S": 7,
+    "D": 30,
+    "I": 0,
+    "errors": 37,
+    "chars": 57
+   },
+   "straightened": {
+    "text": "A botet s s ot e fa os n eti  t  tins.",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH6.4.png",
+    "width64": 319,
+    "cer": 0.543859649122807,
+    "S": 10,
+    "D": 21,
+    "I": 0,
+    "errors": 31,
+    "chars": 57
+   }
+  },
+  {
+   "photo": 6,
+   "line": "jhs__train__JH6.5.jpg",
+   "label": "Anyone close to your router can get on",
+   "region": 5,
+   "app_text": "Anyone close to your router can get on",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 38
+   },
+   "app_width64": 730,
+   "app_crop_wh": [
+    1323,
+    116
+   ],
+   "app_residual_slope": -0.9,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_6/g005_crop.png",
+    "reader": "Photo_6/g005_reader.png"
+   },
+   "raw_members": [
+    4
+   ],
+   "original": {
+    "text": "Ampome doset ororeo n   u t on",
+    "file": "JH_datasetNov5Sentence/train/JH6.5.jpg",
+    "width64": 261,
+    "cer": 0.47368421052631576,
+    "S": 8,
+    "D": 10,
+    "I": 0,
+    "errors": 18,
+    "chars": 38
+   },
+   "tight": {
+    "text": "Amon lose to youe oaueo  n g agton",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH6.5.png",
+    "width64": 291,
+    "cer": 0.39473684210526316,
+    "S": 8,
+    "D": 6,
+    "I": 1,
+    "errors": 15,
+    "chars": 38
+   },
+   "straightened": {
+    "text": "Anyone close to your router can get on",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH6.5.png",
+    "width64": 458,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 38
+   }
+  },
+  {
+   "photo": 6,
+   "line": "jhs__train__JH6.6.jpg",
+   "label": "fake WiFi access point that appears to",
+   "region": 6,
+   "app_text": "fake WiFi nuess point that appears to",
+   "app": {
+    "cer": 0.07894736842105263,
+    "S": 2,
+    "D": 1,
+    "I": 0,
+    "errors": 3,
+    "chars": 38
+   },
+   "app_width64": 709,
+   "app_crop_wh": [
+    1285,
+    116
+   ],
+   "app_residual_slope": -1.3,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_6/g006_crop.png",
+    "reader": "Photo_6/g006_reader.png"
+   },
+   "raw_members": [
+    3
+   ],
+   "original": {
+    "text": "Aake WiFi ms pontges t  papore uars ton",
+    "file": "JH_datasetNov5Sentence/train/JH6.6.jpg",
+    "width64": 271,
+    "cer": 0.4473684210526316,
+    "S": 7,
+    "D": 5,
+    "I": 5,
+    "errors": 17,
+    "chars": 38
+   },
+   "tight": {
+    "text": "fae hit cess pin htapgremems to",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH6.6.png",
+    "width64": 307,
+    "cer": 0.42105263157894735,
+    "S": 5,
+    "D": 9,
+    "I": 2,
+    "errors": 16,
+    "chars": 38
+   },
+   "straightened": {
+    "text": "fake WiF ncess point that appears to",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH6.6.png",
+    "width64": 459,
+    "cer": 0.07894736842105263,
+    "S": 1,
+    "D": 2,
+    "I": 0,
+    "errors": 3,
+    "chars": 38
+   }
+  },
+  {
+   "photo": 6,
+   "line": "jhs__train__JH6.8.jpg",
+   "label": "Client is associated to the Hot Spot AP",
+   "region": 8,
+   "app_text": "Client is associated to the Hot Spot Ap",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 39
+   },
+   "app_width64": 750,
+   "app_crop_wh": [
+    1323,
+    113
+   ],
+   "app_residual_slope": -0.2,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_6/g008_crop.png",
+    "reader": "Photo_6/g008_reader.png"
+   },
+   "raw_members": [
+    1
+   ],
+   "original": {
+    "text": "Client is associated to the Hot spot Ap",
+    "file": "JH_datasetNov5Sentence/train/JH6.8.jpg",
+    "width64": 476,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 39
+   },
+   "tight": {
+    "text": "Client is associated to the Hot Spot AP",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH6.8.png",
+    "width64": 609,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 39
+   },
+   "straightened": {
+    "text": "Client is associated to the Hot Spot AP",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH6.8.png",
+    "width64": 561,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 39
+   }
+  },
+  {
+   "photo": 6,
+   "line": "jhs__test__JH6.3.jpg",
+   "label": "Zombie is an internet-connected computer infected with a bot",
+   "region": 3,
+   "app_text": "Zombie is an internet-connected computer infected with a bot",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 60
+   },
+   "app_width64": 1331,
+   "app_crop_wh": [
+    1829,
+    88
+   ],
+   "app_residual_slope": -0.3,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_6/g003_crop.png",
+    "reader": "Photo_6/g003_reader.png"
+   },
+   "raw_members": [
+    6
+   ],
+   "original": {
+    "text": "Iomtie isa e t e n i er cercnis   neft hf bot",
+    "file": "JH_datasetNov5Sentence/test/JH6.3.jpg",
+    "width64": 336,
+    "cer": 0.5833333333333334,
+    "S": 18,
+    "D": 17,
+    "I": 0,
+    "errors": 35,
+    "chars": 60
+   },
+   "tight": {
+    "text": "iomtie i a taune  nte ecetececies e  et h af bout",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__test__JH6.3.png",
+    "width64": 382,
+    "cer": 0.5666666666666667,
+    "S": 17,
+    "D": 15,
+    "I": 2,
+    "errors": 34,
+    "chars": 60
+   },
+   "straightened": {
+    "text": "Zombie is an internet-connected computer infected with a bot",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__test__JH6.3.png",
+    "width64": 786,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 60
+   }
+  },
+  {
+   "photo": 6,
+   "line": "jhs__test__JH6.7.jpg",
+   "label": "be legit but is set up to eavesdrop on",
+   "region": 7,
+   "app_text": "be legit but is set vp to envesdrop on",
+   "app": {
+    "cer": 0.05263157894736842,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "errors": 2,
+    "chars": 38
+   },
+   "app_width64": 766,
+   "app_crop_wh": [
+    1268,
+    106
+   ],
+   "app_residual_slope": -0.7,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_6/g007_crop.png",
+    "reader": "Photo_6/g007_reader.png"
+   },
+   "raw_members": [
+    2
+   ],
+   "original": {
+    "text": "be legit but is set up to eavesdro on",
+    "file": "JH_datasetNov5Sentence/test/JH6.7.jpg",
+    "width64": 354,
+    "cer": 0.02631578947368421,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "errors": 1,
+    "chars": 38
+   },
+   "tight": {
+    "text": "be legit but is set up to eavesdrop on",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__test__JH6.7.png",
+    "width64": 420,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 38
+   },
+   "straightened": {
+    "text": "be legit but is set vp to envesdrop on",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__test__JH6.7.png",
+    "width64": 524,
+    "cer": 0.05263157894736842,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "errors": 2,
+    "chars": 38
+   }
+  },
+  {
+   "photo": 7,
+   "line": "jhs__train__JH7.1.jpg",
+   "label": "If it is unencrypted, then there may be a loss",
+   "region": 1,
+   "app_text": "If it is unencrypted, then there may be a loss",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 46
+   },
+   "app_width64": 880,
+   "app_crop_wh": [
+    1594,
+    116
+   ],
+   "app_residual_slope": -0.5,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_7/g001_crop.png",
+    "reader": "Photo_7/g001_reader.png"
+   },
+   "raw_members": [
+    10
+   ],
+   "original": {
+    "text": "Ii it is nencrpted then e we eo e a  alos",
+    "file": "JH_datasetNov5Sentence/train/JH7.1.jpg",
+    "width64": 363,
+    "cer": 0.30434782608695654,
+    "S": 6,
+    "D": 7,
+    "I": 1,
+    "errors": 14,
+    "chars": 46
+   },
+   "tight": {
+    "text": "Ii it is unencrpted hen e e mem e   aos",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH7.1.png",
+    "width64": 367,
+    "cer": 0.2826086956521739,
+    "S": 4,
+    "D": 9,
+    "I": 0,
+    "errors": 13,
+    "chars": 46
+   },
+   "straightened": {
+    "text": "If it is unencrypted then there may be a loss",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH7.1.png",
+    "width64": 522,
+    "cer": 0.021739130434782608,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "errors": 1,
+    "chars": 46
+   }
+  },
+  {
+   "photo": 7,
+   "line": "jhs__train__JH7.3.jpg",
+   "label": "relies on the promiscuous mode feature of a network",
+   "region": 3,
+   "app_text": "relies on the promiscuous mode feature of a network",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 51
+   },
+   "app_width64": 1133,
+   "app_crop_wh": [
+    1681,
+    95
+   ],
+   "app_residual_slope": 0.1,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_7/g003_crop.png",
+    "reader": "Photo_7/g003_reader.png"
+   },
+   "raw_members": [
+    8
+   ],
+   "original": {
+    "text": "Reohcs on he emteco vo vos ivio tb fo of uature",
+    "file": "JH_datasetNov5Sentence/train/JH7.3.jpg",
+    "width64": 287,
+    "cer": 0.6274509803921569,
+    "S": 26,
+    "D": 5,
+    "I": 1,
+    "errors": 32,
+    "chars": 51
+   },
+   "tight": {
+    "text": "Reohcs on he emteco vo vos ivio tb fo of uature",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH7.3.png",
+    "width64": 287,
+    "cer": 0.6274509803921569,
+    "S": 26,
+    "D": 5,
+    "I": 1,
+    "errors": 32,
+    "chars": 51
+   },
+   "straightened": {
+    "text": "Res o heh mcou sououvse wevta tbh f he uwurk.",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH7.3.png",
+    "width64": 308,
+    "cer": 0.5882352941176471,
+    "S": 18,
+    "D": 9,
+    "I": 3,
+    "errors": 30,
+    "chars": 51
+   }
+  },
+  {
+   "photo": 7,
+   "line": "jhs__train__JH7.4.jpg",
+   "label": "Passive sniffing is difficult to detect",
+   "region": 4,
+   "app_text": "Passive sniffing is difficult to detect",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 39
+   },
+   "app_width64": 769,
+   "app_crop_wh": [
+    1201,
+    100
+   ],
+   "app_residual_slope": -0.3,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_7/g004_crop.png",
+    "reader": "Photo_7/g004_reader.png"
+   },
+   "raw_members": [
+    7
+   ],
+   "original": {
+    "text": "Passivesmitigis dti t t o o e detest",
+    "file": "JH_datasetNov5Sentence/train/JH7.4.jpg",
+    "width64": 262,
+    "cer": 0.4358974358974359,
+    "S": 8,
+    "D": 6,
+    "I": 3,
+    "errors": 17,
+    "chars": 39
+   },
+   "tight": {
+    "text": "passive smitigis ditit t ttct te detest",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH7.4.png",
+    "width64": 293,
+    "cer": 0.41025641025641024,
+    "S": 10,
+    "D": 3,
+    "I": 3,
+    "errors": 16,
+    "chars": 39
+   },
+   "straightened": {
+    "text": "Pasive sniffing is dificult to detect",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH7.4.png",
+    "width64": 451,
+    "cer": 0.05128205128205128,
+    "S": 0,
+    "D": 2,
+    "I": 0,
+    "errors": 2,
+    "chars": 39
+   }
+  },
+  {
+   "photo": 7,
+   "line": "jhs__train__JH7.5.jpg",
+   "label": "but does not work well in switched network",
+   "region": 5,
+   "app_text": "but does not work well in switched network",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 42
+   },
+   "app_width64": 900,
+   "app_crop_wh": [
+    1489,
+    106
+   ],
+   "app_residual_slope": -0.7,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_7/g005_crop.png",
+    "reader": "Photo_7/g005_reader.png"
+   },
+   "raw_members": [
+    6
+   ],
+   "original": {
+    "text": "beu ders os toreoveie sei h nutt utowis.",
+    "file": "JH_datasetNov5Sentence/train/JH7.5.jpg",
+    "width64": 263,
+    "cer": 0.6666666666666666,
+    "S": 22,
+    "D": 4,
+    "I": 2,
+    "errors": 28,
+    "chars": 42
+   },
+   "tight": {
+    "text": "but des not or eae s ie  uete t utworke",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH7.5.png",
+    "width64": 292,
+    "cer": 0.42857142857142855,
+    "S": 12,
+    "D": 5,
+    "I": 1,
+    "errors": 18,
+    "chars": 42
+   },
+   "straightened": {
+    "text": "but does not work well in switched network",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH7.5.png",
+    "width64": 640,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 42
+   }
+  },
+  {
+   "photo": 7,
+   "line": "jhs__train__JH7.6.jpg",
+   "label": "Web login password capture demo",
+   "region": 6,
+   "app_text": "Web login password capture demo",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 31
+   },
+   "app_width64": 614,
+   "app_crop_wh": [
+    1180,
+    123
+   ],
+   "app_residual_slope": -0.1,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_7/g006_crop.png",
+    "reader": "Photo_7/g006_reader.png"
+   },
+   "raw_members": [
+    5
+   ],
+   "original": {
+    "text": "Web losim psword capturenemd",
+    "file": "JH_datasetNov5Sentence/train/JH7.6.jpg",
+    "width64": 283,
+    "cer": 0.22580645161290322,
+    "S": 4,
+    "D": 3,
+    "I": 0,
+    "errors": 7,
+    "chars": 31
+   },
+   "tight": {
+    "text": "Web losin password Capture demo",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH7.6.png",
+    "width64": 327,
+    "cer": 0.03225806451612903,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 31
+   },
+   "straightened": {
+    "text": "Web losin password capture demo",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH7.6.png",
+    "width64": 416,
+    "cer": 0.03225806451612903,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 31
+   }
+  },
+  {
+   "photo": 7,
+   "line": "jhs__train__JH7.8.jpg",
+   "label": "Open a web browser and go to",
+   "region": 8,
+   "app_text": "Open a weh browser and go to",
+   "app": {
+    "cer": 0.03571428571428571,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 28
+   },
+   "app_width64": 651,
+   "app_crop_wh": [
+    1067,
+    105
+   ],
+   "app_residual_slope": -0.6,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_7/g008_crop.png",
+    "reader": "Photo_7/g008_reader.png"
+   },
+   "raw_members": [
+    3
+   ],
+   "original": {
+    "text": "Open a web browser and go to",
+    "file": "JH_datasetNov5Sentence/train/JH7.8.jpg",
+    "width64": 350,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 28
+   },
+   "tight": {
+    "text": "Open a web browser and go to",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH7.8.png",
+    "width64": 422,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 28
+   },
+   "straightened": {
+    "text": "Open a web browser and go to",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH7.8.png",
+    "width64": 438,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 28
+   }
+  },
+  {
+   "photo": 7,
+   "line": "jhs__train__JH7.9.jpg",
+   "label": "On the top right of the screen",
+   "region": 9,
+   "app_text": "On the top right of the screen",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 30
+   },
+   "app_width64": 735,
+   "app_crop_wh": [
+    1125,
+    98
+   ],
+   "app_residual_slope": -0.6,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_7/g009_crop.png",
+    "reader": "Photo_7/g009_reader.png"
+   },
+   "raw_members": [
+    2
+   ],
+   "original": {
+    "text": "On the top right of the screen",
+    "file": "JH_datasetNov5Sentence/train/JH7.9.jpg",
+    "width64": 338,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 30
+   },
+   "tight": {
+    "text": "On the top right of the screen",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH7.9.png",
+    "width64": 411,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 30
+   },
+   "straightened": {
+    "text": "On the top right of the screen",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH7.9.png",
+    "width64": 440,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 30
+   }
+  },
+  {
+   "photo": 7,
+   "line": "jhs__train__JH7.10.jpg",
+   "label": "a password of top secret password",
+   "region": 10,
+   "app_text": "A password of top secret password",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 33
+   },
+   "app_width64": 749,
+   "app_crop_wh": [
+    1321,
+    113
+   ],
+   "app_residual_slope": -0.2,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_7/g010_crop.png",
+    "reader": "Photo_7/g010_reader.png"
+   },
+   "raw_members": [
+    1
+   ],
+   "original": {
+    "text": "A password of top secret password",
+    "file": "JH_datasetNov5Sentence/train/JH7.10.jpg",
+    "width64": 366,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 33
+   },
+   "tight": {
+    "text": "A password of top secret password",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__train__JH7.10.png",
+    "width64": 435,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 33
+   },
+   "straightened": {
+    "text": "A password of top secret password",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__train__JH7.10.png",
+    "width64": 456,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 33
+   }
+  },
+  {
+   "photo": 7,
+   "line": "jhs__test__JH7.2.jpg",
+   "label": "Passive sniffing use of a sniffer",
+   "region": 2,
+   "app_text": "Passive sniffing vse of a sniffer",
+   "app": {
+    "cer": 0.030303030303030304,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 33
+   },
+   "app_width64": 676,
+   "app_crop_wh": [
+    1035,
+    98
+   ],
+   "app_residual_slope": -0.4,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_7/g002_crop.png",
+    "reader": "Photo_7/g002_reader.png"
+   },
+   "raw_members": [
+    9
+   ],
+   "original": {
+    "text": "Passive sitig useoft  fifor",
+    "file": "JH_datasetNov5Sentence/test/JH7.2.jpg",
+    "width64": 269,
+    "cer": 0.3333333333333333,
+    "S": 4,
+    "D": 7,
+    "I": 0,
+    "errors": 11,
+    "chars": 33
+   },
+   "tight": {
+    "text": "Passive smitting use of a smiffer",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__test__JH7.2.png",
+    "width64": 301,
+    "cer": 0.12121212121212122,
+    "S": 4,
+    "D": 0,
+    "I": 0,
+    "errors": 4,
+    "chars": 33
+   },
+   "straightened": {
+    "text": "Passive snifting vse of a sifter",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__test__JH7.2.png",
+    "width64": 393,
+    "cer": 0.12121212121212122,
+    "S": 3,
+    "D": 1,
+    "I": 0,
+    "errors": 4,
+    "chars": 33
+   }
+  },
+  {
+   "photo": 7,
+   "line": "jhs__test__JH7.7.jpg",
+   "label": "Check all the interfaces as shown below",
+   "region": 7,
+   "app_text": "check all the interfaces as shown below",
+   "app": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 39
+   },
+   "app_width64": 898,
+   "app_crop_wh": [
+    1332,
+    95
+   ],
+   "app_residual_slope": 0.1,
+   "core_cover": 1.0,
+   "app_files": {
+    "crop": "Photo_7/g007_crop.png",
+    "reader": "Photo_7/g007_reader.png"
+   },
+   "raw_members": [
+    4
+   ],
+   "original": {
+    "text": "check all he interfaces ns sown belo",
+    "file": "JH_datasetNov5Sentence/test/JH7.7.jpg",
+    "width64": 390,
+    "cer": 0.10256410256410256,
+    "S": 1,
+    "D": 3,
+    "I": 0,
+    "errors": 4,
+    "chars": 39
+   },
+   "tight": {
+    "text": "check all the interfaces ns shown below",
+    "file": "claude_margin_diagnostic_20261109/crops_tight/jhs__test__JH7.7.png",
+    "width64": 461,
+    "cer": 0.02564102564102564,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "errors": 1,
+    "chars": 39
+   },
+   "straightened": {
+    "text": "check all the interfaces as shown below",
+    "file": "claude_margin_diagnostic_20261109/straighten/crops_R/jhs__test__JH7.7.png",
+    "width64": 661,
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "errors": 0,
+    "chars": 39
+   }
+  }
+ ],
+ "other": [],
+ "extra": [
+  {
+   "photo": 2,
+   "region": 5,
+   "text": "",
+   "files": {
+    "crop": "Photo_2/g005_crop.png",
+    "reader": "Photo_2/g005_reader.png"
+   },
+   "visual_context": "Black board eraser; the saved OCR reading is empty."
+  },
+  {
+   "photo": 5,
+   "region": 11,
+   "text": "Q 5earch",
+   "files": {
+    "crop": "Photo_5/g011_crop.png",
+    "reader": "Photo_5/g011_reader.png"
+   },
+   "visual_context": "Projected Windows taskbar: magnifier icon and Search, not handwritten notes."
+  }
+ ],
+ "summary": {
+  "n_one_to_one": 59,
+  "lines": 59,
+  "cer_app": 0.008690682644741522,
+  "D_app": 5,
+  "persist15_app": 0,
+  "cer_original": 0.21141697544196303,
+  "D_original": 232,
+  "persist15_original": 29,
+  "cer_tight": 0.16429896852584921,
+  "D_tight": 187,
+  "persist15_tight": 22,
+  "cer_straightened": 0.0537119768264187,
+  "D_straightened": 68,
+  "persist15_straightened": 4,
+  "app_minus_original": {
+   "diff": -0.2027262927972215,
+   "ci_photo_bootstrap": [
+    -0.25926697452461306,
+    -0.1442748218331156
+   ],
+   "app_better": 43,
+   "app_worse": 5
+  },
+  "app_minus_tight": {
+   "diff": -0.1556082858811077,
+   "ci_photo_bootstrap": [
+    -0.21443717675585813,
+    -0.09891605697409205
+   ],
+   "app_better": 39,
+   "app_worse": 5
+  },
+  "app_minus_straightened": {
+   "diff": -0.04502129418167718,
+   "ci_photo_bootstrap": [
+    -0.06695829206146627,
+    -0.021044460162142342
+   ],
+   "app_better": 20,
+   "app_worse": 3
+  },
+  "median_width64": {
+   "app": 814.0,
+   "original": 342.0,
+   "tight": 386.0,
+   "straightened": 500.0
+  },
+  "app_residual_slope_abs_median": 0.4
+ },
+ "totals": {
+  "grouped": {
+   "one_to_one": 59,
+   "extra_region": 2
+  },
+  "raw": {
+   "one_to_one": 58,
+   "split": 1,
+   "extra_region": 2
+  }
+ },
+ "visuals": {
+  "overlays": [
+   "overlay_Photo_1.jpg",
+   "overlay_Photo_2.jpg",
+   "overlay_Photo_3.jpg",
+   "overlay_Photo_4.jpg",
+   "overlay_Photo_5.jpg",
+   "overlay_Photo_6.jpg",
+   "overlay_Photo_7.jpg"
+  ],
+  "strips": [
+   "strip_Photo_1.jpg",
+   "strip_Photo_2.jpg",
+   "strip_Photo_3.jpg",
+   "strip_Photo_4.jpg",
+   "strip_Photo_5.jpg",
+   "strip_Photo_6.jpg",
+   "strip_Photo_7.jpg"
+  ],
+  "compare": [
+   "compare_1.jpg",
+   "compare_2.jpg",
+   "compare_3.jpg",
+   "compare_4.jpg",
+   "compare_5.jpg"
+  ]
+ }
+}

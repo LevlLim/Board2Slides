@@ -1,0 +1,2454 @@
+{
+ "code_dir": "/sessions/rcw-01vkkhtsx22qwuxufc3jfk4j/mnt/Computer Vision & Deep Learning/Assignment/board2notes_ocr_package/b2n_ocr",
+ "backend_sha256": "f4f90da291e3a9b96408a3a0875f886bc896aeb761f62941e673e2e8e57d98de",
+ "reader_identity": {
+  "model_id": "S1",
+  "graph_sha256": "aea3ba7d7fad92875dcb6e7338f62eee0c619b48449501ddbcb86d804416e27f",
+  "params_sha256": "067b34a571b6f1521534596e74788c6cad80de306c497cd84e439724e8e5b07d",
+  "config_sha256": "6f47a7dc13bd6e9189f01e13bd4f6efad085484aa1de514269a5025f3e95793d",
+  "image_shape": [
+   3,
+   64,
+   1024
+  ],
+  "runtime": "cpu_pir_no_default_passes_official_resize_v2",
+  "threads": 4,
+  "paddle": "3.2.2",
+  "opencv": "5.0.0",
+  "backend_sha256": "f4f90da291e3a9b96408a3a0875f886bc896aeb761f62941e673e2e8e57d98de"
+ },
+ "reader_load_seconds": 0.8417362079999293,
+ "total_seconds": 49.69382752400088,
+ "env": {
+  "python": "3.12.15",
+  "platform": "Linux-6.8.0-138-generic-aarch64-with-glibc2.35",
+  "machine": "aarch64",
+  "paddlepaddle": "3.2.2",
+  "paddleocr": "3.7.0",
+  "paddlex": "3.7.2",
+  "numpy": "2.3.5",
+  "opencv-python": null,
+  "opencv-python-headless": "5.0.0.93",
+  "opencv-contrib-python": "4.10.0.84",
+  "pillow": "12.3.0",
+  "pillow-heif": "1.8.1",
+  "cv2_in_use": "5.0.0"
+ },
+ "results": {
+  "jy_photo23.jpg": {
+   "fixture": "jy_photo23.jpg",
+   "file_sha256": "b9cffe736730bcdb091ee8670559a2e9ce76c801fe3da3fd2aa020d12d128fa8",
+   "decoded_size": [
+    960,
+    1280
+   ],
+   "wall_seconds": 7.043630295000185,
+   "status": "ok",
+   "n_lines": 9,
+   "text": "Is raining cats and dogs\nwise words from a wise man\nI never go batam before\nI want to be tich\nPump and dump\nSing Karaoke together\nI want to go smoke\nEsterified to glycerol with either\nEnzymatic hydrolysis by lipases",
+   "lines": [
+    {
+     "index": 1,
+     "text": "Is raining cats and dogs",
+     "score": 0.975879967212677,
+     "box": [
+      [
+       129.0,
+       229.0
+      ],
+      [
+       711.0,
+       183.0
+      ],
+      [
+       715.0,
+       235.0
+      ],
+      [
+       133.0,
+       281.0
+      ]
+     ]
+    },
+    {
+     "index": 2,
+     "text": "wise words from a wise man",
+     "score": 0.9520420432090759,
+     "box": [
+      [
+       186.0,
+       313.0
+      ],
+      [
+       781.0,
+       257.0
+      ],
+      [
+       785.0,
+       299.0
+      ],
+      [
+       190.0,
+       355.0
+      ]
+     ]
+    },
+    {
+     "index": 3,
+     "text": "I never go batam before",
+     "score": 0.9854153990745544,
+     "box": [
+      [
+       216.0,
+       461.0
+      ],
+      [
+       863.0,
+       409.0
+      ],
+      [
+       867.0,
+       466.0
+      ],
+      [
+       220.0,
+       518.0
+      ]
+     ]
+    },
+    {
+     "index": 4,
+     "text": "I want to be tich",
+     "score": 0.936059296131134,
+     "box": [
+      [
+       217.0,
+       563.0
+      ],
+      [
+       666.0,
+       533.0
+      ],
+      [
+       669.0,
+       578.0
+      ],
+      [
+       220.0,
+       608.0
+      ]
+     ]
+    },
+    {
+     "index": 5,
+     "text": "Pump and dump",
+     "score": 0.9778642058372498,
+     "box": [
+      [
+       219.0,
+       674.0
+      ],
+      [
+       580.0,
+       668.0
+      ],
+      [
+       581.0,
+       725.0
+      ],
+      [
+       220.0,
+       731.0
+      ]
+     ]
+    },
+    {
+     "index": 6,
+     "text": "Sing Karaoke together",
+     "score": 0.9991762042045593,
+     "box": [
+      [
+       256.0,
+       786.0
+      ],
+      [
+       695.0,
+       809.0
+      ],
+      [
+       692.0,
+       866.0
+      ],
+      [
+       253.0,
+       843.0
+      ]
+     ]
+    },
+    {
+     "index": 7,
+     "text": "I want to go smoke",
+     "score": 0.984049916267395,
+     "box": [
+      [
+       248.0,
+       905.0
+      ],
+      [
+       650.0,
+       925.0
+      ],
+      [
+       647.0,
+       974.0
+      ],
+      [
+       245.0,
+       954.0
+      ]
+     ]
+    },
+    {
+     "index": 8,
+     "text": "Esterified to glycerol with either",
+     "score": 0.9875180721282959,
+     "box": [
+      [
+       231.0,
+       1020.0
+      ],
+      [
+       770.0,
+       1009.0
+      ],
+      [
+       771.0,
+       1061.0
+      ],
+      [
+       232.0,
+       1072.0
+      ]
+     ]
+    },
+    {
+     "index": 9,
+     "text": "Enzymatic hydrolysis by lipases",
+     "score": 0.991817831993103,
+     "box": [
+      [
+       219.0,
+       1122.0
+      ],
+      [
+       660.0,
+       1095.0
+      ],
+      [
+       664.0,
+       1152.0
+      ],
+      [
+       223.0,
+       1179.0
+      ]
+     ]
+    }
+   ],
+   "seconds": 6.401060210999276,
+   "detector_cold_load_seconds": 0.6382169169992267,
+   "detector": {
+    "name": "PP-OCRv5_mobile_det",
+    "unclip_ratio": 1.2,
+    "thresh": 0.2,
+    "box_thresh": 0.4,
+    "info": {
+     "path": "text large enough (52 px) -> quick boxes kept",
+     "writing_px_detector": 52.2,
+     "regions": 0
+    }
+   },
+   "image_wh": [
+    960,
+    1280
+   ],
+   "export": {
+    "text_bytes": 215,
+    "text_roundtrip": true,
+    "json_bytes": 4060,
+    "json_roundtrip": true
+   }
+  },
+  "jy_photo8.jpg": {
+   "fixture": "jy_photo8.jpg",
+   "file_sha256": "cdc5c691c314e3490443a13a37ecfda241e18e5d0113b15e9bc020d8ab790144",
+   "decoded_size": [
+    960,
+    1280
+   ],
+   "wall_seconds": 15.587541633,
+   "status": "ok",
+   "n_lines": 38,
+   "text": "Lipids\nTriglycerides\nsoluble\nGlycerol\nEmulsitier\nAtomS\nFool\nCompuund\nAdipose\nIndustry\nDerived\nEneryy\nNature\nesterified\nReserve\nFustiny\nHelp\nAlcohols\nCholestrol\nFatty\nHytrohysis\nSaturutel\nVitamin\nAcid\nPhospholipids\nMonosaturuted\nSterols\nPOlyumsaturatel\nBile\nGlycolipids\nHorhunes\nEcoli\nShorts\nMembrane Lipoproteins\nMedium\nCarbon\nPlants\nLecithin",
+   "lines": [
+    {
+     "index": 1,
+     "text": "Lipids",
+     "score": 0.9818301200866699,
+     "box": [
+      [
+       241.0,
+       271.0
+      ],
+      [
+       338.0,
+       264.0
+      ],
+      [
+       342.0,
+       317.0
+      ],
+      [
+       245.0,
+       324.0
+      ]
+     ]
+    },
+    {
+     "index": 2,
+     "text": "Triglycerides",
+     "score": 0.9981563091278076,
+     "box": [
+      [
+       423.0,
+       267.0
+      ],
+      [
+       571.0,
+       254.0
+      ],
+      [
+       575.0,
+       298.0
+      ],
+      [
+       427.0,
+       311.0
+      ]
+     ]
+    },
+    {
+     "index": 3,
+     "text": "soluble",
+     "score": 0.9541457891464233,
+     "box": [
+      [
+       635.0,
+       255.0
+      ],
+      [
+       715.0,
+       247.0
+      ],
+      [
+       718.0,
+       281.0
+      ],
+      [
+       638.0,
+       289.0
+      ]
+     ]
+    },
+    {
+     "index": 4,
+     "text": "Glycerol",
+     "score": 0.9997541904449463,
+     "box": [
+      [
+       417.0,
+       323.0
+      ],
+      [
+       520.0,
+       311.0
+      ],
+      [
+       525.0,
+       356.0
+      ],
+      [
+       422.0,
+       368.0
+      ]
+     ]
+    },
+    {
+     "index": 5,
+     "text": "Emulsitier",
+     "score": 0.9996170997619629,
+     "box": [
+      [
+       630.0,
+       311.0
+      ],
+      [
+       748.0,
+       306.0
+      ],
+      [
+       749.0,
+       338.0
+      ],
+      [
+       631.0,
+       343.0
+      ]
+     ]
+    },
+    {
+     "index": 6,
+     "text": "AtomS",
+     "score": 0.9839504957199097,
+     "box": [
+      [
+       242.0,
+       334.0
+      ],
+      [
+       325.0,
+       331.0
+      ],
+      [
+       327.0,
+       375.0
+      ],
+      [
+       244.0,
+       378.0
+      ]
+     ]
+    },
+    {
+     "index": 7,
+     "text": "Fool",
+     "score": 0.9975586533546448,
+     "box": [
+      [
+       626.0,
+       354.0
+      ],
+      [
+       690.0,
+       352.0
+      ],
+      [
+       691.0,
+       392.0
+      ],
+      [
+       627.0,
+       394.0
+      ]
+     ]
+    },
+    {
+     "index": 8,
+     "text": "Compuund",
+     "score": 0.9929126501083374,
+     "box": [
+      [
+       240.0,
+       391.0
+      ],
+      [
+       356.0,
+       376.0
+      ],
+      [
+       361.0,
+       421.0
+      ],
+      [
+       246.0,
+       435.0
+      ]
+     ]
+    },
+    {
+     "index": 9,
+     "text": "Adipose",
+     "score": 0.9961789846420288,
+     "box": [
+      [
+       417.0,
+       372.0
+      ],
+      [
+       498.0,
+       368.0
+      ],
+      [
+       500.0,
+       413.0
+      ],
+      [
+       419.0,
+       417.0
+      ]
+     ]
+    },
+    {
+     "index": 10,
+     "text": "Industry",
+     "score": 0.9796639084815979,
+     "box": [
+      [
+       623.0,
+       401.0
+      ],
+      [
+       726.0,
+       398.0
+      ],
+      [
+       727.0,
+       434.0
+      ],
+      [
+       624.0,
+       437.0
+      ]
+     ]
+    },
+    {
+     "index": 11,
+     "text": "Derived",
+     "score": 0.9999618530273438,
+     "box": [
+      [
+       240.0,
+       438.0
+      ],
+      [
+       325.0,
+       429.0
+      ],
+      [
+       329.0,
+       470.0
+      ],
+      [
+       244.0,
+       479.0
+      ]
+     ]
+    },
+    {
+     "index": 12,
+     "text": "Eneryy",
+     "score": 0.9837031960487366,
+     "box": [
+      [
+       417.0,
+       425.0
+      ],
+      [
+       500.0,
+       422.0
+      ],
+      [
+       501.0,
+       460.0
+      ],
+      [
+       418.0,
+       463.0
+      ]
+     ]
+    },
+    {
+     "index": 13,
+     "text": "Nature",
+     "score": 0.9787704348564148,
+     "box": [
+      [
+       620.0,
+       455.0
+      ],
+      [
+       706.0,
+       448.0
+      ],
+      [
+       709.0,
+       484.0
+      ],
+      [
+       623.0,
+       491.0
+      ]
+     ]
+    },
+    {
+     "index": 14,
+     "text": "esterified",
+     "score": 0.9586537480354309,
+     "box": [
+      [
+       241.0,
+       491.0
+      ],
+      [
+       361.0,
+       479.0
+      ],
+      [
+       365.0,
+       514.0
+      ],
+      [
+       245.0,
+       526.0
+      ]
+     ]
+    },
+    {
+     "index": 15,
+     "text": "Reserve",
+     "score": 0.9999847412109375,
+     "box": [
+      [
+       415.0,
+       475.0
+      ],
+      [
+       490.0,
+       467.0
+      ],
+      [
+       494.0,
+       501.0
+      ],
+      [
+       419.0,
+       509.0
+      ]
+     ]
+    },
+    {
+     "index": 16,
+     "text": "Fustiny",
+     "score": 0.973901629447937,
+     "box": [
+      [
+       414.0,
+       520.0
+      ],
+      [
+       492.0,
+       520.0
+      ],
+      [
+       492.0,
+       558.0
+      ],
+      [
+       414.0,
+       558.0
+      ]
+     ]
+    },
+    {
+     "index": 17,
+     "text": "Help",
+     "score": 0.9929636716842651,
+     "box": [
+      [
+       621.0,
+       500.0
+      ],
+      [
+       684.0,
+       500.0
+      ],
+      [
+       684.0,
+       542.0
+      ],
+      [
+       621.0,
+       542.0
+      ]
+     ]
+    },
+    {
+     "index": 18,
+     "text": "Alcohols",
+     "score": 0.9383796453475952,
+     "box": [
+      [
+       243.0,
+       535.0
+      ],
+      [
+       330.0,
+       532.0
+      ],
+      [
+       331.0,
+       565.0
+      ],
+      [
+       244.0,
+       568.0
+      ]
+     ]
+    },
+    {
+     "index": 19,
+     "text": "Cholestrol",
+     "score": 0.9944162368774414,
+     "box": [
+      [
+       242.0,
+       573.0
+      ],
+      [
+       351.0,
+       564.0
+      ],
+      [
+       354.0,
+       600.0
+      ],
+      [
+       245.0,
+       609.0
+      ]
+     ]
+    },
+    {
+     "index": 20,
+     "text": "Fatty",
+     "score": 0.9996902346611023,
+     "box": [
+      [
+       409.0,
+       571.0
+      ],
+      [
+       481.0,
+       573.0
+      ],
+      [
+       480.0,
+       617.0
+      ],
+      [
+       408.0,
+       615.0
+      ]
+     ]
+    },
+    {
+     "index": 21,
+     "text": "Hytrohysis",
+     "score": 0.9530010223388672,
+     "box": [
+      [
+       617.0,
+       551.0
+      ],
+      [
+       729.0,
+       545.0
+      ],
+      [
+       730.0,
+       588.0
+      ],
+      [
+       619.0,
+       594.0
+      ]
+     ]
+    },
+    {
+     "index": 22,
+     "text": "Saturutel",
+     "score": 0.9976926445960999,
+     "box": [
+      [
+       614.0,
+       607.0
+      ],
+      [
+       716.0,
+       596.0
+      ],
+      [
+       720.0,
+       631.0
+      ],
+      [
+       618.0,
+       642.0
+      ]
+     ]
+    },
+    {
+     "index": 23,
+     "text": "Vitamin",
+     "score": 0.9999259114265442,
+     "box": [
+      [
+       238.0,
+       630.0
+      ],
+      [
+       335.0,
+       630.0
+      ],
+      [
+       335.0,
+       670.0
+      ],
+      [
+       238.0,
+       670.0
+      ]
+     ]
+    },
+    {
+     "index": 24,
+     "text": "Acid",
+     "score": 0.9999498128890991,
+     "box": [
+      [
+       410.0,
+       619.0
+      ],
+      [
+       470.0,
+       619.0
+      ],
+      [
+       470.0,
+       659.0
+      ],
+      [
+       410.0,
+       659.0
+      ]
+     ]
+    },
+    {
+     "index": 25,
+     "text": "Phospholipids",
+     "score": 0.9341771006584167,
+     "box": [
+      [
+       405.0,
+       670.0
+      ],
+      [
+       533.0,
+       659.0
+      ],
+      [
+       537.0,
+       703.0
+      ],
+      [
+       409.0,
+       714.0
+      ]
+     ]
+    },
+    {
+     "index": 26,
+     "text": "Monosaturuted",
+     "score": 0.9602406620979309,
+     "box": [
+      [
+       615.0,
+       667.0
+      ],
+      [
+       764.0,
+       651.0
+      ],
+      [
+       767.0,
+       682.0
+      ],
+      [
+       618.0,
+       698.0
+      ]
+     ]
+    },
+    {
+     "index": 27,
+     "text": "Sterols",
+     "score": 0.9998188614845276,
+     "box": [
+      [
+       234.0,
+       688.0
+      ],
+      [
+       327.0,
+       681.0
+      ],
+      [
+       330.0,
+       722.0
+      ],
+      [
+       237.0,
+       729.0
+      ]
+     ]
+    },
+    {
+     "index": 28,
+     "text": "POlyumsaturatel",
+     "score": 0.9375799894332886,
+     "box": [
+      [
+       615.0,
+       712.0
+      ],
+      [
+       768.0,
+       699.0
+      ],
+      [
+       771.0,
+       733.0
+      ],
+      [
+       618.0,
+       746.0
+      ]
+     ]
+    },
+    {
+     "index": 29,
+     "text": "Bile",
+     "score": 0.9999169111251831,
+     "box": [
+      [
+       236.0,
+       743.0
+      ],
+      [
+       292.0,
+       743.0
+      ],
+      [
+       292.0,
+       787.0
+      ],
+      [
+       236.0,
+       787.0
+      ]
+     ]
+    },
+    {
+     "index": 30,
+     "text": "Glycolipids",
+     "score": 0.9702131748199463,
+     "box": [
+      [
+       403.0,
+       731.0
+      ],
+      [
+       511.0,
+       729.0
+      ],
+      [
+       512.0,
+       774.0
+      ],
+      [
+       404.0,
+       776.0
+      ]
+     ]
+    },
+    {
+     "index": 31,
+     "text": "Horhunes",
+     "score": 0.9949339628219604,
+     "box": [
+      [
+       237.0,
+       797.0
+      ],
+      [
+       342.0,
+       801.0
+      ],
+      [
+       341.0,
+       836.0
+      ],
+      [
+       236.0,
+       832.0
+      ]
+     ]
+    },
+    {
+     "index": 32,
+     "text": "Ecoli",
+     "score": 0.9815360903739929,
+     "box": [
+      [
+       399.0,
+       793.0
+      ],
+      [
+       461.0,
+       791.0
+      ],
+      [
+       462.0,
+       830.0
+      ],
+      [
+       400.0,
+       832.0
+      ]
+     ]
+    },
+    {
+     "index": 33,
+     "text": "Shorts",
+     "score": 0.9996891617774963,
+     "box": [
+      [
+       611.0,
+       773.0
+      ],
+      [
+       702.0,
+       771.0
+      ],
+      [
+       703.0,
+       817.0
+      ],
+      [
+       612.0,
+       819.0
+      ]
+     ]
+    },
+    {
+     "index": 34,
+     "text": "Membrane Lipoproteins",
+     "score": 0.9638521075248718,
+     "box": [
+      [
+       237.79574584960938,
+       860.016357421875
+      ],
+      [
+       526.14599609375,
+       836.908203125
+      ],
+      [
+       530.1864624023438,
+       887.3265380859375
+      ],
+      [
+       241.83621215820312,
+       910.4346923828125
+      ]
+     ]
+    },
+    {
+     "index": 35,
+     "text": "Medium",
+     "score": 0.9266190528869629,
+     "box": [
+      [
+       608.0,
+       838.0
+      ],
+      [
+       696.0,
+       830.0
+      ],
+      [
+       700.0,
+       872.0
+      ],
+      [
+       612.0,
+       880.0
+      ]
+     ]
+    },
+    {
+     "index": 36,
+     "text": "Carbon",
+     "score": 0.9999537467956543,
+     "box": [
+      [
+       606.0,
+       889.0
+      ],
+      [
+       705.0,
+       879.0
+      ],
+      [
+       709.0,
+       920.0
+      ],
+      [
+       610.0,
+       930.0
+      ]
+     ]
+    },
+    {
+     "index": 37,
+     "text": "Plants",
+     "score": 0.9837813973426819,
+     "box": [
+      [
+       235.0,
+       914.0
+      ],
+      [
+       315.0,
+       914.0
+      ],
+      [
+       315.0,
+       962.0
+      ],
+      [
+       235.0,
+       962.0
+      ]
+     ]
+    },
+    {
+     "index": 38,
+     "text": "Lecithin",
+     "score": 0.9455630779266357,
+     "box": [
+      [
+       391.0,
+       917.0
+      ],
+      [
+       479.0,
+       907.0
+      ],
+      [
+       483.0,
+       945.0
+      ],
+      [
+       395.0,
+       955.0
+      ]
+     ]
+    }
+   ],
+   "seconds": 15.587390966000385,
+   "detector_cold_load_seconds": 0.0,
+   "detector": {
+    "name": "PP-OCRv5_mobile_det",
+    "unclip_ratio": 1.2,
+    "thresh": 0.2,
+    "box_thresh": 0.4,
+    "info": {
+     "path": "text large enough (40 px) -> quick boxes kept",
+     "writing_px_detector": 40.1,
+     "regions": 0
+    }
+   },
+   "image_wh": [
+    960,
+    1280
+   ],
+   "export": {
+    "text_bytes": 342,
+    "text_roundtrip": true,
+    "json_bytes": 12462,
+    "json_roundtrip": true
+   }
+  },
+  "jh_photo2.jpg": {
+   "fixture": "jh_photo2.jpg",
+   "file_sha256": "3d6713251fbd9f70f9f0ee6aecbf3f9c6cf11df53ce61cfa641f8811ca83b981",
+   "decoded_size": [
+    2304,
+    4096
+   ],
+   "wall_seconds": 2.9945869600014703,
+   "status": "ok",
+   "n_lines": 5,
+   "text": "Sunlight warms the quiet forest\nBright stars shine every night\nCold wind moves the leaves\nSmall bird sing soft songs\n",
+   "lines": [
+    {
+     "index": 1,
+     "text": "Sunlight warms the quiet forest",
+     "score": 0.9823431968688965,
+     "box": [
+      [
+       403.9380187988281,
+       1206.1912841796875
+      ],
+      [
+       2043.3896484375,
+       1161.7999267578125
+      ],
+      [
+       2050.91162109375,
+       1439.6004638671875
+      ],
+      [
+       411.4599914550781,
+       1483.9918212890625
+      ]
+     ]
+    },
+    {
+     "index": 2,
+     "text": "Bright stars shine every night",
+     "score": 0.9814427495002747,
+     "box": [
+      [
+       446.0,
+       1734.0
+      ],
+      [
+       1967.0,
+       1642.0
+      ],
+      [
+       1982.0,
+       1889.0
+      ],
+      [
+       461.0,
+       1980.0
+      ]
+     ]
+    },
+    {
+     "index": 3,
+     "text": "Cold wind moves the leaves",
+     "score": 0.989626944065094,
+     "box": [
+      [
+       516.0,
+       2182.0
+      ],
+      [
+       1733.0,
+       2088.0
+      ],
+      [
+       1744.0,
+       2234.0
+      ],
+      [
+       528.0,
+       2327.0
+      ]
+     ]
+    },
+    {
+     "index": 4,
+     "text": "Small bird sing soft songs",
+     "score": 0.9808709621429443,
+     "box": [
+      [
+       520.0,
+       2487.0
+      ],
+      [
+       1711.0,
+       2443.0
+      ],
+      [
+       1717.0,
+       2597.0
+      ],
+      [
+       526.0,
+       2641.0
+      ]
+     ]
+    },
+    {
+     "index": 5,
+     "text": "",
+     "score": 0.0,
+     "box": [
+      [
+       1058.0,
+       3452.0
+      ],
+      [
+       1334.0,
+       3297.0
+      ],
+      [
+       1400.0,
+       3414.0
+      ],
+      [
+       1124.0,
+       3569.0
+      ]
+     ]
+    }
+   ],
+   "seconds": 2.9945178759990085,
+   "detector_cold_load_seconds": 0.0,
+   "detector": {
+    "name": "PP-OCRv5_mobile_det",
+    "unclip_ratio": 1.2,
+    "thresh": 0.2,
+    "box_thresh": 0.4,
+    "info": {
+     "path": "text large enough (71 px) -> quick boxes kept",
+     "writing_px_detector": 70.6,
+     "regions": 0
+    }
+   },
+   "image_wh": [
+    2304,
+    4096
+   ],
+   "export": {
+    "text_bytes": 117,
+    "text_roundtrip": true,
+    "json_bytes": 2847,
+    "json_roundtrip": true
+   }
+  },
+  "jh_photo5.jpg": {
+   "fixture": "jh_photo5.jpg",
+   "file_sha256": "2295c956dd3435209187cf09096e30664a90226d8f7a6ecdde76ef5600bf9f0b",
+   "decoded_size": [
+    2304,
+    4096
+   ],
+   "wall_seconds": 5.194667752000896,
+   "status": "ok",
+   "n_lines": 11,
+   "text": "Disrupt the service by sending anomaly\nHTTP requests, DNs queries, TCP connection request\nThe requests dont actually need to be succeeded\nDistributed reflective denial of service attacks\nfocus on taking down the availability of an\nasset through an overwhelming volume of HTTP\nthe attacker would send an HTTP request as the\nthe protocol of choice for this type\nof atack WITHOUT establish Connection state\nBots send a modified source address, and vnsoliated\nQ 5earch",
+   "lines": [
+    {
+     "index": 1,
+     "text": "Disrupt the service by sending anomaly",
+     "score": 0.9599372744560242,
+     "box": [
+      [
+       305.0,
+       810.0
+      ],
+      [
+       1765.0,
+       744.0
+      ],
+      [
+       1771.0,
+       862.0
+      ],
+      [
+       310.0,
+       928.0
+      ]
+     ]
+    },
+    {
+     "index": 2,
+     "text": "HTTP requests, DNs queries, TCP connection request",
+     "score": 0.9782120585441589,
+     "box": [
+      [
+       309.0,
+       1067.0
+      ],
+      [
+       1906.0,
+       976.0
+      ],
+      [
+       1913.0,
+       1089.0
+      ],
+      [
+       315.0,
+       1179.0
+      ]
+     ]
+    },
+    {
+     "index": 3,
+     "text": "The requests dont actually need to be succeeded",
+     "score": 0.9816820621490479,
+     "box": [
+      [
+       315.0,
+       1315.0
+      ],
+      [
+       1897.0,
+       1188.0
+      ],
+      [
+       1905.0,
+       1293.0
+      ],
+      [
+       324.0,
+       1421.0
+      ]
+     ]
+    },
+    {
+     "index": 4,
+     "text": "Distributed reflective denial of service attacks",
+     "score": 0.9704257845878601,
+     "box": [
+      [
+       350.0,
+       1583.0
+      ],
+      [
+       1917.0,
+       1478.0
+      ],
+      [
+       1924.0,
+       1576.0
+      ],
+      [
+       356.0,
+       1681.0
+      ]
+     ]
+    },
+    {
+     "index": 5,
+     "text": "focus on taking down the availability of an",
+     "score": 0.9907945394515991,
+     "box": [
+      [
+       355.0,
+       1855.0
+      ],
+      [
+       1924.0,
+       1767.0
+      ],
+      [
+       1931.0,
+       1880.0
+      ],
+      [
+       362.0,
+       1968.0
+      ]
+     ]
+    },
+    {
+     "index": 6,
+     "text": "asset through an overwhelming volume of HTTP",
+     "score": 0.98850017786026,
+     "box": [
+      [
+       365.0,
+       2069.0
+      ],
+      [
+       2067.0,
+       2053.0
+      ],
+      [
+       2068.0,
+       2178.0
+      ],
+      [
+       366.0,
+       2194.0
+      ]
+     ]
+    },
+    {
+     "index": 7,
+     "text": "the attacker would send an HTTP request as the",
+     "score": 0.9777835607528687,
+     "box": [
+      [
+       380.0,
+       2373.0
+      ],
+      [
+       2062.0,
+       2357.0
+      ],
+      [
+       2063.0,
+       2460.0
+      ],
+      [
+       381.0,
+       2476.0
+      ]
+     ]
+    },
+    {
+     "index": 8,
+     "text": "the protocol of choice for this type",
+     "score": 0.9690529704093933,
+     "box": [
+      [
+       372.0,
+       2657.0
+      ],
+      [
+       1538.0,
+       2676.0
+      ],
+      [
+       1536.0,
+       2791.0
+      ],
+      [
+       370.0,
+       2772.0
+      ]
+     ]
+    },
+    {
+     "index": 9,
+     "text": "of atack WITHOUT establish Connection state",
+     "score": 0.9482280611991882,
+     "box": [
+      [
+       366.0,
+       2949.0
+      ],
+      [
+       2034.0,
+       2960.0
+      ],
+      [
+       2034.0,
+       3065.0
+      ],
+      [
+       365.0,
+       3054.0
+      ]
+     ]
+    },
+    {
+     "index": 10,
+     "text": "Bots send a modified source address, and vnsoliated",
+     "score": 0.9632189869880676,
+     "box": [
+      [
+       373.0,
+       3184.0
+      ],
+      [
+       2243.0,
+       3198.0
+      ],
+      [
+       2242.0,
+       3310.0
+      ],
+      [
+       373.0,
+       3297.0
+      ]
+     ]
+    },
+    {
+     "index": 11,
+     "text": "Q 5earch",
+     "score": 0.9730138778686523,
+     "box": [
+      [
+       721.0,
+       3483.0
+      ],
+      [
+       1094.0,
+       3503.0
+      ],
+      [
+       1089.0,
+       3596.0
+      ],
+      [
+       716.0,
+       3575.0
+      ]
+     ]
+    }
+   ],
+   "seconds": 5.194627585999115,
+   "detector_cold_load_seconds": 0.0,
+   "detector": {
+    "name": "PP-OCRv5_mobile_det",
+    "unclip_ratio": 1.2,
+    "thresh": 0.2,
+    "box_thresh": 0.4,
+    "info": {
+     "path": "text large enough (44 px) -> quick boxes kept",
+     "writing_px_detector": 43.9,
+     "regions": 0
+    }
+   },
+   "image_wh": [
+    2304,
+    4096
+   ],
+   "export": {
+    "text_bytes": 464,
+    "text_roundtrip": true,
+    "json_bytes": 5157,
+    "json_roundtrip": true
+   }
+  },
+  "format_png": {
+   "fixture": "format_png",
+   "file_sha256": "98b345cfbebe0518b3d57bce77f9e68dbc7f5995a2cbab5ba39f52ce77348c60",
+   "decoded_size": [
+    960,
+    1280
+   ],
+   "wall_seconds": 4.437637042999995,
+   "status": "ok",
+   "n_lines": 9,
+   "text": "Is raining cats and dogs\nwise words from a wise man\nI never go batam before\nI want to be tich\nPump and dump\nSing Karaoke together\nI want to go smoke\nEsterified to glycerol with either\nEnzymatic hydrolysis by lipases",
+   "lines": [
+    {
+     "index": 1,
+     "text": "Is raining cats and dogs",
+     "score": 0.975879967212677,
+     "box": [
+      [
+       129.0,
+       229.0
+      ],
+      [
+       711.0,
+       183.0
+      ],
+      [
+       715.0,
+       235.0
+      ],
+      [
+       133.0,
+       281.0
+      ]
+     ]
+    },
+    {
+     "index": 2,
+     "text": "wise words from a wise man",
+     "score": 0.9520420432090759,
+     "box": [
+      [
+       186.0,
+       313.0
+      ],
+      [
+       781.0,
+       257.0
+      ],
+      [
+       785.0,
+       299.0
+      ],
+      [
+       190.0,
+       355.0
+      ]
+     ]
+    },
+    {
+     "index": 3,
+     "text": "I never go batam before",
+     "score": 0.9854153990745544,
+     "box": [
+      [
+       216.0,
+       461.0
+      ],
+      [
+       863.0,
+       409.0
+      ],
+      [
+       867.0,
+       466.0
+      ],
+      [
+       220.0,
+       518.0
+      ]
+     ]
+    },
+    {
+     "index": 4,
+     "text": "I want to be tich",
+     "score": 0.936059296131134,
+     "box": [
+      [
+       217.0,
+       563.0
+      ],
+      [
+       666.0,
+       533.0
+      ],
+      [
+       669.0,
+       578.0
+      ],
+      [
+       220.0,
+       608.0
+      ]
+     ]
+    },
+    {
+     "index": 5,
+     "text": "Pump and dump",
+     "score": 0.9778642058372498,
+     "box": [
+      [
+       219.0,
+       674.0
+      ],
+      [
+       580.0,
+       668.0
+      ],
+      [
+       581.0,
+       725.0
+      ],
+      [
+       220.0,
+       731.0
+      ]
+     ]
+    },
+    {
+     "index": 6,
+     "text": "Sing Karaoke together",
+     "score": 0.9991762042045593,
+     "box": [
+      [
+       256.0,
+       786.0
+      ],
+      [
+       695.0,
+       809.0
+      ],
+      [
+       692.0,
+       866.0
+      ],
+      [
+       253.0,
+       843.0
+      ]
+     ]
+    },
+    {
+     "index": 7,
+     "text": "I want to go smoke",
+     "score": 0.984049916267395,
+     "box": [
+      [
+       248.0,
+       905.0
+      ],
+      [
+       650.0,
+       925.0
+      ],
+      [
+       647.0,
+       974.0
+      ],
+      [
+       245.0,
+       954.0
+      ]
+     ]
+    },
+    {
+     "index": 8,
+     "text": "Esterified to glycerol with either",
+     "score": 0.9875180721282959,
+     "box": [
+      [
+       231.0,
+       1020.0
+      ],
+      [
+       770.0,
+       1009.0
+      ],
+      [
+       771.0,
+       1061.0
+      ],
+      [
+       232.0,
+       1072.0
+      ]
+     ]
+    },
+    {
+     "index": 9,
+     "text": "Enzymatic hydrolysis by lipases",
+     "score": 0.991817831993103,
+     "box": [
+      [
+       219.0,
+       1122.0
+      ],
+      [
+       660.0,
+       1095.0
+      ],
+      [
+       664.0,
+       1152.0
+      ],
+      [
+       223.0,
+       1179.0
+      ]
+     ]
+    }
+   ],
+   "seconds": 4.437608917998659,
+   "detector_cold_load_seconds": 0.0,
+   "detector": {
+    "name": "PP-OCRv5_mobile_det",
+    "unclip_ratio": 1.2,
+    "thresh": 0.2,
+    "box_thresh": 0.4,
+    "info": {
+     "path": "text large enough (52 px) -> quick boxes kept",
+     "writing_px_detector": 52.2,
+     "regions": 0
+    }
+   },
+   "image_wh": [
+    960,
+    1280
+   ],
+   "export": {
+    "text_bytes": 215,
+    "text_roundtrip": true,
+    "json_bytes": 4046,
+    "json_roundtrip": true
+   }
+  },
+  "format_heic": {
+   "fixture": "format_heic",
+   "file_sha256": "ed98092c3865b6fb67953cbc19a34c7073dc3be57380ac54e7e33bf9a1d5ff33",
+   "decoded_size": [
+    960,
+    1280
+   ],
+   "wall_seconds": 4.409741711000606,
+   "status": "ok",
+   "n_lines": 9,
+   "text": "Is raining cats and dogs\nwise words fom a wise man\nI never go batam before\nI want to be tich\nPump and dump\nSing Karaoke together\nI want to go smoke\nEsterified to glycerol with either\nEnzymatic hydrolysis by lioases",
+   "lines": [
+    {
+     "index": 1,
+     "text": "Is raining cats and dogs",
+     "score": 0.9708922505378723,
+     "box": [
+      [
+       129.0,
+       229.0
+      ],
+      [
+       711.0,
+       183.0
+      ],
+      [
+       715.0,
+       235.0
+      ],
+      [
+       133.0,
+       281.0
+      ]
+     ]
+    },
+    {
+     "index": 2,
+     "text": "wise words fom a wise man",
+     "score": 0.973778486251831,
+     "box": [
+      [
+       186.0,
+       312.0
+      ],
+      [
+       781.0,
+       257.0
+      ],
+      [
+       785.0,
+       299.0
+      ],
+      [
+       190.0,
+       354.0
+      ]
+     ]
+    },
+    {
+     "index": 3,
+     "text": "I never go batam before",
+     "score": 0.9812213182449341,
+     "box": [
+      [
+       215.0,
+       459.0
+      ],
+      [
+       865.0,
+       408.0
+      ],
+      [
+       869.0,
+       467.0
+      ],
+      [
+       219.0,
+       518.0
+      ]
+     ]
+    },
+    {
+     "index": 4,
+     "text": "I want to be tich",
+     "score": 0.9524355530738831,
+     "box": [
+      [
+       217.0,
+       563.0
+      ],
+      [
+       667.0,
+       533.0
+      ],
+      [
+       670.0,
+       578.0
+      ],
+      [
+       220.0,
+       608.0
+      ]
+     ]
+    },
+    {
+     "index": 5,
+     "text": "Pump and dump",
+     "score": 0.9769280552864075,
+     "box": [
+      [
+       219.0,
+       674.0
+      ],
+      [
+       580.0,
+       668.0
+      ],
+      [
+       581.0,
+       725.0
+      ],
+      [
+       220.0,
+       731.0
+      ]
+     ]
+    },
+    {
+     "index": 6,
+     "text": "Sing Karaoke together",
+     "score": 0.9757790565490723,
+     "box": [
+      [
+       256.0,
+       786.0
+      ],
+      [
+       695.0,
+       808.0
+      ],
+      [
+       692.0,
+       865.0
+      ],
+      [
+       253.0,
+       843.0
+      ]
+     ]
+    },
+    {
+     "index": 7,
+     "text": "I want to go smoke",
+     "score": 0.9888789057731628,
+     "box": [
+      [
+       249.0,
+       905.0
+      ],
+      [
+       650.0,
+       925.0
+      ],
+      [
+       647.0,
+       974.0
+      ],
+      [
+       246.0,
+       954.0
+      ]
+     ]
+    },
+    {
+     "index": 8,
+     "text": "Esterified to glycerol with either",
+     "score": 0.9869889616966248,
+     "box": [
+      [
+       231.0,
+       1020.0
+      ],
+      [
+       770.0,
+       1009.0
+      ],
+      [
+       771.0,
+       1061.0
+      ],
+      [
+       232.0,
+       1072.0
+      ]
+     ]
+    },
+    {
+     "index": 9,
+     "text": "Enzymatic hydrolysis by lioases",
+     "score": 0.9799689054489136,
+     "box": [
+      [
+       220.0,
+       1123.0
+      ],
+      [
+       659.0,
+       1096.0
+      ],
+      [
+       662.0,
+       1150.0
+      ],
+      [
+       223.0,
+       1177.0
+      ]
+     ]
+    }
+   ],
+   "seconds": 4.409708335999312,
+   "detector_cold_load_seconds": 0.0,
+   "detector": {
+    "name": "PP-OCRv5_mobile_det",
+    "unclip_ratio": 1.2,
+    "thresh": 0.2,
+    "box_thresh": 0.4,
+    "info": {
+     "path": "text large enough (52 px) -> quick boxes kept",
+     "writing_px_detector": 52.2,
+     "regions": 0
+    }
+   },
+   "image_wh": [
+    960,
+    1280
+   ],
+   "export": {
+    "text_bytes": 214,
+    "text_roundtrip": true,
+    "json_bytes": 4051,
+    "json_roundtrip": true
+   }
+  },
+  "exif_orientation_6_jpeg": {
+   "fixture": "exif_orientation_6_jpeg",
+   "file_sha256": "3148be6b3f2c908575e46d8839794f6d752f918cf92a5a14bc1c0942eb859e75",
+   "decoded_size": [
+    960,
+    1280
+   ],
+   "wall_seconds": 4.320970335000311,
+   "status": "ok",
+   "n_lines": 9,
+   "text": "Is raining cats and dogs\nwise words from a wise man\nI never go batam before\nI want to be tich\nPump and dump\nSing Karaoke together\nI want to go smoke\nEsterified to glycerol with either\nEnzymatic hydrolysis by lipases",
+   "lines": [
+    {
+     "index": 1,
+     "text": "Is raining cats and dogs",
+     "score": 0.9645633697509766,
+     "box": [
+      [
+       129.0,
+       229.0
+      ],
+      [
+       711.0,
+       183.0
+      ],
+      [
+       715.0,
+       235.0
+      ],
+      [
+       133.0,
+       281.0
+      ]
+     ]
+    },
+    {
+     "index": 2,
+     "text": "wise words from a wise man",
+     "score": 0.9415779709815979,
+     "box": [
+      [
+       186.0,
+       313.0
+      ],
+      [
+       781.0,
+       257.0
+      ],
+      [
+       785.0,
+       299.0
+      ],
+      [
+       190.0,
+       355.0
+      ]
+     ]
+    },
+    {
+     "index": 3,
+     "text": "I never go batam before",
+     "score": 0.9827961921691895,
+     "box": [
+      [
+       216.0,
+       460.0
+      ],
+      [
+       863.0,
+       409.0
+      ],
+      [
+       867.0,
+       466.0
+      ],
+      [
+       220.0,
+       517.0
+      ]
+     ]
+    },
+    {
+     "index": 4,
+     "text": "I want to be tich",
+     "score": 0.9542738795280457,
+     "box": [
+      [
+       217.0,
+       563.0
+      ],
+      [
+       666.0,
+       534.0
+      ],
+      [
+       669.0,
+       579.0
+      ],
+      [
+       220.0,
+       608.0
+      ]
+     ]
+    },
+    {
+     "index": 5,
+     "text": "Pump and dump",
+     "score": 0.9709995985031128,
+     "box": [
+      [
+       219.0,
+       674.0
+      ],
+      [
+       580.0,
+       668.0
+      ],
+      [
+       581.0,
+       725.0
+      ],
+      [
+       220.0,
+       731.0
+      ]
+     ]
+    },
+    {
+     "index": 6,
+     "text": "Sing Karaoke together",
+     "score": 0.9654203057289124,
+     "box": [
+      [
+       255.0,
+       785.0
+      ],
+      [
+       695.0,
+       807.0
+      ],
+      [
+       692.0,
+       865.0
+      ],
+      [
+       252.0,
+       843.0
+      ]
+     ]
+    },
+    {
+     "index": 7,
+     "text": "I want to go smoke",
+     "score": 0.9810698628425598,
+     "box": [
+      [
+       248.0,
+       905.0
+      ],
+      [
+       650.0,
+       925.0
+      ],
+      [
+       647.0,
+       974.0
+      ],
+      [
+       245.0,
+       954.0
+      ]
+     ]
+    },
+    {
+     "index": 8,
+     "text": "Esterified to glycerol with either",
+     "score": 0.9868062138557434,
+     "box": [
+      [
+       231.0,
+       1020.0
+      ],
+      [
+       770.0,
+       1009.0
+      ],
+      [
+       771.0,
+       1061.0
+      ],
+      [
+       232.0,
+       1072.0
+      ]
+     ]
+    },
+    {
+     "index": 9,
+     "text": "Enzymatic hydrolysis by lipases",
+     "score": 0.992322564125061,
+     "box": [
+      [
+       219.0,
+       1122.0
+      ],
+      [
+       660.0,
+       1095.0
+      ],
+      [
+       664.0,
+       1152.0
+      ],
+      [
+       223.0,
+       1179.0
+      ]
+     ]
+    }
+   ],
+   "seconds": 4.320906835000642,
+   "detector_cold_load_seconds": 0.0,
+   "detector": {
+    "name": "PP-OCRv5_mobile_det",
+    "unclip_ratio": 1.2,
+    "thresh": 0.2,
+    "box_thresh": 0.4,
+    "info": {
+     "path": "text large enough (52 px) -> quick boxes kept",
+     "writing_px_detector": 52.2,
+     "regions": 0
+    }
+   },
+   "image_wh": [
+    960,
+    1280
+   ],
+   "export": {
+    "text_bytes": 215,
+    "text_roundtrip": true,
+    "json_bytes": 4050,
+    "json_roundtrip": true
+   }
+  },
+  "unreadable_bytes": {
+   "fixture": "unreadable_bytes",
+   "file_sha256": "e71fcb3aa5bffa0fdabe9f62d6137423fb819ab1bc9b3ce5dffe18245552f5bc",
+   "status": "rejected",
+   "error_type": "ValueError",
+   "message": "This photo could not be opened. Try a JPEG, PNG, or supported HEIC file."
+  },
+  "truncated_jpeg": {
+   "fixture": "truncated_jpeg",
+   "file_sha256": "1f322149825bfba8ade54aff56b3797a89d19a9710f84006e624d4d5a9315799",
+   "status": "rejected",
+   "error_type": "ValueError",
+   "message": "This photo could not be opened. Try a JPEG, PNG, or supported HEIC file."
+  },
+  "blank_board": {
+   "fixture": "blank_board",
+   "file_sha256": "01c9a85a5a1c63a55de26062a2808ebbeef2d1d100d1415d6af481ba200cdfdc",
+   "decoded_size": [
+    1200,
+    900
+   ],
+   "wall_seconds": 0.6140936669999064,
+   "status": "ok",
+   "n_lines": 0,
+   "text": "",
+   "lines": [],
+   "seconds": 0.6140791260004335,
+   "detector_cold_load_seconds": 0.0,
+   "detector": {
+    "name": "PP-OCRv5_mobile_det",
+    "unclip_ratio": 1.2,
+    "thresh": 0.2,
+    "box_thresh": 0.4,
+    "info": {
+     "path": "nothing found in the quick pass",
+     "writing_px_detector": null,
+     "regions": 0
+    }
+   },
+   "image_wh": [
+    1200,
+    900
+   ],
+   "export": {
+    "text_bytes": 0,
+    "text_roundtrip": true,
+    "json_bytes": 1103,
+    "json_roundtrip": true
+   }
+  },
+  "tiny_12px": {
+   "fixture": "tiny_12px",
+   "file_sha256": "de702a43a9aaa77743d8d213b70f71adb82f25be04e39711cd07f06b746bdb56",
+   "decoded_size": [
+    12,
+    12
+   ],
+   "wall_seconds": 0.0035379999990254873,
+   "status": "ok",
+   "n_lines": 0,
+   "text": "",
+   "lines": [],
+   "seconds": 0.003531083999405382,
+   "detector_cold_load_seconds": 0.0,
+   "detector": {
+    "name": "PP-OCRv5_mobile_det",
+    "unclip_ratio": 1.2,
+    "thresh": 0.2,
+    "box_thresh": 0.4,
+    "info": {
+     "path": "nothing found in the quick pass",
+     "writing_px_detector": null,
+     "regions": 0
+    }
+   },
+   "image_wh": [
+    12,
+    12
+   ],
+   "export": {
+    "text_bytes": 0,
+    "text_roundtrip": true,
+    "json_bytes": 1102,
+    "json_roundtrip": true
+   }
+  }
+ }
+}

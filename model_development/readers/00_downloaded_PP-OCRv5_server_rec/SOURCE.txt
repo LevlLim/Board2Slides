@@ -1,0 +1,4 @@
+PaddleOCR's reader as downloaded (Hugging Face PaddlePaddle/PP-OCRv5_server_rec @ b26c3587, Apache-2.0). No fine-tuning.
+source folder: Assignment/models/PP-OCRv5_server_rec_official_hf
+experiment: results_versions_2x2, model pretrained
+inference.pdiparams sha256: 63853f062a5f4089befc16f565a68277618e0da5cb45468b49d11079de0ada77

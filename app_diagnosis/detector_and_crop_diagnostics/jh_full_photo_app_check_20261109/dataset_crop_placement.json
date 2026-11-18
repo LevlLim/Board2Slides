@@ -1,0 +1,2008 @@
+[
+ {
+  "id": "jhs__train__JH1.1.jpg",
+  "photo": 1,
+  "crop": "JH_datasetNov5Sentence/train/JH1.1.jpg",
+  "crop_sha256": "21aa5a5c075c8c097278a34960eb8133e958701590f8867d4d5186511c46532f",
+  "photo_file": "JH_datasetNov5Sentence/Photo1.jpg",
+  "crop_wh": [
+   1166,
+   216
+  ],
+  "matches": 207,
+  "inliers": 187,
+  "scale": 1.59,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    233.89999389648438,
+    849.2999877929688
+   ],
+   [
+    2087.89990234375,
+    849.2000122070312
+   ],
+   [
+    2087.89990234375,
+    1192.699951171875
+   ],
+   [
+    233.89999389648438,
+    1192.800048828125
+   ]
+  ],
+  "pixel_correlation": 0.9599
+ },
+ {
+  "id": "jhs__train__JH1.3.jpg",
+  "photo": 1,
+  "crop": "JH_datasetNov5Sentence/train/JH1.3.jpg",
+  "crop_sha256": "baf1017337684389f80397b9f44b91ad253dae9a76afc218565155d61398614d",
+  "photo_file": "JH_datasetNov5Sentence/Photo1.jpg",
+  "crop_wh": [
+   735,
+   163
+  ],
+  "matches": 112,
+  "inliers": 104,
+  "scale": 1.59,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    278.3999938964844,
+    1288.0999755859375
+   ],
+   [
+    1447.0999755859375,
+    1288.0
+   ],
+   [
+    1447.0999755859375,
+    1547.199951171875
+   ],
+   [
+    278.5,
+    1547.300048828125
+   ]
+  ],
+  "pixel_correlation": 0.9926
+ },
+ {
+  "id": "jhs__train__JH1.4.jpg",
+  "photo": 1,
+  "crop": "JH_datasetNov5Sentence/train/JH1.4.jpg",
+  "crop_sha256": "86e1d9b89d516890f2d35d494a8ec6f5654dcd8bb7c84e882cc08e514a044e93",
+  "photo_file": "JH_datasetNov5Sentence/Photo1.jpg",
+  "crop_wh": [
+   1082,
+   240
+  ],
+  "matches": 201,
+  "inliers": 189,
+  "scale": 1.59,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    268.8999938964844,
+    1415.199951171875
+   ],
+   [
+    1989.300048828125,
+    1415.300048828125
+   ],
+   [
+    1989.300048828125,
+    1797.0
+   ],
+   [
+    268.8999938964844,
+    1796.800048828125
+   ]
+  ],
+  "pixel_correlation": 0.8581
+ },
+ {
+  "id": "jhs__train__JH1.5.jpg",
+  "photo": 1,
+  "crop": "JH_datasetNov5Sentence/train/JH1.5.jpg",
+  "crop_sha256": "45cfeb7a8005f7e1308d7a7b30ceea707b61b75e4341cc10fdb40669dfc8e43a",
+  "photo_file": "JH_datasetNov5Sentence/Photo1.jpg",
+  "crop_wh": [
+   1195,
+   217
+  ],
+  "matches": 229,
+  "inliers": 210,
+  "scale": 1.5901,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    308.6000061035156,
+    1717.4000244140625
+   ],
+   [
+    2208.699951171875,
+    1717.4000244140625
+   ],
+   [
+    2208.699951171875,
+    2062.39990234375
+   ],
+   [
+    308.6000061035156,
+    2062.5
+   ]
+  ],
+  "pixel_correlation": 0.9906
+ },
+ {
+  "id": "jhs__train__JH1.6.jpg",
+  "photo": 1,
+  "crop": "JH_datasetNov5Sentence/train/JH1.6.jpg",
+  "crop_sha256": "a0f0386d7338d9b709990589d7e93c5398c9e8425ebfe6477ba53a44f4d5cda6",
+  "photo_file": "JH_datasetNov5Sentence/Photo1.jpg",
+  "crop_wh": [
+   815,
+   147
+  ],
+  "matches": 142,
+  "inliers": 128,
+  "scale": 1.5899,
+  "rotation_deg": 0.01,
+  "quad": [
+   [
+    319.8999938964844,
+    2127.60009765625
+   ],
+   [
+    1615.5999755859375,
+    2127.699951171875
+   ],
+   [
+    1615.5999755859375,
+    2361.39990234375
+   ],
+   [
+    319.79998779296875,
+    2361.300048828125
+   ]
+  ],
+  "pixel_correlation": 0.9928
+ },
+ {
+  "id": "jhs__train__JH2.1.jpg",
+  "photo": 2,
+  "crop": "JH_datasetNov5Sentence/train/JH2.1.jpg",
+  "crop_sha256": "b44de1615cf2ec912873ee0fa064599506af6510fd0d70f1cb941cebee106848",
+  "photo_file": "JH_datasetNov5Sentence/Photo2.jpg",
+  "crop_wh": [
+   1126,
+   280
+  ],
+  "matches": 186,
+  "inliers": 173,
+  "scale": 1.5901,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    326.1000061035156,
+    1099.0
+   ],
+   [
+    2116.60009765625,
+    1098.800048828125
+   ],
+   [
+    2116.60009765625,
+    1544.0999755859375
+   ],
+   [
+    326.1000061035156,
+    1544.199951171875
+   ]
+  ],
+  "pixel_correlation": 0.9947
+ },
+ {
+  "id": "jhs__train__JH2.2.jpg",
+  "photo": 2,
+  "crop": "JH_datasetNov5Sentence/train/JH2.2.jpg",
+  "crop_sha256": "a8778fbbdf759dbbff709d5f1e082c5970eaa400abd481c1200fa24e9082ff64",
+  "photo_file": "JH_datasetNov5Sentence/Photo2.jpg",
+  "crop_wh": [
+   1059,
+   309
+  ],
+  "matches": 194,
+  "inliers": 171,
+  "scale": 1.5901,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    364.29998779296875,
+    1569.5
+   ],
+   [
+    2048.199951171875,
+    1569.5999755859375
+   ],
+   [
+    2048.199951171875,
+    2060.89990234375
+   ],
+   [
+    364.29998779296875,
+    2060.800048828125
+   ]
+  ],
+  "pixel_correlation": 0.9946
+ },
+ {
+  "id": "jhs__train__JH2.3.jpg",
+  "photo": 2,
+  "crop": "JH_datasetNov5Sentence/train/JH2.3.jpg",
+  "crop_sha256": "9771f63f484ae46c3b318885df4092a0d7418fcd6fbb8a8c02cd27abf0ffb48f",
+  "photo_file": "JH_datasetNov5Sentence/Photo2.jpg",
+  "crop_wh": [
+   848,
+   216
+  ],
+  "matches": 137,
+  "inliers": 120,
+  "scale": 1.5901,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    453.3999938964844,
+    2046.5999755859375
+   ],
+   [
+    1801.800048828125,
+    2046.5999755859375
+   ],
+   [
+    1801.800048828125,
+    2390.0
+   ],
+   [
+    453.3999938964844,
+    2390.0
+   ]
+  ],
+  "pixel_correlation": 0.9956
+ },
+ {
+  "id": "jhs__train__JH2.4.jpg",
+  "photo": 2,
+  "crop": "JH_datasetNov5Sentence/train/JH2.4.jpg",
+  "crop_sha256": "00a1cf4245a475496935e538e0e53e19ff8e4ab3d5844cf550dbdd4b295c7a49",
+  "photo_file": "JH_datasetNov5Sentence/Photo2.jpg",
+  "crop_wh": [
+   819,
+   176
+  ],
+  "matches": 146,
+  "inliers": 131,
+  "scale": 1.5901,
+  "rotation_deg": 0.01,
+  "quad": [
+   [
+    470.79998779296875,
+    2409.0
+   ],
+   [
+    1773.0999755859375,
+    2409.199951171875
+   ],
+   [
+    1773.0999755859375,
+    2689.0
+   ],
+   [
+    470.70001220703125,
+    2688.800048828125
+   ]
+  ],
+  "pixel_correlation": 0.9943
+ },
+ {
+  "id": "jhs__train__JH3.1.jpg",
+  "photo": 3,
+  "crop": "JH_datasetNov5Sentence/train/JH3.1.jpg",
+  "crop_sha256": "79eed2e4cef435907cc60e42edfcef60e7ea65dea7c7d11046f34d7923713e88",
+  "photo_file": "JH_datasetNov5Sentence/Photo3.jpg",
+  "crop_wh": [
+   1084,
+   216
+  ],
+  "matches": 200,
+  "inliers": 191,
+  "scale": 1.59,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    232.3000030517578,
+    820.5999755859375
+   ],
+   [
+    1955.9000244140625,
+    820.5999755859375
+   ],
+   [
+    1955.9000244140625,
+    1164.0999755859375
+   ],
+   [
+    232.3000030517578,
+    1164.0999755859375
+   ]
+  ],
+  "pixel_correlation": 0.9944
+ },
+ {
+  "id": "jhs__train__JH3.4.jpg",
+  "photo": 3,
+  "crop": "JH_datasetNov5Sentence/train/JH3.4.jpg",
+  "crop_sha256": "d502fd9f3804809755a1fcbe1b84374fc85a1128547dcc044653417698b96abf",
+  "photo_file": "JH_datasetNov5Sentence/Photo3.jpg",
+  "crop_wh": [
+   931,
+   183
+  ],
+  "matches": 166,
+  "inliers": 150,
+  "scale": 1.5901,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    338.8999938964844,
+    1692.0
+   ],
+   [
+    1819.300048828125,
+    1691.9000244140625
+   ],
+   [
+    1819.300048828125,
+    1982.9000244140625
+   ],
+   [
+    338.8999938964844,
+    1983.0
+   ]
+  ],
+  "pixel_correlation": 0.9929
+ },
+ {
+  "id": "jhs__train__JH3.6.jpg",
+  "photo": 3,
+  "crop": "JH_datasetNov5Sentence/train/JH3.6.jpg",
+  "crop_sha256": "fca7db728f2220c9ed4ac2672c6ad66246a3073580bb3f406400793af8d15926",
+  "photo_file": "JH_datasetNov5Sentence/Photo3.jpg",
+  "crop_wh": [
+   1054,
+   133
+  ],
+  "matches": 223,
+  "inliers": 210,
+  "scale": 1.59,
+  "rotation_deg": 0.01,
+  "quad": [
+   [
+    378.6000061035156,
+    2364.39990234375
+   ],
+   [
+    2054.5,
+    2364.60009765625
+   ],
+   [
+    2054.5,
+    2576.10009765625
+   ],
+   [
+    378.6000061035156,
+    2575.89990234375
+   ]
+  ],
+  "pixel_correlation": 0.9924
+ },
+ {
+  "id": "jhs__train__JH3.7.jpg",
+  "photo": 3,
+  "crop": "JH_datasetNov5Sentence/train/JH3.7.jpg",
+  "crop_sha256": "ed3b497c9e4dc00cd4627f63e752258f85f2a6d95d0e6320be3a8e86e5b84e3c",
+  "photo_file": "JH_datasetNov5Sentence/Photo3.jpg",
+  "crop_wh": [
+   993,
+   124
+  ],
+  "matches": 213,
+  "inliers": 198,
+  "scale": 1.5901,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    389.70001220703125,
+    2685.699951171875
+   ],
+   [
+    1968.699951171875,
+    2685.800048828125
+   ],
+   [
+    1968.699951171875,
+    2883.0
+   ],
+   [
+    389.70001220703125,
+    2882.800048828125
+   ]
+  ],
+  "pixel_correlation": 0.9932
+ },
+ {
+  "id": "jhs__train__JH3.8.jpg",
+  "photo": 3,
+  "crop": "JH_datasetNov5Sentence/train/JH3.8.jpg",
+  "crop_sha256": "d231510cf0558249e5440e3a70c12b7f6368ac4ec7b56157152784554b111ec0",
+  "photo_file": "JH_datasetNov5Sentence/Photo3.jpg",
+  "crop_wh": [
+   1033,
+   142
+  ],
+  "matches": 201,
+  "inliers": 189,
+  "scale": 1.5904,
+  "rotation_deg": 0.01,
+  "quad": [
+   [
+    410.20001220703125,
+    2976.60009765625
+   ],
+   [
+    2053.10009765625,
+    2976.800048828125
+   ],
+   [
+    2053.0,
+    3202.60009765625
+   ],
+   [
+    410.20001220703125,
+    3202.5
+   ]
+  ],
+  "pixel_correlation": 0.9919
+ },
+ {
+  "id": "jhs__train__JH4.1.jpg",
+  "photo": 4,
+  "crop": "JH_datasetNov5Sentence/train/JH4.1.jpg",
+  "crop_sha256": "21724f3fcaa0a5923e404a92eb43acfce0e5570a803318b9f0d0d4c2c23419e0",
+  "photo_file": "JH_datasetNov5Sentence/Photo4.jpg",
+  "crop_wh": [
+   1041,
+   217
+  ],
+  "matches": 157,
+  "inliers": 142,
+  "scale": 1.5901,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    241.8000030517578,
+    596.4000244140625
+   ],
+   [
+    1897.0999755859375,
+    596.4000244140625
+   ],
+   [
+    1897.0999755859375,
+    941.5
+   ],
+   [
+    241.8000030517578,
+    941.4000244140625
+   ]
+  ],
+  "pixel_correlation": 0.9925
+ },
+ {
+  "id": "jhs__train__JH4.2.jpg",
+  "photo": 4,
+  "crop": "JH_datasetNov5Sentence/train/JH4.2.jpg",
+  "crop_sha256": "be20f27c675e60503371c0379bbd7b095ca5b1db74879b967a4dbc8861815325",
+  "photo_file": "JH_datasetNov5Sentence/Photo4.jpg",
+  "crop_wh": [
+   766,
+   193
+  ],
+  "matches": 138,
+  "inliers": 125,
+  "scale": 1.5899,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    251.5,
+    943.0
+   ],
+   [
+    1469.300048828125,
+    943.0999755859375
+   ],
+   [
+    1469.300048828125,
+    1249.9000244140625
+   ],
+   [
+    251.5,
+    1249.9000244140625
+   ]
+  ],
+  "pixel_correlation": 0.9648
+ },
+ {
+  "id": "jhs__train__JH4.3.jpg",
+  "photo": 4,
+  "crop": "JH_datasetNov5Sentence/train/JH4.3.jpg",
+  "crop_sha256": "5f2b7920d92a00d18db2ecb67212333de6e863c17bc46893ccba0ad687a48e1f",
+  "photo_file": "JH_datasetNov5Sentence/Photo4.jpg",
+  "crop_wh": [
+   860,
+   215
+  ],
+  "matches": 194,
+  "inliers": 187,
+  "scale": 1.5902,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    256.1000061035156,
+    1122.5999755859375
+   ],
+   [
+    1623.699951171875,
+    1122.699951171875
+   ],
+   [
+    1623.699951171875,
+    1464.5999755859375
+   ],
+   [
+    256.1000061035156,
+    1464.5
+   ]
+  ],
+  "pixel_correlation": 0.9367
+ },
+ {
+  "id": "jhs__train__JH4.4.jpg",
+  "photo": 4,
+  "crop": "JH_datasetNov5Sentence/train/JH4.4.jpg",
+  "crop_sha256": "5adb7bebc982b6d3c461c627455b20086b1020b03d76c35f14fcd4e523d59570",
+  "photo_file": "JH_datasetNov5Sentence/Photo4.jpg",
+  "crop_wh": [
+   1082,
+   172
+  ],
+  "matches": 256,
+  "inliers": 229,
+  "scale": 1.59,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    283.29998779296875,
+    1400.9000244140625
+   ],
+   [
+    2003.5999755859375,
+    1401.0
+   ],
+   [
+    2003.5999755859375,
+    1674.5
+   ],
+   [
+    283.20001220703125,
+    1674.4000244140625
+   ]
+  ],
+  "pixel_correlation": 0.9934
+ },
+ {
+  "id": "jhs__train__JH4.5.jpg",
+  "photo": 4,
+  "crop": "JH_datasetNov5Sentence/train/JH4.5.jpg",
+  "crop_sha256": "fdf23653d544722a0bdbd1002a130c0f1c1a4cf000eba19810cb0acdc662d208",
+  "photo_file": "JH_datasetNov5Sentence/Photo4.jpg",
+  "crop_wh": [
+   948,
+   149
+  ],
+  "matches": 184,
+  "inliers": 174,
+  "scale": 1.59,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    310.20001220703125,
+    1634.699951171875
+   ],
+   [
+    1817.5,
+    1634.699951171875
+   ],
+   [
+    1817.5,
+    1871.5999755859375
+   ],
+   [
+    310.20001220703125,
+    1871.5999755859375
+   ]
+  ],
+  "pixel_correlation": 0.9926
+ },
+ {
+  "id": "jhs__train__JH4.6.jpg",
+  "photo": 4,
+  "crop": "JH_datasetNov5Sentence/train/JH4.6.jpg",
+  "crop_sha256": "94406c6318cfb165550476deadd111bfbc89dbaf40a01fd26bba886f0d541301",
+  "photo_file": "JH_datasetNov5Sentence/Photo4.jpg",
+  "crop_wh": [
+   1083,
+   157
+  ],
+  "matches": 203,
+  "inliers": 183,
+  "scale": 1.5901,
+  "rotation_deg": 0.01,
+  "quad": [
+   [
+    327.70001220703125,
+    1906.5
+   ],
+   [
+    2049.800048828125,
+    1906.699951171875
+   ],
+   [
+    2049.800048828125,
+    2156.300048828125
+   ],
+   [
+    327.70001220703125,
+    2156.199951171875
+   ]
+  ],
+  "pixel_correlation": 0.9927
+ },
+ {
+  "id": "jhs__train__JH4.7.jpg",
+  "photo": 4,
+  "crop": "JH_datasetNov5Sentence/train/JH4.7.jpg",
+  "crop_sha256": "dbbdc527fa34543b04ca34d514c618b5d1c41118f84926877e65d64502118181",
+  "photo_file": "JH_datasetNov5Sentence/Photo4.jpg",
+  "crop_wh": [
+   972,
+   166
+  ],
+  "matches": 177,
+  "inliers": 162,
+  "scale": 1.59,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    326.1000061035156,
+    2176.89990234375
+   ],
+   [
+    1871.699951171875,
+    2176.89990234375
+   ],
+   [
+    1871.699951171875,
+    2440.800048828125
+   ],
+   [
+    326.20001220703125,
+    2440.89990234375
+   ]
+  ],
+  "pixel_correlation": 0.9929
+ },
+ {
+  "id": "jhs__train__JH4.8.jpg",
+  "photo": 4,
+  "crop": "JH_datasetNov5Sentence/train/JH4.8.jpg",
+  "crop_sha256": "cc060a81fbd84ad0486f9ebb9a2bf766fd4e9d131aa943b74f54b411b730a3bf",
+  "photo_file": "JH_datasetNov5Sentence/Photo4.jpg",
+  "crop_wh": [
+   1203,
+   149
+  ],
+  "matches": 216,
+  "inliers": 200,
+  "scale": 1.5902,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    348.29998779296875,
+    2445.699951171875
+   ],
+   [
+    2261.300048828125,
+    2445.699951171875
+   ],
+   [
+    2261.300048828125,
+    2682.60009765625
+   ],
+   [
+    348.29998779296875,
+    2682.60009765625
+   ]
+  ],
+  "pixel_correlation": 0.9936
+ },
+ {
+  "id": "jhs__train__JH4.9.jpg",
+  "photo": 4,
+  "crop": "JH_datasetNov5Sentence/train/JH4.9.jpg",
+  "crop_sha256": "1a7adb5b31d1ebe823740b32883f53fddfaaddbe15bd45e3612c23c1cd4120d0",
+  "photo_file": "JH_datasetNov5Sentence/Photo4.jpg",
+  "crop_wh": [
+   1092,
+   191
+  ],
+  "matches": 199,
+  "inliers": 170,
+  "scale": 1.5903,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    330.79998779296875,
+    2692.10009765625
+   ],
+   [
+    2067.39990234375,
+    2692.10009765625
+   ],
+   [
+    2067.39990234375,
+    2995.800048828125
+   ],
+   [
+    330.79998779296875,
+    2995.800048828125
+   ]
+  ],
+  "pixel_correlation": 0.9938
+ },
+ {
+  "id": "jhs__train__JH4.10.jpg",
+  "photo": 4,
+  "crop": "JH_datasetNov5Sentence/train/JH4.10.jpg",
+  "crop_sha256": "ad1c6f5521b73d0526d441aca41377c4a911611d9b5d02df15bb3429241298d2",
+  "photo_file": "JH_datasetNov5Sentence/Photo4.jpg",
+  "crop_wh": [
+   1041,
+   168
+  ],
+  "matches": 185,
+  "inliers": 173,
+  "scale": 1.59,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    346.79998779296875,
+    2979.89990234375
+   ],
+   [
+    2002.0,
+    2980.0
+   ],
+   [
+    2002.0,
+    3247.10009765625
+   ],
+   [
+    346.79998779296875,
+    3247.0
+   ]
+  ],
+  "pixel_correlation": 0.9928
+ },
+ {
+  "id": "jhs__train__JH5.1.jpg",
+  "photo": 5,
+  "crop": "JH_datasetNov5Sentence/train/JH5.1.jpg",
+  "crop_sha256": "c1467cdd57b56e674bc91afcff5a4ab5c02c3ae9e12b9073987d36dd30c021e8",
+  "photo_file": "JH_datasetNov5Sentence/Photo5.jpg",
+  "crop_wh": [
+   1005,
+   192
+  ],
+  "matches": 177,
+  "inliers": 168,
+  "scale": 1.5901,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    243.39999389648438,
+    688.5999755859375
+   ],
+   [
+    1841.5,
+    688.7000122070312
+   ],
+   [
+    1841.5,
+    994.0
+   ],
+   [
+    243.39999389648438,
+    993.9000244140625
+   ]
+  ],
+  "pixel_correlation": 0.993
+ },
+ {
+  "id": "jhs__train__JH5.2.jpg",
+  "photo": 5,
+  "crop": "JH_datasetNov5Sentence/train/JH5.2.jpg",
+  "crop_sha256": "6a8381e4b0cb41d8f9fe7fa2126ae1b3c3b0666acc1e1e00677acc5942b022bb",
+  "photo_file": "JH_datasetNov5Sentence/Photo5.jpg",
+  "crop_wh": [
+   1090,
+   201
+  ],
+  "matches": 236,
+  "inliers": 223,
+  "scale": 1.5901,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    246.60000610351562,
+    925.5
+   ],
+   [
+    1979.800048828125,
+    925.5999755859375
+   ],
+   [
+    1979.800048828125,
+    1245.199951171875
+   ],
+   [
+    246.60000610351562,
+    1245.0999755859375
+   ]
+  ],
+  "pixel_correlation": 0.9662
+ },
+ {
+  "id": "jhs__train__JH5.3.jpg",
+  "photo": 5,
+  "crop": "JH_datasetNov5Sentence/train/JH5.3.jpg",
+  "crop_sha256": "0884dc2a49c1a1d701372a68ec29be5fb1b4ba154fd4f82d7b07af7d7857d568",
+  "photo_file": "JH_datasetNov5Sentence/Photo5.jpg",
+  "crop_wh": [
+   1100,
+   240
+  ],
+  "matches": 205,
+  "inliers": 193,
+  "scale": 1.5901,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    233.89999389648438,
+    1118.0
+   ],
+   [
+    1983.0,
+    1117.9000244140625
+   ],
+   [
+    1983.0,
+    1499.5
+   ],
+   [
+    233.89999389648438,
+    1499.5999755859375
+   ]
+  ],
+  "pixel_correlation": 0.946
+ },
+ {
+  "id": "jhs__train__JH5.4.jpg",
+  "photo": 5,
+  "crop": "JH_datasetNov5Sentence/train/JH5.4.jpg",
+  "crop_sha256": "d14f00cd5c0f736215db82903a19393c8e1edfccfadd13d336f177e1d5fff5fa",
+  "photo_file": "JH_datasetNov5Sentence/Photo5.jpg",
+  "crop_wh": [
+   1078,
+   202
+  ],
+  "matches": 230,
+  "inliers": 206,
+  "scale": 1.5901,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    280.0,
+    1423.199951171875
+   ],
+   [
+    1994.199951171875,
+    1423.199951171875
+   ],
+   [
+    1994.199951171875,
+    1744.4000244140625
+   ],
+   [
+    280.0,
+    1744.4000244140625
+   ]
+  ],
+  "pixel_correlation": 0.9928
+ },
+ {
+  "id": "jhs__train__JH5.5.jpg",
+  "photo": 5,
+  "crop": "JH_datasetNov5Sentence/train/JH5.5.jpg",
+  "crop_sha256": "45cbb0362e81fc9913baf951e59753ca1fb798dcdc375271f9f9e7d17191822e",
+  "photo_file": "JH_datasetNov5Sentence/Photo5.jpg",
+  "crop_wh": [
+   1070,
+   193
+  ],
+  "matches": 189,
+  "inliers": 178,
+  "scale": 1.5901,
+  "rotation_deg": 0.01,
+  "quad": [
+   [
+    292.79998779296875,
+    1718.9000244140625
+   ],
+   [
+    1994.0999755859375,
+    1719.0999755859375
+   ],
+   [
+    1994.0999755859375,
+    2026.0
+   ],
+   [
+    292.70001220703125,
+    2025.800048828125
+   ]
+  ],
+  "pixel_correlation": 0.9932
+ },
+ {
+  "id": "jhs__train__JH5.6.jpg",
+  "photo": 5,
+  "crop": "JH_datasetNov5Sentence/train/JH5.6.jpg",
+  "crop_sha256": "4c7ce3d5496010be619b4ef45862003d229f29e83f416419645eb742168c3387",
+  "photo_file": "JH_datasetNov5Sentence/Photo5.jpg",
+  "crop_wh": [
+   1127,
+   147
+  ],
+  "matches": 218,
+  "inliers": 200,
+  "scale": 1.59,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    323.0,
+    2025.9000244140625
+   ],
+   [
+    2114.89990234375,
+    2025.9000244140625
+   ],
+   [
+    2114.89990234375,
+    2259.60009765625
+   ],
+   [
+    323.0,
+    2259.60009765625
+   ]
+  ],
+  "pixel_correlation": 0.993
+ },
+ {
+  "id": "jhs__train__JH5.7.jpg",
+  "photo": 5,
+  "crop": "JH_datasetNov5Sentence/train/JH5.7.jpg",
+  "crop_sha256": "39a894fd4895da3fc25f3a3a3b42bed1af90918bf7e18693c42077f4b25d5327",
+  "photo_file": "JH_datasetNov5Sentence/Photo5.jpg",
+  "crop_wh": [
+   1105,
+   120
+  ],
+  "matches": 217,
+  "inliers": 195,
+  "scale": 1.5901,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    343.6000061035156,
+    2328.0
+   ],
+   [
+    2100.699951171875,
+    2328.0
+   ],
+   [
+    2100.699951171875,
+    2518.800048828125
+   ],
+   [
+    343.6000061035156,
+    2518.800048828125
+   ]
+  ],
+  "pixel_correlation": 0.9936
+ },
+ {
+  "id": "jhs__train__JH5.8.jpg",
+  "photo": 5,
+  "crop": "JH_datasetNov5Sentence/train/JH5.8.jpg",
+  "crop_sha256": "c6ed477a8d00f1a4f817bb605b901284dc4fda9c255548bf17c027331667e8e6",
+  "photo_file": "JH_datasetNov5Sentence/Photo5.jpg",
+  "crop_wh": [
+   802,
+   162
+  ],
+  "matches": 131,
+  "inliers": 119,
+  "scale": 1.5901,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    316.6000061035156,
+    2595.10009765625
+   ],
+   [
+    1591.9000244140625,
+    2595.0
+   ],
+   [
+    1591.9000244140625,
+    2852.60009765625
+   ],
+   [
+    316.6000061035156,
+    2852.699951171875
+   ]
+  ],
+  "pixel_correlation": 0.9927
+ },
+ {
+  "id": "jhs__train__JH5.9.jpg",
+  "photo": 5,
+  "crop": "JH_datasetNov5Sentence/train/JH5.9.jpg",
+  "crop_sha256": "8f1ef92bdac91d44cb2b7d5e9875113bf69ad8d274e11670eae3267a29ce83d3",
+  "photo_file": "JH_datasetNov5Sentence/Photo5.jpg",
+  "crop_wh": [
+   1111,
+   138
+  ],
+  "matches": 261,
+  "inliers": 238,
+  "scale": 1.5901,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    316.6000061035156,
+    2895.699951171875
+   ],
+   [
+    2083.10009765625,
+    2895.60009765625
+   ],
+   [
+    2083.10009765625,
+    3115.0
+   ],
+   [
+    316.6000061035156,
+    3115.10009765625
+   ]
+  ],
+  "pixel_correlation": 0.9927
+ },
+ {
+  "id": "jhs__train__JH6.1.jpg",
+  "photo": 6,
+  "crop": "JH_datasetNov5Sentence/train/JH6.1.jpg",
+  "crop_sha256": "6970b9367f83616861b234f1db25dbb96899187ce3e38a406409908983857d2e",
+  "photo_file": "JH_datasetNov5Sentence/Photo6.jpg",
+  "crop_wh": [
+   858,
+   167
+  ],
+  "matches": 163,
+  "inliers": 151,
+  "scale": 1.5901,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    750.7000122070312,
+    122.5999984741211
+   ],
+   [
+    2114.89990234375,
+    122.5999984741211
+   ],
+   [
+    2114.89990234375,
+    388.1000061035156
+   ],
+   [
+    750.7000122070312,
+    388.1000061035156
+   ]
+  ],
+  "pixel_correlation": 0.9901
+ },
+ {
+  "id": "jhs__train__JH6.2.jpg",
+  "photo": 6,
+  "crop": "JH_datasetNov5Sentence/train/JH6.2.jpg",
+  "crop_sha256": "0c8bef6f57163e4542d212bd0233f607d0190f863f624598eb2bd9a2b78e7f66",
+  "photo_file": "JH_datasetNov5Sentence/Photo6.jpg",
+  "crop_wh": [
+   1148,
+   211
+  ],
+  "matches": 232,
+  "inliers": 223,
+  "scale": 1.59,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    760.2000122070312,
+    275.29998779296875
+   ],
+   [
+    2585.5,
+    275.1000061035156
+   ],
+   [
+    2585.60009765625,
+    610.5999755859375
+   ],
+   [
+    760.2999877929688,
+    610.7999877929688
+   ]
+  ],
+  "pixel_correlation": 0.8964
+ },
+ {
+  "id": "jhs__train__JH6.4.jpg",
+  "photo": 6,
+  "crop": "JH_datasetNov5Sentence/train/JH6.4.jpg",
+  "crop_sha256": "2046484590c75b9a42222b937162684339c8bf467e255f2faf0b3733ba91915a",
+  "photo_file": "JH_datasetNov5Sentence/Photo6.jpg",
+  "crop_wh": [
+   1216,
+   278
+  ],
+  "matches": 238,
+  "inliers": 229,
+  "scale": 1.59,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    785.5999755859375,
+    671.0999755859375
+   ],
+   [
+    2719.10009765625,
+    671.0999755859375
+   ],
+   [
+    2719.10009765625,
+    1113.199951171875
+   ],
+   [
+    785.5999755859375,
+    1113.0999755859375
+   ]
+  ],
+  "pixel_correlation": 0.8052
+ },
+ {
+  "id": "jhs__train__JH6.5.jpg",
+  "photo": 6,
+  "crop": "JH_datasetNov5Sentence/train/JH6.5.jpg",
+  "crop_sha256": "773db74f5fffabc8dc7e2016cc98070fdb64e2ba860ab5cae99607514e6361df",
+  "photo_file": "JH_datasetNov5Sentence/Photo6.jpg",
+  "crop_wh": [
+   925,
+   227
+  ],
+  "matches": 126,
+  "inliers": 112,
+  "scale": 1.5899,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    828.5999755859375,
+    1032.0999755859375
+   ],
+   [
+    2299.300048828125,
+    1032.0999755859375
+   ],
+   [
+    2299.300048828125,
+    1393.0
+   ],
+   [
+    828.5999755859375,
+    1393.0999755859375
+   ]
+  ],
+  "pixel_correlation": 0.9864
+ },
+ {
+  "id": "jhs__train__JH6.6.jpg",
+  "photo": 6,
+  "crop": "JH_datasetNov5Sentence/train/JH6.6.jpg",
+  "crop_sha256": "93d0a7da7b5141dc4284d20aab47efc699af01d8bc5fa048457c581338274a48",
+  "photo_file": "JH_datasetNov5Sentence/Photo6.jpg",
+  "crop_wh": [
+   892,
+   211
+  ],
+  "matches": 171,
+  "inliers": 159,
+  "scale": 1.5899,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    849.2999877929688,
+    1292.9000244140625
+   ],
+   [
+    2267.5,
+    1292.800048828125
+   ],
+   [
+    2267.5,
+    1628.300048828125
+   ],
+   [
+    849.2999877929688,
+    1628.4000244140625
+   ]
+  ],
+  "pixel_correlation": 0.9891
+ },
+ {
+  "id": "jhs__train__JH6.8.jpg",
+  "photo": 6,
+  "crop": "JH_datasetNov5Sentence/train/JH6.8.jpg",
+  "crop_sha256": "802e345a44d3ad16a7033bb1e8c58f959d12cce512892036c7198458fd77462b",
+  "photo_file": "JH_datasetNov5Sentence/Photo6.jpg",
+  "crop_wh": [
+   884,
+   119
+  ],
+  "matches": 186,
+  "inliers": 180,
+  "scale": 1.59,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    909.7000122070312,
+    1952.5999755859375
+   ],
+   [
+    2315.300048828125,
+    1952.699951171875
+   ],
+   [
+    2315.300048828125,
+    2141.89990234375
+   ],
+   [
+    909.7000122070312,
+    2141.89990234375
+   ]
+  ],
+  "pixel_correlation": 0.9925
+ },
+ {
+  "id": "jhs__train__JH7.1.jpg",
+  "photo": 7,
+  "crop": "JH_datasetNov5Sentence/train/JH7.1.jpg",
+  "crop_sha256": "a4139438f1188d520a74b88b93d690ffe725af91f637ffee073ceb827c716152",
+  "photo_file": "JH_datasetNov5Sentence/Photo7.jpg",
+  "crop_wh": [
+   1081,
+   191
+  ],
+  "matches": 207,
+  "inliers": 198,
+  "scale": 1.5901,
+  "rotation_deg": -0.01,
+  "quad": [
+   [
+    222.6999969482422,
+    714.0999755859375
+   ],
+   [
+    1941.699951171875,
+    714.0
+   ],
+   [
+    1941.699951171875,
+    1017.7000122070312
+   ],
+   [
+    222.8000030517578,
+    1017.7999877929688
+   ]
+  ],
+  "pixel_correlation": 0.9927
+ },
+ {
+  "id": "jhs__train__JH7.3.jpg",
+  "photo": 7,
+  "crop": "JH_datasetNov5Sentence/train/JH7.3.jpg",
+  "crop_sha256": "ef72ca2e47af696f81ed53341e57c0d29da4de32f0ca58343128c2de43f7f258",
+  "photo_file": "JH_datasetNov5Sentence/Photo7.jpg",
+  "crop_wh": [
+   1161,
+   259
+  ],
+  "matches": 223,
+  "inliers": 208,
+  "scale": 1.5901,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    243.39999389648438,
+    1122.699951171875
+   ],
+   [
+    2089.5,
+    1122.699951171875
+   ],
+   [
+    2089.5,
+    1534.5
+   ],
+   [
+    243.39999389648438,
+    1534.5
+   ]
+  ],
+  "pixel_correlation": 0.9076
+ },
+ {
+  "id": "jhs__train__JH7.4.jpg",
+  "photo": 7,
+  "crop": "JH_datasetNov5Sentence/train/JH7.4.jpg",
+  "crop_sha256": "c4b95db080a40ddb5b5cefb377433623161988f0413a0ab010d971b0f83939c5",
+  "photo_file": "JH_datasetNov5Sentence/Photo7.jpg",
+  "crop_wh": [
+   846,
+   207
+  ],
+  "matches": 200,
+  "inliers": 188,
+  "scale": 1.5902,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    280.0,
+    1462.9000244140625
+   ],
+   [
+    1625.300048828125,
+    1463.0
+   ],
+   [
+    1625.199951171875,
+    1792.199951171875
+   ],
+   [
+    280.0,
+    1792.0999755859375
+   ]
+  ],
+  "pixel_correlation": 0.9566
+ },
+ {
+  "id": "jhs__train__JH7.5.jpg",
+  "photo": 7,
+  "crop": "JH_datasetNov5Sentence/train/JH7.5.jpg",
+  "crop_sha256": "f1936bd4b0671f8cd1d23d419df05a3da982a42613b1885029060c5501051e51",
+  "photo_file": "JH_datasetNov5Sentence/Photo7.jpg",
+  "crop_wh": [
+   1040,
+   254
+  ],
+  "matches": 173,
+  "inliers": 160,
+  "scale": 1.5901,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    307.0,
+    1636.300048828125
+   ],
+   [
+    1960.699951171875,
+    1636.300048828125
+   ],
+   [
+    1960.699951171875,
+    2040.199951171875
+   ],
+   [
+    307.0,
+    2040.199951171875
+   ]
+  ],
+  "pixel_correlation": 0.8017
+ },
+ {
+  "id": "jhs__train__JH7.6.jpg",
+  "photo": 7,
+  "crop": "JH_datasetNov5Sentence/train/JH7.6.jpg",
+  "crop_sha256": "030e26b46e6ceaa16fa04299e3c86249d2ab8b739f84b270f15f66b1a9efece3",
+  "photo_file": "JH_datasetNov5Sentence/Photo7.jpg",
+  "crop_wh": [
+   822,
+   186
+  ],
+  "matches": 149,
+  "inliers": 142,
+  "scale": 1.59,
+  "rotation_deg": -0.01,
+  "quad": [
+   [
+    329.29998779296875,
+    2032.300048828125
+   ],
+   [
+    1636.300048828125,
+    2032.199951171875
+   ],
+   [
+    1636.4000244140625,
+    2327.89990234375
+   ],
+   [
+    329.3999938964844,
+    2328.0
+   ]
+  ],
+  "pixel_correlation": 0.9927
+ },
+ {
+  "id": "jhs__train__JH7.8.jpg",
+  "photo": 7,
+  "crop": "JH_datasetNov5Sentence/train/JH7.8.jpg",
+  "crop_sha256": "6626ce031f962cc37946e588ae284251e7ea8d58883760e2d0b418b344d1a348",
+  "photo_file": "JH_datasetNov5Sentence/Photo7.jpg",
+  "crop_wh": [
+   731,
+   134
+  ],
+  "matches": 118,
+  "inliers": 113,
+  "scale": 1.5902,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    408.70001220703125,
+    2630.199951171875
+   ],
+   [
+    1571.199951171875,
+    2630.10009765625
+   ],
+   [
+    1571.199951171875,
+    2843.199951171875
+   ],
+   [
+    408.79998779296875,
+    2843.300048828125
+   ]
+  ],
+  "pixel_correlation": 0.9931
+ },
+ {
+  "id": "jhs__train__JH7.9.jpg",
+  "photo": 7,
+  "crop": "JH_datasetNov5Sentence/train/JH7.9.jpg",
+  "crop_sha256": "557c57615b98078def06b6812a83fc12af833a11641c4e451d39199b7bd97b2d",
+  "photo_file": "JH_datasetNov5Sentence/Photo7.jpg",
+  "crop_wh": [
+   776,
+   147
+  ],
+  "matches": 145,
+  "inliers": 138,
+  "scale": 1.59,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    407.20001220703125,
+    2847.89990234375
+   ],
+   [
+    1641.0999755859375,
+    2848.0
+   ],
+   [
+    1641.0999755859375,
+    3081.800048828125
+   ],
+   [
+    407.20001220703125,
+    3081.699951171875
+   ]
+  ],
+  "pixel_correlation": 0.9933
+ },
+ {
+  "id": "jhs__train__JH7.10.jpg",
+  "photo": 7,
+  "crop": "JH_datasetNov5Sentence/train/JH7.10.jpg",
+  "crop_sha256": "5c01b28c04fd8f3d03d1e593f66e87de5941409e3f61ceda5f0e53fc11070003",
+  "photo_file": "JH_datasetNov5Sentence/Photo7.jpg",
+  "crop_wh": [
+   896,
+   157
+  ],
+  "matches": 168,
+  "inliers": 158,
+  "scale": 1.5902,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    405.5,
+    3116.699951171875
+   ],
+   [
+    1830.300048828125,
+    3116.60009765625
+   ],
+   [
+    1830.300048828125,
+    3366.300048828125
+   ],
+   [
+    405.5,
+    3366.300048828125
+   ]
+  ],
+  "pixel_correlation": 0.9919
+ },
+ {
+  "id": "jhs__test__JH1.2.jpg",
+  "photo": 1,
+  "crop": "JH_datasetNov5Sentence/test/JH1.2.jpg",
+  "crop_sha256": "d2a86d964e7e79e490a845b574cd83f70d69a0c4ffdbfcb4c4a444eb7da724ea",
+  "photo_file": "JH_datasetNov5Sentence/Photo1.jpg",
+  "crop_wh": [
+   672,
+   171
+  ],
+  "matches": 110,
+  "inliers": 97,
+  "scale": 1.5902,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    256.1000061035156,
+    1086.199951171875
+   ],
+   [
+    1324.699951171875,
+    1086.0999755859375
+   ],
+   [
+    1324.699951171875,
+    1358.0999755859375
+   ],
+   [
+    256.1000061035156,
+    1358.199951171875
+   ]
+  ],
+  "pixel_correlation": 0.924
+ },
+ {
+  "id": "jhs__test__JH1.7.jpg",
+  "photo": 1,
+  "crop": "JH_datasetNov5Sentence/test/JH1.7.jpg",
+  "crop_sha256": "d0ebcf96ad1c177acc3b3b2e2c1b9e3302f7d9bb9c79476d38ddc8bcb3846fed",
+  "photo_file": "JH_datasetNov5Sentence/Photo1.jpg",
+  "crop_wh": [
+   1172,
+   173
+  ],
+  "matches": 212,
+  "inliers": 193,
+  "scale": 1.59,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    321.3999938964844,
+    2342.300048828125
+   ],
+   [
+    2184.89990234375,
+    2342.300048828125
+   ],
+   [
+    2184.89990234375,
+    2617.39990234375
+   ],
+   [
+    321.3999938964844,
+    2617.300048828125
+   ]
+  ],
+  "pixel_correlation": 0.9929
+ },
+ {
+  "id": "jhs__test__JH1.8.jpg",
+  "photo": 1,
+  "crop": "JH_datasetNov5Sentence/test/JH1.8.jpg",
+  "crop_sha256": "35d1163f975dbf4ad2507f82804f0eeee87cf8d5e77f44b8633c1296354d3185",
+  "photo_file": "JH_datasetNov5Sentence/Photo1.jpg",
+  "crop_wh": [
+   834,
+   139
+  ],
+  "matches": 164,
+  "inliers": 150,
+  "scale": 1.59,
+  "rotation_deg": -0.01,
+  "quad": [
+   [
+    342.0,
+    2679.5
+   ],
+   [
+    1668.0999755859375,
+    2679.39990234375
+   ],
+   [
+    1668.0999755859375,
+    2900.39990234375
+   ],
+   [
+    342.1000061035156,
+    2900.5
+   ]
+  ],
+  "pixel_correlation": 0.9938
+ },
+ {
+  "id": "jhs__test__JH1.9.jpg",
+  "photo": 1,
+  "crop": "JH_datasetNov5Sentence/test/JH1.9.jpg",
+  "crop_sha256": "2488fb08d1fd1a225db87e177a8c834a0feb557be34cbd8e0e8c94e0f4afe51b",
+  "photo_file": "JH_datasetNov5Sentence/Photo1.jpg",
+  "crop_wh": [
+   915,
+   134
+  ],
+  "matches": 200,
+  "inliers": 184,
+  "scale": 1.59,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    353.20001220703125,
+    2892.39990234375
+   ],
+   [
+    1808.0999755859375,
+    2892.39990234375
+   ],
+   [
+    1808.0999755859375,
+    3105.5
+   ],
+   [
+    353.20001220703125,
+    3105.5
+   ]
+  ],
+  "pixel_correlation": 0.9932
+ },
+ {
+  "id": "jhs__test__JH3.2.jpg",
+  "photo": 3,
+  "crop": "JH_datasetNov5Sentence/test/JH3.2.jpg",
+  "crop_sha256": "584f8e343ae76319c272b52c1f71c54fdf8adcad169bd3f15a1f5f0a30f22720",
+  "photo_file": "JH_datasetNov5Sentence/Photo3.jpg",
+  "crop_wh": [
+   946,
+   192
+  ],
+  "matches": 176,
+  "inliers": 165,
+  "scale": 1.5901,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    267.29998779296875,
+    1127.5
+   ],
+   [
+    1771.5999755859375,
+    1127.5999755859375
+   ],
+   [
+    1771.5999755859375,
+    1432.9000244140625
+   ],
+   [
+    267.29998779296875,
+    1432.800048828125
+   ]
+  ],
+  "pixel_correlation": 0.9944
+ },
+ {
+  "id": "jhs__test__JH3.3.jpg",
+  "photo": 3,
+  "crop": "JH_datasetNov5Sentence/test/JH3.3.jpg",
+  "crop_sha256": "bbf2cbf34733a151adcb6c218a3af88cb5df6a66876c966f50687a7b8697cfa7",
+  "photo_file": "JH_datasetNov5Sentence/Photo3.jpg",
+  "crop_wh": [
+   879,
+   207
+  ],
+  "matches": 139,
+  "inliers": 128,
+  "scale": 1.5901,
+  "rotation_deg": 0.0,
+  "quad": [
+   [
+    295.8999938964844,
+    1389.800048828125
+   ],
+   [
+    1693.699951171875,
+    1389.800048828125
+   ],
+   [
+    1693.5999755859375,
+    1719.0
+   ],
+   [
+    295.8999938964844,
+    1718.9000244140625
+   ]
+  ],
+  "pixel_correlation": 0.9929
+ },
+ {
+  "id": "jhs__test__JH3.5.jpg",
+  "photo": 3,
+  "crop": "JH_datasetNov5Sentence/test/JH3.5.jpg",
+  "crop_sha256": "02ececd3bbbd1b3f6695ff82add1400787e3b20d44a61c3651e4c2a3828076e4",
+  "photo_file": "JH_datasetNov5Sentence/Photo3.jpg",
+  "crop_wh": [
+   737,
+   143
+  ],
+  "matches": 149,
+  "inliers": 136,
+  "scale": 1.5899,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    375.5,
+    2054.5
+   ],
+   [
+    1547.300048828125,
+    2054.5
+   ],
+   [
+    1547.300048828125,
+    2281.89990234375
+   ],
+   [
+    375.5,
+    2281.89990234375
+   ]
+  ],
+  "pixel_correlation": 0.9935
+ },
+ {
+  "id": "jhs__test__JH5.10.jpg",
+  "photo": 5,
+  "crop": "JH_datasetNov5Sentence/test/JH5.10.jpg",
+  "crop_sha256": "52090976b3d67a50f070d4f258f8fcdbfbff418ad149579b43399e33b43ee403",
+  "photo_file": "JH_datasetNov5Sentence/Photo5.jpg",
+  "crop_wh": [
+   1240,
+   139
+  ],
+  "matches": 272,
+  "inliers": 243,
+  "scale": 1.5901,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    319.70001220703125,
+    3135.800048828125
+   ],
+   [
+    2291.39990234375,
+    3135.699951171875
+   ],
+   [
+    2291.39990234375,
+    3356.699951171875
+   ],
+   [
+    319.70001220703125,
+    3356.800048828125
+   ]
+  ],
+  "pixel_correlation": 0.9927
+ },
+ {
+  "id": "jhs__test__JH6.3.jpg",
+  "photo": 6,
+  "crop": "JH_datasetNov5Sentence/test/JH6.3.jpg",
+  "crop_sha256": "62edac80290f2e4327a3ddb35d18647f95c1c8f01ad11018d86961ab55111f8d",
+  "photo_file": "JH_datasetNov5Sentence/Photo6.jpg",
+  "crop_wh": [
+   1253,
+   239
+  ],
+  "matches": 262,
+  "inliers": 250,
+  "scale": 1.5902,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    776.0999755859375,
+    475.6000061035156
+   ],
+   [
+    2768.5,
+    475.5
+   ],
+   [
+    2768.5,
+    855.5
+   ],
+   [
+    776.0999755859375,
+    855.5999755859375
+   ]
+  ],
+  "pixel_correlation": 0.8033
+ },
+ {
+  "id": "jhs__test__JH6.7.jpg",
+  "photo": 6,
+  "crop": "JH_datasetNov5Sentence/test/JH6.7.jpg",
+  "crop_sha256": "30c271692cdf2f8f194e4bf0f25f6b71f4b9584083c5592020d12480d5a2f1a0",
+  "photo_file": "JH_datasetNov5Sentence/Photo6.jpg",
+  "crop_wh": [
+   866,
+   157
+  ],
+  "matches": 144,
+  "inliers": 139,
+  "scale": 1.5903,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    885.7000122070312,
+    1652.199951171875
+   ],
+   [
+    2262.89990234375,
+    1652.199951171875
+   ],
+   [
+    2262.89990234375,
+    1901.9000244140625
+   ],
+   [
+    885.7000122070312,
+    1901.9000244140625
+   ]
+  ],
+  "pixel_correlation": 0.9915
+ },
+ {
+  "id": "jhs__test__JH7.2.jpg",
+  "photo": 7,
+  "crop": "JH_datasetNov5Sentence/test/JH7.2.jpg",
+  "crop_sha256": "5261ca122cbc1e10b78b3674acd51a46c7b9736ce1fba0ab8549d36af173b787",
+  "photo_file": "JH_datasetNov5Sentence/Photo7.jpg",
+  "crop_wh": [
+   727,
+   173
+  ],
+  "matches": 190,
+  "inliers": 181,
+  "scale": 1.5901,
+  "rotation_deg": -0.01,
+  "quad": [
+   [
+    237.0,
+    981.2999877929688
+   ],
+   [
+    1393.0,
+    981.2000122070312
+   ],
+   [
+    1393.0999755859375,
+    1256.300048828125
+   ],
+   [
+    237.10000610351562,
+    1256.4000244140625
+   ]
+  ],
+  "pixel_correlation": 0.9932
+ },
+ {
+  "id": "jhs__test__JH7.7.jpg",
+  "photo": 7,
+  "crop": "JH_datasetNov5Sentence/test/JH7.7.jpg",
+  "crop_sha256": "f996f5f80301a56d351686d38954c7efc0574274ebf118a36626c1c389499293",
+  "photo_file": "JH_datasetNov5Sentence/Photo7.jpg",
+  "crop_wh": [
+   907,
+   149
+  ],
+  "matches": 166,
+  "inliers": 154,
+  "scale": 1.5901,
+  "rotation_deg": -0.0,
+  "quad": [
+   [
+    399.29998779296875,
+    2356.60009765625
+   ],
+   [
+    1841.5,
+    2356.60009765625
+   ],
+   [
+    1841.5,
+    2593.5
+   ],
+   [
+    399.29998779296875,
+    2593.5
+   ]
+  ],
+  "pixel_correlation": 0.9931
+ }
+]

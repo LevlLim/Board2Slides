@@ -1,0 +1,4 @@
+Wider input (64x1024) but still only 40 CTC columns: the reader breaks. Pooling-pair control for 04.
+source folder: Assignment/results_versions_2x2/results/models/PP-OCRv5_server_rec_board2notes_P40
+experiment: results_versions_2x2, model P40
+inference.pdiparams sha256: ca1012804c58bd7dde2fec8a06483dffbe7e6f2199bdbf6c68b0b6bae887b3e3

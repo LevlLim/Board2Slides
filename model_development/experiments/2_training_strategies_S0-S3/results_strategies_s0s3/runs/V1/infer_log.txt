@@ -1,0 +1,22 @@
+/workspace/venv_b2n/lib/python3.12/site-packages/paddle/utils/cpp_extension/extension_utils.py:718: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[1m[35m--- Running PIR pass [transfer_layout_pass][0m
+[1m[35m--- Running PIR pass [common_subexpression_elimination_pass][0m
+I1107 09:37:19.196797  5123 print_statistics.cc:50] --- detected [27] subgraphs!
+[1m[35m--- Running PIR pass [params_sync_among_devices_pass][0m
+I1107 09:37:19.213227  5123 print_statistics.cc:50] --- detected [458] subgraphs!
+[1m[35m--- Running PIR pass [constant_folding_pass][0m
+I1107 09:37:19.214346  5123 pir_interpreter.cc:1601] New Executor is Running ...
+W1107 09:37:19.215860  5123 gpu_resources.cc:114] Please NOTE: device: 0, GPU Compute Capability: 8.9, Driver API Version: 13.2, Runtime API Version: 12.8
+I1107 09:37:19.216019  5123 pir_interpreter.cc:1625] pir interpreter is running by multi-thread mode ...
+I1107 09:37:19.220610  5123 print_statistics.cc:44] --- detected [15, 798] subgraphs!
+[1m[35m--- Running PIR pass [dead_code_elimination_pass][0m
+[1m[35m--- Running PIR pass [replace_fetch_with_shadow_output_pass][0m
+I1107 09:37:19.221076  5123 print_statistics.cc:50] --- detected [1] subgraphs!
+[1m[35m--- Running PIR pass [remove_shadow_feed_pass][0m
+I1107 09:37:19.226455  5123 print_statistics.cc:50] --- detected [1] subgraphs!
+[1m[35m--- Running PIR pass [inplace_pass][0m
+I1107 09:37:19.243198  5123 print_statistics.cc:50] --- detected [6] subgraphs!
+I1107 09:37:19.243311  5123 analysis_predictor.cc:1217] ======= pir optimization completed =======
+I1107 09:37:19.291679  5123 pir_interpreter.cc:1622] pir interpreter is running by trace mode ...
+STATIC READER DONE {'val_wb': 136, 'test_cnn': 174, 'long_test': 57, 'val_iam': 976, 'test_newwriter': 160}

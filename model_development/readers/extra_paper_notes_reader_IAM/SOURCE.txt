@@ -1,0 +1,4 @@
+Scalability: same training framework as the whiteboard reader below, trained on IAM paper handwriting only.
+source folder: Assignment/results_versions_2x2/results/models/PP-OCRv5_server_rec_board2notes_V1b
+experiment: results_versions_2x2, model V1b
+inference.pdiparams sha256: 46fe369b7e0e9e996a85f3866b3b70be8c1b0e379e18887614a2d0cc7c2084b3

@@ -1,0 +1,16 @@
+{
+  "H": 48,
+  "dict": "d1979e9f794c464c0d2e0b70a7fe14dd978e9dc644c0e71f14158cdf8342af1b",
+  "graph": "d176aeedbb5d25507285c61f89bd8cecee3e0cb2c39624ee4a78abee402cbd8c",
+  "inference_config": "9398350d89648befb024b375f4d13eab61a73bc50146f70785599387d2c94573",
+  "minW": 320,
+  "params": "0739eaf04053bb734277d6fb4f6d5e0b6078af9739bb37af062d9b09836c6193",
+  "runtime": "pir_no_default_passes_official_resize_v2",
+  "sets": {
+    "long_test": "77c9097b4d03316b6f6f7ed0641402c47bd629d3bd4fe5cf637cbaf8fa4d6e81",
+    "test_cnn": "1676c84ade145ca89d9c0d7731d8b8943a31a756b660ec99f3027308fafb4eb1",
+    "test_newwriter": "556a72c2beda39fab4fbae8ed60b9dadb3caac2af01ce1121d00caeb11040c45",
+    "val_iam": "5493a662fa1fa30d54587ac5fd1cf789cdafbda59203a3aad93ec3efee26e585",
+    "val_wb": "041e0bae5e4f18cadcb2c5cce29d9edb93e954845d24f590789dba24b52eacf4"
+  }
+}

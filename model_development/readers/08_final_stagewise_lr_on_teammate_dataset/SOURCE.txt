@@ -1,0 +1,4 @@
+Final model: 07's settings trained on the teammate's larger, leak-checked 80:10:10 dataset.
+source folder: Assignment/results_server_his_20261110/results/models/PP-OCRv5_server_rec
+experiment: results_server_his_20261110, model S1his
+inference.pdiparams sha256: dd991277733037ab5942600fc9bad80d8842b0b1ce5d7763e4fa9ace4cf3741d

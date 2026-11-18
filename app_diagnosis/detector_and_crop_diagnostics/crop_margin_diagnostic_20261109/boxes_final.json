@@ -1,0 +1,4642 @@
+[
+{
+"file": "newwriter__images__jhs__train__JH1.1.jpg",
+"name": "jhs__train__JH1.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH1.1.jpg",
+"sha256": "21aa5a5c075c8c097278a34960eb8133e958701590f8867d4d5186511c46532f",
+"w": 1166,
+"h": 216,
+"cluster": "writer_JH:jhs:JH1",
+"ink": [
+47,
+50,
+1117,
+207
+],
+"box": [
+0,
+0,
+1166,
+216
+],
+"fill": 0.727,
+"box_rule": "all ink components",
+"kept_h": 1.0,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "A network is a system of interconnected people",
+"tight_file": "crops_tight/jhs__train__JH1.1.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH1.3.jpg",
+"name": "jhs__train__JH1.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH1.3.jpg",
+"sha256": "baf1017337684389f80397b9f44b91ad253dae9a76afc218565155d61398614d",
+"w": 735,
+"h": 163,
+"cluster": "writer_JH:jhs:JH1",
+"ink": [
+41,
+0,
+695,
+123
+],
+"box": [
+0,
+0,
+735,
+163
+],
+"fill": 0.755,
+"box_rule": "all ink components",
+"kept_h": 1.0,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "mesh of wires or roads to a group",
+"tight_file": "crops_tight/jhs__train__JH1.3.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH1.4.jpg",
+"name": "jhs__train__JH1.4.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH1.4.jpg",
+"sha256": "86e1d9b89d516890f2d35d494a8ec6f5654dcd8bb7c84e882cc08e514a044e93",
+"w": 1082,
+"h": 240,
+"cluster": "writer_JH:jhs:JH1",
+"ink": [
+58,
+5,
+1029,
+183
+],
+"box": [
+0,
+0,
+1082,
+240
+],
+"fill": 0.742,
+"box_rule": "all ink components",
+"kept_h": 1.0,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "of people forming a social or professional network",
+"tight_file": "crops_tight/jhs__train__JH1.4.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH1.5.jpg",
+"name": "jhs__train__JH1.5.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH1.5.jpg",
+"sha256": "45cfeb7a8005f7e1308d7a7b30ceea707b61b75e4341cc10fdb40669dfc8e43a",
+"w": 1195,
+"h": 217,
+"cluster": "writer_JH:jhs:JH1",
+"ink": [
+52,
+50,
+1147,
+166
+],
+"box": [
+0,
+9,
+1195,
+207
+],
+"fill": 0.535,
+"box_rule": "all ink components",
+"kept_h": 0.912,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "Computer network, social network, infrastructure network",
+"tight_file": "crops_tight/jhs__train__JH1.5.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH1.6.jpg",
+"name": "jhs__train__JH1.6.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH1.6.jpg",
+"sha256": "a0f0386d7338d9b709990589d7e93c5398c9e8425ebfe6477ba53a44f4d5cda6",
+"w": 815,
+"h": 147,
+"cluster": "writer_JH:jhs:JH1",
+"ink": [
+38,
+38,
+778,
+110
+],
+"box": [
+0,
+13,
+815,
+135
+],
+"fill": 0.49,
+"box_rule": "all ink components",
+"kept_h": 0.83,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "A computer network is a collection",
+"tight_file": "crops_tight/jhs__train__JH1.6.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH2.1.jpg",
+"name": "jhs__train__JH2.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH2.1.jpg",
+"sha256": "b44de1615cf2ec912873ee0fa064599506af6510fd0d70f1cb941cebee106848",
+"w": 1126,
+"h": 280,
+"cluster": "writer_JH:jhs:JH2",
+"ink": [
+64,
+65,
+1064,
+215
+],
+"box": [
+0,
+13,
+1126,
+267
+],
+"fill": 0.536,
+"box_rule": "all ink components",
+"kept_h": 0.907,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "Sunlight warms the quiet forest",
+"tight_file": "crops_tight/jhs__train__JH2.1.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH2.2.jpg",
+"name": "jhs__train__JH2.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH2.2.jpg",
+"sha256": "a8778fbbdf759dbbff709d5f1e082c5970eaa400abd481c1200fa24e9082ff64",
+"w": 1059,
+"h": 309,
+"cluster": "writer_JH:jhs:JH2",
+"ink": [
+71,
+71,
+991,
+238
+],
+"box": [
+0,
+13,
+1059,
+296
+],
+"fill": 0.54,
+"box_rule": "all ink components",
+"kept_h": 0.916,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "Bright stars shine every night",
+"tight_file": "crops_tight/jhs__train__JH2.2.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH2.3.jpg",
+"name": "jhs__train__JH2.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH2.3.jpg",
+"sha256": "9771f63f484ae46c3b318885df4092a0d7418fcd6fbb8a8c02cd27abf0ffb48f",
+"w": 848,
+"h": 216,
+"cluster": "writer_JH:jhs:JH2",
+"ink": [
+53,
+52,
+797,
+165
+],
+"box": [
+0,
+12,
+848,
+205
+],
+"fill": 0.523,
+"box_rule": "all ink components",
+"kept_h": 0.894,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "Cold wind moves the leaves",
+"tight_file": "crops_tight/jhs__train__JH2.3.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH2.4.jpg",
+"name": "jhs__train__JH2.4.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH2.4.jpg",
+"sha256": "00a1cf4245a475496935e538e0e53e19ff8e4ab3d5844cf550dbdd4b295c7a49",
+"w": 819,
+"h": 176,
+"cluster": "writer_JH:jhs:JH2",
+"ink": [
+44,
+45,
+776,
+132
+],
+"box": [
+0,
+15,
+819,
+162
+],
+"fill": 0.494,
+"box_rule": "all ink components",
+"kept_h": 0.835,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "Small bird sing soft songs",
+"tight_file": "crops_tight/jhs__train__JH2.4.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH3.1.jpg",
+"name": "jhs__train__JH3.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH3.1.jpg",
+"sha256": "79eed2e4cef435907cc60e42edfcef60e7ea65dea7c7d11046f34d7923713e88",
+"w": 1084,
+"h": 216,
+"cluster": "writer_JH:jhs:JH3",
+"ink": [
+53,
+51,
+1033,
+164
+],
+"box": [
+0,
+11,
+1084,
+204
+],
+"fill": 0.523,
+"box_rule": "all ink components",
+"kept_h": 0.894,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "Network packets are crafted and processed",
+"tight_file": "crops_tight/jhs__train__JH3.1.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH3.4.jpg",
+"name": "jhs__train__JH3.4.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH3.4.jpg",
+"sha256": "d502fd9f3804809755a1fcbe1b84374fc85a1128547dcc044653417698b96abf",
+"w": 931,
+"h": 183,
+"cluster": "writer_JH:jhs:JH3",
+"ink": [
+46,
+46,
+887,
+138
+],
+"box": [
+0,
+14,
+931,
+170
+],
+"fill": 0.503,
+"box_rule": "all ink components",
+"kept_h": 0.852,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "added with specific headers for each",
+"tight_file": "crops_tight/jhs__train__JH3.4.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH3.6.jpg",
+"name": "jhs__train__JH3.6.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH3.6.jpg",
+"sha256": "fca7db728f2220c9ed4ac2672c6ad66246a3073580bb3f406400793af8d15926",
+"w": 1054,
+"h": 133,
+"cluster": "writer_JH:jhs:JH3",
+"ink": [
+35,
+35,
+1019,
+99
+],
+"box": [
+0,
+13,
+1054,
+121
+],
+"fill": 0.481,
+"box_rule": "all ink components",
+"kept_h": 0.812,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "network form the source to the destination",
+"tight_file": "crops_tight/jhs__train__JH3.6.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH3.7.jpg",
+"name": "jhs__train__JH3.7.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH3.7.jpg",
+"sha256": "ed3b497c9e4dc00cd4627f63e752258f85f2a6d95d0e6320be3a8e86e5b84e3c",
+"w": 993,
+"h": 124,
+"cluster": "writer_JH:jhs:JH3",
+"ink": [
+28,
+33,
+964,
+95
+],
+"box": [
+0,
+11,
+993,
+117
+],
+"fill": 0.5,
+"box_rule": "all ink components",
+"kept_h": 0.855,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "The vulnerability will NEVER cause any risk",
+"tight_file": "crops_tight/jhs__train__JH3.7.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH3.8.jpg",
+"name": "jhs__train__JH3.8.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH3.8.jpg",
+"sha256": "d231510cf0558249e5440e3a70c12b7f6368ac4ec7b56157152784554b111ec0",
+"w": 1033,
+"h": 142,
+"cluster": "writer_JH:jhs:JH3",
+"ink": [
+37,
+37,
+997,
+107
+],
+"box": [
+0,
+13,
+1033,
+131
+],
+"fill": 0.493,
+"box_rule": "all ink components",
+"kept_h": 0.831,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "or loss WITHOUT any attacks or exploits",
+"tight_file": "crops_tight/jhs__train__JH3.8.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH4.1.jpg",
+"name": "jhs__train__JH4.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH4.1.jpg",
+"sha256": "21724f3fcaa0a5923e404a92eb43acfce0e5570a803318b9f0d0d4c2c23419e0",
+"w": 1041,
+"h": 217,
+"cluster": "writer_JH:jhs:JH4",
+"ink": [
+52,
+52,
+989,
+167
+],
+"box": [
+0,
+12,
+1041,
+207
+],
+"fill": 0.53,
+"box_rule": "all ink components",
+"kept_h": 0.899,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "DoS and DDoS exploit open services",
+"tight_file": "crops_tight/jhs__train__JH4.1.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH4.2.jpg",
+"name": "jhs__train__JH4.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH4.2.jpg",
+"sha256": "be20f27c675e60503371c0379bbd7b095ca5b1db74879b967a4dbc8861815325",
+"w": 766,
+"h": 193,
+"cluster": "writer_JH:jhs:JH4",
+"ink": [
+47,
+46,
+766,
+193
+],
+"box": [
+0,
+0,
+766,
+193
+],
+"fill": 0.762,
+"box_rule": "all ink components",
+"kept_h": 1.0,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "for TCP and UDP port numbers",
+"tight_file": "crops_tight/jhs__train__JH4.2.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH4.3.jpg",
+"name": "jhs__train__JH4.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH4.3.jpg",
+"sha256": "5f2b7920d92a00d18db2ecb67212333de6e863c17bc46893ccba0ad687a48e1f",
+"w": 860,
+"h": 215,
+"cluster": "writer_JH:jhs:JH4",
+"ink": [
+52,
+52,
+808,
+163
+],
+"box": [
+0,
+13,
+860,
+202
+],
+"fill": 0.516,
+"box_rule": "all ink components",
+"kept_h": 0.879,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "MitM exploits unsecured physical ports",
+"tight_file": "crops_tight/jhs__train__JH4.3.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH4.4.jpg",
+"name": "jhs__train__JH4.4.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH4.4.jpg",
+"sha256": "5adb7bebc982b6d3c461c627455b20086b1020b03d76c35f14fcd4e523d59570",
+"w": 1082,
+"h": 172,
+"cluster": "writer_JH:jhs:JH4",
+"ink": [
+44,
+43,
+1040,
+129
+],
+"box": [
+0,
+13,
+1082,
+159
+],
+"fill": 0.5,
+"box_rule": "all ink components",
+"kept_h": 0.849,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "Packet sniffing exploits unencrypted packets",
+"tight_file": "crops_tight/jhs__train__JH4.4.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH4.5.jpg",
+"name": "jhs__train__JH4.5.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH4.5.jpg",
+"sha256": "fdf23653d544722a0bdbd1002a130c0f1c1a4cf000eba19810cb0acdc662d208",
+"w": 948,
+"h": 149,
+"cluster": "writer_JH:jhs:JH4",
+"ink": [
+38,
+38,
+911,
+112
+],
+"box": [
+0,
+12,
+948,
+138
+],
+"fill": 0.497,
+"box_rule": "all ink components",
+"kept_h": 0.846,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "that contain credentials. Port scanning",
+"tight_file": "crops_tight/jhs__train__JH4.5.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH4.6.jpg",
+"name": "jhs__train__JH4.6.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH4.6.jpg",
+"sha256": "94406c6318cfb165550476deadd111bfbc89dbaf40a01fd26bba886f0d541301",
+"w": 1083,
+"h": 157,
+"cluster": "writer_JH:jhs:JH4",
+"ink": [
+41,
+40,
+1043,
+118
+],
+"box": [
+0,
+13,
+1083,
+145
+],
+"fill": 0.497,
+"box_rule": "all ink components",
+"kept_h": 0.841,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "exploits unfiltered service for TCP and UDP",
+"tight_file": "crops_tight/jhs__train__JH4.6.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH4.7.jpg",
+"name": "jhs__train__JH4.7.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH4.7.jpg",
+"sha256": "dbbdc527fa34543b04ca34d514c618b5d1c41118f84926877e65d64502118181",
+"w": 972,
+"h": 166,
+"cluster": "writer_JH:jhs:JH4",
+"ink": [
+42,
+42,
+931,
+124
+],
+"box": [
+0,
+13,
+972,
+153
+],
+"fill": 0.494,
+"box_rule": "all ink components",
+"kept_h": 0.843,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "port numbers. ARP spoofing exploits",
+"tight_file": "crops_tight/jhs__train__JH4.7.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH4.8.jpg",
+"name": "jhs__train__JH4.8.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH4.8.jpg",
+"sha256": "cc060a81fbd84ad0486f9ebb9a2bf766fd4e9d131aa943b74f54b411b730a3bf",
+"w": 1203,
+"h": 149,
+"cluster": "writer_JH:jhs:JH4",
+"ink": [
+38,
+38,
+1166,
+111
+],
+"box": [
+0,
+12,
+1203,
+137
+],
+"fill": 0.49,
+"box_rule": "all ink components",
+"kept_h": 0.839,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "unsecured physical ports connected to attackers",
+"tight_file": "crops_tight/jhs__train__JH4.8.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH4.9.jpg",
+"name": "jhs__train__JH4.9.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH4.9.jpg",
+"sha256": "1a7adb5b31d1ebe823740b32883f53fddfaaddbe15bd45e3612c23c1cd4120d0",
+"w": 1092,
+"h": 191,
+"cluster": "writer_JH:jhs:JH4",
+"ink": [
+48,
+47,
+1048,
+145
+],
+"box": [
+0,
+13,
+1092,
+179
+],
+"fill": 0.513,
+"box_rule": "all ink components",
+"kept_h": 0.869,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "Overwhelm the bandwidth of the target",
+"tight_file": "crops_tight/jhs__train__JH4.9.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH4.10.jpg",
+"name": "jhs__train__JH4.10.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH4.10.jpg",
+"sha256": "ad1c6f5521b73d0526d441aca41377c4a911611d9b5d02df15bb3429241298d2",
+"w": 1041,
+"h": 168,
+"cluster": "writer_JH:jhs:JH4",
+"ink": [
+41,
+43,
+1001,
+127
+],
+"box": [
+0,
+14,
+1041,
+156
+],
+"fill": 0.5,
+"box_rule": "all ink components",
+"kept_h": 0.845,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "If the target can only service requests",
+"tight_file": "crops_tight/jhs__train__JH4.10.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH5.1.jpg",
+"name": "jhs__train__JH5.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH5.1.jpg",
+"sha256": "c1467cdd57b56e674bc91afcff5a4ab5c02c3ae9e12b9073987d36dd30c021e8",
+"w": 1005,
+"h": 192,
+"cluster": "writer_JH:jhs:JH5",
+"ink": [
+47,
+47,
+959,
+146
+],
+"box": [
+0,
+12,
+1005,
+181
+],
+"fill": 0.516,
+"box_rule": "all ink components",
+"kept_h": 0.88,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "Disrupt the service by sending anomaly",
+"tight_file": "crops_tight/jhs__train__JH5.1.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH5.2.jpg",
+"name": "jhs__train__JH5.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH5.2.jpg",
+"sha256": "6a8381e4b0cb41d8f9fe7fa2126ae1b3c3b0666acc1e1e00677acc5942b022bb",
+"w": 1090,
+"h": 201,
+"cluster": "writer_JH:jhs:JH5",
+"ink": [
+49,
+49,
+1044,
+153
+],
+"box": [
+0,
+13,
+1090,
+189
+],
+"fill": 0.517,
+"box_rule": "all ink components",
+"kept_h": 0.876,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "HTTP requests, DNS queries, TCP connection request",
+"tight_file": "crops_tight/jhs__train__JH5.2.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH5.3.jpg",
+"name": "jhs__train__JH5.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH5.3.jpg",
+"sha256": "0884dc2a49c1a1d701372a68ec29be5fb1b4ba154fd4f82d7b07af7d7857d568",
+"w": 1100,
+"h": 240,
+"cluster": "writer_JH:jhs:JH5",
+"ink": [
+54,
+0,
+1044,
+184
+],
+"box": [
+0,
+0,
+1100,
+240
+],
+"fill": 0.767,
+"box_rule": "all ink components",
+"kept_h": 1.0,
+"kept_w": 1.0,
+"group": "flagged",
+"flag_reason": "other writing near the top edge (7 Nov audit)",
+"label": "The requests don't actually need to be succeeded",
+"tight_file": "crops_tight/jhs__train__JH5.3.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH5.4.jpg",
+"name": "jhs__train__JH5.4.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH5.4.jpg",
+"sha256": "d14f00cd5c0f736215db82903a19393c8e1edfccfadd13d336f177e1d5fff5fa",
+"w": 1078,
+"h": 202,
+"cluster": "writer_JH:jhs:JH5",
+"ink": [
+50,
+49,
+1030,
+154
+],
+"box": [
+0,
+12,
+1078,
+191
+],
+"fill": 0.52,
+"box_rule": "all ink components",
+"kept_h": 0.886,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "Distributed reflective denial of service attacks",
+"tight_file": "crops_tight/jhs__train__JH5.4.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH5.5.jpg",
+"name": "jhs__train__JH5.5.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH5.5.jpg",
+"sha256": "45cbb0362e81fc9913baf951e59753ca1fb798dcdc375271f9f9e7d17191822e",
+"w": 1070,
+"h": 193,
+"cluster": "writer_JH:jhs:JH5",
+"ink": [
+47,
+48,
+1023,
+147
+],
+"box": [
+0,
+13,
+1070,
+182
+],
+"fill": 0.513,
+"box_rule": "all ink components",
+"kept_h": 0.876,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "focus on taking down the availability of an",
+"tight_file": "crops_tight/jhs__train__JH5.5.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH5.6.jpg",
+"name": "jhs__train__JH5.6.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH5.6.jpg",
+"sha256": "4c7ce3d5496010be619b4ef45862003d229f29e83f416419645eb742168c3387",
+"w": 1127,
+"h": 147,
+"cluster": "writer_JH:jhs:JH5",
+"ink": [
+39,
+38,
+1090,
+109
+],
+"box": [
+0,
+13,
+1127,
+134
+],
+"fill": 0.483,
+"box_rule": "all ink components",
+"kept_h": 0.823,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "asset through an overwhelming volume of HTTP",
+"tight_file": "crops_tight/jhs__train__JH5.6.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH5.7.jpg",
+"name": "jhs__train__JH5.7.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH5.7.jpg",
+"sha256": "39a894fd4895da3fc25f3a3a3b42bed1af90918bf7e18693c42077f4b25d5327",
+"w": 1105,
+"h": 120,
+"cluster": "writer_JH:jhs:JH5",
+"ink": [
+31,
+32,
+1076,
+88
+],
+"box": [
+0,
+12,
+1105,
+108
+],
+"fill": 0.467,
+"box_rule": "all ink components",
+"kept_h": 0.8,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "the attacker would send an HTTP request as the",
+"tight_file": "crops_tight/jhs__train__JH5.7.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH5.8.jpg",
+"name": "jhs__train__JH5.8.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH5.8.jpg",
+"sha256": "c6ed477a8d00f1a4f817bb605b901284dc4fda9c255548bf17c027331667e8e6",
+"w": 802,
+"h": 162,
+"cluster": "writer_JH:jhs:JH5",
+"ink": [
+40,
+41,
+763,
+123
+],
+"box": [
+0,
+12,
+802,
+152
+],
+"fill": 0.506,
+"box_rule": "all ink components",
+"kept_h": 0.864,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "the protocol of choice for this type",
+"tight_file": "crops_tight/jhs__train__JH5.8.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH5.9.jpg",
+"name": "jhs__train__JH5.9.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH5.9.jpg",
+"sha256": "8f1ef92bdac91d44cb2b7d5e9875113bf69ad8d274e11670eae3267a29ce83d3",
+"w": 1111,
+"h": 138,
+"cluster": "writer_JH:jhs:JH5",
+"ink": [
+37,
+36,
+1079,
+103
+],
+"box": [
+0,
+13,
+1111,
+126
+],
+"fill": 0.486,
+"box_rule": "all ink components",
+"kept_h": 0.819,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "of attack WITHOUT establish connection state",
+"tight_file": "crops_tight/jhs__train__JH5.9.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH6.1.jpg",
+"name": "jhs__train__JH6.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH6.1.jpg",
+"sha256": "6970b9367f83616861b234f1db25dbb96899187ce3e38a406409908983857d2e",
+"w": 858,
+"h": 167,
+"cluster": "writer_JH:jhs:JH6",
+"ink": [
+42,
+43,
+819,
+130
+],
+"box": [
+0,
+13,
+858,
+160
+],
+"fill": 0.521,
+"box_rule": "all ink components",
+"kept_h": 0.88,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "Bot is a type of malicious software",
+"tight_file": "crops_tight/jhs__train__JH6.1.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH6.2.jpg",
+"name": "jhs__train__JH6.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH6.2.jpg",
+"sha256": "0c8bef6f57163e4542d212bd0233f607d0190f863f624598eb2bd9a2b78e7f66",
+"w": 1148,
+"h": 211,
+"cluster": "writer_JH:jhs:JH6",
+"ink": [
+51,
+52,
+1100,
+161
+],
+"box": [
+0,
+14,
+1148,
+199
+],
+"fill": 0.517,
+"box_rule": "all ink components",
+"kept_h": 0.877,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "that allows the attacker complete control of the computer",
+"tight_file": "crops_tight/jhs__train__JH6.2.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH6.4.jpg",
+"name": "jhs__train__JH6.4.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH6.4.jpg",
+"sha256": "2046484590c75b9a42222b937162684339c8bf467e255f2faf0b3733ba91915a",
+"w": 1216,
+"h": 278,
+"cluster": "writer_JH:jhs:JH6",
+"ink": [
+64,
+22,
+1151,
+214
+],
+"box": [
+0,
+0,
+1216,
+278
+],
+"fill": 0.691,
+"box_rule": "all ink components",
+"kept_h": 1.0,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "A botnet is a collection of zombies all used to do things",
+"tight_file": "crops_tight/jhs__train__JH6.4.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH6.5.jpg",
+"name": "jhs__train__JH6.5.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH6.5.jpg",
+"sha256": "773db74f5fffabc8dc7e2016cc98070fdb64e2ba860ab5cae99607514e6361df",
+"w": 925,
+"h": 227,
+"cluster": "writer_JH:jhs:JH6",
+"ink": [
+54,
+54,
+871,
+174
+],
+"box": [
+0,
+12,
+925,
+216
+],
+"fill": 0.529,
+"box_rule": "all ink components",
+"kept_h": 0.899,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "Anyone close to your router can get on",
+"tight_file": "crops_tight/jhs__train__JH6.5.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH6.6.jpg",
+"name": "jhs__train__JH6.6.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH6.6.jpg",
+"sha256": "93d0a7da7b5141dc4284d20aab47efc699af01d8bc5fa048457c581338274a48",
+"w": 892,
+"h": 211,
+"cluster": "writer_JH:jhs:JH6",
+"ink": [
+51,
+50,
+841,
+160
+],
+"box": [
+0,
+12,
+892,
+198
+],
+"fill": 0.521,
+"box_rule": "all ink components",
+"kept_h": 0.882,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "fake WiFi access point that appears to",
+"tight_file": "crops_tight/jhs__train__JH6.6.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH6.8.jpg",
+"name": "jhs__train__JH6.8.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH6.8.jpg",
+"sha256": "802e345a44d3ad16a7033bb1e8c58f959d12cce512892036c7198458fd77462b",
+"w": 884,
+"h": 119,
+"cluster": "writer_JH:jhs:JH6",
+"ink": [
+32,
+33,
+852,
+88
+],
+"box": [
+0,
+14,
+884,
+107
+],
+"fill": 0.462,
+"box_rule": "all ink components",
+"kept_h": 0.782,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "Client is associated to the Hot Spot AP",
+"tight_file": "crops_tight/jhs__train__JH6.8.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH7.1.jpg",
+"name": "jhs__train__JH7.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH7.1.jpg",
+"sha256": "a4139438f1188d520a74b88b93d690ffe725af91f637ffee073ceb827c716152",
+"w": 1081,
+"h": 191,
+"cluster": "writer_JH:jhs:JH7",
+"ink": [
+48,
+22,
+1034,
+146
+],
+"box": [
+0,
+0,
+1081,
+189
+],
+"fill": 0.649,
+"box_rule": "all ink components",
+"kept_h": 0.99,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "If it is unencrypted, then there may be a loss",
+"tight_file": "crops_tight/jhs__train__JH7.1.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH7.3.jpg",
+"name": "jhs__train__JH7.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH7.3.jpg",
+"sha256": "ef72ca2e47af696f81ed53341e57c0d29da4de32f0ca58343128c2de43f7f258",
+"w": 1161,
+"h": 259,
+"cluster": "writer_JH:jhs:JH7",
+"ink": [
+62,
+0,
+1105,
+199
+],
+"box": [
+0,
+0,
+1161,
+259
+],
+"fill": 0.768,
+"box_rule": "all ink components",
+"kept_h": 1.0,
+"kept_w": 1.0,
+"group": "flagged",
+"flag_reason": "other writing near the top edge (7 Nov audit)",
+"label": "relies on the promiscuous mode feature of a network",
+"tight_file": "crops_tight/jhs__train__JH7.3.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH7.4.jpg",
+"name": "jhs__train__JH7.4.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH7.4.jpg",
+"sha256": "c4b95db080a40ddb5b5cefb377433623161988f0413a0ab010d971b0f83939c5",
+"w": 846,
+"h": 207,
+"cluster": "writer_JH:jhs:JH7",
+"ink": [
+50,
+50,
+797,
+159
+],
+"box": [
+0,
+12,
+846,
+197
+],
+"fill": 0.527,
+"box_rule": "all ink components",
+"kept_h": 0.894,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "Passive sniffing is difficult to detect",
+"tight_file": "crops_tight/jhs__train__JH7.4.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH7.5.jpg",
+"name": "jhs__train__JH7.5.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH7.5.jpg",
+"sha256": "f1936bd4b0671f8cd1d23d419df05a3da982a42613b1885029060c5501051e51",
+"w": 1040,
+"h": 254,
+"cluster": "writer_JH:jhs:JH7",
+"ink": [
+60,
+60,
+982,
+194
+],
+"box": [
+0,
+13,
+1040,
+241
+],
+"fill": 0.528,
+"box_rule": "all ink components",
+"kept_h": 0.898,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "but does not work well in switched network",
+"tight_file": "crops_tight/jhs__train__JH7.5.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH7.6.jpg",
+"name": "jhs__train__JH7.6.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH7.6.jpg",
+"sha256": "030e26b46e6ceaa16fa04299e3c86249d2ab8b739f84b270f15f66b1a9efece3",
+"w": 822,
+"h": 186,
+"cluster": "writer_JH:jhs:JH7",
+"ink": [
+47,
+46,
+777,
+141
+],
+"box": [
+0,
+13,
+822,
+174
+],
+"fill": 0.511,
+"box_rule": "all ink components",
+"kept_h": 0.866,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "Web login password capture demo",
+"tight_file": "crops_tight/jhs__train__JH7.6.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH7.8.jpg",
+"name": "jhs__train__JH7.8.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH7.8.jpg",
+"sha256": "6626ce031f962cc37946e588ae284251e7ea8d58883760e2d0b418b344d1a348",
+"w": 731,
+"h": 134,
+"cluster": "writer_JH:jhs:JH7",
+"ink": [
+35,
+35,
+697,
+100
+],
+"box": [
+0,
+12,
+731,
+123
+],
+"fill": 0.485,
+"box_rule": "all ink components",
+"kept_h": 0.828,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "Open a web browser and go to",
+"tight_file": "crops_tight/jhs__train__JH7.8.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH7.9.jpg",
+"name": "jhs__train__JH7.9.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH7.9.jpg",
+"sha256": "557c57615b98078def06b6812a83fc12af833a11641c4e451d39199b7bd97b2d",
+"w": 776,
+"h": 147,
+"cluster": "writer_JH:jhs:JH7",
+"ink": [
+39,
+38,
+739,
+109
+],
+"box": [
+0,
+13,
+776,
+134
+],
+"fill": 0.483,
+"box_rule": "all ink components",
+"kept_h": 0.823,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "On the top right of the screen",
+"tight_file": "crops_tight/jhs__train__JH7.9.png"
+},
+{
+"file": "newwriter__images__jhs__train__JH7.10.jpg",
+"name": "jhs__train__JH7.10.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__train__JH7.10.jpg",
+"sha256": "5c01b28c04fd8f3d03d1e593f66e87de5941409e3f61ceda5f0e53fc11070003",
+"w": 896,
+"h": 157,
+"cluster": "writer_JH:jhs:JH7",
+"ink": [
+41,
+40,
+857,
+118
+],
+"box": [
+0,
+13,
+896,
+145
+],
+"fill": 0.497,
+"box_rule": "all ink components",
+"kept_h": 0.841,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "a password of top secret password",
+"tight_file": "crops_tight/jhs__train__JH7.10.png"
+},
+{
+"file": "newwriter__images__jhs__test__JH1.2.jpg",
+"name": "jhs__test__JH1.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__test__JH1.2.jpg",
+"sha256": "d2a86d964e7e79e490a845b574cd83f70d69a0c4ffdbfcb4c4a444eb7da724ea",
+"w": 672,
+"h": 171,
+"cluster": "writer_JH:jhs:JH1",
+"ink": [
+33,
+0,
+629,
+128
+],
+"box": [
+0,
+0,
+672,
+171
+],
+"fill": 0.749,
+"box_rule": "all ink components",
+"kept_h": 1.0,
+"kept_w": 1.0,
+"group": "flagged",
+"flag_reason": "other writing near the top edge (7 Nov audit)",
+"label": "This can range from a physical",
+"tight_file": "crops_tight/jhs__test__JH1.2.png"
+},
+{
+"file": "newwriter__images__jhs__test__JH1.7.jpg",
+"name": "jhs__test__JH1.7.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__test__JH1.7.jpg",
+"sha256": "d0ebcf96ad1c177acc3b3b2e2c1b9e3302f7d9bb9c79476d38ddc8bcb3846fed",
+"w": 1172,
+"h": 173,
+"cluster": "writer_JH:jhs:JH1",
+"ink": [
+44,
+43,
+1130,
+131
+],
+"box": [
+0,
+12,
+1172,
+162
+],
+"fill": 0.509,
+"box_rule": "all ink components",
+"kept_h": 0.867,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "Client Server architecture is a centralized approach",
+"tight_file": "crops_tight/jhs__test__JH1.7.png"
+},
+{
+"file": "newwriter__images__jhs__test__JH1.8.jpg",
+"name": "jhs__test__JH1.8.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__test__JH1.8.jpg",
+"sha256": "35d1163f975dbf4ad2507f82804f0eeee87cf8d5e77f44b8633c1296354d3185",
+"w": 834,
+"h": 139,
+"cluster": "writer_JH:jhs:JH1",
+"ink": [
+36,
+36,
+798,
+104
+],
+"box": [
+0,
+12,
+834,
+128
+],
+"fill": 0.489,
+"box_rule": "all ink components",
+"kept_h": 0.835,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "more scalable for large networks",
+"tight_file": "crops_tight/jhs__test__JH1.8.png"
+},
+{
+"file": "newwriter__images__jhs__test__JH1.9.jpg",
+"name": "jhs__test__JH1.9.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__test__JH1.9.jpg",
+"sha256": "2488fb08d1fd1a225db87e177a8c834a0feb557be34cbd8e0e8c94e0f4afe51b",
+"w": 915,
+"h": 134,
+"cluster": "writer_JH:jhs:JH1",
+"ink": [
+35,
+33,
+881,
+101
+],
+"box": [
+0,
+9,
+915,
+125
+],
+"fill": 0.507,
+"box_rule": "all ink components",
+"kept_h": 0.866,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "Peer to peer is a decentralised approach",
+"tight_file": "crops_tight/jhs__test__JH1.9.png"
+},
+{
+"file": "newwriter__images__jhs__test__JH3.2.jpg",
+"name": "jhs__test__JH3.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__test__JH3.2.jpg",
+"sha256": "584f8e343ae76319c272b52c1f71c54fdf8adcad169bd3f15a1f5f0a30f22720",
+"w": 946,
+"h": 192,
+"cluster": "writer_JH:jhs:JH3",
+"ink": [
+48,
+45,
+900,
+146
+],
+"box": [
+0,
+10,
+946,
+181
+],
+"fill": 0.526,
+"box_rule": "all ink components",
+"kept_h": 0.891,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "based on the network layers hierarchy",
+"tight_file": "crops_tight/jhs__test__JH3.2.png"
+},
+{
+"file": "newwriter__images__jhs__test__JH3.3.jpg",
+"name": "jhs__test__JH3.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__test__JH3.3.jpg",
+"sha256": "bbf2cbf34733a151adcb6c218a3af88cb5df6a66876c966f50687a7b8697cfa7",
+"w": 879,
+"h": 207,
+"cluster": "writer_JH:jhs:JH3",
+"ink": [
+50,
+49,
+832,
+157
+],
+"box": [
+0,
+11,
+879,
+195
+],
+"fill": 0.522,
+"box_rule": "all ink components",
+"kept_h": 0.889,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "where the application data will be",
+"tight_file": "crops_tight/jhs__test__JH3.3.png"
+},
+{
+"file": "newwriter__images__jhs__test__JH3.5.jpg",
+"name": "jhs__test__JH3.5.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__test__JH3.5.jpg",
+"sha256": "02ececd3bbbd1b3f6695ff82add1400787e3b20d44a61c3651e4c2a3828076e4",
+"w": 737,
+"h": 143,
+"cluster": "writer_JH:jhs:JH3",
+"ink": [
+37,
+37,
+702,
+107
+],
+"box": [
+0,
+13,
+737,
+131
+],
+"fill": 0.49,
+"box_rule": "all ink components",
+"kept_h": 0.825,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "layer before being sent to the",
+"tight_file": "crops_tight/jhs__test__JH3.5.png"
+},
+{
+"file": "newwriter__images__jhs__test__JH5.10.jpg",
+"name": "jhs__test__JH5.10.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__test__JH5.10.jpg",
+"sha256": "52090976b3d67a50f070d4f258f8fcdbfbff418ad149579b43399e33b43ee403",
+"w": 1240,
+"h": 139,
+"cluster": "writer_JH:jhs:JH5",
+"ink": [
+37,
+36,
+1205,
+104
+],
+"box": [
+0,
+12,
+1240,
+128
+],
+"fill": 0.489,
+"box_rule": "all ink components",
+"kept_h": 0.835,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "Bots send a modified source address, and unsolicited",
+"tight_file": "crops_tight/jhs__test__JH5.10.png"
+},
+{
+"file": "newwriter__images__jhs__test__JH6.3.jpg",
+"name": "jhs__test__JH6.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__test__JH6.3.jpg",
+"sha256": "62edac80290f2e4327a3ddb35d18647f95c1c8f01ad11018d86961ab55111f8d",
+"w": 1253,
+"h": 239,
+"cluster": "writer_JH:jhs:JH6",
+"ink": [
+56,
+58,
+1199,
+182
+],
+"box": [
+0,
+15,
+1253,
+225
+],
+"fill": 0.519,
+"box_rule": "all ink components",
+"kept_h": 0.879,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "Zombie is an internet-connected computer infected with a bot",
+"tight_file": "crops_tight/jhs__test__JH6.3.png"
+},
+{
+"file": "newwriter__images__jhs__test__JH6.7.jpg",
+"name": "jhs__test__JH6.7.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__test__JH6.7.jpg",
+"sha256": "30c271692cdf2f8f194e4bf0f25f6b71f4b9584083c5592020d12480d5a2f1a0",
+"w": 866,
+"h": 157,
+"cluster": "writer_JH:jhs:JH6",
+"ink": [
+39,
+40,
+826,
+118
+],
+"box": [
+0,
+13,
+866,
+145
+],
+"fill": 0.497,
+"box_rule": "all ink components",
+"kept_h": 0.841,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "be legit but is set up to eavesdrop on",
+"tight_file": "crops_tight/jhs__test__JH6.7.png"
+},
+{
+"file": "newwriter__images__jhs__test__JH7.2.jpg",
+"name": "jhs__test__JH7.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__test__JH7.2.jpg",
+"sha256": "5261ca122cbc1e10b78b3674acd51a46c7b9736ce1fba0ab8549d36af173b787",
+"w": 727,
+"h": 173,
+"cluster": "writer_JH:jhs:JH7",
+"ink": [
+44,
+43,
+686,
+134
+],
+"box": [
+0,
+11,
+727,
+166
+],
+"fill": 0.526,
+"box_rule": "all ink components",
+"kept_h": 0.896,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "Passive sniffing use of a sniffer",
+"tight_file": "crops_tight/jhs__test__JH7.2.png"
+},
+{
+"file": "newwriter__images__jhs__test__JH7.7.jpg",
+"name": "jhs__test__JH7.7.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhs__test__JH7.7.jpg",
+"sha256": "f996f5f80301a56d351686d38954c7efc0574274ebf118a36626c1c389499293",
+"w": 907,
+"h": 149,
+"cluster": "writer_JH:jhs:JH7",
+"ink": [
+39,
+37,
+870,
+111
+],
+"box": [
+0,
+11,
+907,
+137
+],
+"fill": 0.497,
+"box_rule": "all ink components",
+"kept_h": 0.846,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "Check all the interfaces as shown below",
+"tight_file": "crops_tight/jhs__test__JH7.7.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH2.1.jpg",
+"name": "jhw__train__JH2.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH2.1.jpg",
+"sha256": "602cdcea99ef9c7807d6d56dde6a61e6f859cec648dfaeea07152d2378b745d1",
+"w": 559,
+"h": 281,
+"cluster": "writer_JH:jhw:JH2",
+"ink": [
+89,
+45,
+425,
+124
+],
+"box": [
+26,
+17,
+488,
+152
+],
+"fill": 0.281,
+"box_rule": "all ink components",
+"kept_h": 0.48,
+"kept_w": 0.826,
+"group": "large margin",
+"flag_reason": "",
+"label": "PowerPac",
+"tight_file": "crops_tight/jhw__train__JH2.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH3.1.jpg",
+"name": "jhw__train__JH3.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH3.1.jpg",
+"sha256": "75e5f41303286844ba79ef1b490f7f1afb678ded4745bef6508f526a1babbcf4",
+"w": 266,
+"h": 122,
+"cluster": "writer_JH:jhw:JH3",
+"ink": [
+73,
+44,
+157,
+70
+],
+"box": [
+52,
+35,
+178,
+79
+],
+"fill": 0.213,
+"box_rule": "all ink components",
+"kept_h": 0.361,
+"kept_w": 0.474,
+"group": "large margin",
+"flag_reason": "",
+"label": "Beurre",
+"tight_file": "crops_tight/jhw__train__JH3.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH4.1.jpg",
+"name": "jhw__train__JH4.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH4.1.jpg",
+"sha256": "73abf49d0be56144ccfe4e9dab2beaad5f667fbaf295b015db5803afc42a4ddc",
+"w": 329,
+"h": 185,
+"cluster": "writer_JH:jhw:JH4",
+"ink": [
+122,
+76,
+223,
+109
+],
+"box": [
+96,
+64,
+249,
+121
+],
+"fill": 0.178,
+"box_rule": "all ink components",
+"kept_h": 0.308,
+"kept_w": 0.465,
+"group": "large margin",
+"flag_reason": "",
+"label": "Creative",
+"tight_file": "crops_tight/jhw__train__JH4.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH6.1.jpg",
+"name": "jhw__train__JH6.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH6.1.jpg",
+"sha256": "27526291754040e8f8464a3c43116d7b4845585e9c5c10c31cbcc8db0c2a7e77",
+"w": 466,
+"h": 121,
+"cluster": "writer_JH:jhw:JH6",
+"ink": [
+156,
+29,
+293,
+57
+],
+"box": [
+134,
+19,
+315,
+67
+],
+"fill": 0.231,
+"box_rule": "all ink components",
+"kept_h": 0.397,
+"kept_w": 0.388,
+"group": "large margin",
+"flag_reason": "",
+"label": "100W",
+"tight_file": "crops_tight/jhw__train__JH6.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH7.1.jpg",
+"name": "jhw__train__JH7.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH7.1.jpg",
+"sha256": "5dabbfa916abf5f4552792474e735a63d3fbfb0ee3d2319835b06fb8f1105321",
+"w": 190,
+"h": 107,
+"cluster": "writer_JH:jhw:JH7",
+"ink": [
+47,
+44,
+134,
+72
+],
+"box": [
+25,
+34,
+156,
+82
+],
+"fill": 0.262,
+"box_rule": "all ink components",
+"kept_h": 0.449,
+"kept_w": 0.689,
+"group": "large margin",
+"flag_reason": "",
+"label": "96HR",
+"tight_file": "crops_tight/jhw__train__JH7.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH8.1.jpg",
+"name": "jhw__train__JH8.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH8.1.jpg",
+"sha256": "5986f3d35158eb4d2824a3e9f57cb1ac22db925ab0c8fab527b9af701c269a13",
+"w": 214,
+"h": 120,
+"cluster": "writer_JH:jhw:JH8",
+"ink": [
+64,
+46,
+142,
+73
+],
+"box": [
+42,
+37,
+164,
+82
+],
+"fill": 0.225,
+"box_rule": "all ink components",
+"kept_h": 0.375,
+"kept_w": 0.57,
+"group": "large margin",
+"flag_reason": "",
+"label": "Vegan",
+"tight_file": "crops_tight/jhw__train__JH8.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH10.1.jpg",
+"name": "jhw__train__JH10.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH10.1.jpg",
+"sha256": "5481422ce9704a910d4c12627460fdd1ed7f8a4b7f63841d8d7324d0dfa5c462",
+"w": 278,
+"h": 147,
+"cluster": "writer_JH:jhw:JH10",
+"ink": [
+59,
+63,
+136,
+99
+],
+"box": [
+30,
+50,
+165,
+112
+],
+"fill": 0.245,
+"box_rule": "all ink components",
+"kept_h": 0.422,
+"kept_w": 0.486,
+"group": "large margin",
+"flag_reason": "",
+"label": "Prism",
+"tight_file": "crops_tight/jhw__train__JH10.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH16.1.jpg",
+"name": "jhw__train__JH16.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH16.1.jpg",
+"sha256": "d9f2729fdbf5e3312b35f6029af2af0fd6aac140ad56b6542230b7f1f87040a4",
+"w": 226,
+"h": 127,
+"cluster": "writer_JH:jhw:JH16",
+"ink": [
+74,
+61,
+138,
+90
+],
+"box": [
+51,
+51,
+161,
+100
+],
+"fill": 0.228,
+"box_rule": "all ink components",
+"kept_h": 0.386,
+"kept_w": 0.487,
+"group": "large margin",
+"flag_reason": "",
+"label": "Corps",
+"tight_file": "crops_tight/jhw__train__JH16.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH17.2.jpg",
+"name": "jhw__train__JH17.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH17.2.jpg",
+"sha256": "0c764a0929ca48830b9d6b9896c79d1adfd762687c6c0d421ef78e1e9934060b",
+"w": 176,
+"h": 37,
+"cluster": "writer_JH:jhw:JH17",
+"ink": [
+72,
+5,
+110,
+22
+],
+"box": [
+58,
+0,
+124,
+28
+],
+"fill": 0.459,
+"box_rule": "all ink components",
+"kept_h": 0.757,
+"kept_w": 0.375,
+"group": "middle",
+"flag_reason": "",
+"label": "with",
+"tight_file": "crops_tight/jhw__train__JH17.2.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH17.3.jpg",
+"name": "jhw__train__JH17.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH17.3.jpg",
+"sha256": "0732cec13882f1b0e07dabbc5130caa781b084d47a75f6a77f630ce94a2c6da1",
+"w": 310,
+"h": 79,
+"cluster": "writer_JH:jhw:JH17",
+"ink": [
+85,
+14,
+194,
+35
+],
+"box": [
+68,
+7,
+211,
+42
+],
+"fill": 0.266,
+"box_rule": "all ink components",
+"kept_h": 0.443,
+"kept_w": 0.461,
+"group": "large margin",
+"flag_reason": "",
+"label": "Yuzu Juice",
+"tight_file": "crops_tight/jhw__train__JH17.3.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH18.1.jpg",
+"name": "jhw__train__JH18.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH18.1.jpg",
+"sha256": "111aaf52a33929d2d8d713fbe7875d2619154b6075409b062dc3a8d77fabaae8",
+"w": 249,
+"h": 58,
+"cluster": "writer_JH:jhw:JH18",
+"ink": [
+34,
+27,
+177,
+52
+],
+"box": [
+14,
+18,
+197,
+58
+],
+"fill": 0.431,
+"box_rule": "all ink components",
+"kept_h": 0.69,
+"kept_w": 0.735,
+"group": "middle",
+"flag_reason": "",
+"label": "The breeze",
+"tight_file": "crops_tight/jhw__train__JH18.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH18.2.jpg",
+"name": "jhw__train__JH18.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH18.2.jpg",
+"sha256": "7068ea16b03e95c111590635006ce39fe3d9e74459b8dc7c7d1630ef4d51f387",
+"w": 190,
+"h": 52,
+"cluster": "writer_JH:jhw:JH18",
+"ink": [
+24,
+0,
+176,
+37
+],
+"box": [
+0,
+0,
+190,
+50
+],
+"fill": 0.712,
+"box_rule": "all ink components",
+"kept_h": 0.962,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "communication",
+"tight_file": "crops_tight/jhw__train__JH18.2.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH19.1.jpg",
+"name": "jhw__train__JH19.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH19.1.jpg",
+"sha256": "5952bc07098362dec484fb5f048940cb6d94f09d44dc8d8dace1de47e587d3c9",
+"w": 203,
+"h": 114,
+"cluster": "writer_JH:jhw:JH19",
+"ink": [
+41,
+34,
+158,
+69
+],
+"box": [
+13,
+22,
+186,
+81
+],
+"fill": 0.307,
+"box_rule": "drop border-touching components",
+"kept_h": 0.518,
+"kept_w": 0.852,
+"group": "large margin",
+"flag_reason": "",
+"label": "Legendary",
+"tight_file": "crops_tight/jhw__train__JH19.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH20.1.jpg",
+"name": "jhw__train__JH20.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH20.1.jpg",
+"sha256": "bfdee8e573ce653f70fafec1f50552eaf683fc7828cd45ca631c4715e1689a17",
+"w": 182,
+"h": 102,
+"cluster": "writer_JH:jhw:JH20",
+"ink": [
+47,
+72,
+138,
+100
+],
+"box": [
+25,
+62,
+160,
+102
+],
+"fill": 0.275,
+"box_rule": "all ink components",
+"kept_h": 0.392,
+"kept_w": 0.742,
+"group": "large margin",
+"flag_reason": "",
+"label": "GeForce",
+"tight_file": "crops_tight/jhw__train__JH20.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH21.1.jpg",
+"name": "jhw__train__JH21.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH21.1.jpg",
+"sha256": "0e8220c6b77f30e728a1f43ebad9e7d433466cfb7e5ed241e705e127331b46fc",
+"w": 265,
+"h": 149,
+"cluster": "writer_JH:jhw:JH21",
+"ink": [
+81,
+67,
+179,
+94
+],
+"box": [
+59,
+58,
+201,
+103
+],
+"fill": 0.181,
+"box_rule": "all ink components",
+"kept_h": 0.302,
+"kept_w": 0.536,
+"group": "large margin",
+"flag_reason": "",
+"label": "Moisture",
+"tight_file": "crops_tight/jhw__train__JH21.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH22.1.jpg",
+"name": "jhw__train__JH22.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH22.1.jpg",
+"sha256": "53f3e7959c8f033d0c8c92b3e6f07c223e37b9fc418500d2528f42663cfd28e9",
+"w": 203,
+"h": 114,
+"cluster": "writer_JH:jhw:JH22",
+"ink": [
+51,
+34,
+168,
+69
+],
+"box": [
+23,
+22,
+196,
+81
+],
+"fill": 0.307,
+"box_rule": "drop border-touching components",
+"kept_h": 0.518,
+"kept_w": 0.852,
+"group": "large margin",
+"flag_reason": "",
+"label": "Legendary",
+"tight_file": "crops_tight/jhw__train__JH22.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH23.1.jpg",
+"name": "jhw__train__JH23.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH23.1.jpg",
+"sha256": "6a6035670fa3b9a1a51bf178a6f5560281cec1d1d5482f3af6f02516c2bf043b",
+"w": 192,
+"h": 58,
+"cluster": "writer_JH:jhw:JH23",
+"ink": [
+40,
+20,
+160,
+52
+],
+"box": [
+14,
+9,
+186,
+58
+],
+"fill": 0.552,
+"box_rule": "all ink components",
+"kept_h": 0.845,
+"kept_w": 0.896,
+"group": "middle",
+"flag_reason": "",
+"label": "chocolate",
+"tight_file": "crops_tight/jhw__train__JH23.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH23.2.jpg",
+"name": "jhw__train__JH23.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH23.2.jpg",
+"sha256": "4de9da3d624f46ef6873c39beddacb213c09694b8b6316da37cf7665d8176b53",
+"w": 193,
+"h": 69,
+"cluster": "writer_JH:jhw:JH23",
+"ink": [
+28,
+4,
+84,
+29
+],
+"box": [
+8,
+0,
+104,
+38
+],
+"fill": 0.362,
+"box_rule": "all ink components",
+"kept_h": 0.551,
+"kept_w": 0.497,
+"group": "large margin",
+"flag_reason": "",
+"label": "cake",
+"tight_file": "crops_tight/jhw__train__JH23.2.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH26.1.jpg",
+"name": "jhw__train__JH26.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH26.1.jpg",
+"sha256": "493ce80af1446d86524afbc3ca393effd027c1854ef9eb35ee8c7afc826151b4",
+"w": 329,
+"h": 185,
+"cluster": "writer_JH:jhw:JH26",
+"ink": [
+51,
+53,
+175,
+98
+],
+"box": [
+15,
+37,
+211,
+114
+],
+"fill": 0.243,
+"box_rule": "drop border-touching components",
+"kept_h": 0.416,
+"kept_w": 0.596,
+"group": "large margin",
+"flag_reason": "",
+"label": "Lenovo",
+"tight_file": "crops_tight/jhw__train__JH26.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH27.1.jpg",
+"name": "jhw__train__JH27.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH27.1.jpg",
+"sha256": "b049a65ef0d9b26b7dcda22771173efb68fa06945daeb8ea312ec117daf9e176",
+"w": 329,
+"h": 185,
+"cluster": "writer_JH:jhw:JH27",
+"ink": [
+67,
+62,
+231,
+102
+],
+"box": [
+35,
+48,
+263,
+116
+],
+"fill": 0.216,
+"box_rule": "all ink components",
+"kept_h": 0.368,
+"kept_w": 0.693,
+"group": "large margin",
+"flag_reason": "",
+"label": "Satsuma",
+"tight_file": "crops_tight/jhw__train__JH27.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH29.1.jpg",
+"name": "jhw__train__JH29.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH29.1.jpg",
+"sha256": "afc5dbd1fde7fe1cc940c94fda7eef77e5db16259ffc31fa0c691728424b6ef4",
+"w": 386,
+"h": 217,
+"cluster": "writer_JH:jhw:JH29",
+"ink": [
+75,
+75,
+280,
+125
+],
+"box": [
+35,
+57,
+320,
+143
+],
+"fill": 0.23,
+"box_rule": "all ink components",
+"kept_h": 0.396,
+"kept_w": 0.738,
+"group": "large margin",
+"flag_reason": "",
+"label": "Less Sugar",
+"tight_file": "crops_tight/jhw__train__JH29.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH30.1.jpg",
+"name": "jhw__train__JH30.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH30.1.jpg",
+"sha256": "b0d21c9468c68051239044cf76ff7f9d9b0615cfabcfa6246334f2d654c79629",
+"w": 279,
+"h": 80,
+"cluster": "writer_JH:jhw:JH30",
+"ink": [
+86,
+32,
+175,
+68
+],
+"box": [
+57,
+19,
+204,
+80
+],
+"fill": 0.45,
+"box_rule": "all ink components",
+"kept_h": 0.762,
+"kept_w": 0.527,
+"group": "middle",
+"flag_reason": "",
+"label": "Green",
+"tight_file": "crops_tight/jhw__train__JH30.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH32.1.jpg",
+"name": "jhw__train__JH32.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH32.1.jpg",
+"sha256": "4bac2f6dd34a63a8a63e4d7dab548b4b20bd4d6870bd6e2862c7530b6102f3b8",
+"w": 366,
+"h": 206,
+"cluster": "writer_JH:jhw:JH32",
+"ink": [
+57,
+51,
+239,
+126
+],
+"box": [
+0,
+25,
+299,
+152
+],
+"fill": 0.364,
+"box_rule": "all ink components",
+"kept_h": 0.617,
+"kept_w": 0.817,
+"group": "middle",
+"flag_reason": "",
+"label": "Kerosene",
+"tight_file": "crops_tight/jhw__train__JH32.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH33.1.jpg",
+"name": "jhw__train__JH33.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH33.1.jpg",
+"sha256": "b084e98d1d19aa44658b40763e6e679f65f37e034860ceca4d379a8aeb312c14",
+"w": 429,
+"h": 242,
+"cluster": "writer_JH:jhw:JH33",
+"ink": [
+141,
+69,
+396,
+134
+],
+"box": [
+89,
+46,
+429,
+157
+],
+"fill": 0.269,
+"box_rule": "all ink components",
+"kept_h": 0.459,
+"kept_w": 0.793,
+"group": "large margin",
+"flag_reason": "",
+"label": "Tough",
+"tight_file": "crops_tight/jhw__train__JH33.1.png"
+},
+{
+"file": "newwriter__images__jhw__train__JH34.1.jpg",
+"name": "jhw__train__JH34.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__train__JH34.1.jpg",
+"sha256": "943940bb9765cd1d6e01370e93bbab59af57db63e7681cddb6acf40da0a84dab",
+"w": 476,
+"h": 268,
+"cluster": "writer_JH:jhw:JH34",
+"ink": [
+99,
+51,
+385,
+122
+],
+"box": [
+42,
+26,
+442,
+147
+],
+"fill": 0.265,
+"box_rule": "all ink components",
+"kept_h": 0.451,
+"kept_w": 0.84,
+"group": "large margin",
+"flag_reason": "",
+"label": "SIT Best Uni",
+"tight_file": "crops_tight/jhw__train__JH34.1.png"
+},
+{
+"file": "newwriter__images__jhw__test__JH1.1.jpg",
+"name": "jhw__test__JH1.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__test__JH1.1.jpg",
+"sha256": "7ac309f4f80a00615bc5f6d9b86a7f943ed32a888e3330c8e7ff15d8c0ffc438",
+"w": 163,
+"h": 91,
+"cluster": "writer_JH:jhw:JH1",
+"ink": [
+17,
+25,
+156,
+56
+],
+"box": [
+0,
+14,
+163,
+67
+],
+"fill": 0.341,
+"box_rule": "all ink components",
+"kept_h": 0.582,
+"kept_w": 1.0,
+"group": "large margin",
+"flag_reason": "",
+"label": "Grape Tea",
+"tight_file": "crops_tight/jhw__test__JH1.1.png"
+},
+{
+"file": "newwriter__images__jhw__test__JH5.1.jpg",
+"name": "jhw__test__JH5.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__test__JH5.1.jpg",
+"sha256": "7ac6e77aaedf19ea9709fbbdce0bdcb9469bf7d8716071220121b3133f71f14d",
+"w": 321,
+"h": 181,
+"cluster": "writer_JH:jhw:JH5",
+"ink": [
+108,
+10,
+321,
+98
+],
+"box": [
+38,
+0,
+321,
+129
+],
+"fill": 0.486,
+"box_rule": "all ink components",
+"kept_h": 0.713,
+"kept_w": 0.882,
+"group": "middle",
+"flag_reason": "",
+"label": "Panasonic",
+"tight_file": "crops_tight/jhw__test__JH5.1.png"
+},
+{
+"file": "newwriter__images__jhw__test__JH20.2.jpg",
+"name": "jhw__test__JH20.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__test__JH20.2.jpg",
+"sha256": "5e56e2e2765c7a1f0e76d31be64bf4118332979395cd48457965c0aa947ab4a7",
+"w": 116,
+"h": 65,
+"cluster": "writer_JH:jhw:JH20",
+"ink": [
+28,
+5,
+80,
+27
+],
+"box": [
+10,
+0,
+98,
+35
+],
+"fill": 0.338,
+"box_rule": "all ink components",
+"kept_h": 0.538,
+"kept_w": 0.759,
+"group": "large margin",
+"flag_reason": "",
+"label": "RTX",
+"tight_file": "crops_tight/jhw__test__JH20.2.png"
+},
+{
+"file": "newwriter__images__jhw__test__JH28.1.jpg",
+"name": "jhw__test__JH28.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__test__JH28.1.jpg",
+"sha256": "efba24cd64ecae4baf4243212578bdfbc68762c12c125473601d1283e988a739",
+"w": 329,
+"h": 185,
+"cluster": "writer_JH:jhw:JH28",
+"ink": [
+66,
+68,
+293,
+123
+],
+"box": [
+22,
+49,
+329,
+142
+],
+"fill": 0.297,
+"box_rule": "all ink components",
+"kept_h": 0.503,
+"kept_w": 0.933,
+"group": "large margin",
+"flag_reason": "",
+"label": "Original Taste",
+"tight_file": "crops_tight/jhw__test__JH28.1.png"
+},
+{
+"file": "newwriter__images__jhw__test__JH30.2.jpg",
+"name": "jhw__test__JH30.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__test__JH30.2.jpg",
+"sha256": "15728b1c15b6f9c2e4e8ed1cab1ae800c22a61e8580bf6c8de111897b4dc9e06",
+"w": 291,
+"h": 102,
+"cluster": "writer_JH:jhw:JH30",
+"ink": [
+64,
+0,
+182,
+53
+],
+"box": [
+22,
+0,
+224,
+72
+],
+"fill": 0.52,
+"box_rule": "all ink components",
+"kept_h": 0.706,
+"kept_w": 0.694,
+"group": "middle",
+"flag_reason": "",
+"label": "Giant",
+"tight_file": "crops_tight/jhw__test__JH30.2.png"
+},
+{
+"file": "newwriter__images__jhw__test__JH31.1.jpg",
+"name": "jhw__test__JH31.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/jhw__test__JH31.1.jpg",
+"sha256": "d243f04314bf517e4dc7e12e15bc00db86474081d3363d38b8a2698c0a03a6ab",
+"w": 329,
+"h": 185,
+"cluster": "writer_JH:jhw:JH31",
+"ink": [
+88,
+16,
+323,
+177
+],
+"box": [
+0,
+0,
+329,
+185
+],
+"fill": 0.87,
+"box_rule": "all ink components",
+"kept_h": 1.0,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "Sprite",
+"tight_file": "crops_tight/jhw__test__JH31.1.png"
+},
+{
+"file": "newwriter__images__ds__train__1.1.1.jpg",
+"name": "ds__train__1.1.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__1.1.1.jpg",
+"sha256": "00b13bc50f5b5fed6c0f5a8d7e82f6c07cd4ddda19781793f0cf882243c970a5",
+"w": 1207,
+"h": 298,
+"cluster": "writer_DS:ds:photo1",
+"ink": [
+58,
+113,
+1115,
+252
+],
+"box": [
+0,
+64,
+1207,
+298
+],
+"fill": 0.466,
+"box_rule": "all ink components",
+"kept_h": 0.785,
+"kept_w": 1.0,
+"group": "middle",
+"flag_reason": "",
+"label": "The ViT architecture relies on three concepts.",
+"tight_file": "crops_tight/ds__train__1.1.1.png"
+},
+{
+"file": "newwriter__images__ds__train__1.1.2.jpg",
+"name": "ds__train__1.1.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__1.1.2.jpg",
+"sha256": "f220d00fcd357d02c8ce97cfab5ff13e02c68c7a518bc10dd0b9912ba093dd0f",
+"w": 1200,
+"h": 220,
+"cluster": "writer_DS:ds:photo1",
+"ink": [
+67,
+52,
+1102,
+120
+],
+"box": [
+13,
+28,
+1156,
+144
+],
+"fill": 0.309,
+"box_rule": "all ink components",
+"kept_h": 0.527,
+"kept_w": 0.953,
+"group": "large margin",
+"flag_reason": "",
+"label": "There is tokens, position Embeddings and attention",
+"tight_file": "crops_tight/ds__train__1.1.2.png"
+},
+{
+"file": "newwriter__images__ds__train__1.2.1.jpg",
+"name": "ds__train__1.2.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__1.2.1.jpg",
+"sha256": "0e868561789aa4669c7bbabfe54c64609a1c74f197d47c15cfb0e898fdebd6a4",
+"w": 1221,
+"h": 228,
+"cluster": "writer_DS:ds:photo1",
+"ink": [
+39,
+117,
+1016,
+188
+],
+"box": [
+0,
+92,
+1073,
+213
+],
+"fill": 0.311,
+"box_rule": "all ink components",
+"kept_h": 0.531,
+"kept_w": 0.879,
+"group": "large margin",
+"flag_reason": "",
+"label": "Transformers were originally designed for text",
+"tight_file": "crops_tight/ds__train__1.2.1.png"
+},
+{
+"file": "newwriter__images__ds__train__1.2.2.jpg",
+"name": "ds__train__1.2.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__1.2.2.jpg",
+"sha256": "7d1643f95c20d9934aed2dc35b553af4d392497dd7ad7c5bafebe7208f027a4f",
+"w": 1268,
+"h": 183,
+"cluster": "writer_DS:ds:photo1",
+"ink": [
+75,
+45,
+1139,
+108
+],
+"box": [
+25,
+23,
+1189,
+130
+],
+"fill": 0.344,
+"box_rule": "all ink components",
+"kept_h": 0.585,
+"kept_w": 0.918,
+"group": "large margin",
+"flag_reason": "",
+"label": "which NLP. To make them work for images,",
+"tight_file": "crops_tight/ds__train__1.2.2.png"
+},
+{
+"file": "newwriter__images__ds__train__1.2.3.jpg",
+"name": "ds__train__1.2.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__1.2.3.jpg",
+"sha256": "65e2fc7de923a01c492991b74a26794a10aefcab199036c7b38e2baafd0c996d",
+"w": 1920,
+"h": 287,
+"cluster": "writer_DS:ds:photo1",
+"ink": [
+160,
+78,
+1441,
+148
+],
+"box": [
+104,
+54,
+1497,
+172
+],
+"fill": 0.244,
+"box_rule": "all ink components",
+"kept_h": 0.411,
+"kept_w": 0.726,
+"group": "large margin",
+"flag_reason": "",
+"label": "ViT splits an image into a grid of fixed-size patches",
+"tight_file": "crops_tight/ds__train__1.2.3.png"
+},
+{
+"file": "newwriter__images__ds__train__1.3.1.jpg",
+"name": "ds__train__1.3.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__1.3.1.jpg",
+"sha256": "6ed1652222555e26a9d3f9ea63b60188b1c440f2bc26f21f9ea65dc44a3cea77",
+"w": 1920,
+"h": 322,
+"cluster": "writer_DS:ds:photo1",
+"ink": [
+152,
+141,
+1612,
+242
+],
+"box": [
+71,
+106,
+1693,
+277
+],
+"fill": 0.314,
+"box_rule": "all ink components",
+"kept_h": 0.531,
+"kept_w": 0.845,
+"group": "large margin",
+"flag_reason": "",
+"label": "Each patch is flattened and linearly projected into 1D vector.",
+"tight_file": "crops_tight/ds__train__1.3.1.png"
+},
+{
+"file": "newwriter__images__ds__test__1.3.2.jpg",
+"name": "ds__test__1.3.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__test__1.3.2.jpg",
+"sha256": "f00d9f610d5c34fc9592055f6fc31f55fc7fb8607ae474e4b3d53eed2e972c31",
+"w": 1920,
+"h": 188,
+"cluster": "writer_DS:ds:photo1",
+"ink": [
+138,
+55,
+1229,
+148
+],
+"box": [
+64,
+22,
+1303,
+181
+],
+"fill": 0.495,
+"box_rule": "all ink components",
+"kept_h": 0.846,
+"kept_w": 0.645,
+"group": "middle",
+"flag_reason": "",
+"label": "These vectors serves as the tokens which is",
+"tight_file": "crops_tight/ds__test__1.3.2.png"
+},
+{
+"file": "newwriter__images__ds__train__1.3.3.jpg",
+"name": "ds__train__1.3.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__1.3.3.jpg",
+"sha256": "83bbd58b61edce319b417b17a2fa9e21312b3b0106cec7b450413517638a8e46",
+"w": 1920,
+"h": 213,
+"cluster": "writer_DS:ds:photo1",
+"ink": [
+161,
+30,
+1543,
+141
+],
+"box": [
+72,
+0,
+1632,
+180
+],
+"fill": 0.521,
+"box_rule": "all ink components",
+"kept_h": 0.845,
+"kept_w": 0.812,
+"group": "middle",
+"flag_reason": "",
+"label": "the visual equivalence of a word in a sentence",
+"tight_file": "crops_tight/ds__train__1.3.3.png"
+},
+{
+"file": "newwriter__images__ds__train__1.4.1.jpg",
+"name": "ds__train__1.4.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__1.4.1.jpg",
+"sha256": "42b18411553d32a7b115143d719d04406a68b504ceeeff250dcfd99183cb1521",
+"w": 1920,
+"h": 218,
+"cluster": "writer_DS:ds:photo1",
+"ink": [
+162,
+82,
+1742,
+196
+],
+"box": [
+71,
+42,
+1833,
+218
+],
+"fill": 0.523,
+"box_rule": "all ink components",
+"kept_h": 0.807,
+"kept_w": 0.918,
+"group": "middle",
+"flag_reason": "",
+"label": "Vision Transformers lack the inductive biases of CNNs and are",
+"tight_file": "crops_tight/ds__train__1.4.1.png"
+},
+{
+"file": "newwriter__images__ds__test__1.4.2.jpg",
+"name": "ds__test__1.4.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__test__1.4.2.jpg",
+"sha256": "41f0ba50599783caf8db0257c13cdcc839661d12334f4acfb0f72b7f12f36219",
+"w": 1908,
+"h": 200,
+"cluster": "writer_DS:ds:photo1",
+"ink": [
+143,
+61,
+1812,
+142
+],
+"box": [
+78,
+33,
+1877,
+170
+],
+"fill": 0.405,
+"box_rule": "all ink components",
+"kept_h": 0.685,
+"kept_w": 0.943,
+"group": "middle",
+"flag_reason": "",
+"label": "extremely data-hungry. They are typically pre-trained on massive datasets",
+"tight_file": "crops_tight/ds__test__1.4.2.png"
+},
+{
+"file": "newwriter__images__ds__train__1.4.3.jpg",
+"name": "ds__train__1.4.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__1.4.3.jpg",
+"sha256": "9258b9cb0ca7c95d28381aa01c5ab170bddb583f7a6d42155a04e20add7e2e3c",
+"w": 1914,
+"h": 147,
+"cluster": "writer_DS:ds:photo1",
+"ink": [
+146,
+36,
+1792,
+104
+],
+"box": [
+92,
+12,
+1846,
+128
+],
+"fill": 0.463,
+"box_rule": "all ink components",
+"kept_h": 0.789,
+"kept_w": 0.916,
+"group": "middle",
+"flag_reason": "",
+"label": "and then fine-tuned on smaller, task-specific datasets by replacing the",
+"tight_file": "crops_tight/ds__train__1.4.3.png"
+},
+{
+"file": "newwriter__images__ds__train__1.4.4.jpg",
+"name": "ds__train__1.4.4.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__1.4.4.jpg",
+"sha256": "7fe3773b3e3ffcddb79e3a78a2af8b7d6a41f0a347b557c97673792c561b4f81",
+"w": 1000,
+"h": 150,
+"cluster": "writer_DS:ds:photo1",
+"ink": [
+34,
+23,
+751,
+107
+],
+"box": [
+0,
+0,
+818,
+136
+],
+"fill": 0.56,
+"box_rule": "all ink components",
+"kept_h": 0.907,
+"kept_w": 0.818,
+"group": "control",
+"flag_reason": "",
+"label": "final classification head",
+"tight_file": "crops_tight/ds__train__1.4.4.png"
+},
+{
+"file": "newwriter__images__ds__train__2.1.1.jpg",
+"name": "ds__train__2.1.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__2.1.1.jpg",
+"sha256": "a2d82fbcc68996acfd99e7f3a1a4269f62d274dd00dd7e980ab10195530c3170",
+"w": 1920,
+"h": 318,
+"cluster": "writer_DS:ds:photo2",
+"ink": [
+286,
+165,
+1352,
+250
+],
+"box": [
+218,
+135,
+1420,
+280
+],
+"fill": 0.267,
+"box_rule": "all ink components",
+"kept_h": 0.456,
+"kept_w": 0.626,
+"group": "large margin",
+"flag_reason": "",
+"label": "Slide a classifier method would fail",
+"tight_file": "crops_tight/ds__train__2.1.1.png"
+},
+{
+"file": "newwriter__images__ds__train__2.1.2.jpg",
+"name": "ds__train__2.1.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__2.1.2.jpg",
+"sha256": "951f6aab2c19531c53a73d5aa038ceb77b36e204b9166c483411254022464079",
+"w": 1920,
+"h": 207,
+"cluster": "writer_DS:ds:photo2",
+"ink": [
+289,
+50,
+1399,
+130
+],
+"box": [
+225,
+22,
+1463,
+158
+],
+"fill": 0.386,
+"box_rule": "all ink components",
+"kept_h": 0.657,
+"kept_w": 0.645,
+"group": "middle",
+"flag_reason": "",
+"label": "because evaluating every possible window",
+"tight_file": "crops_tight/ds__train__2.1.2.png"
+},
+{
+"file": "newwriter__images__ds__train__2.1.3.jpg",
+"name": "ds__train__2.1.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__2.1.3.jpg",
+"sha256": "2a6ce659c3ec1770731e17502bb0a51612de6f75e4a6f19eeebd176fd4a5b91b",
+"w": 1920,
+"h": 181,
+"cluster": "writer_DS:ds:photo2",
+"ink": [
+294,
+77,
+1019,
+149
+],
+"box": [
+236,
+52,
+1077,
+174
+],
+"fill": 0.398,
+"box_rule": "all ink components",
+"kept_h": 0.674,
+"kept_w": 0.438,
+"group": "middle",
+"flag_reason": "",
+"label": "is computationally too slow",
+"tight_file": "crops_tight/ds__train__2.1.3.png"
+},
+{
+"file": "newwriter__images__ds__train__2.2.1.jpg",
+"name": "ds__train__2.2.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__2.2.1.jpg",
+"sha256": "13723bad508552bea9b385287d319e64a6d4baaa74770ff356ef4a8bbf2ad51e",
+"w": 1920,
+"h": 310,
+"cluster": "writer_DS:ds:photo2",
+"ink": [
+295,
+130,
+1452,
+212
+],
+"box": [
+229,
+101,
+1518,
+241
+],
+"fill": 0.265,
+"box_rule": "all ink components",
+"kept_h": 0.452,
+"kept_w": 0.671,
+"group": "large margin",
+"flag_reason": "",
+"label": "Regress one box method would fail because",
+"tight_file": "crops_tight/ds__train__2.2.1.png"
+},
+{
+"file": "newwriter__images__ds__train__2.2.2.jpg",
+"name": "ds__train__2.2.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__2.2.2.jpg",
+"sha256": "337f87130676dd78c82cc8d66d9d9f38224402ec7678b4987be7fcd4ce2b01bb",
+"w": 1920,
+"h": 250,
+"cluster": "writer_DS:ds:photo2",
+"ink": [
+298,
+80,
+1261,
+159
+],
+"box": [
+235,
+52,
+1324,
+187
+],
+"fill": 0.316,
+"box_rule": "all ink components",
+"kept_h": 0.54,
+"kept_w": 0.567,
+"group": "large margin",
+"flag_reason": "",
+"label": "it can only detect a single object",
+"tight_file": "crops_tight/ds__train__2.2.2.png"
+},
+{
+"file": "newwriter__images__ds__test__2.2.3.jpg",
+"name": "ds__test__2.2.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__test__2.2.3.jpg",
+"sha256": "09cd8e1beffcd1c3a3869db1a8ab605ea3613a4c4426798d35114c5df6c1417c",
+"w": 1920,
+"h": 286,
+"cluster": "writer_DS:ds:photo2",
+"ink": [
+307,
+78,
+614,
+152
+],
+"box": [
+248,
+52,
+673,
+178
+],
+"fill": 0.259,
+"box_rule": "all ink components",
+"kept_h": 0.441,
+"kept_w": 0.221,
+"group": "large margin",
+"flag_reason": "",
+"label": "per image.",
+"tight_file": "crops_tight/ds__test__2.2.3.png"
+},
+{
+"file": "newwriter__images__ds__train__2.3.1.jpg",
+"name": "ds__train__2.3.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__2.3.1.jpg",
+"sha256": "5826af41ec60c6d2c82752f34a9448f9e5cdb5d669dd2df4d715848ddfa2a02e",
+"w": 1920,
+"h": 292,
+"cluster": "writer_DS:ds:photo2",
+"ink": [
+315,
+153,
+1303,
+223
+],
+"box": [
+259,
+129,
+1359,
+247
+],
+"fill": 0.24,
+"box_rule": "all ink components",
+"kept_h": 0.404,
+"kept_w": 0.573,
+"group": "large margin",
+"flag_reason": "",
+"label": "Grid of predictors method would fail",
+"tight_file": "crops_tight/ds__train__2.3.1.png"
+},
+{
+"file": "newwriter__images__ds__train__2.3.2.jpg",
+"name": "ds__train__2.3.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__2.3.2.jpg",
+"sha256": "b6493d170ac23080cf1f383468f97cec8276c4a97335869125834709f32c6633",
+"w": 1920,
+"h": 294,
+"cluster": "writer_DS:ds:photo2",
+"ink": [
+316,
+89,
+1688,
+213
+],
+"box": [
+217,
+46,
+1787,
+256
+],
+"fill": 0.422,
+"box_rule": "all ink components",
+"kept_h": 0.714,
+"kept_w": 0.818,
+"group": "middle",
+"flag_reason": "",
+"label": "because object come in widely varying shapes",
+"tight_file": "crops_tight/ds__train__2.3.2.png"
+},
+{
+"file": "newwriter__images__ds__train__2.3.3.jpg",
+"name": "ds__train__2.3.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__2.3.3.jpg",
+"sha256": "ec39d627aee2dd9e1a52368d3f75e7c8ad6145360f286ea14967a979989e3bab",
+"w": 1920,
+"h": 241,
+"cluster": "writer_DS:ds:photo2",
+"ink": [
+316,
+51,
+1605,
+146
+],
+"box": [
+240,
+18,
+1681,
+179
+],
+"fill": 0.394,
+"box_rule": "all ink components",
+"kept_h": 0.668,
+"kept_w": 0.751,
+"group": "middle",
+"flag_reason": "",
+"label": "that a rigid grid struggles to capture.",
+"tight_file": "crops_tight/ds__train__2.3.3.png"
+},
+{
+"file": "newwriter__images__ds__train__2.4.1.jpg",
+"name": "ds__train__2.4.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__2.4.1.jpg",
+"sha256": "7a41b8d9df7e87aba53720942c5a5efb66d9b644ea99eae46e8439de0d2f19dd",
+"w": 1913,
+"h": 221,
+"cluster": "writer_DS:ds:photo2",
+"ink": [
+325,
+81,
+1512,
+190
+],
+"box": [
+238,
+43,
+1599,
+221
+],
+"fill": 0.493,
+"box_rule": "all ink components",
+"kept_h": 0.805,
+"kept_w": 0.711,
+"group": "middle",
+"flag_reason": "",
+"label": "Anchor to distances method fails because",
+"tight_file": "crops_tight/ds__train__2.4.1.png"
+},
+{
+"file": "newwriter__images__ds__test__2.4.2.jpg",
+"name": "ds__test__2.4.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__test__2.4.2.jpg",
+"sha256": "61c50f2977f05a55bb75821555415a79957a9f37a4f4a7fa189615918c4fb20d",
+"w": 1910,
+"h": 233,
+"cluster": "writer_DS:ds:photo2",
+"ink": [
+326,
+57,
+1301,
+177
+],
+"box": [
+230,
+15,
+1397,
+219
+],
+"fill": 0.515,
+"box_rule": "all ink components",
+"kept_h": 0.876,
+"kept_w": 0.611,
+"group": "control",
+"flag_reason": "",
+"label": "object sizes vary significantly",
+"tight_file": "crops_tight/ds__test__2.4.2.png"
+},
+{
+"file": "newwriter__images__ds__train__3.1.1.jpg",
+"name": "ds__train__3.1.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__3.1.1.jpg",
+"sha256": "88a1e43cbbad0679dbfcca04fc6a4c9ed423a4b28a49c783a115ab68ccef4ade",
+"w": 1518,
+"h": 237,
+"cluster": "writer_DS:ds:photo3",
+"ink": [
+107,
+71,
+1282,
+132
+],
+"box": [
+58,
+50,
+1331,
+153
+],
+"fill": 0.257,
+"box_rule": "all ink components",
+"kept_h": 0.435,
+"kept_w": 0.839,
+"group": "large margin",
+"flag_reason": "",
+"label": "The first layer of a network act as a visual vocabulary,",
+"tight_file": "crops_tight/ds__train__3.1.1.png"
+},
+{
+"file": "newwriter__images__ds__test__3.1.2.jpg",
+"name": "ds__test__3.1.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__test__3.1.2.jpg",
+"sha256": "e5109c9669b4ac0adfa49954c4d588cf61ce3773e020d611d1aa1fc44c716f5d",
+"w": 1694,
+"h": 236,
+"cluster": "writer_DS:ds:photo3",
+"ink": [
+138,
+41,
+1467,
+121
+],
+"box": [
+74,
+13,
+1531,
+149
+],
+"fill": 0.339,
+"box_rule": "all ink components",
+"kept_h": 0.576,
+"kept_w": 0.86,
+"group": "large margin",
+"flag_reason": "",
+"label": "detecting basic elements were like edges, colour blobs, and simple textures",
+"tight_file": "crops_tight/ds__test__3.1.2.png"
+},
+{
+"file": "newwriter__images__ds__train__3.2.1.jpg",
+"name": "ds__train__3.2.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__3.2.1.jpg",
+"sha256": "6af8ee8ecc19c09b14afaa2971e5851b16077ab2cd91960bdf77b2e1470a134f",
+"w": 1737,
+"h": 221,
+"cluster": "writer_DS:ds:photo3",
+"ink": [
+147,
+55,
+1477,
+133
+],
+"box": [
+85,
+28,
+1539,
+160
+],
+"fill": 0.353,
+"box_rule": "all ink components",
+"kept_h": 0.597,
+"kept_w": 0.837,
+"group": "large margin",
+"flag_reason": "",
+"label": "Saliency via occlusion is a technique that slides a mask over",
+"tight_file": "crops_tight/ds__train__3.2.1.png"
+},
+{
+"file": "newwriter__images__ds__test__3.2.2.jpg",
+"name": "ds__test__3.2.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__test__3.2.2.jpg",
+"sha256": "c0f36c956805095a628d0aaf34f94ac359376424ad722f10bfe5870b99ae9914",
+"w": 1691,
+"h": 231,
+"cluster": "writer_DS:ds:photo3",
+"ink": [
+154,
+72,
+1435,
+134
+],
+"box": [
+104,
+50,
+1485,
+156
+],
+"fill": 0.268,
+"box_rule": "all ink components",
+"kept_h": 0.459,
+"kept_w": 0.817,
+"group": "large margin",
+"flag_reason": "",
+"label": "different regions of an image to see how hiding a patch affects",
+"tight_file": "crops_tight/ds__test__3.2.2.png"
+},
+{
+"file": "newwriter__images__ds__train__3.2.3.jpg",
+"name": "ds__train__3.2.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__3.2.3.jpg",
+"sha256": "7813dca1a11ddc11668c6732499bd30072e2478f39a7e69f24de43a2ff5477cf",
+"w": 1473,
+"h": 250,
+"cluster": "writer_DS:ds:photo3",
+"ink": [
+165,
+75,
+515,
+128
+],
+"box": [
+123,
+56,
+557,
+147
+],
+"fill": 0.212,
+"box_rule": "all ink components",
+"kept_h": 0.364,
+"kept_w": 0.295,
+"group": "flagged",
+"flag_reason": "label punctuation flagged in the 9 Nov audit (visible period after Scores)",
+"label": "prediction scores",
+"tight_file": "crops_tight/ds__train__3.2.3.png"
+},
+{
+"file": "newwriter__images__ds__test__3.3.1.jpg",
+"name": "ds__test__3.3.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__test__3.3.1.jpg",
+"sha256": "6a49a5ac23416402b38448957fe883493cc65bec14683043beeee867dab420c1",
+"w": 1920,
+"h": 225,
+"cluster": "writer_DS:ds:photo3",
+"ink": [
+176,
+88,
+1534,
+138
+],
+"box": [
+136,
+70,
+1574,
+156
+],
+"fill": 0.222,
+"box_rule": "all ink components",
+"kept_h": 0.382,
+"kept_w": 0.749,
+"group": "large margin",
+"flag_reason": "",
+"label": "Limitation for Saliency via occlusion is that it fails when the evidence",
+"tight_file": "crops_tight/ds__test__3.3.1.png"
+},
+{
+"file": "newwriter__images__ds__train__3.3.2.jpg",
+"name": "ds__train__3.3.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__3.3.2.jpg",
+"sha256": "7112f76b2c74aa66917d018cb9782384fad085cbcde2d177d30e97bfe6817c95",
+"w": 1920,
+"h": 191,
+"cluster": "writer_DS:ds:photo3",
+"ink": [
+169,
+70,
+1373,
+137
+],
+"box": [
+115,
+47,
+1427,
+160
+],
+"fill": 0.351,
+"box_rule": "all ink components",
+"kept_h": 0.592,
+"kept_w": 0.683,
+"group": "large margin",
+"flag_reason": "",
+"label": "for a class is spread throughout the image, as hiding",
+"tight_file": "crops_tight/ds__train__3.3.2.png"
+},
+{
+"file": "newwriter__images__ds__train__3.3.3.jpg",
+"name": "ds__train__3.3.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__3.3.3.jpg",
+"sha256": "d764be686872debc9af75cb943d1d80406f51eb385abaded94761e79ad4a50cb",
+"w": 1772,
+"h": 212,
+"cluster": "writer_DS:ds:photo3",
+"ink": [
+30,
+55,
+1680,
+136
+],
+"box": [
+0,
+27,
+1745,
+164
+],
+"fill": 0.382,
+"box_rule": "all ink components",
+"kept_h": 0.646,
+"kept_w": 0.985,
+"group": "middle",
+"flag_reason": "",
+"label": "just one patch at a time isn't enough to change the decision",
+"tight_file": "crops_tight/ds__train__3.3.3.png"
+},
+{
+"file": "newwriter__images__ds__train__4.1.1.jpg",
+"name": "ds__train__4.1.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__4.1.1.jpg",
+"sha256": "fcdd3254adc440a3413a0bf17a4f76b4738f5dea388b6ab25f40a67e1bb7fa82",
+"w": 1716,
+"h": 306,
+"cluster": "writer_DS:ds:photo4",
+"ink": [
+83,
+182,
+1514,
+246
+],
+"box": [
+32,
+160,
+1565,
+268
+],
+"fill": 0.209,
+"box_rule": "all ink components",
+"kept_h": 0.353,
+"kept_w": 0.893,
+"group": "large margin",
+"flag_reason": "",
+"label": "Class activation map method only requires a forward pass,",
+"tight_file": "crops_tight/ds__train__4.1.1.png"
+},
+{
+"file": "newwriter__images__ds__train__4.1.2.jpg",
+"name": "ds__train__4.1.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__4.1.2.jpg",
+"sha256": "6f3ba53213857eeb25259da36834cc44e300b90fe82c716b47fd697d31bd3b59",
+"w": 1634,
+"h": 145,
+"cluster": "writer_DS:ds:photo4",
+"ink": [
+141,
+26,
+1552,
+116
+],
+"box": [
+69,
+0,
+1624,
+145
+],
+"fill": 0.621,
+"box_rule": "all ink components",
+"kept_h": 1.0,
+"kept_w": 0.952,
+"group": "control",
+"flag_reason": "",
+"label": "projecting the head's weights back onto the maps",
+"tight_file": "crops_tight/ds__train__4.1.2.png"
+},
+{
+"file": "newwriter__images__ds__test__4.1.3.jpg",
+"name": "ds__test__4.1.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__test__4.1.3.jpg",
+"sha256": "cfd1370c9016f673a6a33920d0eb785fbf73d19bd08aacdbac34529d97e0b4ec",
+"w": 1919,
+"h": 150,
+"cluster": "writer_DS:ds:photo4",
+"ink": [
+155,
+35,
+1370,
+96
+],
+"box": [
+106,
+14,
+1419,
+117
+],
+"fill": 0.407,
+"box_rule": "all ink components",
+"kept_h": 0.687,
+"kept_w": 0.684,
+"group": "middle",
+"flag_reason": "",
+"label": "it pooled to see where the evidence lies.",
+"tight_file": "crops_tight/ds__test__4.1.3.png"
+},
+{
+"file": "newwriter__images__ds__train__4.2.1.jpg",
+"name": "ds__train__4.2.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__4.2.1.jpg",
+"sha256": "84884d34c070d861f576c5e0d6364c8fc21a53ecdf5ed049e3288d437759d967",
+"w": 1915,
+"h": 297,
+"cluster": "writer_DS:ds:photo4",
+"ink": [
+167,
+127,
+1445,
+194
+],
+"box": [
+113,
+104,
+1499,
+217
+],
+"fill": 0.226,
+"box_rule": "all ink components",
+"kept_h": 0.38,
+"kept_w": 0.724,
+"group": "large margin",
+"flag_reason": "",
+"label": "Class activation map method have a limitation,",
+"tight_file": "crops_tight/ds__train__4.2.1.png"
+},
+{
+"file": "newwriter__images__ds__train__4.2.2.jpg",
+"name": "ds__train__4.2.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__4.2.2.jpg",
+"sha256": "1887245742fd9a2fc4a085f1c1e791fef4692330439458f7917de162dfe88edd",
+"w": 1918,
+"h": 235,
+"cluster": "writer_DS:ds:photo4",
+"ink": [
+174,
+86,
+1491,
+147
+],
+"box": [
+125,
+65,
+1540,
+168
+],
+"fill": 0.26,
+"box_rule": "all ink components",
+"kept_h": 0.438,
+"kept_w": 0.738,
+"group": "large margin",
+"flag_reason": "",
+"label": "it only works with specific architectures that",
+"tight_file": "crops_tight/ds__train__4.2.2.png"
+},
+{
+"file": "newwriter__images__ds__train__4.2.3.jpg",
+"name": "ds__train__4.2.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__4.2.3.jpg",
+"sha256": "6cf020342ad26db4d3f249a289e9f36cd76bea92b5e9f762f7f3b6758d21459d",
+"w": 1920,
+"h": 254,
+"cluster": "writer_DS:ds:photo4",
+"ink": [
+181,
+90,
+1396,
+168
+],
+"box": [
+119,
+63,
+1458,
+195
+],
+"fill": 0.307,
+"box_rule": "all ink components",
+"kept_h": 0.52,
+"kept_w": 0.697,
+"group": "large margin",
+"flag_reason": "",
+"label": "have a global average pooling layer followed",
+"tight_file": "crops_tight/ds__train__4.2.3.png"
+},
+{
+"file": "newwriter__images__ds__train__4.2.4.jpg",
+"name": "ds__train__4.2.4.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__4.2.4.jpg",
+"sha256": "85de3279514ba32f7d01320907a8ff0acc6ff6dd644e42d490cab0954e5c27d6",
+"w": 1114,
+"h": 241,
+"cluster": "writer_DS:ds:photo4",
+"ink": [
+187,
+55,
+772,
+174
+],
+"box": [
+92,
+13,
+867,
+216
+],
+"fill": 0.494,
+"box_rule": "all ink components",
+"kept_h": 0.842,
+"kept_w": 0.696,
+"group": "middle",
+"flag_reason": "",
+"label": "by a linear head.",
+"tight_file": "crops_tight/ds__train__4.2.4.png"
+},
+{
+"file": "newwriter__images__ds__train__4.3.1.jpg",
+"name": "ds__train__4.3.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__4.3.1.jpg",
+"sha256": "1601f046fb5cbbc2d6239e5f541212511ed24b0cb9a6be630885ef5ae44aeaac",
+"w": 1920,
+"h": 255,
+"cluster": "writer_DS:ds:photo4",
+"ink": [
+451,
+77,
+1733,
+178
+],
+"box": [
+370,
+42,
+1814,
+213
+],
+"fill": 0.396,
+"box_rule": "all ink components",
+"kept_h": 0.671,
+"kept_w": 0.752,
+"group": "middle",
+"flag_reason": "",
+"label": "A normalized tensor of numbers, not a photo.",
+"tight_file": "crops_tight/ds__train__4.3.1.png"
+},
+{
+"file": "newwriter__images__ds__train__4.3.2.jpg",
+"name": "ds__train__4.3.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__4.3.2.jpg",
+"sha256": "79c52c15f4c14db68e3220ec37a05d48a641fb27a3a95448f5e4e1d6eb8cb725",
+"w": 1915,
+"h": 284,
+"cluster": "writer_DS:ds:photo4",
+"ink": [
+441,
+94,
+1655,
+191
+],
+"box": [
+363,
+60,
+1733,
+225
+],
+"fill": 0.342,
+"box_rule": "all ink components",
+"kept_h": 0.581,
+"kept_w": 0.715,
+"group": "large margin",
+"flag_reason": "",
+"label": "Labels defined the task, and can smuggle in",
+"tight_file": "crops_tight/ds__train__4.3.2.png"
+},
+{
+"file": "newwriter__images__ds__train__4.3.3.jpg",
+"name": "ds__train__4.3.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__4.3.3.jpg",
+"sha256": "c249129a68e29dfc6454462e654f5c91058a6d54a675857c5111911e29ac683f",
+"w": 969,
+"h": 193,
+"cluster": "writer_DS:ds:photo4",
+"ink": [
+257,
+9,
+506,
+130
+],
+"box": [
+160,
+0,
+603,
+172
+],
+"fill": 0.627,
+"box_rule": "all ink components",
+"kept_h": 0.891,
+"kept_w": 0.457,
+"group": "control",
+"flag_reason": "",
+"label": "a shortcut",
+"tight_file": "crops_tight/ds__train__4.3.3.png"
+},
+{
+"file": "newwriter__images__ds__train__5.1.1.jpg",
+"name": "ds__train__5.1.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__5.1.1.jpg",
+"sha256": "381e1f48d12b5dbb5638d6c5801cbd591741cb22362574bcc06ffc535aafaa74",
+"w": 1151,
+"h": 191,
+"cluster": "writer_DS:ds:photo5",
+"ink": [
+147,
+72,
+952,
+167
+],
+"box": [
+71,
+39,
+1028,
+191
+],
+"fill": 0.497,
+"box_rule": "all ink components",
+"kept_h": 0.796,
+"kept_w": 0.831,
+"group": "middle",
+"flag_reason": "",
+"label": "How do i know when to use",
+"tight_file": "crops_tight/ds__train__5.1.1.png"
+},
+{
+"file": "newwriter__images__ds__train__5.1.2.jpg",
+"name": "ds__train__5.1.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__5.1.2.jpg",
+"sha256": "1a00161304c4b7cceabc58f64ba2c38cd7189efa6bb33b15ef9b4cc75023a3ce",
+"w": 1312,
+"h": 143,
+"cluster": "writer_DS:ds:photo5",
+"ink": [
+175,
+12,
+1212,
+93
+],
+"box": [
+110,
+0,
+1277,
+121
+],
+"fill": 0.566,
+"box_rule": "all ink components",
+"kept_h": 0.846,
+"kept_w": 0.889,
+"group": "middle",
+"flag_reason": "",
+"label": "cross entropy and Mean squared Error?",
+"tight_file": "crops_tight/ds__train__5.1.2.png"
+},
+{
+"file": "newwriter__images__ds__train__5.2.1.jpg",
+"name": "ds__train__5.2.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__5.2.1.jpg",
+"sha256": "fa3d5285ad97f22e707298cf4b8efb6e605fe1a68583b90a1e7d020ef7b642cf",
+"w": 1912,
+"h": 194,
+"cluster": "writer_DS:ds:photo5",
+"ink": [
+220,
+85,
+1675,
+167
+],
+"box": [
+154,
+56,
+1741,
+194
+],
+"fill": 0.423,
+"box_rule": "all ink components",
+"kept_h": 0.711,
+"kept_w": 0.83,
+"group": "middle",
+"flag_reason": "",
+"label": "Linear model works on the most basic form of a",
+"tight_file": "crops_tight/ds__train__5.2.1.png"
+},
+{
+"file": "newwriter__images__ds__train__5.2.2.jpg",
+"name": "ds__train__5.2.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__5.2.2.jpg",
+"sha256": "1420fe8ecda455e66f2aba67fe68e3290545133529731cbe0737d1436e30f15b",
+"w": 1915,
+"h": 145,
+"cluster": "writer_DS:ds:photo5",
+"ink": [
+229,
+0,
+1641,
+119
+],
+"box": [
+134,
+0,
+1736,
+145
+],
+"fill": 0.821,
+"box_rule": "all ink components",
+"kept_h": 1.0,
+"kept_w": 0.837,
+"group": "control",
+"flag_reason": "",
+"label": "neural network, but for realistic data classification,",
+"tight_file": "crops_tight/ds__train__5.2.2.png"
+},
+{
+"file": "newwriter__images__ds__train__5.2.3.jpg",
+"name": "ds__train__5.2.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__5.2.3.jpg",
+"sha256": "b83a4db680f6cca6e2992ad9e57dde671869ffa6b136c4825503e3678f03d063",
+"w": 1632,
+"h": 144,
+"cluster": "writer_DS:ds:photo5",
+"ink": [
+228,
+17,
+1340,
+71
+],
+"box": [
+185,
+0,
+1383,
+90
+],
+"fill": 0.375,
+"box_rule": "all ink components",
+"kept_h": 0.625,
+"kept_w": 0.734,
+"group": "middle",
+"flag_reason": "",
+"label": "we used a non-linear boundary to separate data",
+"tight_file": "crops_tight/ds__train__5.2.3.png"
+},
+{
+"file": "newwriter__images__ds__test__5.3.1.jpg",
+"name": "ds__test__5.3.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__test__5.3.1.jpg",
+"sha256": "98a796bb44a6b4fd1e0815afd28731073b0a5ecc1dec0153ca0d9dad12240690",
+"w": 1916,
+"h": 190,
+"cluster": "writer_DS:ds:photo5",
+"ink": [
+225,
+66,
+1787,
+169
+],
+"box": [
+143,
+30,
+1869,
+190
+],
+"fill": 0.542,
+"box_rule": "all ink components",
+"kept_h": 0.842,
+"kept_w": 0.901,
+"group": "middle",
+"flag_reason": "",
+"label": "Forward Propagation refers to the calculation and storage",
+"tight_file": "crops_tight/ds__test__5.3.1.png"
+},
+{
+"file": "newwriter__images__ds__test__5.3.2.jpg",
+"name": "ds__test__5.3.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__test__5.3.2.jpg",
+"sha256": "29cd1d1df9ff2219481fe573fc5b28da4f356ea08cc30e2a0b86e02f648d6477",
+"w": 1918,
+"h": 146,
+"cluster": "writer_DS:ds:photo5",
+"ink": [
+240,
+38,
+1816,
+116
+],
+"box": [
+178,
+11,
+1878,
+143
+],
+"fill": 0.534,
+"box_rule": "all ink components",
+"kept_h": 0.904,
+"kept_w": 0.886,
+"group": "control",
+"flag_reason": "",
+"label": "of intermediate variables for a neural network in order",
+"tight_file": "crops_tight/ds__test__5.3.2.png"
+},
+{
+"file": "newwriter__images__ds__train__5.3.3.jpg",
+"name": "ds__train__5.3.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__5.3.3.jpg",
+"sha256": "e7ba9d92bd7909dde6a7877af0651ce2a2c6ee5404903e63baf5ec3013f21500",
+"w": 1917,
+"h": 153,
+"cluster": "writer_DS:ds:photo5",
+"ink": [
+259,
+29,
+1242,
+93
+],
+"box": [
+208,
+7,
+1293,
+115
+],
+"fill": 0.418,
+"box_rule": "all ink components",
+"kept_h": 0.706,
+"kept_w": 0.566,
+"group": "middle",
+"flag_reason": "",
+"label": "from the input layer to the output layer",
+"tight_file": "crops_tight/ds__train__5.3.3.png"
+},
+{
+"file": "newwriter__images__ds__train__5.4.1.jpg",
+"name": "ds__train__5.4.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__5.4.1.jpg",
+"sha256": "db02947db10ac3fea1efb008ec536679ccd0b41cf8c81935d0e19c262c01cb71",
+"w": 1920,
+"h": 146,
+"cluster": "writer_DS:ds:photo5",
+"ink": [
+242,
+15,
+1713,
+92
+],
+"box": [
+180,
+0,
+1775,
+119
+],
+"fill": 0.527,
+"box_rule": "all ink components",
+"kept_h": 0.815,
+"kept_w": 0.831,
+"group": "middle",
+"flag_reason": "",
+"label": "Computation graph represents the process of computing a",
+"tight_file": "crops_tight/ds__train__5.4.1.png"
+},
+{
+"file": "newwriter__images__ds__train__5.4.2.jpg",
+"name": "ds__train__5.4.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__5.4.2.jpg",
+"sha256": "69192cf640da65bce737c86c02704604188e89d8524891433812d083ee0dadbb",
+"w": 1916,
+"h": 144,
+"cluster": "writer_DS:ds:photo5",
+"ink": [
+240,
+41,
+1616,
+122
+],
+"box": [
+175,
+13,
+1681,
+144
+],
+"fill": 0.562,
+"box_rule": "all ink components",
+"kept_h": 0.91,
+"kept_w": 0.786,
+"group": "control",
+"flag_reason": "",
+"label": "mathematical expression in which we break down the",
+"tight_file": "crops_tight/ds__train__5.4.2.png"
+},
+{
+"file": "newwriter__images__ds__train__5.4.3.jpg",
+"name": "ds__train__5.4.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__5.4.3.jpg",
+"sha256": "3066b62571949fae7b7cb766590cda6f210a2b3ccaa8b740b980043e4cadaecf",
+"w": 1916,
+"h": 164,
+"cluster": "writer_DS:ds:photo5",
+"ink": [
+240,
+32,
+1676,
+102
+],
+"box": [
+184,
+8,
+1732,
+126
+],
+"fill": 0.427,
+"box_rule": "all ink components",
+"kept_h": 0.72,
+"kept_w": 0.808,
+"group": "middle",
+"flag_reason": "",
+"label": "computation into separate operations, each of us which is",
+"tight_file": "crops_tight/ds__train__5.4.3.png"
+},
+{
+"file": "newwriter__images__ds__test__5.4.4.jpg",
+"name": "ds__test__5.4.4.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__test__5.4.4.jpg",
+"sha256": "985e6eb166da2ce88506eb7372e59292d626218811dbcacc1f63103009580097",
+"w": 1920,
+"h": 173,
+"cluster": "writer_DS:ds:photo5",
+"ink": [
+238,
+56,
+1096,
+134
+],
+"box": [
+176,
+29,
+1158,
+161
+],
+"fill": 0.451,
+"box_rule": "all ink components",
+"kept_h": 0.763,
+"kept_w": 0.511,
+"group": "middle",
+"flag_reason": "",
+"label": "modelled as a node in a graph",
+"tight_file": "crops_tight/ds__test__5.4.4.png"
+},
+{
+"file": "newwriter__images__ds__train__6.1.1.jpg",
+"name": "ds__train__6.1.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__6.1.1.jpg",
+"sha256": "47b3ee96ff2f5d5f17109960dced78ff08836f5104f68dabc0f46b7d9e7f0693",
+"w": 1319,
+"h": 190,
+"cluster": "writer_DS:ds:photo6",
+"ink": [
+201,
+75,
+1010,
+138
+],
+"box": [
+151,
+53,
+1060,
+160
+],
+"fill": 0.332,
+"box_rule": "all ink components",
+"kept_h": 0.563,
+"kept_w": 0.689,
+"group": "large margin",
+"flag_reason": "",
+"label": "Rank predictions sort all predicted",
+"tight_file": "crops_tight/ds__train__6.1.1.png"
+},
+{
+"file": "newwriter__images__ds__train__6.1.2.jpg",
+"name": "ds__train__6.1.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__6.1.2.jpg",
+"sha256": "aebf716810d22d559f6d657e80377b2a31c5c5baddda87521fdbd1a57b665f9e",
+"w": 1077,
+"h": 148,
+"cluster": "writer_DS:ds:photo6",
+"ink": [
+198,
+25,
+1005,
+105
+],
+"box": [
+134,
+0,
+1069,
+133
+],
+"fill": 0.541,
+"box_rule": "all ink components",
+"kept_h": 0.899,
+"kept_w": 0.868,
+"group": "control",
+"flag_reason": "",
+"label": "bounding boxes by their confidence",
+"tight_file": "crops_tight/ds__train__6.1.2.png"
+},
+{
+"file": "newwriter__images__ds__train__6.1.3.jpg",
+"name": "ds__train__6.1.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__6.1.3.jpg",
+"sha256": "b1945309bc380b5aac8116b4db8574cb50c1d01336ca73ad9c54c0ef54404f34",
+"w": 1493,
+"h": 226,
+"cluster": "writer_DS:ds:photo6",
+"ink": [
+199,
+65,
+946,
+140
+],
+"box": [
+139,
+39,
+1006,
+166
+],
+"fill": 0.332,
+"box_rule": "all ink components",
+"kept_h": 0.562,
+"kept_w": 0.581,
+"group": "large margin",
+"flag_reason": "",
+"label": "scores from highest to lowest",
+"tight_file": "crops_tight/ds__train__6.1.3.png"
+},
+{
+"file": "newwriter__images__ds__train__6.2.1.jpg",
+"name": "ds__train__6.2.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__6.2.1.jpg",
+"sha256": "bb5c4317ee91190f273c84c707551ec6dc8a116cdcfbe53975a2a150168d4b66",
+"w": 1919,
+"h": 266,
+"cluster": "writer_DS:ds:photo6",
+"ink": [
+202,
+105,
+1267,
+178
+],
+"box": [
+144,
+79,
+1325,
+204
+],
+"fill": 0.274,
+"box_rule": "all ink components",
+"kept_h": 0.47,
+"kept_w": 0.615,
+"group": "large margin",
+"flag_reason": "",
+"label": "To plot the precision-Recall curve, graph",
+"tight_file": "crops_tight/ds__train__6.2.1.png"
+},
+{
+"file": "newwriter__images__ds__train__6.2.2.jpg",
+"name": "ds__train__6.2.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__6.2.2.jpg",
+"sha256": "a699124ef924f5930de67cc595017d5eae23b3173927ddd49ac6a87d25b3928c",
+"w": 1919,
+"h": 229,
+"cluster": "writer_DS:ds:photo6",
+"ink": [
+100,
+75,
+1338,
+169
+],
+"box": [
+25,
+42,
+1413,
+202
+],
+"fill": 0.41,
+"box_rule": "all ink components",
+"kept_h": 0.699,
+"kept_w": 0.723,
+"group": "middle",
+"flag_reason": "",
+"label": "the precision against the recall to visualize",
+"tight_file": "crops_tight/ds__train__6.2.2.png"
+},
+{
+"file": "newwriter__images__ds__train__6.2.3.jpg",
+"name": "ds__train__6.2.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__6.2.3.jpg",
+"sha256": "6a5f03dac07066da8d2179c252b6682aa37c1bcddca967aa73ba5f30b3e85b73",
+"w": 1919,
+"h": 145,
+"cluster": "writer_DS:ds:photo6",
+"ink": [
+229,
+27,
+1643,
+92
+],
+"box": [
+177,
+4,
+1695,
+115
+],
+"fill": 0.448,
+"box_rule": "all ink components",
+"kept_h": 0.766,
+"kept_w": 0.791,
+"group": "middle",
+"flag_reason": "",
+"label": "the model's trade offs as the confidence threshold lowers.",
+"tight_file": "crops_tight/ds__train__6.2.3.png"
+},
+{
+"file": "newwriter__images__ds__train__6.3.1.jpg",
+"name": "ds__train__6.3.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__6.3.1.jpg",
+"sha256": "bdd65a18d9aced0b614a5163097b04493fbe2f7bc971a9f1ab2e329ed5dd9f26",
+"w": 1919,
+"h": 212,
+"cluster": "writer_DS:ds:photo6",
+"ink": [
+223,
+99,
+1588,
+174
+],
+"box": [
+163,
+73,
+1648,
+200
+],
+"fill": 0.354,
+"box_rule": "all ink components",
+"kept_h": 0.599,
+"kept_w": 0.774,
+"group": "large margin",
+"flag_reason": "",
+"label": "To calculate average precision, measure the total area under",
+"tight_file": "crops_tight/ds__train__6.3.1.png"
+},
+{
+"file": "newwriter__images__ds__test__6.3.2.jpg",
+"name": "ds__test__6.3.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__test__6.3.2.jpg",
+"sha256": "6ee72749314bcbe50b81a518991487f05aa68676236a4b45faf9e03f04f38b61",
+"w": 1919,
+"h": 172,
+"cluster": "writer_DS:ds:photo6",
+"ink": [
+234,
+50,
+1689,
+135
+],
+"box": [
+166,
+20,
+1757,
+165
+],
+"fill": 0.494,
+"box_rule": "all ink components",
+"kept_h": 0.843,
+"kept_w": 0.829,
+"group": "middle",
+"flag_reason": "",
+"label": "the precision-Recall curve to generate a single performance",
+"tight_file": "crops_tight/ds__test__6.3.2.png"
+},
+{
+"file": "newwriter__images__ds__train__6.3.3.jpg",
+"name": "ds__train__6.3.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__6.3.3.jpg",
+"sha256": "c53f70efee9c088d53fc92191cc9e284d7f9ae5baa6def5813bd2099b9736a42",
+"w": 1219,
+"h": 209,
+"cluster": "writer_DS:ds:photo6",
+"ink": [
+242,
+71,
+1154,
+142
+],
+"box": [
+185,
+46,
+1211,
+167
+],
+"fill": 0.34,
+"box_rule": "all ink components",
+"kept_h": 0.579,
+"kept_w": 0.842,
+"group": "large margin",
+"flag_reason": "",
+"label": "score for that specific object class",
+"tight_file": "crops_tight/ds__train__6.3.3.png"
+},
+{
+"file": "newwriter__images__ds__train__6.4.1.jpg",
+"name": "ds__train__6.4.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__6.4.1.jpg",
+"sha256": "6ee461c9efd558a20b1fe3da3d1152360906481bf4ecd5a36f73a6a1d375fcce",
+"w": 1915,
+"h": 174,
+"cluster": "writer_DS:ds:photo6",
+"ink": [
+222,
+94,
+1477,
+158
+],
+"box": [
+171,
+72,
+1528,
+174
+],
+"fill": 0.368,
+"box_rule": "all ink components",
+"kept_h": 0.586,
+"kept_w": 0.709,
+"group": "large margin",
+"flag_reason": "",
+"label": "To calculate mean average precision, take the average",
+"tight_file": "crops_tight/ds__train__6.4.1.png"
+},
+{
+"file": "newwriter__images__ds__test__6.4.2.jpg",
+"name": "ds__test__6.4.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__test__6.4.2.jpg",
+"sha256": "01fdebade522fe91b2ef4a08ef735c399be505cd5c741f58a44ecc288fee6171",
+"w": 1915,
+"h": 144,
+"cluster": "writer_DS:ds:photo6",
+"ink": [
+248,
+31,
+1376,
+111
+],
+"box": [
+184,
+3,
+1440,
+139
+],
+"fill": 0.556,
+"box_rule": "all ink components",
+"kept_h": 0.944,
+"kept_w": 0.656,
+"group": "control",
+"flag_reason": "",
+"label": "Ap scores across all object classes in your",
+"tight_file": "crops_tight/ds__test__6.4.2.png"
+},
+{
+"file": "newwriter__images__ds__train__6.4.3.jpg",
+"name": "ds__train__6.4.3.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__6.4.3.jpg",
+"sha256": "343b9be097c218360a10a4933f68529ea8b85314cf51b05e9bdb1ed1d9765242",
+"w": 1743,
+"h": 200,
+"cluster": "writer_DS:ds:photo6",
+"ink": [
+66,
+44,
+1597,
+138
+],
+"box": [
+0,
+11,
+1672,
+171
+],
+"fill": 0.47,
+"box_rule": "all ink components",
+"kept_h": 0.8,
+"kept_w": 0.959,
+"group": "middle",
+"flag_reason": "",
+"label": "dataset to get the final overall metric for the model",
+"tight_file": "crops_tight/ds__train__6.4.3.png"
+},
+{
+"file": "newwriter__images__ds__test__7.1.1.jpg",
+"name": "ds__test__7.1.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__test__7.1.1.jpg",
+"sha256": "e25ba44a425d518db3fac0b9cbb676691ab30529f01e0e4d6580b7744cbaefe8",
+"w": 890,
+"h": 204,
+"cluster": "writer_DS:ds:photo7",
+"ink": [
+117,
+29,
+831,
+194
+],
+"box": [
+0,
+0,
+890,
+204
+],
+"fill": 0.809,
+"box_rule": "all ink components",
+"kept_h": 1.0,
+"kept_w": 1.0,
+"group": "control",
+"flag_reason": "",
+"label": "Deep learning, the word deep",
+"tight_file": "crops_tight/ds__test__7.1.1.png"
+},
+{
+"file": "newwriter__images__ds__train__7.1.2.jpg",
+"name": "ds__train__7.1.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__7.1.2.jpg",
+"sha256": "beec0734d6a999c3fa5f2757bddd31990064bd1cfb80d32e3364d8d7021b36c8",
+"w": 1154,
+"h": 115,
+"cluster": "writer_DS:ds:photo7",
+"ink": [
+164,
+14,
+1094,
+78
+],
+"box": [
+113,
+0,
+1145,
+100
+],
+"fill": 0.557,
+"box_rule": "all ink components",
+"kept_h": 0.87,
+"kept_w": 0.894,
+"group": "control",
+"flag_reason": "",
+"label": "refers to multiple layers of non-linear transformations",
+"tight_file": "crops_tight/ds__train__7.1.2.png"
+},
+{
+"file": "newwriter__images__ds__train__7.2.1.jpg",
+"name": "ds__train__7.2.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__7.2.1.jpg",
+"sha256": "be3a3e2698f872e9aa78d081279a595ab75dec00561dd4a24cbfdf9dec60e4fc",
+"w": 1452,
+"h": 318,
+"cluster": "writer_DS:ds:photo7",
+"ink": [
+120,
+78,
+1352,
+181
+],
+"box": [
+38,
+42,
+1434,
+217
+],
+"fill": 0.324,
+"box_rule": "all ink components",
+"kept_h": 0.55,
+"kept_w": 0.961,
+"group": "large margin",
+"flag_reason": "",
+"label": "Explain why activation functions matter for learning",
+"tight_file": "crops_tight/ds__train__7.2.1.png"
+},
+{
+"file": "newwriter__images__ds__train__7.3.1.jpg",
+"name": "ds__train__7.3.1.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__7.3.1.jpg",
+"sha256": "51fb20a77b947817aef6e60e122bfb2e18fc39f9689023f7ab1e74b5385018eb",
+"w": 1389,
+"h": 150,
+"cluster": "writer_DS:ds:photo7",
+"ink": [
+48,
+0,
+1243,
+150
+],
+"box": [
+0,
+0,
+1363,
+150
+],
+"fill": 1.0,
+"box_rule": "all ink components",
+"kept_h": 1.0,
+"kept_w": 0.981,
+"group": "control",
+"flag_reason": "",
+"label": "An Optimization algorithm to adjust the",
+"tight_file": "crops_tight/ds__train__7.3.1.png"
+},
+{
+"file": "newwriter__images__ds__train__7.3.2.jpg",
+"name": "ds__train__7.3.2.jpg",
+"src": "board2notes_newwriter_test_20261107/images/ds__train__7.3.2.jpg",
+"sha256": "20946ecee2003255f13047eb19cb670e4ab8b09d1fd97d4c949c32e2d7a4f6eb",
+"w": 1182,
+"h": 191,
+"cluster": "writer_DS:ds:photo7",
+"ink": [
+216,
+24,
+968,
+81
+],
+"box": [
+170,
+4,
+1014,
+101
+],
+"fill": 0.298,
+"box_rule": "all ink components",
+"kept_h": 0.508,
+"kept_w": 0.714,
+"group": "large margin",
+"flag_reason": "",
+"label": "model's parameters to minimize the loss",
+"tight_file": "crops_tight/ds__train__7.3.2.png"
+}
+]

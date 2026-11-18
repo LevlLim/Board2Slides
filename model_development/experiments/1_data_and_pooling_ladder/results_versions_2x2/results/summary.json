@@ -1,0 +1,593 @@
+{
+  "comparisons": {
+    "CNN test: P128 vs P40": {
+      "diff": -0.672741632430538,
+      "hi": -0.6290504119536378,
+      "lo": -0.7180494965439717,
+      "verdict": "better"
+    },
+    "CNN test: V1b vs pretrained": {
+      "diff": 0.03972670591111371,
+      "hi": 0.05893556085666492,
+      "lo": 0.021394371438837847,
+      "verdict": "worse"
+    },
+    "CNN test: V2 vs V1b": {
+      "diff": -0.26040929751574426,
+      "hi": -0.22809981178242048,
+      "lo": -0.29090934567874277,
+      "verdict": "better"
+    },
+    "CNN test: V2 vs V2short": {
+      "diff": -0.04847690061895459,
+      "hi": -0.03835465300744804,
+      "lo": -0.058799427752517,
+      "verdict": "better"
+    },
+    "CNN test: V3 vs C1": {
+      "diff": -0.0444905253001205,
+      "hi": -0.02542814158031549,
+      "lo": -0.06366854053874514,
+      "verdict": "better"
+    },
+    "CNN test: V3 vs V1": {
+      "diff": -0.5705302381276894,
+      "hi": -0.5296588322399036,
+      "lo": -0.6095462240537907,
+      "verdict": "better"
+    },
+    "CNN test: V3 vs V2": {
+      "diff": 0.005484654858717827,
+      "hi": 0.017005851352398668,
+      "lo": -0.005888717700518941,
+      "verdict": "no clear difference"
+    },
+    "CNN test: V3 vs V3short": {
+      "diff": -0.015607477646458156,
+      "hi": -0.0017867757453197298,
+      "lo": -0.028350182108763344,
+      "verdict": "better"
+    },
+    "CNN test: V3 vs pretrained": {
+      "diff": -0.21519793674591273,
+      "hi": -0.17344909252238447,
+      "lo": -0.25680189109136475,
+      "verdict": "better"
+    },
+    "CNN test: V3short vs V2short": {
+      "diff": -0.02738476811377861,
+      "hi": -0.01528380382852111,
+      "lo": -0.0398226474503321,
+      "verdict": "better"
+    },
+    "held-out long lines only (over 40 chars): P128 vs P40": {
+      "diff": -0.3601316981260709,
+      "hi": -0.3128385563105792,
+      "lo": -0.41650275626448374,
+      "verdict": "better"
+    },
+    "held-out long lines only (over 40 chars): V1b vs pretrained": {
+      "diff": -0.3542552260569494,
+      "hi": -0.27721518987341776,
+      "lo": -0.43130300900848145,
+      "verdict": "better"
+    },
+    "held-out long lines only (over 40 chars): V2 vs V1b": {
+      "diff": -0.04000592279831626,
+      "hi": -0.03328016113943143,
+      "lo": -0.047960831001103266,
+      "verdict": "better"
+    },
+    "held-out long lines only (over 40 chars): V2 vs V2short": {
+      "diff": -0.04773579627467613,
+      "hi": -0.020537428430205795,
+      "lo": -0.07051747528279605,
+      "verdict": "better"
+    },
+    "held-out long lines only (over 40 chars): V3 vs C1": {
+      "diff": -0.08545800243733387,
+      "hi": -0.04772419191629915,
+      "lo": -0.12917074417358024,
+      "verdict": "better"
+    },
+    "held-out long lines only (over 40 chars): V3 vs V1": {
+      "diff": -0.8510687021840544,
+      "hi": -0.8148208182981079,
+      "lo": -0.8855904963611462,
+      "verdict": "better"
+    },
+    "held-out long lines only (over 40 chars): V3 vs V2": {
+      "diff": 0.0029424019700124726,
+      "hi": 0.012177427933198594,
+      "lo": -0.003929539295392951,
+      "verdict": "no clear difference"
+    },
+    "held-out long lines only (over 40 chars): V3 vs V3short": {
+      "diff": -0.02560753728323204,
+      "hi": -0.003727960227242869,
+      "lo": -0.0419008393462027,
+      "verdict": "better"
+    },
+    "held-out long lines only (over 40 chars): V3 vs pretrained": {
+      "diff": -0.3913187468852532,
+      "hi": -0.2994511683783692,
+      "lo": -0.4765481802477088,
+      "verdict": "better"
+    },
+    "held-out long lines only (over 40 chars): V3short vs V2short": {
+      "diff": -0.019185857021431614,
+      "hi": 0.005225767035149017,
+      "lo": -0.04243502278960364,
+      "verdict": "no clear difference"
+    },
+    "interaction CNN test": {
+      "diff": 0.03286942297249644,
+      "hi": 0.0486167270340123,
+      "lo": 0.018070793468534543,
+      "verdict": "copies help less with long data"
+    },
+    "interaction held-out long lines only (over 40 chars)": {
+      "diff": 0.022128258991444088,
+      "hi": 0.04572772198310218,
+      "lo": -9.17387402867684e-05,
+      "verdict": "no clear interaction"
+    },
+    "interaction long sentences (held out)": {
+      "diff": 0.01591681787103873,
+      "hi": 0.03455907014483584,
+      "lo": -0.000947441394715896,
+      "verdict": "no clear interaction"
+    },
+    "long sentences (held out): P128 vs P40": {
+      "diff": -0.407160670944887,
+      "hi": -0.33963690088832327,
+      "lo": -0.48681727334522434,
+      "verdict": "better"
+    },
+    "long sentences (held out): V1b vs pretrained": {
+      "diff": -0.25140318438095155,
+      "hi": -0.10508678362295897,
+      "lo": -0.3794426397522591,
+      "verdict": "better"
+    },
+    "long sentences (held out): V2 vs V1b": {
+      "diff": -0.03409984404549185,
+      "hi": -0.025041408385585356,
+      "lo": -0.043115358231372684,
+      "verdict": "better"
+    },
+    "long sentences (held out): V2 vs V2short": {
+      "diff": -0.03433627451336353,
+      "hi": -0.011124121779859485,
+      "lo": -0.059074538682695424,
+      "verdict": "better"
+    },
+    "long sentences (held out): V3 vs C1": {
+      "diff": -0.061566584935263145,
+      "hi": -0.02304934102059373,
+      "lo": -0.10226773767920723,
+      "verdict": "better"
+    },
+    "long sentences (held out): V3 vs V1": {
+      "diff": -0.8229163260113979,
+      "hi": -0.7794379984116346,
+      "lo": -0.865341980773186,
+      "verdict": "better"
+    },
+    "long sentences (held out): V3 vs V2": {
+      "diff": 0.0027214252524772106,
+      "hi": 0.00892662810012028,
+      "lo": -0.002349286533022465,
+      "verdict": "no clear difference"
+    },
+    "long sentences (held out): V3 vs V3short": {
+      "diff": -0.0184194566423248,
+      "hi": -0.002055638868872054,
+      "lo": -0.03467356088004822,
+      "verdict": "better"
+    },
+    "long sentences (held out): V3 vs pretrained": {
+      "diff": -0.28278160317396617,
+      "hi": -0.12923088925429382,
+      "lo": -0.4214919100273388,
+      "verdict": "better"
+    },
+    "long sentences (held out): V3short vs V2short": {
+      "diff": -0.01319539261856152,
+      "hi": 0.0051480777527285184,
+      "lo": -0.03203285876037941,
+      "verdict": "no clear difference"
+    },
+    "repeats CNN test": {
+      "diff": 2.913793103448276,
+      "hi": 3.260355029585799,
+      "lo": 2.5714285714285716,
+      "verdict": "P40 has more repetition flags"
+    },
+    "repeats IAM val": {
+      "diff": 1.3842213114754098,
+      "hi": 1.485655737704918,
+      "lo": 1.2807377049180328,
+      "verdict": "P40 has more repetition flags"
+    },
+    "repeats held-out long lines only (over 40 chars)": {
+      "diff": 0.3170731707317073,
+      "hi": 0.5813953488372093,
+      "lo": 0.125,
+      "verdict": "P40 has more repetition flags"
+    },
+    "repeats long sentences (held out)": {
+      "diff": 0.7192982456140351,
+      "hi": 1.2586206896551724,
+      "lo": 0.25,
+      "verdict": "P40 has more repetition flags"
+    },
+    "repeats whiteboard val": {
+      "diff": 1.6102941176470589,
+      "hi": 1.934959349593496,
+      "lo": 1.3037037037037038,
+      "verdict": "P40 has more repetition flags"
+    }
+  },
+  "held_out_sentences": [
+    "a shorter route may not be the best choice when some roads have higher travel costs.",
+    "breadth first search explores nearby nodes before moving to the next search level.",
+    "compare both the final solution and the time required to find it on the larger graph.",
+    "computer network and security",
+    "encryption protects message contents but does not prevent every type of attack",
+    "sensors and robot control",
+    "stop the robot if an obstacle enters the safety zone or a critical sensor fails"
+  ],
+  "summary": {
+    "C1 | CNN test": {
+      "corpus_CER": 0.287175234936429,
+      "exact": 0.034482758620689655,
+      "extra_repeats": 0.034482758620689655,
+      "lines": 174,
+      "mean_line_CER": 0.28719318911972586
+    },
+    "C1 | IAM val": {
+      "corpus_CER": 0.310215334886153,
+      "exact": 0.0,
+      "extra_repeats": 0.20081967213114754,
+      "lines": 976,
+      "mean_line_CER": 0.31400110652158575
+    },
+    "C1 | held-out long lines only (over 40 chars)": {
+      "corpus_CER": 0.12215568862275449,
+      "exact": 0.14634146341463414,
+      "extra_repeats": 0.0,
+      "lines": 41,
+      "mean_line_CER": 0.12148197411144548
+    },
+    "C1 | long sentences (held out)": {
+      "corpus_CER": 0.10854564755838642,
+      "exact": 0.3684210526315789,
+      "extra_repeats": 0.017543859649122806,
+      "lines": 57,
+      "mean_line_CER": 0.08808352523805728
+    },
+    "C1 | whiteboard val": {
+      "corpus_CER": 0.11420722135007849,
+      "exact": 0.45588235294117646,
+      "extra_repeats": 0.022058823529411766,
+      "lines": 136,
+      "mean_line_CER": 0.09304071185949676
+    },
+    "P128 | CNN test": {
+      "corpus_CER": 0.26616915422885573,
+      "exact": 0.040229885057471264,
+      "extra_repeats": 0.005747126436781609,
+      "lines": 174,
+      "mean_line_CER": 0.2660429768881793
+    },
+    "P128 | IAM val": {
+      "corpus_CER": 0.21310072729001284,
+      "exact": 0.010245901639344262,
+      "extra_repeats": 0.06864754098360656,
+      "lines": 976,
+      "mean_line_CER": 0.21684286511819328
+    },
+    "P128 | held-out long lines only (over 40 chars)": {
+      "corpus_CER": 0.06377245508982037,
+      "exact": 0.1951219512195122,
+      "extra_repeats": 0.0,
+      "lines": 41,
+      "mean_line_CER": 0.06323988179007463
+    },
+    "P128 | long sentences (held out)": {
+      "corpus_CER": 0.05652866242038217,
+      "exact": 0.42105263157894735,
+      "extra_repeats": 0.0,
+      "lines": 57,
+      "mean_line_CER": 0.04548833602443964
+    },
+    "P128 | whiteboard val": {
+      "corpus_CER": 0.08398744113029827,
+      "exact": 0.5735294117647058,
+      "extra_repeats": 0.0,
+      "lines": 136,
+      "mean_line_CER": 0.06441793261828745
+    },
+    "P40 | CNN test": {
+      "corpus_CER": 0.9461028192371476,
+      "exact": 0.0,
+      "extra_repeats": 2.9195402298850577,
+      "lines": 174,
+      "mean_line_CER": 0.9387846093187169
+    },
+    "P40 | IAM val": {
+      "corpus_CER": 0.604435043019442,
+      "exact": 0.0,
+      "extra_repeats": 1.4528688524590163,
+      "lines": 976,
+      "mean_line_CER": 0.6097934383460069
+    },
+    "P40 | held-out long lines only (over 40 chars)": {
+      "corpus_CER": 0.4221556886227545,
+      "exact": 0.0,
+      "extra_repeats": 0.3170731707317073,
+      "lines": 41,
+      "mean_line_CER": 0.42337157991614555
+    },
+    "P40 | long sentences (held out)": {
+      "corpus_CER": 0.4349787685774947,
+      "exact": 0.0,
+      "extra_repeats": 0.7192982456140351,
+      "lines": 57,
+      "mean_line_CER": 0.4526490069693267
+    },
+    "P40 | whiteboard val": {
+      "corpus_CER": 0.6593406593406593,
+      "exact": 0.03676470588235294,
+      "extra_repeats": 1.6102941176470589,
+      "lines": 136,
+      "mean_line_CER": 0.5454260129447976
+    },
+    "V1 | CNN test": {
+      "corpus_CER": 0.8095632946379215,
+      "exact": 0.0,
+      "extra_repeats": 0.005747126436781609,
+      "lines": 174,
+      "mean_line_CER": 0.813232901947294
+    },
+    "V1 | IAM val": {
+      "corpus_CER": 0.7909397727812901,
+      "exact": 0.0,
+      "extra_repeats": 0.02459016393442623,
+      "lines": 976,
+      "mean_line_CER": 0.7945532337974244
+    },
+    "V1 | held-out long lines only (over 40 chars)": {
+      "corpus_CER": 0.8880239520958084,
+      "exact": 0.0,
+      "extra_repeats": 0.0,
+      "lines": 41,
+      "mean_line_CER": 0.887092673858166
+    },
+    "V1 | long sentences (held out)": {
+      "corpus_CER": 0.8726114649681529,
+      "exact": 0.0,
+      "extra_repeats": 0.0,
+      "lines": 57,
+      "mean_line_CER": 0.8494332663141921
+    },
+    "V1 | whiteboard val": {
+      "corpus_CER": 0.7951334379905809,
+      "exact": 0.0,
+      "extra_repeats": 0.38235294117647056,
+      "lines": 136,
+      "mean_line_CER": 0.9058534883459258
+    },
+    "V1b | CNN test": {
+      "corpus_CER": 0.49972360420121614,
+      "exact": 0.0,
+      "extra_repeats": 0.0,
+      "lines": 174,
+      "mean_line_CER": 0.4976273064766315
+    },
+    "V1b | IAM val": {
+      "corpus_CER": 0.07600893663545183,
+      "exact": 0.1168032786885246,
+      "extra_repeats": 0.035860655737704916,
+      "lines": 976,
+      "mean_line_CER": 0.07788824455829327
+    },
+    "V1b | held-out long lines only (over 40 chars)": {
+      "corpus_CER": 0.07335329341317365,
+      "exact": 0.0975609756097561,
+      "extra_repeats": 0.0,
+      "lines": 41,
+      "mean_line_CER": 0.07308749250241549
+    },
+    "V1b | long sentences (held out)": {
+      "corpus_CER": 0.06714437367303609,
+      "exact": 0.17543859649122806,
+      "extra_repeats": 0.0,
+      "lines": 57,
+      "mean_line_CER": 0.057895359095808833
+    },
+    "V1b | whiteboard val": {
+      "corpus_CER": 0.2119309262166405,
+      "exact": 0.35294117647058826,
+      "extra_repeats": 0.0,
+      "lines": 136,
+      "mean_line_CER": 0.16772655796341265
+    },
+    "V2 | CNN test": {
+      "corpus_CER": 0.23880597014925373,
+      "exact": 0.06896551724137931,
+      "extra_repeats": 0.028735632183908046,
+      "lines": 174,
+      "mean_line_CER": 0.23721800896088743
+    },
+    "V2 | IAM val": {
+      "corpus_CER": 0.22869230403574653,
+      "exact": 0.004098360655737705,
+      "extra_repeats": 0.08299180327868852,
+      "lines": 976,
+      "mean_line_CER": 0.2326375729191734
+    },
+    "V2 | held-out long lines only (over 40 chars)": {
+      "corpus_CER": 0.03323353293413173,
+      "exact": 0.4878048780487805,
+      "extra_repeats": 0.0,
+      "lines": 41,
+      "mean_line_CER": 0.033081569704099194
+    },
+    "V2 | long sentences (held out)": {
+      "corpus_CER": 0.02945859872611465,
+      "exact": 0.631578947368421,
+      "extra_repeats": 0.0,
+      "lines": 57,
+      "mean_line_CER": 0.023795515050316966
+    },
+    "V2 | whiteboard val": {
+      "corpus_CER": 0.08987441130298274,
+      "exact": 0.47058823529411764,
+      "extra_repeats": 0.0,
+      "lines": 136,
+      "mean_line_CER": 0.07311751016394509
+    },
+    "V2short | CNN test": {
+      "corpus_CER": 0.28579325594250965,
+      "exact": 0.040229885057471264,
+      "extra_repeats": 0.022988505747126436,
+      "lines": 174,
+      "mean_line_CER": 0.285694909579842
+    },
+    "V2short | IAM val": {
+      "corpus_CER": 0.2661263488139944,
+      "exact": 0.0020491803278688526,
+      "extra_repeats": 0.10758196721311475,
+      "lines": 976,
+      "mean_line_CER": 0.27058968452157456
+    },
+    "V2short | held-out long lines only (over 40 chars)": {
+      "corpus_CER": 0.081437125748503,
+      "exact": 0.0975609756097561,
+      "extra_repeats": 0.0,
+      "lines": 41,
+      "mean_line_CER": 0.08081736597877533
+    },
+    "V2short | long sentences (held out)": {
+      "corpus_CER": 0.07218683651804671,
+      "exact": 0.3508771929824561,
+      "extra_repeats": 0.0,
+      "lines": 57,
+      "mean_line_CER": 0.0581317895636805
+    },
+    "V2short | whiteboard val": {
+      "corpus_CER": 0.09105180533751962,
+      "exact": 0.5,
+      "extra_repeats": 0.007352941176470588,
+      "lines": 136,
+      "mean_line_CER": 0.0725152504616156
+    },
+    "V3 | CNN test": {
+      "corpus_CER": 0.24267551133222776,
+      "exact": 0.07471264367816093,
+      "extra_repeats": 0.028735632183908046,
+      "lines": 174,
+      "mean_line_CER": 0.2427026638196053
+    },
+    "V3 | IAM val": {
+      "corpus_CER": 0.2536245662404335,
+      "exact": 0.0020491803278688526,
+      "extra_repeats": 0.12807377049180327,
+      "lines": 976,
+      "mean_line_CER": 0.25709113112014
+    },
+    "V3 | held-out long lines only (over 40 chars)": {
+      "corpus_CER": 0.03622754491017964,
+      "exact": 0.43902439024390244,
+      "extra_repeats": 0.0,
+      "lines": 41,
+      "mean_line_CER": 0.03602397167411167
+    },
+    "V3 | long sentences (held out)": {
+      "corpus_CER": 0.03237791932059448,
+      "exact": 0.5789473684210527,
+      "extra_repeats": 0.0,
+      "lines": 57,
+      "mean_line_CER": 0.026516940302794178
+    },
+    "V3 | whiteboard val": {
+      "corpus_CER": 0.0890894819466248,
+      "exact": 0.5073529411764706,
+      "extra_repeats": 0.0,
+      "lines": 136,
+      "mean_line_CER": 0.07184611812511744
+    },
+    "V3short | CNN test": {
+      "corpus_CER": 0.2576008844665561,
+      "exact": 0.04597701149425287,
+      "extra_repeats": 0.04597701149425287,
+      "lines": 174,
+      "mean_line_CER": 0.2583101414660634
+    },
+    "V3short | IAM val": {
+      "corpus_CER": 0.20803821837714503,
+      "exact": 0.007172131147540984,
+      "extra_repeats": 0.0584016393442623,
+      "lines": 976,
+      "mean_line_CER": 0.21076977366750915
+    },
+    "V3short | held-out long lines only (over 40 chars)": {
+      "corpus_CER": 0.061676646706586825,
+      "exact": 0.07317073170731707,
+      "extra_repeats": 0.0,
+      "lines": 41,
+      "mean_line_CER": 0.06163150895734371
+    },
+    "V3short | long sentences (held out)": {
+      "corpus_CER": 0.05493630573248408,
+      "exact": 0.3157894736842105,
+      "extra_repeats": 0.0,
+      "lines": 57,
+      "mean_line_CER": 0.04493639694511898
+    },
+    "V3short | whiteboard val": {
+      "corpus_CER": 0.08987441130298274,
+      "exact": 0.5073529411764706,
+      "extra_repeats": 0.0,
+      "lines": 136,
+      "mean_line_CER": 0.07130043145049156
+    },
+    "pretrained | CNN test": {
+      "corpus_CER": 0.4654505251520177,
+      "exact": 0.005747126436781609,
+      "extra_repeats": 0.017241379310344827,
+      "lines": 174,
+      "mean_line_CER": 0.45790060056551823
+    },
+    "pretrained | IAM val": {
+      "corpus_CER": 0.12081095213195799,
+      "exact": 0.04405737704918033,
+      "extra_repeats": 0.027663934426229508,
+      "lines": 976,
+      "mean_line_CER": 0.12195139847907083
+    },
+    "pretrained | held-out long lines only (over 40 chars)": {
+      "corpus_CER": 0.4281437125748503,
+      "exact": 0.0,
+      "extra_repeats": 0.0,
+      "lines": 41,
+      "mean_line_CER": 0.427342718559365
+    },
+    "pretrained | long sentences (held out)": {
+      "corpus_CER": 0.38030785562632696,
+      "exact": 0.24561403508771928,
+      "extra_repeats": 0.0,
+      "lines": 57,
+      "mean_line_CER": 0.30929854347676045
+    },
+    "pretrained | whiteboard val": {
+      "corpus_CER": 0.17778649921507064,
+      "exact": 0.3382352941176471,
+      "extra_repeats": 0.007352941176470588,
+      "lines": 136,
+      "mean_line_CER": 0.15482153246613928
+    }
+  }
+}

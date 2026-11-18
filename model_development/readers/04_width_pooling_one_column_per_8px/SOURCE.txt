@@ -1,0 +1,4 @@
+Same lines and input as 03; only the pooling differs: one CTC column per 8 px of width (128 at 1024 px).
+source folder: Assignment/results_versions_2x2/results/models/PP-OCRv5_server_rec_board2notes_P128
+experiment: results_versions_2x2, model P128
+inference.pdiparams sha256: 423ccb971aac1766ffcc7c7e30f6bf04825811b46c56c34572dbe861d8fa0e18

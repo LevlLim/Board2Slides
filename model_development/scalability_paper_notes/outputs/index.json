@@ -1,0 +1,380 @@
+{
+ "page1_angle_medium_a_IMG_5172__original": {
+  "photo": "page1_angle_medium_a_IMG_5172.HEIC",
+  "condition": "original",
+  "page": 1,
+  "readers": [
+   "downloaded",
+   "whiteboard",
+   "paper",
+   "final"
+  ],
+  "preparation": null
+ },
+ "page1_angle_medium_a_IMG_5172__app_prepared": {
+  "photo": "page1_angle_medium_a_IMG_5172.HEIC",
+  "condition": "app_prepared",
+  "page": 1,
+  "readers": [
+   "downloaded",
+   "whiteboard",
+   "paper",
+   "final"
+  ],
+  "preparation": {
+   "mode": "auto",
+   "applied": true,
+   "reason": "Applied crop, lighting.",
+   "decisions": [
+    {
+     "name": "perspective",
+     "applied": false,
+     "reason": "text or camera information unavailable: abstain"
+    },
+    {
+     "name": "crop",
+     "applied": true,
+     "reason": "Cropped around detected writing."
+    },
+    {
+     "name": "rotation",
+     "applied": false,
+     "reason": "insufficient independent text rows"
+    },
+    {
+     "name": "lighting",
+     "applied": true,
+     "reason": "Gentle correction for low contrast, dimness, or uneven light."
+    }
+   ],
+   "region": [
+    0,
+    1660,
+    2906,
+    2287
+   ],
+   "boxes": 6,
+   "lines": 6,
+   "detect": "text large enough (45 px) -> quick boxes kept",
+   "seconds": 1.733,
+   "width": 2906,
+   "height": 627,
+   "wall_seconds": 4.71
+  }
+ },
+ "page1_angle_medium_b_IMG_5173__original": {
+  "photo": "page1_angle_medium_b_IMG_5173.HEIC",
+  "condition": "original",
+  "page": 1,
+  "readers": [
+   "downloaded",
+   "whiteboard",
+   "paper",
+   "final"
+  ],
+  "preparation": null
+ },
+ "page1_angle_medium_b_IMG_5173__app_prepared": {
+  "photo": "page1_angle_medium_b_IMG_5173.HEIC",
+  "condition": "app_prepared",
+  "page": 1,
+  "readers": [
+   "downloaded",
+   "whiteboard",
+   "paper",
+   "final"
+  ],
+  "preparation": {
+   "mode": "auto",
+   "applied": true,
+   "reason": "Applied crop, lighting.",
+   "decisions": [
+    {
+     "name": "perspective",
+     "applied": false,
+     "reason": "text or camera information unavailable: abstain"
+    },
+    {
+     "name": "crop",
+     "applied": true,
+     "reason": "Cropped around detected writing."
+    },
+    {
+     "name": "rotation",
+     "applied": false,
+     "reason": "insufficient independent text rows"
+    },
+    {
+     "name": "lighting",
+     "applied": true,
+     "reason": "Gentle correction for low contrast, dimness, or uneven light."
+    }
+   ],
+   "region": [
+    0,
+    1666,
+    2890,
+    2299
+   ],
+   "boxes": 6,
+   "lines": 4,
+   "detect": "text large enough (57 px) -> quick boxes kept",
+   "seconds": 1.707,
+   "width": 2890,
+   "height": 633,
+   "wall_seconds": 3.7
+  }
+ },
+ "page1_angle_strong_a_IMG_5170__original": {
+  "photo": "page1_angle_strong_a_IMG_5170.HEIC",
+  "condition": "original",
+  "page": 1,
+  "readers": [
+   "downloaded",
+   "whiteboard",
+   "paper",
+   "final"
+  ],
+  "preparation": null
+ },
+ "page1_angle_strong_a_IMG_5170__app_prepared": {
+  "photo": "page1_angle_strong_a_IMG_5170.HEIC",
+  "condition": "app_prepared",
+  "page": 1,
+  "readers": [
+   "downloaded",
+   "whiteboard",
+   "paper",
+   "final"
+  ],
+  "preparation": {
+   "mode": "auto",
+   "applied": true,
+   "reason": "Applied crop.",
+   "decisions": [
+    {
+     "name": "perspective",
+     "applied": false,
+     "reason": "text or camera information unavailable: abstain"
+    },
+    {
+     "name": "crop",
+     "applied": true,
+     "reason": "Cropped around detected writing."
+    },
+    {
+     "name": "rotation",
+     "applied": false,
+     "reason": "insufficient independent text rows"
+    },
+    {
+     "name": "lighting",
+     "applied": false,
+     "reason": "Lighting check did not find a supported correction."
+    }
+   ],
+   "region": [
+    0,
+    1367,
+    3024,
+    2971
+   ],
+   "boxes": 17,
+   "lines": 4,
+   "detect": "text large enough (50 px) -> quick boxes kept",
+   "seconds": 1.838,
+   "width": 3024,
+   "height": 1604,
+   "wall_seconds": 4.02
+  }
+ },
+ "page1_angle_strong_b_IMG_5171__original": {
+  "photo": "page1_angle_strong_b_IMG_5171.HEIC",
+  "condition": "original",
+  "page": 1,
+  "readers": [
+   "downloaded",
+   "whiteboard",
+   "paper",
+   "final"
+  ],
+  "preparation": null
+ },
+ "page1_angle_strong_b_IMG_5171__app_prepared": {
+  "photo": "page1_angle_strong_b_IMG_5171.HEIC",
+  "condition": "app_prepared",
+  "page": 1,
+  "readers": [
+   "downloaded",
+   "whiteboard",
+   "paper",
+   "final"
+  ],
+  "preparation": {
+   "mode": "auto",
+   "applied": true,
+   "reason": "Applied crop.",
+   "decisions": [
+    {
+     "name": "perspective",
+     "applied": false,
+     "reason": "text or camera information unavailable: abstain"
+    },
+    {
+     "name": "crop",
+     "applied": true,
+     "reason": "Cropped around detected writing."
+    },
+    {
+     "name": "rotation",
+     "applied": false,
+     "reason": "insufficient independent text rows"
+    },
+    {
+     "name": "lighting",
+     "applied": false,
+     "reason": "Lighting check did not find a supported correction."
+    }
+   ],
+   "region": [
+    0,
+    1366,
+    3024,
+    2955
+   ],
+   "boxes": 19,
+   "lines": 5,
+   "detect": "text large enough (49 px) -> quick boxes kept",
+   "seconds": 1.863,
+   "width": 3024,
+   "height": 1589,
+   "wall_seconds": 3.87
+  }
+ },
+ "page1_flat_a_IMG_5168__original": {
+  "photo": "page1_flat_a_IMG_5168.HEIC",
+  "condition": "original",
+  "page": 1,
+  "readers": [
+   "downloaded",
+   "whiteboard",
+   "paper",
+   "final"
+  ],
+  "preparation": null
+ },
+ "page1_flat_a_IMG_5168__app_prepared": {
+  "photo": "page1_flat_a_IMG_5168.HEIC",
+  "condition": "app_prepared",
+  "page": 1,
+  "readers": [
+   "downloaded",
+   "whiteboard",
+   "paper",
+   "final"
+  ],
+  "preparation": {
+   "mode": "auto",
+   "applied": true,
+   "reason": "Applied crop, lighting.",
+   "decisions": [
+    {
+     "name": "perspective",
+     "applied": false,
+     "reason": "text or camera information unavailable: abstain"
+    },
+    {
+     "name": "crop",
+     "applied": true,
+     "reason": "Cropped around detected writing."
+    },
+    {
+     "name": "rotation",
+     "applied": false,
+     "reason": "insufficient independent text rows"
+    },
+    {
+     "name": "lighting",
+     "applied": true,
+     "reason": "Gentle correction for low contrast, dimness, or uneven light."
+    }
+   ],
+   "region": [
+    0,
+    1427,
+    3024,
+    1884
+   ],
+   "boxes": 3,
+   "lines": 3,
+   "detect": "text large enough (66 px) -> quick boxes kept",
+   "seconds": 1.418,
+   "width": 3024,
+   "height": 457,
+   "wall_seconds": 3.42
+  }
+ },
+ "page1_flat_b_IMG_5169__original": {
+  "photo": "page1_flat_b_IMG_5169.HEIC",
+  "condition": "original",
+  "page": 1,
+  "readers": [
+   "downloaded",
+   "whiteboard",
+   "paper",
+   "final"
+  ],
+  "preparation": null
+ },
+ "page1_flat_b_IMG_5169__app_prepared": {
+  "photo": "page1_flat_b_IMG_5169.HEIC",
+  "condition": "app_prepared",
+  "page": 1,
+  "readers": [
+   "downloaded",
+   "whiteboard",
+   "paper",
+   "final"
+  ],
+  "preparation": {
+   "mode": "auto",
+   "applied": true,
+   "reason": "Applied crop, lighting.",
+   "decisions": [
+    {
+     "name": "perspective",
+     "applied": false,
+     "reason": "text or camera information unavailable: abstain"
+    },
+    {
+     "name": "crop",
+     "applied": true,
+     "reason": "Cropped around detected writing."
+    },
+    {
+     "name": "rotation",
+     "applied": false,
+     "reason": "insufficient independent text rows"
+    },
+    {
+     "name": "lighting",
+     "applied": true,
+     "reason": "Gentle correction for low contrast, dimness, or uneven light."
+    }
+   ],
+   "region": [
+    0,
+    1417,
+    3024,
+    1882
+   ],
+   "boxes": 3,
+   "lines": 3,
+   "detect": "text large enough (64 px) -> quick boxes kept",
+   "seconds": 1.671,
+   "width": 3024,
+   "height": 465,
+   "wall_seconds": 3.65
+  }
+ }
+}

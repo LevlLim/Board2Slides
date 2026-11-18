@@ -1,0 +1,449 @@
+set,file,pred
+whiteboard val,reader__images__wb__lecture_01_004.png,K-Nearest Neighbours
+whiteboard val,reader__images__wb__lecture_01_010.png,Model
+whiteboard val,reader__images__wb__lecture_01_026.png,4. Generation
+whiteboard val,reader__images__wb__lecture_01_041.png,Activation
+whiteboard val,reader__images__wb__lecture_01_073.png,N = number of data samples
+whiteboard val,reader__images__wb__lecture_01_081.png,3 vs channel
+whiteboard val,reader__images__wb__lecture_01_094.png,"- but when x<O, gradient =0 so neuron"
+whiteboard val,reader__images__wb__lecture_01_101.png,Parameter Count
+whiteboard val,reader__images__wb__lecture_01_106.png,9 = parameters (can be weight)
+whiteboard val,reader__images__wb__lecture_01_107.png,- works only for one-hot(one correct)
+whiteboard val,reader__images__wb__lecture_01_111.png,- punishes low probability of carect class
+whiteboard val,reader__images__wb__lecture_01_114.png,bias
+whiteboard val,reader__images__wb__lecture_01_120.png,Test
+whiteboard val,reader__images__wb__lecture_01_124.png,whichuons
+whiteboard val,reader__images__wb__lecture_02_019.png,"Augment  flip, rotate,transform (make sense)"
+whiteboard val,reader__images__wb__lecture_02_029.png,Activation
+whiteboard val,reader__images__wb__lecture_02_032.png,Dropout drop necrins so they can learn from othors
+whiteboard val,reader__images__wb__lecture_02_036.png,Stochastic Gradient Descent
+whiteboard val,reader__images__wb__lecture_02_048.png,"Shrinks weights, thase close to 0"
+whiteboard val,reader__images__wb__lecture_02_051.png,- 3× 3 kernels
+whiteboard val,reader__images__wb__lecture_02_056.png,Stack to see larger region
+whiteboard val,reader__images__wb__lecture_02_080.png,Adam
+whiteboard val,reader__images__wb__lecture_02_082.png,Parameter Count
+whiteboard val,reader__images__wb__lecture_02_083.png,normalises values close to 0
+whiteboard val,reader__images__wb__lecture_02_092.png,scale
+whiteboard val,reader__images__wb__lecture_02_096.png,bias
+whiteboard val,reader__images__wb__lecture_02_102.png,Test = Funning stats
+whiteboard val,reader__images__wb__lecture_02_107.png,zero-grad() clears gradients
+whiteboard val,reader__images__wb__lecture_02_109.png, update gradients
+whiteboard val,reader__images__wb__lecture_02_110.png, calculates new gradients
+whiteboard val,reader__images__wb__lecture_02_111.png,starting values should nat be too big or small
+whiteboard val,reader__images__wb__lecture_03_004.png,K- Nearest Neighbers
+whiteboard val,reader__images__wb__lecture_03_021.png,Model
+whiteboard val,reader__images__wb__lecture_03_041.png,"Augment fkp, rotate, transforon(make sense)"
+whiteboard val,reader__images__wb__lecture_03_042.png,4. Generation
+whiteboard val,reader__images__wb__lecture_03_053.png,Activation
+whiteboard val,reader__images__wb__lecture_03_056.png,Dropout drop nectins so they con learn from othors
+whiteboard val,reader__images__wb__lecture_03_059.png,Stochastic Gradient Descent
+whiteboard val,reader__images__wb__lecture_03_079.png,"Shrinks weights, thase close to 0"
+whiteboard val,reader__images__wb__lecture_03_082.png,3.1 Softmax prohablity
+whiteboard val,reader__images__wb__lecture_03_087.png,- 3×3 kernels
+whiteboard val,reader__images__wb__lecture_03_094.png,N = mombes of data smpler
+whiteboard val,reader__images__wb__lecture_03_097.png,Stack to see larger regon
+whiteboard val,reader__images__wb__lecture_03_104.png,3.v1 chonnel
+whiteboard val,reader__images__wb__lecture_03_124.png,"- but when x<0, gradient =0 va meune"
+whiteboard val,reader__images__wb__lecture_03_134.png,Adam
+whiteboard val,reader__images__wb__lecture_03_136.png,9 = parometers (cen be weight)
+whiteboard val,reader__images__wb__lecture_03_137.png,- workes onlg for one-hat(me coact)
+whiteboard val,reader__images__wb__lecture_03_139.png,Parameter Count
+whiteboard val,reader__images__wb__lecture_03_140.png,normalises values close to 0
+whiteboard val,reader__images__wb__lecture_03_142.png,- pemishes lon peabolility d carect class
+whiteboard val,reader__images__wb__lecture_03_154.png,scale
+whiteboard val,reader__images__wb__lecture_03_158.png,bias
+whiteboard val,reader__images__wb__lecture_03_167.png,Test = Funnig stats
+whiteboard val,reader__images__wb__lecture_03_175.png,zero-grad() cleaes gradients
+whiteboard val,reader__images__wb__lecture_03_180.png,starting values should nat be tos big or small
+whiteboard val,reader__images__wb__lecture_04_012.png,Tone tite cint
+whiteboard val,reader__images__wb__lecture_04_013.png,Stochastic Gradrent Descent
+whiteboard val,reader__images__wb__lecture_04_026.png,"Shrinks weights, thase close to 0"
+whiteboard val,reader__images__wb__lecture_04_037.png,Stoak to se lorgp an
+whiteboard val,reader__images__wb__lecture_04_057.png,Pasnter Gsent
+whiteboard val,reader__images__wb__lecture_04_064.png,Adam
+whiteboard val,reader__images__wb__lecture_05_013.png,Stochastic Gradient Descent
+whiteboard val,reader__images__wb__lecture_05_022.png,"Shrinks weights, thase close to 0"
+whiteboard val,reader__images__wb__lecture_05_032.png,Stak ta sm large rean
+whiteboard val,reader__images__wb__lecture_05_050.png,Adam
+whiteboard val,reader__images__wb__lecture_06_013.png,Stochastic Gradient Descent
+whiteboard val,reader__images__wb__lecture_06_024.png,"Shrinks weights, thase close to 0"
+whiteboard val,reader__images__wb__lecture_06_035.png,Seoak to se lagr engen
+whiteboard val,reader__images__wb__lecture_06_052.png,Paanete CLient
+whiteboard val,reader__images__wb__lecture_06_060.png,Adam
+whiteboard val,reader__images__wb__lecture_07_012.png,Stochastic Gradient Descent
+whiteboard val,reader__images__wb__lecture_07_023.png,"Shrinks weights, thase close to 0"
+whiteboard val,reader__images__wb__lecture_07_032.png,Soadk to sne lrgr srngr
+whiteboard val,reader__images__wb__lecture_07_050.png,Adam
+whiteboard val,reader__images__wb__lecture_08_014.png,Stochastic Gradient Descent
+whiteboard val,reader__images__wb__lecture_08_024.png,"Shrinks weights, thase close to 0"
+whiteboard val,reader__images__wb__lecture_08_032.png,Stak ta se lap repn
+whiteboard val,reader__images__wb__lecture_08_051.png,Adam
+whiteboard val,reader__images__wb__lecture_09_007.png,Model
+whiteboard val,reader__images__wb__lecture_09_009.png,4. Generation
+whiteboard val,reader__images__wb__lecture_09_013.png,K- Narnt Neightiors
+whiteboard val,reader__images__wb__lecture_09_076.png,N = number of data somples
+whiteboard val,reader__images__wb__lecture_09_094.png,Handcrafted features
+whiteboard val,reader__images__wb__lecture_10_007.png,Model
+whiteboard val,reader__images__wb__lecture_10_010.png,4. Generation
+whiteboard val,reader__images__wb__lecture_10_012.png,K- Nearest Nesgheins
+whiteboard val,reader__images__wb__lecture_10_076.png,N = number of data somples
+whiteboard val,reader__images__wb__lecture_10_087.png,3 vs 1 channel
+whiteboard val,reader__images__wb__lecture_10_091.png,Handcrafted features
+whiteboard val,reader__images__wb__lecture_11_007.png,Model
+whiteboard val,reader__images__wb__lecture_11_010.png,4. Generation
+whiteboard val,reader__images__wb__lecture_11_011.png,K Nearest Neihters
+whiteboard val,reader__images__wb__lecture_11_073.png,N = number of data samples
+whiteboard val,reader__images__wb__lecture_11_085.png,3 vs | channel
+whiteboard val,reader__images__wb__lecture_11_092.png,9 = parameters (can be weight)
+whiteboard val,reader__images__wb__lecture_11_093.png,Handcrafted features
+whiteboard val,reader__images__wb__lecture_12_008.png,Model
+whiteboard val,reader__images__wb__lecture_12_011.png,4. Generation
+whiteboard val,reader__images__wb__lecture_12_012.png,K NearestNeigtiorn
+whiteboard val,reader__images__wb__lecture_12_042.png,2. Transformation
+whiteboard val,reader__images__wb__lecture_12_079.png,N = number of data samples
+whiteboard val,reader__images__wb__lecture_12_089.png,3 vs/ channel
+whiteboard val,reader__images__wb__lecture_12_092.png,Handcrafted features
+whiteboard val,reader__images__wb__lecture_13_008.png,Model
+whiteboard val,reader__images__wb__lecture_13_010.png,4. Generation
+whiteboard val,reader__images__wb__lecture_13_014.png,K Neanest Neigtors
+whiteboard val,reader__images__wb__lecture_13_073.png,N = number of data somples
+whiteboard val,reader__images__wb__lecture_13_085.png,3 vs 1 channel
+whiteboard val,reader__images__wb__lecture_13_089.png,Handcrafted features
+whiteboard val,reader__images__wb__television_01_000.png,Television
+whiteboard val,reader__images__wb__television_01_001.png,apple car
+whiteboard val,reader__images__wb__television_02_000.png,Television
+whiteboard val,reader__images__wb__television_02_001.png,apple car
+whiteboard val,reader__images__wb__television_03_000.png,television
+whiteboard val,reader__images__wb__television_03_001.png,apple car
+whiteboard val,reader__images__wb__television_04_001.png,television
+whiteboard val,reader__images__wb__television_04_002.png,apple car
+whiteboard val,reader__images__wb__television_05_000.png,television
+whiteboard val,reader__images__wb__television_05_001.png,apple car
+whiteboard val,reader__images__wb__television_06_000.png,Television
+whiteboard val,reader__images__wb__television_06_001.png,apple car
+whiteboard val,reader__images__wb__television_07_000.png,television
+whiteboard val,reader__images__wb__television_07_001.png,apple car
+whiteboard val,reader__images__wb__television_08_000.png,television
+whiteboard val,reader__images__wb__television_08_001.png,apple car
+whiteboard val,reader__images__wb__television_09_000.png,Television
+whiteboard val,reader__images__wb__television_09_001.png,apple car
+whiteboard val,reader__images__wb__television_10_000.png,television
+whiteboard val,reader__images__wb__television_10_001.png,apple car
+whiteboard val,reader__images__wb__television_11_000.png,television
+whiteboard val,reader__images__wb__television_11_001.png,apple car
+whiteboard val,reader__images__wb__television_12_000.png,television
+whiteboard val,reader__images__wb__television_12_001.png,apple car
+whiteboard val,reader__images__wb__television_13_006.png,television
+whiteboard val,reader__images__wb__television_13_011.png,apple car
+new writers,newwriter__images__jhs__train__JH1.1.jpg,A ntwork is asysem o oe ime peple
+new writers,newwriter__images__jhs__train__JH1.3.jpg,mesh o wires or roads to a group
+new writers,newwriter__images__jhs__train__JH1.4.jpg,of pole fomimin no o a rmntwrt
+new writers,newwriter__images__jhs__train__JH1.5.jpg,Compter nowokr e a r mr imw a renttork
+new writers,newwriter__images__jhs__train__JH1.6.jpg,A computer network is a cllection
+new writers,newwriter__images__jhs__train__JH2.1.jpg,Sunight warms the quet  frest
+new writers,newwriter__images__jhs__train__JH2.2.jpg,Brght stars shme er might
+new writers,newwriter__images__jhs__train__JH2.3.jpg,Cold vind moves the laves.
+new writers,newwriter__images__jhs__train__JH2.4.jpg,Small bird sing soft songs
+new writers,newwriter__images__jhs__train__JH3.1.jpg,Wetwork pacets are rsas aond rsesed
+new writers,newwriter__images__jhs__train__JH3.4.jpg,aded mth specifice hmaders for eachh
+new writers,newwriter__images__jhs__train__JH3.6.jpg,network form the source to the destination
+new writers,newwriter__images__jhs__train__JH3.7.jpg,The wlnerability will NEvER cause any risk
+new writers,newwriter__images__jhs__train__JH3.8.jpg,Or loss WITHOUT any attacks or exploits
+new writers,newwriter__images__jhs__train__JH4.1.jpg,DoS and DDoS exploit open serices
+new writers,newwriter__images__jhs__train__JH4.2.jpg,for TCP and VP port numbeers
+new writers,newwriter__images__jhs__train__JH4.3.jpg,Mit explit ne ace prvpports
+new writers,newwriter__images__jhs__train__JH4.4.jpg,Poacket sniffing explaits vencryped pacleets
+new writers,newwriter__images__jhs__train__JH4.5.jpg,that contain credentials. Port scanming
+new writers,newwriter__images__jhs__train__JH4.6.jpg,exploits vnfiltered service for Tcp and Up
+new writers,newwriter__images__jhs__train__JH4.7.jpg,port numbers. ARP spoofing exploits
+new writers,newwriter__images__jhs__train__JH4.8.jpg,vnsecvred physical ports connected to attackers
+new writers,newwriter__images__jhs__train__JH4.9.jpg,Overwhelm the bandwidth of the target
+new writers,newwriter__images__jhs__train__JH4.10.jpg,If the target con ony sevie requests
+new writers,newwriter__images__jhs__train__JH5.1.jpg,Disupt the service bysending anomaly
+new writers,newwriter__images__jhs__train__JH5.2.jpg,"THiP roquests, i ruese ar c nqqest"
+new writers,newwriter__images__jhs__train__JH5.3.jpg,The reqets ort mi m n   e eed
+new writers,newwriter__images__jhs__train__JH5.4.jpg,Distribuedrelet em m m m eattnes
+new writers,newwriter__images__jhs__train__JH5.5.jpg,ocus on taling dom the availablilil f an
+new writers,newwriter__images__jhs__train__JH5.6.jpg,Asset through an overwhelming volume of HTTP
+new writers,newwriter__images__jhs__train__JH5.7.jpg,the attacker would send an HTTP request as the
+new writers,newwriter__images__jhs__train__JH5.8.jpg,the protocol of choice to this ype
+new writers,newwriter__images__jhs__train__JH5.9.jpg,Of attack WITHoUT establish connection state
+new writers,newwriter__images__jhs__train__JH6.1.jpg,Bot is a type of maliciousofswnre
+new writers,newwriter__images__jhs__train__JH6.2.jpg,hat alw the ate eve e   e mmputer
+new writers,newwriter__images__jhs__train__JH6.4.jpg,A bate a c t c e   ting.
+new writers,newwriter__images__jhs__train__JH6.5.jpg,Anyome close to yuw ouwon gee on
+new writers,newwriter__images__jhs__train__JH6.6.jpg,ak wi mlos p nt t pees to
+new writers,newwriter__images__jhs__train__JH6.8.jpg,Client is associated to the Hot Spot AP
+new writers,newwriter__images__jhs__train__JH7.1.jpg,I f it is vnencrypte hen he mo e eaaos
+new writers,newwriter__images__jhs__train__JH7.3.jpg,mecs an heprei cem be m e oe ntort
+new writers,newwriter__images__jhs__train__JH7.4.jpg,Posive sitin i iuitt o deet
+new writers,newwriter__images__jhs__train__JH7.5.jpg,bwu oes mot wmk meie e n nttwigk
+new writers,newwriter__images__jhs__train__JH7.6.jpg,Web losin pasword captue deemn
+new writers,newwriter__images__jhs__train__JH7.8.jpg,Open an web browser and go to
+new writers,newwriter__images__jhs__train__JH7.9.jpg,On the top right of the screen
+new writers,newwriter__images__jhs__train__JH7.10.jpg,a password of top secret password
+new writers,newwriter__images__jhs__test__JH1.2.jpg,This cn range from a mpice l
+new writers,newwriter__images__jhs__test__JH1.7.jpg,Client Server architecture is acentrlized aproch
+new writers,newwriter__images__jhs__test__JH1.8.jpg,more scalable for large networks.
+new writers,newwriter__images__jhs__test__JH1.9.jpg,Peer to peer is a decentralisedappruach
+new writers,newwriter__images__jhs__test__JH3.2.jpg,based on the network layers errchy
+new writers,newwriter__images__jhs__test__JH3.3.jpg,Where the aplctin dna iall be
+new writers,newwriter__images__jhs__test__JH3.5.jpg,layer before being sent to the
+new writers,newwriter__images__jhs__test__JH5.10.jpg,"Bots send a modified source addess, and vnsolicited"
+new writers,newwriter__images__jhs__test__JH6.3.jpg,Zomhie is n eit ne iec ec ie e ha beot
+new writers,newwriter__images__jhs__test__JH6.7.jpg,be legit but is set up to eavsdroepon
+new writers,newwriter__images__jhs__test__JH7.2.jpg,Pasive snifig use of afffer
+new writers,newwriter__images__jhs__test__JH7.7.jpg,check all the interfaces ns shown below
+new writers,newwriter__images__jhw__train__JH2.1.jpg,PowerPac
+new writers,newwriter__images__jhw__train__JH3.1.jpg,Beurre
+new writers,newwriter__images__jhw__train__JH4.1.jpg,Crentiue
+new writers,newwriter__images__jhw__train__JH6.1.jpg,oow
+new writers,newwriter__images__jhw__train__JH7.1.jpg,9GHiR
+new writers,newwriter__images__jhw__train__JH8.1.jpg,Vegan
+new writers,newwriter__images__jhw__train__JH10.1.jpg,Prism
+new writers,newwriter__images__jhw__train__JH16.1.jpg,Corps
+new writers,newwriter__images__jhw__train__JH17.2.jpg,with
+new writers,newwriter__images__jhw__train__JH17.3.jpg,Vuzu duice
+new writers,newwriter__images__jhw__train__JH18.1.jpg,The breeze
+new writers,newwriter__images__jhw__train__JH18.2.jpg,communlcation
+new writers,newwriter__images__jhw__train__JH19.1.jpg,Legendaong
+new writers,newwriter__images__jhw__train__JH20.1.jpg,GeForce
+new writers,newwriter__images__jhw__train__JH21.1.jpg,moitune
+new writers,newwriter__images__jhw__train__JH22.1.jpg,Legendioms
+new writers,newwriter__images__jhw__train__JH23.1.jpg,chocolate
+new writers,newwriter__images__jhw__train__JH23.2.jpg,calke
+new writers,newwriter__images__jhw__train__JH26.1.jpg,Lenovo
+new writers,newwriter__images__jhw__train__JH27.1.jpg,Sntsuoma
+new writers,newwriter__images__jhw__train__JH29.1.jpg,Less ignn
+new writers,newwriter__images__jhw__train__JH30.1.jpg,Green
+new writers,newwriter__images__jhw__train__JH32.1.jpg,Rernie
+new writers,newwriter__images__jhw__train__JH33.1.jpg,Tork
+new writers,newwriter__images__jhw__train__JH34.1.jpg,
+new writers,newwriter__images__jhw__test__JH1.1.jpg,Grape Tea
+new writers,newwriter__images__jhw__test__JH5.1.jpg,Pirnins
+new writers,newwriter__images__jhw__test__JH20.2.jpg,RTX
+new writers,newwriter__images__jhw__test__JH28.1.jpg,Ouiginal Tas
+new writers,newwriter__images__jhw__test__JH30.2.jpg,Giant
+new writers,newwriter__images__jhw__test__JH31.1.jpg,spite
+new writers,newwriter__images__ds__train__1.1.1.jpg,The Vit arnitet e e  re mins.
+new writers,newwriter__images__ds__train__1.1.2.jpg,"Where i touens, o io i iom m eatntion"
+new writers,newwriter__images__ds__train__1.2.1.jpg,Transtormers ere roi inm ae r tfetest
+new writers,newwriter__images__ds__train__1.2.2.jpg,Which NLP To male them wove for images.
+new writers,newwriter__images__ds__train__1.2.3.jpg,Vi spts aniaei i o ii pttues.
+new writers,newwriter__images__ds__train__1.3.1.jpg,Einch pate is t e e e  even.
+new writers,newwriter__images__ds__test__1.3.2.jpg,Thele Vectors serves as the touens which is
+new writers,newwriter__images__ds__train__1.3.3.jpg,the Visunl eauivlene ef a od in a sentence
+new writers,newwriter__images__ds__train__1.4.1.jpg,Visin ranstorme as e ide iae mits e uious audd  are
+new writers,newwriter__images__ds__test__1.4.2.jpg,extemeny dats-hua ayr tay are treca un raiea ie puaivieedtines
+new writers,newwriter__images__ds__train__1.4.3.jpg,"and then fine-tuned on smaller, tau-speciflc datasets by replacing the."
+new writers,newwriter__images__ds__train__1.4.4.jpg,final Clasitication head
+new writers,newwriter__images__ds__train__2.1.1.jpg,Slide a classtite me mo   owed ffars
+new writers,newwriter__images__ds__train__2.1.2.jpg,becmuse evullaing every osible windon
+new writers,newwriter__images__ds__train__2.1.3.jpg,is computatimany too slow
+new writers,newwriter__images__ds__train__2.2.1.jpg,Recgis neb eni e v   ectuase.
+new writers,newwriter__images__ds__train__2.2.2.jpg,it can ony desta ia b e r
+new writers,newwriter__images__ds__test__2.2.3.jpg,Per image.
+new writers,newwriter__images__ds__train__2.3.1.jpg,Gorid of prsictrs mi ei r tioun
+new writers,newwriter__images__ds__train__2.3.2.jpg,becnuse oljel loame in wide evagshiges
+new writers,newwriter__images__ds__train__2.3.3.jpg,that a rigid ail simigsles to capture.
+new writers,newwriter__images__ds__train__2.4.1.jpg,Anchor to distancy method fails becase
+new writers,newwriter__images__ds__test__2.4.2.jpg,Dbject sizes Vary sinificantin
+new writers,newwriter__images__ds__train__3.1.1.jpg,The tis lauer t a a o e e owbary
+new writers,newwriter__images__ds__test__3.1.2.jpg,detcting bascs ece i e ei e e  e eeuns
+new writers,newwriter__images__ds__train__3.2.1.jpg,Salincy va c c c uc ciac m m a aa  oover
+new writers,newwriter__images__ds__test__3.2.2.jpg,hditent resimns o m s o o o r   ateieurs
+new writers,newwriter__images__ds__train__3.2.3.jpg,Predidion Sor
+new writers,newwriter__images__ds__test__3.3.1.jpg,Vimiatiom tor c e e e e e e i ie eeie
+new writers,newwriter__images__ds__train__3.3.2.jpg,for a cas is spread throuhout tue iaea aiiing
+new writers,newwriter__images__ds__train__3.3.3.jpg,Djust one Patch at a time isnt emough to elampe the eciion
+new writers,newwriter__images__ds__train__4.1.1.jpg,clas activtio ma m m on oa se a aes.
+new writers,newwriter__images__ds__train__4.1.2.jpg,Projecting the heabs wcijhts bacu onto the maps
+new writers,newwriter__images__ds__test__4.1.3.jpg,it Pooled to see where the evilence lies.
+new writers,newwriter__images__ds__train__4.2.1.jpg,Class ativtio ma m ma mav mea a iiiatiion.
+new writers,newwriter__images__ds__train__4.2.2.jpg,it ony worus with specicarchitectrs t
+new writers,newwriter__images__ds__train__4.2.3.jpg,have a 9lobal averane poaoa aog plalrere
+new writers,newwriter__images__ds__train__4.2.4.jpg,by a linear head.
+new writers,newwriter__images__ds__train__4.3.1.jpg,A normaize tensoro mers n hhoto.
+new writers,newwriter__images__ds__train__4.3.2.jpg,Laes eines ts s aus wa anee in
+new writers,newwriter__images__ds__train__4.3.3.jpg,a Shortlut
+new writers,newwriter__images__ds__train__5.1.1.jpg,How do i unow when to use
+new writers,newwriter__images__ds__train__5.1.2.jpg,Cross entropy and Mean squarel Error?
+new writers,newwriter__images__ds__train__5.2.1.jpg,Linear model worus on the most basic form of a
+new writers,newwriter__images__ds__train__5.2.2.jpg," neural network, but tor realistic data classitication,"
+new writers,newwriter__images__ds__train__5.2.3.jpg,We used a non linear boundary to seperate data
+new writers,newwriter__images__ds__test__5.3.1.jpg,Forward Propagation rers to the Calculation and Storage
+new writers,newwriter__images__ds__test__5.3.2.jpg, Of intermediate Variables for a neural network in order
+new writers,newwriter__images__ds__train__5.3.3.jpg,from the input layer to the output layer
+new writers,newwriter__images__ds__train__5.4.1.jpg,Computation graph represents the Process of computing a
+new writers,newwriter__images__ds__train__5.4.2.jpg, Mathematical expression in which we breau down the
+new writers,newwriter__images__ds__train__5.4.3.jpg,"Computation into seperate operations, each of which is"
+new writers,newwriter__images__ds__test__5.4.4.jpg,modeleb as a node in a graph
+new writers,newwriter__images__ds__train__6.1.1.jpg,Ranu Predictions sort anl Preducte
+new writers,newwriter__images__ds__train__6.1.2.jpg,bounding boxes by their confidenke
+new writers,newwriter__images__ds__train__6.1.3.jpg,Scones tros highst t tooest
+new writers,newwriter__images__ds__train__6.2.1.jpg,To Plot the Prersio ion ave rrpaphr
+new writers,newwriter__images__ds__train__6.2.2.jpg,hthe precision ngaims the rcai n iiie
+new writers,newwriter__images__ds__train__6.2.3.jpg,the models trade ofts as the conisence thresioid lowers.
+new writers,newwriter__images__ds__train__6.3.1.jpg,To calculate averaneures a ae e oeme ase a dller
+new writers,newwriter__images__ds__test__6.3.2.jpg,the precision-Recal crve to generate a single Petormane
+new writers,newwriter__images__ds__train__6.3.3.jpg,Score for that sesife objset laas
+new writers,newwriter__images__ds__train__6.4.1.jpg,To Calulate mean average precion aue he avcrage
+new writers,newwriter__images__ds__test__6.4.2.jpg,Ap scores across all object clasces in your
+new writers,newwriter__images__ds__train__6.4.3.jpg,dataset to get the final overan metric for the model
+new writers,newwriter__images__ds__test__7.1.1.jpg,Dep learning the woder
+new writers,newwriter__images__ds__train__7.1.2.jpg,refers to muitile layers of non-linear transtormations
+new writers,newwriter__images__ds__train__7.2.1.jpg,eixplin l c c i mt i i  r eaming.
+new writers,newwriter__images__ds__train__7.3.1.jpg, An Optimizationalgorihm to adjus t
+new writers,newwriter__images__ds__train__7.3.2.jpg,model's Parametes i mieee llos
+fresh boards,fresh__A_5095_1.png,booKkeeper
+fresh boards,fresh__A_5095_2.png,Parallel
+fresh boards,fresh__A_5095_3.png,access
+fresh boards,fresh__A_5095_4.png,fagd
+fresh boards,fresh__A_5095_5.png,Weights
+fresh boards,fresh__A_5095_6.png,ghasts
+fresh boards,fresh__A_5096_1.png,bookkeeer
+fresh boards,fresh__A_5096_2.png,Parallel
+fresh boards,fresh__A_5096_3.png,dCcess
+fresh boards,fresh__A_5096_4.png,fagd
+fresh boards,fresh__A_5096_5.png,Weights
+fresh boards,fresh__A_5096_6.png,qnGSt
+fresh boards,fresh__A_5097_1.png, booKkeeper
+fresh boards,fresh__A_5097_2.png,Parallel
+fresh boards,fresh__A_5097_3.png,dCCesS
+fresh boards,fresh__A_5097_4.png,fagd
+fresh boards,fresh__A_5098_1.png,booKKeePer
+fresh boards,fresh__A_5098_2.png,Parallel
+fresh boards,fresh__A_5098_3.png,dCCesS
+fresh boards,fresh__A_5098_4.png,faad
+fresh boards,fresh__A_5098_5.png,Weights
+fresh boards,fresh__A_5098_6.png,ghosts
+fresh boards,fresh__A_5099_1.png,bo0KKeePer
+fresh boards,fresh__A_5099_2.png,Parallel
+fresh boards,fresh__A_5099_3.png,dCCesS
+fresh boards,fresh__A_5099_4.png,fagd
+fresh boards,fresh__A_5099_5.png,Weights
+fresh boards,fresh__A_5099_6.png,ghasts
+fresh boards,fresh__A_5100_1.png,bo0Kkeeper
+fresh boards,fresh__A_5100_2.png,Parallel
+fresh boards,fresh__A_5100_3.png,dCCess
+fresh boards,fresh__A_5100_4.png,fagd
+fresh boards,fresh__A_5100_5.png,Weights
+fresh boards,fresh__A_5100_6.png,ghasts
+fresh boards,fresh__A_5101_1.png,bookkeeper
+fresh boards,fresh__A_5101_2.png,Parallel
+fresh boards,fresh__A_5101_3.png,dCCess
+fresh boards,fresh__A_5101_4.png,fagd
+fresh boards,fresh__A_5101_5.png,Weights
+fresh boards,fresh__A_5101_6.png,ghasts
+fresh boards,fresh__A_5102_1.png,bookkeeper
+fresh boards,fresh__A_5102_2.png,Parallel
+fresh boards,fresh__A_5102_3.png,dCCess
+fresh boards,fresh__A_5102_4.png,fagd
+fresh boards,fresh__A_5102_5.png,Weights
+fresh boards,fresh__A_5102_6.png,ghasts
+fresh boards,fresh__A_5103_1.png,bookkeeper
+fresh boards,fresh__A_5103_2.png,Parallel
+fresh boards,fresh__A_5103_3.png,dCCess
+fresh boards,fresh__A_5103_4.png,faod
+fresh boards,fresh__A_5103_5.png,Weights
+fresh boards,fresh__A_5103_6.png,ghosts
+fresh boards,fresh__A_5104_1.png,booKkeeper
+fresh boards,fresh__A_5104_2.png,P arallel
+fresh boards,fresh__A_5104_3.png,aCCess
+fresh boards,fresh__A_5104_4.png,faad
+fresh boards,fresh__A_5104_5.png,Weights
+fresh boards,fresh__A_5104_6.png,ghosts
+fresh boards,fresh__A_5105_1.png,booKkeeper
+fresh boards,fresh__A_5105_2.png,Parallel
+fresh boards,fresh__A_5105_3.png,dCCess
+fresh boards,fresh__A_5105_4.png,fadd
+fresh boards,fresh__A_5105_5.png,Neights
+fresh boards,fresh__A_5105_6.png,ghasts
+fresh boards,fresh__A_5106_1.png,booKkeeper
+fresh boards,fresh__A_5106_2.png,Parallel
+fresh boards,fresh__A_5106_3.png,dCCess
+fresh boards,fresh__A_5106_4.png,fagd
+fresh boards,fresh__A_5106_5.png,Neights
+fresh boards,fresh__A_5106_6.png,ghasts
+fresh boards,fresh__A_5107_1.png,booKkeeper
+fresh boards,fresh__A_5107_2.png,Parallel
+fresh boards,fresh__A_5107_3.png,dCCess
+fresh boards,fresh__A_5107_4.png,fadd
+fresh boards,fresh__A_5107_5.png,Weights
+fresh boards,fresh__A_5107_6.png,9hasts
+fresh boards,fresh__A_5108_1.png,booKkeeper
+fresh boards,fresh__A_5108_2.png,Parallel
+fresh boards,fresh__A_5108_3.png,dCCess
+fresh boards,fresh__A_5108_4.png,fagt
+fresh boards,fresh__A_5108_5.png,Weights
+fresh boards,fresh__A_5108_6.png,ghasts
+fresh boards,fresh__B_5109_1.png,book keeper
+fresh boards,fresh__B_5109_2.png,letter
+fresh boards,fresh__B_5109_3.png,gradienf
+fresh boards,fresh__B_5110_1.png,book keeperu
+fresh boards,fresh__B_5110_2.png,etter
+fresh boards,fresh__B_5110_3.png,gradienf
+fresh boards,fresh__B_5111_1.png,oook keeper
+fresh boards,fresh__B_5111_2.png,efter
+fresh boards,fresh__B_5111_3.png,gradienf
+fresh boards,fresh__B_5112_1.png,oook keepeer
+fresh boards,fresh__B_5112_2.png,letter
+fresh boards,fresh__B_5112_3.png,gradienf.
+fresh boards,fresh__C_5113_1.png,earth
+fresh boards,fresh__C_5113_2.png,generalizatson
+fresh boards,fresh__C_5114_1.png,earth
+fresh boards,fresh__C_5114_2.png,generalization
+fresh boards,fresh__C_5115_1.png,earth
+fresh boards,fresh__C_5115_2.png,generalizatton
+fresh boards,fresh__D_5116_1.png,The model should preserue vepeated lettevs in wovok such as Aiken and xavier.
+fresh boards,fresh__D_5116_2.png,"The white boonrd contains a mixtuve of short wovdss, long phraces and numbiors"
+fresh boards,fresh__D_5116_3.png,A careful crop keeps every hand wriatten chavacter inside the recognition region
+fresh boards,fresh__D_5117_1.png,The model should presere vepeated lettevs in wovok such as Aiken and Xauier.
+fresh boards,fresh__D_5117_2.png,"The white booard contains a mixtuve of short wovds, long phraes and numbors"
+fresh boards,fresh__D_5117_3.png,A careful crop keeps every hand wjiotteh character inside the recognition region
+fresh boards,fresh__D_5118_1.png,The model should preserue vepeated lettevs in wovok such as Aiken and Xavier.
+fresh boards,fresh__D_5118_2.png,"The white boonrd contains a mixtuve of short wovds, long phraees and numbors"
+fresh boards,fresh__D_5118_3.png,A careful crop keieps every hand wsiepteh character inside the recopnition region
+fresh boards,fresh__D_5122_1.png,The model should preserve vepeated lettevs in wovok such as Aiken and Xxvier.
+fresh boards,fresh__D_5122_2.png,"The white board comtains a mixituve of short wovds, long phrases and nuvbars"
+fresh boards,fresh__D_5122_3.png,A careful crop kees every hand writteh chavacter inside the recognition region
+fresh boards,fresh__D_5123_1.png,The model should p resere repeated lettevs in wovok such as Aiken and Xxuier.
+fresh boards,fresh__D_5123_2.png,"The white board comtains a mixtuve of short wovdss, long phrages and nubors"
+fresh boards,fresh__D_5123_3.png,A careful crop keps every hand writteon character inside the recognition region
+fresh boards,fresh__D_5124_1.png,The model should presevue vepeated lettevs in wovok such as Aiken and Xavier.
+fresh boards,fresh__D_5124_2.png,"The white board comains ai mixtuve of short wovds, long phraces and muvbiors"
+fresh boards,fresh__D_5124_3.png,A careful crop keps every hand writte chavacter inside the recognition region
+fresh boards,fresh__D_5119_1.png,The model should preserue vepeated lettevs in wovok such as Aiken and Xaviere
+fresh boards,fresh__D_5119_2.png,The white board contains a mixture of short wovds on phxes end a mbers
+fresh boards,fresh__D_5120_1.png,The model should preserue vrepeated lettevs in wovek such as Aiken ad xavier
+fresh boards,fresh__D_5120_2.png,"The white booard comtains ai mix tue f shont words, lon phroesaen un mors"
+fresh boards,fresh__D_5121_1.png,The model should preserue vepeated lettes in wovek such as Aiken and Xauer.
+fresh boards,fresh__D_5121_2.png,"The white boonrd contains a mixtureof hont words, lon phres and mnkers"
+fresh boards,fresh__E_5125_1.png,"Different writers use different spacing, presure, height on the same board."
+fresh boards,fresh__E_5125_2.png,Please leave enough space between linesj so the detecter does not merge neighbouring sentences.
+fresh boards,fresh__E_5126_1.png,"Different writers use different spacing, pressure, height on the same board."
+fresh boards,fresh__E_5126_2.png,Please leave enough space between linesj so the detedor does not merge neighbouring sentences
+fresh boards,fresh__E_5127_1.png,"Different writers use diffenent spacing, pressure, height on the same board."
+fresh boards,fresh__E_5127_2.png,"Please leave enough space between lines, so the detector does not merge neighbouring sentences"
+fresh boards,fresh__E_5128_1.png,"Different writers use diffent spacing, presure, hight on the sme barn."
+fresh boards,fresh__E_5128_2.png,"Please leave enough space between lines, so the deteator does notmere egihbobg ees"
+fresh boards,fresh__E_5129_1.png,"Different writers use diffent spacing, presure height on the sm boar."
+fresh boards,fresh__E_5129_2.png,"Please leave enough space betweeh lines, so the detectordes notmere nighoig tess"
+fresh boards,fresh__E_5130_1.png,"Different writers use diffenent spating, pesure, height on the sm bearrd."
+fresh boards,fresh__E_5130_2.png,Please leave enough space betweeh lines so th detedterdoes nt mere neihtowig oess
+fresh boards,fresh__E_5131_1.png,"Differont writers use diferent spacing, pesure, height on the same board."
+fresh boards,fresh__E_5131_2.png,Please leave enugh space betweeh lines so the detector does not merge neighbouring sentences.
+fresh boards,fresh__E_5132_1.png,"Diffent writers usedifferenx pacing, presure, height on the same board."
+fresh boards,fresh__E_5132_2.png,"Please lave enough space between lines, so the detector does not merge neighbouring sentences"
+fresh boards,fresh__E_5133_1.png,"Different writers use diferent spaing, pessure, height on the same board."
+fresh boards,fresh__E_5133_2.png,"Please leave enough space beteehn lines, so the detector does not merge neighbouring sentences."
+fresh boards,fresh__E_5134_1.png,"Different writers use dfferent spacing, pessue, height on the same board."
+fresh boards,fresh__E_5134_2.png,"Please leave enough space between lines, so the detector does not merge neighbouring sentences"
+fresh boards,fresh__E_5135_1.png,"Different writers usedifferent spacing, pvessue, height on the same board."
+fresh boards,fresh__E_5135_2.png,"Please lave enough space betweeh lines, so the detector does not merge neighbouring sentences"
+fresh boards,fresh__E_5136_1.png,"Different writers use different spacing, pressure, height on the same board."
+fresh boards,fresh__E_5136_2.png,"Please leave enough space between lines, so the detedr does not merge eighorin enences"
+fresh boards,fresh__E_5137_1.png,"Different writers use different spacing, pressure, height on the same board."
+fresh boards,fresh__E_5137_2.png,Please leave enough space between lines so the detectr does not merge nigborin etens
+fresh boards,fresh__E_5138_1.png,"Different writers use different spacing, pressure, height on the same beard."
+fresh boards,fresh__E_5138_2.png,"Please leave enough space betwcen lines, so the denxenter does not merge neightmrin senevens"

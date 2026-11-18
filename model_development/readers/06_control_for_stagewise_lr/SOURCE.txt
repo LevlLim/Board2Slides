@@ -1,0 +1,4 @@
+Step 6, control for stage-wise LR: our lines incl. long lines, no extra augmented images, minus 64 teammate lines kept out for the new-writer test. Run 1 of 2.
+source folder: Assignment/results_strategies_s0s3/results/models/PP-OCRv5_server_rec_board2notes_S0
+experiment: results_strategies_s0s3, model S0
+inference.pdiparams sha256: 299875f40b907b757c93bb96050c08f1badb05581879ab0464349a2842e23710

@@ -1,0 +1,25 @@
+/workspace/venv_b2n/lib/python3.12/site-packages/paddle/utils/cpp_extension/extension_utils.py:718: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+Skipping import of the encryption module.
+[06:47:36] part 1: weight change per part
+W1113 06:47:37.301556  5721 gpu_resources.cc:114] Please NOTE: device: 0, GPU Compute Capability: 8.9, Driver API Version: 13.2, Runtime API Version: 12.8
+[06:47:37] part 4: CTC head vs NRTR head readings
+[06:48:16]   S0: read 448 crops with both heads
+[06:48:49]   S0s2: read 448 crops with both heads
+[06:49:24]   G0: read 448 crops with both heads
+[06:50:00]   G0s2: read 448 crops with both heads
+[06:50:00] part 2: stage features (linear CKA)
+[06:50:13]   pretrained: features collected
+[06:50:25]   S0: features collected
+[06:50:37]   S0s2: features collected
+[06:50:49]   G0: features collected
+[06:51:01]   G0s2: features collected
+[06:51:21] part 3: CTC vs NRTR gradients on fixed training batches
+[2026/11/13 06:51:21] ppocr INFO: Initialize indexs of datasets:['/workspace/b2n/experiments/routing_runs_20261112/data/train_S0.txt']
+[06:51:30]   cached 24 training batches of [16, 3, 64, 1024]
+[06:51:38]   pretrained: gradients measured on 24 batches
+[06:51:43]   S0: gradients measured on 24 batches
+[06:51:48]   S0s2: gradients measured on 24 batches
+[06:51:53]   G0: gradients measured on 24 batches
+[06:51:58]   G0s2: gradients measured on 24 batches
+[06:51:58] WORKER DONE

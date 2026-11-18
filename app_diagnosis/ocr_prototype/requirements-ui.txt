@@ -1,0 +1,2 @@
+# UI addition only. Use the established PaddleOCR environment for the backend.
+streamlit==1.67.0
