@@ -7,9 +7,14 @@ model-development slides. Each folder here holds the small files only:
 - `verified.json`: the export check. The exported model reads 30 fixed crops identically to its training checkpoint.
 - `SOURCE.txt`: what changed, which experiment trained it, and the SHA-256 of its weight file.
 
-The weight files (`inference.pdiparams`, 84 MB each) are attached to the GitHub Release **readers-v1**, one zip per
-folder: <https://github.com/LevlLim/Board2Slides/releases/tag/readers-v1>. Unzip a folder's zip here to get a complete,
-loadable model. The final model (08) is also the app's recogniser.
+The weight files (`inference.pdiparams`, 84 MB each) are attached to the GitHub Release **readers-v1**
+(<https://github.com/LevlLim/Board2Slides/releases/tag/readers-v1>) as two zips:
+
+- `board2notes_final_reader.zip` (76 MB): the final model, folder 08 only.
+- `board2notes_all_readers.zip` (934 MB): all 11 folders below.
+
+Each folder in a zip is a complete, loadable model. The final model (08) is step 7's settings trained on the teammate's
+larger dataset; it is the reader the app should use.
 
 Error % = mean line character error rate, lower is better, case-insensitive, spaces collapsed. One training run per
 model; steps 6 and 7 were trained twice and the slides use the two-run averages.
