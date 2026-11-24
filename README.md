@@ -113,13 +113,13 @@ For other model locations or Python environments, set `BOARD2SLIDES_OCR_PYTHON`,
 
 ## Deploying later
 
-Follow [DEPLOY.md](DEPLOY.md) for the private Hugging Face Docker Space setup, exact upload commands, GPU billing controls, and cloud smoke test. The Dockerfile now builds separate web, OCR, and CUDA-enabled LLM environments and downloads the pinned Qwen base during the image build. The cloud container has not yet been built or tested because the Space account has not been created.
+Follow [DEPLOY.md](DEPLOY.md) for the private Hugging Face Docker Space setup, exact upload commands, GPU billing controls, and cloud smoke test. The Dockerfile builds separate web, OCR, and CUDA-enabled LLM environments. The pinned Qwen base downloads when the cloud container starts.
 
 This is a **single-server prototype**. It currently stores jobs as JSON files, uses an in-process revision lock, and has no accounts, retention policy, or storage quota. Run one web worker. Before public class use, add authentication, storage limits and cleanup, a shared database for multiple workers, HTTPS, and model service monitoring.
 
 At packaging time, `npm audit --omit=dev` reports two high-severity advisories in PptxGenJS's `image-size` dependency. The current renderer does not embed uploaded photos in slides, but review this dependency before a public deployment or adding image-based slide layouts.
 
-The 4.1 GB Qwen base is downloaded during the Docker build rather than committed to Git. A later optimization can run OCR and LLM as persistent workers to avoid loading models for each request. The current repo is prepared for that separation through the `ocr_infer.py` and `llm_infer.py` JSON interfaces; a cloud model deployment has **not** yet been verified.
+The 4.1 GB Qwen base is downloaded at container startup rather than committed to Git or baked into the image. A later optimization can run OCR and LLM as persistent workers to avoid loading models for each request. The current repo is prepared for that separation through the `ocr_infer.py` and `llm_infer.py` JSON interfaces. Verify the full cloud pipeline after each deployment.
 
 ## What has been checked
 

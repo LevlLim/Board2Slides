@@ -6,7 +6,7 @@ This keeps the phone website, photo preparation, OCR, Qwen slide planner, and Po
 
 1. Create and verify a [Hugging Face account](https://huggingface.co/join). A personal [PRO subscription](https://huggingface.co/pro) is currently required to create a Docker Space; add a payment method in your own account. The subscription and GPU usage are billed separately.
 2. Open [Create a Space](https://huggingface.co/new-space). Set **Owner** to your account, **SDK** to **Docker**, **Visibility** to **Private**, and hardware to **CPU Basic** initially. The current Space is `Levl07/Board2Notes`. A private Space is accessible only to its owner and permitted collaborators; decide how the team will access it before relying on independent teammate testing.
-3. Do not select paid GPU hardware until the application upload and image build are ready. The Dockerfile includes a CUDA version of PyTorch and the pinned Qwen base so the same image can later run on an L4 GPU.
+3. Do not select paid GPU hardware until the application upload and image build are ready. The Dockerfile includes a CUDA version of PyTorch; the pinned public Qwen base downloads when the container starts so it does not inflate the Docker image.
 
 The deployment metadata (`sdk: docker`, `app_port: 8000`) is already at the top of this repository's `README.md`.
 
@@ -31,7 +31,7 @@ The login command opens an authorization flow; do not place a token in a command
 
 For a teammate deploying from a Mac clone, run the same last three commands with `.venv-llm/bin/hf`, `.venv-llm/bin/python`, and their own clone path. They must have upload rights to the Space. The uploader rejects a public Space unless `--allow-public` is deliberately supplied.
 
-The first upload is about 264 MiB of application files and exported weights. The 4.1 GB Qwen base downloads during the cloud Docker build, not from your laptop or GitHub repository. Watch **Build logs** on `https://huggingface.co/spaces/Levl07/Board2Notes`. The initial build can take a while because it installs PaddleOCR, CUDA PyTorch, Node packages, and Qwen. Docker Desktop is optional on this Windows computer; the Space builds the image remotely.
+The first upload is about 264 MiB of application files and exported weights. The 4.1 GB Qwen base downloads when a new cloud container starts, not from your laptop or GitHub repository. Watch **Build logs** and then **Run logs** on `https://huggingface.co/spaces/Levl07/Board2Notes`. The initial build installs PaddleOCR, CUDA PyTorch, and Node packages; startup waits for the Qwen download. Docker Desktop is optional on this Windows computer; the Space builds the image remotely.
 
 ## 4. Turn on GPU and set billing controls
 
