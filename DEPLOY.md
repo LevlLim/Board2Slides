@@ -14,7 +14,7 @@ The deployment metadata (`sdk: docker`, `app_port: 8000`) is already at the top 
 
 Use GitHub Desktop to inspect the changes, commit them, and push to `LevlLim/Board2Slides`. Do not add `models/llm/base`, `data`, `.venv-*`, `node_modules`, `.cache`, or the raw `board2notes_*` folders. The deployment uploader only selects the app, exported OCR models, LoRA adapter, requirements, renderer, and Docker files.
 
-The upload command requires a clean Git working tree. It previews the exact tracked files before writing to the Space.
+The upload command requires a clean Git working tree. It previews the exact tracked files before writing to the Space. Its Space commit substitutes an LFS-enabled `.gitattributes` for the local GitHub version so the Docker build receives real OCR and adapter weights instead of pointer text.
 
 ## 3. Log in and upload from Windows
 

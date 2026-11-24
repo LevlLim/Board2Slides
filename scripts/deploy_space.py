@@ -18,6 +18,14 @@ INCLUDE = (
     "models/ocr/**", "models/llm/adapter/**",
 )
 EXCLUDE_PARTS = {".git", ".cache", "__pycache__", "data", "node_modules"}
+SPACE_GITATTRIBUTES = b"""* text=auto
+Dockerfile text eol=lf
+*.pdiparams filter=lfs diff=lfs merge=lfs -text
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+*.png binary
+*.jpg binary
+*.webp binary
+"""
 REQUIRED = (
     "README.md", "Dockerfile", "package-lock.json", "scripts/download_base.py",
     "models/llm/adapter/adapter_model.safetensors",
@@ -62,17 +70,20 @@ def main() -> None:
     if status.strip():
         parser.error("Commit or discard local changes before uploading the Space")
 
-    from huggingface_hub import HfApi
+    from huggingface_hub import CommitOperationAdd, HfApi
 
     api = HfApi()
     space = api.repo_info(repo_id=args.space, repo_type="space")
     if not space.private and not args.allow_public:
         parser.error("This Space is public. Use a private Space for testing or pass --allow-public.")
-    api.upload_folder(
+    operations = [CommitOperationAdd(
+        path_in_repo=name,
+        path_or_fileobj=SPACE_GITATTRIBUTES if name == ".gitattributes" else ROOT / name,
+    ) for name in files]
+    api.create_commit(
         repo_id=args.space,
         repo_type="space",
-        folder_path=str(ROOT),
-        allow_patterns=files,
+        operations=operations,
         commit_message="Deploy Board2Slides application",
     )
     print(f"Uploaded. Open https://huggingface.co/spaces/{args.space} to watch the build.")
