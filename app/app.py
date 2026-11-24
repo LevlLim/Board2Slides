@@ -408,7 +408,7 @@ def home():
 def health():
     return {
         "status": "ok",
-        "ocr": "PP-OCRv5 mobile detector + team recognizer" if ocr_ready() else "manual input (OCR files unavailable)",
+        "ocr": "PP-OCRv5 mobile detector + selected server recognizer" if ocr_ready() else "manual input (OCR files unavailable)",
         "ocr_ready": ocr_ready(),
         "planner": "Qwen3-1.7B + adaptive visual LoRA v3" if llm_ready() else "demo only (LLM files unavailable)",
         "llm_ready": llm_ready(),
