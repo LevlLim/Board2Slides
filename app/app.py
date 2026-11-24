@@ -132,7 +132,7 @@ def llm_python() -> Path:
 
 def llm_ready() -> bool:
     base, adapter = model_paths()
-    if llm_python().resolve() == Path(sys.executable).resolve() and not os.environ.get("BOARD2SLIDES_LLM_PYTHON"):
+    if llm_python().absolute() == Path(sys.executable).absolute() and not os.environ.get("BOARD2SLIDES_LLM_PYTHON"):
         if importlib.util.find_spec("torch") is None or importlib.util.find_spec("transformers") is None:
             return False
     return (llm_python().is_file() and (base / "config.json").is_file()
@@ -152,7 +152,7 @@ def ocr_ready(model: str = "tuned") -> bool:
         return False
     _, detector, _ = ocr_model_paths()
     recognizer = recognizer_path(model)
-    if ocr_python().resolve() == Path(sys.executable).resolve() and not os.environ.get("BOARD2SLIDES_OCR_PYTHON"):
+    if ocr_python().absolute() == Path(sys.executable).absolute() and not os.environ.get("BOARD2SLIDES_OCR_PYTHON"):
         if importlib.util.find_spec("paddle") is None or importlib.util.find_spec("paddleocr") is None:
             return False
     needed = ("inference.json", "inference.pdiparams", "inference.yml")
