@@ -5,7 +5,12 @@
 node_modules
 data
 .cache
+**/.cache
 models/llm/base
 __pycache__
+**/__pycache__
 *.pyc
 .DS_Store
+board2notes_all_readers
+board2notes_multilang_reader
+board2notes_reader_en94_20261119
