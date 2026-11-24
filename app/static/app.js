@@ -5,6 +5,94 @@ const stepNames = ["upload", "prepare", "review", "plan", "export"];
 const regionColor = (index) => `hsl(${Math.round(index * 137.508) % 360} 67% 37%)`;
 const el = (id) => document.getElementById(id);
 
+// In-page replacement for window.confirm(). Same yes/no answer, styled to match the app.
+// Cancel is focused first and Esc cancels, so the safe choice stays the default.
+function askConfirm({ title, message, confirmLabel, cancelLabel = "Cancel" }) {
+  let dialog = el("confirm-dialog");
+  if (!dialog) {
+    dialog = document.createElement("dialog");
+    dialog.id = "confirm-dialog";
+    dialog.className = "confirm-dialog";
+    dialog.setAttribute("aria-labelledby", "confirm-title");
+    dialog.setAttribute("aria-describedby", "confirm-message");
+    dialog.innerHTML = '<h3 id="confirm-title"></h3><p id="confirm-message"></p>' +
+      '<div class="confirm-actions"><button type="button" class="button secondary" data-answer="no"></button>' +
+      '<button type="button" class="button primary danger" data-answer="yes"></button></div>';
+    document.body.append(dialog);
+  }
+  if (typeof dialog.showModal !== "function") return Promise.resolve(window.confirm(`${title}\n\n${message}`));
+  el("confirm-title").textContent = title;
+  el("confirm-message").textContent = message;
+  const yes = dialog.querySelector('[data-answer="yes"]');
+  const no = dialog.querySelector('[data-answer="no"]');
+  yes.textContent = confirmLabel;
+  no.textContent = cancelLabel;
+  return new Promise((resolve) => {
+    const finish = (answer) => {
+      dialog.removeEventListener("cancel", onCancel);
+      yes.onclick = null; no.onclick = null;
+      dialog.close();
+      resolve(answer);
+    };
+    const onCancel = (event) => { event.preventDefault(); finish(false); };
+    yes.onclick = () => finish(true);
+    no.onclick = () => finish(false);
+    dialog.addEventListener("cancel", onCancel);
+    dialog.showModal();
+    no.focus();
+  });
+}
+
+// Before preparation runs, the "Prepared for OCR" pane shows a placeholder, not the original.
+function preparedPlaceholder(image) {
+  let note = image.parentElement.querySelector(".prep-empty");
+  if (!note) {
+    note = document.createElement("p");
+    note.className = "prep-empty";
+    note.textContent = "Not prepared yet. Press Prepare photos to see what the model will read.";
+    image.parentElement.append(note);
+  }
+  return note;
+}
+
+// Outline the kept area on the original after a crop. Skipped when perspective was corrected,
+// because the crop is then measured on the warped image and would not line up with the original.
+function showCropOutline(image, preparation) {
+  let stage = image.parentElement;
+  if (!stage.classList.contains("prep-stage")) {
+    stage = document.createElement("span");
+    stage.className = "prep-stage";
+    image.replaceWith(stage);
+    stage.append(image);
+  }
+  let box = stage.querySelector(".crop-outline");
+  if (!box) {
+    box = document.createElement("span");
+    box.className = "crop-outline";
+    box.setAttribute("aria-hidden", "true");
+    stage.append(box);
+  }
+  box.hidden = true;
+  image.onload = null;
+  const region = preparation?.region;
+  const warped = preparation?.mode === "perspective" ||
+    (preparation?.decisions || []).some((item) => item.name === "perspective" && item.applied);
+  if (warped || !Array.isArray(region) || region.length !== 4) return;
+  const place = () => {
+    const width = image.naturalWidth, height = image.naturalHeight;
+    if (!width || !height) return;
+    const [x0, y0, x1, y1] = region;
+    if (x0 <= 0 && y0 <= 0 && x1 >= width && y1 >= height) return;
+    box.style.left = `${(x0 / width) * 100}%`;
+    box.style.top = `${(y0 / height) * 100}%`;
+    box.style.width = `${((x1 - x0) / width) * 100}%`;
+    box.style.height = `${((y1 - y0) / height) * 100}%`;
+    box.hidden = false;
+  };
+  image.onload = place;
+  if (image.complete && image.naturalWidth) place();
+}
+
 function notify(message, isError) {
   const box = el("toast");
   box.textContent = message;
@@ -130,8 +218,15 @@ function renderPrepare() {
   photoTabs("prepare-photo-tabs", (photoId) => { state.activePhotoId = photoId; renderPrepare(); });
   const photo = currentPhoto();
   const version = `?v=${state.job.revision}`;
-  el("prepare-original").src = photo.original_url;
-  el("prepare-processed").src = (photo.preparation ? photo.processed_url : photo.original_url) + version;
+  const original = el("prepare-original");
+  const processed = el("prepare-processed");
+  const prepared = Boolean(photo.preparation);
+  original.src = photo.original_url;
+  processed.hidden = !prepared;
+  if (prepared) processed.src = photo.processed_url + version;
+  else processed.removeAttribute("src");
+  preparedPlaceholder(processed).hidden = prepared;
+  showCropOutline(original, photo.preparation);
   const decision = el("prepare-decision");
   decision.replaceChildren();
   const summary = document.createElement("p");
@@ -164,7 +259,11 @@ function renderPrepare() {
 
 async function prepareAll() {
   if (!state.job || state.busy) return;
-  if (state.job.ocr.regions.length && !window.confirm("Prepare again? This replaces the OCR text and any slide draft for this lesson.")) return;
+  if (state.job.ocr.regions.length && !(await askConfirm({
+    title: "Prepare the photos again?",
+    message: "This replaces the OCR text and any slide draft for this lesson.",
+    confirmLabel: "Prepare again", cancelLabel: "Keep current text",
+  }))) return;
   const button = el("prepare-button");
   setBusy(button, true, "Preparing photos…");
   try {
@@ -181,7 +280,11 @@ async function prepareAll() {
 
 async function runSelectedOcr() {
   if (!state.job || state.busy) return;
-  if (state.job.ocr.regions.length && !window.confirm("Run OCR again? This replaces your reviewed lines and any slide draft.")) return;
+  if (state.job.ocr.regions.length && !(await askConfirm({
+    title: "Run OCR again?",
+    message: "This replaces your reviewed lines and any slide draft.",
+    confirmLabel: "Replace and re-read", cancelLabel: "Keep my edits",
+  }))) return;
   const model = el("ocr-model").value;
   const button = el("run-ocr-button");
   setBusy(button, true, "Reading photos; this may take a minute…");
@@ -314,10 +417,13 @@ function renderPlannerInput() {
     };
     const previous = state.plannerDraft[index - 1];
     const next = state.plannerDraft[index + 1];
-    action("Split into boxes", line.source_region_ids.length > 1, () => {
+    action("Split into boxes", line.source_region_ids.length > 1, async () => {
       const originals = line.source_region_ids.map((id) => state.job.ocr.regions.find((row) => row.id === id));
-      if (line.text.trim() !== originals.map((row) => row.text).join(" ").trim() &&
-          !window.confirm("Splitting restores the saved text in each source box. Continue?")) return;
+      if (line.text.trim() !== originals.map((row) => row.text).join(" ").trim() && !(await askConfirm({
+        title: "Split this group?",
+        message: "Splitting restores the saved text in each source box, so your edits to this group are lost.",
+        confirmLabel: "Split and restore", cancelLabel: "Keep group",
+      }))) return;
       state.plannerDraft.splice(index, 1, ...originals.map((row) => ({
         id: row.id, text: row.text, photo_id: row.photo_id || null, source_region_ids: [row.id],
       })));
@@ -465,7 +571,11 @@ async function rerunOcr() {
     if (state.dirty) { notify("Save your text edits before changing the OCR model.", true); return; }
     renderPrepare(); showStep("prepare"); return;
   }
-  if (!window.confirm("Run OCR again? This replaces the current board lines and any slide draft.")) return;
+  if (!(await askConfirm({
+    title: "Run OCR again?",
+    message: "This replaces the current board lines and any slide draft.",
+    confirmLabel: "Replace and re-read", cancelLabel: "Keep my edits",
+  }))) return;
   const button = el("ocr-run");
   setBusy(button, true, "Reading photo…");
   try {
@@ -713,7 +823,11 @@ async function regenerateDraft() {
     notify("Save your slide edits before regenerating; regeneration replaces the current draft.", true);
     return;
   }
-  if (!window.confirm("Regenerate this LLM draft? The new result will replace your saved slide edits.")) return;
+  if (!(await askConfirm({
+    title: "Regenerate the LLM draft?",
+    message: "The new result will replace your saved slide edits.",
+    confirmLabel: "Regenerate", cancelLabel: "Keep this draft",
+  }))) return;
   const button = el("regenerate-plan");
   setBusy(button, true, "Regenerating…");
   try {
