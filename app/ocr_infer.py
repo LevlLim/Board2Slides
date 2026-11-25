@@ -16,7 +16,7 @@ PROJECT = HERE.parent
 DEFAULT_CACHE = PROJECT / ".cache" / "paddlex"
 DEFAULT_RECOGNIZER = PROJECT / "models" / "ocr" / "recognizer"
 MODEL_NAMES = {
-    "baseline": "V1 · English 94-character baseline",
+    "baseline": "V1 · Untuned PaddleOCR server reader",
     "tuned": "V2 · Team final recognizer",
     "augmented": "V3 · Multilingual-character recognizer",
 }

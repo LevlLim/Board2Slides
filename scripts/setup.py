@@ -52,7 +52,7 @@ def main() -> None:
     if not (ROOT / "models/ocr/detector/inference.pdiparams").is_file():
         raise RuntimeError("The official mobile OCR detector is missing.")
     if not (ROOT / "models/ocr/baseline_rec/inference.pdiparams").is_file():
-        raise RuntimeError("The English 94-character OCR baseline recognizer is missing.")
+        raise RuntimeError("The untuned PaddleOCR server recognizer is missing.")
     if not (ROOT / "models/ocr/augmented_rec/inference.pdiparams").is_file():
         raise RuntimeError("The multilingual-character OCR recognizer is missing.")
     if not (ROOT / "models/llm/adapter/adapter_model.safetensors").is_file():
