@@ -35,7 +35,7 @@ The first upload is about 264 MiB of application files and exported weights. The
 
 ## 4. Turn on GPU and set billing controls
 
-When the image builds, open the Space **Settings → Hardware**, choose **1× L4 GPU**, and check the displayed rate before confirming. The listed rate is US$0.80 per running hour as of November 2026. In **Settings → Variables**, set `BOARD2SLIDES_LLM_DEVICE` to `cuda` so the cloud request fails clearly if the GPU is not available rather than silently using the CPU. Set a custom **sleep time** (for example, one hour of inactivity). GPU time is billed while the Space is starting or running; sleeping and manually paused time are not billed. The PRO subscription remains separate.
+When the image builds, open the Space **Settings → Hardware** and choose **1× A10G small**, the GPU on which this application reached Running and completed OCR, LLM planning, and PowerPoint export in November 2026. Check the current displayed rate before confirming. In **Settings → Variables**, set `BOARD2SLIDES_LLM_DEVICE` to `cuda` so the cloud request fails clearly if the GPU is not available rather than silently using the CPU. Set a custom **sleep time** (for example, one hour of inactivity). GPU time is billed while the Space is starting or running; sleeping and manually paused time are not billed. The PRO subscription remains separate.
 
 For a planned demo, open the Space early, wait for it to wake, then run a complete rehearsal. When testing ends, use **Settings → Pause**. A paused Space requires an owner or collaborator to restart it; ordinary visitors cannot wake it. Automatic sleep can be woken by a visit.
 
