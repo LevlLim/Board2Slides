@@ -65,10 +65,10 @@ def main() -> None:
         return
     if not args.space or args.space.count("/") != 1:
         parser.error("Supply the existing Space as USERNAME/SPACE_NAME")
-    status = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT,
+    status = subprocess.run(["git", "status", "--porcelain", "--untracked-files=no"], cwd=ROOT,
                             check=True, capture_output=True, text=True).stdout
     if status.strip():
-        parser.error("Commit or discard local changes before uploading the Space")
+        parser.error("Commit tracked changes before uploading the Space")
 
     from huggingface_hub import CommitOperationAdd, HfApi
 

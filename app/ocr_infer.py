@@ -17,7 +17,7 @@ DEFAULT_CACHE = PROJECT / ".cache" / "paddlex"
 DEFAULT_RECOGNIZER = PROJECT / "models" / "ocr" / "recognizer"
 MODEL_NAMES = {
     "baseline": "V1 · Untuned PaddleOCR server reader",
-    "tuned": "V2 · Team final recognizer",
+    "tuned": "V2 · Team 94-character English recognizer",
     "augmented": "V3 · Multilingual-character recognizer",
 }
 

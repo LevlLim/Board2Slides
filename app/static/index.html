@@ -7,8 +7,8 @@
   <meta name="description" content="Turn a classroom board photo into an editable study deck.">
   <title>Board2Slides · Photo to study deck</title>
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
-  <link rel="stylesheet" href="/assets/styles.css?v=20261125-orientation">
-  <script src="/assets/app.js?v=20261125-orientation" defer></script>
+  <link rel="stylesheet" href="/assets/styles.css?v=20261125-rotate-buttons">
+  <script src="/assets/app.js?v=20261125-rotate-buttons" defer></script>
 </head>
 <body>
   <div class="site-shell">
@@ -112,23 +112,23 @@
         <div class="prepare-grid">
           <div class="comparison-card">
             <div class="comparison-images">
-              <figure><figcaption>Original</figcaption><div><img id="prepare-original" alt="Original uploaded photo"></div></figure>
-              <figure><figcaption>Prepared for OCR</figcaption><div><img id="prepare-processed" alt="Photo prepared for OCR"></div></figure>
+              <figure>
+                <figcaption>Photo to read</figcaption>
+                <div class="preparation-image-frame"><img id="prepare-original" alt="Uploaded photo shown at the selected orientation"></div>
+                <div class="rotate-controls" role="group" aria-label="Rotate the selected photo">
+                  <button id="rotate-left" type="button" aria-label="Rotate photo left 90 degrees"><span aria-hidden="true">↶</span> Rotate left</button>
+                  <button id="rotate-right" type="button" aria-label="Rotate photo right 90 degrees">Rotate right <span aria-hidden="true">↷</span></button>
+                </div>
+                <p id="photo-turn-status" class="rotate-status" role="status">As uploaded</p>
+              </figure>
+              <figure><figcaption>Prepared for OCR</figcaption><div class="preparation-image-frame"><img id="prepare-processed" alt="Photo prepared for OCR"></div></figure>
             </div>
             <div id="prepare-decision" class="decision-note">Choose a preparation mode, then prepare the photos.</div>
           </div>
           <div class="settings-card">
             <p class="section-kicker">PHOTO PREPARATION</p>
             <h3>Choose how to read them</h3>
-            <label class="field"><span id="photo-turn-label">Orientation for this photo</span>
-              <select id="photo-turn">
-                <option value="0">As uploaded</option>
-                <option value="270">Turn left 90°</option>
-                <option value="90">Turn right 90°</option>
-                <option value="180">Turn upside down</option>
-              </select>
-            </label>
-            <p class="settings-note">Choose separately for each photo. If the writing runs down the screen, turn it left 90°. Press Prepare photos to apply the choice.</p>
+            <p class="settings-note">Use the arrows under the photo to turn sideways writing upright. The preview changes immediately; press Prepare photos to apply it before OCR.</p>
             <label class="field"><span>Photo preparation</span>
               <select id="prepare-mode">
                 <optgroup label="Recommended for normal use">

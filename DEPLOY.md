@@ -1,50 +1,59 @@
-# Deploy Board2Slides to a Hugging Face GPU Space
+# Deploy Board2Slides to a Hugging Face Docker Space
 
-This keeps the phone website, photo preparation, OCR, Qwen slide planner, and PowerPoint renderer in one container. The same repository still runs locally with `python scripts/run.py`. A cloud build and end-to-end cloud run must be completed before claiming a successful deployment.
+This hosts the phone website, photo preparation, OCR, Qwen slide planner, and PowerPoint renderer in one container. Follow the local setup in [README.md](README.md) first. Uploading files starts a rebuild; verify an actual OCR-to-PowerPoint run before reporting the new revision as deployed.
 
 ## 1. Create the account and private Space
 
-1. Create and verify a [Hugging Face account](https://huggingface.co/join). A personal [PRO subscription](https://huggingface.co/pro) is currently required to create a Docker Space; add a payment method in your own account. The subscription and GPU usage are billed separately.
-2. Open [Create a Space](https://huggingface.co/new-space). Set **Owner** to your account, **SDK** to **Docker**, **Visibility** to **Private**, and hardware to **CPU Basic** initially. The current Space is `Levl07/Board2Notes`. A private Space is accessible only to its owner and permitted collaborators; decide how the team will access it before relying on independent teammate testing.
+1. Create and verify a [Hugging Face account](https://huggingface.co/join). Hugging Face currently requires a paid plan to create a Docker Space on CPU Basic; a personal account uses [PRO](https://huggingface.co/pro). Check the current options and billing terms in your account before choosing hardware. GPU usage is charged separately from a subscription. See the [Spaces overview](https://huggingface.co/docs/hub/spaces-overview).
+2. Open [Create a Space](https://huggingface.co/new-space). Set **Owner** to your account, **SDK** to **Docker**, **Visibility** to **Private** for team testing, and hardware to **CPU Basic** initially. The existing team Space is `Levl07/Board2Notes`; use it if you have write access. For a different Space, substitute its `USERNAME/SPACE_NAME` in the commands below. A private Space is visible only to its owner and permitted collaborators; a link alone cannot grant a teammate or examiner access.
 3. Do not select paid GPU hardware until the application upload and image build are ready. The Dockerfile includes a CUDA version of PyTorch; the pinned public Qwen base downloads when the container starts so it does not inflate the Docker image.
 
 The deployment metadata (`sdk: docker`, `app_port: 8000`) is already at the top of this repository's `README.md`.
 
 ## 2. Review and commit the application
 
-Use GitHub Desktop to inspect the changes, commit them, and push to `LevlLim/Board2Slides`. Do not add `models/llm/base`, `data`, `.venv-*`, `node_modules`, `.cache`, or the raw `board2notes_*` folders. The deployment uploader only selects the app, exported OCR models, LoRA adapter, requirements, renderer, and Docker files.
+From the cloned repository, use GitHub Desktop or Git to inspect, commit, and push tested changes to the team's [GitHub repository](https://github.com/LevlLim/Board2Slides). Do not add `models/llm/base`, `data`, `.venv-*`, `node_modules`, `.cache`, student photos, or the raw `board2notes_*` folders. The deployment uploader selects only the app, exported OCR models, LoRA adapter, requirements, renderer, and Docker files.
 
-The upload command requires a clean Git working tree. It previews the exact tracked files before writing to the Space. Its Space commit substitutes an LFS-enabled `.gitattributes` for the local GitHub version so the Docker build receives real OCR and adapter weights instead of pointer text.
+The upload command requires all **tracked changes to be committed**. Check `git status --short` and commit the app changes you intend to publish. Untracked local photos are excluded from the deployment manifest and do not block an upload; inspect them separately before any GitHub commit. The command previews the exact tracked files before writing to the Space. Its Space commit substitutes an LFS-enabled `.gitattributes` for the GitHub version so the Docker build receives real OCR and adapter weights instead of pointer text.
 
 ## 3. Log in and upload from Windows
 
-Open PowerShell and run:
+Open PowerShell in your clone. Replace the example folder and Space ID with your own values. If you already opened a terminal in the repository folder, skip the `cd` line.
 
 ```powershell
-cd 'C:\Users\levll\SIT\Year 2\Tri 1\3001 CVDL (6)\Assignment\Board2Slides-App'
+cd 'C:\path\to\Board2Slides'
 .\.venv-llm\Scripts\hf.exe auth login
 .\.venv-llm\Scripts\python.exe scripts\deploy_space.py
-.\.venv-llm\Scripts\python.exe scripts\deploy_space.py Levl07/Board2Notes --upload
+$spaceId = 'YOUR_USERNAME/YOUR_SPACE_NAME'
+.\.venv-llm\Scripts\python.exe scripts\deploy_space.py $spaceId --upload
 ```
 
-The login command opens an authorization flow; do not place a token in a command, Git commit, or chat message. If `.venv-llm` is missing, complete the local `python scripts\setup.py` first.
+The login command opens an authorization flow; do not place a token in a command, Git commit, or chat message. If `.venv-llm` is missing, complete `python scripts\setup.py` from [README.md](README.md) first. The preview command prints the deployment manifest and does not upload anything. Use `--upload` only when ready to update the Space.
 
-For a teammate deploying from a Mac clone, run the same last three commands with `.venv-llm/bin/hf`, `.venv-llm/bin/python`, and their own clone path. They must have upload rights to the Space. The uploader rejects a public Space unless `--allow-public` is deliberately supplied.
+On a Mac, open Terminal in the cloned repository and use:
 
-The first upload is about 264 MiB of application files and exported weights. The 4.1 GB Qwen base downloads when a new cloud container starts, not from your laptop or GitHub repository. Watch **Build logs** and then **Run logs** on `https://huggingface.co/spaces/Levl07/Board2Notes`. The initial build installs PaddleOCR, CUDA PyTorch, and Node packages; startup waits for the Qwen download. Docker Desktop is optional on this Windows computer; the Space builds the image remotely.
+```bash
+./.venv-llm/bin/hf auth login
+./.venv-llm/bin/python scripts/deploy_space.py
+./.venv-llm/bin/python scripts/deploy_space.py YOUR_USERNAME/YOUR_SPACE_NAME --upload
+```
+
+The person uploading must have write access to the Space. The uploader rejects a public Space unless `--allow-public` is deliberately supplied.
+
+Expect an upload of several hundred MiB of application files and exported weights. The 4.1 GB Qwen base downloads when a new cloud container starts, not from your computer or GitHub repository. Watch **Build logs** and then **Run logs** at `https://huggingface.co/spaces/USERNAME/SPACE_NAME`. The first build installs PaddleOCR, CUDA PyTorch, and Node packages; startup waits for the Qwen download. Docker Desktop is optional because Hugging Face builds the image remotely.
 
 ## 4. Turn on GPU and set billing controls
 
-When the image builds, open the Space **Settings → Hardware** and choose **1× A10G small**, the GPU on which this application reached Running and completed OCR, LLM planning, and PowerPoint export in November 2026. Check the current displayed rate before confirming. In **Settings → Variables**, set `BOARD2SLIDES_LLM_DEVICE` to `cuda` so the cloud request fails clearly if the GPU is not available rather than silently using the CPU. Set a custom **sleep time** (for example, one hour of inactivity). GPU time is billed while the Space is starting or running; sleeping and manually paused time are not billed. The PRO subscription remains separate.
+When the image builds, open the Space **Settings → Hardware** and choose a GPU with enough memory. The team previously completed OCR, LLM planning, and PowerPoint export on **1× A10G small**; availability and price can change, so check the current selection before confirming. In **Settings → Variables**, set `BOARD2SLIDES_LLM_DEVICE` to `cuda` so the cloud request fails clearly if the GPU is unavailable rather than silently using the CPU. Set a custom **sleep time** (for example, one hour of inactivity). Hugging Face bills GPU time while the Space is Starting or Running, by the minute; sleeping and manually paused time are not billed. See the [GPU billing guide](https://huggingface.co/docs/hub/spaces-gpus).
 
 For a planned demo, open the Space early, wait for it to wake, then run a complete rehearsal. When testing ends, use **Settings → Pause**. A paused Space requires an owner or collaborator to restart it; ordinary visitors cannot wake it. Automatic sleep can be woken by a visit.
 
 ## 5. Verify the full cloud pipeline
 
-1. Open the Space while signed in. Check `/api/health`; `ocr_ready`, `llm_ready`, and `renderer_ready` should be `true`, and all three OCR choices should be available. This is a file and executable check, not an inference test.
+1. Open the Space's **App** tab while signed in. Copy its direct App URL and append `/api/health`. `ocr_ready`, `llm_ready`, and `renderer_ready` should be `true`, and all three OCR choices should be available. This is a file and executable check, not an inference test.
 2. Upload a board photo from a phone, prepare it, select an OCR version, run OCR, review the coloured boxes, and correct the joined text.
 3. Run the Qwen planner and export a PowerPoint. Download the deck. Repeat with two ordered photos to verify the multi-photo path.
-4. Record the cloud URL, the hardware badge, OCR time, slide-plan time, and a screenshot or short video. For the rubric's local-and-cloud demonstration, also record the same flow from the local laptop server. Stop the laptop server and use phone mobile data to prove the cloud URL is independent of the laptop.
+4. Record the Space App URL, the hardware badge, OCR time, slide-plan time, and a screenshot or short video. For the local-and-cloud demonstration, also record the same flow from the local laptop server. Stop the laptop server and use phone mobile data to show that the cloud App URL is independent of the laptop. A private Space requires a signed-in collaborator; arrange examiner access or change visibility deliberately before sharing the link.
 
 If `/api/health` is ready but an actual request fails, inspect **Run logs** on the Space. Check CUDA availability, model download, memory, and the app error before retrying. The first photo or LLM request tests the actual runtimes.
 

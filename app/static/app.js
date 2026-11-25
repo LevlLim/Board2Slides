@@ -58,6 +58,33 @@ function preparedPlaceholder(image) {
   return note;
 }
 
+let orientedPreviewVersion = 0;
+function showOrientedPhoto(image, url, turn) {
+  const version = ++orientedPreviewVersion;
+  image.removeAttribute("src");
+  if (!turn) { image.src = url; return; }
+  const source = new Image();
+  source.onload = () => {
+    if (version !== orientedPreviewVersion) return;
+    const scale = Math.min(1, 1600 / Math.max(source.naturalWidth, source.naturalHeight));
+    const width = Math.max(1, Math.round(source.naturalWidth * scale));
+    const height = Math.max(1, Math.round(source.naturalHeight * scale));
+    const canvas = document.createElement("canvas");
+    canvas.width = turn % 180 ? height : width;
+    canvas.height = turn % 180 ? width : height;
+    const context = canvas.getContext("2d");
+    if (!context) return;
+    context.translate(canvas.width / 2, canvas.height / 2);
+    context.rotate(turn * Math.PI / 180);
+    context.drawImage(source, -width / 2, -height / 2, width, height);
+    image.src = canvas.toDataURL("image/jpeg", 0.9);
+  };
+  source.onerror = () => {
+    if (version === orientedPreviewVersion) el("photo-turn-status").textContent = "Could not load the photo preview. Try Prepare photos to check the result.";
+  };
+  source.src = url;
+}
+
 // Outline the kept area on the original after a crop. Skipped when perspective was corrected,
 // because the crop is then measured on the warped image and would not line up with the original.
 function showCropOutline(image, preparation) {
@@ -224,18 +251,18 @@ function renderPrepare() {
   const photo = currentPhoto();
   const turn = state.turns.get(photo.id) || 0;
   const photoNumber = state.job.photos.findIndex((item) => item.id === photo.id) + 1;
-  el("photo-turn-label").textContent = `Orientation for photo ${photoNumber}`;
-  el("photo-turn").value = String(turn);
+  const orientation = { 0: "As uploaded", 90: "Turned right 90°", 180: "Turned 180°", 270: "Turned left 90°" };
+  el("photo-turn-status").textContent = `Photo ${photoNumber} · ${orientation[turn]}`;
   const version = `?v=${state.job.revision}`;
   const original = el("prepare-original");
   const processed = el("prepare-processed");
   const prepared = Boolean(photo.preparation);
-  original.src = photo.original_url;
+  showOrientedPhoto(original, photo.original_url, turn);
   processed.hidden = !prepared;
   if (prepared) processed.src = photo.processed_url + version;
   else processed.removeAttribute("src");
   preparedPlaceholder(processed).hidden = prepared;
-  showCropOutline(original, photo.preparation?.turn ? null : photo.preparation);
+  showCropOutline(original, turn || photo.preparation?.turn ? null : photo.preparation);
   const decision = el("prepare-decision");
   decision.replaceChildren();
   const summary = document.createElement("p");
@@ -1044,11 +1071,14 @@ el("start-upload").addEventListener("click", () => begin(false));
 el("sample-button").addEventListener("click", () => begin(true));
 el("prepare-button").addEventListener("click", prepareAll);
 el("prepare-mode").addEventListener("change", renderPrepare);
-el("photo-turn").addEventListener("change", () => {
-  if (!state.activePhotoId) return;
-  state.turns.set(state.activePhotoId, Number(el("photo-turn").value));
+function rotateCurrentPhoto(degrees) {
+  if (!state.activePhotoId || state.busy) return;
+  const turn = state.turns.get(state.activePhotoId) || 0;
+  state.turns.set(state.activePhotoId, (turn + degrees + 360) % 360);
   renderPrepare();
-});
+}
+el("rotate-left").addEventListener("click", () => rotateCurrentPhoto(-90));
+el("rotate-right").addEventListener("click", () => rotateCurrentPhoto(90));
 el("ocr-model").addEventListener("change", renderPrepare);
 el("run-ocr-button").addEventListener("click", runSelectedOcr);
 el("skip-ocr-button").addEventListener("click", () => {
