@@ -1,7 +1,10 @@
 const state = { job: null, step: "upload", busy: false, dirty: false, originalVisual: null,
   ocrReady: false, models: [], files: [], activePhotoId: null, draftByPhoto: new Map(),
-  plannerDraft: [], plannerDirty: false };
+  plannerDraft: [], plannerDirty: false, previewIndex: 0, previewJobId: null,
+  includedSlides: new Set() };
 const stepNames = ["upload", "prepare", "review", "plan", "export"];
+const slideOrder = ["cover", "overview", "visual", "example"];
+const slideLabels = { cover: "Cover", overview: "Key points", visual: "Visual", example: "Activity" };
 const regionColor = (index) => `hsl(${Math.round(index * 137.508) % 360} 67% 37%)`;
 const el = (id) => document.getElementById(id);
 
@@ -721,6 +724,10 @@ function makePoint(point, index) {
 function renderPlan() {
   const plan = state.job && state.job.plan;
   if (!plan) return;
+  if (state.previewJobId !== state.job.id) state.previewIndex = 0;
+  state.previewJobId = state.job.id;
+  state.includedSlides = new Set(plan.included_slides ||
+    (plan.visual?.type === "none" ? ["cover", "overview", "example"] : slideOrder));
   el("plan-title-input").value = plan.title;
   el("plan-summary").value = plan.summary;
   el("point-list").replaceChildren(...plan.key_points.map(makePoint));
@@ -745,7 +752,7 @@ function renderVisual() {
   const useVisual = el("visual-choice").value === "model" && visual.type !== "none";
   el("visual-reason").textContent = useVisual
     ? visual.type.replaceAll("_", " ") + " · " + (visual.reason || "Review this visual against the board.")
-    : "Explanation only: the visual slide will use text from the slide plan.";
+    : "Explanation only. The recap slide repeats the summary, so it starts removed from the deck.";
   const box = el("visual-data");
   box.replaceChildren();
   if (!useVisual) return;
@@ -759,8 +766,77 @@ function renderVisual() {
 }
 
 function updatePreview() {
-  el("preview-title").textContent = el("plan-title-input").value || "Your board topic";
-  el("preview-summary").textContent = el("plan-summary").value || "Your reviewed board notes will appear here.";
+  if (!state.job?.plan) return;
+  const kind = slideOrder[state.previewIndex];
+  const included = state.includedSlides.has(kind);
+  const title = el("plan-title-input").value.trim() || "Your board topic";
+  const summary = el("plan-summary").value.trim() || "Your reviewed board notes will appear here.";
+  const points = [...el("point-list").children].map((card) => ({
+    heading: card.querySelector("input").value.trim(),
+    explanation: card.querySelector("textarea").value.trim(),
+  }));
+  const slide = el("preview-slide");
+  slide.replaceChildren();
+  slide.classList.toggle("preview-removed", !included);
+  const accent = document.createElement("div"); accent.className = "preview-accent";
+  const label = document.createElement("p"); label.className = "preview-label";
+  label.textContent = kind === "cover" ? "STUDY DECK" : slideLabels[kind].toUpperCase();
+  const heading = document.createElement("h3");
+  const body = document.createElement("div"); body.className = "preview-body";
+  const paragraph = (value, className = "") => {
+    const node = document.createElement("p"); node.textContent = value; node.className = className;
+    body.append(node);
+  };
+  if (kind === "cover") {
+    heading.textContent = title;
+    paragraph(summary);
+  } else if (kind === "overview") {
+    heading.textContent = "Lesson overview";
+    paragraph(summary, "preview-lead");
+    points.forEach((point, index) => paragraph(`${index + 1}. ${point.heading}: ${point.explanation}`));
+  } else if (kind === "example") {
+    heading.textContent = el("example-title").value.trim() || "Review activity";
+    paragraph(el("example-description").value.trim() || "Your activity prompt appears here.", "preview-lead");
+  } else {
+    const visual = el("visual-choice").value === "model" && state.originalVisual.type !== "none"
+      ? state.originalVisual : { type: "none", title: "No additional visual", data: {} };
+    heading.textContent = visual.title || "Visual";
+    if (visual.type === "none") paragraph("This slide would repeat the opening summary. You can leave it removed.");
+    else if (["bar_chart", "line_chart"].includes(visual.type)) {
+      paragraph(`${visual.type === "bar_chart" ? "Bar" : "Line"} chart · ${visual.data.unit || "values"}`, "preview-lead");
+      (visual.data.labels || []).forEach((item, index) => paragraph(`${item}: ${(visual.data.series || []).map(series => series.values[index]).join(" / ")}`));
+    } else if (visual.type === "process") {
+      (visual.data.steps || []).forEach((step, index) => paragraph(`${index + 1}. ${step}`));
+    } else if (visual.type === "comparison_table") {
+      paragraph((visual.data.columns || []).join(" · "), "preview-lead");
+      (visual.data.rows || []).forEach(row => paragraph(row.join(" · ")));
+    } else if (visual.type === "formula") {
+      paragraph(visual.data.expression || "Formula", "preview-lead");
+      (visual.data.worked_steps || []).forEach((step, index) => paragraph(`${index + 1}. ${step}`));
+    }
+  }
+  const rule = document.createElement("div"); rule.className = "preview-rule";
+  const footer = document.createElement("span"); footer.textContent = "Board2Slides";
+  slide.append(accent, label, heading, rule, body, footer);
+  el("preview-count").textContent = `${String(state.previewIndex + 1).padStart(2, "0")} / 04`;
+  el("preview-prev").disabled = state.previewIndex === 0;
+  el("preview-next").disabled = state.previewIndex === slideOrder.length - 1;
+  el("preview-toggle").textContent = included ? "Remove slide" : "Restore slide";
+  el("preview-status").textContent = included
+    ? `${slideLabels[kind]} is included · ${state.includedSlides.size} slide${state.includedSlides.size === 1 ? "" : "s"} in the PowerPoint.`
+    : `${slideLabels[kind]} is removed from the PowerPoint. Restore it any time.`;
+  const list = el("preview-slide-list");
+  list.replaceChildren(...slideOrder.map((id, index) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "preview-tab" + (index === state.previewIndex ? " active" : "") +
+      (state.includedSlides.has(id) ? "" : " removed");
+    button.textContent = `${index + 1}. ${slideLabels[id]}`;
+    button.setAttribute("aria-label", `${slideLabels[id]} slide, ${state.includedSlides.has(id) ? "included" : "removed"}`);
+    if (index === state.previewIndex) button.setAttribute("aria-current", "step");
+    button.addEventListener("click", () => { state.previewIndex = index; updatePreview(); });
+    return button;
+  }));
 }
 
 function collectPlan() {
@@ -783,7 +859,9 @@ function collectPlan() {
             ? state.job.planner_input.regions.map((region) => region.id)
             : state.job.ocr.regions.map((region) => region.id), data: {} },
     uncertain_ocr_terms: state.job.plan.uncertain_ocr_terms || [],
+    included_slides: slideOrder.filter((slide) => state.includedSlides.has(slide)),
   };
+  if (!plan.included_slides.length) throw new Error("Keep at least one slide in the deck.");
   if (!plan.title || !plan.summary || !plan.example.title || !plan.example.description ||
       plan.key_points.some((point) => !point.heading || !point.explanation)) {
     throw new Error("Complete every slide field before exporting.");
@@ -988,7 +1066,21 @@ el("plan-back").addEventListener("click", () => {
   renderOcr(); showStep("review");
 });
 el("plan-form").addEventListener("input", () => { updatePreview(); setDirty(true); });
-el("visual-choice").addEventListener("change", () => { renderVisual(); setDirty(true); });
+el("visual-choice").addEventListener("change", () => {
+  if (el("visual-choice").value === "none") state.includedSlides.delete("visual");
+  else if (state.originalVisual.type !== "none") state.includedSlides.add("visual");
+  renderVisual(); updatePreview(); setDirty(true);
+});
+el("preview-prev").addEventListener("click", () => { state.previewIndex--; updatePreview(); });
+el("preview-next").addEventListener("click", () => { state.previewIndex++; updatePreview(); });
+el("preview-toggle").addEventListener("click", () => {
+  const kind = slideOrder[state.previewIndex];
+  if (state.includedSlides.has(kind)) {
+    if (state.includedSlides.size === 1) { notify("Keep at least one slide in the deck.", true); return; }
+    state.includedSlides.delete(kind);
+  } else state.includedSlides.add(kind);
+  updatePreview(); setDirty(true);
+});
 el("plan-form").addEventListener("submit", (event) => event.preventDefault());
 el("save-plan").addEventListener("click", saveDraft);
 el("regenerate-plan").addEventListener("click", regenerateDraft);

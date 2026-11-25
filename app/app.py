@@ -92,6 +92,7 @@ class PlanUpdate(BaseModel):
     example: Example
     visual: dict
     uncertain_ocr_terms: list[str] = Field(default_factory=list, max_length=30)
+    included_slides: list[str] | None = None
 
 
 class RevisionRequest(BaseModel):
@@ -228,6 +229,14 @@ def validate_plan(plan: dict, ocr: dict) -> dict:
     ids = {region["id"] for region in ocr["regions"]}
     if not set(visual["source_region_ids"]).issubset(ids):
         raise HTTPException(422, "The visual cites board regions that do not exist.")
+    if clean["included_slides"] is None:
+        clean["included_slides"] = (["cover", "overview", "example"] if visual["type"] == "none"
+                                    else ["cover", "overview", "visual", "example"])
+    slides = clean["included_slides"]
+    if not slides or len(slides) != len(set(slides)) or any(
+            item not in {"cover", "overview", "visual", "example"} for item in slides):
+        raise HTTPException(422, "Keep at least one valid slide in the deck.")
+    clean["included_slides"] = [item for item in ("cover", "overview", "visual", "example") if item in slides]
     return clean
 
 
@@ -934,6 +943,7 @@ def create_plan(job_id: str, payload: PlanRequest):
                        "reason": "Demo planner uses reviewed board text only.",
                        "source_region_ids": [r["id"] for r in regions], "data": {}},
         }
+    plan = validate_plan(plan, ocr)
     with JOB_LOCK:
         job = read_job(job_id)
         check_revision(job, payload.revision)

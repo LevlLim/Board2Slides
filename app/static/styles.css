@@ -299,14 +299,24 @@ h1 em { font-style: normal; background: linear-gradient(transparent 56%, var(--h
 
 /* ---------- preview ---------- */
 .preview-column { display: grid; gap: 16px; }
+.preview-slide-list { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 13px; }
+.preview-tab { padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--ink); font: inherit; font-size: 12px; font-weight: 800; cursor: pointer; }
+.preview-tab.active { border-color: var(--ink); background: var(--amber); }
+.preview-tab.removed { color: var(--muted); text-decoration: line-through; background: #f3f5f7; }
+.preview-controls { display: flex; gap: 8px; justify-content: space-between; margin-top: 12px; }
+.preview-controls .button { min-width: 0; padding: 9px 11px; font-size: 12px; }
+.preview-controls button:disabled { opacity: .45; cursor: not-allowed; box-shadow: none; }
 /* column layout: the footer label sits after the text, so the two can never overlap,
    and the slide grows instead of clipping a long summary */
-.preview-slide { position: relative; display: flex; flex-direction: column; aspect-ratio: 16 / 9; padding: 44px 34px 18px; overflow: visible; border: 2px solid var(--ink); border-radius: 10px; background: #fff; box-shadow: none; }
+.preview-slide { position: relative; display: flex; flex-direction: column; min-height: 280px; padding: 44px 34px 18px; border: 2px solid var(--ink); border-radius: 10px; background: #fff; box-shadow: none; }
+.preview-slide.preview-removed { background: #f4f5f6; }
 .preview-accent { position: absolute; top: 0; left: 0; width: 100%; height: 11px; background: var(--amber); border-bottom: 2px solid var(--ink); border-radius: 8px 8px 0 0; }
-.preview-slide > p:first-of-type { color: var(--muted); font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+.preview-label { color: var(--muted); font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
 .preview-slide h3 { max-width: 90%; margin: 12px 0 16px; color: var(--ink); font-family: var(--ff); font-size: clamp(23px, 2.4vw, 36px); font-weight: 800; line-height: 1.12; letter-spacing: -.03em; }
 .preview-rule { width: 56px; height: 4px; border-radius: 3px; background: var(--pink); margin-bottom: 16px; }
-.preview-slide > p:nth-of-type(2) { max-width: 78%; color: var(--ink-2); font-size: 13.5px; line-height: 1.6; }
+.preview-body { display: grid; align-content: start; gap: 7px; max-width: 100%; color: var(--ink-2); font-size: 13px; line-height: 1.45; overflow-wrap: anywhere; }
+.preview-body p { margin: 0; }
+.preview-body .preview-lead { color: var(--ink); font-weight: 800; }
 .preview-slide > span { margin-top: auto; padding-top: 10px; color: var(--muted); font-family: var(--ff-hand); font-size: 16px; font-weight: 600; }
 .review-reminder { display: flex; gap: 13px; align-items: start; padding: 16px 18px; border: 2px solid var(--ink); border-left-width: 9px; border-left-color: var(--pink); border-radius: 11px; background: #ffecf1; color: var(--ink-2); }
 .review-reminder > span { color: var(--pink); font-size: 23px; line-height: 1; }
@@ -334,6 +344,9 @@ h1 em { font-style: normal; background: linear-gradient(transparent 56%, var(--h
 .button.primary.danger { background: var(--pink); }
 .button.primary.danger:hover { background: #8f2c4e; }
 
+@media (max-width: 1100px) {
+  .plan-grid { grid-template-columns: minmax(0, 1fr); }
+}
 @media (max-width: 900px) {
   .site-shell { padding: 0 28px; }
   .upload-grid { gap: 28px; grid-template-columns: 1fr 1fr; }
@@ -370,13 +383,15 @@ h1 em { font-style: normal; background: linear-gradient(transparent 56%, var(--h
   .section-heading { display: block; } .section-heading h2 { font-size: 32px; margin-bottom: 10px; } .section-heading > p { max-width: 100%; font-size: 13.5px; }
   .photo-card, .editor-card, .slide-preview { padding: 17px; }
   .photo-frame { max-height: 350px; } .photo-frame img { max-height: 350px; }
-  .preview-slide { padding: 32px 22px 15px; } .preview-slide h3 { font-size: 24px; margin: 9px 0 12px; } .preview-slide > p:nth-of-type(2) { max-width: 92%; font-size: 12px; }
+  .preview-slide { padding: 32px 22px 15px; } .preview-slide h3 { font-size: 24px; margin: 9px 0 12px; } .preview-body { font-size: 12px; }
+  .preview-controls { flex-wrap: wrap; } .preview-controls .button { flex: 1 1 28%; }
   .view-actions { margin-bottom: 40px; } .view-actions .button { padding: 11px 14px; font-size: 14px; }
   .footer { font-size: 11px; }
 }
 @media (max-width: 420px) {
   .brand { font-size: 22px; } .demo-pill { padding: 6px 9px; font-size: 11px; }
   .upload-actions { flex-direction: column; } .upload-panel { padding: 20px; }
+  .preview-controls .button { flex: 1 1 100%; }
   .view-actions { flex-direction: column; } .view-actions .button, .view-actions .planner-choice, .view-actions .planner-choice select { width: 100%; }
   .export-actions { flex-direction: column; } .export-card { padding: 34px 18px 22px; }
   .workspace-bar { display: grid; }
