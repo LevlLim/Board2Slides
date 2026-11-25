@@ -117,6 +117,7 @@ class PlannerInputUpdate(RevisionRequest):
 
 class PrepareRequest(RevisionRequest):
     mode: str = "auto"
+    turns: dict[str, int] = Field(default_factory=dict)
 
 
 class OcrRunRequest(RevisionRequest):
@@ -193,19 +194,27 @@ def run_ocr(folder: Path, image_path: Path | None = None, model: str = "tuned") 
         output_file.unlink(missing_ok=True)
 
 
-def prepare_photo(folder: Path, photo: dict, mode: str) -> dict:
+def prepare_photo(folder: Path, photo: dict, mode: str, turn: int = 0) -> dict:
     original = folder / photo["id"] / "preview.jpg"
     processed = folder / photo["id"] / "processed.jpg"
     decision_file = folder / photo["id"] / "preparation.json"
     if mode == "original":
-        shutil.copyfile(original, processed)
-        with Image.open(processed) as image:
-            return {"mode": "original", "applied": False,
-                    "reason": "Original upright photo retained.",
-                    "width": image.width, "height": image.height}
+        if not turn:
+            shutil.copyfile(original, processed)
+            with Image.open(original) as image:
+                return {"mode": "original", "turn": 0, "applied": False,
+                        "reason": "Original upright photo retained.",
+                        "width": image.width, "height": image.height}
+        with Image.open(original) as image:
+            prepared = image.rotate(-turn, expand=True)
+            prepared.save(processed, "JPEG", quality=92)
+            return {"mode": "original", "turn": turn, "applied": bool(turn),
+                    "reason": {90: "Turned right 90°.", 180: "Turned 180°.",
+                               270: "Turned left 90°."}[turn],
+                    "width": prepared.width, "height": prepared.height}
     result = subprocess.run(
         [str(ocr_python()), str(PREPARE_SCRIPT), str(original), str(processed),
-         str(decision_file), "--mode", mode], cwd=PROJECT,
+         str(decision_file), "--mode", mode, "--turn", str(turn)], cwd=PROJECT,
         capture_output=True, text=True, timeout=180, check=False,
     )
     if result.returncode or not processed.is_file() or not decision_file.is_file():
@@ -617,13 +626,18 @@ def prepare_images(job_id: str, payload: PrepareRequest):
         if job["mode"] != "photos":
             raise HTTPException(400, "Upload photos before preparing them.")
         photos = job["photos"]
+        photo_ids = {photo["id"] for photo in photos}
+        if not set(payload.turns).issubset(photo_ids) or any(
+                turn not in {0, 90, 180, 270} for turn in payload.turns.values()):
+            raise HTTPException(400, "Choose a valid orientation for each uploaded photo.")
     if payload.mode != "original" and not ocr_ready():
         raise HTTPException(503, "The detector and OCR environment are needed for photo preparation.")
     folder = job_dir(job_id)
     decisions = []
     for photo in photos:
         try:
-            decisions.append(prepare_photo(folder, photo, payload.mode))
+            decisions.append(prepare_photo(folder, photo, payload.mode,
+                                           payload.turns.get(photo["id"], 0)))
         except Exception as exc:
             LOGGER.warning("Preparation failed for %s: %s", photo["id"], exc)
             raise HTTPException(503, f"Could not prepare {photo['name']}: {str(exc)[-400:]}") from exc

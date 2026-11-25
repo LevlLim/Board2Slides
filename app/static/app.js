@@ -1,7 +1,7 @@
 const state = { job: null, step: "upload", busy: false, dirty: false, originalVisual: null,
   ocrReady: false, models: [], files: [], activePhotoId: null, draftByPhoto: new Map(),
   plannerDraft: [], plannerDirty: false, previewIndex: 0, previewJobId: null,
-  includedSlides: new Set() };
+  includedSlides: new Set(), turns: new Map() };
 const stepNames = ["upload", "prepare", "review", "plan", "export"];
 const slideOrder = ["cover", "overview", "visual", "example"];
 const slideLabels = { cover: "Cover", overview: "Key points", visual: "Visual", example: "Activity" };
@@ -179,11 +179,13 @@ function setCurrentJob(job) {
     if (!job.photos.some((photo) => photo.id === state.activePhotoId)) state.activePhotoId = job.photos[0].id;
     state.draftByPhoto = new Map(job.photos.map((photo) => [photo.id,
       job.ocr.regions.filter((region) => region.photo_id === photo.id).map((region) => ({ ...region }))]));
+    state.turns = new Map(job.photos.map((photo) => [photo.id, photo.preparation?.turn || 0]));
     if (job.photos[0].preparation) el("prepare-mode").value = job.photos[0].preparation.mode;
     el("ocr-model").value = job.selected_model || "tuned";
   } else {
     state.activePhotoId = null;
     state.draftByPhoto = new Map();
+    state.turns = new Map();
   }
   state.plannerDraft = (job.planner_input?.regions || []).map((line) => ({
     ...line, source_region_ids: [...(line.source_region_ids || [line.id])],
@@ -220,6 +222,10 @@ function renderPrepare() {
   if (!state.job?.photos?.length) return;
   photoTabs("prepare-photo-tabs", (photoId) => { state.activePhotoId = photoId; renderPrepare(); });
   const photo = currentPhoto();
+  const turn = state.turns.get(photo.id) || 0;
+  const photoNumber = state.job.photos.findIndex((item) => item.id === photo.id) + 1;
+  el("photo-turn-label").textContent = `Orientation for photo ${photoNumber}`;
+  el("photo-turn").value = String(turn);
   const version = `?v=${state.job.revision}`;
   const original = el("prepare-original");
   const processed = el("prepare-processed");
@@ -229,7 +235,7 @@ function renderPrepare() {
   if (prepared) processed.src = photo.processed_url + version;
   else processed.removeAttribute("src");
   preparedPlaceholder(processed).hidden = prepared;
-  showCropOutline(original, photo.preparation);
+  showCropOutline(original, photo.preparation?.turn ? null : photo.preparation);
   const decision = el("prepare-decision");
   decision.replaceChildren();
   const summary = document.createElement("p");
@@ -249,13 +255,16 @@ function renderPrepare() {
     });
     decision.append(list);
   }
-  if (photo.preparation && photo.preparation.mode !== el("prepare-mode").value) {
+  if (photo.preparation && (photo.preparation.mode !== el("prepare-mode").value ||
+      (photo.preparation.turn || 0) !== turn)) {
     const note = document.createElement("p");
-    note.textContent = "This preview uses the previous mode. Press Prepare photos to see the selected mode.";
+    note.textContent = "This preview uses the previous preparation choices. Press Prepare photos to update it.";
     decision.append(note);
   }
   const ready = state.job.photos.every((item) => item.preparation);
-  const matchingMode = ready && state.job.photos.every((item) => item.preparation.mode === el("prepare-mode").value);
+  const matchingMode = ready && state.job.photos.every((item) =>
+    item.preparation.mode === el("prepare-mode").value &&
+    (item.preparation.turn || 0) === (state.turns.get(item.id) || 0));
   el("run-ocr-button").disabled = !matchingMode || !state.models.some((model) => model.id === el("ocr-model").value && model.available);
   el("skip-ocr-button").disabled = !matchingMode;
 }
@@ -272,7 +281,8 @@ async function prepareAll() {
   try {
     const job = await request(`/api/jobs/${state.job.id}/prepare`, {
       method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ revision: state.job.revision, mode: el("prepare-mode").value }),
+      body: JSON.stringify({ revision: state.job.revision, mode: el("prepare-mode").value,
+        turns: Object.fromEntries(state.turns) }),
     });
     setCurrentJob(job);
     renderPrepare();
@@ -1034,6 +1044,11 @@ el("start-upload").addEventListener("click", () => begin(false));
 el("sample-button").addEventListener("click", () => begin(true));
 el("prepare-button").addEventListener("click", prepareAll);
 el("prepare-mode").addEventListener("change", renderPrepare);
+el("photo-turn").addEventListener("change", () => {
+  if (!state.activePhotoId) return;
+  state.turns.set(state.activePhotoId, Number(el("photo-turn").value));
+  renderPrepare();
+});
 el("ocr-model").addEventListener("change", renderPrepare);
 el("run-ocr-button").addEventListener("click", runSelectedOcr);
 el("skip-ocr-button").addEventListener("click", () => {
