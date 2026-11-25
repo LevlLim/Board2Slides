@@ -28,6 +28,9 @@ A phone-friendly browser app that turns one lesson's board photos into one edita
 
 Drafts live on the server in `data/jobs`. A link or QR code opens the same draft on another device connected to that server. Save on one device and press **Refresh from server** on the other; editing is not live-synced. Anyone with a reachable draft link can edit it, so use this prototype only with your team.
 
+## Dataset 
+Our training dataset hosted [here](https://huggingface.co/datasets/TYW02/whiteboard-notes-v1) on hugging face.
+
 ## Requirements
 
 - **Windows 64-bit** or **Apple Silicon macOS**. The Mac setup has not yet been physically tested by the team. Intel Macs can use the browser against a Windows or deployed server; local model installation may need a different runtime.
