@@ -1,0 +1,1030 @@
+model,set,file,cluster,label,pred,err,chars,cer,exact_case,length,insertions,extra_repeats,adjacent_double_excess
+pretrained,his val,his__train__1.3.2.jpg,his:1.3.2,These vectors serves as the tokens which is,These vectors Seres as the toes whih is,4,43,0.09302325581395349,0,over 40 chars,0,0,0
+pretrained,his val,his__train__1.4.4.jpg,his:1.4.4,final classification head,fia classifi cation head,3,25,0.12,0,21-40 chars,1,0,0
+pretrained,his val,his__train__10.6.1.jpg,his:10.6.1,layer2 vectors of our 35 photos: they grouped by ground,layer2 rectors of our 3 photos theygrouped byground,5,55,0.09090909090909091,0,over 40 chars,0,0,0
+pretrained,his val,his__train__11.1.3.jpg,his:11.1.3,Accuracy of model says that it worked on these photos,Accuracy of model says that if worked on these photos,1,53,0.018867924528301886,0,over 40 chars,0,0,0
+pretrained,his val,his__test__11.1.4.jpg,his:11.1.4,All structure we impose on a grid,All stroctue we impose on a grid,2,33,0.06060606060606061,0,21-40 chars,0,0,0
+pretrained,his val,his__train__12.1.6.jpg,his:12.1.6,Ceramides,Ceramides,0,9,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__12.2.11.jpg,his:12.2.11,Seven,Seven,0,5,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__14.2.14.jpg,his:14.2.14,Penang,Penang,0,6,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__14.2.9.jpg,his:14.2.9,Paradox,Paradoy,1,7,0.14285714285714285,0,1-20 chars,0,0,0
+pretrained,his val,his__train__14.3.1.jpg,his:14.3.1,Cushion,Cvshion,1,7,0.14285714285714285,0,1-20 chars,0,0,0
+pretrained,his val,his__train__14.3.13.jpg,his:14.3.13,Cannabis,(annabis,1,8,0.125,0,1-20 chars,0,0,0
+pretrained,his val,his__train__14.3.15.jpg,his:14.3.15,ecstacy,cstacy,1,7,0.14285714285714285,0,1-20 chars,0,0,0
+pretrained,his val,his__train__15.2.10.jpg,his:15.2.10,Storage,Storage,0,7,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__15.2.12.jpg,his:15.2.12,Absorption,Absorption,0,10,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__15.2.9.jpg,his:15.2.9,Chylomicrons,Chylomicrons,0,12,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__15.3.1.jpg,his:15.3.1,Metabolism,metabolism,0,10,0.0,0,1-20 chars,0,0,0
+pretrained,his val,his__train__16.1.3.jpg,his:16.1.3,Edible fat is a type of food,Edible tat is aa ty pe of food,3,28,0.10714285714285714,0,21-40 chars,2,1,1
+pretrained,his val,his__train__17.2.1.jpg,his:17.2.1,Monkey,Monkey,0,6,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__1789801073499.jpg,his:1789801073499,Burning,B,6,7,0.8571428571428571,0,1-20 chars,0,0,0
+pretrained,his val,his__train__1789801074360.jpg,his:1789801074360,Burning,m,7,7,1.0,0,1-20 chars,0,0,0
+pretrained,his val,his__train__18.1.8.jpg,his:18.1.8,Test,Test,0,4,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__18.2.2.jpg,his:18.2.2,Weed,weed,0,4,0.0,0,1-20 chars,0,0,0
+pretrained,his val,his__train__18.2.8.jpg,his:18.2.8,Marlboro,Marlboro,0,8,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__19.1.14.jpg,his:19.1.14,Self,Selt,1,4,0.25,0,1-20 chars,0,0,0
+pretrained,his val,his__train__19.2.1.jpg,his:19.2.1,Define,Define,0,6,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__19.2.2.jpg,his:19.2.2,Terms,Terms,0,5,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__20.1.1.jpg,his:20.1.1,Extra,EX1,3,5,0.6,0,1-20 chars,0,0,0
+pretrained,his val,his__train__20.2.12.jpg,his:20.2.12,Canola,(anol9,2,6,0.3333333333333333,0,1-20 chars,0,0,0
+pretrained,his val,his__train__21.1.3.jpg,his:21.1.3,Eicosapentaenoic,Eicosapentaenoic,0,16,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__22.2.2.jpg,his:22.2.2,Component are independent unit,Component are indepen dent onit,2,30,0.06666666666666667,0,21-40 chars,1,0,0
+pretrained,his val,his__train__23.3.1.jpg,his:23.3.1,Pump and dump,Pump and dump,0,13,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__3.3.1.jpg,his:3.3.1,Limitation for Saliency via occlusion is that it fails when the evidence,Limtaton  ne,61,72,0.8472222222222222,0,over 40 chars,0,0,0
+pretrained,his val,his__train__4.2.4.jpg,his:4.2.4,by a linear head.,by a linear ead,2,17,0.11764705882352941,0,1-20 chars,0,0,0
+pretrained,his val,his__test__5.4.1.jpg,his:5.4.1,Computation graph represents the process of computing a,Computation graph represents the Proces of Compting,4,55,0.07272727272727272,0,over 40 chars,0,0,0
+pretrained,his val,his__train__6.4.1.jpg,his:6.4.1,"To calculate mean average precision, take the average",To Calllate me aera Peisiake te averg,17,53,0.32075471698113206,0,over 40 chars,0,0,2
+pretrained,his val,his__train__8.2.13.jpg,his:8.2.13,Lecithin,Lecithih,1,8,0.125,0,1-20 chars,0,0,0
+pretrained,his val,his__train__8.2.9.jpg,his:8.2.9,Phospholipids,Phospholipids,0,13,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__9.4.1.jpg,his:9.4.1,Assumption that the local pixels,Assumption that the local pixels,0,32,0.0,1,21-40 chars,0,0,0
+pretrained,his val,his__train__9.6.1.jpg,his:9.6.1,A learned position for each,A learned position for each,0,27,0.0,1,21-40 chars,0,0,0
+pretrained,his val,his__train__JH17.1_cropped.jpg,his:JH17.1,Honey Yuzu,HoneyYuzu,1,10,0.1,0,1-20 chars,0,0,1
+pretrained,his val,his__train__JH17.2.jpg,his:JH17.2,with,with,0,4,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__JH18.2.jpg,his:JH18.2,communication,communication,0,13,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__JH33.1.jpg,his:JH33.1,Tough,,5,5,1.0,0,1-20 chars,0,0,0
+pretrained,his val,his__train__JH34.1.jpg,his:JH34.1,SIT Best Uni,,12,12,1.0,0,1-20 chars,0,0,0
+pretrained,his val,his__train__cnn_05_002.png,his:cnn_05,"Dropout, Batch Normalization","Dropot,Bath Normbzstion",7,28,0.25,0,21-40 chars,0,0,0
+pretrained,his val,his__train__cnn_07_002.png,his:cnn_07,"Dropout, Batch Normalization","Dropast,Batth Norlirten",10,28,0.35714285714285715,0,21-40 chars,0,0,1
+pretrained,his val,his__train__cnn_45_006.png,his:cnn_45,"Dropout, Batch Normalization",,28,28,1.0,0,21-40 chars,0,0,0
+pretrained,his val,his__train__cnn_46_006.png,his:cnn_46,"Dropout, Batch Normalization",,28,28,1.0,0,21-40 chars,0,0,0
+pretrained,his val,his__train__cnn_48_002.png,his:cnn_48,"Dropout, Batch Normalization","Cropat,b orant",17,28,0.6071428571428571,0,21-40 chars,0,0,0
+pretrained,his val,his__train__cnn_49_002.png,his:cnn_49,"Dropout, Batch Normalization","Dropat,Benh Mombrot",16,28,0.5714285714285714,0,21-40 chars,0,0,0
+pretrained,his val,his__train__lecture_01_012.png,his:lecture_01,vote,vote,0,4,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_01_018.png,his:lecture_01,Image,Imag,1,5,0.2,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_01_023.png,his:lecture_01,predict,predict,0,7,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_01_027.png,his:lecture_01,"- O(1) Training, O(N) Prediction","-O(1) Training,O(N) Predution",4,32,0.125,0,21-40 chars,0,0,0
+pretrained,his val,his__train__lecture_01_041.png,his:lecture_01,Activation,Activation,0,10,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_01_051.png,his:lecture_01,- ReLU,-ReLV,2,6,0.3333333333333333,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_01_058.png,his:lecture_01,Augmentat,Augmenta,1,9,0.1111111111111111,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_01_086.png,his:lecture_01,2D,2D,0,2,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_01_092.png,his:lecture_01,"[N,C,L] [N,C,H,W]","[N,C,L][N,C, H,W]",2,17,0.11764705882352941,0,1-20 chars,1,0,0
+pretrained,his val,his__train__lecture_01_094.png,his:lecture_01,"- but when x<0, gradient = 0 so neuron","- but when x<O, gradient =0 so neurron",3,38,0.07894736842105263,0,21-40 chars,1,1,1
+pretrained,his val,his__train__lecture_01_099.png,his:lecture_01,becomes inactive,becomes mactive,2,16,0.125,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_01_100.png,his:lecture_01,"C = channels (RGB, etc) W = width",C= channels (RGB etc)W=width,5,33,0.15151515151515152,0,21-40 chars,0,0,0
+pretrained,his val,his__train__lecture_01_105.png,his:lecture_01,learns,learns,0,6,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_01_109.png,his:lecture_01,Kernel - what area,Kernel-whatarea,3,18,0.16666666666666666,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_01_124.png,his:lecture_01,which is right,w,13,14,0.9285714285714286,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_01_126.png,his:lecture_01,output,outpat,1,6,0.16666666666666666,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_02_002.png,his:lecture_02,Chapter 5,Chapter5,1,9,0.1111111111111111,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_02_008.png,his:lecture_02,Image,Image,0,5,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_02_012.png,his:lecture_02,Stops Overfitting,Stops Overfitting,0,17,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_02_018.png,his:lecture_02,"optimise, use better model","→optimse,use betfer model",4,26,0.15384615384615385,0,21-40 chars,1,0,0
+pretrained,his val,his__train__lecture_02_023.png,his:lecture_02,Training Good / Validate Bad (Overfit),Training Good /Validate Bad(Overfit),2,38,0.05263157894736842,0,21-40 chars,0,0,0
+pretrained,his val,his__train__lecture_02_026.png,his:lecture_02,Conv + Act + Pool,Conv+Act+Pool,4,17,0.23529411764705882,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_02_027.png,his:lecture_02,Weight decay Shrink values,Weight decay →Sshrink values,2,26,0.07692307692307693,0,21-40 chars,2,1,1
+pretrained,his val,his__train__lecture_02_029.png,his:lecture_02,Activation,Activation,0,10,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_02_032.png,his:lecture_02,Dropout drop neurons so they can learn from others,Dropont → drop neurns so theg con learn from othors,7,50,0.14,0,over 40 chars,2,0,0
+pretrained,his val,his__train__lecture_02_037.png,his:lecture_02,- ReLU,-ReLU,1,6,0.16666666666666666,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_02_065.png,his:lecture_02,2D,2D,0,2,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_02_078.png,his:lecture_02,"C = channels (RGB, etc) W = width","C=chanls (RGB, t)W=width",9,33,0.2727272727272727,0,21-40 chars,0,0,0
+pretrained,his val,his__train__lecture_02_083.png,his:lecture_02,normalises values close to 0,normalises → values clore to o,4,28,0.14285714285714285,0,21-40 chars,2,0,0
+pretrained,his val,his__train__lecture_02_092.png,his:lecture_02,scale,ale,2,5,0.4,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_02_094.png,his:lecture_02,Provide a number not too big or,Provide a number not too big or,0,31,0.0,1,21-40 chars,0,0,0
+pretrained,his val,his__train__lecture_02_100.png,his:lecture_02,PyTorch Optimiser Loop,PyTorch Optimiser Loop,0,22,0.0,1,21-40 chars,0,0,0
+pretrained,his val,his__train__lecture_02_102.png,his:lecture_02,Test = running stats,Test = ruanning stats,1,20,0.05,0,1-20 chars,1,0,0
+pretrained,his val,his__train__lecture_02_106.png,his:lecture_02,output,outpat,1,6,0.16666666666666666,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_03_002.png,his:lecture_03,2. Binary Classification,2.BeagClasfsti,13,24,0.5416666666666666,0,21-40 chars,0,0,0
+pretrained,his val,his__train__lecture_03_007.png,his:lecture_03,Chapter 5,Chapter5,1,9,0.1111111111111111,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_03_023.png,his:lecture_03,vote,yt,3,4,0.75,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_03_024.png,his:lecture_03,Image,Image,0,5,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_03_027.png,his:lecture_03,Stops Overfitting,Stops Overfittting,1,17,0.058823529411764705,0,1-20 chars,1,1,1
+pretrained,his val,his__train__lecture_03_040.png,his:lecture_03,"optimise, use better model","→opbmse,use bob aodll",12,26,0.46153846153846156,0,21-40 chars,1,0,0
+pretrained,his val,his__train__lecture_03_046.png,his:lecture_03,Training Good / Validate Bad (Overfit),Tranong rood/Validate Bad (Oreofit),7,38,0.18421052631578946,0,21-40 chars,0,0,0
+pretrained,his val,his__train__lecture_03_051.png,his:lecture_03,Conv + Act + Pool,Comv +Act +Pool,3,17,0.17647058823529413,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_03_052.png,his:lecture_03,Weight decay Shrink values,Weht decay→shrale valees,7,26,0.2692307692307692,0,21-40 chars,0,0,1
+pretrained,his val,his__train__lecture_03_053.png,his:lecture_03,Activation,Adivaton,3,10,0.3,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_03_056.png,his:lecture_03,Dropout drop neurons so they can learn from others,Dropont → drop nerdas so theg io leaore from othor,14,50,0.28,0,over 40 chars,3,0,0
+pretrained,his val,his__train__lecture_03_064.png,his:lecture_03,- ReLU,-ReLU,1,6,0.16666666666666666,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_03_109.png,his:lecture_03,2D,20,1,2,0.5,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_03_124.png,his:lecture_03,"- but when x<0, gradient = 0 so neuron","-bd chre x<o,gradet =o s",20,38,0.5263157894736842,0,21-40 chars,0,0,0
+pretrained,his val,his__train__lecture_03_131.png,his:lecture_03,becomes inactive,bede,13,16,0.8125,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_03_132.png,his:lecture_03,"C = channels (RGB, etc) W = width",C=ded(RGB)W=Width,18,33,0.5454545454545454,0,21-40 chars,0,0,0
+pretrained,his val,his__train__lecture_03_140.png,his:lecture_03,normalises values close to 0,normales → vakes clore to o,7,28,0.25,0,21-40 chars,0,0,0
+pretrained,his val,his__train__lecture_03_144.png,his:lecture_03,Kernel - what area,Kernel-whalarea,4,18,0.2222222222222222,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_03_154.png,his:lecture_03,scale,,5,5,1.0,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_03_156.png,his:lecture_03,Provide a number not too big or,Proncke a number not too big or,3,31,0.0967741935483871,0,21-40 chars,0,0,0
+pretrained,his val,his__train__lecture_03_163.png,his:lecture_03,PyTorch Optimiser Loop,PyTorch Optmiser Loop,1,22,0.045454545454545456,0,21-40 chars,0,0,0
+pretrained,his val,his__train__lecture_03_167.png,his:lecture_03,Test = running stats,Test stas,11,20,0.55,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_03_172.png,his:lecture_03,output,outpt,1,6,0.16666666666666666,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_03_178.png,his:lecture_03,step(),sepl),2,6,0.3333333333333333,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_07_015.png,his:lecture_07,- ReLU,1,6,6,1.0,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_08_017.png,his:lecture_08,- ReLU,-Re1,3,6,0.5,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_10_022.png,his:lecture_10,predict,predet,2,7,0.2857142857142857,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_10_066.png,his:lecture_10,Activation,,10,10,1.0,0,1-20 chars,0,0,0
+pretrained,his val,his__train__lecture_13_086.png,his:lecture_13,C,C,0,1,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__oct17_004_001.png,his:oct17_004,Challenge of Computer Vision,Challenge of Computer Vision,0,28,0.0,1,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_004_002.png,his:oct17_004,"- Illumination, lighting, shadow, Image Constrast","Illumination,lighting,shadow,Image Constrast",5,49,0.10204081632653061,0,over 40 chars,0,0,0
+pretrained,his val,his__train__oct17_004_003.png,his:oct17_004,"- Geometric variability: Translation, rotation, scale","-Geometric variability:Translation, rotation, scale",2,53,0.03773584905660377,0,over 40 chars,0,0,0
+pretrained,his val,his__train__oct17_015_001.png,his:oct17_015,Challenge of Computer Vision,Challenge of computer Vision,0,28,0.0,0,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_015_003.png,his:oct17_015,"- Illumination, lighting, shadow, Image Constrast","-Illumination,lighting,shadow,Image Constrast",4,49,0.08163265306122448,0,over 40 chars,0,0,0
+pretrained,his val,his__train__oct17_015_005.png,his:oct17_015,"- Geometric variability: Translation, rotation, scale","-Geometric variability-Translation,rotation, scale",4,53,0.07547169811320754,0,over 40 chars,0,0,0
+pretrained,his val,his__train__oct17_040_000.png,his:oct17_040,Challenge of Computer Vision,Challenge of computer Vision,0,28,0.0,0,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_040_002.png,his:oct17_040,"- Illumination, lighting, shadow, Image Constrast","Illumination,lighting,shadow,Image Constrast",5,49,0.10204081632653061,0,over 40 chars,0,0,0
+pretrained,his val,his__train__oct17_040_003.png,his:oct17_040,"- Geometric variability: Translation, rotation, scale","-Geometric variability:Translation,rotation, scal",4,53,0.07547169811320754,0,over 40 chars,0,0,0
+pretrained,his val,his__train__oct17_047_000.png,his:oct17_047,EXIT,EXIT,0,4,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__oct17_078_001.png,his:oct17_078,nputer Vision,nputerVision,1,13,0.07692307692307693,0,1-20 chars,0,0,0
+pretrained,his val,his__train__oct17_078_002.png,his:oct17_078,"hadow, Image Constrast","hadow,Image Constrast",1,22,0.045454545454545456,0,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_078_003.png,his:oct17_078,"anslation, rotation, scale","anslation,rotation,scale",2,26,0.07692307692307693,0,21-40 chars,0,0,0
+pretrained,his val,his__test__oct17_087_011.png,his:oct17_087,a mix of analogue and digital,a mix of analogue and digital,0,29,0.0,1,21-40 chars,0,0,0
+pretrained,his val,his__test__oct17_090_012.png,his:oct17_090,a mix of analogue and digital,a mix of analogue and digital,0,29,0.0,1,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_096_006.png,his:oct17_096,Why do we need an,Why do we need an,0,17,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__oct17_097_003.png,his:oct17_097,UART - Prints debugging information,UART-Prints debugging information,2,35,0.05714285714285714,0,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_100_001.png,his:oct17_100,UART - Prints debugging information,UART-Printsdebugging information,3,35,0.08571428571428572,0,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_102_003.png,his:oct17_102,Why do we need an,Why ddo we need an,1,17,0.058823529411764705,0,1-20 chars,1,1,1
+pretrained,his val,his__train__oct17_106_008.png,his:oct17_106,Why do we need an,Why do we need an,0,17,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__oct17_107_007.png,his:oct17_107,Imagine one chef handling,Imagine one chef handling,0,25,0.0,1,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_107_008.png,his:oct17_107,several responsibilities,several responsibilities,0,24,0.0,1,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_115_003.png,his:oct17_115,Imagine one chef handling,Imagine one chef handling,0,25,0.0,1,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_115_005.png,his:oct17_115,several responsibilities.,several responsibilities.,0,25,0.0,1,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_115_013.png,his:oct17_115,Prints debugging information,Prints debugging information,0,28,0.0,1,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_118_002.png,his:oct17_118,order waits,order waits,0,11,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__oct17_122_007.png,his:oct17_122,When each job must be,When each job must be,0,21,0.0,1,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_123_004.png,his:oct17_123,order waits.,order waits.,0,12,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__oct17_123_017.png,his:oct17_123,When each job must be,When each job must be,0,21,0.0,1,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_126_004.png,his:oct17_126,Why do we need an,Why do we need an,0,17,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__oct17_126_005.png,his:oct17_126,Imagine one chef handling,Imagine one chef handling,0,25,0.0,1,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_126_007.png,his:oct17_126,several responsibilities.,several responsibilities.,0,25,0.0,1,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_126_012.png,his:oct17_126,order waits,order waits,0,11,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__oct17_126_037.png,his:oct17_126,When each job must be,.When each job must be,1,21,0.047619047619047616,0,21-40 chars,1,0,0
+pretrained,his val,his__train__oct17_129_000.png,his:oct17_129,Challenge of Computer Vision,Challenge of computer Vision,0,28,0.0,0,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_129_002.png,his:oct17_129,"- Illumination, lighting, shadow, Image Constrast","Illumination,lighting,Shadow,Image Constrast",5,49,0.10204081632653061,0,over 40 chars,0,0,0
+pretrained,his val,his__train__oct17_129_004.png,his:oct17_129,"- Geometric variability: Translation, rotation, scale","-Geometric vanability-Translation, rotation, scale",5,53,0.09433962264150944,0,over 40 chars,0,0,0
+pretrained,his val,his__train__oct17_129_017.png,his:oct17_129,Imagine one chef handling,Imagine one chef handlling,1,25,0.04,0,21-40 chars,1,1,1
+pretrained,his val,his__train__oct17_129_019.png,his:oct17_129,several responsibilities,severalresponsibilities,1,24,0.041666666666666664,0,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_129_028.png,his:oct17_129,order waits,order waits,0,11,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__oct17_129_055.png,his:oct17_129,When each job must be,When each job must be,0,21,0.0,1,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_134_007.png,his:oct17_134,several responsibilities,soaespoublihes,13,24,0.5416666666666666,0,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_134_013.png,his:oct17_134,order waits,onderwaits,2,11,0.18181818181818182,0,1-20 chars,0,0,0
+pretrained,his val,his__train__oct17_134_043.png,his:oct17_134,When each job must be,Whan each Job mot be,3,21,0.14285714285714285,0,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_137_000.png,his:oct17_137,Challenge of Computer Vision,Challenge of computer Vision,0,28,0.0,0,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_137_002.png,his:oct17_137,"- Illumination, lighting, shadow, Image Constrast","Illumnation,lighting,shodow,Inge Censtrgst",11,49,0.22448979591836735,0,over 40 chars,0,0,0
+pretrained,his val,his__train__oct17_137_003.png,his:oct17_137,"- Geometric variability: Translation, rotation, scale","Geosetrk vaneblity Translation, rcladion,scak",16,53,0.3018867924528302,0,over 40 chars,0,0,0
+pretrained,his val,his__train__oct17_138_001.png,his:oct17_138,Challenge of Computer Vision,Challenge of Computer Vision,0,28,0.0,1,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_138_003.png,his:oct17_138,"- Illumination, lighting, shadow, Image Constrast","Illumiation,lightingshadowIge Cnstrast",11,49,0.22448979591836735,0,over 40 chars,0,0,0
+pretrained,his val,his__train__oct17_142_002.png,his:oct17_142,Challenge of Computer Vision,oc,26,28,0.9285714285714286,0,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_142_007.png,his:oct17_142,several responsibilities,sonarespnablies,12,24,0.5,0,21-40 chars,0,0,0
+pretrained,his val,his__train__oct17_142_013.png,his:oct17_142,order waits,ordeswats,3,11,0.2727272727272727,0,1-20 chars,0,0,0
+pretrained,his val,his__train__oct17_142_043.png,his:oct17_142,When each job must be,When each job mustbe,1,21,0.047619047619047616,0,21-40 chars,0,0,0
+pretrained,his val,his__train__quiz_01_002.png,his:quiz_01,so hard.,so hard.,0,8,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__quiz_03_004.png,his:quiz_03,so hard.,so had,2,8,0.25,0,1-20 chars,0,0,0
+pretrained,his val,his__train__quiz_04_004.png,his:quiz_04,so hard.,so hard.,0,8,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__quiz_05_003.png,his:quiz_05,so hard.,so hard.,0,8,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__quiz_06_002.png,his:quiz_06,so hard.,so hard.,0,8,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__quiz_08_004.png,his:quiz_08,so hard.,so hard.,0,8,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__quiz_09_004.png,his:quiz_09,so hard.,so hard.(,1,8,0.125,0,1-20 chars,1,0,0
+pretrained,his val,his__train__quiz_10_003.png,his:quiz_10,so hard.,so hard.,0,8,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__quiz_11_004.png,his:quiz_11,so hard.,so hard.,0,8,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__quiz_12_005.png,his:quiz_12,so had.,soMd,4,7,0.5714285714285714,0,1-20 chars,0,0,0
+pretrained,his val,his__train__quiz_17_001.png,his:quiz_17,so had.,so had.,0,7,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__quiz_18_001.png,his:quiz_18,so had.,so had.,0,7,0.0,1,1-20 chars,0,0,0
+pretrained,his val,his__train__quiz_19_002.png,his:quiz_19,so had.,so had.,0,7,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__test__1.2.2.jpg,his:1.2.2,"which NLP. To make them work for images,","Which NLP To mal the wore for imges,",6,40,0.15,0,21-40 chars,0,0,0
+pretrained,his test,his__train__1.2.3.jpg,his:1.2.3,ViT splits an image into a grid of fixed-size patches,Vi a ae Y eaans,41,53,0.7735849056603774,0,over 40 chars,0,0,1
+pretrained,his test,his__train__1.3.1.jpg,his:1.3.1,Each patch is flattened and linearly projected into 1D vector.,Eac ,59,62,0.9516129032258065,0,over 40 chars,0,0,0
+pretrained,his test,his__train__12.1.13.jpg,his:12.1.13,Brain,Braih,1,5,0.2,0,1-20 chars,0,0,0
+pretrained,his test,his__train__12.2.4.jpg,his:12.2.4,Nigeria,Nigeria,0,7,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__test__12.2.5.jpg,his:12.2.5,Linoleic,Linoleic,0,8,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__test__12.2.8.jpg,his:12.2.8,Primary,Primary,0,7,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__14.1.1.jpg,his:14.1.1,Cardiovascular,Cardiovascolar,1,14,0.07142857142857142,0,1-20 chars,0,0,0
+pretrained,his test,his__train__14.1.14.jpg,his:14.1.14,Gram,Gram,0,4,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__14.1.15.jpg,his:14.1.15,Weight,Weight,0,6,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__14.4.1.jpg,his:14.4.1,Bikini,Bikini,0,6,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__test__15.2.3.jpg,his:15.2.3,Cells,cells,0,5,0.0,0,1-20 chars,0,0,0
+pretrained,his test,his__train__15.3.14.jpg,his:15.3.14,Serum,Serun,1,5,0.2,0,1-20 chars,0,0,0
+pretrained,his test,his__test__15.3.3.jpg,his:15.3.3,Sticks,Sticks,0,6,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__15.3.9.jpg,his:15.3.9,Reverse,Reverse,0,7,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__16.7.1.jpg,his:16.7.1,Chemical reaction in which an alcohol,Chemical reactioh ih which an akohol,4,37,0.10810810810810811,0,21-40 chars,0,0,0
+pretrained,his test,his__test__1789801072989.jpg,his:1789801072989,6592,,4,4,1.0,0,1-20 chars,0,0,0
+pretrained,his test,his__train__1789801073617.jpg,his:1789801073617,bing chilling,gh,11,13,0.8461538461538461,0,1-20 chars,0,0,0
+pretrained,his test,his__train__1789801073944.jpg,his:1789801073944,bing chilling,gthi,10,13,0.7692307692307693,0,1-20 chars,0,0,0
+pretrained,his test,his__train__18.1.3.jpg,his:18.1.3,Carlsberg,Carlsberg,0,9,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__18.1.6.jpg,his:18.1.6,Tobacco,Tobacco,0,7,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__18.2.4.jpg,his:18.2.4,fentanol,fentanol,0,8,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__test__2.2.2.jpg,his:2.2.2,it can only detect a single object, it can ony de i et,16,34,0.47058823529411764,0,21-40 chars,0,0,0
+pretrained,his test,his__train__20.2.3.jpg,his:20.2.3,Case,Case,0,4,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__20.2.8.jpg,his:20.2.8,Replaces,Repla,3,8,0.375,0,1-20 chars,0,0,0
+pretrained,his test,his__test__21.1.9.jpg,his:21.1.9,Myocardial,hyocardial,1,10,0.1,0,1-20 chars,0,0,0
+pretrained,his test,his__test__22.4.1.jpg,his:22.4.1,Stereotype attached to the component,Stereotype aftached to the omponent,2,36,0.05555555555555555,0,21-40 chars,0,0,0
+pretrained,his test,his__train__4.1.3.jpg,his:4.1.3,it pooled to see where the evidence lies.,it pooled to See where the evilence lies.,1,41,0.024390243902439025,0,over 40 chars,0,0,0
+pretrained,his test,his__test__5.2.2.jpg,his:5.2.2,"neural network, but for realistic data classification,","neural network,but for realistic data lassification,",2,54,0.037037037037037035,0,over 40 chars,0,0,0
+pretrained,his test,his__train__6.1.2.jpg,his:6.1.2,bounding boxes by their confidence,bounding bores by their confidence,1,34,0.029411764705882353,0,21-40 chars,0,0,0
+pretrained,his test,his__test__6.2.1.jpg,his:6.2.1,"To plot the precision-Recall curve, graph",To plo the e n Reeveaaph,21,41,0.5121951219512195,0,over 40 chars,0,0,1
+pretrained,his test,his__train__6.3.2.jpg,his:6.3.2,the precision-Recall curve to generate a single performance,the Precisn-Rca Cuveto gererate a Singe Perre,15,59,0.2542372881355932,0,over 40 chars,0,0,0
+pretrained,his test,his__train__6.3.3.jpg,his:6.3.3,score for that specific object class,Score for that Spea objet las,8,36,0.2222222222222222,0,21-40 chars,0,0,0
+pretrained,his test,his__train__8.2.10.jpg,his:8.2.10,Glycolipids,Glycolipids,0,11,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__8.3.10.jpg,his:8.3.10,polyunsaturated,polyunsaturated,0,15,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__8.3.11.jpg,his:8.3.11,Shorts,Shorts,0,6,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__8.3.13.jpg,his:8.3.13,Carbon,Carbon,0,6,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__8.3.3.jpg,his:8.3.3,Food,Fo0d,1,4,0.25,0,1-20 chars,0,0,0
+pretrained,his test,his__train__8.3.6.jpg,his:8.3.6,Help,Hel0,1,4,0.25,0,1-20 chars,0,0,0
+pretrained,his test,his__train__8.3.7.jpg,his:8.3.7,Hydrolysis,Hydrolysis,0,10,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__JH23.2.jpg,his:JH23.2,cake,cake,0,4,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__JH27.1.jpg,his:JH27.1,Satsuma,Satsuma,0,7,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__JH28.1.jpg,his:JH28.1,Original Taste,Onigia Tase,4,14,0.2857142857142857,0,1-20 chars,0,0,0
+pretrained,his test,his__train__JH30.2.jpg,his:JH30.2,Giant,Crin,4,5,0.8,0,1-20 chars,0,0,0
+pretrained,his test,his__train__JH32.1.jpg,his:JH32.1,Kerosene,,8,8,1.0,0,1-20 chars,0,0,0
+pretrained,his test,his__test__cnn_05_001.png,his:cnn_05,"LeNet, Alexnet, Resnet","LeNet,Akxet,Resret",6,22,0.2727272727272727,0,21-40 chars,0,0,0
+pretrained,his test,his__test__cnn_07_001.png,his:cnn_07,"LeNet, Alexnet, Resnet","LeNet,Akxret,Reont",7,22,0.3181818181818182,0,21-40 chars,0,0,0
+pretrained,his test,his__test__cnn_45_005.png,his:cnn_45,"LeNet, Alexnet, Resnet",,22,22,1.0,0,21-40 chars,0,0,0
+pretrained,his test,his__test__cnn_46_005.png,his:cnn_46,"LeNet, Alexnet, Resnet",Maot,20,22,0.9090909090909091,0,21-40 chars,0,0,0
+pretrained,his test,his__test__cnn_47_005.png,his:cnn_47,"LeNet, Alexnet, Resnet",Mo,22,22,1.0,0,21-40 chars,0,0,0
+pretrained,his test,his__test__cnn_48_001.png,his:cnn_48,"LeNet, Alexnet, Resnet","lvet,AkxtReset",10,22,0.45454545454545453,0,21-40 chars,0,0,0
+pretrained,his test,his__test__cnn_49_001.png,his:cnn_49,"LeNet, Alexnet, Resnet","uMet Bkxet,Reset",10,22,0.45454545454545453,0,21-40 chars,0,0,0
+pretrained,his test,his__train__lecture_01_003.png,his:lecture_01,2.1 Sigmoid probability,21 Sigmoid→probability,2,23,0.08695652173913043,0,21-40 chars,0,0,0
+pretrained,his test,his__train__lecture_01_031.png,his:lecture_01,"- K=1, underfit",-K=1，underfit,3,15,0.2,0,1-20 chars,0,0,0
+pretrained,his test,his__test__lecture_01_054.png,his:lecture_01,3. Multi-Class Classification,3.Multi-Class Classification,1,29,0.034482758620689655,0,21-40 chars,0,0,0
+pretrained,his test,his__train__lecture_01_063.png,his:lecture_01,MaxPool vs Average Pool,MaxPool vs Average PooL,0,23,0.0,0,21-40 chars,0,0,0
+pretrained,his test,his__train__lecture_01_096.png,his:lecture_01,(M-K+1)x(N-L+1),(M-K+1)×(N-L+1),1,15,0.06666666666666667,0,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_01_104.png,his:lecture_01,c = class,=cas,5,9,0.5555555555555556,0,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_01_111.png,his:lecture_01,- punishes low probability of correct class,- punishes low probability of carrect classs,2,43,0.046511627906976744,0,over 40 chars,1,1,1
+pretrained,his test,his__train__lecture_01_114.png,his:lecture_01,bias,bias,0,4,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_01_118.png,his:lecture_01,- gives negative values a small gradient,-gives negative values a small gradiont,2,40,0.05,0,21-40 chars,0,0,0
+pretrained,his test,his__train__lecture_02_001.png,his:lecture_02,Chapter 4,Chapter4,1,9,0.1111111111111111,0,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_02_009.png,his:lecture_02,Choose,Chose,1,6,0.16666666666666666,0,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_02_016.png,his:lecture_02,Training Bad (Underfit),TrainingBad(Underfit）,3,23,0.13043478260869565,0,21-40 chars,0,0,0
+pretrained,his test,his__train__lecture_02_045.png,his:lecture_02,MaxPool vs Average Pool,MaxPool vs Average PooL,0,23,0.0,0,21-40 chars,0,0,0
+pretrained,his test,his__train__lecture_02_046.png,his:lecture_02,3. VGG,3.VGG,1,6,0.16666666666666666,0,1-20 chars,0,0,0
+pretrained,his test,his__test__lecture_02_069.png,his:lecture_02,"number, shifts it close to but not 0","number,shifts it close to but not O",2,36,0.05555555555555555,0,21-40 chars,0,0,0
+pretrained,his test,his__train__lecture_02_075.png,his:lecture_02,(M-K+1)x(N-L+1),(M-K+1)x(N-L+1),0,15,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_02_076.png,his:lecture_02,Normalisation,Normalisation,0,13,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_02_096.png,his:lecture_02,bias,bias,0,4,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_02_099.png,his:lecture_02,Training = batch stats,Traning=batch starts,4,22,0.18181818181818182,0,21-40 chars,1,0,0
+pretrained,his test,his__test__lecture_02_107.png,his:lecture_02,zero_grad() clears gradients,zero-grad()→clears gradients,2,28,0.07142857142857142,0,21-40 chars,0,0,0
+pretrained,his test,his__train__lecture_02_110.png,his:lecture_02,calculates new gradients,calculates new gradients,0,24,0.0,1,21-40 chars,0,0,0
+pretrained,his test,his__train__lecture_03_003.png,his:lecture_03,2.1 Sigmoid probability,21Sgmeid→protbi,11,23,0.4782608695652174,0,21-40 chars,0,0,0
+pretrained,his test,his__train__lecture_03_006.png,his:lecture_03,Chapter 4,Chapter4,1,9,0.1111111111111111,0,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_03_014.png,his:lecture_03,1. Classification,Clasfcatien,7,17,0.4117647058823529,0,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_03_020.png,his:lecture_03,Choose Judge,ChoeJudg,4,12,0.3333333333333333,0,1-20 chars,0,0,0
+pretrained,his test,his__test__lecture_03_022.png,his:lecture_03,Z = wx+b,2=wx+b,3,8,0.375,0,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_03_034.png,his:lecture_03,Training Bad (Underfit),Training Bod (Undurfib),3,23,0.13043478260869565,0,21-40 chars,0,0,0
+pretrained,his test,his__test__lecture_03_068.png,his:lecture_03,3. Multi-Class Classification,3.Multi-Closs Clasfieation,5,29,0.1724137931034483,0,21-40 chars,0,0,0
+pretrained,his test,his__train__lecture_03_076.png,his:lecture_03,MaxPool vs Average Pool,MaxPool vs Arerage PooL,1,23,0.043478260869565216,0,21-40 chars,0,0,0
+pretrained,his test,his__train__lecture_03_077.png,his:lecture_03,3. VGG,3VGG,2,6,0.3333333333333333,0,1-20 chars,0,0,0
+pretrained,his test,his__test__lecture_03_107.png,his:lecture_03,"ReLU(x) = max(0,x)","ReLU(x)=mar(0,x)",3,18,0.16666666666666666,0,1-20 chars,0,0,0
+pretrained,his test,his__test__lecture_03_121.png,his:lecture_03,"number, shifts it close to but not 0","number,shiff iit close to but not o",5,36,0.1388888888888889,0,21-40 chars,0,0,2
+pretrained,his test,his__train__lecture_03_127.png,his:lecture_03,(M-K+1)x(N-L+1),(M-K+1)x(N-L+1),0,15,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_03_128.png,his:lecture_03,Normalisation,Nomalisation,1,13,0.07692307692307693,0,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_03_130.png,his:lecture_03,c = class,C=ca,5,9,0.5555555555555556,0,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_03_142.png,his:lecture_03,- punishes low probability of correct class,-pase lo plly od cnt das,24,43,0.5581395348837209,0,over 40 chars,0,0,0
+pretrained,his test,his__train__lecture_03_151.png,his:lecture_03,- gives negative values a small gradient,-gaves negutive values o small gradod,8,40,0.2,0,21-40 chars,0,0,0
+pretrained,his test,his__train__lecture_03_157.png,his:lecture_03,MSE,MSE,0,3,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_03_158.png,his:lecture_03,bias,a,3,4,0.75,0,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_03_162.png,his:lecture_03,Training = batch stats,Trarog=batch stos,8,22,0.36363636363636365,0,21-40 chars,0,0,0
+pretrained,his test,his__test__lecture_03_165.png,his:lecture_03,CE,CE,0,2,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__test__lecture_03_169.png,his:lecture_03,CE,CE,0,2,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__test__lecture_03_175.png,his:lecture_03,zero_grad() clears gradients,zeo grad()→ dears gradients,5,28,0.17857142857142858,0,21-40 chars,0,0,0
+pretrained,his test,his__test__lecture_03_176.png,his:lecture_03,backward() calculates new gradients,back ward ()→ cliale tes new gradlontr,11,35,0.3142857142857143,0,21-40 chars,4,0,0
+pretrained,his test,his__test__lecture_03_179.png,his:lecture_03,update gradients,→updals gradrntsl,6,16,0.375,0,1-20 chars,2,0,0
+pretrained,his test,his__train__lecture_04_000.png,his:lecture_04,Choose,Chose,1,6,0.16666666666666666,0,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_09_091.png,his:lecture_09,channel,Channel,0,7,0.0,0,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_09_093.png,his:lecture_09,MSE,MSE,0,3,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__test__lecture_09_094.png,his:lecture_09,Handcrafted features,Handcraffed features,1,20,0.05,0,1-20 chars,0,0,1
+pretrained,his test,his__test__lecture_10_011.png,his:lecture_10,Z = wx+b,2=wx+b,3,8,0.375,0,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_10_090.png,his:lecture_10,MSE,MSE,0,3,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__test__lecture_10_091.png,his:lecture_10,Handcrafted features,Handcrafted features,0,20,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__test__lecture_11_013.png,his:lecture_11,Z = wx+b,2=wx+b,3,8,0.375,0,1-20 chars,0,0,0
+pretrained,his test,his__test__lecture_11_093.png,his:lecture_11,Handcrafted features,Handcrafed features,1,20,0.05,0,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_12_043.png,his:lecture_12,Move,→Move,1,4,0.25,0,1-20 chars,1,0,0
+pretrained,his test,his__test__lecture_12_092.png,his:lecture_12,Handcrafted features,Handcrafted features,0,20,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__lecture_13_088.png,his:lecture_13,MSE,MSE,0,3,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__test__lecture_13_089.png,his:lecture_13,Handcrafted features,Handcraffed features,1,20,0.05,0,1-20 chars,0,0,1
+pretrained,his test,his__test__oct17_002_001.png,his:oct17_002,- An Image is a 2D matrix of pixels. Each pixel stores a numerical,-An Image isa 2D matrix of pixels.Each pixel stores a numerical,3,66,0.045454545454545456,0,over 40 chars,0,0,0
+pretrained,his test,his__test__oct17_004_004.png,his:oct17_004,"change, affine transformation, depth change.","change,affine transtomation, depth change.",3,44,0.06818181818181818,0,over 40 chars,0,0,0
+pretrained,his test,his__test__oct17_015_004.png,his:oct17_015,- An Image is a 2D matrix of pixels. Each pixel stores a numerical,-An Image is a 2D matrix of pixels. Each pixel stores a numerica?,2,66,0.030303030303030304,0,over 40 chars,0,0,0
+pretrained,his test,his__test__oct17_015_007.png,his:oct17_015,"change, affine transformation, depth change.","change, affine transfo rmation, depth change",2,44,0.045454545454545456,0,over 40 chars,1,0,0
+pretrained,his test,his__train__oct17_023_007.png,his:oct17_023,What is deep learning,What is chep learningp,3,21,0.14285714285714285,0,21-40 chars,1,0,0
+pretrained,his test,his__train__oct17_039_001.png,his:oct17_039,What is deep learning,What is ckep learning,2,21,0.09523809523809523,0,21-40 chars,0,0,0
+pretrained,his test,his__train__oct17_040_004.png,his:oct17_040,What is deep learning,What is ckep learning,2,21,0.09523809523809523,0,21-40 chars,0,0,0
+pretrained,his test,his__test__oct17_040_006.png,his:oct17_040,"change, affine transformation, depth change.","change, affine fransfo imation, depth change.",3,44,0.06818181818181818,0,over 40 chars,1,0,0
+pretrained,his test,his__test__oct17_050_003.png,his:oct17_050,"change, affine transformation, depth change.","change,affine ftransformationdepth changge",6,44,0.13636363636363635,0,over 40 chars,1,0,1
+pretrained,his test,his__train__oct17_078_004.png,his:oct17_078,What is deep learning,What is ckep learning,2,21,0.09523809523809523,0,21-40 chars,0,0,0
+pretrained,his test,his__train__oct17_078_005.png,his:oct17_078,"ation, depth change.","ation,depth change.",1,20,0.05,0,1-20 chars,0,0,0
+pretrained,his test,his__train__oct17_087_013.png,his:oct17_087,electronics to represent the,electronics to represent the,0,28,0.0,1,21-40 chars,0,0,0
+pretrained,his test,his__train__oct17_090_014.png,his:oct17_090,electronics to represent the,electronics to represent the,0,28,0.0,1,21-40 chars,0,0,0
+pretrained,his test,his__train__oct17_100_002.png,his:oct17_100,Timer - Request regular measurement,Timer-Reqvest regular measurement,3,35,0.08571428571428572,0,21-40 chars,0,0,0
+pretrained,his test,his__train__oct17_106_001.png,his:oct17_106,What is deep learning,What is ckeep learning,2,21,0.09523809523809523,0,21-40 chars,1,0,0
+pretrained,his test,his__train__oct17_113_004.png,his:oct17_113,one action at a time.,one action at a time.,0,21,0.0,1,21-40 chars,0,0,0
+pretrained,his test,his__train__oct17_115_002.png,his:oct17_115,we need an,we need an,0,10,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__test__oct17_115_007.png,his:oct17_115,Cook food,Cook food,0,9,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__oct17_115_010.png,his:oct17_115,Receives deliveries,Receives deliveries,0,19,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__oct17_115_016.png,his:oct17_115,one action at a time.,one action af a time.,1,21,0.047619047619047616,0,21-40 chars,0,0,0
+pretrained,his test,his__train__oct17_118_001.png,his:oct17_118,may start cleaning while an urgent,may start cleaning while an urgent,0,34,0.0,1,21-40 chars,0,0,0
+pretrained,his test,his__test__oct17_119_010.png,his:oct17_119,Which jobs are waiting,.Which jobs are waiting,1,22,0.045454545454545456,0,21-40 chars,1,0,0
+pretrained,his test,his__train__oct17_119_012.png,his:oct17_119,Which job is most urgent,Which job is most urgent,0,24,0.0,1,21-40 chars,0,0,0
+pretrained,his test,his__train__oct17_123_001.png,his:oct17_123,may start cleaning while an urgent,may start cleaning while an urgent,0,34,0.0,1,21-40 chars,0,0,0
+pretrained,his test,his__test__oct17_123_010.png,his:oct17_123,Which jobs are waiting,.Which jobs are waiting,1,22,0.045454545454545456,0,21-40 chars,1,0,0
+pretrained,his test,his__train__oct17_123_013.png,his:oct17_123,Which job is most urgent,Which job is most urgent,0,24,0.0,1,21-40 chars,0,0,0
+pretrained,his test,his__train__oct17_126_008.png,his:oct17_126,may start cleaning while an urgent,may start cleaning while an urgent,0,34,0.0,1,21-40 chars,0,0,0
+pretrained,his test,his__test__oct17_126_015.png,his:oct17_126,Cook food,Cookfood,1,9,0.1111111111111111,0,1-20 chars,0,0,0
+pretrained,his test,his__train__oct17_126_022.png,his:oct17_126,Receives deliveries,Receives deliveries,0,19,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__test__oct17_126_029.png,his:oct17_126,Which jobs are waiting,.Which jobs are waiting,1,22,0.045454545454545456,0,21-40 chars,1,0,0
+pretrained,his test,his__train__oct17_126_030.png,his:oct17_126,Handle an emergency,Handle an emergency,0,19,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__oct17_126_033.png,his:oct17_126,Which job is most urgent,·Which job is most urgent,1,24,0.041666666666666664,0,21-40 chars,1,0,0
+pretrained,his test,his__train__oct17_126_035.png,his:oct17_126,One action at a time. being used.,one action af a time being used.,2,33,0.06060606060606061,0,21-40 chars,0,0,0
+pretrained,his test,his__train__oct17_129_005.png,his:oct17_129,What is deep learning,What is ckep learning,2,21,0.09523809523809523,0,21-40 chars,0,0,0
+pretrained,his test,his__train__oct17_129_007.png,his:oct17_129,"change, affine transformation, depth change","change,affine fransfo imation, depth change",4,43,0.09302325581395349,0,over 40 chars,1,0,0
+pretrained,his test,his__train__oct17_129_020.png,his:oct17_129,may start cleaning while an urgent,may start cleaning whilke an urgent,1,34,0.029411764705882353,0,21-40 chars,1,0,0
+pretrained,his test,his__test__oct17_129_027.png,his:oct17_129,Cook food,Cookfood,1,9,0.1111111111111111,0,1-20 chars,0,0,0
+pretrained,his test,his__train__oct17_129_038.png,his:oct17_129,Receives deliveries,Receives deliveries,0,19,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__test__oct17_129_046.png,his:oct17_129,Which jobs are waiting,.Which jobs are waiting,1,22,0.045454545454545456,0,21-40 chars,1,0,0
+pretrained,his test,his__train__oct17_129_054.png,his:oct17_129,One action at a time. being used.,one action af a timebeing used.,3,33,0.09090909090909091,0,21-40 chars,0,0,0
+pretrained,his test,his__test__oct17_134_012.png,his:oct17_134,Cook food,Cockfood,2,9,0.2222222222222222,0,1-20 chars,0,0,0
+pretrained,his test,his__train__oct17_134_024.png,his:oct17_134,Receives deliveries,Reaies delnnes,8,19,0.42105263157894735,0,1-20 chars,0,0,1
+pretrained,his test,his__test__oct17_134_032.png,his:oct17_134,Which jobs are waiting,WNch Jols ar gaiag,8,22,0.36363636363636365,0,21-40 chars,0,0,0
+pretrained,his test,his__train__oct17_134_041.png,his:oct17_134,One action at a time. being used.,one achon af a timebeing used,6,33,0.18181818181818182,0,21-40 chars,0,0,0
+pretrained,his test,his__train__oct17_137_004.png,his:oct17_137,What is deep learning,Whed is dap leaning,5,21,0.23809523809523808,0,21-40 chars,0,0,0
+pretrained,his test,his__train__oct17_137_006.png,his:oct17_137,"change, affine transformation, depth change","change, affiee fransfo m hen, depth charge",8,43,0.18604651162790697,0,over 40 chars,0,0,1
+pretrained,his test,his__train__oct17_138_006.png,his:oct17_138,"change, affine transformation, depth change","change, affine frasfornahon，deptthchange",9,43,0.20930232558139536,0,over 40 chars,0,0,1
+pretrained,his test,his__test__oct17_142_019.png,his:oct17_142,Cook food,Ceckfeod,4,9,0.4444444444444444,0,1-20 chars,0,0,0
+pretrained,his test,his__train__oct17_142_032.png,his:oct17_142,Receives deliveries,Recires deliveries,2,19,0.10526315789473684,0,1-20 chars,0,0,0
+pretrained,his test,his__test__oct17_142_038.png,his:oct17_142,Which jobs are waiting,Which jobs are waiting,0,22,0.0,1,21-40 chars,0,0,0
+pretrained,his test,his__train__quiz_02_000.png,his:quiz_02,"matching,","matching,",0,9,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__quiz_14_001.png,his:quiz_14,"matching,","matching,",0,9,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__quiz_15_001.png,his:quiz_15,"matching,","matching,",0,9,0.0,1,1-20 chars,0,0,0
+pretrained,his test,his__train__quiz_16_000.png,his:quiz_16,"matching,","matching,",0,9,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__1.3.2.jpg,his:1.3.2,These vectors serves as the tokens which is,The vectors serves as the towers which iss,5,43,0.11627906976744186,0,over 40 chars,1,1,1
+S1his_fulldict,his val,his__train__1.4.4.jpg,his:1.4.4,final classification head,final classification head,0,25,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__10.6.1.jpg,his:10.6.1,layer2 vectors of our 35 photos: they grouped by ground,layer2 rectors of our 35 photos: they rouped by ground,2,55,0.03636363636363636,0,over 40 chars,0,0,0
+S1his_fulldict,his val,his__train__11.1.3.jpg,his:11.1.3,Accuracy of model says that it worked on these photos,Accuracy of model says that it worked on these photos,0,53,0.0,1,over 40 chars,0,0,0
+S1his_fulldict,his val,his__test__11.1.4.jpg,his:11.1.4,All structure we impose on a grid,All structure we impose on a grid,0,33,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__12.1.6.jpg,his:12.1.6,Ceramides,Ceramides,0,9,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__12.2.11.jpg,his:12.2.11,Seven,Seven,0,5,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__14.2.14.jpg,his:14.2.14,Penang,Penang,0,6,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__14.2.9.jpg,his:14.2.9,Paradox,Paradox,0,7,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__14.3.1.jpg,his:14.3.1,Cushion,Cushion,0,7,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__14.3.13.jpg,his:14.3.13,Cannabis,Cannabis,0,8,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__14.3.15.jpg,his:14.3.15,ecstacy,ecstacy,0,7,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__15.2.10.jpg,his:15.2.10,Storage,Storage,0,7,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__15.2.12.jpg,his:15.2.12,Absorption,Absorption,0,10,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__15.2.9.jpg,his:15.2.9,Chylomicrons,Chylomicrons,0,12,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__15.3.1.jpg,his:15.3.1,Metabolism,Metabolism,0,10,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__16.1.3.jpg,his:16.1.3,Edible fat is a type of food,Edible fat is a ty pe of foud,2,28,0.07142857142857142,0,21-40 chars,1,0,0
+S1his_fulldict,his val,his__train__17.2.1.jpg,his:17.2.1,Monkey,Monkey,0,6,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__1789801073499.jpg,his:1789801073499,Burning,Banmig,4,7,0.5714285714285714,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__1789801074360.jpg,his:1789801074360,Burning,Armnd,5,7,0.7142857142857143,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__18.1.8.jpg,his:18.1.8,Test,Test,0,4,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__18.2.2.jpg,his:18.2.2,Weed,Weed,0,4,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__18.2.8.jpg,his:18.2.8,Marlboro,Marlboro,0,8,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__19.1.14.jpg,his:19.1.14,Self,Self,0,4,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__19.2.1.jpg,his:19.2.1,Define,Define,0,6,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__19.2.2.jpg,his:19.2.2,Terms,Terms,0,5,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__20.1.1.jpg,his:20.1.1,Extra,Extra,0,5,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__20.2.12.jpg,his:20.2.12,Canola,Canola,0,6,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__21.1.3.jpg,his:21.1.3,Eicosapentaenoic,Eicosapentaenoic,0,16,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__22.2.2.jpg,his:22.2.2,Component are independent unit,Component are independent unit,0,30,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__23.3.1.jpg,his:23.3.1,Pump and dump,Pump and dump,0,13,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__3.3.1.jpg,his:3.3.1,Limitation for Saliency via occlusion is that it fails when the evidence,limtation for silaicls iliciv cac c t a shen he vencse,34,72,0.4722222222222222,0,over 40 chars,2,1,0
+S1his_fulldict,his val,his__train__4.2.4.jpg,his:4.2.4,by a linear head.,by a linear head.,0,17,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__test__5.4.1.jpg,his:5.4.1,Computation graph represents the process of computing a,computation graph represents the process of cornputing a,2,55,0.03636363636363636,0,over 40 chars,1,0,0
+S1his_fulldict,his val,his__train__6.4.1.jpg,his:6.4.1,"To calculate mean average precision, take the average",To clalculate moea average preusion take the avvavrage,9,53,0.16981132075471697,0,over 40 chars,4,1,1
+S1his_fulldict,his val,his__train__8.2.13.jpg,his:8.2.13,Lecithin,Lecithin,0,8,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__8.2.9.jpg,his:8.2.9,Phospholipids,Phospholipids,0,13,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__9.4.1.jpg,his:9.4.1,Assumption that the local pixels,Assumption that the local pixels,0,32,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__9.6.1.jpg,his:9.6.1,A learned position for each,A learned position for each,0,27,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__JH17.1_cropped.jpg,his:JH17.1,Honey Yuzu,Honey Yuzu,0,10,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__JH17.2.jpg,his:JH17.2,with,with,0,4,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__JH18.2.jpg,his:JH18.2,communication,communlcation,1,13,0.07692307692307693,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__JH33.1.jpg,his:JH33.1,Tough,Toagk,2,5,0.4,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__JH34.1.jpg,his:JH34.1,SIT Best Uni,Sir o e,8,12,0.6666666666666666,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__cnn_05_002.png,his:cnn_05,"Dropout, Batch Normalization","Drupout, Batch Normalization",1,28,0.03571428571428571,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__cnn_07_002.png,his:cnn_07,"Dropout, Batch Normalization","Dropout, Batch Normalization",0,28,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__cnn_45_006.png,his:cnn_45,"Dropout, Batch Normalization","Dupur, Beth Nevaelisuntion",13,28,0.4642857142857143,0,21-40 chars,1,0,0
+S1his_fulldict,his val,his__train__cnn_46_006.png,his:cnn_46,"Dropout, Batch Normalization","Drae, Batah keumalintie",13,28,0.4642857142857143,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__cnn_48_002.png,his:cnn_48,"Dropout, Batch Normalization","Drapoet, Dath formalivation",6,28,0.21428571428571427,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__cnn_49_002.png,his:cnn_49,"Dropout, Batch Normalization","Droput, Batch Nemaliveation",5,28,0.17857142857142858,0,21-40 chars,1,0,0
+S1his_fulldict,his val,his__train__lecture_01_012.png,his:lecture_01,vote,vote,0,4,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_01_018.png,his:lecture_01,Image,Image,0,5,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_01_023.png,his:lecture_01,predict,predict,0,7,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_01_027.png,his:lecture_01,"- O(1) Training, O(N) Prediction","- O(1) Training, OcN) Predietion",2,32,0.0625,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_01_041.png,his:lecture_01,Activation,Activation,0,10,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_01_051.png,his:lecture_01,- ReLU,- ReLU,0,6,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_01_058.png,his:lecture_01,Augmentat,Augmenta,1,9,0.1111111111111111,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_01_086.png,his:lecture_01,2D,2D,0,2,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_01_092.png,his:lecture_01,"[N,C,L] [N,C,H,W]","[N,C,L] [N,c,H,W]",0,17,0.0,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_01_094.png,his:lecture_01,"- but when x<0, gradient = 0 so neuron","- but when x<O, gradient = 0 so neurion",2,38,0.05263157894736842,0,21-40 chars,1,0,0
+S1his_fulldict,his val,his__train__lecture_01_099.png,his:lecture_01,becomes inactive,becomes inactive,0,16,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_01_100.png,his:lecture_01,"C = channels (RGB, etc) W = width",C = channels (RGB etC)W = width,2,33,0.06060606060606061,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_01_105.png,his:lecture_01,learns,learns,0,6,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_01_109.png,his:lecture_01,Kernel - what area,Kernel - whatarea,1,18,0.05555555555555555,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_01_124.png,his:lecture_01,which is right,Whes ns,10,14,0.7142857142857143,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_01_126.png,his:lecture_01,output,outpat,1,6,0.16666666666666666,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_02_002.png,his:lecture_02,Chapter 5,Chapter s,1,9,0.1111111111111111,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_02_008.png,his:lecture_02,Image,Image,0,5,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_02_012.png,his:lecture_02,Stops Overfitting,Stops overfitting,0,17,0.0,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_02_018.png,his:lecture_02,"optimise, use better model"," optimise, use betber model",1,26,0.038461538461538464,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_02_023.png,his:lecture_02,Training Good / Validate Bad (Overfit),Training Good/ Validate Bad (0 verfit),3,38,0.07894736842105263,0,21-40 chars,1,0,0
+S1his_fulldict,his val,his__train__lecture_02_026.png,his:lecture_02,Conv + Act + Pool,Conv + Act +Pool,1,17,0.058823529411764705,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_02_027.png,his:lecture_02,Weight decay Shrink values,Weight decay shrink ualues,1,26,0.038461538461538464,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_02_029.png,his:lecture_02,Activation,Activation,0,10,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_02_032.png,his:lecture_02,Dropout drop neurons so they can learn from others,Dropout drop neurins so theg con learn from othors,4,50,0.08,0,over 40 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_02_037.png,his:lecture_02,- ReLU,- ReLU,0,6,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_02_065.png,his:lecture_02,2D,2D,0,2,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_02_078.png,his:lecture_02,"C = channels (RGB, etc) W = width",C = channels (RGB etc)W = width,2,33,0.06060606060606061,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_02_083.png,his:lecture_02,normalises values close to 0,normalises values close to 0,0,28,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_02_092.png,his:lecture_02,scale,scale,0,5,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_02_094.png,his:lecture_02,Provide a number not too big or,Provide a number not too big or,0,31,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_02_100.png,his:lecture_02,PyTorch Optimiser Loop,PyTorch Optimiser Loop,0,22,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_02_102.png,his:lecture_02,Test = running stats,Test = runing stats,1,20,0.05,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_02_106.png,his:lecture_02,output,output,0,6,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_002.png,his:lecture_03,2. Binary Classification,2. Binary Classfuatioer,5,24,0.20833333333333334,0,21-40 chars,1,0,0
+S1his_fulldict,his val,his__train__lecture_03_007.png,his:lecture_03,Chapter 5,Chapter 5,0,9,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_023.png,his:lecture_03,vote,vote,0,4,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_024.png,his:lecture_03,Image,Image,0,5,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_027.png,his:lecture_03,Stops Overfitting,Stops overfitting,0,17,0.0,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_040.png,his:lecture_03,"optimise, use better model"," optimise, use better model",0,26,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_046.png,his:lecture_03,Training Good / Validate Bad (Overfit),Training Good/Validate Bad (0vrfit),4,38,0.10526315789473684,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_051.png,his:lecture_03,Conv + Act + Pool,Conv + Act +Pool,1,17,0.058823529411764705,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_052.png,his:lecture_03,Weight decay Shrink values,Weight decay shrink values,0,26,0.0,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_053.png,his:lecture_03,Activation,Activration,1,10,0.1,0,1-20 chars,1,0,0
+S1his_fulldict,his val,his__train__lecture_03_056.png,his:lecture_03,Dropout drop neurons so they can learn from others,Dropout drop neuins so theg con learn from othors,5,50,0.1,0,over 40 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_064.png,his:lecture_03,- ReLU,-ReLU,1,6,0.16666666666666666,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_109.png,his:lecture_03,2D,2D,0,2,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_124.png,his:lecture_03,"- but when x<0, gradient = 0 so neuron","- but whe x<O, gradient = 0 vn meure",7,38,0.18421052631578946,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_131.png,his:lecture_03,becomes inactive,becots ineclive,4,16,0.25,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_132.png,his:lecture_03,"C = channels (RGB, etc) W = width","C = channdls (RGB, ate)N = Width",5,33,0.15151515151515152,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_140.png,his:lecture_03,normalises values close to 0,normalses values clone to 0,2,28,0.07142857142857142,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_144.png,his:lecture_03,Kernel - what area,Kernel - whalarea,2,18,0.1111111111111111,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_154.png,his:lecture_03,scale,s<cale,1,5,0.2,0,1-20 chars,1,0,0
+S1his_fulldict,his val,his__train__lecture_03_156.png,his:lecture_03,Provide a number not too big or,Prowicle a number not too big or,3,31,0.0967741935483871,0,21-40 chars,1,0,0
+S1his_fulldict,his val,his__train__lecture_03_163.png,his:lecture_03,PyTorch Optimiser Loop,PyTorch Optimiser Loop,0,22,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_167.png,his:lecture_03,Test = running stats,Test = rumeing stats,2,20,0.1,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_172.png,his:lecture_03,output,output,0,6,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_03_178.png,his:lecture_03,step(),stepl),1,6,0.16666666666666666,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_07_015.png,his:lecture_07,- ReLU, ReL,3,6,0.5,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_08_017.png,his:lecture_08,- ReLU,- RelN,1,6,0.16666666666666666,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_10_022.png,his:lecture_10,predict,predict,0,7,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__lecture_10_066.png,his:lecture_10,Activation,Classification,7,10,0.7,0,1-20 chars,4,2,1
+S1his_fulldict,his val,his__train__lecture_13_086.png,his:lecture_13,C,C,0,1,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_004_001.png,his:oct17_004,Challenge of Computer Vision,Challenge of computer Vision,0,28,0.0,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_004_002.png,his:oct17_004,"- Illumination, lighting, shadow, Image Constrast","-Illumination, lighting, shadow, Image Constrast",1,49,0.02040816326530612,0,over 40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_004_003.png,his:oct17_004,"- Geometric variability: Translation, rotation, scale","- Geometric variability: Translation, rotation, scale",0,53,0.0,1,over 40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_015_001.png,his:oct17_015,Challenge of Computer Vision,Challenge of computer Vision,0,28,0.0,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_015_003.png,his:oct17_015,"- Illumination, lighting, shadow, Image Constrast","Illumination, lighting, shadow, Image Constrast",2,49,0.04081632653061224,0,over 40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_015_005.png,his:oct17_015,"- Geometric variability: Translation, rotation, scale","- Geometric variability: Translation, rotation, scale",0,53,0.0,1,over 40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_040_000.png,his:oct17_040,Challenge of Computer Vision,Challenge of computer Vision,0,28,0.0,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_040_002.png,his:oct17_040,"- Illumination, lighting, shadow, Image Constrast","Illumination, lighting, shadow, Image Constrast",2,49,0.04081632653061224,0,over 40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_040_003.png,his:oct17_040,"- Geometric variability: Translation, rotation, scale","- Geometric variability: Translation, rotation, scale",0,53,0.0,1,over 40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_047_000.png,his:oct17_047,EXIT,EXIT,0,4,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_078_001.png,his:oct17_078,nputer Vision,nputer Vision,0,13,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_078_002.png,his:oct17_078,"hadow, Image Constrast","hadow, Image Constrast",0,22,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_078_003.png,his:oct17_078,"anslation, rotation, scale","anslation, rotation, scale",0,26,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__test__oct17_087_011.png,his:oct17_087,a mix of analogue and digital,a mix of analogue and digital,0,29,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__test__oct17_090_012.png,his:oct17_090,a mix of analogue and digital,a mix of analogue and digital,0,29,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_096_006.png,his:oct17_096,Why do we need an,Why do we need an,0,17,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_097_003.png,his:oct17_097,UART - Prints debugging information,UART - Prints debugging information,0,35,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_100_001.png,his:oct17_100,UART - Prints debugging information,UART - Prints debugging information,0,35,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_102_003.png,his:oct17_102,Why do we need an,Why do we need an,0,17,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_106_008.png,his:oct17_106,Why do we need an,Why do we need an,0,17,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_107_007.png,his:oct17_107,Imagine one chef handling,Imagine one chef handling,0,25,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_107_008.png,his:oct17_107,several responsibilities,severalresponsibilities,1,24,0.041666666666666664,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_115_003.png,his:oct17_115,Imagine one chef handling,Imagine one chef handling,0,25,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_115_005.png,his:oct17_115,several responsibilities.,severalresponsibilities.,1,25,0.04,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_115_013.png,his:oct17_115,Prints debugging information,Prints debugging information,0,28,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_118_002.png,his:oct17_118,order waits,order waits,0,11,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_122_007.png,his:oct17_122,When each job must be,When each job must be,0,21,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_123_004.png,his:oct17_123,order waits.,order waits.,0,12,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_123_017.png,his:oct17_123,When each job must be,When each job must be,0,21,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_126_004.png,his:oct17_126,Why do we need an,Why do we need an,0,17,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_126_005.png,his:oct17_126,Imagine one chef handling,Imagine one chef handling,0,25,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_126_007.png,his:oct17_126,several responsibilities.,several responsibilities.,0,25,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_126_012.png,his:oct17_126,order waits,order waits,0,11,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_126_037.png,his:oct17_126,When each job must be,When each job must be,0,21,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_129_000.png,his:oct17_129,Challenge of Computer Vision,Challenge of computer Vision,0,28,0.0,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_129_002.png,his:oct17_129,"- Illumination, lighting, shadow, Image Constrast","-Illumination, lighting, shadow, Image Constrast",1,49,0.02040816326530612,0,over 40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_129_004.png,his:oct17_129,"- Geometric variability: Translation, rotation, scale","- Geometric variability: Translation, rotation, scale",0,53,0.0,1,over 40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_129_017.png,his:oct17_129,Imagine one chef handling,Imagine one chef handlling,1,25,0.04,0,21-40 chars,1,1,1
+S1his_fulldict,his val,his__train__oct17_129_019.png,his:oct17_129,several responsibilities,several responsibilities,0,24,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_129_028.png,his:oct17_129,order waits,order waits,0,11,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_129_055.png,his:oct17_129,When each job must be,When each job must be,0,21,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_134_007.png,his:oct17_134,several responsibilities,several responsibilities,0,24,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_134_013.png,his:oct17_134,order waits,order waits,0,11,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_134_043.png,his:oct17_134,When each job must be,When each job mast be,1,21,0.047619047619047616,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_137_000.png,his:oct17_137,Challenge of Computer Vision,Challenge of Computer Vision,0,28,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_137_002.png,his:oct17_137,"- Illumination, lighting, shadow, Image Constrast","Illumination, lighting, shadow, Image Constiast",3,49,0.061224489795918366,0,over 40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_137_003.png,his:oct17_137,"- Geometric variability: Translation, rotation, scale","- Geametrke variability Translation, rotation, scake",5,53,0.09433962264150944,0,over 40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_138_001.png,his:oct17_138,Challenge of Computer Vision,Challenge of computer Vision,0,28,0.0,0,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_138_003.png,his:oct17_138,"- Illumination, lighting, shadow, Image Constrast","- Illumination, lighting, shadow, Inage Constrast",1,49,0.02040816326530612,0,over 40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_142_002.png,his:oct17_142,Challenge of Computer Vision,Challesngez of conouter vision,4,28,0.14285714285714285,0,21-40 chars,2,0,0
+S1his_fulldict,his val,his__train__oct17_142_007.png,his:oct17_142,several responsibilities,several responsibilities,0,24,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_142_013.png,his:oct17_142,order waits,order waits,0,11,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__oct17_142_043.png,his:oct17_142,When each job must be,When each job must be,0,21,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his val,his__train__quiz_01_002.png,his:quiz_01,so hard.,So hard.,0,8,0.0,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__quiz_03_004.png,his:quiz_03,so hard.,so hard,1,8,0.125,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__quiz_04_004.png,his:quiz_04,so hard.,so hard,1,8,0.125,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__quiz_05_003.png,his:quiz_05,so hard.,so hard.,0,8,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__quiz_06_002.png,his:quiz_06,so hard.,so hard.,0,8,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__quiz_08_004.png,his:quiz_08,so hard.,so hard.,0,8,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__quiz_09_004.png,his:quiz_09,so hard.,so hard,1,8,0.125,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__quiz_10_003.png,his:quiz_10,so hard.,so hard,1,8,0.125,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__quiz_11_004.png,his:quiz_11,so hard.,so hard.,0,8,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__quiz_12_005.png,his:quiz_12,so had.,so had,1,7,0.14285714285714285,0,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__quiz_17_001.png,his:quiz_17,so had.,so had.,0,7,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__quiz_18_001.png,his:quiz_18,so had.,so had.,0,7,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his val,his__train__quiz_19_002.png,his:quiz_19,so had.,so had.,0,7,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__1.2.2.jpg,his:1.2.2,"which NLP. To make them work for images,","Which NLp To male them work for images,",2,40,0.05,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__1.2.3.jpg,his:1.2.3,ViT splits an image into a grid of fixed-size patches,Vis plts aningeni n i   f fisize paces,21,53,0.39622641509433965,0,over 40 chars,0,0,0
+S1his_fulldict,his test,his__train__1.3.1.jpg,his:1.3.1,Each patch is flattened and linearly projected into 1D vector.,Exnh pat i t te tded n relrt rsd a eo crs.,38,62,0.6129032258064516,0,over 40 chars,0,0,0
+S1his_fulldict,his test,his__train__12.1.13.jpg,his:12.1.13,Brain,Brain,0,5,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__12.2.4.jpg,his:12.2.4,Nigeria,Nigeria,0,7,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__12.2.5.jpg,his:12.2.5,Linoleic,Linoleic,0,8,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__12.2.8.jpg,his:12.2.8,Primary,Primary,0,7,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__14.1.1.jpg,his:14.1.1,Cardiovascular,Cardiovascular,0,14,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__14.1.14.jpg,his:14.1.14,Gram,Gram,0,4,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__14.1.15.jpg,his:14.1.15,Weight,Weight,0,6,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__14.4.1.jpg,his:14.4.1,Bikini,Bikini,0,6,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__15.2.3.jpg,his:15.2.3,Cells,cells,0,5,0.0,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__15.3.14.jpg,his:15.3.14,Serum,Serum,0,5,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__15.3.3.jpg,his:15.3.3,Sticks,Sticks,0,6,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__15.3.9.jpg,his:15.3.9,Reverse,Reverse,0,7,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__16.7.1.jpg,his:16.7.1,Chemical reaction in which an alcohol,Chemical reaction in which an alcohol,0,37,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__test__1789801072989.jpg,his:1789801072989,6592,crR,4,4,1.0,0,1-20 chars,0,0,1
+S1his_fulldict,his test,his__train__1789801073617.jpg,his:1789801073617,bing chilling,oamg hctid,9,13,0.6923076923076923,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__1789801073944.jpg,his:1789801073944,bing chilling,ingchiding,4,13,0.3076923076923077,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__18.1.3.jpg,his:18.1.3,Carlsberg,Carlsberg,0,9,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__18.1.6.jpg,his:18.1.6,Tobacco,Tobacco,0,7,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__18.2.4.jpg,his:18.2.4,fentanol,fentanol,0,8,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__2.2.2.jpg,his:2.2.2,it can only detect a single object,it canonly detet t sagsig jsect,11,34,0.3235294117647059,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__20.2.3.jpg,his:20.2.3,Case,Case,0,4,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__20.2.8.jpg,his:20.2.8,Replaces,Replaces,0,8,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__21.1.9.jpg,his:21.1.9,Myocardial,Myocardial,0,10,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__22.4.1.jpg,his:22.4.1,Stereotype attached to the component,Stereotype attached to the component,0,36,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__4.1.3.jpg,his:4.1.3,it pooled to see where the evidence lies.,it pooled to see where the evidence lies.,0,41,0.0,1,over 40 chars,0,0,0
+S1his_fulldict,his test,his__test__5.2.2.jpg,his:5.2.2,"neural network, but for realistic data classification,","neural network, but for realistic data classification,",0,54,0.0,1,over 40 chars,0,0,0
+S1his_fulldict,his test,his__train__6.1.2.jpg,his:6.1.2,bounding boxes by their confidence,bounding boxes by their confidence,0,34,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__test__6.2.1.jpg,his:6.2.1,"To plot the precision-Recall curve, graph","To plot the prercsioion l uer, garaph",14,41,0.34146341463414637,0,over 40 chars,1,0,0
+S1his_fulldict,his test,his__train__6.3.2.jpg,his:6.3.2,the precision-Recall curve to generate a single performance,the precision-Reall curve to generate a single pertormance,2,59,0.03389830508474576,0,over 40 chars,0,0,0
+S1his_fulldict,his test,his__train__6.3.3.jpg,his:6.3.3,score for that specific object class,core for that spetic objuct clalas,7,36,0.19444444444444445,0,21-40 chars,1,1,0
+S1his_fulldict,his test,his__train__8.2.10.jpg,his:8.2.10,Glycolipids,Glycolipids,0,11,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__8.3.10.jpg,his:8.3.10,polyunsaturated,polyunsaturated,0,15,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__8.3.11.jpg,his:8.3.11,Shorts,Shorts,0,6,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__8.3.13.jpg,his:8.3.13,Carbon,Carbon,0,6,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__8.3.3.jpg,his:8.3.3,Food,Food,0,4,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__8.3.6.jpg,his:8.3.6,Help,Help,0,4,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__8.3.7.jpg,his:8.3.7,Hydrolysis,Hydrolysis,0,10,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__JH23.2.jpg,his:JH23.2,cake,cake,0,4,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__JH27.1.jpg,his:JH27.1,Satsuma,Satsuma,0,7,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__JH28.1.jpg,his:JH28.1,Original Taste,Oviginal astte,3,14,0.21428571428571427,0,1-20 chars,1,1,1
+S1his_fulldict,his test,his__train__JH30.2.jpg,his:JH30.2,Giant,Griant,1,5,0.2,0,1-20 chars,1,0,0
+S1his_fulldict,his test,his__train__JH32.1.jpg,his:JH32.1,Kerosene,Reranive,5,8,0.625,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__cnn_05_001.png,his:cnn_05,"LeNet, Alexnet, Resnet","LeNet, Akxnet, Resnet",2,22,0.09090909090909091,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__test__cnn_07_001.png,his:cnn_07,"LeNet, Alexnet, Resnet","LeNet, Akxnet, Resmet",3,22,0.13636363636363635,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__test__cnn_45_005.png,his:cnn_45,"LeNet, Alexnet, Resnet","Laeet likeret, Morset",12,22,0.5454545454545454,0,21-40 chars,0,0,1
+S1his_fulldict,his test,his__test__cnn_46_005.png,his:cnn_46,"LeNet, Alexnet, Resnet","auiet, Nexrel, Leret",10,22,0.45454545454545453,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__test__cnn_47_005.png,his:cnn_47,"LeNet, Alexnet, Resnet","iNer Mikpret, Lerst",13,22,0.5909090909090909,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__test__cnn_48_001.png,his:cnn_48,"LeNet, Alexnet, Resnet","LNet, Akxret, Resrnet",5,22,0.22727272727272727,0,21-40 chars,1,0,0
+S1his_fulldict,his test,his__test__cnn_49_001.png,his:cnn_49,"LeNet, Alexnet, Resnet","LeNet Aikxret, Resnet",4,22,0.18181818181818182,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_01_003.png,his:lecture_01,2.1 Sigmoid probability,21Sigmoid probability,2,23,0.08695652173913043,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_01_031.png,his:lecture_01,"- K=1, underfit","- k=1, uncderfit",1,15,0.06666666666666667,0,1-20 chars,1,0,0
+S1his_fulldict,his test,his__test__lecture_01_054.png,his:lecture_01,3. Multi-Class Classification,3. Multi- Class Classification,1,29,0.034482758620689655,0,21-40 chars,1,0,0
+S1his_fulldict,his test,his__train__lecture_01_063.png,his:lecture_01,MaxPool vs Average Pool,MaxPool vs Average Pol,1,23,0.043478260869565216,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_01_096.png,his:lecture_01,(M-K+1)x(N-L+1),(M-K+1)x(N-Lt1),1,15,0.06666666666666667,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_01_104.png,his:lecture_01,c = class,C =class,1,9,0.1111111111111111,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_01_111.png,his:lecture_01,- punishes low probability of correct class,- punishes low probability of carect class,2,43,0.046511627906976744,0,over 40 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_01_114.png,his:lecture_01,bias,bias,0,4,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_01_118.png,his:lecture_01,- gives negative values a small gradient,- gives negative values a small gradiont,1,40,0.025,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_02_001.png,his:lecture_02,Chapter 4,Chapter 4,0,9,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_02_009.png,his:lecture_02,Choose,Choose,0,6,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_02_016.png,his:lecture_02,Training Bad (Underfit),Training Bad (Uncderfit),1,23,0.043478260869565216,0,21-40 chars,1,0,0
+S1his_fulldict,his test,his__train__lecture_02_045.png,his:lecture_02,MaxPool vs Average Pool,MaxPool vs Average Pool,0,23,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_02_046.png,his:lecture_02,3. VGG,3. VGG,0,6,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__lecture_02_069.png,his:lecture_02,"number, shifts it close to but not 0","number, shifts it close to but not 0",0,36,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_02_075.png,his:lecture_02,(M-K+1)x(N-L+1),(M-K+1)x(N-Lt1),1,15,0.06666666666666667,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_02_076.png,his:lecture_02,Normalisation,Normalisation,0,13,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_02_096.png,his:lecture_02,bias,bias,0,4,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_02_099.png,his:lecture_02,Training = batch stats,Training = batch stots,1,22,0.045454545454545456,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__test__lecture_02_107.png,his:lecture_02,zero_grad() clears gradients,zero-grad() clears gradients,1,28,0.03571428571428571,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_02_110.png,his:lecture_02,calculates new gradients, calculates new gradient1,1,24,0.041666666666666664,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_03_003.png,his:lecture_03,2.1 Sigmoid probability,21Sigmoid pratabinty,6,23,0.2608695652173913,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_03_006.png,his:lecture_03,Chapter 4,Chapter 4,0,9,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_03_014.png,his:lecture_03,1. Classification,1 Classfication,2,17,0.11764705882352941,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_03_020.png,his:lecture_03,Choose Judge,Choase Judge,1,12,0.08333333333333333,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__lecture_03_022.png,his:lecture_03,Z = wx+b,z = wx+b,0,8,0.0,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_03_034.png,his:lecture_03,Training Bad (Underfit),Training Bad (Underfito),1,23,0.043478260869565216,0,21-40 chars,1,0,0
+S1his_fulldict,his test,his__test__lecture_03_068.png,his:lecture_03,3. Multi-Class Classification,3. Multi- Closs Classfication,3,29,0.10344827586206896,0,21-40 chars,1,0,0
+S1his_fulldict,his test,his__train__lecture_03_076.png,his:lecture_03,MaxPool vs Average Pool,MaxPool vs Arverage Pol,2,23,0.08695652173913043,0,21-40 chars,1,0,0
+S1his_fulldict,his test,his__train__lecture_03_077.png,his:lecture_03,3. VGG,3. VGh,1,6,0.16666666666666666,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__lecture_03_107.png,his:lecture_03,"ReLU(x) = max(0,x)","ReLUlx) = mar(0,x)",2,18,0.1111111111111111,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__lecture_03_121.png,his:lecture_03,"number, shifts it close to but not 0","number, shifts it close to but not 0",0,36,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_03_127.png,his:lecture_03,(M-K+1)x(N-L+1),(M-K+1)x(N-Lt1),1,15,0.06666666666666667,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_03_128.png,his:lecture_03,Normalisation,Normalisation,0,13,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_03_130.png,his:lecture_03,c = class,C = class,0,9,0.0,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_03_142.png,his:lecture_03,- punishes low probability of correct class,- pemishes low peababidity odf carect class,8,43,0.18604651162790697,0,over 40 chars,1,0,0
+S1his_fulldict,his test,his__train__lecture_03_151.png,his:lecture_03,- gives negative values a small gradient,- gives negative values a small grodiont,2,40,0.05,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_03_157.png,his:lecture_03,MSE,MSE,0,3,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_03_158.png,his:lecture_03,bias,bias,0,4,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_03_162.png,his:lecture_03,Training = batch stats,Traning = batch stonts,3,22,0.13636363636363635,0,21-40 chars,1,0,0
+S1his_fulldict,his test,his__test__lecture_03_165.png,his:lecture_03,CE,CE,0,2,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__lecture_03_169.png,his:lecture_03,CE,CE,0,2,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__lecture_03_175.png,his:lecture_03,zero_grad() clears gradients,zero-grad() clears gradients,1,28,0.03571428571428571,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__test__lecture_03_176.png,his:lecture_03,backward() calculates new gradients,backward() calcalates new gradionts,2,35,0.05714285714285714,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__test__lecture_03_179.png,his:lecture_03,update gradients, updatx gradients,1,16,0.0625,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_04_000.png,his:lecture_04,Choose,Chrese,2,6,0.3333333333333333,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_09_091.png,his:lecture_09,channel,channel,0,7,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_09_093.png,his:lecture_09,MSE,MSE,0,3,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__lecture_09_094.png,his:lecture_09,Handcrafted features,Handcratfed features,2,20,0.1,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__lecture_10_011.png,his:lecture_10,Z = wx+b,z= wxtb,2,8,0.25,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__lecture_10_090.png,his:lecture_10,MSE,MSE,0,3,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__lecture_10_091.png,his:lecture_10,Handcrafted features,Handcratfed features,2,20,0.1,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__lecture_11_013.png,his:lecture_11,Z = wx+b,z = wxtb,1,8,0.125,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__lecture_11_093.png,his:lecture_11,Handcrafted features,Handcratted features,1,20,0.05,0,1-20 chars,0,0,1
+S1his_fulldict,his test,his__train__lecture_12_043.png,his:lecture_12,Move,Move,0,4,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__lecture_12_092.png,his:lecture_12,Handcrafted features,Handcraffed features,1,20,0.05,0,1-20 chars,0,0,1
+S1his_fulldict,his test,his__train__lecture_13_088.png,his:lecture_13,MSE,MSE,0,3,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__lecture_13_089.png,his:lecture_13,Handcrafted features,Handcratfed features,2,20,0.1,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__oct17_002_001.png,his:oct17_002,- An Image is a 2D matrix of pixels. Each pixel stores a numerical,- An Image is a 2D matrix of pixels Each pixel stores a numerical,1,66,0.015151515151515152,0,over 40 chars,0,0,0
+S1his_fulldict,his test,his__test__oct17_004_004.png,his:oct17_004,"change, affine transformation, depth change.","change, affine transformation, depth change.",0,44,0.0,1,over 40 chars,0,0,0
+S1his_fulldict,his test,his__test__oct17_015_004.png,his:oct17_015,- An Image is a 2D matrix of pixels. Each pixel stores a numerical,- A Image is a 2D matrix of pixels Each pixel stores a numerical,2,66,0.030303030303030304,0,over 40 chars,0,0,0
+S1his_fulldict,his test,his__test__oct17_015_007.png,his:oct17_015,"change, affine transformation, depth change.","change, affine transformation, depth change.",0,44,0.0,1,over 40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_023_007.png,his:oct17_023,What is deep learning,What is cdeep learning,1,21,0.047619047619047616,0,21-40 chars,1,0,0
+S1his_fulldict,his test,his__train__oct17_039_001.png,his:oct17_039,What is deep learning,What is dkeep learning,1,21,0.047619047619047616,0,21-40 chars,1,0,0
+S1his_fulldict,his test,his__train__oct17_040_004.png,his:oct17_040,What is deep learning,What is ckeep learning,2,21,0.09523809523809523,0,21-40 chars,1,0,0
+S1his_fulldict,his test,his__test__oct17_040_006.png,his:oct17_040,"change, affine transformation, depth change.","change, affine transformation, depth change.",0,44,0.0,1,over 40 chars,0,0,0
+S1his_fulldict,his test,his__test__oct17_050_003.png,his:oct17_050,"change, affine transformation, depth change.","change, affine transformation, depth change",1,44,0.022727272727272728,0,over 40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_078_004.png,his:oct17_078,What is deep learning,What is deep learning,0,21,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_078_005.png,his:oct17_078,"ation, depth change.","ation, depth change.",0,20,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_087_013.png,his:oct17_087,electronics to represent the,electronics to represent the,0,28,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_090_014.png,his:oct17_090,electronics to represent the,electronics to represent the,0,28,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_100_002.png,his:oct17_100,Timer - Request regular measurement,Timer - Request regular measurement,0,35,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_106_001.png,his:oct17_106,What is deep learning,What is deep learning,0,21,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_113_004.png,his:oct17_113,one action at a time.,one action at a time.,0,21,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_115_002.png,his:oct17_115,we need an,we need an,0,10,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__oct17_115_007.png,his:oct17_115,Cook food,Cook food,0,9,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_115_010.png,his:oct17_115,Receives deliveries,Receives deliveries,0,19,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_115_016.png,his:oct17_115,one action at a time.,one action at a time.,0,21,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_118_001.png,his:oct17_118,may start cleaning while an urgent,may start cleaning while an urgent,0,34,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__test__oct17_119_010.png,his:oct17_119,Which jobs are waiting,Which jobs are waiting,0,22,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_119_012.png,his:oct17_119,Which job is most urgent,Which job is most urgent,0,24,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_123_001.png,his:oct17_123,may start cleaning while an urgent,may start cleaning while an urgent,0,34,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__test__oct17_123_010.png,his:oct17_123,Which jobs are waiting,Which jobs are waiting,0,22,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_123_013.png,his:oct17_123,Which job is most urgent,Which job is most urgent,0,24,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_126_008.png,his:oct17_126,may start cleaning while an urgent,may start cleaning while an urgent,0,34,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__test__oct17_126_015.png,his:oct17_126,Cook food,Cook food,0,9,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_126_022.png,his:oct17_126,Receives deliveries,Receives deliveries,0,19,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__oct17_126_029.png,his:oct17_126,Which jobs are waiting,Which jobs are waiting,0,22,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_126_030.png,his:oct17_126,Handle an emergency,Handle an emergency,0,19,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_126_033.png,his:oct17_126,Which job is most urgent,Which job is most urgent,0,24,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_126_035.png,his:oct17_126,One action at a time. being used.,one action at a time being used.,1,33,0.030303030303030304,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_129_005.png,his:oct17_129,What is deep learning,What is dleep learning,1,21,0.047619047619047616,0,21-40 chars,1,0,0
+S1his_fulldict,his test,his__train__oct17_129_007.png,his:oct17_129,"change, affine transformation, depth change","change, affine transformation, depth change",0,43,0.0,1,over 40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_129_020.png,his:oct17_129,may start cleaning while an urgent,may start cleaning while an urgent,0,34,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__test__oct17_129_027.png,his:oct17_129,Cook food,Cook food,0,9,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_129_038.png,his:oct17_129,Receives deliveries,Receives deliveries,0,19,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__oct17_129_046.png,his:oct17_129,Which jobs are waiting,Which jobs are waiting,0,22,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_129_054.png,his:oct17_129,One action at a time. being used.,one action at a time being used.,1,33,0.030303030303030304,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__test__oct17_134_012.png,his:oct17_134,Cook food,Cock food,1,9,0.1111111111111111,0,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_134_024.png,his:oct17_134,Receives deliveries,Receives deliveries,0,19,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__oct17_134_032.png,his:oct17_134,Which jobs are waiting,Which jobs are weaxiting,2,22,0.09090909090909091,0,21-40 chars,2,0,0
+S1his_fulldict,his test,his__train__oct17_134_041.png,his:oct17_134,One action at a time. being used.,one action at a tine being used,3,33,0.09090909090909091,0,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_137_004.png,his:oct17_137,What is deep learning,Whad is cleep learning,3,21,0.14285714285714285,0,21-40 chars,1,0,0
+S1his_fulldict,his test,his__train__oct17_137_006.png,his:oct17_137,"change, affine transformation, depth change","change, affine transformation, depth change",0,43,0.0,1,over 40 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_138_006.png,his:oct17_138,"change, affine transformation, depth change","change, affine transformation, depth change",0,43,0.0,1,over 40 chars,0,0,0
+S1his_fulldict,his test,his__test__oct17_142_019.png,his:oct17_142,Cook food,Cook food,0,9,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__oct17_142_032.png,his:oct17_142,Receives deliveries,Receives deliveries,0,19,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__test__oct17_142_038.png,his:oct17_142,Which jobs are waiting,Which jobs are waiting,0,22,0.0,1,21-40 chars,0,0,0
+S1his_fulldict,his test,his__train__quiz_02_000.png,his:quiz_02,"matching,","matching,",0,9,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__quiz_14_001.png,his:quiz_14,"matching,","matching,",0,9,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__quiz_15_001.png,his:quiz_15,"matching,","matching,",0,9,0.0,1,1-20 chars,0,0,0
+S1his_fulldict,his test,his__train__quiz_16_000.png,his:quiz_16,"matching,","matching,",0,9,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__1.3.2.jpg,his:1.3.2,These vectors serves as the tokens which is,The vectors serves as the tokes which is,3,43,0.06976744186046512,0,over 40 chars,0,0,0
+S1his_en,his val,his__train__1.4.4.jpg,his:1.4.4,final classification head,fma  classification head,3,25,0.12,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__10.6.1.jpg,his:10.6.1,layer2 vectors of our 35 photos: they grouped by ground,layer2 rectors of our 3S photos they grouped by ground,3,55,0.05454545454545454,0,over 40 chars,0,0,0
+S1his_en,his val,his__train__11.1.3.jpg,his:11.1.3,Accuracy of model says that it worked on these photos,Accuracy of model says that it worked on these photos,0,53,0.0,1,over 40 chars,0,0,0
+S1his_en,his val,his__test__11.1.4.jpg,his:11.1.4,All structure we impose on a grid,All stroctue we impose on a grid,2,33,0.06060606060606061,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__12.1.6.jpg,his:12.1.6,Ceramides,Ceramides,0,9,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__12.2.11.jpg,his:12.2.11,Seven,Seven,0,5,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__14.2.14.jpg,his:14.2.14,Penang,Penang,0,6,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__14.2.9.jpg,his:14.2.9,Paradox,Paradov,1,7,0.14285714285714285,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__14.3.1.jpg,his:14.3.1,Cushion,Cushion,0,7,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__14.3.13.jpg,his:14.3.13,Cannabis,Cannabis,0,8,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__14.3.15.jpg,his:14.3.15,ecstacy,cstaoy,2,7,0.2857142857142857,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__15.2.10.jpg,his:15.2.10,Storage,Storage,0,7,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__15.2.12.jpg,his:15.2.12,Absorption,Absorption,0,10,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__15.2.9.jpg,his:15.2.9,Chylomicrons,Chylomicrons,0,12,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__15.3.1.jpg,his:15.3.1,Metabolism,metabolism,0,10,0.0,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__16.1.3.jpg,his:16.1.3,Edible fat is a type of food,Edible fat is a type of food,0,28,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__17.2.1.jpg,his:17.2.1,Monkey,Monkey,0,6,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__1789801073499.jpg,his:1789801073499,Burning,Samiag,5,7,0.7142857142857143,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__1789801074360.jpg,his:1789801074360,Burning,Aamrod,7,7,1.0,0,1-20 chars,0,0,1
+S1his_en,his val,his__train__18.1.8.jpg,his:18.1.8,Test,Test,0,4,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__18.2.2.jpg,his:18.2.2,Weed,Weed,0,4,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__18.2.8.jpg,his:18.2.8,Marlboro,Marlboro,0,8,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__19.1.14.jpg,his:19.1.14,Self,Self,0,4,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__19.2.1.jpg,his:19.2.1,Define,Define,0,6,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__19.2.2.jpg,his:19.2.2,Terms,Terms,0,5,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__20.1.1.jpg,his:20.1.1,Extra,Extra,0,5,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__20.2.12.jpg,his:20.2.12,Canola,Canola,0,6,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__21.1.3.jpg,his:21.1.3,Eicosapentaenoic,Eicosapentaenoic,0,16,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__22.2.2.jpg,his:22.2.2,Component are independent unit,Component are independentf unit,1,30,0.03333333333333333,0,21-40 chars,1,0,0
+S1his_en,his val,his__train__23.3.1.jpg,his:23.3.1,Pump and dump,Pump and dump,0,13,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__3.3.1.jpg,his:3.3.1,Limitation for Saliency via occlusion is that it fails when the evidence,Lismtatin to r s lus us s csn sioisf ade eie e eeece,41,72,0.5694444444444444,0,over 40 chars,1,0,1
+S1his_en,his val,his__train__4.2.4.jpg,his:4.2.4,by a linear head.,by a linear head.,0,17,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__test__5.4.1.jpg,his:5.4.1,Computation graph represents the process of computing a,Computation graph represents the process of computing a,0,55,0.0,1,over 40 chars,0,0,0
+S1his_en,his val,his__train__6.4.1.jpg,his:6.4.1,"To calculate mean average precision, take the average","To calulate mean average precin, takeathe average",5,53,0.09433962264150944,0,over 40 chars,0,0,0
+S1his_en,his val,his__train__8.2.13.jpg,his:8.2.13,Lecithin,Lecithin,0,8,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__8.2.9.jpg,his:8.2.9,Phospholipids,Phospholipids,0,13,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__9.4.1.jpg,his:9.4.1,Assumption that the local pixels,Assumption that the local pixels,0,32,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__9.6.1.jpg,his:9.6.1,A learned position for each,A learned position for each,0,27,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__JH17.1_cropped.jpg,his:JH17.1,Honey Yuzu,Honey Yuzu,0,10,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__JH17.2.jpg,his:JH17.2,with,with,0,4,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__JH18.2.jpg,his:JH18.2,communication,Communloation,2,13,0.15384615384615385,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__JH33.1.jpg,his:JH33.1,Tough,Tauh,2,5,0.4,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__JH34.1.jpg,his:JH34.1,SIT Best Uni,St oe ,8,12,0.6666666666666666,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__cnn_05_002.png,his:cnn_05,"Dropout, Batch Normalization","Drupout , Batch Normalization",2,28,0.07142857142857142,0,21-40 chars,1,0,0
+S1his_en,his val,his__train__cnn_07_002.png,his:cnn_07,"Dropout, Batch Normalization","Drupout , Batch Normalization",2,28,0.07142857142857142,0,21-40 chars,1,0,0
+S1his_en,his val,his__train__cnn_45_006.png,his:cnn_45,"Dropout, Batch Normalization","Dapeut, tath iuralisutstion",12,28,0.42857142857142855,0,21-40 chars,2,0,0
+S1his_en,his val,his__train__cnn_46_006.png,his:cnn_46,"Dropout, Batch Normalization","Diae, teat Caumalisatite",16,28,0.5714285714285714,0,21-40 chars,1,0,0
+S1his_en,his val,his__train__cnn_48_002.png,his:cnn_48,"Dropout, Batch Normalization","Drapact, Datch bieornalieation",9,28,0.32142857142857145,0,21-40 chars,2,0,0
+S1his_en,his val,his__train__cnn_49_002.png,his:cnn_49,"Dropout, Batch Normalization","Drupnut, Batch Nermalieation",4,28,0.14285714285714285,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__lecture_01_012.png,his:lecture_01,vote,vote,0,4,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_01_018.png,his:lecture_01,Image,Image,0,5,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_01_023.png,his:lecture_01,predict,prediet,1,7,0.14285714285714285,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_01_027.png,his:lecture_01,"- O(1) Training, O(N) Prediction","- OoC1 Training, 0CN) Prediction",5,32,0.15625,0,21-40 chars,0,0,1
+S1his_en,his val,his__train__lecture_01_041.png,his:lecture_01,Activation,Activation,0,10,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_01_051.png,his:lecture_01,- ReLU,- ReLU,0,6,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_01_058.png,his:lecture_01,Augmentat,Augmenta,1,9,0.1111111111111111,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_01_086.png,his:lecture_01,2D,2D,0,2,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_01_092.png,his:lecture_01,"[N,C,L] [N,C,H,W]","[N,C,L] [N, C,H,W]",1,17,0.058823529411764705,0,1-20 chars,1,0,0
+S1his_en,his val,his__train__lecture_01_094.png,his:lecture_01,"- but when x<0, gradient = 0 so neuron","- but when s 0, gradient = 0 so neuron",2,38,0.05263157894736842,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__lecture_01_099.png,his:lecture_01,becomes inactive,becomes inactive,0,16,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_01_100.png,his:lecture_01,"C = channels (RGB, etc) W = width",C = channels (RGB eteW = width,4,33,0.12121212121212122,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__lecture_01_105.png,his:lecture_01,learns,learns,0,6,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_01_109.png,his:lecture_01,Kernel - what area,Kernel - whatarea,1,18,0.05555555555555555,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_01_124.png,his:lecture_01,which is right,wlialst as,11,14,0.7857142857142857,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_01_126.png,his:lecture_01,output,outpat,1,6,0.16666666666666666,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_02_002.png,his:lecture_02,Chapter 5,Chapter s,1,9,0.1111111111111111,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_02_008.png,his:lecture_02,Image,Image,0,5,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_02_012.png,his:lecture_02,Stops Overfitting,Stops overfitting,0,17,0.0,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_02_018.png,his:lecture_02,"optimise, use better model","optimise, use befber model",2,26,0.07692307692307693,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__lecture_02_023.png,his:lecture_02,Training Good / Validate Bad (Overfit),Training Good /Validate Bad (overfit),1,38,0.02631578947368421,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__lecture_02_026.png,his:lecture_02,Conv + Act + Pool,Conv + Act + Pool,0,17,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_02_027.png,his:lecture_02,Weight decay Shrink values,Weight decay Shrink ualues,1,26,0.038461538461538464,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__lecture_02_029.png,his:lecture_02,Activation,Activation,0,10,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_02_032.png,his:lecture_02,Dropout drop neurons so they can learn from others,Dropout drop neuriens so theg can learn from ofthors,5,50,0.1,0,over 40 chars,2,0,0
+S1his_en,his val,his__train__lecture_02_037.png,his:lecture_02,- ReLU,- ReLU,0,6,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_02_065.png,his:lecture_02,2D,2D,0,2,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_02_078.png,his:lecture_02,"C = channels (RGB, etc) W = width",C = channels (RGB etcW= width,4,33,0.12121212121212122,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__lecture_02_083.png,his:lecture_02,normalises values close to 0,normalises values close to 0,0,28,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__lecture_02_092.png,his:lecture_02,scale,scale,0,5,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_02_094.png,his:lecture_02,Provide a number not too big or,Provide a number not too big or,0,31,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__lecture_02_100.png,his:lecture_02,PyTorch Optimiser Loop,PyTorch Optimiser Loop,0,22,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__lecture_02_102.png,his:lecture_02,Test = running stats,Test = running stats,0,20,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_02_106.png,his:lecture_02,output,output,0,6,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_002.png,his:lecture_03,2. Binary Classification,2. Binary Classfuation,3,24,0.125,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_007.png,his:lecture_03,Chapter 5,Chapter s,1,9,0.1111111111111111,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_023.png,his:lecture_03,vote,vote,0,4,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_024.png,his:lecture_03,Image,Image,0,5,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_027.png,his:lecture_03,Stops Overfitting,Stops overfitting,0,17,0.0,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_040.png,his:lecture_03,"optimise, use better model","optimise, use befter modee",2,26,0.07692307692307693,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_046.png,his:lecture_03,Training Good / Validate Bad (Overfit),Training Good / Validate Bad (0verfit),1,38,0.02631578947368421,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_051.png,his:lecture_03,Conv + Act + Pool,Conv + Act +Pool,1,17,0.058823529411764705,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_052.png,his:lecture_03,Weight decay Shrink values,Weight decay Shrink values,0,26,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_053.png,his:lecture_03,Activation,Activation,0,10,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_056.png,his:lecture_03,Dropout drop neurons so they can learn from others,Dropout drop necies so theg con learn from ofhoes,9,50,0.18,0,over 40 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_064.png,his:lecture_03,- ReLU,- ReLU,0,6,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_109.png,his:lecture_03,2D,2D,0,2,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_124.png,his:lecture_03,"- but when x<0, gradient = 0 so neuron","- but whee <50, gradient = 0 va neiann",8,38,0.21052631578947367,0,21-40 chars,0,0,2
+S1his_en,his val,his__train__lecture_03_131.png,his:lecture_03,becomes inactive,becivones inachive,4,16,0.25,0,1-20 chars,2,0,0
+S1his_en,his val,his__train__lecture_03_132.png,his:lecture_03,"C = channels (RGB, etc) W = width",C = channes (RGB atW = width,6,33,0.18181818181818182,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_140.png,his:lecture_03,normalises values close to 0,normalises values cloe fo 0,2,28,0.07142857142857142,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_144.png,his:lecture_03,Kernel - what area,Kernel - whal area,1,18,0.05555555555555555,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_154.png,his:lecture_03,scale,Sceale,1,5,0.2,0,1-20 chars,1,0,0
+S1his_en,his val,his__train__lecture_03_156.png,his:lecture_03,Provide a number not too big or,Provicde a number not too big or,1,31,0.03225806451612903,0,21-40 chars,1,0,0
+S1his_en,his val,his__train__lecture_03_163.png,his:lecture_03,PyTorch Optimiser Loop,PyTorch 0ptimiser Loop,1,22,0.045454545454545456,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_167.png,his:lecture_03,Test = running stats,Test = eueeing stats,3,20,0.15,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_172.png,his:lecture_03,output,outpat,1,6,0.16666666666666666,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_03_178.png,his:lecture_03,step(),stepl),1,6,0.16666666666666666,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_07_015.png,his:lecture_07,- ReLU,- RelU,0,6,0.0,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_08_017.png,his:lecture_08,- ReLU,- RelN,1,6,0.16666666666666666,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_10_022.png,his:lecture_10,predict,predict,0,7,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__lecture_10_066.png,his:lecture_10,Activation,Classifiction,7,10,0.7,0,1-20 chars,3,0,1
+S1his_en,his val,his__train__lecture_13_086.png,his:lecture_13,C,C,0,1,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__oct17_004_001.png,his:oct17_004,Challenge of Computer Vision,Challenge of computer vision,0,28,0.0,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_004_002.png,his:oct17_004,"- Illumination, lighting, shadow, Image Constrast","- Illumination, lighting, shadow, Image Constrast",0,49,0.0,1,over 40 chars,0,0,0
+S1his_en,his val,his__train__oct17_004_003.png,his:oct17_004,"- Geometric variability: Translation, rotation, scale","- Geometric variability Translation, rotation, scale",1,53,0.018867924528301886,0,over 40 chars,0,0,0
+S1his_en,his val,his__train__oct17_015_001.png,his:oct17_015,Challenge of Computer Vision,Challenge of computer Vision,0,28,0.0,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_015_003.png,his:oct17_015,"- Illumination, lighting, shadow, Image Constrast","- Illumination, lighting, shadow, Image Constrast",0,49,0.0,1,over 40 chars,0,0,0
+S1his_en,his val,his__train__oct17_015_005.png,his:oct17_015,"- Geometric variability: Translation, rotation, scale","- Geometric variability - Translation, rotation, scale",2,53,0.03773584905660377,0,over 40 chars,1,0,0
+S1his_en,his val,his__train__oct17_040_000.png,his:oct17_040,Challenge of Computer Vision,Challenge of eomputer Vision,1,28,0.03571428571428571,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_040_002.png,his:oct17_040,"- Illumination, lighting, shadow, Image Constrast","- Illumination, lighting, shadow, Image Constrast",0,49,0.0,1,over 40 chars,0,0,0
+S1his_en,his val,his__train__oct17_040_003.png,his:oct17_040,"- Geometric variability: Translation, rotation, scale","- Geometric variability Translation, rotation, scale",1,53,0.018867924528301886,0,over 40 chars,0,0,0
+S1his_en,his val,his__train__oct17_047_000.png,his:oct17_047,EXIT,ExT,1,4,0.25,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__oct17_078_001.png,his:oct17_078,nputer Vision,puter Vision,1,13,0.07692307692307693,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__oct17_078_002.png,his:oct17_078,"hadow, Image Constrast","hadow, Image Constrast",0,22,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_078_003.png,his:oct17_078,"anslation, rotation, scale","anslation, rotation, scale",0,26,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__test__oct17_087_011.png,his:oct17_087,a mix of analogue and digital,a mix of analogue and digital,0,29,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__test__oct17_090_012.png,his:oct17_090,a mix of analogue and digital,a mix of analogue and digital,0,29,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_096_006.png,his:oct17_096,Why do we need an,Why do we need an,0,17,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__oct17_097_003.png,his:oct17_097,UART - Prints debugging information,uART - Prints debugging information,0,35,0.0,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_100_001.png,his:oct17_100,UART - Prints debugging information,uART - Prints debugging information,0,35,0.0,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_102_003.png,his:oct17_102,Why do we need an,Why do we need an,0,17,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__oct17_106_008.png,his:oct17_106,Why do we need an,Why odo we need an,1,17,0.058823529411764705,0,1-20 chars,1,0,0
+S1his_en,his val,his__train__oct17_107_007.png,his:oct17_107,Imagine one chef handling,Imagine one chef handling,0,25,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_107_008.png,his:oct17_107,several responsibilities,several responsibilities,0,24,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_115_003.png,his:oct17_115,Imagine one chef handling,Imagine one chef handling,0,25,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_115_005.png,his:oct17_115,several responsibilities.,several responsibilities.,0,25,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_115_013.png,his:oct17_115,Prints debugging information,Prints debugging information,0,28,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_118_002.png,his:oct17_118,order waits,order waits,0,11,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__oct17_122_007.png,his:oct17_122,When each job must be,When each job must be,0,21,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_123_004.png,his:oct17_123,order waits.,order waits.,0,12,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__oct17_123_017.png,his:oct17_123,When each job must be,When each job must be,0,21,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_126_004.png,his:oct17_126,Why do we need an,Why do we need an,0,17,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__oct17_126_005.png,his:oct17_126,Imagine one chef handling,Imagine one chef handling,0,25,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_126_007.png,his:oct17_126,several responsibilities.,several responsibilities.,0,25,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_126_012.png,his:oct17_126,order waits,order waits,0,11,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__oct17_126_037.png,his:oct17_126,When each job must be,When each job must be,0,21,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_129_000.png,his:oct17_129,Challenge of Computer Vision,Challenge of computer Vision,0,28,0.0,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_129_002.png,his:oct17_129,"- Illumination, lighting, shadow, Image Constrast","- Illumination, lighting, shadow, Image Constrast",0,49,0.0,1,over 40 chars,0,0,0
+S1his_en,his val,his__train__oct17_129_004.png,his:oct17_129,"- Geometric variability: Translation, rotation, scale","- Geometric variability Translation, rotation, scale",1,53,0.018867924528301886,0,over 40 chars,0,0,0
+S1his_en,his val,his__train__oct17_129_017.png,his:oct17_129,Imagine one chef handling,Imagine one chef hanodlling,2,25,0.08,0,21-40 chars,2,1,1
+S1his_en,his val,his__train__oct17_129_019.png,his:oct17_129,several responsibilities,several responsibilities,0,24,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_129_028.png,his:oct17_129,order waits,order waits,0,11,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__oct17_129_055.png,his:oct17_129,When each job must be,When each job must be,0,21,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_134_007.png,his:oct17_134,several responsibilities,several responsibilities,0,24,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_134_013.png,his:oct17_134,order waits,order waits,0,11,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__oct17_134_043.png,his:oct17_134,When each job must be,When each job must be,0,21,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_137_000.png,his:oct17_137,Challenge of Computer Vision,Challenge of computer Vision,0,28,0.0,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_137_002.png,his:oct17_137,"- Illumination, lighting, shadow, Image Constrast","Illumination, lighting, shacdow, Inange Constiast",6,49,0.12244897959183673,0,over 40 chars,2,0,0
+S1his_en,his val,his__train__oct17_137_003.png,his:oct17_137,"- Geometric variability: Translation, rotation, scale","- Geumnetrie variability Translation, rotation, scale",4,53,0.07547169811320754,0,over 40 chars,1,0,0
+S1his_en,his val,his__train__oct17_138_001.png,his:oct17_138,Challenge of Computer Vision,Challenge of computer vision,0,28,0.0,0,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_138_003.png,his:oct17_138,"- Illumination, lighting, shadow, Image Constrast","- Illumination, lighting, shadow, Inage Constrast",1,49,0.02040816326530612,0,over 40 chars,0,0,0
+S1his_en,his val,his__train__oct17_142_002.png,his:oct17_142,Challenge of Computer Vision,C halenise of conputr vision,6,28,0.21428571428571427,0,21-40 chars,2,0,0
+S1his_en,his val,his__train__oct17_142_007.png,his:oct17_142,several responsibilities,several responsibilities,0,24,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__oct17_142_013.png,his:oct17_142,order waits,order waits,0,11,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__oct17_142_043.png,his:oct17_142,When each job must be,When each job must be,0,21,0.0,1,21-40 chars,0,0,0
+S1his_en,his val,his__train__quiz_01_002.png,his:quiz_01,so hard.,So hard.,0,8,0.0,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__quiz_03_004.png,his:quiz_03,so hard.,so harde,1,8,0.125,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__quiz_04_004.png,his:quiz_04,so hard.,so hard,1,8,0.125,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__quiz_05_003.png,his:quiz_05,so hard.,so hard.,0,8,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__quiz_06_002.png,his:quiz_06,so hard.,so hard.,0,8,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__quiz_08_004.png,his:quiz_08,so hard.,so hard.,0,8,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__quiz_09_004.png,his:quiz_09,so hard.,so hard,1,8,0.125,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__quiz_10_003.png,his:quiz_10,so hard.,so hard,1,8,0.125,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__quiz_11_004.png,his:quiz_11,so hard.,so hard.,0,8,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__quiz_12_005.png,his:quiz_12,so had.,So had,1,7,0.14285714285714285,0,1-20 chars,0,0,0
+S1his_en,his val,his__train__quiz_17_001.png,his:quiz_17,so had.,so had.,0,7,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__quiz_18_001.png,his:quiz_18,so had.,so had.,0,7,0.0,1,1-20 chars,0,0,0
+S1his_en,his val,his__train__quiz_19_002.png,his:quiz_19,so had.,So had.,0,7,0.0,0,1-20 chars,0,0,0
+S1his_en,his test,his__test__1.2.2.jpg,his:1.2.2,"which NLP. To make them work for images,","which Np To male them work for images,",3,40,0.075,0,21-40 chars,0,0,0
+S1his_en,his test,his__train__1.2.3.jpg,his:1.2.3,ViT splits an image into a grid of fixed-size patches,Vis pts aniagenminia g grmin oied fafmu aues,27,53,0.5094339622641509,0,over 40 chars,2,0,0
+S1his_en,his test,his__train__1.3.1.jpg,his:1.3.1,Each patch is flattened and linearly projected into 1D vector.,Epch pth is teaeni ar ryayelobs ool ars.,38,62,0.6129032258064516,0,over 40 chars,0,0,0
+S1his_en,his test,his__train__12.1.13.jpg,his:12.1.13,Brain,Brain,0,5,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__12.2.4.jpg,his:12.2.4,Nigeria,Nigeria,0,7,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__test__12.2.5.jpg,his:12.2.5,Linoleic,Linoleic,0,8,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__test__12.2.8.jpg,his:12.2.8,Primary,Primary,0,7,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__14.1.1.jpg,his:14.1.1,Cardiovascular,Cardiovascular,0,14,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__14.1.14.jpg,his:14.1.14,Gram,Gram,0,4,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__14.1.15.jpg,his:14.1.15,Weight,Weight,0,6,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__14.4.1.jpg,his:14.4.1,Bikini,Bikini,0,6,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__test__15.2.3.jpg,his:15.2.3,Cells,Cells,0,5,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__15.3.14.jpg,his:15.3.14,Serum,Serum,0,5,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__test__15.3.3.jpg,his:15.3.3,Sticks,Sticks,0,6,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__15.3.9.jpg,his:15.3.9,Reverse,Reverse,0,7,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__16.7.1.jpg,his:16.7.1,Chemical reaction in which an alcohol,Chemical reaction in which an alcohol,0,37,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__test__1789801072989.jpg,his:1789801072989,6592,AiEer,5,4,1.25,0,1-20 chars,1,0,1
+S1his_en,his test,his__train__1789801073617.jpg,his:1789801073617,bing chilling,bsrig chatng,7,13,0.5384615384615384,0,1-20 chars,1,0,0
+S1his_en,his test,his__train__1789801073944.jpg,his:1789801073944,bing chilling,"Aongchiad igg,",8,13,0.6153846153846154,0,1-20 chars,2,0,0
+S1his_en,his test,his__train__18.1.3.jpg,his:18.1.3,Carlsberg,Carlsberg,0,9,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__18.1.6.jpg,his:18.1.6,Tobacco,Tobacco,0,7,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__18.2.4.jpg,his:18.2.4,fentanol,fentanol,0,8,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__test__2.2.2.jpg,his:2.2.2,it can only detect a single object,it can only deteta singgobgnoect,8,34,0.23529411764705882,0,21-40 chars,0,0,1
+S1his_en,his test,his__train__20.2.3.jpg,his:20.2.3,Case,Case,0,4,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__20.2.8.jpg,his:20.2.8,Replaces,Replaces,0,8,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__test__21.1.9.jpg,his:21.1.9,Myocardial,Myocardial,0,10,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__test__22.4.1.jpg,his:22.4.1,Stereotype attached to the component,Stereotype attached to the component,0,36,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__4.1.3.jpg,his:4.1.3,it pooled to see where the evidence lies.,it pooled to see where the evidence lies.,0,41,0.0,1,over 40 chars,0,0,0
+S1his_en,his test,his__test__5.2.2.jpg,his:5.2.2,"neural network, but for realistic data classification,","neural network, but for realstic data classification,",1,54,0.018518518518518517,0,over 40 chars,0,0,0
+S1his_en,his test,his__train__6.1.2.jpg,his:6.1.2,bounding boxes by their confidence,bounding boes by their confidence,1,34,0.029411764705882353,0,21-40 chars,0,0,0
+S1his_en,his test,his__test__6.2.1.jpg,his:6.2.1,"To plot the precision-Recall curve, graph",o pot the precioninlarlsr rgrape,17,41,0.4146341463414634,0,over 40 chars,0,0,0
+S1his_en,his test,his__train__6.3.2.jpg,his:6.3.2,the precision-Recall curve to generate a single performance,the precision-Reall crve to generate a single performance,2,59,0.03389830508474576,0,over 40 chars,0,0,0
+S1his_en,his test,his__train__6.3.3.jpg,his:6.3.3,score for that specific object class,sore for that specic ojet cas,7,36,0.19444444444444445,0,21-40 chars,0,0,0
+S1his_en,his test,his__train__8.2.10.jpg,his:8.2.10,Glycolipids,Glycolipids,0,11,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__8.3.10.jpg,his:8.3.10,polyunsaturated,polyunsaturated,0,15,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__8.3.11.jpg,his:8.3.11,Shorts,Shorts,0,6,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__8.3.13.jpg,his:8.3.13,Carbon,Carbon,0,6,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__8.3.3.jpg,his:8.3.3,Food,Food,0,4,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__8.3.6.jpg,his:8.3.6,Help,Help,0,4,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__8.3.7.jpg,his:8.3.7,Hydrolysis,Hydrolysis,0,10,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__JH23.2.jpg,his:JH23.2,cake,cake,0,4,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__JH27.1.jpg,his:JH27.1,Satsuma,Satsuma,0,7,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__JH28.1.jpg,his:JH28.1,Original Taste,O ngea Faste,6,14,0.42857142857142855,0,1-20 chars,0,0,0
+S1his_en,his test,his__train__JH30.2.jpg,his:JH30.2,Giant,Giant,0,5,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__JH32.1.jpg,his:JH32.1,Kerosene,Recroive,5,8,0.625,0,1-20 chars,1,0,0
+S1his_en,his test,his__test__cnn_05_001.png,his:cnn_05,"LeNet, Alexnet, Resnet","LeNet, Akxnet, Resnet",2,22,0.09090909090909091,0,21-40 chars,0,0,0
+S1his_en,his test,his__test__cnn_07_001.png,his:cnn_07,"LeNet, Alexnet, Resnet","LeNet, Akxnet, Resnet",2,22,0.09090909090909091,0,21-40 chars,0,0,0
+S1his_en,his test,his__test__cnn_45_005.png,his:cnn_45,"LeNet, Alexnet, Resnet","Laset, lieacre, eet",11,22,0.5,0,21-40 chars,0,0,1
+S1his_en,his test,his__test__cnn_46_005.png,his:cnn_46,"LeNet, Alexnet, Resnet","usmit Neraen, eanet",12,22,0.5454545454545454,0,21-40 chars,0,0,0
+S1his_en,his test,his__test__cnn_47_005.png,his:cnn_47,"LeNet, Alexnet, Resnet","isuet likret, Lesrat",11,22,0.5,0,21-40 chars,0,0,0
+S1his_en,his test,his__test__cnn_48_001.png,his:cnn_48,"LeNet, Alexnet, Resnet","LeNet, Akxnet, Resret",3,22,0.13636363636363635,0,21-40 chars,0,0,0
+S1his_en,his test,his__test__cnn_49_001.png,his:cnn_49,"LeNet, Alexnet, Resnet","ceNet Aelerxcret, Resnet",6,22,0.2727272727272727,0,21-40 chars,3,0,0
+S1his_en,his test,his__train__lecture_01_003.png,his:lecture_01,2.1 Sigmoid probability,21 Sigmoid probability,1,23,0.043478260869565216,0,21-40 chars,0,0,0
+S1his_en,his test,his__train__lecture_01_031.png,his:lecture_01,"- K=1, underfit","- k =1, underfit",1,15,0.06666666666666667,0,1-20 chars,1,0,0
+S1his_en,his test,his__test__lecture_01_054.png,his:lecture_01,3. Multi-Class Classification,3. Multi- Class Classification,1,29,0.034482758620689655,0,21-40 chars,1,0,0
+S1his_en,his test,his__train__lecture_01_063.png,his:lecture_01,MaxPool vs Average Pool,MaxPool vs Average Pool,0,23,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__lecture_01_096.png,his:lecture_01,(M-K+1)x(N-L+1),(M- k + 1)x (NLt1),6,15,0.4,0,1-20 chars,4,0,0
+S1his_en,his test,his__train__lecture_01_104.png,his:lecture_01,c = class,C = class,0,9,0.0,0,1-20 chars,0,0,0
+S1his_en,his test,his__train__lecture_01_111.png,his:lecture_01,- punishes low probability of correct class,- punishes low probability of correct class,0,43,0.0,1,over 40 chars,0,0,0
+S1his_en,his test,his__train__lecture_01_114.png,his:lecture_01,bias,bias,0,4,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__lecture_01_118.png,his:lecture_01,- gives negative values a small gradient,- gives negative values a small gradiont,1,40,0.025,0,21-40 chars,0,0,0
+S1his_en,his test,his__train__lecture_02_001.png,his:lecture_02,Chapter 4,Chapter 4,0,9,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__lecture_02_009.png,his:lecture_02,Choose,Choose,0,6,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__lecture_02_016.png,his:lecture_02,Training Bad (Underfit),Training Bad (Uncderfit),1,23,0.043478260869565216,0,21-40 chars,1,0,0
+S1his_en,his test,his__train__lecture_02_045.png,his:lecture_02,MaxPool vs Average Pool,MaxPool vs Average Pool,0,23,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__lecture_02_046.png,his:lecture_02,3. VGG,3. VGG,0,6,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__test__lecture_02_069.png,his:lecture_02,"number, shifts it close to but not 0","number, shifts it close to but not 0",0,36,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__lecture_02_075.png,his:lecture_02,(M-K+1)x(N-L+1),(M- k + 1)x (NLt1),6,15,0.4,0,1-20 chars,4,0,0
+S1his_en,his test,his__train__lecture_02_076.png,his:lecture_02,Normalisation,Normalisation,0,13,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__lecture_02_096.png,his:lecture_02,bias,bias,0,4,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__lecture_02_099.png,his:lecture_02,Training = batch stats,Trainiong = batch stots,2,22,0.09090909090909091,0,21-40 chars,1,0,0
+S1his_en,his test,his__test__lecture_02_107.png,his:lecture_02,zero_grad() clears gradients,zero-grad() clears gradients,1,28,0.03571428571428571,0,21-40 chars,0,0,0
+S1his_en,his test,his__train__lecture_02_110.png,his:lecture_02,calculates new gradients,1 calculates new gradients,2,24,0.08333333333333333,0,21-40 chars,2,0,0
+S1his_en,his test,his__train__lecture_03_003.png,his:lecture_03,2.1 Sigmoid probability,21 Sigmoid praotability,3,23,0.13043478260869565,0,21-40 chars,1,0,0
+S1his_en,his test,his__train__lecture_03_006.png,his:lecture_03,Chapter 4,Chapter 4,0,9,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__lecture_03_014.png,his:lecture_03,1. Classification,1 Classfication,2,17,0.11764705882352941,0,1-20 chars,0,0,0
+S1his_en,his test,his__train__lecture_03_020.png,his:lecture_03,Choose Judge,Choase Judge,1,12,0.08333333333333333,0,1-20 chars,0,0,0
+S1his_en,his test,his__test__lecture_03_022.png,his:lecture_03,Z = wx+b,2 = wz +b,3,8,0.375,0,1-20 chars,1,0,0
+S1his_en,his test,his__train__lecture_03_034.png,his:lecture_03,Training Bad (Underfit),Training Bad (Unchrfit),2,23,0.08695652173913043,0,21-40 chars,0,0,0
+S1his_en,his test,his__test__lecture_03_068.png,his:lecture_03,3. Multi-Class Classification,3. Multi- Closs Clasufication,4,29,0.13793103448275862,0,21-40 chars,1,0,0
+S1his_en,his test,his__train__lecture_03_076.png,his:lecture_03,MaxPool vs Average Pool,MaxPool vs Arverage Pool,1,23,0.043478260869565216,0,21-40 chars,1,0,0
+S1his_en,his test,his__train__lecture_03_077.png,his:lecture_03,3. VGG,3. VGG,0,6,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__test__lecture_03_107.png,his:lecture_03,"ReLU(x) = max(0,x)","ReLUlx) = mar(0,)",3,18,0.16666666666666666,0,1-20 chars,0,0,0
+S1his_en,his test,his__test__lecture_03_121.png,his:lecture_03,"number, shifts it close to but not 0","number , shifts it close to but not 0",1,36,0.027777777777777776,0,21-40 chars,1,0,0
+S1his_en,his test,his__train__lecture_03_127.png,his:lecture_03,(M-K+1)x(N-L+1),(M- k + 1x (NLt1),7,15,0.4666666666666667,0,1-20 chars,3,0,0
+S1his_en,his test,his__train__lecture_03_128.png,his:lecture_03,Normalisation,Normalisation,0,13,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__lecture_03_130.png,his:lecture_03,c = class,C = class,0,9,0.0,0,1-20 chars,0,0,0
+S1his_en,his test,his__train__lecture_03_142.png,his:lecture_03,- punishes low probability of correct class,- peaisches lo peabokititsy o soaroct elass,15,43,0.3488372093023256,0,over 40 chars,2,0,0
+S1his_en,his test,his__train__lecture_03_151.png,his:lecture_03,- gives negative values a small gradient,- gives negative values a small grodiont,2,40,0.05,0,21-40 chars,0,0,0
+S1his_en,his test,his__train__lecture_03_157.png,his:lecture_03,MSE,MsSE,1,3,0.3333333333333333,0,1-20 chars,1,1,1
+S1his_en,his test,his__train__lecture_03_158.png,his:lecture_03,bias,bias,0,4,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__lecture_03_162.png,his:lecture_03,Training = batch stats,Traing = batch stots,3,22,0.13636363636363635,0,21-40 chars,0,0,0
+S1his_en,his test,his__test__lecture_03_165.png,his:lecture_03,CE,CE,0,2,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__test__lecture_03_169.png,his:lecture_03,CE,CE,0,2,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__test__lecture_03_175.png,his:lecture_03,zero_grad() clears gradients,zero-grad() deaurs gracients,5,28,0.17857142857142858,0,21-40 chars,1,0,0
+S1his_en,his test,his__test__lecture_03_176.png,his:lecture_03,backward() calculates new gradients,backward() calcalutes new gradionts,3,35,0.08571428571428572,0,21-40 chars,0,0,0
+S1his_en,his test,his__test__lecture_03_179.png,his:lecture_03,update gradients, update gradients,0,16,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__lecture_04_000.png,his:lecture_04,Choose,Choese,1,6,0.16666666666666666,0,1-20 chars,0,0,0
+S1his_en,his test,his__train__lecture_09_091.png,his:lecture_09,channel,channel,0,7,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__lecture_09_093.png,his:lecture_09,MSE,MsE,0,3,0.0,0,1-20 chars,0,0,0
+S1his_en,his test,his__test__lecture_09_094.png,his:lecture_09,Handcrafted features,Handcraffed features,1,20,0.05,0,1-20 chars,0,0,1
+S1his_en,his test,his__test__lecture_10_011.png,his:lecture_10,Z = wx+b,2 = Wztb,3,8,0.375,0,1-20 chars,0,0,0
+S1his_en,his test,his__train__lecture_10_090.png,his:lecture_10,MSE,MsE,0,3,0.0,0,1-20 chars,0,0,0
+S1his_en,his test,his__test__lecture_10_091.png,his:lecture_10,Handcrafted features,Handcratffed features,2,20,0.1,0,1-20 chars,1,0,1
+S1his_en,his test,his__test__lecture_11_013.png,his:lecture_11,Z = wx+b,2 = wxtb,2,8,0.25,0,1-20 chars,0,0,0
+S1his_en,his test,his__test__lecture_11_093.png,his:lecture_11,Handcrafted features,Handcraffed features,1,20,0.05,0,1-20 chars,0,0,1
+S1his_en,his test,his__train__lecture_12_043.png,his:lecture_12,Move, Move,0,4,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__test__lecture_12_092.png,his:lecture_12,Handcrafted features,Handcraffed features,1,20,0.05,0,1-20 chars,0,0,1
+S1his_en,his test,his__train__lecture_13_088.png,his:lecture_13,MSE,MSE,0,3,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__test__lecture_13_089.png,his:lecture_13,Handcrafted features,Handcraffed features,1,20,0.05,0,1-20 chars,0,0,1
+S1his_en,his test,his__test__oct17_002_001.png,his:oct17_002,- An Image is a 2D matrix of pixels. Each pixel stores a numerical,- An Image is a 2 0 matrix of pixels Each pixel stores a numerical,3,66,0.045454545454545456,0,over 40 chars,1,0,0
+S1his_en,his test,his__test__oct17_004_004.png,his:oct17_004,"change, affine transformation, depth change.","change, affine transformation, depth change.",0,44,0.0,1,over 40 chars,0,0,0
+S1his_en,his test,his__test__oct17_015_004.png,his:oct17_015,- An Image is a 2D matrix of pixels. Each pixel stores a numerical,- An Image is a 2 o matrix of pixels Each pixel stores a numerical,3,66,0.045454545454545456,0,over 40 chars,1,0,0
+S1his_en,his test,his__test__oct17_015_007.png,his:oct17_015,"change, affine transformation, depth change.","change, afine transformation, depth change.",1,44,0.022727272727272728,0,over 40 chars,0,0,0
+S1his_en,his test,his__train__oct17_023_007.png,his:oct17_023,What is deep learning,What is cleep learning,2,21,0.09523809523809523,0,21-40 chars,1,0,0
+S1his_en,his test,his__train__oct17_039_001.png,his:oct17_039,What is deep learning,What is ceep learning,1,21,0.047619047619047616,0,21-40 chars,0,0,0
+S1his_en,his test,his__train__oct17_040_004.png,his:oct17_040,What is deep learning,What is oleep learning,2,21,0.09523809523809523,0,21-40 chars,1,0,0
+S1his_en,his test,his__test__oct17_040_006.png,his:oct17_040,"change, affine transformation, depth change.","change, affine transformation, depth change.",0,44,0.0,1,over 40 chars,0,0,0
+S1his_en,his test,his__test__oct17_050_003.png,his:oct17_050,"change, affine transformation, depth change.","change, affine transformation, depth change",1,44,0.022727272727272728,0,over 40 chars,0,0,0
+S1his_en,his test,his__train__oct17_078_004.png,his:oct17_078,What is deep learning,What is deep learning,0,21,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__oct17_078_005.png,his:oct17_078,"ation, depth change.","ation, depth change.",0,20,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__oct17_087_013.png,his:oct17_087,electronics to represent the,electronics to represent the,0,28,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__oct17_090_014.png,his:oct17_090,electronics to represent the,electronics to represent the,0,28,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__oct17_100_002.png,his:oct17_100,Timer - Request regular measurement,Timer - Request regular measurement,0,35,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__oct17_106_001.png,his:oct17_106,What is deep learning,What is deep learning,0,21,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__oct17_113_004.png,his:oct17_113,one action at a time.,one action at a time.,0,21,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__oct17_115_002.png,his:oct17_115,we need an,we need an,0,10,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__test__oct17_115_007.png,his:oct17_115,Cook food,Cook food,0,9,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__oct17_115_010.png,his:oct17_115,Receives deliveries,Receives deliveries,0,19,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__oct17_115_016.png,his:oct17_115,one action at a time.,one action at a time.,0,21,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__oct17_118_001.png,his:oct17_118,may start cleaning while an urgent,may start cleaning while an urgent,0,34,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__test__oct17_119_010.png,his:oct17_119,Which jobs are waiting,Which jobs are waiting,0,22,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__oct17_119_012.png,his:oct17_119,Which job is most urgent,Which job is most urgent,0,24,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__oct17_123_001.png,his:oct17_123,may start cleaning while an urgent,may start cleaning while an urgent,0,34,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__test__oct17_123_010.png,his:oct17_123,Which jobs are waiting,Which jobs are waiting,0,22,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__oct17_123_013.png,his:oct17_123,Which job is most urgent,Which job is most urgent,0,24,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__oct17_126_008.png,his:oct17_126,may start cleaning while an urgent,may start cleaning while an urgent,0,34,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__test__oct17_126_015.png,his:oct17_126,Cook food,Cook food,0,9,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__oct17_126_022.png,his:oct17_126,Receives deliveries,Receives deliveries,0,19,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__test__oct17_126_029.png,his:oct17_126,Which jobs are waiting,Which jobs are waiting,0,22,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__oct17_126_030.png,his:oct17_126,Handle an emergency,Handle an emergency,0,19,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__oct17_126_033.png,his:oct17_126,Which job is most urgent,Which job is most urgent,0,24,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__oct17_126_035.png,his:oct17_126,One action at a time. being used.,one action at a time. being used.,0,33,0.0,0,21-40 chars,0,0,0
+S1his_en,his test,his__train__oct17_129_005.png,his:oct17_129,What is deep learning,What is deep learning,0,21,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__oct17_129_007.png,his:oct17_129,"change, affine transformation, depth change","change, affine transformation, depth change",0,43,0.0,1,over 40 chars,0,0,0
+S1his_en,his test,his__train__oct17_129_020.png,his:oct17_129,may start cleaning while an urgent,may start cleaning while an urgent,0,34,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__test__oct17_129_027.png,his:oct17_129,Cook food,Cook food,0,9,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__oct17_129_038.png,his:oct17_129,Receives deliveries,Receives deliveries,0,19,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__test__oct17_129_046.png,his:oct17_129,Which jobs are waiting,Which jobs are waiting,0,22,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__oct17_129_054.png,his:oct17_129,One action at a time. being used.,one action at a time. being used.,0,33,0.0,0,21-40 chars,0,0,0
+S1his_en,his test,his__test__oct17_134_012.png,his:oct17_134,Cook food,Cook food,0,9,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__oct17_134_024.png,his:oct17_134,Receives deliveries,Receives deliveries,0,19,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__test__oct17_134_032.png,his:oct17_134,Which jobs are waiting,Which jobs are araiting,2,22,0.09090909090909091,0,21-40 chars,1,0,0
+S1his_en,his test,his__train__oct17_134_041.png,his:oct17_134,One action at a time. being used.,onc action at a time being used,3,33,0.09090909090909091,0,21-40 chars,0,0,0
+S1his_en,his test,his__train__oct17_137_004.png,his:oct17_137,What is deep learning,What is ceep learning,1,21,0.047619047619047616,0,21-40 chars,0,0,0
+S1his_en,his test,his__train__oct17_137_006.png,his:oct17_137,"change, affine transformation, depth change","change, affine transformaetion, depth change",1,43,0.023255813953488372,0,over 40 chars,1,0,0
+S1his_en,his test,his__train__oct17_138_006.png,his:oct17_138,"change, affine transformation, depth change","change, affine transformation, depth change",0,43,0.0,1,over 40 chars,0,0,0
+S1his_en,his test,his__test__oct17_142_019.png,his:oct17_142,Cook food,Cook food,0,9,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__oct17_142_032.png,his:oct17_142,Receives deliveries,Receives deliveries,0,19,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__test__oct17_142_038.png,his:oct17_142,Which jobs are waiting,Which jobs are waiting,0,22,0.0,1,21-40 chars,0,0,0
+S1his_en,his test,his__train__quiz_02_000.png,his:quiz_02,"matching,","matching,",0,9,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__quiz_14_001.png,his:quiz_14,"matching,","matching,",0,9,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__quiz_15_001.png,his:quiz_15,"matching,","matching,",0,9,0.0,1,1-20 chars,0,0,0
+S1his_en,his test,his__train__quiz_16_000.png,his:quiz_16,"matching,","matching,",0,9,0.0,1,1-20 chars,0,0,0

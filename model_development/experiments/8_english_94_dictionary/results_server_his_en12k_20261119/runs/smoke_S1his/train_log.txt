@@ -1,0 +1,173 @@
+/workspace/venv_b2n/lib/python3.12/site-packages/paddle/utils/cpp_extension/extension_utils.py:718: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+Skipping import of the encryption module.
+[2026/11/19 03:17:08] ppocr INFO: Architecture : 
+[2026/11/19 03:17:08] ppocr INFO:     Backbone : 
+[2026/11/19 03:17:08] ppocr INFO:         lr_mult_list : [0.1, 0.1, 0.25, 0.5, 1.0]
+[2026/11/19 03:17:08] ppocr INFO:         name : PPHGNetV2_B4
+[2026/11/19 03:17:08] ppocr INFO:         text_rec : True
+[2026/11/19 03:17:08] ppocr INFO:     Head : 
+[2026/11/19 03:17:08] ppocr INFO:         head_list : 
+[2026/11/19 03:17:08] ppocr INFO:             CTCHead : 
+[2026/11/19 03:17:08] ppocr INFO:                 Head : 
+[2026/11/19 03:17:08] ppocr INFO:                     fc_decay : 1e-05
+[2026/11/19 03:17:08] ppocr INFO:                 Neck : 
+[2026/11/19 03:17:08] ppocr INFO:                     depth : 2
+[2026/11/19 03:17:08] ppocr INFO:                     dims : 120
+[2026/11/19 03:17:08] ppocr INFO:                     hidden_dims : 120
+[2026/11/19 03:17:08] ppocr INFO:                     kernel_size : [1, 3]
+[2026/11/19 03:17:08] ppocr INFO:                     name : svtr
+[2026/11/19 03:17:08] ppocr INFO:                     use_guide : True
+[2026/11/19 03:17:08] ppocr INFO:             NRTRHead : 
+[2026/11/19 03:17:08] ppocr INFO:                 max_text_length : 100
+[2026/11/19 03:17:08] ppocr INFO:                 nrtr_dim : 384
+[2026/11/19 03:17:08] ppocr INFO:         name : MultiHead
+[2026/11/19 03:17:08] ppocr INFO:     Transform : None
+[2026/11/19 03:17:08] ppocr INFO:     algorithm : SVTR_HGNet
+[2026/11/19 03:17:08] ppocr INFO:     model_type : rec
+[2026/11/19 03:17:08] ppocr INFO: Eval : 
+[2026/11/19 03:17:08] ppocr INFO:     dataset : 
+[2026/11/19 03:17:08] ppocr INFO:         data_dir : /workspace/b2n/experiments/server_his_en12k_20261119/data/b2n_data
+[2026/11/19 03:17:08] ppocr INFO:         label_file_list : ['/workspace/b2n/experiments/server_his_en12k_20261119/data/smoke_his_val.txt']
+[2026/11/19 03:17:08] ppocr INFO:         name : SimpleDataSet
+[2026/11/19 03:17:08] ppocr INFO:         transforms : 
+[2026/11/19 03:17:08] ppocr INFO:             DecodeImage : 
+[2026/11/19 03:17:08] ppocr INFO:                 channel_first : False
+[2026/11/19 03:17:08] ppocr INFO:                 img_mode : BGR
+[2026/11/19 03:17:08] ppocr INFO:             MultiLabelEncode : 
+[2026/11/19 03:17:08] ppocr INFO:                 gtc_encode : NRTRLabelEncode
+[2026/11/19 03:17:08] ppocr INFO:             RecResizeImg : 
+[2026/11/19 03:17:08] ppocr INFO:                 image_shape : [3, 64, 1024]
+[2026/11/19 03:17:08] ppocr INFO:             KeepKeys : 
+[2026/11/19 03:17:08] ppocr INFO:                 keep_keys : ['image', 'label_ctc', 'label_gtc', 'length', 'valid_ratio']
+[2026/11/19 03:17:08] ppocr INFO:     loader : 
+[2026/11/19 03:17:08] ppocr INFO:         batch_size_per_card : 16
+[2026/11/19 03:17:08] ppocr INFO:         drop_last : False
+[2026/11/19 03:17:08] ppocr INFO:         num_workers : 4
+[2026/11/19 03:17:08] ppocr INFO:         shuffle : False
+[2026/11/19 03:17:08] ppocr INFO: Global : 
+[2026/11/19 03:17:08] ppocr INFO:     cal_metric_during_train : True
+[2026/11/19 03:17:08] ppocr INFO:     calc_epoch_interval : 1
+[2026/11/19 03:17:08] ppocr INFO:     character_dict_path : /workspace/board2notes_server_his_en_20261119/en_dict.txt
+[2026/11/19 03:17:08] ppocr INFO:     checkpoints : None
+[2026/11/19 03:17:08] ppocr INFO:     d2s_train_image_shape : [3, 64, 1024]
+[2026/11/19 03:17:08] ppocr INFO:     debug : False
+[2026/11/19 03:17:08] ppocr INFO:     distributed : False
+[2026/11/19 03:17:08] ppocr INFO:     epoch_num : 8
+[2026/11/19 03:17:08] ppocr INFO:     eval_batch_step : [0, 8]
+[2026/11/19 03:17:08] ppocr INFO:     infer_img : doc/imgs_words/ch/word_1.jpg
+[2026/11/19 03:17:08] ppocr INFO:     infer_mode : False
+[2026/11/19 03:17:08] ppocr INFO:     log_smooth_window : 20
+[2026/11/19 03:17:09] ppocr INFO:     max_text_length : 100
+[2026/11/19 03:17:09] ppocr INFO:     model_name : PP-OCRv5_server_rec
+[2026/11/19 03:17:09] ppocr INFO:     pretrained_model : /workspace/b2n/PaddleOCR_versions/PP-OCRv5_server_rec_pretrained
+[2026/11/19 03:17:09] ppocr INFO:     print_batch_step : 10
+[2026/11/19 03:17:09] ppocr INFO:     save_epoch_step : 1000000
+[2026/11/19 03:17:09] ppocr INFO:     save_inference_dir : None
+[2026/11/19 03:17:09] ppocr INFO:     save_model_dir : /workspace/b2n/experiments/server_his_en12k_20261119/runs/smoke_S1his
+[2026/11/19 03:17:09] ppocr INFO:     save_res_path : /workspace/b2n/experiments/server_his_en12k_20261119/runs/smoke_S1his/predicts.txt
+[2026/11/19 03:17:09] ppocr INFO:     seed : 1
+[2026/11/19 03:17:09] ppocr INFO:     use_gpu : True
+[2026/11/19 03:17:09] ppocr INFO:     use_space_char : True
+[2026/11/19 03:17:09] ppocr INFO:     use_visualdl : False
+[2026/11/19 03:17:09] ppocr INFO: Loss : 
+[2026/11/19 03:17:09] ppocr INFO:     loss_config_list : 
+[2026/11/19 03:17:09] ppocr INFO:         CTCLoss : None
+[2026/11/19 03:17:09] ppocr INFO:         NRTRLoss : None
+[2026/11/19 03:17:09] ppocr INFO:     name : MultiLoss
+[2026/11/19 03:17:09] ppocr INFO: Metric : 
+[2026/11/19 03:17:09] ppocr INFO:     main_indicator : norm_edit_dis
+[2026/11/19 03:17:09] ppocr INFO:     name : RecMetric
+[2026/11/19 03:17:09] ppocr INFO: Optimizer : 
+[2026/11/19 03:17:09] ppocr INFO:     beta1 : 0.9
+[2026/11/19 03:17:09] ppocr INFO:     beta2 : 0.999
+[2026/11/19 03:17:09] ppocr INFO:     lr : 
+[2026/11/19 03:17:09] ppocr INFO:         learning_rate : 0.0001
+[2026/11/19 03:17:09] ppocr INFO:         name : Cosine
+[2026/11/19 03:17:09] ppocr INFO:         warmup_epoch : 2.0
+[2026/11/19 03:17:09] ppocr INFO:     name : Adam
+[2026/11/19 03:17:09] ppocr INFO:     regularizer : 
+[2026/11/19 03:17:09] ppocr INFO:         factor : 3e-05
+[2026/11/19 03:17:09] ppocr INFO:         name : L2
+[2026/11/19 03:17:09] ppocr INFO: PostProcess : 
+[2026/11/19 03:17:09] ppocr INFO:     name : CTCLabelDecode
+[2026/11/19 03:17:09] ppocr INFO: Train : 
+[2026/11/19 03:17:09] ppocr INFO:     dataset : 
+[2026/11/19 03:17:09] ppocr INFO:         data_dir : /workspace/b2n/experiments/server_his_en12k_20261119/data/b2n_data
+[2026/11/19 03:17:09] ppocr INFO:         ds_width : False
+[2026/11/19 03:17:09] ppocr INFO:         ext_op_transform_idx : 1
+[2026/11/19 03:17:09] ppocr INFO:         label_file_list : ['/workspace/b2n/experiments/server_his_en12k_20261119/data/smoke_train_his.txt']
+[2026/11/19 03:17:09] ppocr INFO:         name : MultiScaleDataSet
+[2026/11/19 03:17:09] ppocr INFO:         transforms : 
+[2026/11/19 03:17:09] ppocr INFO:             DecodeImage : 
+[2026/11/19 03:17:09] ppocr INFO:                 channel_first : False
+[2026/11/19 03:17:09] ppocr INFO:                 img_mode : BGR
+[2026/11/19 03:17:09] ppocr INFO:             RecAug : None
+[2026/11/19 03:17:09] ppocr INFO:             MultiLabelEncode : 
+[2026/11/19 03:17:09] ppocr INFO:                 gtc_encode : NRTRLabelEncode
+[2026/11/19 03:17:09] ppocr INFO:             KeepKeys : 
+[2026/11/19 03:17:09] ppocr INFO:                 keep_keys : ['image', 'label_ctc', 'label_gtc', 'length', 'valid_ratio']
+[2026/11/19 03:17:09] ppocr INFO:     loader : 
+[2026/11/19 03:17:09] ppocr INFO:         batch_size_per_card : 16
+[2026/11/19 03:17:09] ppocr INFO:         drop_last : True
+[2026/11/19 03:17:09] ppocr INFO:         num_workers : 8
+[2026/11/19 03:17:09] ppocr INFO:         shuffle : True
+[2026/11/19 03:17:09] ppocr INFO:     sampler : 
+[2026/11/19 03:17:09] ppocr INFO:         divided_factor : [8, 16]
+[2026/11/19 03:17:09] ppocr INFO:         first_bs : 16
+[2026/11/19 03:17:09] ppocr INFO:         fix_bs : False
+[2026/11/19 03:17:09] ppocr INFO:         is_training : True
+[2026/11/19 03:17:09] ppocr INFO:         name : MultiScaleSampler
+[2026/11/19 03:17:09] ppocr INFO:         scales : [[1024, 64]]
+[2026/11/19 03:17:09] ppocr INFO: profiler_options : None
+[2026/11/19 03:17:09] ppocr INFO: train with paddle 3.2.0 and device Place(gpu:0)
+[2026/11/19 03:17:09] ppocr INFO: Initialize indexs of datasets:['/workspace/b2n/experiments/server_his_en12k_20261119/data/smoke_train_his.txt']
+[2026/11/19 03:17:09] ppocr INFO: Initialize indexs of datasets:['/workspace/b2n/experiments/server_his_en12k_20261119/data/smoke_his_val.txt']
+W1119 03:17:09.448975  1796 gpu_resources.cc:114] Please NOTE: device: 0, GPU Compute Capability: 8.9, Driver API Version: 13.2, Runtime API Version: 12.8
+[2026/11/19 03:17:10] ppocr INFO: train dataloader has 3 iters
+[2026/11/19 03:17:10] ppocr INFO: valid dataloader has 1 iters
+[2026/11/19 03:17:10] ppocr WARNING: The shape of model params head.ctc_head.fc.weight [120, 96] not matched with loaded params head.ctc_head.fc.weight [120, 18385] !
+[2026/11/19 03:17:10] ppocr WARNING: The shape of model params head.ctc_head.fc.bias [96] not matched with loaded params head.ctc_head.fc.bias [18385] !
+[2026/11/19 03:17:10] ppocr WARNING: The shape of model params head.gtc_head.embedding.embedding.weight [100, 384] not matched with loaded params head.gtc_head.embedding.embedding.weight [18389, 384] !
+[2026/11/19 03:17:10] ppocr WARNING: The shape of model params head.gtc_head.tgt_word_prj.weight [384, 100] not matched with loaded params head.gtc_head.tgt_word_prj.weight [384, 18389] !
+[2026/11/19 03:17:10] ppocr INFO: load pretrain successful from /workspace/b2n/PaddleOCR_versions/PP-OCRv5_server_rec_pretrained
+[2026/11/19 03:17:10] ppocr INFO: During the training process, after the 0th iteration, an evaluation is run every 8 iterations
+[2026/11/19 03:17:15] ppocr INFO: epoch: [1/8], global_step: 3, lr: 0.000017, acc: 0.000000, norm_edit_dis: 0.014499, CTCLoss: 458.234802, NRTRLoss: 5.984348, loss: 464.223053, avg_reader_cost: 0.26447 s, avg_batch_cost: 0.50852 s, avg_samples: 4.8, ips: 9.43910 samples/s, eta: 0:00:35, max_mem_reserved: 8806 MB, max_mem_allocated: 8253 MB
+[2026/11/19 03:17:16] ppocr INFO: save model in /workspace/b2n/experiments/server_his_en12k_20261119/runs/smoke_S1his/latest
+[2026/11/19 03:17:17] ppocr INFO: epoch: [2/8], global_step: 6, lr: 0.000042, acc: 0.000000, norm_edit_dis: 0.015981, CTCLoss: 446.109879, NRTRLoss: 5.434514, loss: 451.544388, avg_reader_cost: 0.09610 s, avg_batch_cost: 0.12711 s, avg_samples: 4.8, ips: 37.76398 samples/s, eta: 0:00:19, max_mem_reserved: 8806 MB, max_mem_allocated: 8253 MB
+[2026/11/19 03:17:17] ppocr INFO: save model in /workspace/b2n/experiments/server_his_en12k_20261119/runs/smoke_S1his/latest
+
+eval model::   0%|          | 0/1 [00:00<?, ?it/s]
+eval model:: 100%|██████████| 1/1 [00:00<00:00,  3.84it/s]
+eval model:: 100%|██████████| 1/1 [00:00<00:00,  3.03it/s]
+[2026/11/19 03:17:19] ppocr INFO: cur metric, acc: 0.0, norm_edit_dis: 0.018216792485668654, fps: 285.14091153726315
+[2026/11/19 03:17:20] ppocr INFO: save best model is to /workspace/b2n/experiments/server_his_en12k_20261119/runs/smoke_S1his/best_accuracy
+[2026/11/19 03:17:20] ppocr INFO: best metric, norm_edit_dis: 0.018216792485668654, is_float16: False, acc: 0.0, fps: 285.14091153726315, best_epoch: 3
+[2026/11/19 03:17:20] ppocr INFO: epoch: [3/8], global_step: 9, lr: 0.000067, acc: 0.000000, norm_edit_dis: 0.019572, CTCLoss: 426.815491, NRTRLoss: 4.730325, loss: 431.545807, avg_reader_cost: 0.08094 s, avg_batch_cost: 0.11221 s, avg_samples: 4.8, ips: 42.77619 samples/s, eta: 0:00:12, max_mem_reserved: 8806 MB, max_mem_allocated: 8253 MB
+[2026/11/19 03:17:21] ppocr INFO: save model in /workspace/b2n/experiments/server_his_en12k_20261119/runs/smoke_S1his/latest
+[2026/11/19 03:17:24] ppocr INFO: epoch: [4/8], global_step: 10, lr: 0.000075, acc: 0.000000, norm_edit_dis: 0.021749, CTCLoss: 416.239594, NRTRLoss: 4.687231, loss: 420.926819, avg_reader_cost: 0.32179 s, avg_batch_cost: 0.33266 s, avg_samples: 1.6, ips: 4.80971 samples/s, eta: 0:00:15, max_mem_reserved: 8806 MB, max_mem_allocated: 8253 MB
+[2026/11/19 03:17:24] ppocr INFO: epoch: [4/8], global_step: 12, lr: 0.000087, acc: 0.000000, norm_edit_dis: 0.027077, CTCLoss: 393.787262, NRTRLoss: 4.439896, loss: 398.227158, avg_reader_cost: 0.00022 s, avg_batch_cost: 0.02129 s, avg_samples: 3.2, ips: 150.27709 samples/s, eta: 0:00:11, max_mem_reserved: 8806 MB, max_mem_allocated: 8253 MB
+[2026/11/19 03:17:25] ppocr INFO: save model in /workspace/b2n/experiments/server_his_en12k_20261119/runs/smoke_S1his/latest
+[2026/11/19 03:17:26] ppocr INFO: epoch: [5/8], global_step: 15, lr: 0.000083, acc: 0.000000, norm_edit_dis: 0.030293, CTCLoss: 359.752197, NRTRLoss: 4.160233, loss: 363.912415, avg_reader_cost: 0.08562 s, avg_batch_cost: 0.11680 s, avg_samples: 4.8, ips: 41.09454 samples/s, eta: 0:00:07, max_mem_reserved: 8806 MB, max_mem_allocated: 8253 MB
+[2026/11/19 03:17:26] ppocr INFO: save model in /workspace/b2n/experiments/server_his_en12k_20261119/runs/smoke_S1his/latest
+
+eval model::   0%|          | 0/1 [00:00<?, ?it/s]
+eval model:: 100%|██████████| 1/1 [00:00<00:00,  3.33it/s]
+eval model:: 100%|██████████| 1/1 [00:00<00:00,  2.75it/s]
+[2026/11/19 03:17:27] ppocr INFO: cur metric, acc: 0.0, norm_edit_dis: 0.03867857464924185, fps: 445.08195677549435
+[2026/11/19 03:17:29] ppocr INFO: save best model is to /workspace/b2n/experiments/server_his_en12k_20261119/runs/smoke_S1his/best_accuracy
+[2026/11/19 03:17:29] ppocr INFO: best metric, norm_edit_dis: 0.03867857464924185, is_float16: False, acc: 0.0, fps: 445.08195677549435, best_epoch: 6
+[2026/11/19 03:17:29] ppocr INFO: epoch: [6/8], global_step: 18, lr: 0.000078, acc: 0.000000, norm_edit_dis: 0.031208, CTCLoss: 330.458740, NRTRLoss: 3.890795, loss: 334.349533, avg_reader_cost: 0.06414 s, avg_batch_cost: 0.09554 s, avg_samples: 4.8, ips: 50.24313 samples/s, eta: 0:00:04, max_mem_reserved: 8806 MB, max_mem_allocated: 8253 MB
+[2026/11/19 03:17:29] ppocr INFO: save model in /workspace/b2n/experiments/server_his_en12k_20261119/runs/smoke_S1his/latest
+[2026/11/19 03:17:30] ppocr INFO: epoch: [7/8], global_step: 20, lr: 0.000072, acc: 0.000000, norm_edit_dis: 0.031469, CTCLoss: 308.845154, NRTRLoss: 3.773988, loss: 312.619141, avg_reader_cost: 0.06671 s, avg_batch_cost: 0.08752 s, avg_samples: 3.2, ips: 36.56437 samples/s, eta: 0:00:02, max_mem_reserved: 8806 MB, max_mem_allocated: 8253 MB
+[2026/11/19 03:17:32] ppocr INFO: epoch: [7/8], global_step: 21, lr: 0.000072, acc: 0.000000, norm_edit_dis: 0.032655, CTCLoss: 287.562881, NRTRLoss: 3.729087, loss: 291.291977, avg_reader_cost: 0.17857 s, avg_batch_cost: 0.18923 s, avg_samples: 1.6, ips: 8.45524 samples/s, eta: 0:00:02, max_mem_reserved: 8806 MB, max_mem_allocated: 8253 MB
+[2026/11/19 03:17:33] ppocr INFO: save model in /workspace/b2n/experiments/server_his_en12k_20261119/runs/smoke_S1his/latest
+[2026/11/19 03:17:34] ppocr INFO: epoch: [8/8], global_step: 24, lr: 0.000072, acc: 0.000000, norm_edit_dis: 0.039096, CTCLoss: 263.820770, NRTRLoss: 3.634678, loss: 267.412704, avg_reader_cost: 0.08466 s, avg_batch_cost: 0.11594 s, avg_samples: 4.8, ips: 41.40224 samples/s, eta: 0:00:00, max_mem_reserved: 8806 MB, max_mem_allocated: 8253 MB
+
+eval model::   0%|          | 0/1 [00:00<?, ?it/s]
+eval model:: 100%|██████████| 1/1 [00:00<00:00,  3.93it/s]
+eval model:: 100%|██████████| 1/1 [00:00<00:00,  3.09it/s]
+[2026/11/19 03:17:34] ppocr INFO: cur metric, acc: 0.0, norm_edit_dis: 0.03843391777028038, fps: 474.58062326151526
+[2026/11/19 03:17:34] ppocr INFO: best metric, norm_edit_dis: 0.03867857464924185, is_float16: False, acc: 0.0, fps: 445.08195677549435, best_epoch: 6
+[2026/11/19 03:17:35] ppocr INFO: save model in /workspace/b2n/experiments/server_his_en12k_20261119/runs/smoke_S1his/latest
+[2026/11/19 03:17:35] ppocr INFO: best metric, norm_edit_dis: 0.03867857464924185, is_float16: False, acc: 0.0, fps: 445.08195677549435, best_epoch: 6

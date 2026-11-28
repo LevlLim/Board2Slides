@@ -1,0 +1,622 @@
+crop,label,source,was,now,group,files
+1.1.2,"There is tokens, position Embeddings and attention",Jy,test,train,1.1.2,8
+1.2.3,ViT splits an image into a grid of fixed-size patches,Jy,train,test,1.2.3,8
+1.3.1,Each patch is flattened and linearly projected into 1D vector.,Jy,train,test,1.3.1,8
+1.3.2,These vectors serves as the tokens which is,Jy,train,val,1.3.2,8
+1.4.4,final classification head,Jy,train,val,1.4.4,8
+10.1.1,It is unsafe only when left or right is part of the label,Jy,test,train,10.1.1,8
+10.2.1,"Augmentation teaches invariances ""you choose""",Jy,test,train,10.2.1,8
+10.6.1,layer2 vectors of our 35 photos: they grouped by ground,Jy,train,val,10.6.1,8
+11.1.2,People shown only the predictions tended to trust it.,Jy,test,train,11.1.2,8
+11.1.3,Accuracy of model says that it worked on these photos,Jy,train,val,11.1.3,8
+11.1.4,All structure we impose on a grid,Jy,test,val,11.1.4,8
+12.1.10,Acids,Jy,test,train,12.1.10,8
+12.1.13,Brain,Jy,train,test,12.1.13,8
+12.1.3,Would,Jy,test,train,12.1.3,8
+12.1.5,Inflammation,Jy,test,train,12.1.5,8
+12.1.6,Ceramides,Jy,train,val,12.1.6,8
+12.1.8,Barrier,Jy,test,train,12.1.8,8
+12.2.11,Seven,Jy,train,val,12.2.11,8
+12.2.4,Nigeria,Jy,train,test,12.2.4,8
+13.1.1,2 or more pipes with,Jy,test,train,13.1.1,8
+14.1.1,Cardiovascular,Jy,train,test,14.1.1,8
+14.1.10,Events,Jy,test,train,14.1.10,8
+14.1.14,Gram,Jy,train,test,14.1.14,8
+14.1.15,Weight,Jy,train,test,14.1.15,8
+14.2.14,Penang,Jy,train,val,14.2.14,8
+14.2.3,Red,Jy,test,train,19.1.5,8
+14.2.9,Paradox,Jy,train,val,14.2.9,8
+14.3.1,Cushion,Jy,train,val,14.3.1,8
+14.3.13,Cannabis,Jy,train,val,14.3.13,8
+14.3.15,ecstacy,Jy,train,val,14.3.15,8
+14.3.4,First,Jy,test,train,14.3.4,8
+14.4.1,Bikini,Jy,train,test,14.4.1,8
+15.1.1,Gall,Jy,test,train,15.1.1,8
+15.1.10,Yuan Wei,Jy,test,train,15.1.10,8
+15.1.13,Density,Jy,test,train,15.1.13,8
+15.2.10,Storage,Jy,train,val,15.2.10,8
+15.2.12,Absorption,Jy,train,val,15.2.12,8
+15.2.9,Chylomicrons,Jy,train,val,15.2.9,8
+15.3.1,Metabolism,Jy,train,val,15.3.1,8
+15.3.11,Muscle,Jy,test,train,15.3.11,8
+15.3.12,Fat,Jy,test,train,15.3.12,8
+15.3.13,Remnant,Jy,test,train,15.3.13,8
+15.3.14,Serum,Jy,train,test,15.3.14,8
+15.3.4,Onto,Jy,test,train,15.3.4,8
+15.3.6,Smallest,Jy,test,train,15.3.6,8
+15.3.9,Reverse,Jy,train,test,15.3.9,8
+16.1.1,Normally insoluble in water,Jy,test,train,16.1.1,8
+16.1.3,Edible fat is a type of food,Jy,train,val,16.1.3,8
+16.5.1,Carriers of essential nutrients,Jy,test,train,16.5.1,8
+16.7.1,Chemical reaction in which an alcohol,Jy,train,test,16.7.1,8
+17.2.1,Monkey,Jy,train,val,17.2.1,8
+17.2.2,Gorilla,Jy,test,train,17.2.2,8
+1789801073115,Somebody,phone,test,train,1789801074097,1
+1789801073499,Burning,phone,train,val,1789801073499,1
+1789801073617,bing chilling,phone,train,test,1789801073617,1
+1789801073682,REACH,phone,test,train,1789801073682,1
+1789801073944,bing chilling,phone,train,test,1789801073617,1
+1789801074097,Somebody,phone,test,train,1789801074097,1
+1789801074301,REACH,phone,test,train,1789801073682,1
+1789801074360,Burning,phone,train,val,1789801073499,1
+18.1.3,Carlsberg,Jy,train,test,18.1.3,8
+18.1.4,Tiger,Jy,test,train,18.1.4,8
+18.1.6,Tobacco,Jy,train,test,18.1.6,8
+18.1.8,Test,Jy,train,val,18.1.8,8
+18.1.9,Ozempic,Jy,test,train,18.1.9,8
+18.2.2,Weed,Jy,train,val,18.2.2,8
+18.2.3,Hopps,Jy,test,train,18.2.3,8
+18.2.4,fentanol,Jy,train,test,18.2.4,8
+18.2.8,Marlboro,Jy,train,val,18.2.8,8
+19.1.14,Self,Jy,train,val,19.1.14,8
+19.1.16,Waxy,Jy,test,train,19.1.16,8
+19.1.2,ammonia,Jy,test,train,19.1.2,8
+19.1.5,Red,Jy,test,train,19.1.5,8
+19.1.8,Green,Jy,test,train,19.1.8,8
+19.2.1,Define,Jy,train,val,19.2.1,8
+19.2.10,Unabsorbed,Jy,test,train,19.2.10,8
+19.2.13,Mediterranean,Jy,test,train,19.2.13,8
+19.2.2,Terms,Jy,train,val,19.2.2,8
+20.1.1,Extra,Jy,train,val,20.1.1,8
+20.2.1,Cochrane,Jy,test,train,20.2.1,8
+20.2.10,Juice,Jy,test,train,20.2.10,8
+20.2.12,Canola,Jy,train,val,20.2.12,8
+20.2.3,Case,Jy,train,test,20.2.3,8
+20.2.8,Replaces,Jy,train,test,20.2.8,8
+21.1.2,Eicosatetraenoic,Jy,test,train,21.1.2,8
+21.1.3,Eicosapentaenoic,Jy,train,val,21.1.3,8
+21.1.5,Docosahexaenoic,Jy,test,train,21.1.5,8
+22.2.2,Component are independent unit,Jy,train,val,22.2.2,8
+22.2.3,Sytem that encapsulates a collection,Jy,test,train,22.2.3,8
+22.5.1,Receptacle drawn around the facet,Jy,test,train,22.5.1,8
+22.6.1,Components use the ports and delegates,Jy,test,train,22.6.1,8
+23.2.1,I never go batam before,Jy,test,train,23.2.1,8
+23.3.1,Pump and dump,Jy,train,val,23.3.1,8
+3.3.1,Limitation for Saliency via occlusion is that it fails when the evidence,Jy,train,val,3.3.1,8
+4.1.3,it pooled to see where the evidence lies.,Jy,train,test,4.1.3,8
+4.2.4,by a linear head.,Jy,train,val,4.2.4,8
+5.3.1,Forward Propagation refers to the calculation and storage,Jy,test,train,5.3.1,8
+5.3.2,of intermediate variables for a neural network in order,Jy,test,train,5.3.2,8
+5.3.3,from the input layer to the output layer,Jy,test,train,5.3.3,8
+5.4.1,Computation graph represents the process of computing a,Jy,test,val,5.4.1,8
+5.4.2,mathematical expression in which we break down the,Jy,test,train,5.4.2,8
+5.4.4,modelled as a node in a graph,Jy,test,train,5.4.4,8
+6.1.2,bounding boxes by their confidence,Jy,train,test,6.1.2,8
+6.2.2,the precision against the recall to visualize,Jy,test,train,6.2.2,8
+6.3.2,the precision-Recall curve to generate a single performance,Jy,train,test,6.3.2,8
+6.3.3,score for that specific object class,Jy,train,test,6.3.3,8
+6.4.1,"To calculate mean average precision, take the average",Jy,train,val,6.4.1,8
+7.3.1,An Optimization algorithm to adjust the,Jy,test,train,7.3.1,8
+8.1.10,Bile,Jy,test,train,8.1.10,8
+8.1.11,Hormones,Jy,test,train,8.1.11,8
+8.1.8,Vitamin,Jy,test,train,8.1.8,8
+8.2.10,Glycolipids,Jy,train,test,8.2.10,8
+8.2.11,Ecoli,Jy,test,train,8.2.11,8
+8.2.13,Lecithin,Jy,train,val,8.2.13,8
+8.2.2,Glycerol,Jy,test,train,8.2.2,8
+8.2.8,Acid,Jy,test,train,8.2.8,8
+8.2.9,Phospholipids,Jy,train,val,8.2.9,8
+8.3.10,polyunsaturated,Jy,train,test,8.3.10,8
+8.3.11,Shorts,Jy,train,test,8.3.11,8
+8.3.12,Medium,Jy,test,train,8.3.12,8
+8.3.13,Carbon,Jy,train,test,8.3.13,8
+8.3.3,Food,Jy,train,test,8.3.3,8
+8.3.4,Industry,Jy,test,train,8.3.4,8
+8.3.5,Nature,Jy,test,train,8.3.5,8
+8.3.6,Help,Jy,train,test,8.3.6,8
+8.3.7,Hydrolysis,Jy,train,test,8.3.7,8
+8.3.9,Monosaturated,Jy,test,train,8.3.9,8
+9.4.1,Assumption that the local pixels,Jy,train,val,9.4.1,8
+9.6.1,A learned position for each,Jy,train,val,9.6.1,8
+JH10,Prism,JH,test,train,JH10,1
+JH10.1,Prism,JH,test,train,JH10,6
+JH17.1,Honey Yuzu,JH,train,val,JH17.1,3
+JH17.2,with,JH,train,val,JH17.2,3
+JH18.2,communication,JH,train,val,JH18.2,1
+JH19.1,Legendary,JH,test,train,JH22.1,5
+JH22.1,Legendary,JH,test,train,JH22.1,6
+JH23.2,cake,JH,train,test,JH23.2,4
+JH27.1,Satsuma,JH,train,test,JH27.1,7
+JH28.1,Original Taste,JH,train,test,JH28.1,6
+JH3,Beurre,JH,test,train,JH3,1
+JH3.1,Beurre,JH,test,train,JH3,6
+JH30.1,Green,JH,test,train,JH30.1,4
+JH30.2,Giant,JH,train,test,JH30.2,4
+JH32.1,Kerosene,JH,train,test,JH32.1,7
+JH33.1,Tough,JH,train,val,JH33.1,6
+JH34.1,SIT Best Uni,JH,train,val,JH34.1,5
+JH8,Vegan,JH,test,train,JH8.1,1
+JH8.1,Vegan,JH,test,train,JH8.1,5
+cnn_01_005,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_02_003,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_03_003,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_04_004,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_05_002,"Dropout, Batch Normalization",cnn,train,val,cnn_49_002,5
+cnn_05_004,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_07_002,"Dropout, Batch Normalization",cnn,train,val,cnn_49_002,5
+cnn_07_004,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_09_002,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_11_003,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_12_002,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_13_002,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_14_006,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_20_004,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_24_002,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_25_003,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_26_003,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_27_003,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_28_003,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_29_006,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_30_007,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_31_005,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_32_006,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_33_006,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_34_005,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_35_005,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_37_005,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_38_006,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_40_007,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_42_007,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_45_006,"Dropout, Batch Normalization",cnn,train,val,cnn_49_002,5
+cnn_46_006,"Dropout, Batch Normalization",cnn,train,val,cnn_49_002,5
+cnn_46_010,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_48_002,"Dropout, Batch Normalization",cnn,train,val,cnn_49_002,5
+cnn_48_005,Visualise filter & output,cnn,test,train,cnn_20_004,5
+cnn_49_002,"Dropout, Batch Normalization",cnn,train,val,cnn_49_002,5
+cnn_49_004,Visualise filter & output,cnn,test,train,cnn_20_004,5
+lecture_01_002,ML Process,lecture,test,train,lecture_11_004,5
+lecture_01_003,2.1 Sigmoid probability,lecture,train,test,lecture_03_003,5
+lecture_01_005,Classification,lecture,test,train,lecture_03_092,5
+lecture_01_012,vote,lecture,train,val,lecture_03_023,5
+lecture_01_018,Image,lecture,train,val,lecture_01_018,5
+lecture_01_023,predict,lecture,train,val,lecture_01_023,5
+lecture_01_027,"- O(1) Training, O(N) Prediction",lecture,train,val,lecture_01_027,5
+lecture_01_028,Convolution,lecture,test,train,lecture_03_032,5
+lecture_01_031,"- K=1, underfit",lecture,train,test,lecture_01_031,5
+lecture_01_033,Kernel,lecture,test,train,lecture_12_028,5
+lecture_01_036,Receptive Field,lecture,test,train,lecture_07_008,5
+lecture_01_038,Illumination,lecture,test,train,lecture_11_027,5
+lecture_01_041,Activation,lecture,train,val,lecture_02_029,5
+lecture_01_050,Pooling,lecture,test,train,lecture_02_039,5
+lecture_01_051,- ReLU,lecture,train,val,lecture_01_051,5
+lecture_01_057,Pooling,lecture,test,train,lecture_02_039,5
+lecture_01_058,Augmentat,lecture,train,val,lecture_01_058,5
+lecture_01_063,MaxPool vs Average Pool,lecture,train,test,lecture_01_063,5
+lecture_01_066,Higher Features,lecture,test,train,lecture_03_085,5
+lecture_01_071,- weak learning signal,lecture,test,train,lecture_01_071,5
+lecture_01_072,Classification,lecture,test,train,lecture_03_092,5
+lecture_01_073,N = number of data samples,lecture,test,train,lecture_11_073,5
+lecture_01_080,Convolution,lecture,test,train,lecture_03_032,5
+lecture_01_081,3 vs 1 channel,lecture,test,train,lecture_10_087,5
+lecture_01_086,2D,lecture,train,val,lecture_02_065,5
+lecture_01_088,Kernel: K×L,lecture,train,test,lecture_02_066,5
+lecture_01_092,"[N,C,L] [N,C,H,W]",lecture,train,val,lecture_01_092,5
+lecture_01_094,"- but when x<0, gradient = 0 so neuron",lecture,train,val,lecture_01_094,5
+lecture_01_096,(M-K+1)x(N-L+1),lecture,train,test,lecture_03_127,5
+lecture_01_099,becomes inactive,lecture,train,val,lecture_01_099,5
+lecture_01_100,"C = channels (RGB, etc) W = width",lecture,train,val,lecture_02_078,5
+lecture_01_101,Parameter Count,lecture,test,train,lecture_10_079,5
+lecture_01_104,c = class,lecture,train,test,lecture_01_104,5
+lecture_01_105,learns,lecture,train,val,lecture_01_105,5
+lecture_01_106,θ = parameters (can be weight),lecture,test,train,lecture_03_136,4
+lecture_01_109,Kernel - what area,lecture,train,val,lecture_03_144,5
+lecture_01_111,- punishes low probability of correct class,lecture,train,test,lecture_03_142,5
+lecture_01_114,bias,lecture,train,test,lecture_03_158,5
+lecture_01_118,- gives negative values a small gradient,lecture,train,test,lecture_01_118,5
+lecture_01_122,instead of 0,lecture,test,train,lecture_01_122,5
+lecture_01_124,which is right,lecture,train,val,lecture_01_124,5
+lecture_01_126,output,lecture,train,val,lecture_01_126,5
+lecture_02_000,Chapter 3,lecture,test,train,lecture_03_005,5
+lecture_02_001,Chapter 4,lecture,train,test,lecture_02_001,5
+lecture_02_002,Chapter 5,lecture,train,val,lecture_03_007,5
+lecture_02_004,Padding,lecture,test,train,lecture_07_018,5
+lecture_02_008,Image,lecture,train,val,lecture_01_018,5
+lecture_02_009,Choose,lecture,train,test,lecture_04_000,5
+lecture_02_012,Stops Overfitting,lecture,train,val,lecture_03_027,5
+lecture_02_013,Convolution,lecture,test,train,lecture_03_032,5
+lecture_02_016,Training Bad (Underfit),lecture,train,test,lecture_02_016,5
+lecture_02_017,Kernel,lecture,test,train,lecture_12_028,5
+lecture_02_018,"optimise, use better model",lecture,train,val,lecture_02_018,5
+lecture_02_021,Receptive Field,lecture,test,train,lecture_07_008,5
+lecture_02_023,Training Good / Validate Bad (Overfit),lecture,train,val,lecture_02_023,5
+lecture_02_024,Early stop Stop if not helping after N epoches,lecture,test,train,lecture_02_024,5
+lecture_02_025,complex,lecture,test,train,lecture_02_025,5
+lecture_02_026,Conv + Act + Pool,lecture,train,val,lecture_02_026,5
+lecture_02_027,Weight decay Shrink values,lecture,train,val,lecture_02_027,5
+lecture_02_029,Activation,lecture,train,val,lecture_02_029,5
+lecture_02_032,Dropout drop neurons so they can learn from others,lecture,train,val,lecture_03_056,5
+lecture_02_036,Stochastic Gradient Descent,lecture,test,train,lecture_03_059,5
+lecture_02_037,- ReLU,lecture,train,val,lecture_01_051,5
+lecture_02_038,Pooling,lecture,test,train,lecture_02_039,5
+lecture_02_039,Pooling,lecture,test,train,lecture_02_039,5
+lecture_02_045,MaxPool vs Average Pool,lecture,train,test,lecture_01_063,5
+lecture_02_046,3. VGG,lecture,train,test,lecture_02_046,5
+lecture_02_049,Higher Features,lecture,test,train,lecture_03_085,5
+lecture_02_054,Classification,lecture,test,train,lecture_03_092,5
+lecture_02_059,Convolution,lecture,test,train,lecture_03_032,5
+lecture_02_062,- apply to current,lecture,test,train,lecture_02_062,5
+lecture_02_065,2D,lecture,train,val,lecture_02_065,5
+lecture_02_066,Kernel: K×L,lecture,train,test,lecture_02_066,5
+lecture_02_075,(M-K+1)x(N-L+1),lecture,train,test,lecture_03_127,5
+lecture_02_076,Normalisation,lecture,train,test,lecture_02_076,5
+lecture_02_078,"C = channels (RGB, etc) W = width",lecture,train,val,lecture_02_078,5
+lecture_02_079,optimises batch by variance/mean,lecture,test,train,lecture_02_079,5
+lecture_02_081,L = length,lecture,test,train,lecture_02_081,5
+lecture_02_082,Parameter Count,lecture,test,train,lecture_10_079,5
+lecture_02_083,normalises values close to 0,lecture,train,val,lecture_03_140,5
+lecture_02_088,Numerical Stability,lecture,test,train,lecture_02_088,5
+lecture_02_092,scale,lecture,train,val,lecture_03_154,5
+lecture_02_094,Provide a number not too big or,lecture,train,val,lecture_03_156,5
+lecture_02_096,bias,lecture,train,test,lecture_03_158,5
+lecture_02_099,Training = batch stats,lecture,train,test,lecture_02_099,5
+lecture_02_100,PyTorch Optimiser Loop,lecture,train,val,lecture_03_163,5
+lecture_02_102,Test = running stats,lecture,train,val,lecture_03_167,5
+lecture_02_106,output,lecture,train,val,lecture_01_126,5
+lecture_02_109,→ update gradients,lecture,train,test,lecture_03_179,5
+lecture_02_110,calculates new gradients,lecture,train,test,lecture_02_110,5
+lecture_03_002,2. Binary Classification,lecture,train,val,lecture_03_002,5
+lecture_03_003,2.1 Sigmoid probability,lecture,train,test,lecture_03_003,5
+lecture_03_005,Chapter 3,lecture,test,train,lecture_03_005,5
+lecture_03_006,Chapter 4,lecture,train,test,lecture_02_001,5
+lecture_03_007,Chapter 5,lecture,train,val,lecture_03_007,5
+lecture_03_009,ML Process,lecture,test,train,lecture_11_004,5
+lecture_03_012,Padding,lecture,test,train,lecture_07_018,5
+lecture_03_014,1. Classification,lecture,train,test,lecture_03_014,5
+lecture_03_020,Choose Judge,lecture,train,test,lecture_03_020,5
+lecture_03_023,vote,lecture,train,val,lecture_03_023,5
+lecture_03_024,Image,lecture,train,val,lecture_01_018,5
+lecture_03_027,Stops Overfitting,lecture,train,val,lecture_03_027,5
+lecture_03_032,Convolution,lecture,test,train,lecture_03_032,5
+lecture_03_034,Training Bad (Underfit),lecture,train,test,lecture_02_016,5
+lecture_03_038,Kernel,lecture,test,train,lecture_12_028,5
+lecture_03_040,"optimise, use better model",lecture,train,val,lecture_02_018,5
+lecture_03_044,Receptive Field,lecture,test,train,lecture_07_008,5
+lecture_03_046,Training Good / Validate Bad (Overfit),lecture,train,val,lecture_02_023,5
+lecture_03_047,Early stop Stop if not helping after N epoches,lecture,test,train,lecture_02_024,5
+lecture_03_051,Conv + Act + Pool,lecture,train,val,lecture_02_026,5
+lecture_03_052,Weight decay Shrink values,lecture,train,val,lecture_02_027,5
+lecture_03_053,Activation,lecture,train,val,lecture_02_029,5
+lecture_03_056,Dropout drop neurons so they can learn from others,lecture,train,val,lecture_03_056,5
+lecture_03_059,Stochastic Gradient Descent,lecture,test,train,lecture_03_059,5
+lecture_03_062,Pooling,lecture,test,train,lecture_02_039,5
+lecture_03_063,Pooling,lecture,test,train,lecture_02_039,5
+lecture_03_064,- ReLU,lecture,train,val,lecture_01_051,5
+lecture_03_076,MaxPool vs Average Pool,lecture,train,test,lecture_01_063,5
+lecture_03_077,3. VGG,lecture,train,test,lecture_02_046,5
+lecture_03_082,3.1 Softmax probability,lecture,test,train,lecture_03_082,5
+lecture_03_085,Higher Features,lecture,test,train,lecture_03_085,5
+lecture_03_091,- weak learning signal,lecture,test,train,lecture_01_071,5
+lecture_03_092,Classification,lecture,test,train,lecture_03_092,5
+lecture_03_094,N = number of data samples,lecture,test,train,lecture_11_073,5
+lecture_03_101,Convolution,lecture,test,train,lecture_03_032,5
+lecture_03_103,- apply to current,lecture,test,train,lecture_02_062,5
+lecture_03_104,3 vs 1 channel,lecture,test,train,lecture_10_087,5
+lecture_03_109,2D,lecture,train,val,lecture_02_065,5
+lecture_03_124,"- but when x<0, gradient = 0 so neuron",lecture,train,val,lecture_01_094,5
+lecture_03_127,(M-K+1)x(N-L+1),lecture,train,test,lecture_03_127,5
+lecture_03_128,Normalisation,lecture,train,test,lecture_02_076,5
+lecture_03_130,c = class,lecture,train,test,lecture_01_104,5
+lecture_03_131,becomes inactive,lecture,train,val,lecture_01_099,5
+lecture_03_132,"C = channels (RGB, etc) W = width",lecture,train,val,lecture_02_078,5
+lecture_03_133,optimises batch by variance/mean,lecture,test,train,lecture_02_079,5
+lecture_03_136,θ = parameters (can be weight),lecture,test,train,lecture_03_136,4
+lecture_03_138,4.3 Leaky ReLU,lecture,test,train,lecture_07_035,5
+lecture_03_139,Parameter Count,lecture,test,train,lecture_10_079,5
+lecture_03_140,normalises values close to 0,lecture,train,val,lecture_03_140,5
+lecture_03_142,- punishes low probability of correct class,lecture,train,test,lecture_03_142,5
+lecture_03_144,Kernel - what area,lecture,train,val,lecture_03_144,5
+lecture_03_148,Numerical Stability,lecture,test,train,lecture_02_088,5
+lecture_03_151,- gives negative values a small gradient,lecture,train,test,lecture_01_118,5
+lecture_03_154,scale,lecture,train,val,lecture_03_154,5
+lecture_03_156,Provide a number not too big or,lecture,train,val,lecture_03_156,5
+lecture_03_157,MSE,lecture,train,test,lecture_13_088,5
+lecture_03_158,bias,lecture,train,test,lecture_03_158,5
+lecture_03_160,instead of 0,lecture,test,train,lecture_01_122,5
+lecture_03_162,Training = batch stats,lecture,train,test,lecture_02_099,5
+lecture_03_163,PyTorch Optimiser Loop,lecture,train,val,lecture_03_163,5
+lecture_03_167,Test = running stats,lecture,train,val,lecture_03_167,5
+lecture_03_171,outputs = model(inputs) loss = criterion (outputs labels) optimiser zerograd() Less risky,lecture,test,train,lecture_03_171,5
+lecture_03_172,output,lecture,train,val,lecture_01_126,5
+lecture_03_178,step(),lecture,train,val,lecture_03_178,5
+lecture_04_000,Choose,lecture,train,test,lecture_04_000,5
+lecture_04_013,Stochastic Gradient Descent,lecture,test,train,lecture_03_059,5
+lecture_04_023,Padding,lecture,test,train,lecture_07_018,5
+lecture_04_043,- apply to current,lecture,test,train,lecture_02_062,5
+lecture_04_057,Parameter Count,lecture,test,train,lecture_10_079,5
+lecture_05_013,Stochastic Gradient Descent,lecture,test,train,lecture_03_059,5
+lecture_05_020,Padding,lecture,test,train,lecture_07_018,5
+lecture_05_041,- apply to current,lecture,test,train,lecture_02_062,5
+lecture_06_010,Receptive Field,lecture,test,train,lecture_07_008,5
+lecture_06_013,Stochastic Gradient Descent,lecture,test,train,lecture_03_059,5
+lecture_06_021,Pooling,lecture,test,train,lecture_02_039,5
+lecture_06_039,4.3 Leaky ReLU,lecture,test,train,lecture_07_035,5
+lecture_06_045,- apply to current,lecture,test,train,lecture_02_062,5
+lecture_06_052,Parameter Count,lecture,test,train,lecture_10_079,5
+lecture_07_008,Receptive Field,lecture,test,train,lecture_07_008,5
+lecture_07_012,Stochastic Gradient Descent,lecture,test,train,lecture_03_059,5
+lecture_07_015,- ReLU,lecture,train,val,lecture_01_051,5
+lecture_07_018,Padding,lecture,test,train,lecture_07_018,5
+lecture_07_039,- apply to current,lecture,test,train,lecture_02_062,5
+lecture_08_008,Receptive Field,lecture,test,train,lecture_07_008,5
+lecture_08_014,Stochastic Gradient Descent,lecture,test,train,lecture_03_059,5
+lecture_08_017,- ReLU,lecture,train,val,lecture_01_051,5
+lecture_08_020,Pooling,lecture,test,train,lecture_02_039,5
+lecture_08_042,- apply to current,lecture,test,train,lecture_02_062,5
+lecture_09_004,ML Process,lecture,test,train,lecture_11_004,5
+lecture_09_015,Chapter 3,lecture,test,train,lecture_03_005,5
+lecture_09_023,Convolution,lecture,test,train,lecture_03_032,5
+lecture_09_025,Illumination,lecture,test,train,lecture_11_027,5
+lecture_09_052,Padding,lecture,test,train,lecture_07_018,5
+lecture_09_061,Higher Features,lecture,test,train,lecture_03_085,5
+lecture_09_064,- weak learning signal,lecture,test,train,lecture_01_071,5
+lecture_09_073,Convolution,lecture,test,train,lecture_03_032,5
+lecture_09_076,N = number of data samples,lecture,test,train,lecture_11_073,5
+lecture_09_083,Parameter Count,lecture,test,train,lecture_10_079,5
+lecture_09_091,channel,lecture,train,test,lecture_09_091,5
+lecture_09_093,MSE,lecture,train,test,lecture_13_088,5
+lecture_10_004,ML Process,lecture,test,train,lecture_11_004,5
+lecture_10_015,Chapter 3,lecture,test,train,lecture_03_005,5
+lecture_10_022,predict,lecture,train,val,lecture_01_023,5
+lecture_10_024,Illumination,lecture,test,train,lecture_11_027,5
+lecture_10_029,Kernel,lecture,test,train,lecture_12_028,5
+lecture_10_049,Pooling,lecture,test,train,lecture_02_039,5
+lecture_10_054,Pooling,lecture,test,train,lecture_02_039,5
+lecture_10_065,- weak learning signal,lecture,test,train,lecture_01_071,5
+lecture_10_066,Activation,lecture,train,val,lecture_02_029,5
+lecture_10_069,Convolution,lecture,test,train,lecture_03_032,5
+lecture_10_076,N = number of data samples,lecture,test,train,lecture_11_073,5
+lecture_10_079,Parameter Count,lecture,test,train,lecture_10_079,5
+lecture_10_087,3 vs 1 channel,lecture,test,train,lecture_10_087,5
+lecture_10_090,MSE,lecture,train,test,lecture_13_088,5
+lecture_11_004,ML Process,lecture,test,train,lecture_11_004,5
+lecture_11_015,Chapter 3,lecture,test,train,lecture_03_005,5
+lecture_11_027,Illumination,lecture,test,train,lecture_11_027,5
+lecture_11_033,Receptive Field,lecture,test,train,lecture_07_008,5
+lecture_11_044,Pooling,lecture,test,train,lecture_02_039,5
+lecture_11_062,- weak learning signal,lecture,test,train,lecture_01_071,5
+lecture_11_063,Classification,lecture,test,train,lecture_03_092,5
+lecture_11_068,Convolution,lecture,test,train,lecture_03_032,5
+lecture_11_073,N = number of data samples,lecture,test,train,lecture_11_073,5
+lecture_11_085,3 vs 1 channel,lecture,test,train,lecture_10_087,5
+lecture_11_092,θ = parameters (can be weight),lecture,test,train,lecture_03_136,4
+lecture_12_003,ML Process,lecture,test,train,lecture_11_004,5
+lecture_12_015,Chapter 3,lecture,test,train,lecture_03_005,5
+lecture_12_024,Convolution,lecture,test,train,lecture_03_032,5
+lecture_12_027,Illumination,lecture,test,train,lecture_11_027,5
+lecture_12_028,Kernel,lecture,test,train,lecture_12_028,5
+lecture_12_035,Receptive Field,lecture,test,train,lecture_07_008,5
+lecture_12_043,Move,lecture,train,test,lecture_12_043,5
+lecture_12_064,Higher Features,lecture,test,train,lecture_03_085,5
+lecture_12_069,- weak learning signal,lecture,test,train,lecture_01_071,5
+lecture_12_070,Classification,lecture,test,train,lecture_03_092,5
+lecture_12_076,Convolution,lecture,test,train,lecture_03_032,5
+lecture_12_079,N = number of data samples,lecture,test,train,lecture_11_073,5
+lecture_12_089,3 vs 1 channel,lecture,test,train,lecture_10_087,5
+lecture_13_004,ML Process,lecture,test,train,lecture_11_004,5
+lecture_13_015,Chapter 3,lecture,test,train,lecture_03_005,5
+lecture_13_025,Illumination,lecture,test,train,lecture_11_027,5
+lecture_13_032,Kernel,lecture,test,train,lecture_12_028,5
+lecture_13_050,Pooling,lecture,test,train,lecture_02_039,5
+lecture_13_063,- weak learning signal,lecture,test,train,lecture_01_071,5
+lecture_13_064,Classification,lecture,test,train,lecture_03_092,5
+lecture_13_069,Convolution,lecture,test,train,lecture_03_032,5
+lecture_13_073,N = number of data samples,lecture,test,train,lecture_11_073,5
+lecture_13_085,3 vs 1 channel,lecture,test,train,lecture_10_087,5
+lecture_13_086,C,lecture,train,val,lecture_13_086,5
+lecture_13_088,MSE,lecture,train,test,lecture_13_088,5
+oct17_002_002,Value that represent its brightness at that location called pixel intensity,oct,test,train,oct17_015_006,5
+oct17_004_001,Challenge of Computer Vision,oct,train,val,oct17_137_000,5
+oct17_004_002,"- Illumination, lighting, shadow, Image Constrast",oct,train,val,oct17_004_002,5
+oct17_004_003,"- Geometric variability: Translation, rotation, scale",oct,train,val,oct17_015_005,5
+oct17_012_004,Take a neural network,oct,test,train,oct17_012_004,5
+oct17_012_012,output.,oct,test,train,oct17_078_016,5
+oct17_015_001,Challenge of Computer Vision,oct,train,val,oct17_137_000,5
+oct17_015_003,"- Illumination, lighting, shadow, Image Constrast",oct,train,val,oct17_004_002,5
+oct17_015_005,"- Geometric variability: Translation, rotation, scale",oct,train,val,oct17_015_005,5
+oct17_015_006,Value that represent its brightness at that location called pixel intensity,oct,test,train,oct17_015_006,5
+oct17_023_007,What is deep learning,oct,train,test,oct17_078_004,5
+oct17_024_004,output.,oct,test,train,oct17_078_016,5
+oct17_033_003,Simple cells respond to edges and orientation,oct,test,train,oct17_076_004,5
+oct17_039_001,What is deep learning,oct,train,test,oct17_078_004,5
+oct17_039_004,1959: Hubel and Wiesel,oct,test,train,oct17_076_001,5
+oct17_039_007,Simple cells respond to edges and orientation,oct,test,train,oct17_076_004,5
+oct17_039_011,output.,oct,test,train,oct17_078_016,5
+oct17_040_000,Challenge of Computer Vision,oct,train,val,oct17_137_000,5
+oct17_040_002,"- Illumination, lighting, shadow, Image Constrast",oct,train,val,oct17_004_002,5
+oct17_040_003,"- Geometric variability: Translation, rotation, scale",oct,train,val,oct17_015_005,5
+oct17_040_004,What is deep learning,oct,train,test,oct17_078_004,5
+oct17_040_007,1959: Hubel and Wiesel,oct,test,train,oct17_076_001,5
+oct17_040_008,Take a neural network,oct,test,train,oct17_012_004,5
+oct17_040_013,Simple cells respond to edges and orientation,oct,test,train,oct17_076_004,5
+oct17_040_020,output.,oct,test,train,oct17_078_016,5
+oct17_040_027,"- Overfitting, regularization, validation",oct,test,train,oct17_047_023,5
+oct17_047_000,EXIT,oct,train,val,oct17_047_000,5
+oct17_047_004,Simple cells respond to edges and orientation,oct,test,train,oct17_076_004,5
+oct17_047_023,"- Overfitting, regularization, validation",oct,test,train,oct17_047_023,5
+oct17_050_004,Take a neural network,oct,test,train,oct17_012_004,5
+oct17_050_005,1959: Hubel and Wiesel,oct,test,train,oct17_076_001,5
+oct17_050_012,Simple cells respond to edges and orientation,oct,test,train,oct17_076_004,5
+oct17_050_021,"- Overfitting, regularization, validation",oct,test,train,oct17_047_023,5
+oct17_070_003,he data we can learn from,oct,test,train,oct17_076_004,5
+oct17_072_000,A model of how to transform,oct,test,train,oct17_126_013,5
+oct17_072_003,the badness of our model,oct,test,train,oct17_076_010,5
+oct17_076_005,pond to edges and orientation,oct,test,train,oct17_076_004,5
+oct17_076_010,the badness of our model,oct,test,train,oct17_076_010,5
+oct17_078_001,nputer Vision,oct,train,val,oct17_078_001,5
+oct17_078_002,"hadow, Image Constrast",oct,train,val,oct17_004_002,5
+oct17_078_003,"anslation, rotation, scale",oct,train,val,oct17_015_005,5
+oct17_078_004,What is deep learning,oct,train,test,oct17_078_004,5
+oct17_078_005,"ation, depth change.",oct,train,test,oct17_004_004,5
+oct17_078_007,1959: Hubel and Wiesel,oct,test,train,oct17_076_001,5
+oct17_078_012,Simple cells respond to edges and orientation The data we can learn from,oct,test,train,oct17_076_004,5
+oct17_078_016,output.,oct,test,train,oct17_078_016,5
+oct17_078_019,the badness of our model,oct,test,train,oct17_076_010,5
+oct17_087_004,A model of how to transform,oct,test,train,oct17_126_013,5
+oct17_087_009,Embedded system must use,oct,test,train,oct17_106_024,5
+oct17_087_010,the badness of our model,oct,test,train,oct17_076_010,5
+oct17_087_011,a mix of analogue and digital,oct,test,val,oct17_087_011,5
+oct17_087_013,electronics to represent the,oct,train,test,oct17_087_013,5
+oct17_090_000,1959: Hubel and Wiesel,oct,test,train,oct17_076_001,5
+oct17_090_004,Simple cells respond to edges and orientation,oct,test,train,oct17_076_004,5
+oct17_090_007,Complex cells respond to light orientation and movement A model of how to transform the computer world is,oct,test,train,oct17_126_013,5
+oct17_090_010,A loss function that quantifies Embedded system must use,oct,test,train,oct17_106_024,5
+oct17_090_011,the badness of our model,oct,test,train,oct17_076_010,5
+oct17_090_012,a mix of analogue and digital,oct,test,val,oct17_087_011,5
+oct17_090_014,electronics to represent the,oct,train,test,oct17_087_013,5
+oct17_092_003,A model of how to transform the computer world is,oct,test,train,oct17_126_013,5
+oct17_092_007,the badness of our model,oct,test,train,oct17_076_010,5
+oct17_092_008,Embedded system must use,oct,test,train,oct17_106_024,5
+oct17_096_003,RTOS Section,oct,test,train,oct17_096_003,5
+oct17_096_006,Why do we need an,oct,train,val,oct17_126_004,5
+oct17_097_001,PWM - controls motor speed,oct,test,train,oct17_129_035,5
+oct17_097_002,GPIO - reads an emergency button,oct,test,train,oct17_115_011,5
+oct17_097_003,UART - Prints debugging information,oct,train,val,oct17_100_001,5
+oct17_100_001,UART - Prints debugging information,oct,train,val,oct17_100_001,5
+oct17_100_002,Timer - Request regular measurement,oct,train,test,oct17_100_002,5
+oct17_102_003,Why do we need an,oct,train,val,oct17_126_004,5
+oct17_102_007,A model of how to transform,oct,test,train,oct17_126_013,5
+oct17_102_012,PWM - controls motor speed,oct,test,train,oct17_129_035,5
+oct17_106_001,What is deep learning,oct,train,test,oct17_078_004,5
+oct17_106_002,Take a neural network,oct,test,train,oct17_012_004,5
+oct17_106_004,1959: Hubel and Wiesel,oct,test,train,oct17_076_001,5
+oct17_106_008,Why do we need an,oct,train,val,oct17_126_004,5
+oct17_106_010,Simple cells respond to edges and orientation The data we can learn from,oct,test,train,oct17_076_004,5
+oct17_106_016,Complex cells respond to light orientation and movement A model of how to transform the computer world is,oct,test,train,oct17_126_013,5
+oct17_106_017,output.,oct,test,train,oct17_078_016,5
+oct17_106_020,PWM - controls motor speed,oct,test,train,oct17_129_035,5
+oct17_106_023,GPIO - reads an emergency button,oct,test,train,oct17_115_011,5
+oct17_106_024,Embedded system must use,oct,test,train,oct17_106_024,5
+oct17_106_025,the badness of our model,oct,test,train,oct17_076_010,5
+oct17_107_007,Imagine one chef handling,oct,train,val,oct17_107_007,5
+oct17_107_008,several responsibilities,oct,train,val,oct17_115_005,5
+oct17_113_004,one action at a time.,oct,train,test,oct17_126_035,5
+oct17_115_002,we need an,oct,train,test,oct17_115_002,5
+oct17_115_003,Imagine one chef handling,oct,train,val,oct17_107_007,5
+oct17_115_005,several responsibilities.,oct,train,val,oct17_115_005,5
+oct17_115_009,Answer telephone,oct,test,train,oct17_115_009,5
+oct17_115_010,Receives deliveries,oct,train,test,oct17_142_032,5
+oct17_115_012,Clean equipments,oct,test,train,oct17_126_025,5
+oct17_115_013,Prints debugging information,oct,train,val,oct17_100_001,5
+oct17_115_016,one action at a time.,oct,train,test,oct17_126_035,5
+oct17_118_001,may start cleaning while an urgent,oct,train,test,oct17_123_001,5
+oct17_118_002,order waits,oct,train,val,oct17_123_004,5
+oct17_119_006,Which jobs are ready,oct,test,train,oct17_126_026,5
+oct17_119_012,Which job is most urgent,oct,train,test,oct17_119_012,5
+oct17_122_007,When each job must be,oct,train,val,oct17_122_007,5
+oct17_123_001,may start cleaning while an urgent,oct,train,test,oct17_123_001,5
+oct17_123_004,order waits.,oct,train,val,oct17_123_004,5
+oct17_123_008,Which jobs are ready,oct,test,train,oct17_126_026,5
+oct17_123_013,Which job is most urgent,oct,train,test,oct17_119_012,5
+oct17_123_016,being used.,oct,test,train,oct17_123_016,5
+oct17_123_017,When each job must be,oct,train,val,oct17_122_007,5
+oct17_126_004,Why do we need an,oct,train,val,oct17_126_004,5
+oct17_126_005,Imagine one chef handling,oct,train,val,oct17_107_007,5
+oct17_126_007,several responsibilities.,oct,train,val,oct17_115_005,5
+oct17_126_008,may start cleaning while an urgent,oct,train,test,oct17_123_001,5
+oct17_126_012,order waits,oct,train,val,oct17_123_004,5
+oct17_126_017,Answer telephone,oct,test,train,oct17_115_009,5
+oct17_126_019,PWM - controls motor speed,oct,test,train,oct17_129_035,5
+oct17_126_022,Receives deliveries,oct,train,test,oct17_142_032,5
+oct17_126_024,GPIO - reads an emergency button,oct,test,train,oct17_115_011,5
+oct17_126_025,Clean equipments,oct,test,train,oct17_126_025,5
+oct17_126_026,Which jobs are ready,oct,test,train,oct17_126_026,5
+oct17_126_027,the badness of our model,oct,test,train,oct17_076_010,5
+oct17_126_030,Handle an emergency,oct,train,test,oct17_126_030,5
+oct17_126_033,Which job is most urgent,oct,train,test,oct17_119_012,5
+oct17_126_035,One action at a time. being used.,oct,train,test,oct17_126_035,5
+oct17_126_037,When each job must be,oct,train,val,oct17_122_007,5
+oct17_129_000,Challenge of Computer Vision,oct,train,val,oct17_137_000,5
+oct17_129_002,"- Illumination, lighting, shadow, Image Constrast",oct,train,val,oct17_004_002,5
+oct17_129_004,"- Geometric variability: Translation, rotation, scale",oct,train,val,oct17_015_005,5
+oct17_129_005,What is deep learning,oct,train,test,oct17_078_004,5
+oct17_129_007,"change, affine transformation, depth change",oct,train,test,oct17_004_004,5
+oct17_129_009,1959: Hubel and Wiesel,oct,test,train,oct17_076_001,5
+oct17_129_017,Imagine one chef handling,oct,train,val,oct17_107_007,5
+oct17_129_019,several responsibilities,oct,train,val,oct17_115_005,5
+oct17_129_020,may start cleaning while an urgent,oct,train,test,oct17_123_001,5
+oct17_129_024,Simple cells respond to edges and orientation The data we can learn from,oct,test,train,oct17_076_004,5
+oct17_129_028,order waits,oct,train,val,oct17_123_004,5
+oct17_129_031,Complex cells respond to light orientation and movement A model of how to transform the computer world is,oct,test,train,oct17_126_013,5
+oct17_129_035,PWM - controls motor speed,oct,test,train,oct17_129_035,5
+oct17_129_036,Answer telephone,oct,test,train,oct17_115_009,5
+oct17_129_037,output.,oct,test,train,oct17_078_016,5
+oct17_129_038,Receives deliveries,oct,train,test,oct17_142_032,5
+oct17_129_040,GPIO - reads an emergency button,oct,test,train,oct17_115_011,5
+oct17_129_042,Which jobs are ready,oct,test,train,oct17_126_026,5
+oct17_129_043,the badness of our model,oct,test,train,oct17_076_010,5
+oct17_129_054,One action at a time. being used.,oct,train,test,oct17_126_035,5
+oct17_129_055,When each job must be,oct,train,val,oct17_122_007,5
+oct17_134_003,Take a neural network,oct,test,train,oct17_012_004,5
+oct17_134_005,1959: Hubel and Wiesel,oct,test,train,oct17_076_001,5
+oct17_134_007,several responsibilities,oct,train,val,oct17_115_005,5
+oct17_134_013,order waits,oct,train,val,oct17_123_004,5
+oct17_134_017,PWM - controls motor speed,oct,test,train,oct17_129_035,5
+oct17_134_018,Answer telephone,oct,test,train,oct17_115_009,5
+oct17_134_024,Receives deliveries,oct,train,test,oct17_142_032,5
+oct17_134_027,GPIO - reads an emergency button,oct,test,train,oct17_115_011,5
+oct17_134_029,Which jobs are ready,oct,test,train,oct17_126_026,5
+oct17_134_031,the badness of our model,oct,test,train,oct17_076_010,5
+oct17_134_041,One action at a time. being used.,oct,train,test,oct17_126_035,5
+oct17_134_043,When each job must be,oct,train,val,oct17_122_007,5
+oct17_137_000,Challenge of Computer Vision,oct,train,val,oct17_137_000,5
+oct17_137_002,"- Illumination, lighting, shadow, Image Constrast",oct,train,val,oct17_004_002,5
+oct17_137_003,"- Geometric variability: Translation, rotation, scale",oct,train,val,oct17_015_005,5
+oct17_137_004,What is deep learning,oct,train,test,oct17_078_004,5
+oct17_137_006,"change, affine transformation, depth change",oct,train,test,oct17_004_004,5
+oct17_137_007,Take a neural network,oct,test,train,oct17_012_004,5
+oct17_137_008,1959: Hubel and Wiesel,oct,test,train,oct17_076_001,5
+oct17_137_028,the badness of our model,oct,test,train,oct17_076_010,5
+oct17_137_036,"- Overfitting, regularization, validation",oct,test,train,oct17_047_023,5
+oct17_138_001,Challenge of Computer Vision,oct,train,val,oct17_137_000,5
+oct17_138_003,"- Illumination, lighting, shadow, Image Constrast",oct,train,val,oct17_004_002,5
+oct17_138_006,"change, affine transformation, depth change",oct,train,test,oct17_004_004,5
+oct17_138_008,Take a neural network,oct,test,train,oct17_012_004,5
+oct17_138_009,1959: Hubel and Wiesel,oct,test,train,oct17_076_001,5
+oct17_138_038,"- Overfitting, regularization, validation",oct,test,train,oct17_047_023,5
+oct17_142_002,Challenge of Computer Vision,oct,train,val,oct17_137_000,5
+oct17_142_006,1959: Hubel and Wiesel,oct,test,train,oct17_076_001,5
+oct17_142_007,several responsibilities,oct,train,val,oct17_115_005,5
+oct17_142_013,order waits,oct,train,val,oct17_123_004,5
+oct17_142_023,PWM - controls motor speed,oct,test,train,oct17_129_035,5
+oct17_142_024,Answer telephone,oct,test,train,oct17_115_009,5
+oct17_142_032,Receives deliveries,oct,train,test,oct17_142_032,5
+oct17_142_035,Which jobs are ready,oct,test,train,oct17_126_026,5
+oct17_142_043,When each job must be,oct,train,val,oct17_122_007,5
+quiz_01_002,so hard.,quiz,train,val,quiz_08_004,5
+quiz_02_000,"matching,",quiz,train,test,quiz_16_000,5
+quiz_03_004,so hard.,quiz,train,val,quiz_08_004,5
+quiz_04_004,so hard.,quiz,train,val,quiz_08_004,5
+quiz_05_003,so hard.,quiz,train,val,quiz_08_004,5
+quiz_06_000,The quiz today,quiz,test,train,quiz_29_000,5
+quiz_06_002,so hard.,quiz,train,val,quiz_08_004,5
+quiz_08_004,so hard.,quiz,train,val,quiz_08_004,5
+quiz_09_004,so hard.,quiz,train,val,quiz_08_004,5
+quiz_10_003,so hard.,quiz,train,val,quiz_08_004,5
+quiz_11_004,so hard.,quiz,train,val,quiz_08_004,5
+quiz_12_005,so had.,quiz,train,val,quiz_08_004,5
+quiz_14_001,"matching,",quiz,train,test,quiz_16_000,5
+quiz_15_001,"matching,",quiz,train,test,quiz_16_000,5
+quiz_16_000,"matching,",quiz,train,test,quiz_16_000,5
+quiz_17_001,so had.,quiz,train,val,quiz_08_004,5
+quiz_18_001,so had.,quiz,train,val,quiz_08_004,5
+quiz_19_002,so had.,quiz,train,val,quiz_08_004,5

@@ -34,12 +34,21 @@ All runs use PaddleOCR's built-in augmentation (`RecAug` in each `config.yml`).
 | 7 Paper notes | Final model 3.5% on a paper page, 25/25 lines; downloaded reader 3.8% | `scalability_paper_notes/outputs/summary.md` |
 | 7 Paper notes | IAM-trained reader: 12.2% → 7.8% on IAM | `readers/README.md`; `experiments/1_data_and_pooling_ladder/results_versions_2x2/results/report.md` (V1b) |
 
+## Poster numbers not covered above (added 28 Nov)
+
+| Poster panel | Claim | Evidence (paths from this folder) |
+|---|---|---|
+| Results | CTC routed into the late layers: new writers 26.7 → 26.0, fresh boards 11.2 → 10.4 (2-run means over epochs 10-70; within seed noise, not adopted) | `experiments/4_fair_test_and_gradient_routing/results_routing_runs_20261112/ANALYSIS_per_seed_20261113.md` (S0, S0s2 vs RL, RLs2) |
+| Results | Whole photos through the app: characters read right 78 / 80 / 53 / 87%, lines found 83 / 87 / 59 / 89%, photos with every line found 25 / 29 / 6 / 32 | `../app_diagnosis/whole_photo_test_20261125/` |
+| Scalability | English 94-character reader 7.4% vs full-dictionary final model 7.0% on the same held-out test lines | `experiments/8_english_94_dictionary/` |
+
 ## Folders
 
 | Folder | What is in it |
 |---|---|
 | `experiments/` | One folder per question. Each `results_*` has `results/report.md`, `summary.json`, `predictions.csv` (every reading), `runs/<run>/config.yml` and training logs, and `source/` (the exact training and scoring scripts) |
 | `experiments/5_mobile_reader/` | The same ideas on the smaller mobile reader (pooling repeated: 39.6 → 9.2 on whiteboard) |
+| `experiments/8_english_94_dictionary/` | The final recipe with a 94-character English dictionary: the app's V2 reader |
 | `notebooks/` | 00 overview; 18 every model in one table; 10 training results; 19 CTC columns on a real crop; 13 new-writer review; 17 resize height |
 | `readers/` | The 11 exported server readers, one folder per step (weights on the Release) |
 | `scalability_paper_notes/` | The paper-notes test: tool, reference text, results, photo overlays of my own notes |
@@ -51,4 +60,4 @@ Release). The work was done in my own repository (`zbkhor/whiteboard-ocr`) and o
 19 Nov 2026; the dates of each run are in `PROGRESS_LOG.md` and each run's `runs/<run>/started.json`.
 
 Related folders: `../preprocessing_and_super_resolution/` (photo preparation and the super-resolution study) and
-`../app_diagnosis/` (OCR app checks, detector and crop diagnostics, the fresh-board test).
+`../app_diagnosis/` (OCR app checks, detector and crop diagnostics, the fresh-board test, the whole-photo test).

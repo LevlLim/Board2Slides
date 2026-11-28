@@ -1,0 +1,241 @@
+group,his_side,file,label
+1,test,test/lecture_03_138.png,4.3 Leaky ReLU
+1,test,test/lecture_06_039.png,4.3 Leaky ReLU
+1,train,train/lecture_02_061.png,4. ResNet
+1,train,train/lecture_03_102.png,4. ResNet
+1,train,train/lecture_04_042.png,4. ResNet
+1,train,train/lecture_05_035.png,4. ResNet
+1,train,train/lecture_07_035.png,4.2 ReLU
+1,train,train/lecture_08_036.png,4. ResNet
+2,test,test/quiz_06_000.png,The quiz today
+2,train,train/quiz_01_000.png,The quiz today is
+2,train,train/quiz_03_000.png,The quiz today is
+2,train,train/quiz_04_000.png,The quiz today is
+2,train,train/quiz_05_000.png,The quiz today is
+2,train,train/quiz_08_000.png,The quiz today is
+2,train,train/quiz_09_001.png,The quiz today is
+2,train,train/quiz_10_000.png,The quiz today is
+2,train,train/quiz_11_000.png,The quiz today is
+2,train,train/quiz_12_002.png,The quiz today is
+2,train,train/quiz_13_002.png,The quiz today is
+2,train,train/quiz_15_006.png,The quiz today is
+2,train,train/quiz_16_003.png,The quiz today is
+2,train,train/quiz_17_000.png,The quiz today is
+2,train,train/quiz_18_000.png,The quiz today is
+2,train,train/quiz_19_000.png,The quiz today is
+2,train,train/quiz_27_000.png,The quiz today is
+2,train,train/quiz_28_000.png,The quiz today is
+2,train,train/quiz_29_000.png,The quiz today is
+2,train,train/quiz_30_000.png,The quiz today is
+3,test,test/lecture_02_000.png,Chapter 3
+3,test,test/lecture_03_005.png,Chapter 3
+3,test,test/lecture_09_015.png,Chapter 3
+3,test,test/lecture_10_015.png,Chapter 3
+3,test,test/lecture_11_015.png,Chapter 3
+3,test,test/lecture_12_015.png,Chapter 3
+3,test,test/lecture_13_015.png,Chapter 3
+3,train,train/lecture_01_000.png,Chapter 1
+3,train,train/lecture_02_001.png,Chapter 4
+3,train,train/lecture_02_002.png,Chapter 5
+3,train,train/lecture_03_000.png,Chapter 1
+3,train,train/lecture_03_001.png,Chapter 2
+3,train,train/lecture_03_006.png,Chapter 4
+3,train,train/lecture_03_007.png,Chapter 5
+3,train,train/lecture_09_000.png,Chapter 1
+3,train,train/lecture_09_002.png,Chapter 2
+3,train,train/lecture_10_000.png,Chapter 1
+3,train,train/lecture_10_002.png,Chapter 2
+3,train,train/lecture_11_000.png,Chapter 1
+3,train,train/lecture_11_002.png,Chapter 2
+3,train,train/lecture_12_000.png,Chapter 1
+3,train,train/lecture_12_002.png,Chapter 2
+3,train,train/lecture_13_000.png,Chapter 1
+3,train,train/lecture_13_002.png,Chapter 2
+4,test,test/oct17_033_003.png,Simple cells respond to edges and orientation
+4,test,test/oct17_039_007.png,Simple cells respond to edges and orientation
+4,test,test/oct17_040_013.png,Simple cells respond to edges and orientation
+4,test,test/oct17_047_004.png,Simple cells respond to edges and orientation
+4,test,test/oct17_050_012.png,Simple cells respond to edges and orientation
+4,test,test/oct17_070_003.png,he data we can learn from
+4,test,test/oct17_076_005.png,pond to edges and orientation
+4,test,test/oct17_078_012.png,Simple cells respond to edges and orientation The data we can learn from
+4,test,test/oct17_090_004.png,Simple cells respond to edges and orientation
+4,test,test/oct17_106_010.png,Simple cells respond to edges and orientation The data we can learn from
+4,test,test/oct17_129_024.png,Simple cells respond to edges and orientation The data we can learn from
+4,train,train/oct17_076_004.png,The data we can learn from
+4,train,train/oct17_087_002.png,The data we can learn from
+4,train,train/oct17_090_005.png,The data we can learn from
+4,train,train/oct17_092_001.png,The data we can learn from
+4,train,train/oct17_102_004.png,The data we can learn from
+4,train,train/oct17_126_010.png,The data we can learn from
+5,test,test/oct17_096_003.png,RTOS Section
+5,train,train/oct17_070_002.png,inear Regression
+5,train,train/oct17_076_002.png,Simple Linear Regression
+5,train,train/oct17_078_008.png,Simple Linear Regression
+5,train,train/oct17_083_001.png,Anologue and digital world
+5,train,train/oct17_087_000.png,Simple Linear Regression Anologue and digital world
+5,train,train/oct17_090_001.png,Simple Linear Regression Anologue and digital world
+5,train,train/oct17_102_001.png,Simple Linear Regression
+5,train,train/oct17_102_002.png,Anologue and digital world RTOS Section 1:
+5,train,train/oct17_106_005.png,Simple Linear Regression
+5,train,train/oct17_106_006.png,Anologue and digital world RTOS Section 1:
+5,train,train/oct17_126_001.png,Anologue and digital world RTOS Section 1:
+5,train,train/oct17_126_003.png,Simple Linear Regression
+5,train,train/oct17_129_010.png,Simple Linear Regression
+5,train,train/oct17_129_011.png,Anologue and digital world RTOS Section 1:
+6,test,test/oct17_072_000.png,A model of how to transform
+6,test,test/oct17_087_004.png,A model of how to transform
+6,test,test/oct17_090_007.png,Complex cells respond to light orientation and movement A model of how to transform the computer world is
+6,test,test/oct17_092_003.png,A model of how to transform the computer world is
+6,test,test/oct17_102_007.png,A model of how to transform
+6,test,test/oct17_106_016.png,Complex cells respond to light orientation and movement A model of how to transform the computer world is
+6,test,test/oct17_129_031.png,Complex cells respond to light orientation and movement A model of how to transform the computer world is
+6,train,train/oct17_033_004.png,Complex cells respond to light orientation and movement
+6,train,train/oct17_039_009.png,Complex cells respond to light orientation and movement
+6,train,train/oct17_040_017.png,Complex cells respond to light orientation and movemen
+6,train,train/oct17_047_009.png,Complex cells respond to light orientation and movement
+6,train,train/oct17_076_006.png,spond to light orientation and movement A model of how to transform
+6,train,train/oct17_078_014.png,Complex cells respond to light orientation and movement A model of how to transform
+6,train,train/oct17_083_007.png,the computer world is
+6,train,train/oct17_087_005.png,the computer world is
+6,train,train/oct17_102_008.png,the computer world is
+6,train,train/oct17_126_013.png,the computer world is
+6,train,train/oct17_126_016.png,ovement A model of how to transform
+7,test,test/oct17_087_009.png,Embedded system must use
+7,test,test/oct17_090_010.png,A loss function that quantifies Embedded system must use
+7,test,test/oct17_092_008.png,Embedded system must use
+7,test,test/oct17_106_024.png,Embedded system must use
+7,train,train/oct17_072_002.png,A loss function that quantifies
+7,train,train/oct17_076_009.png,A loss function that quantifies
+7,train,train/oct17_078_018.png,A loss function that quantifies
+7,train,train/oct17_087_008.png,A loss function that quantifies
+7,train,train/oct17_092_006.png,A loss function that quantifies
+7,train,train/oct17_106_022.png,A loss function that quantifies
+8,test,test/lecture_01_028.png,Convolution
+8,test,test/lecture_01_080.png,Convolution
+8,test,test/lecture_02_013.png,Convolution
+8,test,test/lecture_02_059.png,Convolution
+8,test,test/lecture_03_032.png,Convolution
+8,test,test/lecture_03_101.png,Convolution
+8,test,test/lecture_09_023.png,Convolution
+8,test,test/lecture_09_073.png,Convolution
+8,test,test/lecture_10_069.png,Convolution
+8,test,test/lecture_11_068.png,Convolution
+8,test,test/lecture_12_024.png,Convolution
+8,test,test/lecture_12_076.png,Convolution
+8,test,test/lecture_13_069.png,Convolution
+8,train,train/lecture_01_014.png,Convolution Neural Networks Padding
+8,train,train/lecture_02_003.png,Convolution Neural Networks
+8,train,train/lecture_03_011.png,Convolution Neural Networks
+8,train,train/lecture_12_021.png,Convolution Neural Networks
+8,train,train/lecture_13_023.png,Convolution Neural Networks
+9,test,test/oct17_012_004.png,Take a neural network
+9,test,test/oct17_040_008.png,Take a neural network
+9,test,test/oct17_050_004.png,Take a neural network
+9,test,test/oct17_106_002.png,Take a neural network
+9,test,test/oct17_134_003.png,Take a neural network
+9,test,test/oct17_137_007.png,Take a neural network
+9,test,test/oct17_138_008.png,Take a neural network
+9,train,train/oct17_023_008.png,1. Take a neural network
+9,train,train/oct17_039_003.png,1. Take a neural network
+9,train,train/oct17_078_006.png,1. Take a neural network
+9,train,train/oct17_129_008.png,1. Take a neural network
+10,test,test/oct17_012_012.png,output.
+10,test,test/oct17_024_004.png,output.
+10,test,test/oct17_039_011.png,output.
+10,test,test/oct17_040_020.png,output.
+10,test,test/oct17_078_016.png,output.
+10,test,test/oct17_106_017.png,output.
+10,test,test/oct17_129_037.png,output.
+10,train,train/oct17_047_016.png,output
+10,train,train/oct17_050_016.png,output
+10,train,train/oct17_134_028.png,output
+10,train,train/oct17_137_025.png,output
+10,train,train/oct17_138_026.png,output
+11,test,test/oct17_039_004.png,1959: Hubel and Wiesel
+11,test,test/oct17_040_007.png,1959: Hubel and Wiesel
+11,test,test/oct17_050_005.png,1959: Hubel and Wiesel
+11,test,test/oct17_078_007.png,1959: Hubel and Wiesel
+11,test,test/oct17_090_000.png,1959: Hubel and Wiesel
+11,test,test/oct17_106_004.png,1959: Hubel and Wiesel
+11,test,test/oct17_129_009.png,1959: Hubel and Wiesel
+11,test,test/oct17_134_005.png,1959: Hubel and Wiesel
+11,test,test/oct17_137_008.png,1959: Hubel and Wiesel
+11,test,test/oct17_138_009.png,1959: Hubel and Wiesel
+11,test,test/oct17_142_006.png,1959: Hubel and Wiesel
+11,train,train/oct17_076_001.png,Hubel and Wiesel
+12,test,test/lecture_03_176.png,backward() calculates new gradients
+12,train,train/lecture_02_110.png,calculates new gradients
+13,test,test/oct17_040_027.png,"- Overfitting, regularization, validation"
+13,test,test/oct17_047_023.png,"- Overfitting, regularization, validation"
+13,test,test/oct17_050_021.png,"- Overfitting, regularization, validation"
+13,test,test/oct17_137_036.png,"- Overfitting, regularization, validation"
+13,test,test/oct17_138_038.png,"- Overfitting, regularization, validation"
+13,train,train/oct17_024_011.png,"- Overfitting, regularization, validation."
+13,train,train/oct17_039_019.png,"Overfitting, regularization, validation."
+13,train,train/oct17_078_025.png,"Overfitting, regularization, validation."
+13,train,train/oct17_106_034.png,"Overfitting, regularization, validation."
+13,train,train/oct17_129_052.png,"Overfitting, regularization, validation"
+13,train,train/oct17_134_042.png,"Overfitting, regularization, validation"
+14,test,test/lecture_03_179.png,update gradients
+14,train,train/lecture_02_109.png,→ update gradients
+15,test,test/12.2.5.jpg,Linoleic
+15,train,train/12.1.9.jpg,Linolenic
+16,test,test/oct17_004_004.png,"change, affine transformation, depth change."
+16,test,test/oct17_015_007.png,"change, affine transformation, depth change."
+16,test,test/oct17_040_006.png,"change, affine transformation, depth change."
+16,test,test/oct17_050_003.png,"change, affine transformation, depth change."
+16,train,train/oct17_078_005.png,"ation, depth change."
+16,train,train/oct17_129_007.png,"change, affine transformation, depth change"
+16,train,train/oct17_137_006.png,"change, affine transformation, depth change"
+16,train,train/oct17_138_006.png,"change, affine transformation, depth change"
+17,test,test/lecture_01_005.png,Classification
+17,test,test/lecture_01_054.png,3. Multi-Class Classification
+17,test,test/lecture_01_072.png,Classification
+17,test,test/lecture_02_054.png,Classification
+17,test,test/lecture_03_068.png,3. Multi-Class Classification
+17,test,test/lecture_03_092.png,Classification
+17,test,test/lecture_11_063.png,Classification
+17,test,test/lecture_12_070.png,Classification
+17,test,test/lecture_13_064.png,Classification
+17,train,train/lecture_03_002.png,2. Binary Classification
+17,train,train/lecture_03_014.png,1. Classification
+18,test,test/21.1.2.jpg,Eicosatetraenoic
+18,train,train/21.1.3.jpg,Eicosapentaenoic
+18,train,train/21.1.4.jpg,Docosapentaenoic
+19,test,test/oct17_097_001.png,PWM - controls motor speed
+19,test,test/oct17_102_012.png,PWM - controls motor speed
+19,test,test/oct17_106_020.png,PWM - controls motor speed
+19,test,test/oct17_126_019.png,PWM - controls motor speed
+19,test,test/oct17_129_035.png,PWM - controls motor speed
+19,test,test/oct17_134_017.png,PWM - controls motor speed
+19,test,test/oct17_142_023.png,PWM - controls motor speed
+19,train,train/oct17_115_008.png,ontrols motor speed
+20,test,test/oct17_123_016.png,being used.
+20,train,train/oct17_122_004.png,being used
+21,test,test/lecture_01_033.png,Kernel
+21,test,test/lecture_02_017.png,Kernel
+21,test,test/lecture_03_038.png,Kernel
+21,test,test/lecture_10_029.png,Kernel
+21,test,test/lecture_12_028.png,Kernel
+21,test,test/lecture_13_032.png,Kernel
+21,train,train/lecture_01_088.png,Kernel: K×L
+21,train,train/lecture_02_066.png,Kernel: K×L
+22,test,test/oct17_097_002.png,GPIO - reads an emergency button
+22,test,test/oct17_106_023.png,GPIO - reads an emergency button
+22,test,test/oct17_126_024.png,GPIO - reads an emergency button
+22,test,test/oct17_129_040.png,GPIO - reads an emergency button
+22,test,test/oct17_134_027.png,GPIO - reads an emergency button
+22,train,train/oct17_115_011.png,reads an emergency button
+23,test,test/oct17_072_003.png,the badness of our model
+23,test,test/oct17_076_010.png,the badness of our model
+23,test,test/oct17_078_019.png,the badness of our model
+23,test,test/oct17_087_010.png,the badness of our model
+23,test,test/oct17_090_011.png,the badness of our model
+23,test,test/oct17_092_007.png,the badness of our model
+23,test,test/oct17_106_025.png,the badness of our model
+23,test,test/oct17_126_027.png,the badness of our model
+23,test,test/oct17_129_043.png,the badness of our model
+23,test,test/oct17_134_031.png,the badness of our model
+23,test,test/oct17_137_028.png,the badness of our model
+23,train,train/oct17_102_014.png,he badness of our model
