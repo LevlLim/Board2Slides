@@ -1,0 +1,89 @@
+{
+  "comparisons": {
+    "his test: S1his_en vs S1his_fulldict": {
+      "diff": 0.023961950808741844,
+      "hi": 0.03511445931354891,
+      "lo": 0.009848738560546348,
+      "verdict": "worse"
+    },
+    "his test: S1his_en vs pretrained": {
+      "diff": -0.07560459706398585,
+      "hi": -0.04960917437250885,
+      "lo": -0.10202051504486649,
+      "verdict": "better"
+    },
+    "his val: S1his_en vs S1his_fulldict": {
+      "diff": 0.014656370340972258,
+      "hi": 0.029185318136973323,
+      "lo": 0.004715900550773258,
+      "verdict": "worse"
+    },
+    "his val: S1his_en vs pretrained": {
+      "diff": -0.10557657518797252,
+      "hi": -0.061611266100130686,
+      "lo": -0.14988837553819884,
+      "verdict": "better"
+    }
+  },
+  "his": {
+    "left_out": {
+      "his_test": {
+        "character not in the dictionary": 5
+      },
+      "his_val": {},
+      "train_S1his_en": {
+        "character not in the dictionary": 45,
+        "label longer than the limit": 15
+      }
+    },
+    "lines": {
+      "his_test": 164,
+      "his_val": 179,
+      "train_S1his_en": 8448
+    }
+  },
+  "summary": {
+    "S1his_en | his test": {
+      "corpus_CER": 0.0996969696969697,
+      "exact": 0.5,
+      "extra_repeats": 0.012195121951219513,
+      "lines": 164,
+      "mean_line_CER": 0.09354625162874702
+    },
+    "S1his_en | his val": {
+      "corpus_CER": 0.07376362112321877,
+      "exact": 0.5195530726256983,
+      "extra_repeats": 0.0111731843575419,
+      "lines": 179,
+      "mean_line_CER": 0.07677683965296143
+    },
+    "S1his_fulldict | his test": {
+      "corpus_CER": 0.07696969696969697,
+      "exact": 0.5609756097560976,
+      "extra_repeats": 0.012195121951219513,
+      "lines": 164,
+      "mean_line_CER": 0.0695843008200052
+    },
+    "S1his_fulldict | his val": {
+      "corpus_CER": 0.06370494551550712,
+      "exact": 0.5754189944134078,
+      "extra_repeats": 0.0335195530726257,
+      "lines": 179,
+      "mean_line_CER": 0.06212046931198918
+    },
+    "pretrained | his test": {
+      "corpus_CER": 0.17757575757575758,
+      "exact": 0.3170731707317073,
+      "extra_repeats": 0.006097560975609756,
+      "lines": 164,
+      "mean_line_CER": 0.1691508486927329
+    },
+    "pretrained | his val": {
+      "corpus_CER": 0.18189438390611903,
+      "exact": 0.35195530726256985,
+      "extra_repeats": 0.0335195530726257,
+      "lines": 179,
+      "mean_line_CER": 0.182353414840934
+    }
+  }
+}

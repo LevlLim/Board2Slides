@@ -1,0 +1,4 @@
+Scalability control: our whiteboard lines incl. long lines, no copies; same settings as the paper reader.
+source folder: Assignment/results_versions_2x2/results/models/PP-OCRv5_server_rec_board2notes_V2
+experiment: results_versions_2x2, model V2
+inference.pdiparams sha256: 0f784ab8597db341b871c040b75482f42c460c510ba1f87a9dbca1b5150715f0

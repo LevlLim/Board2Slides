@@ -1,0 +1,26 @@
+{
+ "created": "2026-11-08 20:06:55 UTC",
+ "author": "Claude, 9 Nov 2026",
+ "status": "frozen BEFORE any app/detector output for the JH photos was opened (geometry from images only; no labels, no OCR)",
+ "question": "Does the unchanged app pipeline (mobile_det -> group -> order -> quad crop -> S1) avoid the dataset-crop failure on JH sentence photos, and where does it go wrong?",
+ "photos": "JH_datasetNov5Sentence/Photo1-7.jpg (EXIF orientation 0); 59 dataset sentence lines (writer JH, jhs) located in them",
+ "correspondence": {
+  "placement": "each dataset crop located in its photo by SIFT (ratio 0.75) + RANSAC similarity: 59/59 placed, 160-460 inliers, scale 1.590 +- 0.0003, rotation 0.00 deg (dataset crops are upright cuts); visual overview placement_overview.jpg",
+  "line_geometry": "core_quad: the contiguous band of rows around the ink-profile peak (>= 25% of peak) of the straightened crop, mapped back through the deskew rotation and the placement; checked visually; no two cores overlap",
+  "link_rule": "an app region and a dataset line are linked if intersection / area(core) >= 0.2 OR intersection / area(region) >= 0.5 (convex hulls); recognised text never used",
+  "components": "one_to_one | merge (one region, several lines) | split (one line, several regions) | many_to_many | missed line (no region) | extra region (no dataset line: may be writing that was never cropped, residue or non-board content - not automatically a false detection)",
+  "raw_vs_grouped": "computed for raw detector boxes and for the grouped boxes S1 reads, so grouping effects are separated from detector effects"
+ },
+ "recognition": "ONLY one_to_one lines: CER of the app reading vs label, compared with the same line read from the dataset crop (original, tightened, straightened) by the SAME app reader object on the Mac; labels used only after correspondence",
+ "kept_separate": "missed, merged and split lines are reported as detection/grouping outcomes (their joined text is shown, not mixed into recognition CER)",
+ "geometry_checks": "per app crop: width at 64 px, residual ink slope, fraction of the core covered (possible cut-off)",
+ "metric": "line CER lower-case, collapsed spaces (notebook 14 normalisation); per-line mean; with only 7 photos, intervals are photo-cluster bootstrap and indicative only",
+ "caveats": "JH sentence crops are development data; dataset lines may not cover all writing on the board; labels unchanged",
+ "constraints": "no training, no app change, no reading-order work, labels not used to choose boxes",
+ "hashes": {
+  "placement": "c8c0ca7db64d8cebe9f6f20ba517a871e6811a24474ea52722f221721c25b5cf",
+  "line_quads": "9d607584fa404a86b735056520b3d2e18f1fe781ce861cefbb0fa1aabc2e818b",
+  "place_py": "f3ef9e9c0237ed1d40d9f7b96984aa3a7fc346990d720c16c29f0368cb5cd14d",
+  "line_quads_py": "66399e679345a2ae381133afda6098ae96c5c324fba67da8e9cfc945743918a3"
+ }
+}

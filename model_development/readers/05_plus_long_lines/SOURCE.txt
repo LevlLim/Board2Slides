@@ -1,0 +1,4 @@
+04 plus the long lines that need more than 40 columns (possible only after 04).
+source folder: Assignment/results_versions_2x2/results/models/PP-OCRv5_server_rec_board2notes_V3
+experiment: results_versions_2x2, model V3
+inference.pdiparams sha256: 063f6694d51550eeb6453c25bd10ee2622b52910abb86ff9d5d05c19912235ef

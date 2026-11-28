@@ -1,0 +1,136 @@
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_01_004.png	K-Nearest Neighbours	0.99980229139328
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_01_010.png	Model	0.9999340772628784
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_01_026.png	4. Generation	0.979439377784729
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_01_041.png	Activation	0.958470344543457
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_01_073.png	N = number of data samples	0.9800860285758972
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_01_081.png	3 vs channel	0.9768230319023132
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_01_094.png	- but when x<O, gradient = 0 so neuron	0.9503913521766663
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_01_101.png	Parameter Count	0.999908447265625
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_01_106.png	 = parameters (can be weight)	0.9989408850669861
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_01_107.png	- works only for one-hotlone correct)	0.9705040454864502
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_01_111.png	- punishes low probability of carrect class	0.9748420119285583
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_01_114.png	bias	0.9999686479568481
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_01_120.png	Test	0.9998937845230103
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_01_124.png	Whichcns	0.6355112791061401
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_02_019.png	Augment flip, rotate, transform (make sense)	0.9895910620689392
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_02_029.png	Activation	0.9980975389480591
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_02_032.png	Dropout drop necurins so they can learn from othors	0.9438987374305725
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_02_036.png	Stochastic Gradient Descent	0.9958210587501526
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_02_048.png	Shrinks weights, thase close to 0	0.995820939540863
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_02_051.png	- 3×3 kernels	0.9627568125724792
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_02_056.png	Stack to see larger region	0.9965043663978577
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_02_080.png	Adam	0.9999711513519287
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_02_082.png	Parameter Count	0.999893844127655
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_02_083.png	normalises values close to 0	0.9867087602615356
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_02_092.png	scale	0.8805326223373413
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_02_096.png	bias	0.9999891519546509
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_02_102.png	Test = running stats	0.9822530746459961
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_02_107.png	zero-grad() clears gradients	0.9801312685012817
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_02_109.png	update gradients	0.9792631268501282
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_02_110.png	calculates new gradients	0.9923436641693115
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_02_111.png	storting values should not be too big or small	0.9895341396331787
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_004.png	K- Nearest Neighbears	0.9276856184005737
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_021.png	Model	0.9995967745780945
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_041.png	Augment flip, rotate, transforomn (make sense)	0.937863290309906
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_042.png	4. Generation	0.9750202894210815
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_053.png	Actiration	0.9813901782035828
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_056.png	Dropout drop necrins so they con learn from othars	0.9679783582687378
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_059.png	Stochastic Gradient Descent	0.9976959228515625
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_079.png	Shrinks weights, thase close to 0	0.9847699999809265
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_082.png	3.1 Softmae probabdity	0.9048454165458679
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_087.png	- 3×3 kernels	0.9738918542861938
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_094.png	N = mombes of data samples	0.903441309928894
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_097.png	Stack to see larger regon	0.9908495545387268
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_104.png	3.vo1 chrannel	0.8389903903007507
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_124.png	- but when x<O, gradient <0 sa murn	0.9152480959892273
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_134.png	Adam	0.999988317489624
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_136.png	9 = porsmeters (cen be weight)	0.9068929553031921
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_137.png	- works omlg for one-hat (me ceact)	0.9093637466430664
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_139.png	Parameter Count	0.9797241687774658
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_140.png	normalses values close to 0	0.9613886475563049
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_142.png	- pumiches low peabokitity od carect class	0.8150659203529358
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_154.png	scale	0.9536787271499634
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_158.png	bias	0.9945272207260132
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_167.png	Test = Tumeing stats	0.8925514221191406
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_175.png	zero-grad()clears gradients	0.9583967924118042
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_03_180.png	starting values should nat be too big or small	0.95024573802948
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_04_012.png	eedent	0.27222180366516113
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_04_013.png	Stochastic Gradient Descent	0.9491801857948303
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_04_026.png	Shrinks weights, thase close to 0	0.9587199687957764
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_04_037.png	Slok to se loagr tan	0.7243123054504395
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_04_057.png	Pasmtu Gunt	0.7833299040794373
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_04_064.png	Adam	0.9981732368469238
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_05_013.png	Stochastic Gradient Descent	0.9571434855461121
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_05_022.png	Shrinks weights, thase close to 0	0.9666452407836914
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_05_032.png	Sokk to sme lag rup	0.8431918621063232
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_05_050.png	Adam	0.9999701976776123
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_06_013.png	Stochastic Gradient Descent	0.9864655137062073
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_06_024.png	Shrinks weights, thase close to 0	0.9778652787208557
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_06_035.png	Soaok to se lagr un	0.711478054523468
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_06_052.png	Pasmetes Lent	0.6355262398719788
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_06_060.png	Adam	0.9997761249542236
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_07_012.png	Stochastic Gradient Descent	0.9869773983955383
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_07_023.png	Shrinks weights, thase close to 0	0.9851924777030945
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_07_032.png	Soak to ame laigr rap	0.700472891330719
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_07_050.png	Adam	0.9999372959136963
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_08_014.png	Stochastic Gradient Descent	0.9783415198326111
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_08_024.png	Shrinks weights, thase close to 0	0.9616929888725281
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_08_032.png	Stoak to sre lag napn	0.8435847163200378
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_08_051.png	Adam	0.9982361197471619
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_09_007.png	Model	0.8726914525032043
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_09_009.png	4. Generation	0.9986386895179749
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_09_013.png	K- Nearest Neightons	0.7384087443351746
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_09_076.png	N = number of data somples	0.9888590574264526
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_09_094.png	Handcrafted features	0.979220986366272
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_10_007.png	Model	0.9999710917472839
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_10_010.png	4. Generation	0.9996090531349182
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_10_012.png	K- Nearest Neighuen1	0.7379818558692932
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_10_076.png	N = number of data somples	0.9988076090812683
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_10_087.png	3 vs ! channel	0.9501858353614807
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_10_091.png	Handcratted features	0.9658451080322266
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_11_007.png	Model	0.9999386072158813
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_11_010.png	4. Generation	0.9946156144142151
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_11_011.png	K Nerest Neighurs	0.7849001884460449
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_11_073.png	N = number of data somples	0.9559910297393799
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_11_085.png	3 vs | channel	0.902548611164093
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_11_092.png	9 = parameters (can be weight)	0.9883127212524414
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_11_093.png	Handcrafted features	0.9988395571708679
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_12_008.png	Model	0.9999220967292786
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_12_011.png	4. Generation	0.9615660309791565
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_12_012.png	K Nearest Neigthur1	0.67295902967453
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_12_042.png	2. Transformation	0.9414423704147339
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_12_079.png	N = number of data somples	0.9830741882324219
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_12_089.png	3 vs| channel	0.9554107189178467
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_12_092.png	Handcrafted features	0.9968439340591431
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_13_008.png	Model	0.9999681711196899
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_13_010.png	4. Generation	0.9972143173217773
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_13_014.png	K Nearest Neigthurs	0.7793447971343994
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_13_073.png	N = number of data somples	0.9783140420913696
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_13_085.png	3 vs 1 channel	0.9471635818481445
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__lecture_13_089.png	Handcrafted features	0.998787522315979
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_01_000.png	television	0.9671300053596497
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_01_001.png	apple car	0.9899777173995972
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_02_000.png	television	0.9728687405586243
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_02_001.png	apple car	0.968796968460083
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_03_000.png	television	0.9999077916145325
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_03_001.png	apple car	0.999907374382019
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_04_001.png	television	0.9983124732971191
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_04_002.png	apple car	0.999451756477356
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_05_000.png	television	0.9950994253158569
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_05_001.png	apple car	0.9973556995391846
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_06_000.png	Television	0.9983789324760437
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_06_001.png	apple car	0.9483112692832947
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_07_000.png	television	0.9868294596672058
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_07_001.png	apple car	0.9458194375038147
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_08_000.png	television	0.9934795498847961
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_08_001.png	apple car	0.993209958076477
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_09_000.png	television	0.9508209228515625
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_09_001.png	apple car	0.9894118905067444
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_10_000.png	television	0.999799370765686
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_10_001.png	apple car	0.9591764807701111
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_11_000.png	television	0.9999100565910339
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_11_001.png	apple car	0.9998738765716553
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_12_000.png	television	0.9998112916946411
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_12_001.png	apple car	0.9996439814567566
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_13_006.png	television	0.9456161260604858
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/val_wb/reader__images__wb__television_13_011.png	apple car	0.9723528623580933

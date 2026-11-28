@@ -1,0 +1,9 @@
+/workspace/venv_b2n/lib/python3.12/site-packages/paddle/utils/cpp_extension/extension_utils.py:718: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+Skipping import of the encryption module.
+W1107 16:48:19.335315  3759 gpu_resources.cc:114] Please NOTE: device: 0, GPU Compute Capability: 8.9, Driver API Version: 13.2, Runtime API Version: 12.8
+[2026/11/07 16:48:20] ppocr INFO: load pretrain successful from /workspace/b2n/experiments/guide_g0/runs/G0s2/best_accuracy
+[2026/11/07 16:48:20] ppocr INFO: Export inference config file to /workspace/b2n/experiments/guide_g0/results/models/.G0s2-export-00mi_2t1/inference.yml
+Skipping import of the encryption module
+W1107 16:48:36.720340  3759 eager_utils.cc:3441] Paddle static graph(PIR) not support input out tensor for now!!!!!
+[2026/11/07 16:48:39] ppocr INFO: inference model is saved to /workspace/b2n/experiments/guide_g0/results/models/.G0s2-export-00mi_2t1/inference

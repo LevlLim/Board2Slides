@@ -1,0 +1,60 @@
+{
+ "schema": "board2notes-fresh-photo-confirmation/1",
+ "status": "draft",
+ "agreed_by": [],
+ "agreed_on": "",
+ "note": "Set status to \"agreed\", list who agreed and the date BEFORE running tools/freeze.py. Rules may not change after freezing.",
+
+ "pipeline": "board2notes-ocr package 2026-11-09, unchanged (MANIFEST.json SHA-256 recorded at freeze)",
+
+ "sample": {
+  "photos_min": 10, "photos_max": 15,
+  "writers_min": 2, "writers_max": 3,
+  "max_photos_per_writer": 7,
+  "excluded_writers": ["ZB", "JH", "DS", "Jy"],
+  "excluded_writer_groups": [
+   "any Board2Notes teammate (the 64 uncertain-writer teammate crops make every teammate a possible training writer)",
+   "the writer(s) of the lecture / CNN / whiteboard training photos",
+   "the writer(s) of the familiar-writer long-sentence collection"
+  ],
+  "photo_must_not_match_any_existing_project_image": true
+ },
+
+ "normalisation": "lower-case; every run of whitespace (spaces, line breaks) becomes one space; leading/trailing space removed; punctuation, digits and accents kept; no spelling correction (identical to notebook 15 norm())",
+
+ "reference": {
+  "unit": "one line of the transcription file = one written line on the board, in the reviewers' human reading order",
+  "write_what_is_written": "keep the writer's own misspellings, capitalisation and punctuation",
+  "crossed_out": "omit crossed-out or erased text",
+  "non_handwriting": "omit printed labels, screens, posters and the board frame; they are not reference text",
+  "illegible_line": "a line both reviewers cannot read is written as [illegible]; it is removed from the reference. Whatever the app reads there still counts in the main metric (the student sees it); with quads, regions on it are reported as illegible_region, not as extra",
+  "uncertain_characters": "reviewers agree one best reading and note the doubt in the manifest notes column; the agreed reading is the reference"
+ },
+
+ "main_metric": {
+  "name": "pooled page CER in the app's own reading order",
+  "definition": "sum over photos of Levenshtein(norm(reference page), norm(app lines joined by spaces)) / sum over photos of len(norm(reference page))",
+  "why": "what a student actually receives; identical to notebook 15's main metric",
+  "includes": "recognition errors, missed/extra/merged/split regions AND reading-order errors"
+ },
+
+ "secondary": {
+  "per_photo_and_per_writer_page_CER": true,
+  "photo_bootstrap_interval": {"resamples": 10000, "seed": 0, "level": 0.95, "caveat": "resamples photos with the 2-3 writers fixed; it does not represent uncertainty over new writers"},
+  "requires_quads": {
+   "reading_order_free_page_CER": "page CER with predicted components re-ordered by the reference reading order (notebook 15 'GT-reordered'); main minus this = the cost of reading order, which is deferred work and reported separately",
+   "region_diagnostics": "one-to-one, missed, extra, merge, split and many-to-many counts from the notebook 15 overlap rule",
+   "matched_line_CER": "CER over one-to-one components only (recognition on correctly found single lines)"
+  },
+  "overlap_rule": {"iou_min": 0.25, "intersection_over_smaller_min": 0.50, "text_is_never_used_for_matching": true}
+ },
+
+ "decision_rule": {
+  "type": "descriptive",
+  "threshold_page_CER": null,
+  "note": "Recommended: report descriptively. The development figure (0.87% mean LINE CER on 59 matched JH lines) is a different metric on a different unit and must not be used as a pass mark. If the team wants a threshold, set type to \"threshold\" and threshold_page_CER (e.g. 0.05) here before freezing."
+ },
+
+ "no_tuning": "No setting, model, crop, threshold or rule is changed in response to these photos. Any change afterwards needs a new, separate set of fresh photos to confirm it.",
+ "single_run": "Predictions are produced once, after freezing. Re-running is refused; a failure of the run itself (crash) is logged, fixed in tooling only, and the run is restarted from scratch with the same frozen inputs."
+}

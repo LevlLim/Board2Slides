@@ -1,0 +1,710 @@
+{
+ "repo": "TYW02/whiteboard-notes-v1",
+ "revision": "75619db23eb950d86d18e87e557954ca9a48cf6f",
+ "seed": 20261110,
+ "assign": "stratified",
+ "ratio": "80:10:10",
+ "list_sha256": {
+  "train": "6790d4ec491b95487a5bd68d9b292148414e156e82eff122c056480761d3a40c",
+  "test": "3393854256cb3ed66c1f2e3b2d9caf01f4839f48a029c13ae1ae5042cbaadb8a"
+ },
+ "files": {
+  "train": 8327,
+  "test": 2119
+ },
+ "crops": 1908,
+ "groups": 652,
+ "crops_on_both_sides_before": 0,
+ "out": {
+  "train_crops": 1560,
+  "test_crops": 169,
+  "val_crops": 179,
+  "his_val_orig": 179,
+  "his_train_full": 8508,
+  "his_train_orig": 1557,
+  "his_test_orig": 169,
+  "his_test_full": 947
+ },
+ "near_label_links": [
+  [
+   "quiz",
+   "[Please set the compu",
+   "[Please set the computer"
+  ],
+  [
+   "quiz",
+   "so had.",
+   "so hard."
+  ],
+  [
+   "quiz",
+   "The quiz today",
+   "The quiz today is"
+  ],
+  [
+   "oct",
+   "1959: Hubel and Wiesel",
+   "Hubel and Wiesel"
+  ],
+  [
+   "oct",
+   "(1981 Nobel Prize in Medicine)",
+   "Prize in Medicine)"
+  ],
+  [
+   "oct",
+   "1. Take a neural network",
+   "Take a neural network"
+  ],
+  [
+   "oct",
+   "2. Update the connection weights to optimize the",
+   "2. Update the connection weights to optimize the Compile cells"
+  ],
+  [
+   "oct",
+   "2. Update the connection weights to optimize the",
+   "Update the connection weights to optimize the"
+  ],
+  [
+   "oct",
+   "2. Update the connection weights to optimize the Compile cells",
+   "Update the connection weights to optimize the"
+  ],
+  [
+   "oct",
+   "3. Now add more hidden layers and training techniques.",
+   "Now add more hidden layers and training techniques."
+  ],
+  [
+   "oct",
+   "ADC - measures a distance sensor",
+   "easures a distance sensor"
+  ],
+  [
+   "oct",
+   "adjust the model parameters",
+   "adjust the model parameters Corresponding signal"
+  ],
+  [
+   "oct",
+   "adjust the model parameters Corresponding signal",
+   "Corresponding signal"
+  ],
+  [
+   "oct",
+   "adjust the model parameters Corresponding signal",
+   "djust the model parameters Corresponding signal"
+  ],
+  [
+   "oct",
+   "A loss function that quantifies",
+   "A loss function that quantifies Embedded system must use"
+  ],
+  [
+   "oct",
+   "A loss function that quantifies Embedded system must use",
+   "Embedded system must use"
+  ],
+  [
+   "oct",
+   "A model of how to transform",
+   "A model of how to transform the computer world is"
+  ],
+  [
+   "oct",
+   "A model of how to transform",
+   "Complex cells respond to light orientation and movement A model of how to transform"
+  ],
+  [
+   "oct",
+   "A model of how to transform",
+   "Complex cells respond to light orientation and movement A model of how to transform the computer world is"
+  ],
+  [
+   "oct",
+   "A model of how to transform",
+   "ovement A model of how to transform"
+  ],
+  [
+   "oct",
+   "A model of how to transform",
+   "spond to light orientation and movement A model of how to transform"
+  ],
+  [
+   "oct",
+   "A model of how to transform the computer world is",
+   "Complex cells respond to light orientation and movement A model of how to transform the computer world is"
+  ],
+  [
+   "oct",
+   "A model of how to transform the computer world is",
+   "the computer world is"
+  ],
+  [
+   "oct",
+   "Anologue and digital world",
+   "Anologue and digital world RTOS Section 1:"
+  ],
+  [
+   "oct",
+   "Anologue and digital world",
+   "Simple Linear Regression Anologue and digital world"
+  ],
+  [
+   "oct",
+   "Anologue and digital world RTOS Section 1:",
+   "RTOS Section"
+  ],
+  [
+   "oct",
+   "An optimization algorithm to",
+   "n optimization algorithm to"
+  ],
+  [
+   "oct",
+   "anslation, rotation, scale",
+   "- Geometric variability: Translation, rotation, scale"
+  ],
+  [
+   "oct",
+   "ation, depth change.",
+   "change, affine transformation, depth change"
+  ],
+  [
+   "oct",
+   "- Colour Image: 3 colour channels",
+   "our Image: 3 colour channels"
+  ],
+  [
+   "oct",
+   "Complex cells respond to light orientation and movemen",
+   "Complex cells respond to light orientation and movement"
+  ],
+  [
+   "oct",
+   "Complex cells respond to light orientation and movemen",
+   "Complex cells respond to light orientation and movement A model of how to transform"
+  ],
+  [
+   "oct",
+   "Complex cells respond to light orientation and movemen",
+   "Complex cells respond to light orientation and movement A model of how to transform the computer world is"
+  ],
+  [
+   "oct",
+   "Complex cells respond to light orientation and movement",
+   "Complex cells respond to light orientation and movement A model of how to transform"
+  ],
+  [
+   "oct",
+   "Complex cells respond to light orientation and movement",
+   "Complex cells respond to light orientation and movement A model of how to transform the computer world is"
+  ],
+  [
+   "oct",
+   "Complex cells respond to light orientation and movement A model of how to transform",
+   "Complex cells respond to light orientation and movement A model of how to transform the computer world is"
+  ],
+  [
+   "oct",
+   "Complex cells respond to light orientation and movement A model of how to transform",
+   "ovement A model of how to transform"
+  ],
+  [
+   "oct",
+   "Complex cells respond to light orientation and movement A model of how to transform",
+   "spond to light orientation and movement A model of how to transform"
+  ],
+  [
+   "oct",
+   "Complex cells respond to light orientation and movement A model of how to transform the computer world is",
+   "ovement A model of how to transform"
+  ],
+  [
+   "oct",
+   "Complex cells respond to light orientation and movement A model of how to transform the computer world is",
+   "spond to light orientation and movement A model of how to transform"
+  ],
+  [
+   "oct",
+   "Complex cells respond to light orientation and movement A model of how to transform the computer world is",
+   "the computer world is"
+  ],
+  [
+   "oct",
+   "Corresponding signal",
+   "djust the model parameters Corresponding signal"
+  ],
+  [
+   "oct",
+   "GPIO - reads an emergency button",
+   "reads an emergency button"
+  ],
+  [
+   "oct",
+   "- Grey image: one channel",
+   "image: one channel"
+  ],
+  [
+   "oct",
+   "hadow, Image Constrast",
+   "- Illumination, lighting, shadow, Image Constrast"
+  ],
+  [
+   "oct",
+   "hat is an image",
+   "What is an image"
+  ],
+  [
+   "oct",
+   "he badness of our model",
+   "the badness of our model"
+  ],
+  [
+   "oct",
+   "he data we can learn from",
+   "Simple cells respond to edges and orientation The data we can learn from"
+  ],
+  [
+   "oct",
+   "he data we can learn from",
+   "The data we can learn from"
+  ],
+  [
+   "oct",
+   "inear Regression",
+   "Simple Linear Regression"
+  ],
+  [
+   "oct",
+   "inear Regression",
+   "Simple Linear Regression Anologue and digital world"
+  ],
+  [
+   "oct",
+   "o minimize the loss",
+   "to minimize the loss"
+  ],
+  [
+   "oct",
+   "one action at a time.",
+   "One action at a time. being used."
+  ],
+  [
+   "oct",
+   "ontrols motor speed",
+   "PWM - controls motor speed"
+  ],
+  [
+   "oct",
+   "ovement A model of how to transform",
+   "spond to light orientation and movement A model of how to transform"
+  ],
+  [
+   "oct",
+   "pond to edges and orientation",
+   "Simple cells respond to edges and orientation"
+  ],
+  [
+   "oct",
+   "pond to edges and orientation",
+   "Simple cells respond to edges and orientation The data we can learn from"
+  ],
+  [
+   "oct",
+   "Prints debugging information",
+   "UART - Prints debugging information"
+  ],
+  [
+   "oct",
+   "Restaurant analo",
+   "Restaurant analogy"
+  ],
+  [
+   "oct",
+   "Simple cells respond to edges and orientation",
+   "Simple cells respond to edges and orientation The data we can learn from"
+  ],
+  [
+   "oct",
+   "Simple cells respond to edges and orientation The data we can learn from",
+   "The data we can learn from"
+  ],
+  [
+   "oct",
+   "Simple Linear Regression",
+   "Simple Linear Regression Anologue and digital world"
+  ],
+  [
+   "lecture",
+   "1. LeNet",
+   "LeNet"
+  ],
+  [
+   "lecture",
+   "2. Transformation",
+   "2. Transformation Move"
+  ],
+  [
+   "lecture",
+   "2. Transformation",
+   "2. Transformation Move Prediction weight"
+  ],
+  [
+   "lecture",
+   "2. Transformation Move",
+   "2. Transformation Move Prediction weight"
+  ],
+  [
+   "lecture",
+   "backward() calculates new gradients",
+   "calculates new gradients"
+  ],
+  [
+   "lecture",
+   "Convolution Neural Networks",
+   "Convolution Neural Networks Padding"
+  ]
+ ],
+ "pixel_links": [
+  [
+   "lecture",
+   "lecture_05_035",
+   "4. ResNet",
+   "lecture_06_039",
+   "4.3 Leaky ReLU",
+   0.88
+  ],
+  [
+   "lecture",
+   "lecture_06_039",
+   "4.3 Leaky ReLU",
+   "lecture_07_035",
+   "4.2 ReLU",
+   0.891
+  ]
+ ],
+ "per_source": {
+  "JH": {
+   "test_before": 9,
+   "test_after": 5,
+   "val": 5,
+   "moved_to_test": 5,
+   "moved_to_train": 9
+  },
+  "Jy": {
+   "test_before": 69,
+   "test_after": 37,
+   "val": 37,
+   "moved_to_test": 27,
+   "moved_to_train": 57
+  },
+  "animal": {
+   "test_before": 0,
+   "test_after": 0,
+   "val": 0,
+   "moved_to_test": 0,
+   "moved_to_train": 0
+  },
+  "cnn": {
+   "test_before": 38,
+   "test_after": 7,
+   "val": 6,
+   "moved_to_test": 0,
+   "moved_to_train": 31
+  },
+  "lecture": {
+   "test_before": 156,
+   "test_after": 63,
+   "val": 63,
+   "moved_to_test": 42,
+   "moved_to_train": 135
+  },
+  "oct": {
+   "test_before": 111,
+   "test_after": 50,
+   "val": 53,
+   "moved_to_test": 33,
+   "moved_to_train": 92
+  },
+  "phone": {
+   "test_before": 5,
+   "test_after": 3,
+   "val": 2,
+   "moved_to_test": 2,
+   "moved_to_train": 4
+  },
+  "quiz": {
+   "test_before": 1,
+   "test_after": 4,
+   "val": 13,
+   "moved_to_test": 4,
+   "moved_to_train": 1
+  },
+  "television": {
+   "test_before": 0,
+   "test_after": 0,
+   "val": 0,
+   "moved_to_test": 0,
+   "moved_to_train": 0
+  }
+ },
+ "crops_without_unaugmented_original": [
+  "JH24.1",
+  "JH25.1",
+  "JH9.1"
+ ],
+ "checks": {
+  "groups_on_both_sides": 0,
+  "same_text_same_source_on_both_sides": 0,
+  "same_text_different_source_on_both_sides": [
+   "output",
+   "test",
+   "weight"
+  ]
+ },
+ "pixel_check": {
+  "test_vs_train": {
+   "median": 0.32,
+   "max": 0.697,
+   "n_at_least_0_9": 0,
+   "top": [
+    [
+     0.697,
+     "train/JH32.1.jpg",
+     "Kerosene",
+     "train/JH31.1.jpg",
+     "Sprite"
+    ],
+    [
+     0.578,
+     "train/6.1.2.jpg",
+     "bounding boxes by their confidence",
+     "train/22.1.1.jpg",
+     "I want to drink coffee"
+    ],
+    [
+     0.567,
+     "train/JH27.1.jpg",
+     "Satsuma",
+     "train/JH29.1.jpg",
+     "Less Sugar"
+    ],
+    [
+     0.564,
+     "train/JH30.2.jpg",
+     "Giant",
+     "train/JH1.jpg",
+     "Grape Tea"
+    ],
+    [
+     0.547,
+     "test/1789801072989.jpg",
+     "6592",
+     "train/6170105964414046594.jpg",
+     "Animal"
+    ],
+    [
+     0.508,
+     "test/1.2.2.jpg",
+     "which NLP. To make them work for images,",
+     "test/1.1.2.jpg",
+     "There is tokens, position Embeddings and attention"
+    ],
+    [
+     0.49,
+     "train/JH23.2.jpg",
+     "cake",
+     "train/6170105964414046601.jpg",
+     "reflection"
+    ],
+    [
+     0.484,
+     "train/lecture_02_009.png",
+     "Choose",
+     "test/lecture_09_023.png",
+     "Convolution"
+    ],
+    [
+     0.483,
+     "train/JH28.1.jpg",
+     "Original Taste",
+     "test/JH3.jpg",
+     "Beurre"
+    ],
+    [
+     0.457,
+     "train/4.1.3.jpg",
+     "it pooled to see where the evidence lies.",
+     "test/JH3.1.jpg",
+     "Beurre"
+    ]
+   ]
+  },
+  "val_vs_train": {
+   "median": 0.321,
+   "max": 0.723,
+   "n_at_least_0_9": 0,
+   "top": [
+    [
+     0.723,
+     "train/JH33.1.jpg",
+     "Tough",
+     "train/JH31.1.jpg",
+     "Sprite"
+    ],
+    [
+     0.722,
+     "train/1789801073499.jpg",
+     "Burning",
+     "train/6170105964414046601.jpg",
+     "reflection"
+    ],
+    [
+     0.713,
+     "train/1789801074360.jpg",
+     "Burning",
+     "train/6170105964414046601.jpg",
+     "reflection"
+    ],
+    [
+     0.625,
+     "train/lecture_10_066.png",
+     "Activation",
+     "test/lecture_12_070.png",
+     "Classification"
+    ],
+    [
+     0.537,
+     "train/10.6.1.jpg",
+     "layer2 vectors of our 35 photos: they grouped by ground",
+     "train/10.7.1.jpg",
+     "layer4 vectors of the same photo: they group by animals"
+    ],
+    [
+     0.521,
+     "train/21.1.3.jpg",
+     "Eicosapentaenoic",
+     "train/21.1.4.jpg",
+     "Docosapentaenoic"
+    ],
+    [
+     0.511,
+     "train/6.4.1.jpg",
+     "To calculate mean average precision, take the average",
+     "train/2.4.1.jpg",
+     "Anchor to distances method fails because"
+    ],
+    [
+     0.498,
+     "test/5.4.1.jpg",
+     "Computation graph represents the process of computing a",
+     "train/5.2.3.jpg",
+     "we used a non-linear boundary to separate data"
+    ],
+    [
+     0.491,
+     "train/3.3.1.jpg",
+     "Limitation for Saliency via occlusion is that it fails when the evidence",
+     "train/4.2.2.jpg",
+     "it only works with specific architectures that"
+    ],
+    [
+     0.471,
+     "train/19.2.1.jpg",
+     "Define",
+     "train/quiz_15_006.png",
+     "The quiz today is"
+    ]
+   ]
+  },
+  "test_vs_val": {
+   "median": 0.27,
+   "max": 0.694,
+   "n_at_least_0_9": 0,
+   "top": [
+    [
+     0.694,
+     "train/JH32.1.jpg",
+     "Kerosene",
+     "train/JH33.1.jpg",
+     "Tough"
+    ],
+    [
+     0.605,
+     "train/JH30.2.jpg",
+     "Giant",
+     "train/1789801074360.jpg",
+     "Burning"
+    ],
+    [
+     0.496,
+     "train/JH23.2.jpg",
+     "cake",
+     "train/1789801074360.jpg",
+     "Burning"
+    ],
+    [
+     0.452,
+     "train/lecture_02_096.png",
+     "bias",
+     "train/lecture_01_105.png",
+     "learns"
+    ],
+    [
+     0.425,
+     "train/lecture_03_157.png",
+     "MSE",
+     "train/lecture_03_023.png",
+     "vote"
+    ],
+    [
+     0.401,
+     "train/lecture_03_158.png",
+     "bias",
+     "train/lecture_01_105.png",
+     "learns"
+    ],
+    [
+     0.389,
+     "train/lecture_09_091.png",
+     "channel",
+     "train/lecture_10_066.png",
+     "Activation"
+    ],
+    [
+     0.387,
+     "train/1.2.3.jpg",
+     "ViT splits an image into a grid of fixed-size patches",
+     "train/4.2.4.jpg",
+     "by a linear head."
+    ],
+    [
+     0.384,
+     "train/8.3.3.jpg",
+     "Food",
+     "train/lecture_03_172.png",
+     "output"
+    ],
+    [
+     0.383,
+     "train/lecture_03_142.png",
+     "- punishes low probability of correct class",
+     "train/lecture_01_058.png",
+     "Augmentat"
+    ]
+   ]
+  },
+  "n_at_least_0_9": 0
+ },
+ "fixed_copy": {
+  "path": "/tmp/claude-0/-home-claude/02f3df2f-1dbb-533d-b187-71169cf31ef0/scratchpad/hisfixed_str",
+  "train_files": 8508,
+  "test_files": 947,
+  "val_files": 991,
+  "rec_gt_train_sha256": "652847d60de141cadacbb0b5f66a5e4b257cda1d601766d39247a0cc0bf56924",
+  "rec_gt_test_sha256": "e60f462eed75fa90ba8d7ea49610da9f03711b64bf0daf1af4b051f687922c07",
+  "rec_gt_val_sha256": "427a9f85731ab1f6cfcee0ee8dc698d4efc0f4dd08ce40d701da8f7515316638"
+ }
+}

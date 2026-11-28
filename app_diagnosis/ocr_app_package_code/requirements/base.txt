@@ -1,0 +1,12 @@
+# Board2Notes OCR package - inference + student UI. Python 3.12.
+# Tested: macOS 26 arm64, Python 3.12.14 (the app's .venv-paddle versions, minus training/unrelated packages).
+# paddlepaddle 3.3.1 wheels exist for macOS arm64 and Linux x86_64 only (not Linux aarch64; see requirements/README.md).
+paddlepaddle==3.3.1
+paddleocr==3.7.0
+paddlex==3.7.2
+numpy==2.3.5
+pillow==12.3.0
+pillow-heif==1.8.1
+PyYAML==6.0.2
+psutil==7.2.2
+streamlit==1.67.0

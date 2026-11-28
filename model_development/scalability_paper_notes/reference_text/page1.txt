@@ -1,0 +1,25 @@
+CNN Basics
+A filter slide
+A filter slides across the image and computes a weighted sum at each
+position
+Each filter learns one kind of edge or texture from the training image
+Max pooling keeps the strongest response in each window and ignore
+small shifts.
+Stride 2 skips every second position
+The output size is (W-F+2P) / S+1)
+ReLU sets negative value to 0 and keeps positive value unchanged.
+Deeper layers combine simple layers or edges into larger patterns
+such as eyes or wheels.
+Fully connected layers.
+Softmax turns scores into probabilities.
+Training a model
+Split the data into train, validation and test set before any tuning.
+Learning rate too high causes loss diverges.
+Batch size 16, 70 epochs.
+Cross-entropy loss compares the predicted probabilities with true labels.
+Adam adapts the step size for each weight using average gradients.
+Overfitting: train error low, test error high
+Data augmentation adds rotated and blurred copies of the training images.
+Early stopping keeps the best checkpoint
+Validation loss stopped improving after epoch 77, the checkpoint is kept.
+Accuracy improved from 81% to 92%.

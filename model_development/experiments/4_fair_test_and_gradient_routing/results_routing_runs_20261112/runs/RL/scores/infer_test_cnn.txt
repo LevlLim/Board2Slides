@@ -1,0 +1,174 @@
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_01_000.png	-CNN Anchitecture	0.9419431090354919
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_01_004.png	Visualising cnul	0.8995479345321655
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_01_005.png	Visualise filter 8 outpt	0.9853711128234863
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_01_006.png	Viswelire teature layer	0.9701719880104065
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_01_007.png	Saliency via occlusron	0.9583054184913635
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_02_000.png	CNN Architecture	0.9984325170516968
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_02_002.png	Visualising cnl	0.9375506639480591
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_02_003.png	Visualise filter 8 outpt	0.9781301617622375
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_02_004.png	Viswalire feature layer	0.9805229306221008
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_02_005.png	- Saliency via occlusion	0.9756439328193665
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_03_000.png	CNN Achitecture.	0.9227763414382935
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_03_002.png	Visualising cnh	0.916874349117279
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_03_003.png	Visualise filter 8 output	0.9555124640464783
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_03_004.png	Viswalise feature layer	0.9975886940956116
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_03_005.png	Saliency via occlusion	0.9764043688774109
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_05_000.png	CNN Architecture.	0.8930947184562683
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_05_001.png	LeNet, Alxnet, Resnet.	0.9815568327903748
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_05_002.png	Dropout, Batch Normalieatiom	0.9318522214889526
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_05_003.png	Visualising cnn	0.9218596816062927
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_05_004.png	Visualise filter 8 outpt	0.9826464056968689
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_05_005.png	 Visualise teature layer	0.9753379821777344
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_05_006.png	- Saliency via occlusion	0.9710869789123535
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_07_000.png	CNN Aichitecturer	0.961740255355835
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_07_001.png	 LeNet, Akxnet, Resnet	0.9539670348167419
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_07_002.png	Dropout, Batch Normalieatron	0.9243655800819397
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_07_003.png	Visualising cnu	0.9594377875328064
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_07_004.png	Visualise filter 8 output	0.9735590219497681
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_07_005.png	 Visuatise feature layer	0.9544777274131775
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_07_006.png	Salancy via occlusion	0.9662912487983704
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_09_001.png	Visumlising cul	0.9215651750564575
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_09_002.png	Visvalive filter 8 output	0.9420862793922424
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_09_003.png	Viswatioe teature layer	0.9497328996658325
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_09_004.png	Salancy via occlusron	0.9567869901657104
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_11_002.png	Visualising chV	0.8969811797142029
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_11_003.png	Visvalise filter 8 output	0.9489076733589172
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_11_004.png	Viswatise teatire layer	0.8936487436294556
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_11_005.png	Saliancy via occlusion	0.9744164943695068
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_12_001.png	Visualising chul	0.8329442739486694
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_12_002.png	Visualive filter s outpur	0.9226599335670471
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_12_003.png	Viswetive feature layer	0.8958880305290222
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_12_004.png	Solonrg via occtusion	0.8753249049186707
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_13_001.png	visulioing chl	0.8837847113609314
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_13_002.png	Viscualise filter  output	0.8908612132072449
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_13_003.png	Visulisze teature layer	0.9138668179512024
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_13_004.png	Soliency via adusron	0.9476264119148254
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_14_000.png	CNN Aehitectuen	0.9473215341567993
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_14_005.png	visulioing chV	0.8984798789024353
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_14_006.png	Visumlize filter 8 outut	0.8607215881347656
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_14_007.png	Viative teatire layer	0.9271831512451172
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_14_008.png	Sulenny via oecusion	0.9543734788894653
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_17_003.png	iatize tenture laguer	0.849148154258728
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_17_005.png	Sluanig vio adiucion	0.8058992624282837
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_20_001.png	Vinting Cnuw	0.7751150131225586
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_20_003.png	Viutre tnteaer	0.7332635521888733
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_20_004.png	viatie filter ouopt	0.8122570514678955
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_20_005.png	Silanty vn auution	0.7729533314704895
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_22_002.png	Dontre teture lger	0.8357827663421631
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_22_003.png	Silan vu necduion	0.7176219820976257
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_24_001.png	Visulising chn	0.9570183753967285
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_24_002.png	Visualise filter 8 output	0.9524926543235779
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_24_003.png	Visualise feature layer	0.9700137972831726
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_24_004.png	Saliency via occlusion	0.9696775078773499
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_25_002.png	 Visunlising chn	0.9200745820999146
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_25_003.png	Visualise filter 8 outpt	0.9752821922302246
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_25_004.png	 Visualise feature layer	0.976276159286499
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_25_005.png	Saliency via occlusion	0.9840784072875977
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_26_002.png	Visuelising chl	0.8682754635810852
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_26_003.png	Visvalize filter 8 outpur	0.8822422027587891
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_26_004.png	- Visvalise feature layer	0.9262959361076355
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_26_005.png	- Salieney via acdusion	0.9194082021713257
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_27_002.png	Visicalising chl	0.8866034150123596
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_27_003.png	- Visualise filter A output	0.9044548869132996
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_27_004.png	- Visualize teature layer	0.9236945509910583
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_27_005.png	 Saliency via odusion	0.9456639885902405
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_28_002.png	Visualising cnn	0.9895325899124146
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_28_003.png	 Visualise filter 8 outpt	0.974902331829071
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_28_004.png	 Visvalise feature layer	0.9981493949890137
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_28_005.png	 Saliency via occlusion	0.9926652312278748
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_29_000.png	CNN Achitectice	0.9473696947097778
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_29_005.png	Visualising cnl	0.8838979005813599
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_29_006.png	Viswalise filter S outpur	0.9445651769638062
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_29_007.png	Viswelire feature layer	0.9563594460487366
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_29_008.png	Salianiy mia occlusion	0.9377313852310181
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_30_000.png	CNN Achitectue	0.9617100358009338
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_30_006.png	Visualising chl	0.8499710559844971
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_30_007.png	Visunlise filter 8 output	0.9463162422180176
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_30_008.png	viwelire teature layer	0.9667583703994751
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_30_011.png	Solioncy via occlusion	0.9491140842437744
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_31_000.png	CNMNL Aehitectucer	0.7634216547012329
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_31_004.png	Wamliing cuu	0.7716286182403564
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_31_005.png	Viunlion fther s ouepr	0.8255502581596375
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_31_006.png	Viawatine trauture lager	0.8635787963867188
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_31_007.png	Soliansiyg wsin metweion	0.7618898749351501
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_32_000.png	CUN Awhitecticer	0.8873642086982727
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_32_005.png	visatisig cniV	0.920505702495575
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_32_006.png	Vinraotile filter d vutur	0.8486076593399048
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_32_007.png	vamtive tosture layer	0.8941953778266907
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_32_008.png	Saleniy via exclosion	0.8290873169898987
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_33_000.png	-CNUN Aehitectice	0.9195544719696045
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_33_005.png	visimlising cnuin	0.8529632687568665
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_33_006.png	Visualive fiter A oupl	0.90688157081604
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_33_007.png	vautize tecture layer	0.8577853441238403
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_33_008.png	Selaniy oie octusron	0.885230541229248
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_34_000.png	CUN Aehitectuer	0.8624255657196045
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_34_005.png	Vinelilve fer s outpul	0.7899616360664368
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_34_006.png	Vianmitive touture lager	0.8905956149101257
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_34_007.png	Solaunsig mis velusron	0.7829834222793579
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_35_000.png	CNN Achitectcem	0.8778601884841919
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_35_004.png	Viswetisinge cnio	0.7468244433403015
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_35_005.png	Vilaunelize flter S ontpur	0.7877331972122192
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_35_006.png	Viwmotive teature loger	0.8924543857574463
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_35_007.png	Salaniy oin oetusion	0.8750246167182922
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_37_000.png	CUN Achitectue	0.9625478982925415
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_37_004.png	Vismtising ChU	0.8323640823364258
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_37_005.png	Vvianmnlize fier  eutpl	0.783536970615387
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_37_006.png	vasalive tatra lager	0.843304455280304
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_37_007.png	Sulurng vis oxcdusion	0.7846251130104065
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_38_001.png	CNN Achitectucem	0.8838925361633301
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_38_005.png	Disuelsing Chil	0.686704695224762
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_38_006.png	vinuatise fibter s nutput	0.8708229064941406
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_38_007.png	Voantive teatre lager	0.9342558979988098
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_38_008.png	Salbenny wvan acctusion	0.7971786260604858
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_39_000.png	CUN Aehitecticem	0.9217184782028198
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_39_004.png	Vinalising cal	0.7651615142822266
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_39_006.png	vaontie lercture lager	0.8363460302352905
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_39_007.png	Solanig wa oxchesion	0.8997109532356262
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_40_000.png	CUN Achitectue	0.9149608016014099
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_40_005.png	vimling cnU	0.8265414834022522
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_40_007.png	Vantize filter S outor	0.7723662853240967
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_40_008.png	Viative teature lager	0.9598945379257202
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_40_009.png	Solanig nin achiuron	0.8680389523506165
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_41_000.png	CUN Aehtecticem	0.9110784530639648
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_41_004.png	Viamling CnUV	0.7817344665527344
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_41_011.png	Vvawatre thatre lager	0.7500634789466858
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_41_013.png	Solaniny mis adusion	0.8659801483154297
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_42_001.png	CUWN Aehitectucer	0.8981367349624634
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_42_007.png	Vinunlize flter A onpu9	0.7932999730110168
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_42_009.png	Voalive tetire layer	0.8464186787605286
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_42_010.png	Sulasiy vis andhuion	0.8330529928207397
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_43_004.png	CUN Achtatuen	0.8779675364494324
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_43_013.png	Viutie tabre laer	0.8453757166862488
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_44_005.png	CUN Achitectire	0.8631353378295898
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_44_018.png	Sinangy va adicsn	0.8250781893730164
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_45_004.png	CNN Ahtctue	0.8751108050346375
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_45_005.png	LeNet Riexet Rerset	0.7548301219940186
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_45_006.png	Durapur , Bath vermalinttion	0.7428063750267029
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_45_009.png	Vianling CnUv	0.7897388935089111
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_45_014.png	Viatie tature arn	0.8505349159240723
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_45_016.png	Silonty in auion	0.8217482566833496
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_46_004.png	CNN Ahtectie	0.9538219571113586
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_46_005.png	uiet Rexaet, Rrarst	0.8391353487968445
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_46_006.png	Diemue, Olatih lomaicntit	0.6192071437835693
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_46_007.png	vianting couv	0.7412587404251099
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_46_010.png	viomlie flter autpol	0.8758560419082642
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_46_011.png	Vvautre tratre hager	0.8505271673202515
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_46_013.png	Selauiy vin acecion	0.8034844994544983
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_47_004.png	CNN Aehitectise	0.8901095986366272
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_47_005.png	Gnsier Merect, Resiset	0.7425966262817383
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_47_013.png	viutie tatre liajur	0.8175946474075317
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_47_015.png	Setlarng vi mcunsion	0.740901529788971
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_48_000.png	CNN Anchitectue.	0.914337158203125
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_48_001.png	LeNet, Alxnet, Resrct.	0.951778769493103
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_48_002.png	Draput, Batch barmalivation	0.9422912001609802
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_48_003.png	Visualising chN	0.88630610704422
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_48_005.png	Viwalive filter 8 vutput	0.9345672130584717
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_48_006.png	Viswtise truture layer	0.8885425329208374
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_48_007.png	Salancy via occlusion	0.9726889729499817
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_49_000.png	CNN Achitectue	0.9589106440544128
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_49_001.png	LeNet Mlexret, Resnct	0.9054878950119019
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_49_002.png	Droput, Batch Nermalioution	0.8867107629776001
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_49_003.png	Visvelising chW	0.9374473094940186
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_49_004.png	Visvolize filter x outpur	0.9241381287574768
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_49_006.png	Vvisualise teatire layer	0.925778329372406
+/workspace/b2n/experiments/routing_runs_20261112/data/flat/test_cnn/reader__images__wb__cnn_49_007.png	Salency vin oxlusion	0.9313810467720032

@@ -1,0 +1,17 @@
+{
+  "best_metric_line": "norm_edit_dis: 0.8929679842556788, is_float16: False, acc: 0.3749999724264726, fps: 252.93522813486737, best_epoch: 57",
+  "best_sha256": "1603bccec4db64da8978f18ee17cc35b51b0354ce0679e138c0428ae28b81b18",
+  "identity": {
+    "config": "29dcd15729ab39042edc712a5965e99623add399aa481a6dfee42656d62ec1e2",
+    "pool40": false,
+    "train_list": "1afe29b5c82d9570140b3d0bb53e6713757b0183c910e734044547f90078916e"
+  },
+  "minutes": 35.7,
+  "plan": {
+    "epochs": 71,
+    "eval_step": 400,
+    "lines": 1359,
+    "planned_updates": 6035,
+    "steps_per_epoch": 85
+  }
+}

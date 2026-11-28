@@ -1,0 +1,1201 @@
+photo,condition,page,reader,line,ref,pred,found,split,cer,crops
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,1,CNN Basics,CIVN Basics,True,False,0.2,crop_02.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,2,A filter slide,A filter slide,True,False,0.0,crop_05.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,3,A filter slides across the image and computes a weighted sum at each,Afiltersies eesee eoeerce each,True,False,0.6324,crop_07.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,4,position,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,7,small shifts.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,8,Stride 2 skips every second position,Stride 2 skips every second position,True,False,0.0,crop_09.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,9,The output size is (W-F+2P) / S+1),The output size is (W-F+2P)/s+1),True,False,0.0588,crop_10.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,10,ReLU sets negative value to 0 and keeps positive value unchanged.,ReLU seks negative value toO and keeps postive value unchanged.,True,False,0.0615,crop_11.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple lqyers or edges into larger patterns,True,False,0.0154,crop_12.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_13.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,13,Fully connected layers.,"Fully connected layers,",True,False,0.0435,crop_14.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,14,Softmax turns scores into probabilities.,Softmax turns scores into probabi lities.,True,False,0.025,crop_15.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,15,Training a model,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,22,Data augmentation adds rotated and blurred copies of the training images.,Date,True,False,0.9452,crop_06.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,downloaded,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,1,CNN Basics,CNN Basics,True,False,0.0,crop_02.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,2,A filter slide,A filter slide,True,False,0.0,crop_05.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,3,A filter slides across the image and computes a weighted sum at each,A fstter slides acrosaoe the mage ea m aes iwehe e e  aa each,True,False,0.3529,crop_07.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,4,position,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,7,small shifts.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,8,Stride 2 skips every second position,Stride 2 skips every second position,True,False,0.0,crop_09.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,9,The output size is (W-F+2P) / S+1),The output size is CW-F+ 2P) / s+1),True,False,0.0588,crop_10.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,10,ReLU sets negative value to 0 and keeps positive value unchanged.,ReLU sets negative value to O und keeps positive value unchanged.,True,False,0.0308,crop_11.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple lqyers or edges into larger paterns,True,False,0.0308,crop_12.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_13.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,13,Fully connected layers.,"Fully connected layers,",True,False,0.0435,crop_14.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,14,Softmax turns scores into probabilities.,Softmax turns scores into probabilities.,True,False,0.0,crop_15.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,15,Training a model,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,22,Data augmentation adds rotated and blurred copies of the training images.,Oa1o,True,False,0.9589,crop_06.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,whiteboard,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,1,CNN Basics,CNN Basics,True,False,0.0,crop_02.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,2,A filter slide,a filter slide,True,False,0.0,crop_05.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,3,A filter slides across the image and computes a weighted sum at each,Afiter slides accos theinage and computes engne e e .,True,False,0.3235,crop_07.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,4,position,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,7,small shifts.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,8,Stride 2 skips every second position,Stride 2 skips every second pasition,True,False,0.0278,crop_09.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,9,The output size is (W-F+2P) / S+1),The output size is Cw-F+2pI I st1),True,False,0.1176,crop_10.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,10,ReLU sets negative value to 0 and keeps positive value unchanged.,Rel sets negative value to 0 and keeps parrtive valne mchanged .,True,False,0.1231,crop_11.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple layers or edges into langer paterns,True,False,0.0308,crop_12.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_13.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,13,Fully connected layers.,Fully connected layers .,True,False,0.0435,crop_14.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,14,Softmax turns scores into probabilities.,Softmax turas scores into probabilities .,True,False,0.05,crop_15.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,15,Training a model,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,22,Data augmentation adds rotated and blurred copies of the training images.,Da10,True,False,0.9726,crop_06.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,paper,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,1,CNN Basics,CNN Basics,True,False,0.0,crop_02.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,2,A filter slide,A filter slde,True,False,0.0714,crop_05.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,3,A filter slides across the image and computes a weighted sum at each,Apster slides acrss he image and omate a weihe ss at ach,True,False,0.2353,crop_07.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,4,position,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,7,small shifts.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,8,Stride 2 skips every second position,Stride 2 skips every second position,True,False,0.0,crop_09.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,9,The output size is (W-F+2P) / S+1),The output size is CW-F+ 2P)1 st1),True,False,0.1471,crop_10.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,10,ReLU sets negative value to 0 and keeps positive value unchanged.,ReLU sets negative value to 0 and keeps positive value unchanged.,True,False,0.0,crop_11.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple layers or edges into larger paterns,True,False,0.0154,crop_12.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_13.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,13,Fully connected layers.,"Fully connected layers,",True,False,0.0435,crop_14.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,14,Softmax turns scores into probabilities.,Softmax turns scores into probabilities.,True,False,0.0,crop_15.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,15,Training a model,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,22,Data augmentation adds rotated and blurred copies of the training images.,Daio,True,False,0.9452,crop_06.png
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,original,1,final,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,1,CNN Basics,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,2,A filter slide,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,4,position,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,7,small shifts.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,8,Stride 2 skips every second position,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_03.png
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,13,Fully connected layers.,"Fully connected layers,.",True,False,0.0435,crop_04.png
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,14,Softmax turns scores into probabilities.,"Softmax turns scores into probabi lities,",True,False,0.05,crop_05.png
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,15,Training a model,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,16,"Split the data into train, validation and test set before any tuning.",tuning,True,False,0.913,crop_06.png
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,downloaded,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,1,CNN Basics,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,2,A filter slide,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,4,position,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,7,small shifts.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,8,Stride 2 skips every second position,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_03.png
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,13,Fully connected layers.,"Fully connected layers,",True,False,0.0435,crop_04.png
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,14,Softmax turns scores into probabilities.,Softmax turns scores into probabilities.,True,False,0.0,crop_05.png
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,15,Training a model,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,16,"Split the data into train, validation and test set before any tuning.",tuning,True,False,0.913,crop_06.png
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,whiteboard,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,1,CNN Basics,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,2,A filter slide,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,4,position,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,7,small shifts.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,8,Stride 2 skips every second position,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_03.png
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,13,Fully connected layers.,Fully connected layers .,True,False,0.0435,crop_04.png
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,14,Softmax turns scores into probabilities.,Softmax turns scores into  probabilities .,True,False,0.025,crop_05.png
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,15,Training a model,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,16,"Split the data into train, validation and test set before any tuning.", huning,True,False,0.913,crop_06.png
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,paper,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,1,CNN Basics,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,2,A filter slide,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,4,position,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,7,small shifts.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,8,Stride 2 skips every second position,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,12,such as eyes or wheels.,such as eyes or whecls,True,False,0.087,crop_03.png
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,13,Fully connected layers.,"Fually connected layers,",True,False,0.087,crop_04.png
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,14,Softmax turns scores into probabilities.,Softmax turns scores into probabilities.,True,False,0.0,crop_05.png
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,15,Training a model,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,16,"Split the data into train, validation and test set before any tuning.",tuning,True,False,0.913,crop_06.png
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_medium_a_IMG_5172.HEIC,app_prepared,1,final,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,1,CNN Basics,CIVN Basics,True,False,0.2,crop_02.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,2,A filter slide,A filter slide,True,False,0.0,crop_05.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,3,A filter slides across the image and computes a weighted sum at each,Afilersdes esesee eseserecew each,True,False,0.6471,crop_07.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,4,position,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,7,small shifts.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,8,Stride 2 skips every second position,Stride 2 skips every second position,True,False,0.0,crop_09.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,9,The output size is (W-F+2P) / S+1),The output size is (W-F+2P)/s+1),True,False,0.0588,crop_10.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,10,ReLU sets negative value to 0 and keeps positive value unchanged.,ReLU sets negarive value to O and keeps pasitive value unchanged.,True,False,0.0462,crop_11.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple layers or edges into lager pattens,True,False,0.0308,crop_12.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_13.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,13,Fully connected layers.,Fully connected layers.,True,False,0.0,crop_14.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,14,Softmax turns scores into probabilities.,Softmax turns scores into probabi lilies.,True,False,0.05,crop_15.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,15,Training a model,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,22,Data augmentation adds rotated and blurred copies of the training images.,Date,True,False,0.9452,crop_06.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,downloaded,25,Accuracy improved from 81% to 92%.,Accuracy,True,False,0.7647,crop_17.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,1,CNN Basics,CNN Basics,True,False,0.0,crop_02.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,2,A filter slide,A filter slide,True,False,0.0,crop_05.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,3,A filter slides across the image and computes a weighted sum at each,Anfitter slides gcrsse he mage ande mpae eawese e    ach,True,False,0.3971,crop_07.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,4,position,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,7,small shifts.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,8,Stride 2 skips every second position,Stride 2 skips every second position,True,False,0.0,crop_09.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,9,The output size is (W-F+2P) / S+1),The output size is CW-E+ 2P) / s+1),True,False,0.0882,crop_10.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,10,ReLU sets negative value to 0 and keeps positive value unchanged.,ReLU sets negative value to 0 and keeps positive value unchanged.,True,False,0.0,crop_11.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple layers or edges into larger patterns,True,False,0.0,crop_12.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_13.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,13,Fully connected layers.,"Fully connected layers,",True,False,0.0435,crop_14.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,14,Softmax turns scores into probabilities.,"Softmax turns scores into probabilities,",True,False,0.025,crop_15.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,15,Training a model,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,22,Data augmentation adds rotated and blurred copies of the training images.,Date,True,False,0.9452,crop_06.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,whiteboard,25,Accuracy improved from 81% to 92%.,Accuracy,True,False,0.7647,crop_17.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,1,CNN Basics,CNN Basics,True,False,0.0,crop_02.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,2,A filter slide,A filter slide,True,False,0.0,crop_05.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,3,A filter slides across the image and computes a weighted sum at each,Afitter slides gaeres the inage ad ompyesenenee e .,True,False,0.4412,crop_07.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,4,position,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,7,small shifts.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,8,Stride 2 skips every second position,Stride 2 skips every secosd posttion,True,False,0.0556,crop_09.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,9,The output size is (W-F+2P) / S+1),The output size is CW-Ft2PI I st1),True,False,0.1471,crop_10.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,10,ReLU sets negative value to 0 and keeps positive value unchanged.,Rel sets negative valne to D and keeps paritive valne mchanged .,True,False,0.1385,crop_11.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple layers or edges into larger pattens,True,False,0.0154,crop_12.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_13.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,13,Fully connected layers.,Fully cosnected layers .,True,False,0.087,crop_14.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,14,Softmax turns scores into probabilities.,Softmax turas scores into probabilities .,True,False,0.05,crop_15.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,15,Training a model,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,22,Data augmentation adds rotated and blurred copies of the training images.,Date.,True,False,0.9315,crop_06.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,paper,25,Accuracy improved from 81% to 92%.,Acuracy,True,False,0.7941,crop_17.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,1,CNN Basics,CNN Basics,True,False,0.0,crop_02.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,2,A filter slide,A filter slsde,True,False,0.0714,crop_05.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,3,A filter slides across the image and computes a weighted sum at each,Arftter slide qaros theimage and comates ane itetded in ach,True,False,0.3382,crop_07.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,4,position,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,7,small shifts.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,8,Stride 2 skips every second position,Stride 2 skips every second position,True,False,0.0,crop_09.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,9,The output size is (W-F+2P) / S+1),The output size is CW-F+2P)! st1),True,False,0.1176,crop_10.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,10,ReLU sets negative value to 0 and keeps positive value unchanged.,ReLU sets negative value to 0 and keeps positive value anchanged.,True,False,0.0154,crop_11.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple layers or edges into larger patterns,True,False,0.0,crop_12.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_13.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,13,Fully connected layers.,"Fully connected layers,",True,False,0.0435,crop_14.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,14,Softmax turns scores into probabilities.,Softmax turns scores into probabilities.,True,False,0.0,crop_15.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,15,Training a model,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,22,Data augmentation adds rotated and blurred copies of the training images.,Date,True,False,0.9452,crop_06.png
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,original,1,final,25,Accuracy improved from 81% to 92%.,Accuracy,True,False,0.7647,crop_17.png
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,1,CNN Basics,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,2,A filter slide,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,4,position,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,7,small shifts.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,8,Stride 2 skips every second position,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_04.png
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,13,Fully connected layers.,Fully connected layers.,True,False,0.0,crop_05.png
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,14,Softmax turns scores into probabilities.,Softmax turns scores into probabilities.,True,False,0.0,crop_06.png
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,15,Training a model,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,16,"Split the data into train, validation and test set before any tuning.",Llve aoy furing.,True,False,0.8261,crop_07.png
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,downloaded,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,1,CNN Basics,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,2,A filter slide,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,4,position,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,7,small shifts.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,8,Stride 2 skips every second position,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_04.png
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,13,Fully connected layers.,"Fully connected layers,",True,False,0.0435,crop_05.png
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,14,Softmax turns scores into probabilities.,Softmax turns scores into probabilities.,True,False,0.0,crop_06.png
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,15,Training a model,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,16,"Split the data into train, validation and test set before any tuning.",befre any tuning:,True,False,0.7681,crop_07.png
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,whiteboard,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,1,CNN Basics,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,2,A filter slide,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,4,position,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,7,small shifts.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,8,Stride 2 skips every second position,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_04.png
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,13,Fully connected layers.,Fully connected layers .,True,False,0.0435,crop_05.png
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,14,Softmax turns scores into probabilities.,Softmax turns scores into probabilities .,True,False,0.025,crop_06.png
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,15,Training a model,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,16,"Split the data into train, validation and test set before any tuning.",htre oy turing .,True,False,0.8116,crop_07.png
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,paper,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,1,CNN Basics,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,2,A filter slide,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,4,position,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,7,small shifts.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,8,Stride 2 skips every second position,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_04.png
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,13,Fully connected layers.,"Fually connected layers,",True,False,0.087,crop_05.png
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,14,Softmax turns scores into probabilities.,Softmax turns scores into probabilities.,True,False,0.0,crop_06.png
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,15,Training a model,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,16,"Split the data into train, validation and test set before any tuning.","Lalre nny tuning,",True,False,0.7826,crop_07.png
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_medium_b_IMG_5173.HEIC,app_prepared,1,final,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,1,CNN Basics,CNN Basics,True,False,0.0,crop_03.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,2,A filter slide,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,3,A filter slides across the image and computes a weighted sum at each,After slides across the image and computes a weighted sum at each A filter slide,True,True,0.2647,crop_06.png crop_04.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,4,position,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,5,Each filter learns one kind of edge or texture from the training image,ache les oe  ofaeor teue from  tigge,True,False,0.5286,crop_07.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,6,Max pooling keeps the strongest response in each window and ignore,max pooling keeps the strongest response in each window and ignore,True,False,0.0,crop_08.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,7,small shifts.,"small shifts,",True,False,0.0769,crop_09.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,8,Stride 2 skips every second position,Stride 2 skips every second position,True,False,0.0,crop_10.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,9,The output size is (W-F+2P) / S+1),The output size is (W-F+2P)/ S+1),True,False,0.0294,crop_11.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,12,such as eyes or wheels.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,13,Fully connected layers.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,14,Softmax turns scores into probabilities.,Softmax turns scores into probabilithies.,True,False,0.025,crop_13.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,15,Training a model,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,23,Early stopping keeps the best checkpoint,nift,True,False,0.925,crop_05.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,downloaded,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,1,CNN Basics,CNN Basics,True,False,0.0,crop_03.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,2,A filter slide,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,3,A filter slides across the image and computes a weighted sum at each,IA fsiter slides across the image and computes a weighted sum at each A filter slsde,True,True,0.2647,crop_06.png crop_04.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,4,position,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,5,Each filter learns one kind of edge or texture from the training image,Leasth foiter learns one kind of edge or texture from the training rmagel,True,False,0.1,crop_07.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,6,Max pooling keeps the strongest response in each window and ignore,Max pooling keeps the strongest response in each window and ignore,True,False,0.0,crop_08.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,7,small shifts.,"small shifts,",True,False,0.0769,crop_09.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,8,Stride 2 skips every second position,Stride 2 skips every second position,True,False,0.0,crop_10.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,9,The output size is (W-F+2P) / S+1),The output size is CW-F+ 2P)/ St1),True,False,0.1176,crop_11.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,12,such as eyes or wheels.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,13,Fully connected layers.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,14,Softmax turns scores into probabilities.,Softmax turns scores into probabilities.,True,False,0.0,crop_13.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,15,Training a model,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,23,Early stopping keeps the best checkpoint,nitt,True,False,0.925,crop_05.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,whiteboard,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,1,CNN Basics,cvN Basics,True,False,0.1,crop_03.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,2,A filter slide,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,3,A filter slides across the image and computes a weighted sum at each,IA fiter slides acress the image ard computes a werghted sum at each 'a filter slrde,True,True,0.3088,crop_06.png crop_04.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,4,position,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,5,Each filter learns one kind of edge or texture from the training image,pastionter lears one kind of edge or texture from the training rmag,True,False,0.1429,crop_07.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,6,Max pooling keeps the strongest response in each window and ignore,max pooling Keeps the strongest response in each window and ignore,True,False,0.0,crop_08.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,7,small shifts.,"Ismall shifts ,",True,False,0.2308,crop_09.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,8,Stride 2 skips every second position,Stride 2 skips every secosd pasition,True,False,0.0556,crop_10.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,9,The output size is (W-F+2P) / S+1),The output size is CW-Ft2PI / St 1 ),True,False,0.1765,crop_11.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,12,such as eyes or wheels.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,13,Fully connected layers.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,14,Softmax turns scores into probabilities.,'Softmax turas scores into probabilities .,True,False,0.075,crop_13.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,15,Training a model,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,23,Early stopping keeps the best checkpoint,nilt,True,False,0.925,crop_05.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,paper,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,1,CNN Basics,CNN Basics,True,False,0.0,crop_03.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,2,A filter slide,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,3,A filter slides across the image and computes a weighted sum at each,A filter slides across the image and computes a weighted sum at each A filter slsde,True,True,0.2206,crop_06.png crop_04.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,4,position,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,5,Each filter learns one kind of edge or texture from the training image,Each fiter learnsone kind of edge or texture from the training imagel,True,False,0.0429,crop_07.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,6,Max pooling keeps the strongest response in each window and ignore,max pooling keeps the strongest response in each window and ignore,True,False,0.0,crop_08.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,7,small shifts.,"small shifts,",True,False,0.0769,crop_09.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,8,Stride 2 skips every second position,Stride 2 skips every second position,True,False,0.0,crop_10.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,9,The output size is (W-F+2P) / S+1),The output size is CW-Ft  2Pj/ St1,True,False,0.2059,crop_11.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,12,such as eyes or wheels.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,13,Fully connected layers.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,14,Softmax turns scores into probabilities.,"Softmax turns scores into probabilities,",True,False,0.025,crop_13.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,15,Training a model,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,23,Early stopping keeps the best checkpoint,nitt,True,False,0.925,crop_05.png
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,original,1,final,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,1,CNN Basics,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,2,A filter slide,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,4,position,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,7,small shifts.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,8,Stride 2 skips every second position,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,12,such as eyes or wheels.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,13,Fully connected layers.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,14,Softmax turns scores into probabilities.,oresito probabilithies.,True,True,0.475,crop_01.png crop_02.png
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,15,Training a model,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,downloaded,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,1,CNN Basics,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,2,A filter slide,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,4,position,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,7,small shifts.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,8,Stride 2 skips every second position,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,12,such as eyes or wheels.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,13,Fully connected layers.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,14,Softmax turns scores into probabilities.,ores into probabilities.,True,True,0.4,crop_01.png crop_02.png
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,15,Training a model,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,whiteboard,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,1,CNN Basics,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,2,A filter slide,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,4,position,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,7,small shifts.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,8,Stride 2 skips every second position,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,12,such as eyes or wheels.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,13,Fully connected layers.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,14,Softmax turns scores into probabilities.,ofes ito  probabilities.,True,True,0.425,crop_01.png crop_02.png
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,15,Training a model,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,paper,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,1,CNN Basics,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,2,A filter slide,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,4,position,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,7,small shifts.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,8,Stride 2 skips every second position,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,12,such as eyes or wheels.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,13,Fully connected layers.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,14,Softmax turns scores into probabilities.,ores into probabilites.,True,True,0.425,crop_01.png crop_02.png
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,15,Training a model,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_strong_a_IMG_5170.HEIC,app_prepared,1,final,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,1,CNN Basics,CNN Basics,True,False,0.0,crop_03.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,2,A filter slide,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,3,A filter slides across the image and computes a weighted sum at each,Afiter slides across the image and computes a weighted sum at each A filter slide,True,True,0.25,crop_06.png crop_04.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,4,position,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,5,Each filter learns one kind of edge or texture from the training image,Each fiter learns one kind of edge or texture from the training mage,True,False,0.0286,crop_08.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,6,Max pooling keeps the strongest response in each window and ignore,max pooling keeps the strongest response in each window and ignre,True,False,0.0152,crop_09.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,7,small shifts.,"shift small shifts,",True,True,0.5385,crop_05.png crop_10.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,8,Stride 2 skips every second position,Stride 2 skips every second posithion pasition,True,True,0.2778,crop_11.png crop_07.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,9,The output size is (W-F+2P) / S+1),The output size is (W-F+2P)/ S+1),True,False,0.0294,crop_12.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,10,ReLU sets negative value to 0 and keeps positive value unchanged.,return,True,False,0.9231,crop_02.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,12,such as eyes or wheels.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,13,Fully connected layers.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,14,Softmax turns scores into probabilities.,Softmax turns scores into probabi lities.,True,False,0.025,crop_14.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,15,Training a model,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,downloaded,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,1,CNN Basics,CNN Basics,True,False,0.0,crop_03.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,2,A filter slide,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,3,A filter slides across the image and computes a weighted sum at each,IA fitter slides across the image and computes a weighted sum at each A filter slide,True,True,0.25,crop_06.png crop_04.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,4,position,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,5,Each filter learns one kind of edge or texture from the training image,TEach fitter learns one kind of edge or texture from the training rmagel,True,False,0.0571,crop_08.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,6,Max pooling keeps the strongest response in each window and ignore,TMax pooling keeps the strongest response in each window and ignore,True,False,0.0152,crop_09.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,7,small shifts.,shife small shifts.,True,True,0.4615,crop_05.png crop_10.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,8,Stride 2 skips every second position,Stride 2 skips every second position lpasition,True,True,0.2778,crop_11.png crop_07.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,9,The output size is (W-F+2P) / S+1),The output size is CW-F+2P)/ S+1),True,False,0.0588,crop_12.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,10,ReLU sets negative value to 0 and keeps positive value unchanged.,rerurn,True,False,0.9385,crop_02.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,12,such as eyes or wheels.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,13,Fully connected layers.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,14,Softmax turns scores into probabilities.,Softmax turns scores into probabilities.,True,False,0.0,crop_14.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,15,Training a model,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,whiteboard,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,1,CNN Basics,KvN Basics,True,False,0.2,crop_03.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,2,A filter slide,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,3,A filter slides across the image and computes a weighted sum at each,IA fitter slides acrosr the image and computes a weighted sum at each 'a filter slide,True,True,0.2794,crop_06.png crop_04.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,4,position,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,5,Each filter learns one kind of edge or texture from the training image,Each filter learns one kind of edge or texture from the traininsg rmggef,True,False,0.0571,crop_08.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,6,Max pooling keeps the strongest response in each window and ignore,max pooling Keeps the strongest response in each window and ignore,True,False,0.0,crop_09.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,7,small shifts.,shife small shifts .,True,True,0.5385,crop_05.png crop_10.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,8,Stride 2 skips every second position,Stride 2 skips every secosd pasition pasition,True,True,0.2778,crop_11.png crop_07.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,9,The output size is (W-F+2P) / S+1),The output size is  CW-F+'2PI /  St 1),True,False,0.1471,crop_12.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,10,ReLU sets negative value to 0 and keeps positive value unchanged.,relurn,True,False,0.9231,crop_02.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,12,such as eyes or wheels.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,13,Fully connected layers.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,14,Softmax turns scores into probabilities.,Softmax turas scores into probabilities .,True,False,0.05,crop_14.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,15,Training a model,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,paper,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,1,CNN Basics,KNN Basics,True,False,0.1,crop_03.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,2,A filter slide,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,3,A filter slides across the image and computes a weighted sum at each,A fstter slides across the image and computes a weighted sum at each A filter slide,True,True,0.25,crop_06.png crop_04.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,4,position,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,5,Each filter learns one kind of edge or texture from the training image,Each filter learns one kind of edge or texture from the training rmagel,True,False,0.0286,crop_08.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,6,Max pooling keeps the strongest response in each window and ignore,max pooling keeps the strongest response in each window and ignore,True,False,0.0,crop_09.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,7,small shifts.,shirl small shifts.,True,True,0.4615,crop_05.png crop_10.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,8,Stride 2 skips every second position,Stride 2 skips every second position pasition,True,True,0.25,crop_11.png crop_07.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,9,The output size is (W-F+2P) / S+1),The output size is CW-Ft2PJ St1,True,False,0.2059,crop_12.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,10,ReLU sets negative value to 0 and keeps positive value unchanged.,relurn,True,False,0.9231,crop_02.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,11,Deeper layers combine simple layers or edges into larger patterns,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,12,such as eyes or wheels.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,13,Fully connected layers.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,14,Softmax turns scores into probabilities.,Softmax turns scores into probabilities.,True,False,0.0,crop_14.png
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,15,Training a model,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,original,1,final,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,1,CNN Basics,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,2,A filter slide,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,4,position,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,7,small shifts.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,8,Stride 2 skips every second position,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,11,Deeper layers combine simple layers or edges into larger patterns,t,True,False,0.9846,crop_03.png
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,12,such as eyes or wheels.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,13,Fully connected layers.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,14,Softmax turns scores into probabilities.,probabi lities.,True,False,0.675,crop_04.png
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,15,Training a model,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,downloaded,25,Accuracy improved from 81% to 92%.,7e,True,False,0.9706,crop_01.png
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,1,CNN Basics,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,2,A filter slide,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,4,position,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,7,small shifts.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,8,Stride 2 skips every second position,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,11,Deeper layers combine simple layers or edges into larger patterns,into,True,False,0.9385,crop_03.png
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,12,such as eyes or wheels.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,13,Fully connected layers.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,14,Softmax turns scores into probabilities.,probabilities.,True,False,0.65,crop_04.png
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,15,Training a model,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,whiteboard,25,Accuracy improved from 81% to 92%.,2,True,False,0.9706,crop_01.png
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,1,CNN Basics,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,2,A filter slide,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,4,position,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,7,small shifts.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,8,Stride 2 skips every second position,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,11,Deeper layers combine simple layers or edges into larger patterns,ito ,True,False,0.9538,crop_03.png
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,12,such as eyes or wheels.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,13,Fully connected layers.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,14,Softmax turns scores into probabilities.,probabilities .,True,False,0.675,crop_04.png
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,15,Training a model,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,paper,25,Accuracy improved from 81% to 92%.,IVN,True,False,0.9412,crop_01.png
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,1,CNN Basics,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,2,A filter slide,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,4,position,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,7,small shifts.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,8,Stride 2 skips every second position,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,10,ReLU sets negative value to 0 and keeps positive value unchanged.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,11,Deeper layers combine simple layers or edges into larger patterns,into,True,False,0.9385,crop_03.png
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,12,such as eyes or wheels.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,13,Fully connected layers.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,14,Softmax turns scores into probabilities.,"probabilities,",True,False,0.675,crop_04.png
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,15,Training a model,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,21,"Overfitting: train error low, test error high",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_angle_strong_b_IMG_5171.HEIC,app_prepared,1,final,25,Accuracy improved from 81% to 92%.,A,True,False,0.9706,crop_01.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,1,CNN Basics,CIVN Basics,True,False,0.2,crop_02.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,2,A filter slide,A filter slde,True,False,0.0714,crop_03.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,3,A filter slides across the image and computes a weighted sum at each,A filter slides across the image and computes a weighted sum at each,True,False,0.0,crop_04.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,4,position,pasition,True,False,0.125,crop_05.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,5,Each filter learns one kind of edge or texture from the training image,Each fiter learns one kind of eage or texture from the training rmage,True,False,0.0429,crop_06.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,6,Max pooling keeps the strongest response in each window and ignore,max pooling keeps the strongest response in each window and ignore,True,False,0.0,crop_07.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,7,small shifts.,small shifts.,True,False,0.0,crop_08.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,8,Stride 2 skips every second position,Stride 2 skips every second posihon,True,False,0.0556,crop_09.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,9,The output size is (W-F+2P) / S+1),The output size is CW-F+2P)/ s+1),True,False,0.0588,crop_10.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,10,ReLU sets negative value to 0 and keeps positive value unchanged.,ReLu sets negative value to O and keeps positive value unchanged.,True,False,0.0154,crop_11.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple layers or edges into larger patterns,True,False,0.0,crop_12.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,12,such as eyes or wheels.,such as eyes or wheels.,True,False,0.0,crop_13.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,13,Fully connected layers.,Fully connected layers.,True,False,0.0,crop_14.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,14,Softmax turns scores into probabilities.,Softmax turns scores into probabi lilhies.,True,False,0.075,crop_15.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,15,Training a model,Training a model,True,False,0.0,crop_16.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,16,"Split the data into train, validation and test set before any tuning.",Split the data into trainvalidaton and test set before any tuning,True,False,0.058,crop_17.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,17,Learning rate too high causes loss diverges.,"Learning rate too high causes loss diverges,",True,False,0.0227,crop_18.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,18,"Batch size 16, 70 epochs.","Batch size 16, 70 epochs.",True,False,0.0,crop_19.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,19,Cross-entropy loss compares the predicted probabilities with true labels.,Cross-entropy loss compares the predicted probabilities with tme labels,True,False,0.0411,crop_20.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,20,Adam adapts the step size for each weight using average gradients.,Adam adapts the step size for each .weight using average gradients.,True,False,0.0152,crop_21.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,21,"Overfitting: train error low, test error high","Overfitting: train error low,test error high",True,False,0.0222,crop_22.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,22,Data augmentation adds rotated and blurred copies of the training images.,Data augmentation adds rotated and blurred copies of the training imgges,True,False,0.0274,crop_23.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,23,Early stopping keeps the best checkpoint,Early stopping keeps the best checkpoint,True,False,0.0,crop_24.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",Validation loss stopped improving after epoch the checkpoint iskept.,True,False,0.0685,crop_25.png
+page1_flat_a_IMG_5168.HEIC,original,1,downloaded,25,Accuracy improved from 81% to 92%.,Accuracy improved from 81% to 92 %.,True,False,0.0294,crop_26.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,1,CNN Basics,CNN Basics,True,False,0.0,crop_02.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,2,A filter slide,A filter slsde,True,False,0.0714,crop_03.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,3,A filter slides across the image and computes a weighted sum at each,A filter slides across the image and computes a weighted sum at each,True,False,0.0,crop_04.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,4,position,pasition,True,False,0.125,crop_05.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,5,Each filter learns one kind of edge or texture from the training image,Each filter learns one kind of edge or texture from the training rmage,True,False,0.0143,crop_06.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,6,Max pooling keeps the strongest response in each window and ignore,Max pooling keeps the strongest response in each window and ignure,True,False,0.0152,crop_07.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,7,small shifts.,"small shifts,",True,False,0.0769,crop_08.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,8,Stride 2 skips every second position,Stride 2 skips every second position,True,False,0.0,crop_09.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,9,The output size is (W-F+2P) / S+1),The output size is CW-F+ 2P) / S+ 1),True,False,0.0882,crop_10.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,10,ReLU sets negative value to 0 and keeps positive value unchanged.,ReLU sets negative value to 0 and keeps positive value unchanged.,True,False,0.0,crop_11.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple layers or edges into larger patterns,True,False,0.0,crop_12.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,12,such as eyes or wheels.,such as eyes or wheels.,True,False,0.0,crop_13.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,13,Fully connected layers.,"Fully connected layers,",True,False,0.0435,crop_14.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,14,Softmax turns scores into probabilities.,Softmax turns scores into probabilities.,True,False,0.0,crop_15.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,15,Training a model,Training a model,True,False,0.0,crop_16.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,16,"Split the data into train, validation and test set before any tuning.","Split the data into train, validation and test set before any tuning",True,False,0.0145,crop_17.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,17,Learning rate too high causes loss diverges.,Learning rate too high causes loss diverges.,True,False,0.0,crop_18.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,18,"Batch size 16, 70 epochs.","Batch size 16, TO epochs.",True,False,0.08,crop_19.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,19,Cross-entropy loss compares the predicted probabilities with true labels.,Cross- entropy loss compares the predicted probabilities with tue labels.,True,False,0.0274,crop_20.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,20,Adam adapts the step size for each weight using average gradients.,Adam adapts the step size for each weight using average gradients.,True,False,0.0,crop_21.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,21,"Overfitting: train error low, test error high","Overfitting: train error low, test error high",True,False,0.0,crop_22.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,22,Data augmentation adds rotated and blurred copies of the training images.,Data augmentation adds rotated and blurred copies of the trarning images,True,False,0.0274,crop_23.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,23,Early stopping keeps the best checkpoint,Eorly stopping keeps the best checkpoint,True,False,0.025,crop_24.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.","Validation loss stopped improving after epoch n, the checkpoint is kept.",True,False,0.0274,crop_25.png
+page1_flat_a_IMG_5168.HEIC,original,1,whiteboard,25,Accuracy improved from 81% to 92%.,Accuracy improved from 81% to 92 %.,True,False,0.0294,crop_26.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,1,CNN Basics,CNN BasicS,True,False,0.0,crop_02.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,2,A filter slide,A filter siede,True,False,0.1429,crop_03.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,3,A filter slides across the image and computes a weighted sum at each,IA filter slides across the image and computes a weighted sum at each,True,False,0.0147,crop_04.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,4,position,parition,True,False,0.25,crop_05.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,5,Each filter learns one kind of edge or texture from the training image,'Each filter learns one kind of edge or texture from the training rmagef,True,False,0.0429,crop_06.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,6,Max pooling keeps the strongest response in each window and ignore,Max pooling Keeps the strongest response in each window and ignore,True,False,0.0,crop_07.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,7,small shifts.,small shifts .,True,False,0.0769,crop_08.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,8,Stride 2 skips every second position,Stride 2 skips every secosd position,True,False,0.0278,crop_09.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,9,The output size is (W-F+2P) / S+1),The output size is CW-Ft2PI / St 1 ),True,False,0.1765,crop_10.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,10,ReLU sets negative value to 0 and keeps positive value unchanged.,ReW sets negative valne to O and keeps paritive valne mchanged .,True,False,0.1538,crop_11.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple Iqyers or edges into larger patterns,True,False,0.0308,crop_12.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,12,such as eyes or wheels.,such as eyes or wheels.,True,False,0.0,crop_13.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,13,Fully connected layers.,Fully wonnected layers .,True,False,0.087,crop_14.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,14,Softmax turns scores into probabilities.,Softmax turas scores into probabilities .,True,False,0.05,crop_15.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,15,Training a model,Training a model,True,False,0.0,crop_16.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,16,"Split the data into train, validation and test set before any tuning.","Split the data into trainy, validation and test set before any tuning",True,False,0.029,crop_17.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,17,Learning rate too high causes loss diverges.,Learning rare too high causer loss diverges .,True,False,0.0682,crop_18.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,18,"Batch size 16, 70 epochs.","Batch si2e 1b , T0 epochs .",True,False,0.2,crop_19.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,19,Cross-entropy loss compares the predicted probabilities with true labels.,Cross-entropy loss compares the predicted probiabilities with tme labets.,True,False,0.0548,crop_20.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,20,Adam adapts the step size for each weight using average gradients.,Adan adapts the step si2e for each . weight using average gradients -,True,False,0.0909,crop_21.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,21,"Overfitting: train error low, test error high","Overfitting ; train error low , test error high",True,False,0.0667,crop_22.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,22,Data augmentation adds rotated and blurred copies of the training images.,Data angmentation adds rotated and blurred copies of the training imggers,True,False,0.0548,crop_23.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,23,Early stopping keeps the best checkpoint,Early stopping keegs the best checkpvint,True,False,0.05,crop_24.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",Validation loss stopped improving after epoch 11p the checkpoint is kept .,True,False,0.0548,crop_25.png
+page1_flat_a_IMG_5168.HEIC,original,1,paper,25,Accuracy improved from 81% to 92%.,"'Acuracy improved from "" 8lo to 92 to .",True,False,0.2941,crop_26.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,1,CNN Basics,CNN Basics,True,False,0.0,crop_02.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,2,A filter slide,A filter slsde,True,False,0.0714,crop_03.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,3,A filter slides across the image and computes a weighted sum at each,A filter slides across the image and computes a weighted sum at each,True,False,0.0,crop_04.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,4,position,pasition,True,False,0.125,crop_05.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,5,Each filter learns one kind of edge or texture from the training image,Each filter learns one kind of edge or texture from the training image,True,False,0.0,crop_06.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,6,Max pooling keeps the strongest response in each window and ignore,max pooling keeps the strongest response in each window and ignore,True,False,0.0,crop_07.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,7,small shifts.,"small shifts,",True,False,0.0769,crop_08.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,8,Stride 2 skips every second position,Stride 2 skips every second position,True,False,0.0,crop_09.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,9,The output size is (W-F+2P) / S+1),The output size is CW-Ft 2PJ St1),True,False,0.2059,crop_10.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,10,ReLU sets negative value to 0 and keeps positive value unchanged.,ReLU sets negative value to 0 and keeps positive value unchanged,True,False,0.0154,crop_11.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple lqyers or edges into larger patterns,True,False,0.0154,crop_12.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_13.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,13,Fully connected layers.,"Fully connected layers,",True,False,0.0435,crop_14.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,14,Softmax turns scores into probabilities.,"Softmax turns scores into probabilities,",True,False,0.025,crop_15.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,15,Training a model,Training a model,True,False,0.0,crop_16.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,16,"Split the data into train, validation and test set before any tuning.","Split the data into train, validation and test set before any tuning",True,False,0.0145,crop_17.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,17,Learning rate too high causes loss diverges.,Learning rate too high causes loss diverges.,True,False,0.0,crop_18.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,18,"Batch size 16, 70 epochs.",Batch size 16 o epochs.,True,False,0.12,crop_19.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,19,Cross-entropy loss compares the predicted probabilities with true labels.,Cross- entropy loss compares the predicted probabilities with tme labels.,True,False,0.0411,crop_20.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,20,Adam adapts the step size for each weight using average gradients.,Adam adapts the steg size for each weight using average gradients.,True,False,0.0152,crop_21.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,21,"Overfitting: train error low, test error high","Overfitting: train error low, test error high",True,False,0.0,crop_22.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,22,Data augmentation adds rotated and blurred copies of the training images.,Data augmentation adds rotated and blurred copies of the trarning imgges,True,False,0.0411,crop_23.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,23,Early stopping keeps the best checkpoint,Eorly stopping keeps the best checkpoint,True,False,0.025,crop_24.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.","Validation loss stopped improving after epoch I, the checkpoint is kept.",True,False,0.0274,crop_25.png
+page1_flat_a_IMG_5168.HEIC,original,1,final,25,Accuracy improved from 81% to 92%.,Accuracy improved from 81% to 2%.,True,False,0.0294,crop_26.png
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,1,CNN Basics,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,2,A filter slide,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,4,position,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,7,small shifts.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,8,Stride 2 skips every second position,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,10,ReLU sets negative value to 0 and keeps positive value unchanged.,RelU sets negative value to O and keeps positive value unchanged.,True,False,0.0154,crop_01.png
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple layers or edgas into larger patterns,True,False,0.0154,crop_02.png
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,12,such as eyes or wheels.,such as eyes or wheels.,True,False,0.0,crop_03.png
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,13,Fully connected layers.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,14,Softmax turns scores into probabilities.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,15,Training a model,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,21,"Overfitting: train error low, test error high",,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,downloaded,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,1,CNN Basics,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,2,A filter slide,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,4,position,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,7,small shifts.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,8,Stride 2 skips every second position,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,10,ReLU sets negative value to 0 and keeps positive value unchanged.,ReLU sets negative value to 0 and keeps pasitive value unchanged.,True,False,0.0154,crop_01.png
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple layers or edges into larger patterns,True,False,0.0,crop_02.png
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,12,such as eyes or wheels.,such as eyes or wheels.,True,False,0.0,crop_03.png
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,13,Fully connected layers.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,14,Softmax turns scores into probabilities.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,15,Training a model,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,21,"Overfitting: train error low, test error high",,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,whiteboard,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,1,CNN Basics,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,2,A filter slide,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,4,position,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,7,small shifts.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,8,Stride 2 skips every second position,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,10,ReLU sets negative value to 0 and keeps positive value unchanged.,Relt sets negative valne to O and keeps paritive value mchanged .,True,False,0.1231,crop_01.png
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple Iayers or edges into larger patterns,True,False,0.0154,crop_02.png
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,12,such as eyes or wheels.,such as eyes or  wheels .,True,False,0.0435,crop_03.png
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,13,Fully connected layers.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,14,Softmax turns scores into probabilities.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,15,Training a model,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,21,"Overfitting: train error low, test error high",,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,paper,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,1,CNN Basics,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,2,A filter slide,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,4,position,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,7,small shifts.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,8,Stride 2 skips every second position,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,10,ReLU sets negative value to 0 and keeps positive value unchanged.,ReLU sets negative value to 0 and keeps positive value wchanged,True,False,0.0462,crop_01.png
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple layers or edges into larger patterns,True,False,0.0,crop_02.png
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_03.png
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,13,Fully connected layers.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,14,Softmax turns scores into probabilities.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,15,Training a model,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,21,"Overfitting: train error low, test error high",,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_flat_a_IMG_5168.HEIC,app_prepared,1,final,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,1,CNN Basics,CIVN Basics,True,False,0.2,crop_03.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,2,A filter slide,A filter slide,True,False,0.0,crop_04.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,3,A filter slides across the image and computes a weighted sum at each,A filter slides across the image and computes aweighted sum at each,True,False,0.0147,crop_05.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,4,position,,False,False,,
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,5,Each filter learns one kind of edge or texture from the training image,Each filter leans one kind of eage or texture from the training rmage,True,False,0.0429,crop_07.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,6,Max pooling keeps the strongest response in each window and ignore,max pooling keeps the strongest response in each window and ignore,True,False,0.0,crop_08.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,7,small shifts.,small shifts.,True,False,0.0,crop_09.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,8,Stride 2 skips every second position,pasition Stride 2 skips every second position,True,True,0.25,crop_06.png crop_10.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,9,The output size is (W-F+2P) / S+1),The output size is (W-F+2P)/ S+1),True,False,0.0294,crop_11.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,10,ReLU sets negative value to 0 and keeps positive value unchanged.,ReLv sets negative value to O and keeps positive value unchanged.,True,False,0.0308,crop_12.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple lyers or edges into larger patterns,True,False,0.0154,crop_13.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,12,such as eyes or wheels.,such as eyes or wheels.,True,False,0.0,crop_14.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,13,Fully connected layers.,Fully connected layers.,True,False,0.0,crop_15.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,14,Softmax turns scores into probabilities.,Softmax turns scores into probabilities.,True,False,0.0,crop_16.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,15,Training a model,Training a model,True,False,0.0,crop_17.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,16,"Split the data into train, validation and test set before any tuning.",Split the data into train validahon and fest set beore anytning,True,False,0.1159,crop_18.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,17,Learning rate too high causes loss diverges.,Learning rate too high causes loss diverges.,True,False,0.0,crop_19.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,18,"Batch size 16, 70 epochs.","Batch size 16 , 70 epochs.",True,False,0.04,crop_20.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,19,Cross-entropy loss compares the predicted probabilities with true labels.,Cross-entropy loss compares the predicted probabilities with tre labels.,True,False,0.0137,crop_21.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,20,Adam adapts the step size for each weight using average gradients.,Adam adapts the step size for each .weight using average gradients.,True,False,0.0152,crop_22.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,21,"Overfitting: train error low, test error high","Overfitting:train error low,test errcor high",True,False,0.0667,crop_23.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,22,Data augmentation adds rotated and blurred copies of the training images.,Data augmentation adds rotated and blurred copies of the training imgges,True,False,0.0274,crop_24.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,23,Early stopping keeps the best checkpoint,Early stopping keeps the best checkpoint,True,False,0.0,crop_25.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",Validation loss stopped improving after epoch 7the checkpoint iskept.,True,False,0.0548,crop_26.png
+page1_flat_b_IMG_5169.HEIC,original,1,downloaded,25,Accuracy improved from 81% to 92%.,Accuracy improved from 81% to 92 %.,True,False,0.0294,crop_27.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,1,CNN Basics,CNN Basics,True,False,0.0,crop_03.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,2,A filter slide,A filter slde,True,False,0.0714,crop_04.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,3,A filter slides across the image and computes a weighted sum at each,A filter slides across the image and computes a weighted sum at each,True,False,0.0,crop_05.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,4,position,,False,False,,
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,5,Each filter learns one kind of edge or texture from the training image,Each filter learns one kind of edge or texture from the training rmage,True,False,0.0143,crop_07.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,6,Max pooling keeps the strongest response in each window and ignore,Max pooling keeps the strongest response in each window and ignre,True,False,0.0152,crop_08.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,7,small shifts.,"small shifts,",True,False,0.0769,crop_09.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,8,Stride 2 skips every second position,lpasition Stride 2 skips every second position,True,True,0.2778,crop_06.png crop_10.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,9,The output size is (W-F+2P) / S+1),The output size is CW-F+ 2P)/ S+ 1),True,False,0.1176,crop_11.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,10,ReLU sets negative value to 0 and keeps positive value unchanged.,ReLU sets negative value to 0 and keeps positive value unchanged.,True,False,0.0,crop_12.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple layers or edges into larger patterns,True,False,0.0,crop_13.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_14.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,13,Fully connected layers.,"Fully connected layers,",True,False,0.0435,crop_15.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,14,Softmax turns scores into probabilities.,Softmax turns scores into probabilities.,True,False,0.0,crop_16.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,15,Training a model,Training a model,True,False,0.0,crop_17.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,16,"Split the data into train, validation and test set before any tuning.","Split the data into train, validation and test set before any tuning",True,False,0.0145,crop_18.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,17,Learning rate too high causes loss diverges.,Learning rate too high causes loss diverges.,True,False,0.0,crop_19.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,18,"Batch size 16, 70 epochs.","Batch size 16, TO epochs.",True,False,0.08,crop_20.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,19,Cross-entropy loss compares the predicted probabilities with true labels.,Cross- entropy loss compares the predicted probabilities with thne labels.,True,False,0.0411,crop_21.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,20,Adam adapts the step size for each weight using average gradients.,Adam adapts the step size for each weight using average gradients.,True,False,0.0,crop_22.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,21,"Overfitting: train error low, test error high","Overfitting: train error low, test error high",True,False,0.0,crop_23.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,22,Data augmentation adds rotated and blurred copies of the training images.,Data augmentation adds rotated and blurred copies of the training imgges,True,False,0.0274,crop_24.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,23,Early stopping keeps the best checkpoint,Early stopping keeps the best checkpoint,True,False,0.0,crop_25.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.","Validation loss stopped improving after epoch , the checkpoint is kept.",True,False,0.0274,crop_26.png
+page1_flat_b_IMG_5169.HEIC,original,1,whiteboard,25,Accuracy improved from 81% to 92%.,"Accuracy improved from 81% to a2%,",True,False,0.0588,crop_27.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,1,CNN Basics,CivN BasicS,True,False,0.2,crop_03.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,2,A filter slide,A filter slsde,True,False,0.0714,crop_04.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,3,A filter slides across the image and computes a weighted sum at each,IA filter slides across the image and computes a weighted sum at each,True,False,0.0147,crop_05.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,4,position,,False,False,,
+page1_flat_b_IMG_5169.HEIC,original,1,paper,5,Each filter learns one kind of edge or texture from the training image,'Each filter learns one kind of edge or texture from the trainig rmagef,True,False,0.0571,crop_07.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,6,Max pooling keeps the strongest response in each window and ignore,IMax pooling Keeps the strongest response in each window and ignre,True,False,0.0303,crop_08.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,7,small shifts.,small shifts .,True,False,0.0769,crop_09.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,8,Stride 2 skips every second position,pasition Stride 2 skips every secosd position,True,True,0.2778,crop_06.png crop_10.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,9,The output size is (W-F+2P) / S+1),The output size is CW-F+2PI / St 1 ),True,False,0.1471,crop_11.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,10,ReLU sets negative value to 0 and keeps positive value unchanged.,IRel sets negative valne to O and keeps paritive value mchanged .,True,False,0.1385,crop_12.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple layers or edges into larger patterns,True,False,0.0,crop_13.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,12,such as eyes or wheels.,such as eyes or wheels.,True,False,0.0,crop_14.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,13,Fully connected layers.,Fully connected layers .,True,False,0.0435,crop_15.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,14,Softmax turns scores into probabilities.,Softmax turns scores into probabilities .,True,False,0.025,crop_16.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,15,Training a model,Training a model,True,False,0.0,crop_17.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,16,"Split the data into train, validation and test set before any tuning.","Split the data into trainy, validation and tert set before any tuning",True,False,0.0435,crop_18.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,17,Learning rate too high causes loss diverges.,Learning rare too high causes loss diverges .,True,False,0.0455,crop_19.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,18,"Batch size 16, 70 epochs.","Batch si2e 1b  , T0 epochs.",True,False,0.16,crop_20.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,19,Cross-entropy loss compares the predicted probabilities with true labels.,Cross-entropy loss compares the predicted probabilities with tme labes.,True,False,0.0411,crop_21.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,20,Adam adapts the step size for each weight using average gradients.,Adan adapts the step size for each . weight using average gradients .,True,False,0.0606,crop_22.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,21,"Overfitting: train error low, test error high","Overfitting : train error low , test error high",True,False,0.0444,crop_23.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,22,Data augmentation adds rotated and blurred copies of the training images.,IData aygmentation adds rotated ard biurred copies of the training ingges,True,False,0.0959,crop_24.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,23,Early stopping keeps the best checkpoint,Early stopping keegs the best checkpvint,True,False,0.05,crop_25.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",Validation loss stopped improving after epoch 11 p the checkpoint is ket .,True,False,0.0822,crop_26.png
+page1_flat_b_IMG_5169.HEIC,original,1,paper,25,Accuracy improved from 81% to 92%.,Accuracy improved fron' 8llo to 92 fo.,True,False,0.2353,crop_27.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,1,CNN Basics,CNN Basics,True,False,0.0,crop_03.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,2,A filter slide,A filter slide,True,False,0.0,crop_04.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,3,A filter slides across the image and computes a weighted sum at each,A filter slides across the image and computes a weighted sum at each,True,False,0.0,crop_05.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,4,position,,False,False,,
+page1_flat_b_IMG_5169.HEIC,original,1,final,5,Each filter learns one kind of edge or texture from the training image,Each filter learns one kind of edge or texture from the training image,True,False,0.0,crop_07.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,6,Max pooling keeps the strongest response in each window and ignore,max pooling keeps the strongest response in each window and ignore,True,False,0.0,crop_08.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,7,small shifts.,"small shifts,",True,False,0.0769,crop_09.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,8,Stride 2 skips every second position,posttion Stride 2 skips every second position,True,True,0.25,crop_06.png crop_10.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,9,The output size is (W-F+2P) / S+1),The output size is CW-Ft2P St1),True,False,0.1765,crop_11.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,10,ReLU sets negative value to 0 and keeps positive value unchanged.,ReLU sets negative value to 0 and keeps poritive value wnchanged.,True,False,0.0308,crop_12.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple layers or edges into larger patterns,True,False,0.0,crop_13.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_14.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,13,Fully connected layers.,"Fully connected layers,",True,False,0.0435,crop_15.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,14,Softmax turns scores into probabilities.,Softmax turns scores into probabilities.,True,False,0.0,crop_16.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,15,Training a model,Training a model,True,False,0.0,crop_17.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,16,"Split the data into train, validation and test set before any tuning.","Split the data into train, validation and test set before any tuning",True,False,0.0145,crop_18.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,17,Learning rate too high causes loss diverges.,Learning rate too high causes loss diverges.,True,False,0.0,crop_19.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,18,"Batch size 16, 70 epochs.",Batch size 16 0 epochs.,True,False,0.08,crop_20.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,19,Cross-entropy loss compares the predicted probabilities with true labels.,Cross- entropy loss compares the predicted probabilities with tme labels,True,False,0.0548,crop_21.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,20,Adam adapts the step size for each weight using average gradients.,Adam adapts the step size for each weight wsing average gradients.,True,False,0.0152,crop_22.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,21,"Overfitting: train error low, test error high","Overfitting: train error low, test ercor high",True,False,0.0222,crop_23.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,22,Data augmentation adds rotated and blurred copies of the training images.,Data aggmentation adds rotated and blurred copies of the trarning imgges,True,False,0.0548,crop_24.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,23,Early stopping keeps the best checkpoint,Early stopping keeps the best checkpoint,True,False,0.0,crop_25.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.","Validation loss stopped improving aftter epoch I, the checkpoint is kept,",True,False,0.0548,crop_26.png
+page1_flat_b_IMG_5169.HEIC,original,1,final,25,Accuracy improved from 81% to 92%.,"Accuracy improved from 81% to 2%,",True,False,0.0588,crop_27.png
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,1,CNN Basics,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,2,A filter slide,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,4,position,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,7,small shifts.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,8,Stride 2 skips every second position,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,10,ReLU sets negative value to 0 and keeps positive value unchanged.,Relv sets negative value to O and keeps positive value unchanged.,True,False,0.0308,crop_01.png
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple layers or edges into larger patterns,True,False,0.0,crop_02.png
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,12,such as eyes or wheels.,such as eyes or wheels.,True,False,0.0,crop_03.png
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,13,Fully connected layers.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,14,Softmax turns scores into probabilities.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,15,Training a model,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,21,"Overfitting: train error low, test error high",,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,downloaded,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,1,CNN Basics,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,2,A filter slide,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,4,position,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,7,small shifts.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,8,Stride 2 skips every second position,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,10,ReLU sets negative value to 0 and keeps positive value unchanged.,ReLU sets negative value to 0 and keeps positive value unchanged.,True,False,0.0,crop_01.png
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple layers or edges into larger patterns,True,False,0.0,crop_02.png
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,12,such as eyes or wheels.,such as eyes or wheels.,True,False,0.0,crop_03.png
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,13,Fully connected layers.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,14,Softmax turns scores into probabilities.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,15,Training a model,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,21,"Overfitting: train error low, test error high",,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,whiteboard,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,1,CNN Basics,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,2,A filter slide,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,4,position,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,7,small shifts.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,8,Stride 2 skips every second position,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,10,ReLU sets negative value to 0 and keeps positive value unchanged.,Rel sets negative valne to O and keeps paritive valne mchanged .,True,False,0.1385,crop_01.png
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple layers or edges into larger patterns,True,False,0.0,crop_02.png
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,12,such as eyes or wheels.,such as eyes or wheels.,True,False,0.0,crop_03.png
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,13,Fully connected layers.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,14,Softmax turns scores into probabilities.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,15,Training a model,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,21,"Overfitting: train error low, test error high",,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,paper,25,Accuracy improved from 81% to 92%.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,1,CNN Basics,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,2,A filter slide,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,3,A filter slides across the image and computes a weighted sum at each,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,4,position,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,5,Each filter learns one kind of edge or texture from the training image,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,6,Max pooling keeps the strongest response in each window and ignore,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,7,small shifts.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,8,Stride 2 skips every second position,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,9,The output size is (W-F+2P) / S+1),,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,10,ReLU sets negative value to 0 and keeps positive value unchanged.,ReLU sets negative value to 0 and keeps poritive value unchanged,True,False,0.0308,crop_01.png
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,11,Deeper layers combine simple layers or edges into larger patterns,Deeper layers combine simple layers or edges into larger patterns,True,False,0.0,crop_02.png
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,12,such as eyes or wheels.,such as eyes or wheels,True,False,0.0435,crop_03.png
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,13,Fully connected layers.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,14,Softmax turns scores into probabilities.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,15,Training a model,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,16,"Split the data into train, validation and test set before any tuning.",,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,17,Learning rate too high causes loss diverges.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,18,"Batch size 16, 70 epochs.",,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,19,Cross-entropy loss compares the predicted probabilities with true labels.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,20,Adam adapts the step size for each weight using average gradients.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,21,"Overfitting: train error low, test error high",,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,22,Data augmentation adds rotated and blurred copies of the training images.,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,23,Early stopping keeps the best checkpoint,,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,24,"Validation loss stopped improving after epoch 77, the checkpoint is kept.",,False,False,,
+page1_flat_b_IMG_5169.HEIC,app_prepared,1,final,25,Accuracy improved from 81% to 92%.,,False,False,,

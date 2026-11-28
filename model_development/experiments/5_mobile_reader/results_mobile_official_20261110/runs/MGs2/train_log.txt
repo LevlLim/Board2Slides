@@ -1,0 +1,590 @@
+/workspace/venv_b2n/lib/python3.12/site-packages/paddle/utils/cpp_extension/extension_utils.py:718: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+Skipping import of the encryption module.
+[2026/11/10 02:17:44] ppocr INFO: Architecture : 
+[2026/11/10 02:17:44] ppocr INFO:     Backbone : 
+[2026/11/10 02:17:44] ppocr INFO:         name : PPLCNetV3
+[2026/11/10 02:17:44] ppocr INFO:         scale : 0.95
+[2026/11/10 02:17:44] ppocr INFO:     Head : 
+[2026/11/10 02:17:44] ppocr INFO:         head_list : 
+[2026/11/10 02:17:44] ppocr INFO:             CTCHead : 
+[2026/11/10 02:17:44] ppocr INFO:                 Head : 
+[2026/11/10 02:17:44] ppocr INFO:                     fc_decay : 1e-05
+[2026/11/10 02:17:44] ppocr INFO:                 Neck : 
+[2026/11/10 02:17:44] ppocr INFO:                     depth : 2
+[2026/11/10 02:17:44] ppocr INFO:                     dims : 120
+[2026/11/10 02:17:44] ppocr INFO:                     hidden_dims : 120
+[2026/11/10 02:17:44] ppocr INFO:                     kernel_size : [1, 3]
+[2026/11/10 02:17:44] ppocr INFO:                     name : svtr
+[2026/11/10 02:17:44] ppocr INFO:                     use_guide : False
+[2026/11/10 02:17:44] ppocr INFO:             NRTRHead : 
+[2026/11/10 02:17:44] ppocr INFO:                 max_text_length : 100
+[2026/11/10 02:17:44] ppocr INFO:                 nrtr_dim : 384
+[2026/11/10 02:17:44] ppocr INFO:         name : MultiHead
+[2026/11/10 02:17:44] ppocr INFO:     Transform : None
+[2026/11/10 02:17:44] ppocr INFO:     algorithm : SVTR_LCNet
+[2026/11/10 02:17:44] ppocr INFO:     model_type : rec
+[2026/11/10 02:17:44] ppocr INFO: Eval : 
+[2026/11/10 02:17:44] ppocr INFO:     dataset : 
+[2026/11/10 02:17:44] ppocr INFO:         data_dir : /workspace/b2n/experiments/mobile_official_20261110/data/b2n_data
+[2026/11/10 02:17:44] ppocr INFO:         label_file_list : ['/workspace/b2n/experiments/mobile_official_20261110/data/val_wb.txt']
+[2026/11/10 02:17:44] ppocr INFO:         name : SimpleDataSet
+[2026/11/10 02:17:44] ppocr INFO:         transforms : 
+[2026/11/10 02:17:44] ppocr INFO:             DecodeImage : 
+[2026/11/10 02:17:44] ppocr INFO:                 channel_first : False
+[2026/11/10 02:17:44] ppocr INFO:                 img_mode : BGR
+[2026/11/10 02:17:44] ppocr INFO:             MultiLabelEncode : 
+[2026/11/10 02:17:44] ppocr INFO:                 gtc_encode : NRTRLabelEncode
+[2026/11/10 02:17:44] ppocr INFO:             RecResizeImg : 
+[2026/11/10 02:17:44] ppocr INFO:                 image_shape : [3, 64, 960]
+[2026/11/10 02:17:44] ppocr INFO:             KeepKeys : 
+[2026/11/10 02:17:44] ppocr INFO:                 keep_keys : ['image', 'label_ctc', 'label_gtc', 'length', 'valid_ratio']
+[2026/11/10 02:17:44] ppocr INFO:     loader : 
+[2026/11/10 02:17:44] ppocr INFO:         batch_size_per_card : 16
+[2026/11/10 02:17:44] ppocr INFO:         drop_last : False
+[2026/11/10 02:17:44] ppocr INFO:         num_workers : 4
+[2026/11/10 02:17:44] ppocr INFO:         shuffle : False
+[2026/11/10 02:17:44] ppocr INFO: Global : 
+[2026/11/10 02:17:44] ppocr INFO:     cal_metric_during_train : True
+[2026/11/10 02:17:44] ppocr INFO:     character_dict_path : /workspace/b2n/PaddleOCR_versions/ppocr/utils/dict/ppocrv5_dict.txt
+[2026/11/10 02:17:44] ppocr INFO:     checkpoints : None
+[2026/11/10 02:17:44] ppocr INFO:     d2s_train_image_shape : [3, 64, 960]
+[2026/11/10 02:17:44] ppocr INFO:     debug : False
+[2026/11/10 02:17:44] ppocr INFO:     distributed : False
+[2026/11/10 02:17:44] ppocr INFO:     epoch_num : 71
+[2026/11/10 02:17:44] ppocr INFO:     eval_batch_step : [0, 400]
+[2026/11/10 02:17:44] ppocr INFO:     infer_img : doc/imgs_words/ch/word_1.jpg
+[2026/11/10 02:17:44] ppocr INFO:     infer_mode : False
+[2026/11/10 02:17:44] ppocr INFO:     log_smooth_window : 20
+[2026/11/10 02:17:44] ppocr INFO:     max_text_length : 100
+[2026/11/10 02:17:44] ppocr INFO:     model_name : PP-OCRv5_mobile_rec
+[2026/11/10 02:17:44] ppocr INFO:     pretrained_model : /workspace/b2n/PaddleOCR_versions/PP-OCRv5_mobile_rec_pretrained
+[2026/11/10 02:17:44] ppocr INFO:     print_batch_step : 50
+[2026/11/10 02:17:44] ppocr INFO:     save_epoch_step : 1000000
+[2026/11/10 02:17:44] ppocr INFO:     save_inference_dir : None
+[2026/11/10 02:17:44] ppocr INFO:     save_model_dir : /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2
+[2026/11/10 02:17:44] ppocr INFO:     save_res_path : /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/predicts.txt
+[2026/11/10 02:17:44] ppocr INFO:     seed : 2
+[2026/11/10 02:17:44] ppocr INFO:     use_gpu : True
+[2026/11/10 02:17:44] ppocr INFO:     use_space_char : True
+[2026/11/10 02:17:44] ppocr INFO:     use_visualdl : False
+[2026/11/10 02:17:44] ppocr INFO: Loss : 
+[2026/11/10 02:17:44] ppocr INFO:     loss_config_list : 
+[2026/11/10 02:17:44] ppocr INFO:         CTCLoss : None
+[2026/11/10 02:17:44] ppocr INFO:         NRTRLoss : None
+[2026/11/10 02:17:44] ppocr INFO:     name : MultiLoss
+[2026/11/10 02:17:44] ppocr INFO:     weight_1 : 1.0
+[2026/11/10 02:17:44] ppocr INFO:     weight_2 : 1.0
+[2026/11/10 02:17:44] ppocr INFO: Metric : 
+[2026/11/10 02:17:44] ppocr INFO:     main_indicator : norm_edit_dis
+[2026/11/10 02:17:44] ppocr INFO:     name : RecMetric
+[2026/11/10 02:17:44] ppocr INFO: Optimizer : 
+[2026/11/10 02:17:44] ppocr INFO:     beta1 : 0.9
+[2026/11/10 02:17:44] ppocr INFO:     beta2 : 0.999
+[2026/11/10 02:17:44] ppocr INFO:     lr : 
+[2026/11/10 02:17:44] ppocr INFO:         learning_rate : 0.0001
+[2026/11/10 02:17:44] ppocr INFO:         name : Cosine
+[2026/11/10 02:17:44] ppocr INFO:         warmup_epoch : 3.5294
+[2026/11/10 02:17:44] ppocr INFO:     name : Adam
+[2026/11/10 02:17:44] ppocr INFO:     regularizer : 
+[2026/11/10 02:17:44] ppocr INFO:         factor : 3e-05
+[2026/11/10 02:17:44] ppocr INFO:         name : L2
+[2026/11/10 02:17:44] ppocr INFO: PostProcess : 
+[2026/11/10 02:17:44] ppocr INFO:     name : CTCLabelDecode
+[2026/11/10 02:17:44] ppocr INFO: Train : 
+[2026/11/10 02:17:44] ppocr INFO:     dataset : 
+[2026/11/10 02:17:44] ppocr INFO:         data_dir : /workspace/b2n/experiments/mobile_official_20261110/data/b2n_data
+[2026/11/10 02:17:44] ppocr INFO:         ds_width : False
+[2026/11/10 02:17:44] ppocr INFO:         ext_op_transform_idx : 1
+[2026/11/10 02:17:44] ppocr INFO:         label_file_list : ['/workspace/b2n/experiments/mobile_official_20261110/data/train_MGs2.txt']
+[2026/11/10 02:17:44] ppocr INFO:         name : MultiScaleDataSet
+[2026/11/10 02:17:44] ppocr INFO:         transforms : 
+[2026/11/10 02:17:44] ppocr INFO:             DecodeImage : 
+[2026/11/10 02:17:44] ppocr INFO:                 channel_first : False
+[2026/11/10 02:17:44] ppocr INFO:                 img_mode : BGR
+[2026/11/10 02:17:44] ppocr INFO:             RecConAug : 
+[2026/11/10 02:17:44] ppocr INFO:                 ext_data_num : 2
+[2026/11/10 02:17:44] ppocr INFO:                 image_shape : [48, 320, 3]
+[2026/11/10 02:17:44] ppocr INFO:                 max_text_length : 25
+[2026/11/10 02:17:44] ppocr INFO:                 prob : 0.5
+[2026/11/10 02:17:44] ppocr INFO:             RecAug : None
+[2026/11/10 02:17:44] ppocr INFO:             MultiLabelEncode : 
+[2026/11/10 02:17:44] ppocr INFO:                 gtc_encode : NRTRLabelEncode
+[2026/11/10 02:17:44] ppocr INFO:             KeepKeys : 
+[2026/11/10 02:17:44] ppocr INFO:                 keep_keys : ['image', 'label_ctc', 'label_gtc', 'length', 'valid_ratio']
+[2026/11/10 02:17:44] ppocr INFO:     loader : 
+[2026/11/10 02:17:44] ppocr INFO:         batch_size_per_card : 16
+[2026/11/10 02:17:44] ppocr INFO:         drop_last : True
+[2026/11/10 02:17:44] ppocr INFO:         num_workers : 8
+[2026/11/10 02:17:44] ppocr INFO:         shuffle : True
+[2026/11/10 02:17:44] ppocr INFO:     sampler : 
+[2026/11/10 02:17:44] ppocr INFO:         divided_factor : [8, 16]
+[2026/11/10 02:17:44] ppocr INFO:         first_bs : 16
+[2026/11/10 02:17:44] ppocr INFO:         fix_bs : False
+[2026/11/10 02:17:44] ppocr INFO:         is_training : True
+[2026/11/10 02:17:44] ppocr INFO:         name : MultiScaleSampler
+[2026/11/10 02:17:44] ppocr INFO:         scales : [[960, 64]]
+[2026/11/10 02:17:44] ppocr INFO: profiler_options : None
+[2026/11/10 02:17:44] ppocr INFO: train with paddle 3.2.0 and device Place(gpu:0)
+[2026/11/10 02:17:44] ppocr INFO: Initialize indexs of datasets:['/workspace/b2n/experiments/mobile_official_20261110/data/train_MGs2.txt']
+[2026/11/10 02:17:44] ppocr INFO: Initialize indexs of datasets:['/workspace/b2n/experiments/mobile_official_20261110/data/val_wb.txt']
+W1110 02:17:45.467168 14391 gpu_resources.cc:114] Please NOTE: device: 0, GPU Compute Capability: 8.9, Driver API Version: 13.2, Runtime API Version: 12.8
+[2026/11/10 02:17:46] ppocr INFO: train dataloader has 85 iters
+[2026/11/10 02:17:46] ppocr INFO: valid dataloader has 9 iters
+[2026/11/10 02:17:46] ppocr INFO: load pretrain successful from /workspace/b2n/PaddleOCR_versions/PP-OCRv5_mobile_rec_pretrained
+[2026/11/10 02:17:46] ppocr INFO: During the training process, after the 0th iteration, an evaluation is run every 400 iterations
+[2026/11/10 02:18:05] ppocr INFO: epoch: [1/71], global_step: 50, lr: 0.000013, acc: 0.000000, norm_edit_dis: 0.575602, CTCLoss: 63.464930, NRTRLoss: 3.157643, loss: 66.597782, avg_reader_cost: 0.02312 s, avg_batch_cost: 0.37804 s, avg_samples: 16.0, ips: 42.32334 samples/s, eta: 0:37:42, max_mem_reserved: 13191 MB, max_mem_allocated: 12866 MB
+[2026/11/10 02:18:16] ppocr INFO: epoch: [1/71], global_step: 85, lr: 0.000025, acc: 0.062500, norm_edit_dis: 0.737482, CTCLoss: 32.072837, NRTRLoss: 2.771891, loss: 34.779226, avg_reader_cost: 0.00125 s, avg_batch_cost: 0.21684 s, avg_samples: 11.2, ips: 51.65079 samples/s, eta: 0:34:42, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:18:17] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:18:23] ppocr INFO: epoch: [2/71], global_step: 100, lr: 0.000030, acc: 0.125000, norm_edit_dis: 0.754885, CTCLoss: 34.666449, NRTRLoss: 2.633423, loss: 37.336861, avg_reader_cost: 0.02263 s, avg_batch_cost: 0.11653 s, avg_samples: 4.8, ips: 41.19201 samples/s, eta: 0:35:11, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:18:39] ppocr INFO: epoch: [2/71], global_step: 150, lr: 0.000047, acc: 0.187500, norm_edit_dis: 0.832898, CTCLoss: 24.625335, NRTRLoss: 2.357173, loss: 27.098989, avg_reader_cost: 0.00176 s, avg_batch_cost: 0.31559 s, avg_samples: 16.0, ips: 50.69938 samples/s, eta: 0:33:34, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:18:45] ppocr INFO: epoch: [2/71], global_step: 170, lr: 0.000053, acc: 0.187500, norm_edit_dis: 0.805566, CTCLoss: 21.246881, NRTRLoss: 2.266375, loss: 23.630877, avg_reader_cost: 0.00072 s, avg_batch_cost: 0.12562 s, avg_samples: 6.4, ips: 50.94803 samples/s, eta: 0:33:08, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:18:46] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:18:56] ppocr INFO: epoch: [3/71], global_step: 200, lr: 0.000063, acc: 0.250000, norm_edit_dis: 0.853091, CTCLoss: 19.893848, NRTRLoss: 2.153134, loss: 22.069633, avg_reader_cost: 0.01880 s, avg_batch_cost: 0.20803 s, avg_samples: 9.6, ips: 46.14719 samples/s, eta: 0:33:04, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:19:12] ppocr INFO: epoch: [3/71], global_step: 250, lr: 0.000080, acc: 0.250000, norm_edit_dis: 0.845208, CTCLoss: 17.960235, NRTRLoss: 1.990830, loss: 19.957779, avg_reader_cost: 0.00176 s, avg_batch_cost: 0.31549 s, avg_samples: 16.0, ips: 50.71533 samples/s, eta: 0:32:19, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:19:14] ppocr INFO: epoch: [3/71], global_step: 255, lr: 0.000082, acc: 0.281250, norm_edit_dis: 0.856919, CTCLoss: 16.696651, NRTRLoss: 1.990830, loss: 18.756060, avg_reader_cost: 0.00018 s, avg_batch_cost: 0.03128 s, avg_samples: 1.6, ips: 51.15254 samples/s, eta: 0:32:15, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:19:15] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:19:30] ppocr INFO: epoch: [4/71], global_step: 300, lr: 0.000096, acc: 0.343750, norm_edit_dis: 0.870973, CTCLoss: 18.358888, NRTRLoss: 1.943650, loss: 20.204924, avg_reader_cost: 0.02117 s, avg_batch_cost: 0.30291 s, avg_samples: 14.4, ips: 47.53908 samples/s, eta: 0:32:01, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:19:42] ppocr INFO: epoch: [4/71], global_step: 340, lr: 0.000100, acc: 0.406250, norm_edit_dis: 0.892013, CTCLoss: 20.199019, NRTRLoss: 1.923490, loss: 22.136238, avg_reader_cost: 0.00143 s, avg_batch_cost: 0.25016 s, avg_samples: 12.8, ips: 51.16674 samples/s, eta: 0:31:33, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:19:43] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:19:47] ppocr INFO: epoch: [5/71], global_step: 350, lr: 0.000100, acc: 0.437500, norm_edit_dis: 0.892706, CTCLoss: 18.426026, NRTRLoss: 1.900583, loss: 20.338670, avg_reader_cost: 0.02065 s, avg_batch_cost: 0.08360 s, avg_samples: 3.2, ips: 38.27866 samples/s, eta: 0:31:43, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:20:03] ppocr INFO: epoch: [5/71], global_step: 400, lr: 0.000100, acc: 0.437500, norm_edit_dis: 0.918709, CTCLoss: 10.868910, NRTRLoss: 1.758067, loss: 12.577530, avg_reader_cost: 0.00174 s, avg_batch_cost: 0.31414 s, avg_samples: 16.0, ips: 50.93258 samples/s, eta: 0:31:12, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+
+eval model::   0%|          | 0/9 [00:00<?, ?it/s]
+eval model::  11%|█         | 1/9 [00:00<00:03,  2.22it/s]
+eval model::  22%|██▏       | 2/9 [00:00<00:01,  3.82it/s]
+eval model::  33%|███▎      | 3/9 [00:00<00:01,  4.99it/s]
+eval model::  44%|████▍     | 4/9 [00:00<00:00,  5.81it/s]
+eval model::  56%|█████▌    | 5/9 [00:00<00:00,  6.40it/s]
+eval model::  67%|██████▋   | 6/9 [00:01<00:00,  6.84it/s]
+eval model::  78%|███████▊  | 7/9 [00:01<00:00,  7.14it/s]
+eval model::  89%|████████▉ | 8/9 [00:01<00:00,  7.36it/s]
+eval model:: 100%|██████████| 9/9 [00:01<00:00,  6.05it/s]
+[2026/11/10 02:20:05] ppocr INFO: cur metric, acc: 0.4338234975129781, norm_edit_dis: 0.8776279568879367, fps: 235.16187644573398
+[2026/11/10 02:20:06] ppocr INFO: save best model is to /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/best_accuracy
+[2026/11/10 02:20:06] ppocr INFO: best metric, norm_edit_dis: 0.8776279568879367, is_float16: False, acc: 0.4338234975129781, fps: 235.16187644573398, best_epoch: 5
+[2026/11/10 02:20:14] ppocr INFO: epoch: [5/71], global_step: 425, lr: 0.000100, acc: 0.437500, norm_edit_dis: 0.913435, CTCLoss: 15.066507, NRTRLoss: 1.755002, loss: 16.907545, avg_reader_cost: 0.00090 s, avg_batch_cost: 0.15760 s, avg_samples: 8.0, ips: 50.76059 samples/s, eta: 0:30:58, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:20:15] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:20:24] ppocr INFO: epoch: [6/71], global_step: 450, lr: 0.000100, acc: 0.500000, norm_edit_dis: 0.907148, CTCLoss: 15.571525, NRTRLoss: 1.676049, loss: 17.262102, avg_reader_cost: 0.02347 s, avg_batch_cost: 0.18041 s, avg_samples: 8.0, ips: 44.34346 samples/s, eta: 0:30:59, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:20:40] ppocr INFO: epoch: [6/71], global_step: 500, lr: 0.000100, acc: 0.500000, norm_edit_dis: 0.917694, CTCLoss: 12.062149, NRTRLoss: 1.675700, loss: 13.677479, avg_reader_cost: 0.00175 s, avg_batch_cost: 0.31622 s, avg_samples: 16.0, ips: 50.59817 samples/s, eta: 0:30:33, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:20:43] ppocr INFO: epoch: [6/71], global_step: 510, lr: 0.000100, acc: 0.531250, norm_edit_dis: 0.917694, CTCLoss: 12.591901, NRTRLoss: 1.637670, loss: 14.214230, avg_reader_cost: 0.00037 s, avg_batch_cost: 0.06295 s, avg_samples: 3.2, ips: 50.83611 samples/s, eta: 0:30:28, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:20:44] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:20:58] ppocr INFO: epoch: [7/71], global_step: 550, lr: 0.000100, acc: 0.562500, norm_edit_dis: 0.927097, CTCLoss: 9.132757, NRTRLoss: 1.606190, loss: 10.707198, avg_reader_cost: 0.02333 s, avg_batch_cost: 0.27341 s, avg_samples: 12.8, ips: 46.81645 samples/s, eta: 0:30:19, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:21:12] ppocr INFO: epoch: [7/71], global_step: 595, lr: 0.000099, acc: 0.500000, norm_edit_dis: 0.919636, CTCLoss: 13.198685, NRTRLoss: 1.611354, loss: 14.849456, avg_reader_cost: 0.00160 s, avg_batch_cost: 0.28428 s, avg_samples: 14.4, ips: 50.65434 samples/s, eta: 0:29:57, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:21:13] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:21:15] ppocr INFO: epoch: [8/71], global_step: 600, lr: 0.000099, acc: 0.500000, norm_edit_dis: 0.924365, CTCLoss: 13.198685, NRTRLoss: 1.595761, loss: 14.849456, avg_reader_cost: 0.02050 s, avg_batch_cost: 0.05224 s, avg_samples: 1.6, ips: 30.62565 samples/s, eta: 0:30:05, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:21:31] ppocr INFO: epoch: [8/71], global_step: 650, lr: 0.000099, acc: 0.562500, norm_edit_dis: 0.933015, CTCLoss: 13.289900, NRTRLoss: 1.581454, loss: 14.912408, avg_reader_cost: 0.00175 s, avg_batch_cost: 0.31531 s, avg_samples: 16.0, ips: 50.74367 samples/s, eta: 0:29:41, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:21:41] ppocr INFO: epoch: [8/71], global_step: 680, lr: 0.000099, acc: 0.593750, norm_edit_dis: 0.922672, CTCLoss: 10.207347, NRTRLoss: 1.532085, loss: 11.761737, avg_reader_cost: 0.00108 s, avg_batch_cost: 0.18859 s, avg_samples: 9.6, ips: 50.90432 samples/s, eta: 0:29:27, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:21:41] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:21:49] ppocr INFO: epoch: [9/71], global_step: 700, lr: 0.000099, acc: 0.562500, norm_edit_dis: 0.932247, CTCLoss: 10.054690, NRTRLoss: 1.514415, loss: 11.555703, avg_reader_cost: 0.02346 s, avg_batch_cost: 0.14922 s, avg_samples: 6.4, ips: 42.89003 samples/s, eta: 0:29:27, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:22:05] ppocr INFO: epoch: [9/71], global_step: 750, lr: 0.000099, acc: 0.625000, norm_edit_dis: 0.933275, CTCLoss: 10.723324, NRTRLoss: 1.526774, loss: 12.312904, avg_reader_cost: 0.00179 s, avg_batch_cost: 0.31623 s, avg_samples: 16.0, ips: 50.59664 samples/s, eta: 0:29:05, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:22:09] ppocr INFO: epoch: [9/71], global_step: 765, lr: 0.000099, acc: 0.687500, norm_edit_dis: 0.946937, CTCLoss: 11.575515, NRTRLoss: 1.522428, loss: 13.076241, avg_reader_cost: 0.00053 s, avg_batch_cost: 0.09413 s, avg_samples: 4.8, ips: 50.99470 samples/s, eta: 0:28:59, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:22:10] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:22:23] ppocr INFO: epoch: [10/71], global_step: 800, lr: 0.000098, acc: 0.625000, norm_edit_dis: 0.948312, CTCLoss: 11.189685, NRTRLoss: 1.481967, loss: 12.721460, avg_reader_cost: 0.02360 s, avg_batch_cost: 0.24546 s, avg_samples: 11.2, ips: 45.62942 samples/s, eta: 0:28:52, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+
+eval model::   0%|          | 0/9 [00:00<?, ?it/s]
+eval model::  11%|█         | 1/9 [00:00<00:03,  2.39it/s]
+eval model::  22%|██▏       | 2/9 [00:00<00:01,  3.98it/s]
+eval model::  33%|███▎      | 3/9 [00:00<00:01,  5.12it/s]
+eval model::  44%|████▍     | 4/9 [00:00<00:00,  5.93it/s]
+eval model::  56%|█████▌    | 5/9 [00:00<00:00,  6.49it/s]
+eval model::  67%|██████▋   | 6/9 [00:01<00:00,  6.88it/s]
+eval model::  78%|███████▊  | 7/9 [00:01<00:00,  7.09it/s]
+eval model::  89%|████████▉ | 8/9 [00:01<00:00,  7.26it/s]
+eval model:: 100%|██████████| 9/9 [00:01<00:00,  6.25it/s]
+[2026/11/10 02:22:24] ppocr INFO: cur metric, acc: 0.36764703179065944, norm_edit_dis: 0.8834770656663857, fps: 253.63431238764485
+[2026/11/10 02:22:26] ppocr INFO: save best model is to /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/best_accuracy
+[2026/11/10 02:22:26] ppocr INFO: best metric, norm_edit_dis: 0.8834770656663857, is_float16: False, acc: 0.36764703179065944, fps: 253.63431238764485, best_epoch: 10
+[2026/11/10 02:22:41] ppocr INFO: epoch: [10/71], global_step: 850, lr: 0.000098, acc: 0.625000, norm_edit_dis: 0.945994, CTCLoss: 12.669777, NRTRLoss: 1.522394, loss: 14.255475, avg_reader_cost: 0.00180 s, avg_batch_cost: 0.31127 s, avg_samples: 16.0, ips: 51.40211 samples/s, eta: 0:28:29, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:22:42] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:22:59] ppocr INFO: epoch: [11/71], global_step: 900, lr: 0.000098, acc: 0.625000, norm_edit_dis: 0.939030, CTCLoss: 12.409382, NRTRLoss: 1.486730, loss: 13.941798, avg_reader_cost: 0.02340 s, avg_batch_cost: 0.33943 s, avg_samples: 16.0, ips: 47.13770 samples/s, eta: 0:28:15, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:23:10] ppocr INFO: epoch: [11/71], global_step: 935, lr: 0.000097, acc: 0.656250, norm_edit_dis: 0.949922, CTCLoss: 10.062292, NRTRLoss: 1.481964, loss: 11.525273, avg_reader_cost: 0.00125 s, avg_batch_cost: 0.22070 s, avg_samples: 11.2, ips: 50.74732 samples/s, eta: 0:28:01, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:23:11] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:23:17] ppocr INFO: epoch: [12/71], global_step: 950, lr: 0.000097, acc: 0.656250, norm_edit_dis: 0.960351, CTCLoss: 8.747500, NRTRLoss: 1.480099, loss: 10.253804, avg_reader_cost: 0.02084 s, avg_batch_cost: 0.11514 s, avg_samples: 4.8, ips: 41.68839 samples/s, eta: 0:28:00, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:23:33] ppocr INFO: epoch: [12/71], global_step: 1000, lr: 0.000097, acc: 0.687500, norm_edit_dis: 0.955060, CTCLoss: 9.922676, NRTRLoss: 1.448930, loss: 11.331802, avg_reader_cost: 0.00176 s, avg_batch_cost: 0.31468 s, avg_samples: 16.0, ips: 50.84483 samples/s, eta: 0:27:40, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:23:39] ppocr INFO: epoch: [12/71], global_step: 1020, lr: 0.000097, acc: 0.593750, norm_edit_dis: 0.946570, CTCLoss: 9.350732, NRTRLoss: 1.495481, loss: 10.882341, avg_reader_cost: 0.00074 s, avg_batch_cost: 0.12486 s, avg_samples: 6.4, ips: 51.25793 samples/s, eta: 0:27:32, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:23:40] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:23:50] ppocr INFO: epoch: [13/71], global_step: 1050, lr: 0.000096, acc: 0.687500, norm_edit_dis: 0.959452, CTCLoss: 7.936951, NRTRLoss: 1.438131, loss: 9.367552, avg_reader_cost: 0.02129 s, avg_batch_cost: 0.20848 s, avg_samples: 9.6, ips: 46.04661 samples/s, eta: 0:27:24, max_mem_reserved: 13327 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:24:06] ppocr INFO: epoch: [13/71], global_step: 1100, lr: 0.000096, acc: 0.625000, norm_edit_dis: 0.948618, CTCLoss: 10.230051, NRTRLoss: 1.452857, loss: 11.691388, avg_reader_cost: 0.00179 s, avg_batch_cost: 0.31763 s, avg_samples: 16.0, ips: 50.37376 samples/s, eta: 0:27:05, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:24:08] ppocr INFO: epoch: [13/71], global_step: 1105, lr: 0.000096, acc: 0.687500, norm_edit_dis: 0.948385, CTCLoss: 10.153843, NRTRLoss: 1.458500, loss: 11.653405, avg_reader_cost: 0.00018 s, avg_batch_cost: 0.03163 s, avg_samples: 1.6, ips: 50.58032 samples/s, eta: 0:27:03, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:24:09] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:24:24] ppocr INFO: epoch: [14/71], global_step: 1150, lr: 0.000095, acc: 0.625000, norm_edit_dis: 0.950683, CTCLoss: 11.177411, NRTRLoss: 1.461086, loss: 12.665150, avg_reader_cost: 0.02268 s, avg_batch_cost: 0.30670 s, avg_samples: 14.4, ips: 46.95171 samples/s, eta: 0:26:50, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:24:37] ppocr INFO: epoch: [14/71], global_step: 1190, lr: 0.000095, acc: 0.625000, norm_edit_dis: 0.940632, CTCLoss: 9.760154, NRTRLoss: 1.451161, loss: 11.168152, avg_reader_cost: 0.00143 s, avg_batch_cost: 0.25537 s, avg_samples: 12.8, ips: 50.12290 samples/s, eta: 0:26:36, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:24:38] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:24:42] ppocr INFO: epoch: [15/71], global_step: 1200, lr: 0.000095, acc: 0.625000, norm_edit_dis: 0.948065, CTCLoss: 7.996646, NRTRLoss: 1.442409, loss: 9.433129, avg_reader_cost: 0.02087 s, avg_batch_cost: 0.08526 s, avg_samples: 3.2, ips: 37.53354 samples/s, eta: 0:26:36, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+
+eval model::   0%|          | 0/9 [00:00<?, ?it/s]
+eval model::  11%|█         | 1/9 [00:00<00:03,  2.10it/s]
+eval model::  22%|██▏       | 2/9 [00:00<00:01,  3.60it/s]
+eval model::  33%|███▎      | 3/9 [00:00<00:01,  4.73it/s]
+eval model::  44%|████▍     | 4/9 [00:00<00:00,  5.57it/s]
+eval model::  56%|█████▌    | 5/9 [00:01<00:00,  6.18it/s]
+eval model::  67%|██████▋   | 6/9 [00:01<00:00,  6.60it/s]
+eval model::  78%|███████▊  | 7/9 [00:01<00:00,  6.89it/s]
+eval model::  89%|████████▉ | 8/9 [00:01<00:00,  7.12it/s]
+eval model:: 100%|██████████| 9/9 [00:01<00:00,  5.88it/s]
+[2026/11/10 02:24:44] ppocr INFO: cur metric, acc: 0.42647055687716495, norm_edit_dis: 0.8896821424829539, fps: 252.85293292381016
+[2026/11/10 02:24:45] ppocr INFO: save best model is to /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/best_accuracy
+[2026/11/10 02:24:45] ppocr INFO: best metric, norm_edit_dis: 0.8896821424829539, is_float16: False, acc: 0.42647055687716495, fps: 252.85293292381016, best_epoch: 15
+[2026/11/10 02:25:01] ppocr INFO: epoch: [15/71], global_step: 1250, lr: 0.000094, acc: 0.687500, norm_edit_dis: 0.952439, CTCLoss: 9.352702, NRTRLoss: 1.445162, loss: 10.827144, avg_reader_cost: 0.00180 s, avg_batch_cost: 0.31751 s, avg_samples: 16.0, ips: 50.39274 samples/s, eta: 0:26:17, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:25:09] ppocr INFO: epoch: [15/71], global_step: 1275, lr: 0.000094, acc: 0.656250, norm_edit_dis: 0.948265, CTCLoss: 11.374538, NRTRLoss: 1.437711, loss: 12.842539, avg_reader_cost: 0.00089 s, avg_batch_cost: 0.15723 s, avg_samples: 8.0, ips: 50.88093 samples/s, eta: 0:26:08, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:25:10] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:25:19] ppocr INFO: epoch: [16/71], global_step: 1300, lr: 0.000094, acc: 0.718750, norm_edit_dis: 0.966036, CTCLoss: 10.578949, NRTRLoss: 1.406004, loss: 12.008244, avg_reader_cost: 0.02470 s, avg_batch_cost: 0.18304 s, avg_samples: 8.0, ips: 43.70692 samples/s, eta: 0:26:03, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:25:35] ppocr INFO: epoch: [16/71], global_step: 1350, lr: 0.000093, acc: 0.750000, norm_edit_dis: 0.965469, CTCLoss: 9.699176, NRTRLoss: 1.420801, loss: 11.205070, avg_reader_cost: 0.00177 s, avg_batch_cost: 0.31470 s, avg_samples: 16.0, ips: 50.84138 samples/s, eta: 0:25:43, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:25:38] ppocr INFO: epoch: [16/71], global_step: 1360, lr: 0.000093, acc: 0.687500, norm_edit_dis: 0.954824, CTCLoss: 9.629704, NRTRLoss: 1.423646, loss: 11.125442, avg_reader_cost: 0.00036 s, avg_batch_cost: 0.06221 s, avg_samples: 3.2, ips: 51.43746 samples/s, eta: 0:25:40, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:25:39] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:25:52] ppocr INFO: epoch: [17/71], global_step: 1400, lr: 0.000092, acc: 0.687500, norm_edit_dis: 0.951885, CTCLoss: 11.094677, NRTRLoss: 1.419204, loss: 12.534749, avg_reader_cost: 0.02323 s, avg_batch_cost: 0.27524 s, avg_samples: 12.8, ips: 46.50550 samples/s, eta: 0:25:28, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:26:07] ppocr INFO: epoch: [17/71], global_step: 1445, lr: 0.000092, acc: 0.718750, norm_edit_dis: 0.965231, CTCLoss: 6.192523, NRTRLoss: 1.393501, loss: 7.562252, avg_reader_cost: 0.00160 s, avg_batch_cost: 0.28402 s, avg_samples: 14.4, ips: 50.70036 samples/s, eta: 0:25:11, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:26:07] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:26:10] ppocr INFO: epoch: [18/71], global_step: 1450, lr: 0.000091, acc: 0.750000, norm_edit_dis: 0.956786, CTCLoss: 5.704728, NRTRLoss: 1.404621, loss: 7.099332, avg_reader_cost: 0.02155 s, avg_batch_cost: 0.05346 s, avg_samples: 1.6, ips: 29.92995 samples/s, eta: 0:25:13, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:26:26] ppocr INFO: epoch: [18/71], global_step: 1500, lr: 0.000091, acc: 0.687500, norm_edit_dis: 0.965066, CTCLoss: 6.998310, NRTRLoss: 1.398521, loss: 8.461963, avg_reader_cost: 0.00178 s, avg_batch_cost: 0.31641 s, avg_samples: 16.0, ips: 50.56682 samples/s, eta: 0:24:54, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:26:35] ppocr INFO: epoch: [18/71], global_step: 1530, lr: 0.000090, acc: 0.718750, norm_edit_dis: 0.964883, CTCLoss: 11.163268, NRTRLoss: 1.437116, loss: 12.606164, avg_reader_cost: 0.00109 s, avg_batch_cost: 0.18717 s, avg_samples: 9.6, ips: 51.28957 samples/s, eta: 0:24:43, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:26:36] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:26:44] ppocr INFO: epoch: [19/71], global_step: 1550, lr: 0.000090, acc: 0.750000, norm_edit_dis: 0.964413, CTCLoss: 6.740845, NRTRLoss: 1.408836, loss: 8.191978, avg_reader_cost: 0.02362 s, avg_batch_cost: 0.15128 s, avg_samples: 6.4, ips: 42.30658 samples/s, eta: 0:24:39, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:26:59] ppocr INFO: epoch: [19/71], global_step: 1600, lr: 0.000089, acc: 0.781250, norm_edit_dis: 0.977683, CTCLoss: 4.274762, NRTRLoss: 1.368118, loss: 5.656440, avg_reader_cost: 0.00177 s, avg_batch_cost: 0.31625 s, avg_samples: 16.0, ips: 50.59338 samples/s, eta: 0:24:21, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+
+eval model::   0%|          | 0/9 [00:00<?, ?it/s]
+eval model::  11%|█         | 1/9 [00:00<00:03,  2.10it/s]
+eval model::  22%|██▏       | 2/9 [00:00<00:01,  3.65it/s]
+eval model::  33%|███▎      | 3/9 [00:00<00:01,  4.79it/s]
+eval model::  44%|████▍     | 4/9 [00:00<00:00,  5.60it/s]
+eval model::  56%|█████▌    | 5/9 [00:01<00:00,  6.21it/s]
+eval model::  67%|██████▋   | 6/9 [00:01<00:00,  6.63it/s]
+eval model::  78%|███████▊  | 7/9 [00:01<00:00,  6.93it/s]
+eval model::  89%|████████▉ | 8/9 [00:01<00:00,  7.15it/s]
+eval model:: 100%|██████████| 9/9 [00:01<00:00,  5.84it/s]
+[2026/11/10 02:27:01] ppocr INFO: cur metric, acc: 0.39705879433391217, norm_edit_dis: 0.8838028599845373, fps: 253.38881105337364
+[2026/11/10 02:27:01] ppocr INFO: best metric, norm_edit_dis: 0.8896821424829539, is_float16: False, acc: 0.42647055687716495, fps: 252.85293292381016, best_epoch: 15
+[2026/11/10 02:27:06] ppocr INFO: epoch: [19/71], global_step: 1615, lr: 0.000089, acc: 0.750000, norm_edit_dis: 0.964654, CTCLoss: 7.896272, NRTRLoss: 1.389271, loss: 9.281454, avg_reader_cost: 0.00053 s, avg_batch_cost: 0.09438 s, avg_samples: 4.8, ips: 50.85667 samples/s, eta: 0:24:15, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:27:07] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:27:19] ppocr INFO: epoch: [20/71], global_step: 1650, lr: 0.000088, acc: 0.687500, norm_edit_dis: 0.961293, CTCLoss: 7.034761, NRTRLoss: 1.374198, loss: 8.378626, avg_reader_cost: 0.02249 s, avg_batch_cost: 0.24590 s, avg_samples: 11.2, ips: 45.54707 samples/s, eta: 0:24:06, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:27:35] ppocr INFO: epoch: [20/71], global_step: 1700, lr: 0.000087, acc: 0.687500, norm_edit_dis: 0.955539, CTCLoss: 7.951348, NRTRLoss: 1.407371, loss: 9.366120, avg_reader_cost: 0.00179 s, avg_batch_cost: 0.31736 s, avg_samples: 16.0, ips: 50.41555 samples/s, eta: 0:23:48, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:27:36] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:27:53] ppocr INFO: epoch: [21/71], global_step: 1750, lr: 0.000087, acc: 0.687500, norm_edit_dis: 0.948398, CTCLoss: 10.436450, NRTRLoss: 1.406655, loss: 11.836400, avg_reader_cost: 0.02249 s, avg_batch_cost: 0.33950 s, avg_samples: 16.0, ips: 47.12839 samples/s, eta: 0:23:32, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:28:04] ppocr INFO: epoch: [21/71], global_step: 1785, lr: 0.000086, acc: 0.750000, norm_edit_dis: 0.964347, CTCLoss: 8.572535, NRTRLoss: 1.401563, loss: 10.005328, avg_reader_cost: 0.00127 s, avg_batch_cost: 0.22129 s, avg_samples: 11.2, ips: 50.61250 samples/s, eta: 0:23:20, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:28:05] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:28:10] ppocr INFO: epoch: [22/71], global_step: 1800, lr: 0.000086, acc: 0.781250, norm_edit_dis: 0.968094, CTCLoss: 8.993124, NRTRLoss: 1.383140, loss: 10.412773, avg_reader_cost: 0.02106 s, avg_batch_cost: 0.11697 s, avg_samples: 4.8, ips: 41.03557 samples/s, eta: 0:23:17, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:28:26] ppocr INFO: epoch: [22/71], global_step: 1850, lr: 0.000085, acc: 0.750000, norm_edit_dis: 0.966934, CTCLoss: 5.908924, NRTRLoss: 1.377056, loss: 7.264474, avg_reader_cost: 0.00181 s, avg_batch_cost: 0.31905 s, avg_samples: 16.0, ips: 50.14854 samples/s, eta: 0:22:59, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:28:33] ppocr INFO: epoch: [22/71], global_step: 1870, lr: 0.000084, acc: 0.718750, norm_edit_dis: 0.954633, CTCLoss: 9.725141, NRTRLoss: 1.394805, loss: 11.112347, avg_reader_cost: 0.00073 s, avg_batch_cost: 0.12643 s, avg_samples: 6.4, ips: 50.62009 samples/s, eta: 0:22:52, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:28:34] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:28:44] ppocr INFO: epoch: [23/71], global_step: 1900, lr: 0.000084, acc: 0.750000, norm_edit_dis: 0.963956, CTCLoss: 7.123699, NRTRLoss: 1.380243, loss: 8.502323, avg_reader_cost: 0.02032 s, avg_batch_cost: 0.21102 s, avg_samples: 9.6, ips: 45.49275 samples/s, eta: 0:22:44, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:29:00] ppocr INFO: epoch: [23/71], global_step: 1950, lr: 0.000083, acc: 0.750000, norm_edit_dis: 0.978710, CTCLoss: 5.735332, NRTRLoss: 1.376406, loss: 7.122836, avg_reader_cost: 0.00179 s, avg_batch_cost: 0.31899 s, avg_samples: 16.0, ips: 50.15769 samples/s, eta: 0:22:26, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:29:02] ppocr INFO: epoch: [23/71], global_step: 1955, lr: 0.000083, acc: 0.781250, norm_edit_dis: 0.975573, CTCLoss: 5.329566, NRTRLoss: 1.374839, loss: 6.692782, avg_reader_cost: 0.00019 s, avg_batch_cost: 0.03168 s, avg_samples: 1.6, ips: 50.50303 samples/s, eta: 0:22:24, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:29:03] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:29:18] ppocr INFO: epoch: [24/71], global_step: 2000, lr: 0.000082, acc: 0.718750, norm_edit_dis: 0.968542, CTCLoss: 5.150207, NRTRLoss: 1.386316, loss: 6.527847, avg_reader_cost: 0.02323 s, avg_batch_cost: 0.30828 s, avg_samples: 14.4, ips: 46.71070 samples/s, eta: 0:22:11, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+
+eval model::   0%|          | 0/9 [00:00<?, ?it/s]
+eval model::  11%|█         | 1/9 [00:00<00:03,  2.15it/s]
+eval model::  22%|██▏       | 2/9 [00:00<00:01,  3.67it/s]
+eval model::  33%|███▎      | 3/9 [00:00<00:01,  4.76it/s]
+eval model::  44%|████▍     | 4/9 [00:00<00:00,  5.56it/s]
+eval model::  56%|█████▌    | 5/9 [00:01<00:00,  6.13it/s]
+eval model::  67%|██████▋   | 6/9 [00:01<00:00,  6.54it/s]
+eval model::  78%|███████▊  | 7/9 [00:01<00:00,  6.81it/s]
+eval model::  89%|████████▉ | 8/9 [00:01<00:00,  7.01it/s]
+eval model:: 100%|██████████| 9/9 [00:01<00:00,  5.78it/s]
+[2026/11/10 02:29:20] ppocr INFO: cur metric, acc: 0.4632352600562309, norm_edit_dis: 0.8990804442294629, fps: 253.9062814086009
+[2026/11/10 02:29:21] ppocr INFO: save best model is to /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/best_accuracy
+[2026/11/10 02:29:21] ppocr INFO: best metric, norm_edit_dis: 0.8990804442294629, is_float16: False, acc: 0.4632352600562309, fps: 253.9062814086009, best_epoch: 24
+[2026/11/10 02:29:34] ppocr INFO: epoch: [24/71], global_step: 2040, lr: 0.000081, acc: 0.718750, norm_edit_dis: 0.964394, CTCLoss: 8.232566, NRTRLoss: 1.400102, loss: 9.619489, avg_reader_cost: 0.00142 s, avg_batch_cost: 0.25194 s, avg_samples: 12.8, ips: 50.80507 samples/s, eta: 0:21:56, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:29:35] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:29:39] ppocr INFO: epoch: [25/71], global_step: 2050, lr: 0.000081, acc: 0.750000, norm_edit_dis: 0.967806, CTCLoss: 5.299318, NRTRLoss: 1.377448, loss: 6.682412, avg_reader_cost: 0.02632 s, avg_batch_cost: 0.08915 s, avg_samples: 3.2, ips: 35.89482 samples/s, eta: 0:21:55, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:29:55] ppocr INFO: epoch: [25/71], global_step: 2100, lr: 0.000080, acc: 0.687500, norm_edit_dis: 0.968081, CTCLoss: 9.207882, NRTRLoss: 1.374064, loss: 10.576652, avg_reader_cost: 0.00178 s, avg_batch_cost: 0.31570 s, avg_samples: 16.0, ips: 50.68090 samples/s, eta: 0:21:37, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:30:03] ppocr INFO: epoch: [25/71], global_step: 2125, lr: 0.000079, acc: 0.750000, norm_edit_dis: 0.973684, CTCLoss: 5.559848, NRTRLoss: 1.353630, loss: 6.915844, avg_reader_cost: 0.00091 s, avg_batch_cost: 0.15675 s, avg_samples: 8.0, ips: 51.03829 samples/s, eta: 0:21:28, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:30:04] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:30:13] ppocr INFO: epoch: [26/71], global_step: 2150, lr: 0.000079, acc: 0.812499, norm_edit_dis: 0.975107, CTCLoss: 4.561865, NRTRLoss: 1.392840, loss: 5.974878, avg_reader_cost: 0.02250 s, avg_batch_cost: 0.17927 s, avg_samples: 8.0, ips: 44.62628 samples/s, eta: 0:21:21, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:30:29] ppocr INFO: epoch: [26/71], global_step: 2200, lr: 0.000078, acc: 0.687500, norm_edit_dis: 0.949286, CTCLoss: 12.917444, NRTRLoss: 1.414057, loss: 14.376321, avg_reader_cost: 0.00178 s, avg_batch_cost: 0.31618 s, avg_samples: 16.0, ips: 50.60338 samples/s, eta: 0:21:04, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:30:32] ppocr INFO: epoch: [26/71], global_step: 2210, lr: 0.000077, acc: 0.750000, norm_edit_dis: 0.966440, CTCLoss: 6.679369, NRTRLoss: 1.380686, loss: 8.084598, avg_reader_cost: 0.00037 s, avg_batch_cost: 0.06290 s, avg_samples: 3.2, ips: 50.87629 samples/s, eta: 0:21:00, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:30:33] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:30:46] ppocr INFO: epoch: [27/71], global_step: 2250, lr: 0.000077, acc: 0.687500, norm_edit_dis: 0.968273, CTCLoss: 6.526883, NRTRLoss: 1.371317, loss: 7.905545, avg_reader_cost: 0.02487 s, avg_batch_cost: 0.27579 s, avg_samples: 12.8, ips: 46.41168 samples/s, eta: 0:20:48, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:31:01] ppocr INFO: epoch: [27/71], global_step: 2295, lr: 0.000076, acc: 0.750000, norm_edit_dis: 0.961006, CTCLoss: 8.630736, NRTRLoss: 1.388467, loss: 10.016175, avg_reader_cost: 0.00162 s, avg_batch_cost: 0.28390 s, avg_samples: 14.4, ips: 50.72121 samples/s, eta: 0:20:32, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:31:02] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:31:04] ppocr INFO: epoch: [28/71], global_step: 2300, lr: 0.000075, acc: 0.750000, norm_edit_dis: 0.961006, CTCLoss: 7.230731, NRTRLoss: 1.385383, loss: 8.652891, avg_reader_cost: 0.01993 s, avg_batch_cost: 0.05196 s, avg_samples: 1.6, ips: 30.79410 samples/s, eta: 0:20:32, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:31:20] ppocr INFO: epoch: [28/71], global_step: 2350, lr: 0.000074, acc: 0.750000, norm_edit_dis: 0.964261, CTCLoss: 8.777244, NRTRLoss: 1.386476, loss: 10.131384, avg_reader_cost: 0.00176 s, avg_batch_cost: 0.31863 s, avg_samples: 16.0, ips: 50.21509 samples/s, eta: 0:20:15, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:31:30] ppocr INFO: epoch: [28/71], global_step: 2380, lr: 0.000074, acc: 0.750000, norm_edit_dis: 0.969952, CTCLoss: 5.971126, NRTRLoss: 1.362614, loss: 7.313524, avg_reader_cost: 0.00106 s, avg_batch_cost: 0.19039 s, avg_samples: 9.6, ips: 50.42324 samples/s, eta: 0:20:04, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:31:30] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:31:38] ppocr INFO: epoch: [29/71], global_step: 2400, lr: 0.000073, acc: 0.750000, norm_edit_dis: 0.970454, CTCLoss: 7.346260, NRTRLoss: 1.371899, loss: 8.705551, avg_reader_cost: 0.02352 s, avg_batch_cost: 0.15137 s, avg_samples: 6.4, ips: 42.28108 samples/s, eta: 0:19:59, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+
+eval model::   0%|          | 0/9 [00:00<?, ?it/s]
+eval model::  11%|█         | 1/9 [00:00<00:03,  2.30it/s]
+eval model::  22%|██▏       | 2/9 [00:00<00:01,  3.87it/s]
+eval model::  33%|███▎      | 3/9 [00:00<00:01,  4.97it/s]
+eval model::  44%|████▍     | 4/9 [00:00<00:00,  5.73it/s]
+eval model::  56%|█████▌    | 5/9 [00:00<00:00,  6.26it/s]
+eval model::  67%|██████▋   | 6/9 [00:01<00:00,  6.62it/s]
+eval model::  78%|███████▊  | 7/9 [00:01<00:00,  6.87it/s]
+eval model::  89%|████████▉ | 8/9 [00:01<00:00,  7.06it/s]
+eval model:: 100%|██████████| 9/9 [00:01<00:00,  5.91it/s]
+[2026/11/10 02:31:40] ppocr INFO: cur metric, acc: 0.36029409115484623, norm_edit_dis: 0.8813459152823822, fps: 253.01017007790895
+[2026/11/10 02:31:40] ppocr INFO: best metric, norm_edit_dis: 0.8990804442294629, is_float16: False, acc: 0.4632352600562309, fps: 253.9062814086009, best_epoch: 24
+[2026/11/10 02:31:55] ppocr INFO: epoch: [29/71], global_step: 2450, lr: 0.000072, acc: 0.750000, norm_edit_dis: 0.972171, CTCLoss: 6.975496, NRTRLoss: 1.361619, loss: 8.325927, avg_reader_cost: 0.00175 s, avg_batch_cost: 0.31687 s, avg_samples: 16.0, ips: 50.49435 samples/s, eta: 0:19:41, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:32:00] ppocr INFO: epoch: [29/71], global_step: 2465, lr: 0.000072, acc: 0.812499, norm_edit_dis: 0.973580, CTCLoss: 6.878950, NRTRLoss: 1.354014, loss: 8.217983, avg_reader_cost: 0.00054 s, avg_batch_cost: 0.09441 s, avg_samples: 4.8, ips: 50.84193 samples/s, eta: 0:19:36, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:32:01] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:32:13] ppocr INFO: epoch: [30/71], global_step: 2500, lr: 0.000071, acc: 0.812499, norm_edit_dis: 0.977633, CTCLoss: 3.123166, NRTRLoss: 1.357329, loss: 4.498554, avg_reader_cost: 0.02108 s, avg_batch_cost: 0.24269 s, avg_samples: 11.2, ips: 46.15008 samples/s, eta: 0:19:26, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:32:29] ppocr INFO: epoch: [30/71], global_step: 2550, lr: 0.000070, acc: 0.781250, norm_edit_dis: 0.971942, CTCLoss: 6.440051, NRTRLoss: 1.350986, loss: 7.793289, avg_reader_cost: 0.00180 s, avg_batch_cost: 0.31640 s, avg_samples: 16.0, ips: 50.56898 samples/s, eta: 0:19:08, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:32:30] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:32:47] ppocr INFO: epoch: [31/71], global_step: 2600, lr: 0.000068, acc: 0.812499, norm_edit_dis: 0.971179, CTCLoss: 7.746972, NRTRLoss: 1.350305, loss: 9.119900, avg_reader_cost: 0.02083 s, avg_batch_cost: 0.33704 s, avg_samples: 16.0, ips: 47.47215 samples/s, eta: 0:18:52, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:32:58] ppocr INFO: epoch: [31/71], global_step: 2635, lr: 0.000068, acc: 0.750000, norm_edit_dis: 0.970085, CTCLoss: 5.974711, NRTRLoss: 1.361126, loss: 7.303818, avg_reader_cost: 0.00124 s, avg_batch_cost: 0.22215 s, avg_samples: 11.2, ips: 50.41613 samples/s, eta: 0:18:40, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:32:59] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:33:05] ppocr INFO: epoch: [32/71], global_step: 2650, lr: 0.000067, acc: 0.812499, norm_edit_dis: 0.969620, CTCLoss: 9.529604, NRTRLoss: 1.386036, loss: 10.914730, avg_reader_cost: 0.02403 s, avg_batch_cost: 0.11931 s, avg_samples: 4.8, ips: 40.23009 samples/s, eta: 0:18:36, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:33:21] ppocr INFO: epoch: [32/71], global_step: 2700, lr: 0.000066, acc: 0.750000, norm_edit_dis: 0.971255, CTCLoss: 8.306130, NRTRLoss: 1.369252, loss: 9.670227, avg_reader_cost: 0.00178 s, avg_batch_cost: 0.31676 s, avg_samples: 16.0, ips: 50.51128 samples/s, eta: 0:18:19, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:33:27] ppocr INFO: epoch: [32/71], global_step: 2720, lr: 0.000066, acc: 0.750000, norm_edit_dis: 0.967904, CTCLoss: 6.973268, NRTRLoss: 1.351735, loss: 8.325729, avg_reader_cost: 0.00072 s, avg_batch_cost: 0.12542 s, avg_samples: 6.4, ips: 51.02841 samples/s, eta: 0:18:12, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:33:28] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:33:38] ppocr INFO: epoch: [33/71], global_step: 2750, lr: 0.000065, acc: 0.750000, norm_edit_dis: 0.960075, CTCLoss: 10.417284, NRTRLoss: 1.382799, loss: 11.807691, avg_reader_cost: 0.02651 s, avg_batch_cost: 0.21444 s, avg_samples: 9.6, ips: 44.76867 samples/s, eta: 0:18:03, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:33:54] ppocr INFO: epoch: [33/71], global_step: 2800, lr: 0.000064, acc: 0.750000, norm_edit_dis: 0.969820, CTCLoss: 3.785488, NRTRLoss: 1.348908, loss: 5.129335, avg_reader_cost: 0.00178 s, avg_batch_cost: 0.31780 s, avg_samples: 16.0, ips: 50.34595 samples/s, eta: 0:17:46, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+
+eval model::   0%|          | 0/9 [00:00<?, ?it/s]
+eval model::  11%|█         | 1/9 [00:00<00:03,  2.23it/s]
+eval model::  22%|██▏       | 2/9 [00:00<00:01,  3.83it/s]
+eval model::  33%|███▎      | 3/9 [00:00<00:01,  5.00it/s]
+eval model::  44%|████▍     | 4/9 [00:00<00:00,  5.83it/s]
+eval model::  56%|█████▌    | 5/9 [00:00<00:00,  6.43it/s]
+eval model::  67%|██████▋   | 6/9 [00:01<00:00,  6.86it/s]
+eval model::  78%|███████▊  | 7/9 [00:01<00:00,  7.17it/s]
+eval model::  89%|████████▉ | 8/9 [00:01<00:00,  7.36it/s]
+eval model:: 100%|██████████| 9/9 [00:01<00:00,  5.98it/s]
+[2026/11/10 02:33:56] ppocr INFO: cur metric, acc: 0.4632352600562309, norm_edit_dis: 0.8979341301757907, fps: 253.7076380663747
+[2026/11/10 02:33:56] ppocr INFO: best metric, norm_edit_dis: 0.8990804442294629, is_float16: False, acc: 0.4632352600562309, fps: 253.9062814086009, best_epoch: 24
+[2026/11/10 02:33:57] ppocr INFO: epoch: [33/71], global_step: 2805, lr: 0.000063, acc: 0.781250, norm_edit_dis: 0.975987, CTCLoss: 2.533093, NRTRLoss: 1.344562, loss: 3.886468, avg_reader_cost: 0.00017 s, avg_batch_cost: 0.03128 s, avg_samples: 1.6, ips: 51.15766 samples/s, eta: 0:17:44, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:33:58] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:34:14] ppocr INFO: epoch: [34/71], global_step: 2850, lr: 0.000062, acc: 0.812499, norm_edit_dis: 0.975754, CTCLoss: 6.569639, NRTRLoss: 1.350927, loss: 7.920944, avg_reader_cost: 0.02318 s, avg_batch_cost: 0.30682 s, avg_samples: 14.4, ips: 46.93289 samples/s, eta: 0:17:30, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:34:26] ppocr INFO: epoch: [34/71], global_step: 2890, lr: 0.000061, acc: 0.781250, norm_edit_dis: 0.972354, CTCLoss: 7.242648, NRTRLoss: 1.362544, loss: 8.598662, avg_reader_cost: 0.00142 s, avg_batch_cost: 0.25348 s, avg_samples: 12.8, ips: 50.49767 samples/s, eta: 0:17:16, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:34:27] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:34:32] ppocr INFO: epoch: [35/71], global_step: 2900, lr: 0.000061, acc: 0.812499, norm_edit_dis: 0.977711, CTCLoss: 4.966886, NRTRLoss: 1.342283, loss: 6.323961, avg_reader_cost: 0.02013 s, avg_batch_cost: 0.08402 s, avg_samples: 3.2, ips: 38.08723 samples/s, eta: 0:17:14, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:34:48] ppocr INFO: epoch: [35/71], global_step: 2950, lr: 0.000060, acc: 0.812499, norm_edit_dis: 0.980565, CTCLoss: 5.331661, NRTRLoss: 1.344771, loss: 6.708286, avg_reader_cost: 0.00177 s, avg_batch_cost: 0.31821 s, avg_samples: 16.0, ips: 50.28161 samples/s, eta: 0:16:57, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:34:55] ppocr INFO: epoch: [35/71], global_step: 2975, lr: 0.000059, acc: 0.812499, norm_edit_dis: 0.970622, CTCLoss: 8.001104, NRTRLoss: 1.358466, loss: 9.367245, avg_reader_cost: 0.00090 s, avg_batch_cost: 0.15676 s, avg_samples: 8.0, ips: 51.03332 samples/s, eta: 0:16:48, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:34:56] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:35:05] ppocr INFO: epoch: [36/71], global_step: 3000, lr: 0.000058, acc: 0.750000, norm_edit_dis: 0.973769, CTCLoss: 6.127666, NRTRLoss: 1.354648, loss: 7.485462, avg_reader_cost: 0.02216 s, avg_batch_cost: 0.17981 s, avg_samples: 8.0, ips: 44.49091 samples/s, eta: 0:16:41, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:35:21] ppocr INFO: epoch: [36/71], global_step: 3050, lr: 0.000057, acc: 0.812499, norm_edit_dis: 0.976199, CTCLoss: 4.429555, NRTRLoss: 1.350161, loss: 5.777825, avg_reader_cost: 0.00175 s, avg_batch_cost: 0.31692 s, avg_samples: 16.0, ips: 50.48665 samples/s, eta: 0:16:24, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:35:24] ppocr INFO: epoch: [36/71], global_step: 3060, lr: 0.000057, acc: 0.812499, norm_edit_dis: 0.974343, CTCLoss: 7.384251, NRTRLoss: 1.345683, loss: 8.741739, avg_reader_cost: 0.00037 s, avg_batch_cost: 0.06342 s, avg_samples: 3.2, ips: 50.45999 samples/s, eta: 0:16:20, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:35:25] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:35:39] ppocr INFO: epoch: [37/71], global_step: 3100, lr: 0.000056, acc: 0.812499, norm_edit_dis: 0.969499, CTCLoss: 5.899622, NRTRLoss: 1.339250, loss: 7.242749, avg_reader_cost: 0.02123 s, avg_batch_cost: 0.27236 s, avg_samples: 12.8, ips: 46.99717 samples/s, eta: 0:16:07, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:35:53] ppocr INFO: epoch: [37/71], global_step: 3145, lr: 0.000055, acc: 0.781250, norm_edit_dis: 0.978118, CTCLoss: 6.822088, NRTRLoss: 1.339605, loss: 8.190504, avg_reader_cost: 0.00160 s, avg_batch_cost: 0.28264 s, avg_samples: 14.4, ips: 50.94780 samples/s, eta: 0:15:52, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:35:54] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:35:56] ppocr INFO: epoch: [38/71], global_step: 3150, lr: 0.000055, acc: 0.750000, norm_edit_dis: 0.971886, CTCLoss: 7.000451, NRTRLoss: 1.345680, loss: 8.373631, avg_reader_cost: 0.01901 s, avg_batch_cost: 0.05135 s, avg_samples: 1.6, ips: 31.16033 samples/s, eta: 0:15:51, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:36:12] ppocr INFO: epoch: [38/71], global_step: 3200, lr: 0.000053, acc: 0.812499, norm_edit_dis: 0.977853, CTCLoss: 5.836266, NRTRLoss: 1.338203, loss: 7.183903, avg_reader_cost: 0.00180 s, avg_batch_cost: 0.31705 s, avg_samples: 16.0, ips: 50.46511 samples/s, eta: 0:15:34, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+
+eval model::   0%|          | 0/9 [00:00<?, ?it/s]
+eval model::  11%|█         | 1/9 [00:00<00:03,  2.14it/s]
+eval model::  22%|██▏       | 2/9 [00:00<00:01,  3.70it/s]
+eval model::  33%|███▎      | 3/9 [00:00<00:01,  4.86it/s]
+eval model::  44%|████▍     | 4/9 [00:00<00:00,  5.70it/s]
+eval model::  56%|█████▌    | 5/9 [00:00<00:00,  6.32it/s]
+eval model::  67%|██████▋   | 6/9 [00:01<00:00,  6.76it/s]
+eval model::  78%|███████▊  | 7/9 [00:01<00:00,  7.07it/s]
+eval model::  89%|████████▉ | 8/9 [00:01<00:00,  7.29it/s]
+eval model:: 100%|██████████| 9/9 [00:01<00:00,  5.87it/s]
+[2026/11/10 02:36:14] ppocr INFO: cur metric, acc: 0.352941150519033, norm_edit_dis: 0.882464634525742, fps: 253.9155492326785
+[2026/11/10 02:36:14] ppocr INFO: best metric, norm_edit_dis: 0.8990804442294629, is_float16: False, acc: 0.4632352600562309, fps: 253.9062814086009, best_epoch: 24
+[2026/11/10 02:36:23] ppocr INFO: epoch: [38/71], global_step: 3230, lr: 0.000053, acc: 0.750000, norm_edit_dis: 0.967503, CTCLoss: 5.401537, NRTRLoss: 1.350573, loss: 6.759290, avg_reader_cost: 0.00106 s, avg_batch_cost: 0.18981 s, avg_samples: 9.6, ips: 50.57778 samples/s, eta: 0:15:24, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:36:24] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:36:31] ppocr INFO: epoch: [39/71], global_step: 3250, lr: 0.000052, acc: 0.812499, norm_edit_dis: 0.972793, CTCLoss: 8.736412, NRTRLoss: 1.353682, loss: 10.098552, avg_reader_cost: 0.02197 s, avg_batch_cost: 0.14834 s, avg_samples: 6.4, ips: 43.14507 samples/s, eta: 0:15:18, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:36:47] ppocr INFO: epoch: [39/71], global_step: 3300, lr: 0.000051, acc: 0.781250, norm_edit_dis: 0.968067, CTCLoss: 6.797821, NRTRLoss: 1.346978, loss: 8.194915, avg_reader_cost: 0.00178 s, avg_batch_cost: 0.31531 s, avg_samples: 16.0, ips: 50.74337 samples/s, eta: 0:15:01, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:36:52] ppocr INFO: epoch: [39/71], global_step: 3315, lr: 0.000050, acc: 0.781250, norm_edit_dis: 0.978555, CTCLoss: 4.849982, NRTRLoss: 1.336869, loss: 6.196214, avg_reader_cost: 0.00053 s, avg_batch_cost: 0.09396 s, avg_samples: 4.8, ips: 51.08795 samples/s, eta: 0:14:56, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:36:53] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:37:05] ppocr INFO: epoch: [40/71], global_step: 3350, lr: 0.000049, acc: 0.750000, norm_edit_dis: 0.967930, CTCLoss: 9.582613, NRTRLoss: 1.361033, loss: 10.964467, avg_reader_cost: 0.02151 s, avg_batch_cost: 0.24394 s, avg_samples: 11.2, ips: 45.91303 samples/s, eta: 0:14:45, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:37:21] ppocr INFO: epoch: [40/71], global_step: 3400, lr: 0.000048, acc: 0.750000, norm_edit_dis: 0.972794, CTCLoss: 4.774837, NRTRLoss: 1.343238, loss: 6.123707, avg_reader_cost: 0.00176 s, avg_batch_cost: 0.31602 s, avg_samples: 16.0, ips: 50.62980 samples/s, eta: 0:14:28, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:37:22] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:37:39] ppocr INFO: epoch: [41/71], global_step: 3450, lr: 0.000047, acc: 0.812499, norm_edit_dis: 0.979670, CTCLoss: 6.427668, NRTRLoss: 1.334645, loss: 7.798364, avg_reader_cost: 0.02216 s, avg_batch_cost: 0.34025 s, avg_samples: 16.0, ips: 47.02404 samples/s, eta: 0:14:12, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:37:50] ppocr INFO: epoch: [41/71], global_step: 3485, lr: 0.000046, acc: 0.812499, norm_edit_dis: 0.979749, CTCLoss: 2.847213, NRTRLoss: 1.333826, loss: 4.185703, avg_reader_cost: 0.00125 s, avg_batch_cost: 0.22230 s, avg_samples: 11.2, ips: 50.38140 samples/s, eta: 0:14:00, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:37:51] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:37:57] ppocr INFO: epoch: [42/71], global_step: 3500, lr: 0.000046, acc: 0.812499, norm_edit_dis: 0.979390, CTCLoss: 3.358170, NRTRLoss: 1.340522, loss: 4.694210, avg_reader_cost: 0.01953 s, avg_batch_cost: 0.11394 s, avg_samples: 4.8, ips: 42.12815 samples/s, eta: 0:13:55, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:38:12] ppocr INFO: epoch: [42/71], global_step: 3550, lr: 0.000044, acc: 0.812499, norm_edit_dis: 0.978550, CTCLoss: 3.181971, NRTRLoss: 1.342998, loss: 4.531217, avg_reader_cost: 0.00176 s, avg_batch_cost: 0.31693 s, avg_samples: 16.0, ips: 50.48492 samples/s, eta: 0:13:38, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:38:19] ppocr INFO: epoch: [42/71], global_step: 3570, lr: 0.000044, acc: 0.812499, norm_edit_dis: 0.978612, CTCLoss: 5.616961, NRTRLoss: 1.340789, loss: 6.956831, avg_reader_cost: 0.00070 s, avg_batch_cost: 0.12650 s, avg_samples: 6.4, ips: 50.59226 samples/s, eta: 0:13:32, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:38:20] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:38:30] ppocr INFO: epoch: [43/71], global_step: 3600, lr: 0.000043, acc: 0.812499, norm_edit_dis: 0.973942, CTCLoss: 4.800733, NRTRLoss: 1.349026, loss: 6.137759, avg_reader_cost: 0.01991 s, avg_batch_cost: 0.20958 s, avg_samples: 9.6, ips: 45.80615 samples/s, eta: 0:13:22, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+
+eval model::   0%|          | 0/9 [00:00<?, ?it/s]
+eval model::  11%|█         | 1/9 [00:00<00:03,  2.44it/s]
+eval model::  22%|██▏       | 2/9 [00:00<00:01,  4.07it/s]
+eval model::  33%|███▎      | 3/9 [00:00<00:01,  5.19it/s]
+eval model::  44%|████▍     | 4/9 [00:00<00:00,  5.95it/s]
+eval model::  56%|█████▌    | 5/9 [00:00<00:00,  6.49it/s]
+eval model::  67%|██████▋   | 6/9 [00:01<00:00,  6.86it/s]
+eval model::  78%|███████▊  | 7/9 [00:01<00:00,  7.10it/s]
+eval model::  89%|████████▉ | 8/9 [00:01<00:00,  7.28it/s]
+eval model:: 100%|██████████| 9/9 [00:01<00:00,  5.94it/s]
+[2026/11/10 02:38:32] ppocr INFO: cur metric, acc: 0.4044117349697254, norm_edit_dis: 0.8893034619292408, fps: 253.39511445362996
+[2026/11/10 02:38:32] ppocr INFO: best metric, norm_edit_dis: 0.8990804442294629, is_float16: False, acc: 0.4632352600562309, fps: 253.9062814086009, best_epoch: 24
+[2026/11/10 02:38:48] ppocr INFO: epoch: [43/71], global_step: 3650, lr: 0.000042, acc: 0.812499, norm_edit_dis: 0.976120, CTCLoss: 5.478271, NRTRLoss: 1.344241, loss: 6.829031, avg_reader_cost: 0.00180 s, avg_batch_cost: 0.31776 s, avg_samples: 16.0, ips: 50.35323 samples/s, eta: 0:13:05, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:38:49] ppocr INFO: epoch: [43/71], global_step: 3655, lr: 0.000042, acc: 0.781250, norm_edit_dis: 0.973797, CTCLoss: 5.478271, NRTRLoss: 1.348327, loss: 6.829031, avg_reader_cost: 0.00018 s, avg_batch_cost: 0.03156 s, avg_samples: 1.6, ips: 50.69544 samples/s, eta: 0:13:04, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:38:50] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:39:05] ppocr INFO: epoch: [44/71], global_step: 3700, lr: 0.000040, acc: 0.812499, norm_edit_dis: 0.976591, CTCLoss: 4.319558, NRTRLoss: 1.339575, loss: 5.648586, avg_reader_cost: 0.02074 s, avg_batch_cost: 0.30552 s, avg_samples: 14.4, ips: 47.13320 samples/s, eta: 0:12:49, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:39:18] ppocr INFO: epoch: [44/71], global_step: 3740, lr: 0.000039, acc: 0.781250, norm_edit_dis: 0.976435, CTCLoss: 4.112175, NRTRLoss: 1.335348, loss: 5.454145, avg_reader_cost: 0.00143 s, avg_batch_cost: 0.25227 s, avg_samples: 12.8, ips: 50.73834 samples/s, eta: 0:12:36, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:39:19] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:39:23] ppocr INFO: epoch: [45/71], global_step: 3750, lr: 0.000039, acc: 0.750000, norm_edit_dis: 0.974812, CTCLoss: 5.548809, NRTRLoss: 1.343421, loss: 6.882871, avg_reader_cost: 0.01982 s, avg_batch_cost: 0.08373 s, avg_samples: 3.2, ips: 38.21683 samples/s, eta: 0:12:33, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:39:39] ppocr INFO: epoch: [45/71], global_step: 3800, lr: 0.000038, acc: 0.781250, norm_edit_dis: 0.975861, CTCLoss: 5.170174, NRTRLoss: 1.346455, loss: 6.496105, avg_reader_cost: 0.00178 s, avg_batch_cost: 0.31730 s, avg_samples: 16.0, ips: 50.42576 samples/s, eta: 0:12:16, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:39:47] ppocr INFO: epoch: [45/71], global_step: 3825, lr: 0.000037, acc: 0.812499, norm_edit_dis: 0.970710, CTCLoss: 8.350324, NRTRLoss: 1.346433, loss: 9.697183, avg_reader_cost: 0.00230 s, avg_batch_cost: 0.15965 s, avg_samples: 8.0, ips: 50.11047 samples/s, eta: 0:12:08, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:39:48] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:39:57] ppocr INFO: epoch: [46/71], global_step: 3850, lr: 0.000037, acc: 0.812499, norm_edit_dis: 0.979029, CTCLoss: 4.420387, NRTRLoss: 1.340734, loss: 5.757007, avg_reader_cost: 0.02046 s, avg_batch_cost: 0.17826 s, avg_samples: 8.0, ips: 44.87767 samples/s, eta: 0:12:00, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:40:13] ppocr INFO: epoch: [46/71], global_step: 3900, lr: 0.000035, acc: 0.812499, norm_edit_dis: 0.978610, CTCLoss: 4.760304, NRTRLoss: 1.335367, loss: 6.114978, avg_reader_cost: 0.00176 s, avg_batch_cost: 0.31934 s, avg_samples: 16.0, ips: 50.10317 samples/s, eta: 0:11:43, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:40:16] ppocr INFO: epoch: [46/71], global_step: 3910, lr: 0.000035, acc: 0.812499, norm_edit_dis: 0.986749, CTCLoss: 2.681139, NRTRLoss: 1.333272, loss: 4.024662, avg_reader_cost: 0.00037 s, avg_batch_cost: 0.06340 s, avg_samples: 3.2, ips: 50.47301 samples/s, eta: 0:11:40, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:40:17] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:40:30] ppocr INFO: epoch: [47/71], global_step: 3950, lr: 0.000034, acc: 0.843749, norm_edit_dis: 0.976258, CTCLoss: 6.551236, NRTRLoss: 1.340689, loss: 7.878164, avg_reader_cost: 0.02234 s, avg_batch_cost: 0.27363 s, avg_samples: 12.8, ips: 46.77914 samples/s, eta: 0:11:27, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:40:44] ppocr INFO: epoch: [47/71], global_step: 3995, lr: 0.000033, acc: 0.812499, norm_edit_dis: 0.978059, CTCLoss: 6.234510, NRTRLoss: 1.336634, loss: 7.573315, avg_reader_cost: 0.00163 s, avg_batch_cost: 0.28368 s, avg_samples: 14.4, ips: 50.76107 samples/s, eta: 0:11:11, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:40:45] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:40:48] ppocr INFO: epoch: [48/71], global_step: 4000, lr: 0.000033, acc: 0.812499, norm_edit_dis: 0.976860, CTCLoss: 4.984156, NRTRLoss: 1.333317, loss: 6.319736, avg_reader_cost: 0.02129 s, avg_batch_cost: 0.05299 s, avg_samples: 1.6, ips: 30.19588 samples/s, eta: 0:11:10, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+
+eval model::   0%|          | 0/9 [00:00<?, ?it/s]
+eval model::  11%|█         | 1/9 [00:00<00:03,  2.29it/s]
+eval model::  22%|██▏       | 2/9 [00:00<00:01,  3.85it/s]
+eval model::  33%|███▎      | 3/9 [00:00<00:01,  4.97it/s]
+eval model::  44%|████▍     | 4/9 [00:00<00:00,  5.74it/s]
+eval model::  56%|█████▌    | 5/9 [00:00<00:00,  6.28it/s]
+eval model::  67%|██████▋   | 6/9 [00:01<00:00,  6.67it/s]
+eval model::  78%|███████▊  | 7/9 [00:01<00:00,  6.94it/s]
+eval model::  89%|████████▉ | 8/9 [00:01<00:00,  7.14it/s]
+eval model:: 100%|██████████| 9/9 [00:01<00:00,  5.74it/s]
+[2026/11/10 02:40:50] ppocr INFO: cur metric, acc: 0.4044117349697254, norm_edit_dis: 0.883954641135098, fps: 253.48215594236825
+[2026/11/10 02:40:50] ppocr INFO: best metric, norm_edit_dis: 0.8990804442294629, is_float16: False, acc: 0.4632352600562309, fps: 253.9062814086009, best_epoch: 24
+[2026/11/10 02:41:06] ppocr INFO: epoch: [48/71], global_step: 4050, lr: 0.000032, acc: 0.812499, norm_edit_dis: 0.984523, CTCLoss: 4.852299, NRTRLoss: 1.330612, loss: 6.191893, avg_reader_cost: 0.00178 s, avg_batch_cost: 0.31897 s, avg_samples: 16.0, ips: 50.16160 samples/s, eta: 0:10:54, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:41:15] ppocr INFO: epoch: [48/71], global_step: 4080, lr: 0.000031, acc: 0.812499, norm_edit_dis: 0.978484, CTCLoss: 3.124390, NRTRLoss: 1.330574, loss: 4.451560, avg_reader_cost: 0.00107 s, avg_batch_cost: 0.18933 s, avg_samples: 9.6, ips: 50.70549 samples/s, eta: 0:10:44, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:41:16] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:41:24] ppocr INFO: epoch: [49/71], global_step: 4100, lr: 0.000030, acc: 0.812499, norm_edit_dis: 0.981706, CTCLoss: 3.537127, NRTRLoss: 1.333641, loss: 4.872599, avg_reader_cost: 0.02286 s, avg_batch_cost: 0.14848 s, avg_samples: 6.4, ips: 43.10472 samples/s, eta: 0:10:37, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:41:40] ppocr INFO: epoch: [49/71], global_step: 4150, lr: 0.000029, acc: 0.874999, norm_edit_dis: 0.979971, CTCLoss: 3.573340, NRTRLoss: 1.327684, loss: 4.910084, avg_reader_cost: 0.00177 s, avg_batch_cost: 0.31876 s, avg_samples: 16.0, ips: 50.19446 samples/s, eta: 0:10:21, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:41:44] ppocr INFO: epoch: [49/71], global_step: 4165, lr: 0.000029, acc: 0.812499, norm_edit_dis: 0.971966, CTCLoss: 5.828546, NRTRLoss: 1.346808, loss: 7.213882, avg_reader_cost: 0.00055 s, avg_batch_cost: 0.09487 s, avg_samples: 4.8, ips: 50.59520 samples/s, eta: 0:10:16, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:41:45] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:41:57] ppocr INFO: epoch: [50/71], global_step: 4200, lr: 0.000028, acc: 0.812499, norm_edit_dis: 0.983340, CTCLoss: 3.760568, NRTRLoss: 1.328479, loss: 5.113008, avg_reader_cost: 0.02122 s, avg_batch_cost: 0.24445 s, avg_samples: 11.2, ips: 45.81800 samples/s, eta: 0:10:04, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:42:13] ppocr INFO: epoch: [50/71], global_step: 4250, lr: 0.000027, acc: 0.812499, norm_edit_dis: 0.979312, CTCLoss: 4.384729, NRTRLoss: 1.326289, loss: 5.706751, avg_reader_cost: 0.00180 s, avg_batch_cost: 0.32062 s, avg_samples: 16.0, ips: 49.90314 samples/s, eta: 0:09:48, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:42:14] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:42:31] ppocr INFO: epoch: [51/71], global_step: 4300, lr: 0.000026, acc: 0.874999, norm_edit_dis: 0.980669, CTCLoss: 4.397553, NRTRLoss: 1.323292, loss: 5.754666, avg_reader_cost: 0.02455 s, avg_batch_cost: 0.34094 s, avg_samples: 16.0, ips: 46.92942 samples/s, eta: 0:09:31, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:42:42] ppocr INFO: epoch: [51/71], global_step: 4335, lr: 0.000025, acc: 0.750000, norm_edit_dis: 0.974494, CTCLoss: 9.620286, NRTRLoss: 1.337342, loss: 10.945090, avg_reader_cost: 0.00124 s, avg_batch_cost: 0.22091 s, avg_samples: 11.2, ips: 50.69889 samples/s, eta: 0:09:20, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:42:43] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:42:49] ppocr INFO: epoch: [52/71], global_step: 4350, lr: 0.000025, acc: 0.812499, norm_edit_dis: 0.969718, CTCLoss: 5.881630, NRTRLoss: 1.342395, loss: 7.250341, avg_reader_cost: 0.02108 s, avg_batch_cost: 0.11625 s, avg_samples: 4.8, ips: 41.29062 samples/s, eta: 0:09:15, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:43:05] ppocr INFO: epoch: [52/71], global_step: 4400, lr: 0.000024, acc: 0.843749, norm_edit_dis: 0.978735, CTCLoss: 4.599674, NRTRLoss: 1.327235, loss: 5.931998, avg_reader_cost: 0.00177 s, avg_batch_cost: 0.31848 s, avg_samples: 16.0, ips: 50.23861 samples/s, eta: 0:08:58, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+
+eval model::   0%|          | 0/9 [00:00<?, ?it/s]
+eval model::  11%|█         | 1/9 [00:00<00:03,  2.28it/s]
+eval model::  22%|██▏       | 2/9 [00:00<00:01,  3.83it/s]
+eval model::  33%|███▎      | 3/9 [00:00<00:01,  4.97it/s]
+eval model::  44%|████▍     | 4/9 [00:00<00:00,  5.77it/s]
+eval model::  56%|█████▌    | 5/9 [00:00<00:00,  6.33it/s]
+eval model::  67%|██████▋   | 6/9 [00:01<00:00,  6.75it/s]
+eval model::  78%|███████▊  | 7/9 [00:01<00:00,  7.03it/s]
+eval model::  89%|████████▉ | 8/9 [00:01<00:00,  7.23it/s]
+eval model:: 100%|██████████| 9/9 [00:01<00:00,  5.81it/s]
+[2026/11/10 02:43:06] ppocr INFO: cur metric, acc: 0.39705879433391217, norm_edit_dis: 0.8861571880337664, fps: 252.80945245518748
+[2026/11/10 02:43:06] ppocr INFO: best metric, norm_edit_dis: 0.8990804442294629, is_float16: False, acc: 0.4632352600562309, fps: 253.9062814086009, best_epoch: 24
+[2026/11/10 02:43:13] ppocr INFO: epoch: [52/71], global_step: 4420, lr: 0.000023, acc: 0.874999, norm_edit_dis: 0.976715, CTCLoss: 3.975526, NRTRLoss: 1.337282, loss: 5.314184, avg_reader_cost: 0.00069 s, avg_batch_cost: 0.12604 s, avg_samples: 6.4, ips: 50.77791 samples/s, eta: 0:08:52, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:43:14] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:43:24] ppocr INFO: epoch: [53/71], global_step: 4450, lr: 0.000022, acc: 0.874999, norm_edit_dis: 0.977428, CTCLoss: 4.888099, NRTRLoss: 1.331509, loss: 6.231418, avg_reader_cost: 0.02015 s, avg_batch_cost: 0.20925 s, avg_samples: 9.6, ips: 45.87828 samples/s, eta: 0:08:42, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:43:40] ppocr INFO: epoch: [53/71], global_step: 4500, lr: 0.000021, acc: 0.812499, norm_edit_dis: 0.972779, CTCLoss: 6.694946, NRTRLoss: 1.334465, loss: 8.029097, avg_reader_cost: 0.00178 s, avg_batch_cost: 0.31578 s, avg_samples: 16.0, ips: 50.66803 samples/s, eta: 0:08:25, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:43:42] ppocr INFO: epoch: [53/71], global_step: 4505, lr: 0.000021, acc: 0.812499, norm_edit_dis: 0.970295, CTCLoss: 7.313952, NRTRLoss: 1.334465, loss: 8.638113, avg_reader_cost: 0.00019 s, avg_batch_cost: 0.03168 s, avg_samples: 1.6, ips: 50.49935 samples/s, eta: 0:08:24, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:43:42] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:43:58] ppocr INFO: epoch: [54/71], global_step: 4550, lr: 0.000020, acc: 0.843749, norm_edit_dis: 0.984187, CTCLoss: 2.649650, NRTRLoss: 1.323749, loss: 3.974024, avg_reader_cost: 0.02398 s, avg_batch_cost: 0.30795 s, avg_samples: 14.4, ips: 46.76155 samples/s, eta: 0:08:09, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:44:10] ppocr INFO: epoch: [54/71], global_step: 4590, lr: 0.000019, acc: 0.874999, norm_edit_dis: 0.987339, CTCLoss: 2.250875, NRTRLoss: 1.332321, loss: 3.603104, avg_reader_cost: 0.00145 s, avg_batch_cost: 0.25323 s, avg_samples: 12.8, ips: 50.54682 samples/s, eta: 0:07:56, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:44:11] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:44:16] ppocr INFO: epoch: [55/71], global_step: 4600, lr: 0.000019, acc: 0.812499, norm_edit_dis: 0.973661, CTCLoss: 7.445024, NRTRLoss: 1.339493, loss: 8.807260, avg_reader_cost: 0.02257 s, avg_batch_cost: 0.08628 s, avg_samples: 3.2, ips: 37.08979 samples/s, eta: 0:07:53, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:44:32] ppocr INFO: epoch: [55/71], global_step: 4650, lr: 0.000018, acc: 0.843749, norm_edit_dis: 0.977192, CTCLoss: 3.267706, NRTRLoss: 1.332206, loss: 4.608338, avg_reader_cost: 0.00179 s, avg_batch_cost: 0.31817 s, avg_samples: 16.0, ips: 50.28704 samples/s, eta: 0:07:36, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:44:40] ppocr INFO: epoch: [55/71], global_step: 4675, lr: 0.000018, acc: 0.812499, norm_edit_dis: 0.983767, CTCLoss: 5.947980, NRTRLoss: 1.327479, loss: 7.276145, avg_reader_cost: 0.00091 s, avg_batch_cost: 0.15730 s, avg_samples: 8.0, ips: 50.85669 samples/s, eta: 0:07:28, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:44:41] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:44:50] ppocr INFO: epoch: [56/71], global_step: 4700, lr: 0.000017, acc: 0.874999, norm_edit_dis: 0.982675, CTCLoss: 2.403015, NRTRLoss: 1.331199, loss: 3.730792, avg_reader_cost: 0.02348 s, avg_batch_cost: 0.18113 s, avg_samples: 8.0, ips: 44.16807 samples/s, eta: 0:07:20, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:45:05] ppocr INFO: epoch: [56/71], global_step: 4750, lr: 0.000016, acc: 0.781250, norm_edit_dis: 0.976265, CTCLoss: 5.259067, NRTRLoss: 1.334581, loss: 6.594481, avg_reader_cost: 0.00179 s, avg_batch_cost: 0.31678 s, avg_samples: 16.0, ips: 50.50823 samples/s, eta: 0:07:03, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:45:09] ppocr INFO: epoch: [56/71], global_step: 4760, lr: 0.000016, acc: 0.812499, norm_edit_dis: 0.967750, CTCLoss: 9.067795, NRTRLoss: 1.341339, loss: 10.399384, avg_reader_cost: 0.00037 s, avg_batch_cost: 0.06256 s, avg_samples: 3.2, ips: 51.15399 samples/s, eta: 0:07:00, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:45:10] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:45:23] ppocr INFO: epoch: [57/71], global_step: 4800, lr: 0.000015, acc: 0.781250, norm_edit_dis: 0.967144, CTCLoss: 6.177897, NRTRLoss: 1.331281, loss: 7.508705, avg_reader_cost: 0.02177 s, avg_batch_cost: 0.27436 s, avg_samples: 12.8, ips: 46.65389 samples/s, eta: 0:06:47, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+
+eval model::   0%|          | 0/9 [00:00<?, ?it/s]
+eval model::  11%|█         | 1/9 [00:00<00:03,  2.29it/s]
+eval model::  22%|██▏       | 2/9 [00:00<00:01,  3.89it/s]
+eval model::  33%|███▎      | 3/9 [00:00<00:01,  5.02it/s]
+eval model::  44%|████▍     | 4/9 [00:00<00:00,  5.82it/s]
+eval model::  56%|█████▌    | 5/9 [00:00<00:00,  6.37it/s]
+eval model::  67%|██████▋   | 6/9 [00:01<00:00,  6.75it/s]
+eval model::  78%|███████▊  | 7/9 [00:01<00:00,  7.02it/s]
+eval model::  89%|████████▉ | 8/9 [00:01<00:00,  7.19it/s]
+eval model:: 100%|██████████| 9/9 [00:01<00:00,  5.71it/s]
+[2026/11/10 02:45:25] ppocr INFO: cur metric, acc: 0.42647055687716495, norm_edit_dis: 0.8956176391984917, fps: 253.4389092303379
+[2026/11/10 02:45:25] ppocr INFO: best metric, norm_edit_dis: 0.8990804442294629, is_float16: False, acc: 0.4632352600562309, fps: 253.9062814086009, best_epoch: 24
+[2026/11/10 02:45:39] ppocr INFO: epoch: [57/71], global_step: 4845, lr: 0.000014, acc: 0.874999, norm_edit_dis: 0.988906, CTCLoss: 3.186929, NRTRLoss: 1.321878, loss: 4.511739, avg_reader_cost: 0.00161 s, avg_batch_cost: 0.28666 s, avg_samples: 14.4, ips: 50.23454 samples/s, eta: 0:06:32, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:45:40] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:45:43] ppocr INFO: epoch: [58/71], global_step: 4850, lr: 0.000014, acc: 0.874999, norm_edit_dis: 0.986994, CTCLoss: 3.953444, NRTRLoss: 1.324810, loss: 5.284739, avg_reader_cost: 0.02398 s, avg_batch_cost: 0.05619 s, avg_samples: 1.6, ips: 28.47454 samples/s, eta: 0:06:30, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:45:59] ppocr INFO: epoch: [58/71], global_step: 4900, lr: 0.000013, acc: 0.874999, norm_edit_dis: 0.984185, CTCLoss: 4.262770, NRTRLoss: 1.320607, loss: 5.585695, avg_reader_cost: 0.00176 s, avg_batch_cost: 0.32137 s, avg_samples: 16.0, ips: 49.78662 samples/s, eta: 0:06:14, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:46:09] ppocr INFO: epoch: [58/71], global_step: 4930, lr: 0.000013, acc: 0.812499, norm_edit_dis: 0.982447, CTCLoss: 3.891675, NRTRLoss: 1.326193, loss: 5.214568, avg_reader_cost: 0.00107 s, avg_batch_cost: 0.19045 s, avg_samples: 9.6, ips: 50.40670 samples/s, eta: 0:06:04, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:46:10] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:46:17] ppocr INFO: epoch: [59/71], global_step: 4950, lr: 0.000013, acc: 0.843749, norm_edit_dis: 0.978996, CTCLoss: 5.974164, NRTRLoss: 1.333974, loss: 7.303862, avg_reader_cost: 0.02270 s, avg_batch_cost: 0.15076 s, avg_samples: 6.4, ips: 42.45172 samples/s, eta: 0:05:57, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:46:33] ppocr INFO: epoch: [59/71], global_step: 5000, lr: 0.000012, acc: 0.812499, norm_edit_dis: 0.973537, CTCLoss: 5.328065, NRTRLoss: 1.332956, loss: 6.647573, avg_reader_cost: 0.00176 s, avg_batch_cost: 0.31997 s, avg_samples: 16.0, ips: 50.00515 samples/s, eta: 0:05:41, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:46:38] ppocr INFO: epoch: [59/71], global_step: 5015, lr: 0.000012, acc: 0.812499, norm_edit_dis: 0.973467, CTCLoss: 8.819702, NRTRLoss: 1.334876, loss: 10.158593, avg_reader_cost: 0.00055 s, avg_batch_cost: 0.09473 s, avg_samples: 4.8, ips: 50.66818 samples/s, eta: 0:05:36, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:46:39] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:46:51] ppocr INFO: epoch: [60/71], global_step: 5050, lr: 0.000011, acc: 0.812499, norm_edit_dis: 0.980866, CTCLoss: 6.055858, NRTRLoss: 1.329481, loss: 7.396599, avg_reader_cost: 0.02205 s, avg_batch_cost: 0.24438 s, avg_samples: 11.2, ips: 45.83061 samples/s, eta: 0:05:24, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:47:07] ppocr INFO: epoch: [60/71], global_step: 5100, lr: 0.000010, acc: 0.812499, norm_edit_dis: 0.976776, CTCLoss: 6.688702, NRTRLoss: 1.326748, loss: 8.028333, avg_reader_cost: 0.00178 s, avg_batch_cost: 0.31676 s, avg_samples: 16.0, ips: 50.51127 samples/s, eta: 0:05:08, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:47:08] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:47:25] ppocr INFO: epoch: [61/71], global_step: 5150, lr: 0.000009, acc: 0.812499, norm_edit_dis: 0.979110, CTCLoss: 4.318822, NRTRLoss: 1.326418, loss: 5.647718, avg_reader_cost: 0.02530 s, avg_batch_cost: 0.34167 s, avg_samples: 16.0, ips: 46.82876 samples/s, eta: 0:04:51, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:47:36] ppocr INFO: epoch: [61/71], global_step: 5185, lr: 0.000009, acc: 0.812499, norm_edit_dis: 0.983425, CTCLoss: 2.500407, NRTRLoss: 1.328525, loss: 3.840525, avg_reader_cost: 0.00124 s, avg_batch_cost: 0.22244 s, avg_samples: 11.2, ips: 50.35081 samples/s, eta: 0:04:40, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:47:37] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:47:43] ppocr INFO: epoch: [62/71], global_step: 5200, lr: 0.000009, acc: 0.812499, norm_edit_dis: 0.981947, CTCLoss: 5.046781, NRTRLoss: 1.325517, loss: 6.373550, avg_reader_cost: 0.02164 s, avg_batch_cost: 0.11698 s, avg_samples: 4.8, ips: 41.03363 samples/s, eta: 0:04:35, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+
+eval model::   0%|          | 0/9 [00:00<?, ?it/s]
+eval model::  11%|█         | 1/9 [00:00<00:03,  2.06it/s]
+eval model::  22%|██▏       | 2/9 [00:00<00:01,  3.61it/s]
+eval model::  33%|███▎      | 3/9 [00:00<00:01,  4.75it/s]
+eval model::  44%|████▍     | 4/9 [00:00<00:00,  5.59it/s]
+eval model::  56%|█████▌    | 5/9 [00:01<00:00,  6.20it/s]
+eval model::  67%|██████▋   | 6/9 [00:01<00:00,  6.64it/s]
+eval model::  78%|███████▊  | 7/9 [00:01<00:00,  6.95it/s]
+eval model::  89%|████████▉ | 8/9 [00:01<00:00,  7.19it/s]
+eval model:: 100%|██████████| 9/9 [00:01<00:00,  5.66it/s]
+[2026/11/10 02:47:45] ppocr INFO: cur metric, acc: 0.4411764381487913, norm_edit_dis: 0.8959952303559044, fps: 253.27461625316747
+[2026/11/10 02:47:45] ppocr INFO: best metric, norm_edit_dis: 0.8990804442294629, is_float16: False, acc: 0.4632352600562309, fps: 253.9062814086009, best_epoch: 24
+[2026/11/10 02:48:01] ppocr INFO: epoch: [62/71], global_step: 5250, lr: 0.000008, acc: 0.874999, norm_edit_dis: 0.983008, CTCLoss: 4.922083, NRTRLoss: 1.338339, loss: 6.266247, avg_reader_cost: 0.00179 s, avg_batch_cost: 0.32071 s, avg_samples: 16.0, ips: 49.88922 samples/s, eta: 0:04:18, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:48:07] ppocr INFO: epoch: [62/71], global_step: 5270, lr: 0.000008, acc: 0.812499, norm_edit_dis: 0.979919, CTCLoss: 5.262924, NRTRLoss: 1.325702, loss: 6.615309, avg_reader_cost: 0.00073 s, avg_batch_cost: 0.12718 s, avg_samples: 6.4, ips: 50.32387 samples/s, eta: 0:04:12, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:48:08] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:48:19] ppocr INFO: epoch: [63/71], global_step: 5300, lr: 0.000007, acc: 0.812499, norm_edit_dis: 0.984821, CTCLoss: 2.599409, NRTRLoss: 1.332348, loss: 3.933572, avg_reader_cost: 0.02154 s, avg_batch_cost: 0.21288 s, avg_samples: 9.6, ips: 45.09504 samples/s, eta: 0:04:02, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:48:34] ppocr INFO: epoch: [63/71], global_step: 5350, lr: 0.000007, acc: 0.874999, norm_edit_dis: 0.975107, CTCLoss: 5.201046, NRTRLoss: 1.330104, loss: 6.544802, avg_reader_cost: 0.00176 s, avg_batch_cost: 0.31683 s, avg_samples: 16.0, ips: 50.50087 samples/s, eta: 0:03:45, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:48:36] ppocr INFO: epoch: [63/71], global_step: 5355, lr: 0.000007, acc: 0.874999, norm_edit_dis: 0.981040, CTCLoss: 4.234097, NRTRLoss: 1.330104, loss: 5.561472, avg_reader_cost: 0.00018 s, avg_batch_cost: 0.03145 s, avg_samples: 1.6, ips: 50.86893 samples/s, eta: 0:03:44, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:48:37] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:48:52] ppocr INFO: epoch: [64/71], global_step: 5400, lr: 0.000006, acc: 0.874999, norm_edit_dis: 0.974934, CTCLoss: 4.252177, NRTRLoss: 1.328064, loss: 5.573751, avg_reader_cost: 0.02226 s, avg_batch_cost: 0.30852 s, avg_samples: 14.4, ips: 46.67459 samples/s, eta: 0:03:29, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:49:05] ppocr INFO: epoch: [64/71], global_step: 5440, lr: 0.000005, acc: 0.812499, norm_edit_dis: 0.977544, CTCLoss: 4.996660, NRTRLoss: 1.329406, loss: 6.329809, avg_reader_cost: 0.00144 s, avg_batch_cost: 0.25611 s, avg_samples: 12.8, ips: 49.97914 samples/s, eta: 0:03:16, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:49:06] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:49:10] ppocr INFO: epoch: [65/71], global_step: 5450, lr: 0.000005, acc: 0.812499, norm_edit_dis: 0.981284, CTCLoss: 4.523898, NRTRLoss: 1.324876, loss: 5.858528, avg_reader_cost: 0.02196 s, avg_batch_cost: 0.08573 s, avg_samples: 3.2, ips: 37.32461 samples/s, eta: 0:03:13, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:49:26] ppocr INFO: epoch: [65/71], global_step: 5500, lr: 0.000005, acc: 0.843749, norm_edit_dis: 0.977007, CTCLoss: 5.414455, NRTRLoss: 1.327612, loss: 6.730861, avg_reader_cost: 0.00177 s, avg_batch_cost: 0.31632 s, avg_samples: 16.0, ips: 50.58152 samples/s, eta: 0:02:56, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:49:34] ppocr INFO: epoch: [65/71], global_step: 5525, lr: 0.000004, acc: 0.843749, norm_edit_dis: 0.981570, CTCLoss: 3.996761, NRTRLoss: 1.334464, loss: 5.349136, avg_reader_cost: 0.00090 s, avg_batch_cost: 0.15740 s, avg_samples: 8.0, ips: 50.82617 samples/s, eta: 0:02:48, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:49:35] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:49:44] ppocr INFO: epoch: [66/71], global_step: 5550, lr: 0.000004, acc: 0.812499, norm_edit_dis: 0.975159, CTCLoss: 7.535075, NRTRLoss: 1.343402, loss: 8.868535, avg_reader_cost: 0.02165 s, avg_batch_cost: 0.18117 s, avg_samples: 8.0, ips: 44.15859 samples/s, eta: 0:02:40, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:50:00] ppocr INFO: epoch: [66/71], global_step: 5600, lr: 0.000004, acc: 0.874999, norm_edit_dis: 0.985578, CTCLoss: 1.986402, NRTRLoss: 1.326890, loss: 3.303816, avg_reader_cost: 0.00179 s, avg_batch_cost: 0.31478 s, avg_samples: 16.0, ips: 50.82878 samples/s, eta: 0:02:23, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+
+eval model::   0%|          | 0/9 [00:00<?, ?it/s]
+eval model::  11%|█         | 1/9 [00:00<00:03,  2.19it/s]
+eval model::  22%|██▏       | 2/9 [00:00<00:01,  3.74it/s]
+eval model::  33%|███▎      | 3/9 [00:00<00:01,  4.84it/s]
+eval model::  44%|████▍     | 4/9 [00:00<00:00,  5.64it/s]
+eval model::  56%|█████▌    | 5/9 [00:00<00:00,  6.21it/s]
+eval model::  67%|██████▋   | 6/9 [00:01<00:00,  6.62it/s]
+eval model::  78%|███████▊  | 7/9 [00:01<00:00,  6.90it/s]
+eval model::  89%|████████▉ | 8/9 [00:01<00:00,  7.10it/s]
+eval model:: 100%|██████████| 9/9 [00:01<00:00,  5.65it/s]
+[2026/11/10 02:50:02] ppocr INFO: cur metric, acc: 0.4338234975129781, norm_edit_dis: 0.8954347468826942, fps: 253.52124835000734
+[2026/11/10 02:50:02] ppocr INFO: best metric, norm_edit_dis: 0.8990804442294629, is_float16: False, acc: 0.4632352600562309, fps: 253.9062814086009, best_epoch: 24
+[2026/11/10 02:50:05] ppocr INFO: epoch: [66/71], global_step: 5610, lr: 0.000004, acc: 0.874999, norm_edit_dis: 0.986721, CTCLoss: 2.099151, NRTRLoss: 1.326879, loss: 3.424949, avg_reader_cost: 0.00036 s, avg_batch_cost: 0.06339 s, avg_samples: 3.2, ips: 50.48507 samples/s, eta: 0:02:20, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:50:06] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:50:20] ppocr INFO: epoch: [67/71], global_step: 5650, lr: 0.000003, acc: 0.843749, norm_edit_dis: 0.980909, CTCLoss: 3.460817, NRTRLoss: 1.334210, loss: 4.788166, avg_reader_cost: 0.02207 s, avg_batch_cost: 0.27554 s, avg_samples: 12.8, ips: 46.45491 samples/s, eta: 0:02:06, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:50:34] ppocr INFO: epoch: [67/71], global_step: 5695, lr: 0.000003, acc: 0.874999, norm_edit_dis: 0.980845, CTCLoss: 5.339142, NRTRLoss: 1.330822, loss: 6.671567, avg_reader_cost: 0.00161 s, avg_batch_cost: 0.28296 s, avg_samples: 14.4, ips: 50.89041 samples/s, eta: 0:01:52, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:50:35] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:50:37] ppocr INFO: epoch: [68/71], global_step: 5700, lr: 0.000003, acc: 0.874999, norm_edit_dis: 0.984479, CTCLoss: 4.244108, NRTRLoss: 1.327106, loss: 5.569175, avg_reader_cost: 0.02093 s, avg_batch_cost: 0.05279 s, avg_samples: 1.6, ips: 30.31012 samples/s, eta: 0:01:50, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:50:53] ppocr INFO: epoch: [68/71], global_step: 5750, lr: 0.000002, acc: 0.874999, norm_edit_dis: 0.979913, CTCLoss: 3.076619, NRTRLoss: 1.327479, loss: 4.399000, avg_reader_cost: 0.00178 s, avg_batch_cost: 0.31922 s, avg_samples: 16.0, ips: 50.12198 samples/s, eta: 0:01:34, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:51:03] ppocr INFO: epoch: [68/71], global_step: 5780, lr: 0.000002, acc: 0.874999, norm_edit_dis: 0.983381, CTCLoss: 3.292954, NRTRLoss: 1.321137, loss: 4.611525, avg_reader_cost: 0.00108 s, avg_batch_cost: 0.18988 s, avg_samples: 9.6, ips: 50.55831 samples/s, eta: 0:01:24, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:51:04] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:51:11] ppocr INFO: epoch: [69/71], global_step: 5800, lr: 0.000002, acc: 0.812499, norm_edit_dis: 0.971092, CTCLoss: 5.941237, NRTRLoss: 1.321801, loss: 7.259465, avg_reader_cost: 0.02206 s, avg_batch_cost: 0.14848 s, avg_samples: 6.4, ips: 43.10276 samples/s, eta: 0:01:17, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:51:27] ppocr INFO: epoch: [69/71], global_step: 5850, lr: 0.000002, acc: 0.843749, norm_edit_dis: 0.979888, CTCLoss: 5.050415, NRTRLoss: 1.327176, loss: 6.378427, avg_reader_cost: 0.00179 s, avg_batch_cost: 0.31787 s, avg_samples: 16.0, ips: 50.33439 samples/s, eta: 0:01:01, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:51:32] ppocr INFO: epoch: [69/71], global_step: 5865, lr: 0.000002, acc: 0.812499, norm_edit_dis: 0.975126, CTCLoss: 8.212422, NRTRLoss: 1.339835, loss: 9.540855, avg_reader_cost: 0.00054 s, avg_batch_cost: 0.09370 s, avg_samples: 4.8, ips: 51.22952 samples/s, eta: 0:00:56, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:51:33] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:51:45] ppocr INFO: epoch: [70/71], global_step: 5900, lr: 0.000001, acc: 0.812499, norm_edit_dis: 0.979111, CTCLoss: 4.697544, NRTRLoss: 1.324046, loss: 6.029943, avg_reader_cost: 0.02291 s, avg_batch_cost: 0.24350 s, avg_samples: 11.2, ips: 45.99550 samples/s, eta: 0:00:44, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:52:01] ppocr INFO: epoch: [70/71], global_step: 5950, lr: 0.000001, acc: 0.843749, norm_edit_dis: 0.980889, CTCLoss: 4.103614, NRTRLoss: 1.333877, loss: 5.437540, avg_reader_cost: 0.00180 s, avg_batch_cost: 0.31493 s, avg_samples: 16.0, ips: 50.80556 samples/s, eta: 0:00:28, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:52:02] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:52:19] ppocr INFO: epoch: [71/71], global_step: 6000, lr: 0.000001, acc: 0.874999, norm_edit_dis: 0.984700, CTCLoss: 5.841570, NRTRLoss: 1.324299, loss: 7.160944, avg_reader_cost: 0.02410 s, avg_batch_cost: 0.33906 s, avg_samples: 16.0, ips: 47.18940 samples/s, eta: 0:00:11, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+
+eval model::   0%|          | 0/9 [00:00<?, ?it/s]
+eval model::  11%|█         | 1/9 [00:00<00:03,  2.25it/s]
+eval model::  22%|██▏       | 2/9 [00:00<00:01,  3.80it/s]
+eval model::  33%|███▎      | 3/9 [00:00<00:01,  4.92it/s]
+eval model::  44%|████▍     | 4/9 [00:00<00:00,  5.73it/s]
+eval model::  56%|█████▌    | 5/9 [00:00<00:00,  6.32it/s]
+eval model::  67%|██████▋   | 6/9 [00:01<00:00,  6.74it/s]
+eval model::  78%|███████▊  | 7/9 [00:01<00:00,  7.03it/s]
+eval model::  89%|████████▉ | 8/9 [00:01<00:00,  7.24it/s]
+eval model:: 100%|██████████| 9/9 [00:01<00:00,  5.72it/s]
+[2026/11/10 02:52:20] ppocr INFO: cur metric, acc: 0.41176467560553853, norm_edit_dis: 0.8933183514429189, fps: 253.51561469471926
+[2026/11/10 02:52:20] ppocr INFO: best metric, norm_edit_dis: 0.8990804442294629, is_float16: False, acc: 0.4632352600562309, fps: 253.9062814086009, best_epoch: 24
+[2026/11/10 02:52:31] ppocr INFO: epoch: [71/71], global_step: 6035, lr: 0.000001, acc: 0.874999, norm_edit_dis: 0.971492, CTCLoss: 5.836621, NRTRLoss: 1.332852, loss: 7.200753, avg_reader_cost: 0.00124 s, avg_batch_cost: 0.22191 s, avg_samples: 11.2, ips: 50.47027 samples/s, eta: 0:00:00, max_mem_reserved: 13424 MB, max_mem_allocated: 12885 MB
+[2026/11/10 02:52:32] ppocr INFO: save model in /workspace/b2n/experiments/mobile_official_20261110/runs/MGs2/latest
+[2026/11/10 02:52:32] ppocr INFO: best metric, norm_edit_dis: 0.8990804442294629, is_float16: False, acc: 0.4632352600562309, fps: 253.9062814086009, best_epoch: 24

@@ -1,0 +1,117 @@
+/usr/local/lib/python3.13/dist-packages/paddle/utils/cpp_extension/extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+IMG_5096@1 4032 small text (8 px) -> 1 region(s) re-dete {'app': 12, '640': 7, '960': 6, '1280': 9, '1600': 19, '2400': 21, '4000': 30} 57s
+IMG_5097@1 4032 text large enough (104 px) -> quick boxe {'app': 10, '640': 6, '960': 6, '1280': 6, '1600': 10, '2400': 12, '4000': 24} 37s
+IMG_5098@1 4032 text large enough (115 px) -> quick boxe {'app': 9, '640': 6, '960': 6, '1280': 6, '1600': 9, '2400': 10, '4000': 19} 43s
+IMG_5099@1 4032 text large enough (114 px) -> quick boxe {'app': 8, '640': 6, '960': 6, '1280': 7, '1600': 8, '2400': 17, '4000': 19} 39s
+IMG_5100@1 4032 text large enough (146 px) -> quick boxe {'app': 7, '640': 6, '960': 6, '1280': 7, '1600': 7, '2400': 18, '4000': 17} 36s
+IMG_5101@1 4032 small text (12 px) -> 1 region(s) re-det {'app': 11, '640': 6, '960': 6, '1280': 6, '1600': 14, '2400': 21, '4000': 22} 55s
+IMG_5102@1 4032 text large enough (120 px) -> quick boxe {'app': 9, '640': 6, '960': 9, '1280': 8, '1600': 9, '2400': 18, '4000': 10} 34s
+IMG_5103@1 4032 small text (8 px) -> 1 region(s) re-dete {'app': 10, '640': 6, '960': 6, '1280': 7, '1600': 16, '2400': 20, '4000': 28} 55s
+IMG_5104@1 4032 small text (7 px) -> 1 region(s) re-dete {'app': 11, '640': 6, '960': 6, '1280': 6, '1600': 17, '2400': 22, '4000': 15} 54s
+IMG_5105@1 4032 text large enough (84 px) -> quick boxes {'app': 6, '640': 6, '960': 6, '1280': 7, '1600': 6, '2400': 10, '4000': 12} 35s
+IMG_5106@1 4032 text large enough (83 px) -> quick boxes {'app': 6, '640': 6, '960': 6, '1280': 6, '1600': 6, '2400': 8, '4000': 14} 33s
+IMG_5107@1 4032 text large enough (75 px) -> quick boxes {'app': 6, '640': 6, '960': 6, '1280': 6, '1600': 6, '2400': 6, '4000': 13} 35s
+IMG_5108@1 4032 text large enough (78 px) -> quick boxes {'app': 6, '640': 6, '960': 6, '1280': 6, '1600': 6, '2400': 6, '4000': 16} 34s
+IMG_5109@1 4032 small text (17 px) -> 1 region(s) re-det {'app': 9, '640': 5, '960': 5, '1280': 7, '1600': 8, '2400': 10, '4000': 18} 54s
+IMG_5110@1 4032 text large enough (113 px) -> quick boxe {'app': 10, '640': 3, '960': 3, '1280': 5, '1600': 10, '2400': 9, '4000': 14} 33s
+IMG_5111@1 4032 small text (8 px) -> 1 region(s) re-dete {'app': 8, '640': 3, '960': 3, '1280': 9, '1600': 16, '2400': 18, '4000': 13} 56s
+IMG_5112@1 4032 text large enough (56 px) -> quick boxes {'app': 12, '640': 3, '960': 3, '1280': 9, '1600': 12, '2400': 10, '4000': 9} 34s
+IMG_5113@1 4032 text large enough (75 px) -> quick boxes {'app': 4, '640': 2, '960': 2, '1280': 3, '1600': 4, '2400': 10, '4000': 24} 35s
+IMG_5114@1 4032 text large enough (158 px) -> quick boxe {'app': 3, '640': 2, '960': 2, '1280': 2, '1600': 3, '2400': 7, '4000': 15} 35s
+IMG_5115@1 4032 small text (8 px) -> 1 region(s) re-dete {'app': 10, '640': 2, '960': 2, '1280': 5, '1600': 7, '2400': 11, '4000': 14} 51s
+IMG_5116@1 4032 text large enough (66 px) -> quick boxes {'app': 3, '640': 3, '960': 3, '1280': 3, '1600': 3, '2400': 3, '4000': 4} 35s
+IMG_5116@3 4032 text large enough (22 px) -> quick boxes {'app': 3, '640': 0, '960': 3, '1280': 3, '1600': 3, '2400': 3, '4000': 3} 37s
+IMG_5117@1 4032 text large enough (53 px) -> quick boxes {'app': 3, '640': 3, '960': 3, '1280': 3, '1600': 3, '2400': 4, '4000': 8} 37s
+IMG_5117@3 4032 small text (19 px) -> 1 region(s) re-det {'app': 3, '640': 0, '960': 4, '1280': 5, '1600': 3, '2400': 3, '4000': 6} 40s
+IMG_5118@1 4032 text large enough (54 px) -> quick boxes {'app': 3, '640': 4, '960': 3, '1280': 3, '1600': 3, '2400': 3, '4000': 4} 40s
+IMG_5118@3 4032 text large enough (21 px) -> quick boxes {'app': 3, '640': 0, '960': 4, '1280': 4, '1600': 3, '2400': 4, '4000': 5} 40s
+IMG_5122@1 4032 text large enough (61 px) -> quick boxes {'app': 4, '640': 3, '960': 3, '1280': 3, '1600': 4, '2400': 4, '4000': 4} 35s
+IMG_5122@3 4032 text large enough (23 px) -> quick boxes {'app': 3, '640': 0, '960': 2, '1280': 3, '1600': 3, '2400': 4, '4000': 4} 34s
+IMG_5123@1 4032 text large enough (62 px) -> quick boxes {'app': 5, '640': 3, '960': 3, '1280': 4, '1600': 5, '2400': 4, '4000': 11} 34s
+IMG_5123@3 4032 text large enough (23 px) -> quick boxes {'app': 3, '640': 0, '960': 3, '1280': 3, '1600': 3, '2400': 3, '4000': 4} 34s
+IMG_5124@1 4032 text large enough (63 px) -> quick boxes {'app': 4, '640': 3, '960': 3, '1280': 3, '1600': 4, '2400': 5, '4000': 7} 33s
+IMG_5124@3 4032 text large enough (23 px) -> quick boxes {'app': 3, '640': 2, '960': 4, '1280': 3, '1600': 3, '2400': 4, '4000': 4} 35s
+IMG_5119@1 4032 text large enough (78 px) -> quick boxes {'app': 3, '640': 3, '960': 4, '1280': 4, '1600': 3, '2400': 7, '4000': 9} 33s
+IMG_5119@3 4032 text large enough (22 px) -> quick boxes {'app': 5, '640': 1, '960': 4, '1280': 4, '1600': 5, '2400': 5, '4000': 4} 36s
+IMG_5120@1 4032 text large enough (73 px) -> quick boxes {'app': 4, '640': 4, '960': 4, '1280': 4, '1600': 4, '2400': 5, '4000': 8} 35s
+IMG_5120@3 4032 text large enough (22 px) -> quick boxes {'app': 4, '640': 0, '960': 4, '1280': 5, '1600': 4, '2400': 6, '4000': 4} 36s
+IMG_5121@1 4032 text large enough (73 px) -> quick boxes {'app': 4, '640': 4, '960': 4, '1280': 4, '1600': 4, '2400': 6, '4000': 10} 33s
+IMG_5121@3 4032 text large enough (23 px) -> quick boxes {'app': 4, '640': 1, '960': 5, '1280': 5, '1600': 4, '2400': 6, '4000': 5} 34s
+IMG_5125@1 4032 text large enough (58 px) -> quick boxes {'app': 3, '640': 2, '960': 2, '1280': 2, '1600': 3, '2400': 3, '4000': 5} 34s
+IMG_5125@3 4032 text large enough (22 px) -> quick boxes {'app': 2, '640': 2, '960': 3, '1280': 2, '1600': 2, '2400': 2, '4000': 4} 33s
+IMG_5126@1 4032 text large enough (70 px) -> quick boxes {'app': 2, '640': 3, '960': 2, '1280': 2, '1600': 2, '2400': 2, '4000': 5} 33s
+IMG_5126@3 4032 text large enough (22 px) -> quick boxes {'app': 2, '640': 2, '960': 3, '1280': 2, '1600': 2, '2400': 2, '4000': 2} 33s
+IMG_5127@1 4032 text large enough (66 px) -> quick boxes {'app': 2, '640': 2, '960': 2, '1280': 2, '1600': 2, '2400': 2, '4000': 5} 33s
+IMG_5127@3 4032 text large enough (22 px) -> quick boxes {'app': 2, '640': 2, '960': 2, '1280': 2, '1600': 2, '2400': 2, '4000': 2} 33s
+IMG_5128@1 4032 text large enough (77 px) -> quick boxes {'app': 2, '640': 2, '960': 2, '1280': 2, '1600': 2, '2400': 4, '4000': 6} 33s
+IMG_5128@3 4032 text large enough (22 px) -> quick boxes {'app': 3, '640': 2, '960': 3, '1280': 3, '1600': 3, '2400': 6, '4000': 5} 33s
+IMG_5129@1 4032 text large enough (77 px) -> quick boxes {'app': 2, '640': 2, '960': 2, '1280': 2, '1600': 2, '2400': 7, '4000': 5} 33s
+IMG_5129@3 4032 text large enough (22 px) -> quick boxes {'app': 3, '640': 2, '960': 2, '1280': 3, '1600': 3, '2400': 4, '4000': 5} 35s
+IMG_5130@1 4032 text large enough (77 px) -> quick boxes {'app': 2, '640': 2, '960': 2, '1280': 2, '1600': 2, '2400': 4, '4000': 7} 34s
+IMG_5130@3 4032 text large enough (23 px) -> quick boxes {'app': 3, '640': 2, '960': 3, '1280': 3, '1600': 3, '2400': 4, '4000': 5} 34s
+IMG_5131@1 4032 text large enough (43 px) -> quick boxes {'app': 3, '640': 2, '960': 2, '1280': 3, '1600': 3, '2400': 5, '4000': 5} 34s
+IMG_5131@3 4032 text large enough (22 px) -> quick boxes {'app': 4, '640': 2, '960': 2, '1280': 2, '1600': 4, '2400': 5, '4000': 6} 35s
+IMG_5132@1 4032 text large enough (42 px) -> quick boxes {'app': 3, '640': 2, '960': 3, '1280': 3, '1600': 3, '2400': 5, '4000': 6} 34s
+IMG_5132@3 4032 text large enough (21 px) -> quick boxes {'app': 4, '640': 2, '960': 2, '1280': 3, '1600': 4, '2400': 6, '4000': 4} 36s
+IMG_5133@1 4032 text large enough (52 px) -> quick boxes {'app': 2, '640': 2, '960': 2, '1280': 2, '1600': 2, '2400': 4, '4000': 4} 34s
+IMG_5133@3 4032 text large enough (30 px) -> quick boxes {'app': 4, '640': 2, '960': 2, '1280': 3, '1600': 4, '2400': 5, '4000': 4} 34s
+IMG_5134@1 4032 text large enough (48 px) -> quick boxes {'app': 3, '640': 2, '960': 2, '1280': 2, '1600': 3, '2400': 4, '4000': 6} 33s
+IMG_5134@3 4032 small text (15 px) -> 1 region(s) re-det {'app': 3, '640': 1, '960': 3, '1280': 4, '1600': 3, '2400': 5, '4000': 7} 36s
+IMG_5135@1 4032 text large enough (49 px) -> quick boxes {'app': 3, '640': 2, '960': 2, '1280': 2, '1600': 3, '2400': 4, '4000': 5} 34s
+IMG_5135@3 4032 small text (18 px) -> 1 region(s) re-det {'app': 3, '640': 1, '960': 3, '1280': 4, '1600': 4, '2400': 6, '4000': 3} 39s
+IMG_5136@1 4032 text large enough (42 px) -> quick boxes {'app': 2, '640': 3, '960': 3, '1280': 2, '1600': 2, '2400': 2, '4000': 5} 35s
+IMG_5136@3 4032 small text (16 px) -> 1 region(s) re-det {'app': 2, '640': 1, '960': 4, '1280': 4, '1600': 4, '2400': 6, '4000': 6} 35s
+IMG_5137@1 4032 text large enough (40 px) -> quick boxes {'app': 2, '640': 3, '960': 3, '1280': 2, '1600': 2, '2400': 2, '4000': 5} 34s
+IMG_5137@3 4032 small text (18 px) -> 1 region(s) re-det {'app': 3, '640': 1, '960': 4, '1280': 4, '1600': 5, '2400': 5, '4000': 7} 38s
+IMG_5138@1 4032 text large enough (42 px) -> quick boxes {'app': 2, '640': 2, '960': 2, '1280': 2, '1600': 2, '2400': 2, '4000': 3} 35s
+IMG_5138@3 4032 small text (16 px) -> 1 region(s) re-det {'app': 2, '640': 1, '960': 3, '1280': 3, '1600': 3, '2400': 4, '4000': 6} 37s
+JH1@1 4096 text large enough (39 px) -> quick boxes {'app': 9, '640': 9, '960': 9, '1280': 9, '1600': 9, '2400': 9, '4000': 9} 25s
+JH1@4 4096 small text (12 px) -> 1 region(s) re-det {'app': 9, '640': 0, '960': 5, '1280': 9, '1600': 9, '2400': 9, '4000': 9} 26s
+JH2@1 4096 text large enough (70 px) -> quick boxes {'app': 5, '640': 5, '960': 5, '1280': 5, '1600': 5, '2400': 4, '4000': 9} 24s
+/usr/local/lib/python3.13/dist-packages/paddle/utils/cpp_extension/extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+JH2@4 4096 small text (20 px) -> 1 region(s) re-det {'app': 5, '640': 4, '960': 5, '1280': 5, '1600': 5, '2400': 5, '4000': 5} 34s
+JH3@1 4096 text large enough (43 px) -> quick boxes {'app': 8, '640': 8, '960': 8, '1280': 8, '1600': 8, '2400': 8, '4000': 9} 28s
+JH3@4 4096 small text (14 px) -> 1 region(s) re-det {'app': 8, '640': 0, '960': 7, '1280': 8, '1600': 8, '2400': 8, '4000': 8} 26s
+JH4@1 4096 text large enough (49 px) -> quick boxes {'app': 10, '640': 10, '960': 10, '1280': 10, '1600': 10, '2400': 10, '4000': 13} 25s
+JH4@4 4096 small text (15 px) -> 1 region(s) re-det {'app': 10, '640': 2, '960': 10, '1280': 10, '1600': 10, '2400': 10, '4000': 10} 25s
+JH5@1 4096 text large enough (44 px) -> quick boxes {'app': 11, '640': 11, '960': 11, '1280': 11, '1600': 11, '2400': 11, '4000': 11} 23s
+JH5@4 4096 small text (12 px) -> 1 region(s) re-det {'app': 13, '640': 0, '960': 13, '1280': 12, '1600': 11, '2400': 13, '4000': 13} 25s
+JH6@1 4096 text large enough (41 px) -> quick boxes {'app': 8, '640': 8, '960': 8, '1280': 8, '1600': 8, '2400': 8, '4000': 8} 24s
+JH6@4 4096 small text (13 px) -> 1 region(s) re-det {'app': 10, '640': 0, '960': 7, '1280': 8, '1600': 8, '2400': 8, '4000': 8} 25s
+JH7@1 4096 text large enough (39 px) -> quick boxes {'app': 10, '640': 10, '960': 10, '1280': 10, '1600': 10, '2400': 10, '4000': 13} 24s
+JH7@4 4096 small text (14 px) -> 1 region(s) re-det {'app': 10, '640': 0, '960': 8, '1280': 10, '1600': 10, '2400': 10, '4000': 10} 27s
+Jy8@1 1280 text large enough (40 px) -> quick boxes {'app': 38, '640': 33, '960': 38, 'full': 38} 4s
+Jy8@2 1280 text large enough (23 px) -> quick boxes {'app': 36, '640': 34, '960': 32, 'full': 36} 3s
+Jy9@1 1280 text large enough (51 px) -> quick boxes {'app': 10, '640': 10, '960': 10, 'full': 10} 3s
+Jy9@2 1280 text large enough (27 px) -> quick boxes {'app': 10, '640': 10, '960': 10, 'full': 10} 3s
+Jy10@1 1280 text large enough (42 px) -> quick boxes {'app': 7, '640': 7, '960': 7, 'full': 7} 4s
+Jy10@2 1280 text large enough (25 px) -> quick boxes {'app': 7, '640': 7, '960': 7, 'full': 7} 4s
+Jy11@1 1280 text large enough (44 px) -> quick boxes {'app': 7, '640': 7, '960': 7, 'full': 7} 3s
+Jy11@2 1280 text large enough (27 px) -> quick boxes {'app': 7, '640': 7, '960': 7, 'full': 7} 3s
+Jy12@1 1280 text large enough (47 px) -> quick boxes {'app': 26, '640': 26, '960': 26, 'full': 26} 4s
+Jy12@2 1280 text large enough (26 px) -> quick boxes {'app': 26, '640': 26, '960': 26, 'full': 26} 4s
+Jy13@1 1280 text large enough (131 px) -> quick boxe {'app': 3, '640': 3, '960': 3, 'full': 3} 3s
+Jy13@2 1280 text large enough (61 px) -> quick boxes {'app': 3, '640': 3, '960': 3, 'full': 3} 3s
+Jy14@1 1280 text large enough (40 px) -> quick boxes {'app': 50, '640': 49, '960': 50, 'full': 50} 3s
+Jy14@2 1280 text large enough (21 px) -> quick boxes {'app': 50, '640': 43, '960': 49, 'full': 50} 3s
+Jy15@1 1280 text large enough (43 px) -> quick boxes {'app': 43, '640': 34, '960': 37, 'full': 43} 3s
+Jy15@2 1280 text large enough (25 px) -> quick boxes {'app': 36, '640': 35, '960': 32, 'full': 36} 4s
+Jy16@1 1280 text large enough (52 px) -> quick boxes {'app': 9, '640': 9, '960': 9, 'full': 9} 3s
+Jy16@2 1280 text large enough (27 px) -> quick boxes {'app': 9, '640': 9, '960': 9, 'full': 9} 4s
+Jy17@1 1280 text large enough (76 px) -> quick boxes {'app': 8, '640': 8, '960': 8, 'full': 8} 3s
+Jy17@2 1280 text large enough (38 px) -> quick boxes {'app': 8, '640': 8, '960': 8, 'full': 8} 3s
+Jy18@1 1280 text large enough (52 px) -> quick boxes {'app': 17, '640': 17, '960': 17, 'full': 17} 3s
+Jy18@2 1280 text large enough (28 px) -> quick boxes {'app': 17, '640': 17, '960': 17, 'full': 17} 3s
+Jy19@1 1280 text large enough (49 px) -> quick boxes {'app': 30, '640': 30, '960': 30, 'full': 30} 2s
+Jy19@2 1280 text large enough (27 px) -> quick boxes {'app': 30, '640': 30, '960': 30, 'full': 30} 3s
+Jy20@1 1280 text large enough (56 px) -> quick boxes {'app': 23, '640': 23, '960': 23, 'full': 23} 3s
+Jy20@2 1280 text large enough (31 px) -> quick boxes {'app': 23, '640': 23, '960': 23, 'full': 23} 3s
+Jy21@1 1280 text large enough (50 px) -> quick boxes {'app': 11, '640': 11, '960': 11, 'full': 11} 4s
+Jy21@2 1280 text large enough (28 px) -> quick boxes {'app': 11, '640': 11, '960': 11, 'full': 11} 3s
+Jy22@1 1280 text large enough (56 px) -> quick boxes {'app': 10, '640': 10, '960': 10, 'full': 10} 3s
+Jy22@2 1280 text large enough (29 px) -> quick boxes {'app': 10, '640': 10, '960': 10, 'full': 10} 3s
+Jy23@1 1280 text large enough (52 px) -> quick boxes {'app': 9, '640': 9, '960': 9, 'full': 9} 3s
+Jy23@2 1280 text large enough (30 px) -> quick boxes {'app': 9, '640': 11, '960': 9, 'full': 9} 3s
+DETECT DONE

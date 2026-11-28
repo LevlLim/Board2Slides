@@ -1,0 +1,1282 @@
+{
+ "jhs__train__JH1.1.jpg": {
+  "T": 128,
+  "text_positions": 43.2,
+  "chars_inside": 29,
+  "chars_in_padding": 11,
+  "padding_text": "netete eple",
+  "per_position": "A  neetworee ss  e ystt s   fof ttnnnnet _____________neeeteteee_______________________________________________________  eppplle"
+ },
+ "jhs__train__JH1.3.jpg": {
+  "T": 128,
+  "text_positions": 36.1,
+  "chars_inside": 29,
+  "chars_in_padding": 3,
+  "padding_text": "our",
+  "per_position": "_mmesh of wires  or roads tts   grg_________________________________________________________________________________________oour"
+ },
+ "jhs__train__JH1.4.jpg": {
+  "T": 128,
+  "text_positions": 36.1,
+  "chars_inside": 24,
+  "chars_in_padding": 14,
+  "padding_text": " rf a a twtort",
+  "per_position": "of poople f oinnn  oo o  aaraoaaaaa____ __rrf _____a  _a_______________________________________________________________ twttorrt"
+ },
+ "jhs__train__JH1.5.jpg": {
+  "T": 128,
+  "text_positions": 48.4,
+  "chars_inside": 34,
+  "chars_in_padding": 13,
+  "padding_text": "ttu te ntwork",
+  "per_position": "_Compptter metwot_et ecc caacaa aaa  nnttt iat ____ttt_ttu tteeeeeeee__________________________________________________ nntworrk"
+ },
+ "jhs__train__JH1.6.jpg": {
+  "T": 128,
+  "text_positions": 53.5,
+  "chars_inside": 34,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___A_ c_o_mpputeer  n_et_woorkk iis_ aa  lol_lecction___________________________________________________________________________"
+ },
+ "jhs__train__JH2.1.jpg": {
+  "T": 128,
+  "text_positions": 35.5,
+  "chars_inside": 26,
+  "chars_in_padding": 3,
+  "padding_text": "est",
+  "per_position": "__SSuunlight warrms the quueetftr___________________________________________________________________________________________eest"
+ },
+ "jhs__train__JH2.2.jpg": {
+  "T": 128,
+  "text_positions": 30.0,
+  "chars_inside": 22,
+  "chars_in_padding": 4,
+  "padding_text": "nght",
+  "per_position": "_Brright stars shimm  weee i_____________________________________________________________________________________________nnngght"
+ },
+ "jhs__train__JH2.3.jpg": {
+  "T": 128,
+  "text_positions": 35.2,
+  "chars_inside": 26,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "__Cooldd viind  mooves the leeaavess____________________________________________________________________________________________"
+ },
+ "jhs__train__JH2.4.jpg": {
+  "T": 128,
+  "text_positions": 44.6,
+  "chars_inside": 26,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___S__mal_l  biird  s_ing_  sof_t   so_ng_s_____________________________________________________________________________________"
+ },
+ "jhs__train__JH3.1.jpg": {
+  "T": 128,
+  "text_positions": 45.0,
+  "chars_inside": 30,
+  "chars_in_padding": 3,
+  "padding_text": "sed",
+  "per_position": "_Neettorre pacleett are cratttdd andd ro________________________________________________________________________________ssssssed"
+ },
+ "jhs__train__JH3.4.jpg": {
+  "T": 128,
+  "text_positions": 47.8,
+  "chars_inside": 36,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "__aad_ded   with sspecific  heeaders ffor encchh________________________________________________________________________________"
+ },
+ "jhs__train__JH3.6.jpg": {
+  "T": 128,
+  "text_positions": 78.1,
+  "chars_inside": 42,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____n_e_t_w_o_rk_   fo_rm__  thhe_  s_o_u_r_ce_  t_o_ t_h_e  d_es_tin_attion____________________________________________________"
+ },
+ "jhs__train__JH3.7.jpg": {
+  "T": 128,
+  "text_positions": 75.0,
+  "chars_inside": 43,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____Th__e  v_ul_nerrabiilityy  wil_l  NNEE_V__E_R   ca_usse   a_ny  riisk_______________________________________________________"
+ },
+ "jhs__train__JH3.8.jpg": {
+  "T": 128,
+  "text_positions": 70.1,
+  "chars_inside": 39,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___O__r  llo_s_s_   W_I_T_H_O_U_T_  a_nyy aat_taccks  oor_  explluitts__________________________________________________________"
+ },
+ "jhs__train__JH4.1.jpg": {
+  "T": 128,
+  "text_positions": 42.8,
+  "chars_inside": 29,
+  "chars_in_padding": 2,
+  "padding_text": "es",
+  "per_position": "___DooS_ annd  D_DO_S expplit  opnn servi____________________________________________________________________________________ees"
+ },
+ "jhs__train__JH4.2.jpg": {
+  "T": 128,
+  "text_positions": 31.9,
+  "chars_inside": 27,
+  "chars_in_padding": 1,
+  "padding_text": "s",
+  "per_position": "_forr TCP  and  UDP port number________________________________________________________________________________________________s"
+ },
+ "jhs__train__JH4.3.jpg": {
+  "T": 128,
+  "text_positions": 36.5,
+  "chars_inside": 25,
+  "chars_in_padding": 8,
+  "padding_text": "s cports",
+  "per_position": "_mitm  exptits uannccreedddorustt__________________s___________________________________________________________________ ccportts"
+ },
+ "jhs__train__JH4.4.jpg": {
+  "T": 128,
+  "text_positions": 59.4,
+  "chars_inside": 44,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "__P_ackeet ssnif_fing  eexploits  unnencrryptedd paaccieets_____________________________________________________________________"
+ },
+ "jhs__train__JH4.5.jpg": {
+  "T": 128,
+  "text_positions": 60.2,
+  "chars_inside": 39,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___thha_t ccont_ain_  crreddentiials.  Po_rt_  sccan__ninng_____________________________________________________________________"
+ },
+ "jhs__train__JH4.6.jpg": {
+  "T": 128,
+  "text_positions": 65.8,
+  "chars_inside": 43,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___expploitts  unnfilttereedd seer_vice  forr T_cr  a_n_d  U_D_p________________________________________________________________"
+ },
+ "jhs__train__JH4.7.jpg": {
+  "T": 128,
+  "text_positions": 55.6,
+  "chars_inside": 35,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___p_or_t  n_um__berrs.. ARR_P  sppo_ofing  eexpploitts_________________________________________________________________________"
+ },
+ "jhs__train__JH4.8.jpg": {
+  "T": 128,
+  "text_positions": 77.0,
+  "chars_inside": 47,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___U_nssecu_re_d  pphyssiccal  porrt_s coon_nnecttedd  t_o_  att_ta_c_keer_s____________________________________________________"
+ },
+ "jhs__train__JH4.9.jpg": {
+  "T": 128,
+  "text_positions": 52.8,
+  "chars_inside": 37,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___Overrwhhclmm tth_e b_an_dwidthh oof thhe t_argeet____________________________________________________________________________"
+ },
+ "jhs__train__JH4.10.jpg": {
+  "T": 128,
+  "text_positions": 58.8,
+  "chars_inside": 39,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___I_f_  thhe_  t_argeet  coon  onnhy sservicee  requesttss_____________________________________________________________________"
+ },
+ "jhs__train__JH5.1.jpg": {
+  "T": 128,
+  "text_positions": 47.6,
+  "chars_inside": 37,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_DDisruppt thhe see_vicee by ssendingg annomaaly________________________________________________________________________________"
+ },
+ "jhs__train__JH5.2.jpg": {
+  "T": 128,
+  "text_positions": 49.6,
+  "chars_inside": 35,
+  "chars_in_padding": 12,
+  "padding_text": "cec ecequest",
+  "per_position": "_HHr_TP raquests, Nrs qu susrn_ues Cc_O___  ________________cccec   _e__________________________________________________ceqquest"
+ },
+ "jhs__train__JH5.3.jpg": {
+  "T": 128,
+  "text_positions": 36.8,
+  "chars_inside": 25,
+  "chars_in_padding": 15,
+  "padding_text": " db scsuce uces",
+  "per_position": "Thh  requestssoot   tuitaiennni t______   db   scsssuc___e_____________________________________________________________ ucceeess"
+ },
+ "jhs__train__JH5.4.jpg": {
+  "T": 128,
+  "text_positions": 48.2,
+  "chars_inside": 32,
+  "chars_in_padding": 5,
+  "padding_text": "ctcks",
+  "per_position": "_Disttibutee  refleetieeddedmm  naa erv_n _t___________________cct______________________________________________________ccccckss"
+ },
+ "jhs__train__JH5.5.jpg": {
+  "T": 128,
+  "text_positions": 50.8,
+  "chars_inside": 38,
+  "chars_in_padding": 2,
+  "padding_text": "an",
+  "per_position": "__tocus on  taking doomm the  avvailabiliil  t__ _____________________________________________________________________________an"
+ },
+ "jhs__train__JH5.6.jpg": {
+  "T": 128,
+  "text_positions": 74.6,
+  "chars_inside": 44,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___a_s_s_et  t_hrroug_h  a_n   ovverwwhhelm_inng  v_olum__e  of_  H_T_T_P_______________________________________________________"
+ },
+ "jhs__train__JH5.7.jpg": {
+  "T": 128,
+  "text_positions": 92.1,
+  "chars_inside": 46,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___t_h_e_  a_t_t_a_ck_er_   w_o_ul_d  s_en_d_  a_n__  H_TT_T_P   reeq_u_estt  a__s_  t_h_e______________________________________"
+ },
+ "jhs__train__JH5.8.jpg": {
+  "T": 128,
+  "text_positions": 45.9,
+  "chars_inside": 36,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "__thhe  protoccol oof  choice tor tthis ttupee__________________________________________________________________________________"
+ },
+ "jhs__train__JH5.9.jpg": {
+  "T": 128,
+  "text_positions": 78.8,
+  "chars_inside": 44,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____o_f_  att_ta_ck__  W_IIT_H_o_u_T_  eesstabblish_   Coon_necctionn  sta_te___________________________________________________"
+ },
+ "jhs__train__JH6.1.jpg": {
+  "T": 128,
+  "text_positions": 46.8,
+  "chars_inside": 36,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___B_ot iis a  typpe  of  mallieiovs sof_twhare_________________________________________________________________________________"
+ },
+ "jhs__train__JH6.2.jpg": {
+  "T": 128,
+  "text_positions": 49.8,
+  "chars_inside": 37,
+  "chars_in_padding": 13,
+  "padding_text": " o ho coputer",
+  "per_position": "thaat al_loos te  e taaer c cppeeovmee ccte cco_____ o_____        h_o_________________________________________________ coputter"
+ },
+ "jhs__train__JH6.4.jpg": {
+  "T": 128,
+  "text_positions": 35.0,
+  "chars_inside": 18,
+  "chars_in_padding": 11,
+  "padding_text": "  du f ing.",
+  "per_position": "A  btteelts    ttee  o     s  s   ____ _____   du     f________________________________________________________________   innng."
+ },
+ "jhs__train__JH6.5.jpg": {
+  "T": 128,
+  "text_positions": 36.4,
+  "chars_inside": 24,
+  "chars_in_padding": 10,
+  "padding_text": " n g agton",
+  "per_position": "_Ammoon  loose to youe  oaueeeo ______________ ___n gg__________________________________________________________________ agttoon"
+ },
+ "jhs__train__JH6.6.jpg": {
+  "T": 128,
+  "text_positions": 38.4,
+  "chars_inside": 22,
+  "chars_in_padding": 9,
+  "padding_text": "remems to",
+  "per_position": "_faaee hiit   cces_s pinn  hhtttapg__________________re_________________________________________________________________mems too"
+ },
+ "jhs__train__JH6.8.jpg": {
+  "T": 128,
+  "text_positions": 76.1,
+  "chars_inside": 39,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____Cllieen_t   iss_  ass_so_ciia_te_d_  t_o  tth_e_  H_oot_  S_poot  A_P_______________________________________________________"
+ },
+ "jhs__train__JH7.1.jpg": {
+  "T": 128,
+  "text_positions": 45.9,
+  "chars_inside": 31,
+  "chars_in_padding": 8,
+  "padding_text": " e   aos",
+  "per_position": "Ii  it is unenncrpptedd heenn  ee eee meem_____________   ee   __ _____________________________________________________  aooosss"
+ },
+ "jhs__train__JH7.3.jpg": {
+  "T": 128,
+  "text_positions": 35.9,
+  "chars_inside": 31,
+  "chars_in_padding": 16,
+  "padding_text": " tb fo of uature",
+  "per_position": "Reohcs on he   emteeco vo vos  ivio___   tb      ffo  off______________________________________________________________ uatuurre"
+ },
+ "jhs__train__JH7.4.jpg": {
+  "T": 128,
+  "text_positions": 36.6,
+  "chars_inside": 26,
+  "chars_in_padding": 13,
+  "padding_text": "tct te detest",
+  "per_position": "_pas_sive smiitiiggis   ditit tt t____________tctttt  teee_____________________________________________________________ detttest"
+ },
+ "jhs__train__JH7.5.jpg": {
+  "T": 128,
+  "text_positions": 36.5,
+  "chars_inside": 23,
+  "chars_in_padding": 16,
+  "padding_text": "  uete t utworke",
+  "per_position": "bbut ddees not  or eeeeeae   s iiie_____ ______ _uete tt_______________________________________________________________ uttworke"
+ },
+ "jhs__train__JH7.6.jpg": {
+  "T": 128,
+  "text_positions": 40.9,
+  "chars_inside": 31,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___Weeb losiin pas_swordd Capture  demmoo_______________________________________________________________________________________"
+ },
+ "jhs__train__JH7.8.jpg": {
+  "T": 128,
+  "text_positions": 52.8,
+  "chars_inside": 28,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____O_pe_n  a_  w_eb_  b_r_ow_se_r  a_n_d  g_o t_o______________________________________________________________________________"
+ },
+ "jhs__train__JH7.9.jpg": {
+  "T": 128,
+  "text_positions": 51.4,
+  "chars_inside": 30,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___O__n  th_e  toop rright  oof_  t_hee  sccree_een_____________________________________________________________________________"
+ },
+ "jhs__train__JH7.10.jpg": {
+  "T": 128,
+  "text_positions": 54.4,
+  "chars_inside": 33,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___A__  pass_swoor_d  o_f_ ttopp ssecrret  pas_sw_ord___________________________________________________________________________"
+ },
+ "jhs__test__JH1.2.jpg": {
+  "T": 128,
+  "text_positions": 31.5,
+  "chars_inside": 25,
+  "chars_in_padding": 4,
+  "padding_text": "ical",
+  "per_position": "Thiis canm range ftoonna  ha_i___________________________________________________________________________________________iiicaal"
+ },
+ "jhs__test__JH1.7.jpg": {
+  "T": 128,
+  "text_positions": 62.6,
+  "chars_inside": 45,
+  "chars_in_padding": 3,
+  "padding_text": "aht",
+  "per_position": "__Clieent  Serveer architeeecture iss a  enttalizeed aa_pr___________________________________________________________________aht"
+ },
+ "jhs__test__JH1.8.jpg": {
+  "T": 128,
+  "text_positions": 57.6,
+  "chars_inside": 32,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___m__o_re_  s_c_al_ab_lee  f_or_  l_arrgee  neetwoorkkss_______________________________________________________________________"
+ },
+ "jhs__test__JH1.9.jpg": {
+  "T": 128,
+  "text_positions": 63.1,
+  "chars_inside": 40,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "__P_e_err t_o  pe_err  iss   a_  deeceentralisedd  ap_prruaachh_________________________________________________________________"
+ },
+ "jhs__test__JH3.2.jpg": {
+  "T": 128,
+  "text_positions": 44.4,
+  "chars_inside": 31,
+  "chars_in_padding": 3,
+  "padding_text": "chy",
+  "per_position": "__b_asedd on  the netwworkk layeers heer___________________________________________________________________________________cchhy"
+ },
+ "jhs__test__JH3.3.jpg": {
+  "T": 128,
+  "text_positions": 38.2,
+  "chars_inside": 25,
+  "chars_in_padding": 10,
+  "padding_text": "l l l l be",
+  "per_position": "__Whhere the appplicatio_   dtt ___l ________________ll  lll___________________________________________________________ l ll bbe"
+ },
+ "jhs__test__JH3.5.jpg": {
+  "T": 128,
+  "text_positions": 50.0,
+  "chars_inside": 30,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___l_a_ye_r  b_eetor_e  b_einng   sen_t  to  the________________________________________________________________________________"
+ },
+ "jhs__test__JH5.10.jpg": {
+  "T": 128,
+  "text_positions": 85.6,
+  "chars_inside": 51,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___B_o_t_s  s_e_n_d_  a_   moddiitiedd ssourrcee  ad__drrs_ss, a_nnd  u_nssoliciteed____________________________________________"
+ },
+ "jhs__test__JH6.3.jpg": {
+  "T": 128,
+  "text_positions": 47.8,
+  "chars_inside": 34,
+  "chars_in_padding": 15,
+  "padding_text": "e  et h af bout",
+  "per_position": "_iommtiee i  a  taunee _ nte ecceeeeeetececies __e  _____   eet  h af__________________________________________________     bout"
+ },
+ "jhs__test__JH6.7.jpg": {
+  "T": 128,
+  "text_positions": 52.5,
+  "chars_inside": 38,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___b_e  leggit  but  is  set upp too eaavesdrop  onn____________________________________________________________________________"
+ },
+ "jhs__test__JH7.2.jpg": {
+  "T": 128,
+  "text_positions": 37.6,
+  "chars_inside": 30,
+  "chars_in_padding": 3,
+  "padding_text": "fer",
+  "per_position": "_Pas_sive smit_tting use of a  smif________________________________________________________________________________________ffeer"
+ },
+ "jhs__test__JH7.7.jpg": {
+  "T": 128,
+  "text_positions": 57.6,
+  "chars_inside": 39,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___chheckkk al_l thhe innteerfacces  ns   showwn  belloww_______________________________________________________________________"
+ },
+ "jhw__train__JH2.1.jpg": {
+  "T": 128,
+  "text_positions": 27.5,
+  "chars_inside": 8,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____P_o__ww__e_r_P_a__c________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH3.1.jpg": {
+  "T": 128,
+  "text_positions": 23.0,
+  "chars_inside": 6,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____B___e_u__r_r_e_____________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH4.1.jpg": {
+  "T": 128,
+  "text_positions": 21.5,
+  "chars_inside": 8,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____C__r_ea_tivve______________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH6.1.jpg": {
+  "T": 128,
+  "text_positions": 30.2,
+  "chars_inside": 4,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "______1___0____0_____u__________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH7.1.jpg": {
+  "T": 128,
+  "text_positions": 21.9,
+  "chars_inside": 4,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____9___G__H___R_______________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH8.1.jpg": {
+  "T": 128,
+  "text_positions": 21.8,
+  "chars_inside": 5,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "______V__e_g__a_n_______________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH10.1.jpg": {
+  "T": 128,
+  "text_positions": 17.5,
+  "chars_inside": 5,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____P_r_is_m___________________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH16.1.jpg": {
+  "T": 128,
+  "text_positions": 18.0,
+  "chars_inside": 5,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____C_o__rp_s__________________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH17.2.jpg": {
+  "T": 128,
+  "text_positions": 18.9,
+  "chars_inside": 4,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "______w__i_t_h__________________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH17.3.jpg": {
+  "T": 128,
+  "text_positions": 32.8,
+  "chars_inside": 10,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____V__u_z__u___ _)_u__ic_e____________________________________________________________________________________________________"
+ },
+ "jhw__train__JH18.1.jpg": {
+  "T": 128,
+  "text_positions": 36.6,
+  "chars_inside": 10,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "______T__h__e___   b__r_e_e__z_e________________________________________________________________________________________________"
+ },
+ "jhw__train__JH18.2.jpg": {
+  "T": 128,
+  "text_positions": 30.5,
+  "chars_inside": 13,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____C__o_m__m__un_ic_at_ioon____________________________________________________________________________________________________"
+ },
+ "jhw__train__JH19.1.jpg": {
+  "T": 128,
+  "text_positions": 23.5,
+  "chars_inside": 9,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____L_eeg_einnd_a_n_____________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH20.1.jpg": {
+  "T": 128,
+  "text_positions": 27.0,
+  "chars_inside": 7,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "______G___e_F__o_r_c_e__________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH21.1.jpg": {
+  "T": 128,
+  "text_positions": 25.2,
+  "chars_inside": 8,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____M___oi_s_t_u__re___________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH22.1.jpg": {
+  "T": 128,
+  "text_positions": 23.5,
+  "chars_inside": 9,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____L_eeg_een_d_ain_____________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH23.1.jpg": {
+  "T": 128,
+  "text_positions": 28.1,
+  "chars_inside": 9,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____c__h_o_c_o_l_a__t_e________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH23.2.jpg": {
+  "T": 128,
+  "text_positions": 20.2,
+  "chars_inside": 5,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____c__a__lk_e_________________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH26.1.jpg": {
+  "T": 128,
+  "text_positions": 20.4,
+  "chars_inside": 6,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____L__e_n_o_v_o_______________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH27.1.jpg": {
+  "T": 128,
+  "text_positions": 26.9,
+  "chars_inside": 7,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____S__a__t_s_u__m__a__________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH29.1.jpg": {
+  "T": 128,
+  "text_positions": 26.6,
+  "chars_inside": 10,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____L_ees_s__  _Su_g_ar_________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH30.1.jpg": {
+  "T": 128,
+  "text_positions": 19.4,
+  "chars_inside": 5,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____G__r_e_e_n_________________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH32.1.jpg": {
+  "T": 128,
+  "text_positions": 18.9,
+  "chars_inside": 8,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_______Keroosemee_______________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH33.1.jpg": {
+  "T": 128,
+  "text_positions": 24.6,
+  "chars_inside": 5,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____T_ough_____________________________________________________________________________________________________________________"
+ },
+ "jhw__train__JH34.1.jpg": {
+  "T": 128,
+  "text_positions": 26.5,
+  "chars_inside": 14,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___--___ S_1T  B_est  un._______________________________________________________________________________________________________"
+ },
+ "jhw__test__JH1.1.jpg": {
+  "T": 128,
+  "text_positions": 24.6,
+  "chars_inside": 9,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____G___r_a_p_e_  T_e_a_________________________________________________________________________________________________________"
+ },
+ "jhw__test__JH5.1.jpg": {
+  "T": 128,
+  "text_positions": 17.6,
+  "chars_inside": 10,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___Padnssoniio,_________________________________________________________________________________________________________________"
+ },
+ "jhw__test__JH20.2.jpg": {
+  "T": 128,
+  "text_positions": 20.1,
+  "chars_inside": 3,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "______R___T___X_________________________________________________________________________________________________________________"
+ },
+ "jhw__test__JH28.1.jpg": {
+  "T": 128,
+  "text_positions": 26.5,
+  "chars_inside": 14,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____Orriginal_  Ta_stte________________________________________________________________________________________________________"
+ },
+ "jhw__test__JH30.2.jpg": {
+  "T": 128,
+  "text_positions": 22.5,
+  "chars_inside": 6,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "________C_t_ia_n_t______________________________________________________________________________________________________________"
+ },
+ "jhw__test__JH31.1.jpg": {
+  "T": 128,
+  "text_positions": 14.2,
+  "chars_inside": 5,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____mppiite____________________________________________________________________________________________________________________"
+ },
+ "ds__train__1.1.1.jpg": {
+  "T": 128,
+  "text_positions": 41.4,
+  "chars_inside": 26,
+  "chars_in_padding": 15,
+  "padding_text": " h e c ec ctes.",
+  "per_position": "TThe  Vi  arcciitecture vdeee e  eeee______   h__ e c ecccc____________________________________________________________ cccctes."
+ },
+ "ds__train__1.1.2.jpg": {
+  "T": 128,
+  "text_positions": 78.9,
+  "chars_inside": 50,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____T_he_re  iss_  tooue_nss,, Poositionn EEmbbel_linggs  an_b_  at_teentiion___________________________________________________"
+ },
+ "ds__train__1.2.1.jpg": {
+  "T": 128,
+  "text_positions": 71.0,
+  "chars_inside": 45,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____T_ra_ns_fo_r_nerss  weerree oriigimally  beesigne_l ffor  t_ex_t____________________________________________________________"
+ },
+ "ds__train__1.2.2.jpg": {
+  "T": 128,
+  "text_positions": 87.1,
+  "chars_inside": 40,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____W_hhicch__  N__L_P_.  T_o_  m__ak_ee  t_h_e_m__   w_o_rkk_  f_o_r_  imm_a_gees_,____________________________________________"
+ },
+ "ds__train__1.2.3.jpg": {
+  "T": 128,
+  "text_positions": 94.5,
+  "chars_inside": 53,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____V__i_T___  spliits__  a_n  im_aage  iinto  a   gridd  of_   fitees--s_iiz_e   pa_tc_he_s____________________________________"
+ },
+ "ds__train__1.3.1.jpg": {
+  "T": 128,
+  "text_positions": 76.0,
+  "chars_inside": 49,
+  "chars_in_padding": 5,
+  "padding_text": "ator.",
+  "per_position": "___EEacch  Paatch iss fflatttteed annd linerrry Proojeccte  itto  dt eee_________________________________________________atttor."
+ },
+ "ds__test__1.3.2.jpg": {
+  "T": 128,
+  "text_positions": 62.4,
+  "chars_inside": 42,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____TTheese  veccoor_s Servess ass thhe ttouuenss whiich  iis___________________________________________________________________"
+ },
+ "ds__train__1.3.3.jpg": {
+  "T": 128,
+  "text_positions": 69.4,
+  "chars_inside": 45,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____thee  visu_nl  eaauivvlence oof   a  woordd iin   a  Senttencce_____________________________________________________________"
+ },
+ "ds__train__1.4.1.jpg": {
+  "T": 128,
+  "text_positions": 80.1,
+  "chars_inside": 58,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___VVission Trranstormers llaca the  innucctive  bia_ssooff  CuNnss  and aarre__________________________________________________"
+ },
+ "ds__test__1.4.2.jpg": {
+  "T": 128,
+  "text_positions": 105.1,
+  "chars_inside": 73,
+  "chars_in_padding": 1,
+  "padding_text": ".",
+  "per_position": "____e_xttrennelly  datte - hunnnmh4. TTh_yy  are ttipica__l prree -trrainnedd onn_   mas__ivve dlitasets_______________________."
+ },
+ "ds__train__1.4.3.jpg": {
+  "T": 128,
+  "text_positions": 121.0,
+  "chars_inside": 73,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____a__n_d t_he_n  finne-_tu_nedd   o_n_  S_wal_ler,,  ta_lu_- sppeciific_   dattassetss__  b_y__  reep_lacin_g  thhe__.________"
+ },
+ "ds__train__1.4.4.jpg": {
+  "T": 128,
+  "text_positions": 48.1,
+  "chars_inside": 25,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "__F_innal_____  Cl_as__sitticaatioonn  heeaad___________________________________________________________________________________"
+ },
+ "ds__train__2.1.1.jpg": {
+  "T": 128,
+  "text_positions": 66.4,
+  "chars_inside": 36,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____S_liid_e__  a_  cllas__sitieerr  m_eethhod_  w_o_ur_d  faail________________________________________________________________"
+ },
+ "ds__train__2.1.2.jpg": {
+  "T": 128,
+  "text_positions": 72.9,
+  "chars_inside": 39,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____b__e_ca_usse_   c_U_aluuatiing_  e_v_erry_  p_os_iblee  w_iindoow___________________________________________________________"
+ },
+ "ds__train__2.1.3.jpg": {
+  "T": 128,
+  "text_positions": 55.2,
+  "chars_inside": 26,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____i_s_  c_o_m_puut_atioonnal__yy  t_o_o__  s_lo_w_____________________________________________________________________________"
+ },
+ "ds__train__2.2.1.jpg": {
+  "T": 128,
+  "text_positions": 73.8,
+  "chars_inside": 41,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____R_egrres_s_ _o_n_e b_o_x   meethho_b  w_o_uldd  fai_l b_e_ca_u_se__________________________________________________________"
+ },
+ "ds__train__2.2.2.jpg": {
+  "T": 128,
+  "text_positions": 64.6,
+  "chars_inside": 34,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____i_t  c_a_n  o_ni_y   beet_ect  a_  _sinng_le__  o_b_jeect___________________________________________________________________"
+ },
+ "ds__test__2.2.3.jpg": {
+  "T": 128,
+  "text_positions": 27.0,
+  "chars_inside": 10,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____P_e_r_  i_m_a__g_e_.._______________________________________________________________________________________________________"
+ },
+ "ds__train__2.3.1.jpg": {
+  "T": 128,
+  "text_positions": 74.6,
+  "chars_inside": 36,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____G__riid_   o_f_  p_rre_tiicttorss  m__etth_o_d_  ww_o_ul_d_  t_aiil________________________________________________________"
+ },
+ "ds__train__2.3.2.jpg": {
+  "T": 128,
+  "text_positions": 59.9,
+  "chars_inside": 43,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___bbecauuse  objectt Coo_mee in  wiidely  vartiny  hhapees_____________________________________________________________________"
+ },
+ "ds__train__2.3.3.jpg": {
+  "T": 128,
+  "text_positions": 71.6,
+  "chars_inside": 39,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____t_h_at__  a__  rrisid_  srrid sstrugg_sles_  t_o_   ca_p_tu_ree_..__________________________________________________________"
+ },
+ "ds__train__2.4.1.jpg": {
+  "T": 128,
+  "text_positions": 61.2,
+  "chars_inside": 39,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____A_ncchorr  to ddisttannccs metthoob  f_ailss beecauusee_____________________________________________________________________"
+ },
+ "ds__test__2.4.2.jpg": {
+  "T": 128,
+  "text_positions": 45.9,
+  "chars_inside": 30,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____Objeect  siizer   varry  sisniiticannttl____________________________________________________________________________________"
+ },
+ "ds__train__3.1.1.jpg": {
+  "T": 128,
+  "text_positions": 98.9,
+  "chars_inside": 56,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "______T_h_e__  fiirst_  la_y_err   o_f  a_  neetwwoory  aacct a_s_  a_  viisu_al  v_occabul_ary,,_______________________________"
+ },
+ "ds__test__3.1.2.jpg": {
+  "T": 128,
+  "text_positions": 85.8,
+  "chars_inside": 67,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___ddeteectiing  basicc ellementts liue eebges,  Color  lobs,, aand siimple texturee____________________________________________"
+ },
+ "ds__train__3.2.1.jpg": {
+  "T": 128,
+  "text_positions": 88.1,
+  "chars_inside": 61,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___SSaliienc_y viaa oc_clusionn iis   a_  teechniquue thhatt sslides a_  maasy  o_ver___________________________________________"
+ },
+ "ds__test__3.2.2.jpg": {
+  "T": 128,
+  "text_positions": 104.2,
+  "chars_inside": 63,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____dif_feerent_   re_gions_   of  a_n  i_m_agge_  too__  se_e   hoow_  hiiding_  a  Pattch  af_fecttss_________________________"
+ },
+ "ds__train__3.2.3.jpg": {
+  "T": 128,
+  "text_positions": 38.2,
+  "chars_inside": 18,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____P_r_e_diccti_on____  S_lo_re_s...__________________________________________________________________________________________"
+ },
+ "ds__test__3.3.1.jpg": {
+  "T": 134,
+  "text_positions": 134.1,
+  "chars_inside": 72,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____L_i_m_ittat_ioon_  f_oor_   Saaliienccy_  v_ia___  O_c_cllu_sionn_  i_s_   thhaatt  iit  f_aiils  W__heen  t_h_e  _evvide_n_ce____"
+ },
+ "ds__train__3.3.2.jpg": {
+  "T": 128,
+  "text_positions": 93.0,
+  "chars_inside": 53,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____f_orr_  aa___ cclas_s  iis_   spprea_d  thhrrougghouut  tthee im__age_,  a_s  hiidinng______________________________________"
+ },
+ "ds__train__3.3.3.jpg": {
+  "T": 128,
+  "text_positions": 102.0,
+  "chars_inside": 59,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "__j_u_st__  onne_  pat_ch__  a_t  a_  ttimme__  iisnn_t__  e__nooughh t_o  channge  thee  deecisionn____________________________"
+ },
+ "ds__train__4.1.1.jpg": {
+  "T": 128,
+  "text_positions": 113.6,
+  "chars_inside": 57,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____C__l_as_s__  a__c_t_iv_attiion_  _m_a_p_  m__e_th_o_d  o_niiy_  r_e_q_uiire_s_  a_  f_orrw_aard_  Paas_ss,_________________"
+ },
+ "ds__train__4.1.2.jpg": {
+  "T": 128,
+  "text_positions": 85.9,
+  "chars_inside": 47,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___PPrrojeectiing  thee h_e_abss  w_eiijhtss bbaccy  oontto  thhee   m__aps_____________________________________________________"
+ },
+ "ds__test__4.1.3.jpg": {
+  "T": 128,
+  "text_positions": 102.0,
+  "chars_inside": 42,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____i_t   p_o_o_ie_d__   t_o__  s_e_e___  w__h_e_v_e__  t_hh_e__   e_vviid_e_n_c_e__.__  l_ieess_._____________________________"
+ },
+ "ds__train__4.2.1.jpg": {
+  "T": 128,
+  "text_positions": 98.1,
+  "chars_inside": 46,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____C__lass_s__  a_c_tiiv_a_tiio_n  _m_a_p__  _m_etth_o_d_  h_a_v_ee__  a_   lim_itta_tiio_n_,_________________________________"
+ },
+ "ds__train__4.2.2.jpg": {
+  "T": 128,
+  "text_positions": 110.0,
+  "chars_inside": 46,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____i_t__   o_n_i_y_  w__o_r_u_s___  w__it_h___  _sppe_ciitiic____  a__r_cch_iit_ee_c_t_u_r_e_s__  t_h_a_t______________________"
+ },
+ "ds__train__4.2.3.jpg": {
+  "T": 128,
+  "text_positions": 81.2,
+  "chars_inside": 44,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____h_a_v_e_  a__  gloob_al_  avverraagee  ppo_olinng  laay_err_  ffol_loww_edd_________________________________________________"
+ },
+ "ds__train__4.2.4.jpg": {
+  "T": 128,
+  "text_positions": 30.6,
+  "chars_inside": 17,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____b_y  aa  line_ar  hea_d..___________________________________________________________________________________________________"
+ },
+ "ds__train__4.3.1.jpg": {
+  "T": 128,
+  "text_positions": 67.6,
+  "chars_inside": 44,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____A_  _norrmallizeed  teensoor oof n_umbeers, noot  a  photto..______________________________________________________________"
+ },
+ "ds__train__4.3.2.jpg": {
+  "T": 128,
+  "text_positions": 66.5,
+  "chars_inside": 43,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___LLabbelss beffineed thhe ttassu, aandd  caan   smuug_giee iin________________________________________________________________"
+ },
+ "ds__train__4.3.3.jpg": {
+  "T": 128,
+  "text_positions": 20.6,
+  "chars_inside": 10,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____a Shoortluut_______________________________________________________________________________________________________________"
+ },
+ "ds__train__5.1.1.jpg": {
+  "T": 128,
+  "text_positions": 50.4,
+  "chars_inside": 24,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____H__o_w  d_o_i  u_n_ow_   w_heen  t_o  usse_________________________________________________________________________________"
+ },
+ "ds__train__5.1.2.jpg": {
+  "T": 128,
+  "text_positions": 77.2,
+  "chars_inside": 38,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____C_ros_ss e_nt_rop_y  a_ndd__  M__e_a_n_  s_q_u_a_re_b_  Er__roor__!?_______________________________________________________"
+ },
+ "ds__train__5.2.1.jpg": {
+  "T": 128,
+  "text_positions": 92.0,
+  "chars_inside": 46,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____L__i_n_e_ar_  m___ob_e_l  w__o_ru_s_  o_n_  thhe_  m_oost   ba_siic  f_or_m_  of_  a________________________________________"
+ },
+ "ds__train__5.2.2.jpg": {
+  "T": 128,
+  "text_positions": 88.5,
+  "chars_inside": 54,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "______n_e_urrall  n_etwoorkk,, b_ut  t_o_r   realisstic  d_attaa cllas_siticcatiionn,,__________________________________________"
+ },
+ "ds__train__5.2.3.jpg": {
+  "T": 128,
+  "text_positions": 106.5,
+  "chars_inside": 46,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____W__e___  u_s_e_b_  a__  n__on__-_l_inn_e_a_r_ _b__o_u_n_d_a_ry_  t_o__ _S_e_p_erra_t_e__  d_a_t_a__________________________"
+ },
+ "ds__test__5.3.1.jpg": {
+  "T": 128,
+  "text_positions": 86.4,
+  "chars_inside": 57,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____F_or_waard Prroppaggationn  reterrs tto tthee  Caalc_ulation  aand  S_to_ragge_____________________________________________"
+ },
+ "ds__test__5.3.2.jpg": {
+  "T": 128,
+  "text_positions": 103.1,
+  "chars_inside": 55,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____O_f_  i_nt_e_r_m_ed_iatte_  V_arria_blees  f_o_r_  a_   n_e_urral_  neet_w_orkk_  in_  oorrdeer____________________________"
+ },
+ "ds__train__5.3.3.jpg": {
+  "T": 128,
+  "text_positions": 80.4,
+  "chars_inside": 40,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____f_r_om_  t_h_e  i_npuut  l_a_ye_r  t_o_  t_hee_  o__ut_p_ut_  l_a_v_e_r____________________________________________________"
+ },
+ "ds__train__5.4.1.jpg": {
+  "T": 128,
+  "text_positions": 107.2,
+  "chars_inside": 55,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____C__o_m__p_ut_attioon_  g_r_a_phh  reeprressenttss_  t_h_e_  prrooces_s  o_f_  C_o_m__puutiin_g_  a_________________________"
+ },
+ "ds__train__5.4.2.jpg": {
+  "T": 128,
+  "text_positions": 92.0,
+  "chars_inside": 49,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____M___at_h_em_aticcal_  e_xprrs_sioon  iin_  w_hhich_  w_ee_  b_rea_y  doow_n_  t_h_e________________________________________"
+ },
+ "ds__train__5.4.3.jpg": {
+  "T": 128,
+  "text_positions": 105.0,
+  "chars_inside": 55,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____C_orrippu_taatiion__  iinttoo_   Seep_er_atee_  o_peer_atiionns,,  e_acch_  o_f___  W_hhicch  is___________________________"
+ },
+ "ds__test__5.4.4.jpg": {
+  "T": 128,
+  "text_positions": 59.6,
+  "chars_inside": 28,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____m__o_beel_e_b_  a_s_  a_ _no_dee i_n_  a__  g_ra_ph________________________________________________________________________"
+ },
+ "ds__train__6.1.1.jpg": {
+  "T": 128,
+  "text_positions": 68.0,
+  "chars_inside": 35,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____R__a_n_u_  _Prreddicttioonns_  S_orrt  al_l   p_reeb_icteed________________________________________________________________"
+ },
+ "ds__train__6.1.2.jpg": {
+  "T": 128,
+  "text_positions": 56.2,
+  "chars_inside": 34,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____b_ouunbiing   bo_xes_  b_y  theiir   connfilenmee___________________________________________________________________________"
+ },
+ "ds__train__6.1.3.jpg": {
+  "T": 128,
+  "text_positions": 54.6,
+  "chars_inside": 29,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____S_coore_s__  t_ro_m   hiigheest  t_o_  lowwesst____________________________________________________________________________"
+ },
+ "ds__train__6.2.1.jpg": {
+  "T": 128,
+  "text_positions": 75.6,
+  "chars_inside": 42,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____T_o_  Ploot  t_h_e_   prreciisioon_- RReecal_ll cuurrvee_,  g_ra_ph________________________________________________________"
+ },
+ "ds__train__6.2.2.jpg": {
+  "T": 128,
+  "text_positions": 69.5,
+  "chars_inside": 43,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_________ t_h_e pprecisiion  nngainsst thee rrecaa_  to vissuaiiizee____________________________________________________________"
+ },
+ "ds__train__6.2.3.jpg": {
+  "T": 128,
+  "text_positions": 109.5,
+  "chars_inside": 56,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____th__e___  m__o_b_el_ss   t_rabbe__  of__ts_  a_s_  thhee_  c_o_nttiseencce_  t_h_res_io__d  lo_weerss..____________________"
+ },
+ "ds__train__6.3.1.jpg": {
+  "T": 128,
+  "text_positions": 93.6,
+  "chars_inside": 60,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____T_o_  cal_cullat_e  a_verragee pprecisiion,  m_ea_surre tthee  tootal  arrea_ uunnderr_____________________________________"
+ },
+ "ds__test__6.3.2.jpg": {
+  "T": 128,
+  "text_positions": 87.9,
+  "chars_inside": 58,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____thee  pprecision--Reecl_ll curvvee tto  ge_neraatte a_   Sinngle  P_ertor_m_anccee__________________________________________"
+ },
+ "ds__train__6.3.3.jpg": {
+  "T": 128,
+  "text_positions": 67.9,
+  "chars_inside": 36,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____S_ccorre__  f_or_  t_h_a_t_  sspeecitic__  obbje_ctt_ cllass_s______________________________________________________________"
+ },
+ "ds__train__6.4.1.jpg": {
+  "T": 128,
+  "text_positions": 106.5,
+  "chars_inside": 53,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____T__o__   c_a_l_lu_la_t_e_   m__e_a_n_  avver_a_ge_   p_re_uisiion_, t_u_k_e  t_h_e__  a_v_cr_a_ge__________________________"
+ },
+ "ds__test__6.4.2.jpg": {
+  "T": 128,
+  "text_positions": 74.0,
+  "chars_inside": 42,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "____A_p  Scoore_s_  a_cros_ss all_l  objjecct  cllasseess  in_  y_o_urr_________________________________________________________"
+ },
+ "ds__train__6.4.3.jpg": {
+  "T": 128,
+  "text_positions": 83.6,
+  "chars_inside": 52,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "___d_ataaset tto__ g_et_  thee  finall  oveerall  mmettric_  foor  th_e  m_o_de_l_______________________________________________"
+ },
+ "ds__test__7.1.1.jpg": {
+  "T": 128,
+  "text_positions": 35.0,
+  "chars_inside": 19,
+  "chars_in_padding": 3,
+  "padding_text": "der",
+  "per_position": "___DDeeep learning the ww__d____________________________________________________________________________________________ddddeeer"
+ },
+ "ds__train__7.1.2.jpg": {
+  "T": 128,
+  "text_positions": 82.6,
+  "chars_inside": 55,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____Re_ferrs  to  m_ulttiple  layerrs oof  nonn  linearr t_raansttor_m_ationnss________________________________________________"
+ },
+ "ds__train__7.2.1.jpg": {
+  "T": 128,
+  "text_positions": 63.9,
+  "chars_inside": 44,
+  "chars_in_padding": 4,
+  "padding_text": "ning",
+  "per_position": "___EExpPlain  hhy accttiattio fuunctions  maatter for  tar________________________________________________________________nningg"
+ },
+ "ds__train__7.3.1.jpg": {
+  "T": 128,
+  "text_positions": 72.8,
+  "chars_inside": 34,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "________________________A_n  Oppttmmizatioonaigorrithm too ajjsstt te___________________________________________________________"
+ },
+ "ds__train__7.3.2.jpg": {
+  "T": 128,
+  "text_positions": 69.6,
+  "chars_inside": 38,
+  "chars_in_padding": 0,
+  "padding_text": "",
+  "per_position": "_____m_oobeel_ss__  p_arrammeeterss t_o   miinimmiize t_hee 1_os__ss____________________________________________________________"
+ }
+}

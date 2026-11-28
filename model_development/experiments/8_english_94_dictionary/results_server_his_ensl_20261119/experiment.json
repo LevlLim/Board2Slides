@@ -1,0 +1,336 @@
+{
+  "cpu": false,
+  "data_zip_sha256": "8b96c8929a5ad3930d07a7c53d4d88d4ab15f378e0db057a4ad9620600cc70bb",
+  "his": {
+    "geom": "h64",
+    "linked_data_from": "mobile_official_20261110",
+    "lists": {
+      "his_test_orig": "c7b761c87de49347582d88794dd095a1bd0e0b3cef84363c1c9f4213ef2798cd",
+      "his_train_full": "abd894a606cc9fa24c6097ff72abe883cdb62318dd84268a7212e38c0507e13c",
+      "his_train_orig": "73cd8bd2c66fd5b7222f77bd336abd2d96b28ef49eeaa7b04e85c31bcfc2389d",
+      "his_val_orig": "33dd43100ae348c85d31bab23beea675c4fa19c318fa1bcb60bb72a2afbc62c1"
+    },
+    "opts": {
+      "lr_mult": [
+        0.1,
+        0.1,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "seed": 1
+    },
+    "revision": "75619db23eb950d86d18e87e557954ca9a48cf6f",
+    "script_sha256": "0cdcc6131a7f6027e784ad5be46b4097faed0cd3d9b9e2add5ce8f7495c5e1db",
+    "spec": {
+      "S1his_en": {
+        "his_list": "his_train_full",
+        "what": "final-model recipe (server S1 on the teammate's train incl. his copies), 94-character English dictionary"
+      },
+      "S1his_ensl": {
+        "his_list": "his_train_full",
+        "what": "as S1his_en, but the output layers start from the pretrained rows of the same characters"
+      }
+    }
+  },
+  "newwriter_zip_sha256": "bbcb993fad6bcb8a6d8a2a12f1b2dd37ff36b34ff5449579e124cf34d4aad9b3",
+  "paddle": "3.2.0",
+  "pretrained_sha256": "8ce5dfc1294af6ee680d562841a9909257d6a9a9242387c2e8dc50ea8f647143",
+  "python": [
+    3,
+    12
+  ],
+  "repo_commit": "91279fee56ef6eed096c832d3912abdfc4d2725e",
+  "repo_diff_sha256": "7bb652171b4d975cb5fc506be13e1cc73fecd83b1f5f72032ca2332597b2e591",
+  "runs": [
+    "S1his_ensl"
+  ],
+  "schema": 6,
+  "script_sha256": "a4f4ff156075772a99b4c9a6eaabeead3401442f4ad04f5a167cc9e26eaa19a8",
+  "settings": {
+    "batch": 16,
+    "eval_step": 400,
+    "export": [
+      0.95,
+      0.01
+    ],
+    "geoms": {
+      "h48": {
+        "H": 48,
+        "W": 1024
+      },
+      "h64": {
+        "H": 64,
+        "W": 1024
+      },
+      "official": {
+        "H": 48,
+        "W": 320
+      }
+    },
+    "holdout": [
+      0.2,
+      20261105
+    ],
+    "lr": 0.0001,
+    "max_text": 100,
+    "run_spec": {
+      "C1": {
+        "files": [
+          "wb_train",
+          "long_train",
+          "teammates",
+          "aug_of_train",
+          "aug_of_long_train"
+        ],
+        "geom": "official",
+        "pool40": true,
+        "positions": 40,
+        "what": "V3 data, PaddleOCR's original recipe (48x320, 40 positions)"
+      },
+      "G0": {
+        "files": [
+          "wb_train",
+          "long_train"
+        ],
+        "geom": "h64",
+        "guide": false,
+        "pool40": false,
+        "positions": 128,
+        "seed": 1,
+        "what": "S0 with guidance off: CTC loss also trains the backbone (seed 1)"
+      },
+      "G0s2": {
+        "files": [
+          "wb_train",
+          "long_train"
+        ],
+        "geom": "h64",
+        "guide": false,
+        "pool40": false,
+        "positions": 128,
+        "seed": 2,
+        "what": "S0 with guidance off: CTC loss also trains the backbone (seed 2)"
+      },
+      "P128": {
+        "files": [
+          "wb_train",
+          "long_train",
+          "teammates",
+          "aug_of_train",
+          "aug_of_long_train"
+        ],
+        "geom": "h64",
+        "pool40": false,
+        "positions": 40,
+        "what": "pooling-only pair: our training pooling (width/8 positions), SAME lines as P40"
+      },
+      "P40": {
+        "files": [
+          "wb_train",
+          "long_train",
+          "teammates",
+          "aug_of_train",
+          "aug_of_long_train"
+        ],
+        "geom": "h64",
+        "pool40": true,
+        "positions": 40,
+        "what": "pooling-only pair: original training pooling (40 positions), lines that fit 40"
+      },
+      "S0": {
+        "files": [
+          "wb_train",
+          "long_train"
+        ],
+        "focal": false,
+        "geom": "h64",
+        "lr_mult": null,
+        "pool40": false,
+        "positions": 128,
+        "seed": 1,
+        "what": "clean baseline: V2 data minus the 64 teammates' crops (seed 1)"
+      },
+      "S0s2": {
+        "files": [
+          "wb_train",
+          "long_train"
+        ],
+        "focal": false,
+        "geom": "h64",
+        "lr_mult": null,
+        "pool40": false,
+        "positions": 128,
+        "seed": 2,
+        "what": "clean baseline: V2 data minus the 64 teammates' crops (seed 2)"
+      },
+      "S1": {
+        "files": [
+          "wb_train",
+          "long_train"
+        ],
+        "focal": false,
+        "geom": "h64",
+        "lr_mult": [
+          0.1,
+          0.1,
+          0.25,
+          0.5,
+          1.0
+        ],
+        "pool40": false,
+        "positions": 128,
+        "seed": 1,
+        "what": "S0 + stage-wise backbone learning rates (seed 1)"
+      },
+      "S1s2": {
+        "files": [
+          "wb_train",
+          "long_train"
+        ],
+        "focal": false,
+        "geom": "h64",
+        "lr_mult": [
+          0.1,
+          0.1,
+          0.25,
+          0.5,
+          1.0
+        ],
+        "pool40": false,
+        "positions": 128,
+        "seed": 2,
+        "what": "S0 + stage-wise backbone learning rates (seed 2)"
+      },
+      "S2": {
+        "files": [
+          "wb_train",
+          "long_train"
+        ],
+        "focal": true,
+        "geom": "h64",
+        "lr_mult": null,
+        "pool40": false,
+        "positions": 128,
+        "seed": 1,
+        "what": "S0 + focal CTC loss (seed 1)"
+      },
+      "S2s2": {
+        "files": [
+          "wb_train",
+          "long_train"
+        ],
+        "focal": true,
+        "geom": "h64",
+        "lr_mult": null,
+        "pool40": false,
+        "positions": 128,
+        "seed": 2,
+        "what": "S0 + focal CTC loss (seed 2)"
+      },
+      "S3": {
+        "files": [
+          "wb_train",
+          "long_train"
+        ],
+        "focal": true,
+        "geom": "h64",
+        "lr_mult": [
+          0.1,
+          0.1,
+          0.25,
+          0.5,
+          1.0
+        ],
+        "pool40": false,
+        "positions": 128,
+        "seed": 1,
+        "what": "S0 + stage-wise learning rates + focal CTC (seed 1)"
+      },
+      "S3s2": {
+        "files": [
+          "wb_train",
+          "long_train"
+        ],
+        "focal": true,
+        "geom": "h64",
+        "lr_mult": [
+          0.1,
+          0.1,
+          0.25,
+          0.5,
+          1.0
+        ],
+        "pool40": false,
+        "positions": 128,
+        "seed": 2,
+        "what": "S0 + stage-wise learning rates + focal CTC (seed 2)"
+      },
+      "V1b": {
+        "files": [
+          "iam_train"
+        ],
+        "geom": "h64",
+        "pool40": false,
+        "positions": 128,
+        "what": "IAM handwriting lines only, adapted recipe"
+      },
+      "V2": {
+        "files": [
+          "wb_train",
+          "long_train",
+          "teammates"
+        ],
+        "geom": "h64",
+        "pool40": false,
+        "positions": 128,
+        "what": "C: our crops, short + long lines, no augmented copies (replaces IAM)"
+      },
+      "V2short": {
+        "files": [
+          "wb_train",
+          "long_train",
+          "teammates"
+        ],
+        "geom": "h64",
+        "max_chars": 40,
+        "pool40": false,
+        "positions": 128,
+        "what": "A: our crops, short lines only (40 chars or fewer), no augmented copies"
+      },
+      "V3": {
+        "files": [
+          "wb_train",
+          "long_train",
+          "teammates",
+          "aug_of_train",
+          "aug_of_long_train"
+        ],
+        "geom": "h64",
+        "pool40": false,
+        "positions": 128,
+        "what": "D: our crops, short + long lines + our augmented copies"
+      },
+      "V3short": {
+        "files": [
+          "wb_train",
+          "long_train",
+          "teammates",
+          "aug_of_train",
+          "aug_of_long_train"
+        ],
+        "geom": "h64",
+        "max_chars": 40,
+        "pool40": false,
+        "positions": 128,
+        "what": "B: our crops, short lines only + our augmented copies"
+      }
+    },
+    "seed": 1,
+    "steps": 6000,
+    "warmup": 300,
+    "workers": 8
+  },
+  "static_runtime": "pir_no_default_passes_official_resize_v2",
+  "test_mode": false
+}

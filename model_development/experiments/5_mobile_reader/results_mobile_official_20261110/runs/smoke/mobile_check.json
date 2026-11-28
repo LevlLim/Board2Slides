@@ -1,0 +1,295 @@
+{
+  "MC0": {
+    "classes": 18385,
+    "ctc_only_backbone_grad": 0,
+    "loaded": 968,
+    "loss_weights": [
+      1.0,
+      1.0
+    ],
+    "lr_by_group": {
+      "blocks2": [
+        0.1,
+        1.0
+      ],
+      "blocks3": [
+        0.1,
+        1.0
+      ],
+      "blocks4": [
+        0.1,
+        1.0
+      ],
+      "blocks5": [
+        0.1,
+        1.0
+      ],
+      "blocks6": [
+        0.1,
+        1.0
+      ],
+      "conv1": [
+        1.0
+      ]
+    },
+    "n_not_in_start": 0,
+    "n_shape_mismatch": 0,
+    "not_in_start": [],
+    "positions_64x960": {
+      "0": {
+        "eval": [
+          1,
+          480,
+          1,
+          120
+        ],
+        "train": [
+          1,
+          480,
+          1,
+          120
+        ]
+      },
+      "1": {
+        "eval": [
+          1,
+          480,
+          1,
+          120
+        ],
+        "train": [
+          1,
+          480,
+          1,
+          40
+        ]
+      }
+    },
+    "shape_mismatch": [],
+    "unused_in_start": 0,
+    "use_guide": true
+  },
+  "ME": {
+    "classes": 18385,
+    "ctc_only_backbone_grad": 0,
+    "extra_se_gate": [
+      0.9900001287460327,
+      0.9900001287460327
+    ],
+    "extra_se_moves_after_one_step": [
+      3.6462249755859375,
+      0.04794955253601074
+    ],
+    "loaded": 968,
+    "loss_weights": [
+      1.0,
+      1.0
+    ],
+    "lr_by_group": {
+      "blocks2": [
+        0.1,
+        1.0
+      ],
+      "blocks3": [
+        0.1,
+        1.0
+      ],
+      "blocks4": [
+        0.1,
+        1.0
+      ],
+      "blocks5": [
+        0.1,
+        1.0
+      ],
+      "blocks6": [
+        0.1,
+        1.0
+      ],
+      "conv1": [
+        1.0
+      ]
+    },
+    "n_not_in_start": 4,
+    "n_shape_mismatch": 0,
+    "not_in_start": [
+      "backbone.blocks6.3.se.conv1.weight",
+      "backbone.blocks6.3.se.conv1.bias",
+      "backbone.blocks6.3.se.conv2.weight",
+      "backbone.blocks6.3.se.conv2.bias"
+    ],
+    "positions_64x960": {
+      "0": {
+        "eval": [
+          1,
+          480,
+          1,
+          120
+        ],
+        "train": [
+          1,
+          480,
+          1,
+          120
+        ]
+      },
+      "1": {
+        "eval": [
+          1,
+          480,
+          1,
+          120
+        ],
+        "train": [
+          1,
+          480,
+          1,
+          40
+        ]
+      }
+    },
+    "shape_mismatch": [],
+    "unused_in_start": 0,
+    "use_guide": true
+  },
+  "MG": {
+    "classes": 18385,
+    "ctc_only_backbone_grad": 4526027.502107855,
+    "loaded": 968,
+    "loss_weights": [
+      1.0,
+      1.0
+    ],
+    "lr_by_group": {
+      "blocks2": [
+        0.1,
+        1.0
+      ],
+      "blocks3": [
+        0.1,
+        1.0
+      ],
+      "blocks4": [
+        0.1,
+        1.0
+      ],
+      "blocks5": [
+        0.1,
+        1.0
+      ],
+      "blocks6": [
+        0.1,
+        1.0
+      ],
+      "conv1": [
+        1.0
+      ]
+    },
+    "n_not_in_start": 0,
+    "n_shape_mismatch": 0,
+    "not_in_start": [],
+    "positions_64x960": {
+      "0": {
+        "eval": [
+          1,
+          480,
+          1,
+          120
+        ],
+        "train": [
+          1,
+          480,
+          1,
+          120
+        ]
+      },
+      "1": {
+        "eval": [
+          1,
+          480,
+          1,
+          120
+        ],
+        "train": [
+          1,
+          480,
+          1,
+          40
+        ]
+      }
+    },
+    "shape_mismatch": [],
+    "unused_in_start": 0,
+    "use_guide": false
+  },
+  "ML": {
+    "classes": 18385,
+    "ctc_only_backbone_grad": 0,
+    "loaded": 968,
+    "loss_weights": [
+      1.0,
+      1.0
+    ],
+    "lr_by_group": {
+      "blocks2": [
+        0.01,
+        0.1
+      ],
+      "blocks3": [
+        0.01,
+        0.1
+      ],
+      "blocks4": [
+        0.025,
+        0.25
+      ],
+      "blocks5": [
+        0.05,
+        0.5
+      ],
+      "blocks6": [
+        0.1,
+        1.0
+      ],
+      "conv1": [
+        0.1
+      ]
+    },
+    "n_not_in_start": 0,
+    "n_shape_mismatch": 0,
+    "not_in_start": [],
+    "positions_64x960": {
+      "0": {
+        "eval": [
+          1,
+          480,
+          1,
+          120
+        ],
+        "train": [
+          1,
+          480,
+          1,
+          120
+        ]
+      },
+      "1": {
+        "eval": [
+          1,
+          480,
+          1,
+          120
+        ],
+        "train": [
+          1,
+          480,
+          1,
+          40
+        ]
+      }
+    },
+    "shape_mismatch": [],
+    "unused_in_start": 0,
+    "use_guide": true
+  }
+}

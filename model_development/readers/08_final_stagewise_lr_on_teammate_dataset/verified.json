@@ -1,0 +1,13 @@
+{
+  "differing": [],
+  "fixture_crops": 30,
+  "identical_predictions": 1.0,
+  "identity": {
+    "checkpoint": "e39d161d3c537c3d3811ef1f00361ee1964b29500bd26f3dfcc63ac2131b6b92",
+    "config": "e6a8b8433f245e40e4d456ce34be3a3daeaba84608ea6f18a98f34a3ddde825e",
+    "export_h": 64,
+    "fixture": "97fdd8a7c51dee292f9aea0acdb408557159cb3dadc0cbe3ccac04df23d15669",
+    "runtime": "pir_no_default_passes_official_resize_v2"
+  },
+  "mean_cer_difference": 0.0
+}

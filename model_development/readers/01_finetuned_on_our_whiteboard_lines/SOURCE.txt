@@ -1,0 +1,4 @@
+Fine-tuned on our 1,113 whiteboard line crops with PaddleOCR's original setup (48x320 input, 40 CTC columns).
+source folder: Assignment/results_server_c0_20261111/results/models/PP-OCRv5_server_rec_board2notes_C0
+experiment: results_server_c0_20261111, model C0
+inference.pdiparams sha256: 66d61ef9163100c6e389e3db015519db4c0c01bc34f15d2377411dddad9e9a62

@@ -1,0 +1,117 @@
+/usr/local/lib/python3.13/dist-packages/paddle/utils/cpp_extension/extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+IMG_5095@1 TRIGGERED 1931 large writing (460 px lines) -> detected at 640 px 2s
+IMG_5095@3 TRIGGERED 512 text large enough (62 px) -> quick boxes kept 4s
+IMG_5096@1 TRIGGERED 1938 large writing (461 px lines) -> detected at 640 px 2s
+IMG_5097@1 TRIGGERED 1549 large writing (369 px lines) -> detected at 700 px 2s
+IMG_5098@1 TRIGGERED 1519 large writing (362 px lines) -> detected at 713 px 2s
+IMG_5099@1 TRIGGERED 1629 large writing (388 px lines) -> detected at 665 px 2s
+IMG_5100@1 TRIGGERED 1773 large writing (422 px lines) -> detected at 640 px 2s
+IMG_5101@1 TRIGGERED 1717 large writing (409 px lines) -> detected at 640 px 2s
+IMG_5102@1 TRIGGERED 1351 large writing (322 px lines) -> detected at 802 px 2s
+IMG_5103@1 TRIGGERED 1854 large writing (441 px lines) -> detected at 640 px 2s
+IMG_5104@1 TRIGGERED 1907 large writing (454 px lines) -> detected at 640 px 2s
+IMG_5105@1 TRIGGERED 910 large writing (217 px lines) -> detected at 1191 px 2s
+IMG_5106@1 TRIGGERED 890 large writing (212 px lines) -> detected at 1218 px 3s
+IMG_5107@1 TRIGGERED 762 large writing (181 px lines) -> detected at 1423 px 3s
+IMG_5108@1 TRIGGERED 790 large writing (188 px lines) -> detected at 1372 px 3s
+IMG_5109@1 TRIGGERED 1903 large writing (468 px lines) -> detected at 640 px 2s
+IMG_5110@1 TRIGGERED 2331 large writing (476 px lines) -> detected at 640 px 2s
+IMG_5111@1 TRIGGERED 2279 large writing (474 px lines) -> detected at 640 px 2s
+IMG_5112@1 TRIGGERED 2333 large writing (479 px lines) -> detected at 640 px 2s
+IMG_5113@1 TRIGGERED 2179 large writing (519 px lines) -> detected at 640 px 2s
+IMG_5114@1 TRIGGERED 2215 large writing (527 px lines) -> detected at 640 px 2s
+IMG_5115@1 TRIGGERED 2055 large writing (489 px lines) -> detected at 640 px 2s
+IMG_5116@1 TRIGGERED 597 large writing (142 px lines) -> detected at 1817 px 5s
+IMG_5116@3 TRIGGERED 218 text large enough (22 px) -> quick boxes kept 4s
+IMG_5117@1 TRIGGERED 592 large writing (141 px lines) -> detected at 1830 px 4s
+IMG_5117@3 TRIGGERED 181 small text (19 px) -> 1 region(s) re-detected at full resolu 6s
+IMG_5118@1 TRIGGERED 594 large writing (142 px lines) -> detected at 1823 px 4s
+IMG_5118@3 TRIGGERED 143 text large enough (21 px) -> quick boxes kept 4s
+IMG_5122@1 TRIGGERED 654 large writing (156 px lines) -> detected at 1657 px 4s
+IMG_5122@3 TRIGGERED 236 text large enough (23 px) -> quick boxes kept 4s
+IMG_5123@1 TRIGGERED 620 large writing (148 px lines) -> detected at 1749 px 4s
+IMG_5123@3 TRIGGERED 143 text large enough (23 px) -> quick boxes kept 4s
+IMG_5124@1 TRIGGERED 673 large writing (160 px lines) -> detected at 1610 px 3s
+IMG_5124@3 TRIGGERED 257 text large enough (23 px) -> quick boxes kept 4s
+IMG_5119@1 TRIGGERED 741 large writing (176 px lines) -> detected at 1463 px 3s
+IMG_5119@3 TRIGGERED 243 text large enough (22 px) -> quick boxes kept 3s
+IMG_5120@1 TRIGGERED 743 large writing (177 px lines) -> detected at 1459 px 3s
+IMG_5120@3 TRIGGERED 255 text large enough (22 px) -> quick boxes kept 3s
+IMG_5121@1 TRIGGERED 752 large writing (179 px lines) -> detected at 1442 px 3s
+IMG_5121@3 TRIGGERED 214 text large enough (23 px) -> quick boxes kept 4s
+IMG_5125@1 TRIGGERED 668 large writing (159 px lines) -> detected at 1623 px 4s
+IMG_5125@3 TRIGGERED 252 text large enough (22 px) -> quick boxes kept 4s
+IMG_5126@1 TRIGGERED 693 large writing (165 px lines) -> detected at 1564 px 3s
+IMG_5126@3 TRIGGERED 323 text large enough (22 px) -> quick boxes kept 4s
+IMG_5127@1 TRIGGERED 695 large writing (166 px lines) -> detected at 1559 px 3s
+IMG_5127@3 TRIGGERED 311 text large enough (22 px) -> quick boxes kept 4s
+IMG_5128@1 TRIGGERED 705 large writing (168 px lines) -> detected at 1538 px 4s
+IMG_5128@3 TRIGGERED 216 text large enough (22 px) -> quick boxes kept 4s
+IMG_5129@1 TRIGGERED 705 large writing (168 px lines) -> detected at 1537 px 3s
+IMG_5129@3 TRIGGERED 298 text large enough (22 px) -> quick boxes kept 4s
+IMG_5130@1 TRIGGERED 742 large writing (177 px lines) -> detected at 1461 px 3s
+IMG_5130@3 TRIGGERED 305 text large enough (23 px) -> quick boxes kept 3s
+IMG_5131@1 TRIGGERED 517 text large enough (43 px) -> quick boxes kept 3s
+IMG_5131@3 TRIGGERED 235 text large enough (22 px) -> quick boxes kept 4s
+IMG_5132@1 TRIGGERED 543 large writing (129 px lines) -> detected at 1994 px 5s
+IMG_5132@3 TRIGGERED 271 text large enough (21 px) -> quick boxes kept 4s
+IMG_5133@1 TRIGGERED 544 large writing (130 px lines) -> detected at 1993 px 5s
+IMG_5133@3 TRIGGERED 280 text large enough (30 px) -> quick boxes kept 4s
+IMG_5134@1 TRIGGERED 560 large writing (133 px lines) -> detected at 1934 px 5s
+IMG_5134@3 TRIGGERED 219 small text (15 px) -> 1 region(s) re-detected at full resolu 6s
+IMG_5135@1 TRIGGERED 561 large writing (134 px lines) -> detected at 1932 px 5s
+IMG_5135@3 TRIGGERED 198 small text (18 px) -> 1 region(s) re-detected at full resolu 7s
+IMG_5136@1 TRIGGERED 397 text large enough (42 px) -> quick boxes kept 4s
+IMG_5136@3 TRIGGERED 151 small text (16 px) -> 1 region(s) re-detected at full resolu 5s
+IMG_5137@1 TRIGGERED 414 text large enough (40 px) -> quick boxes kept 3s
+IMG_5137@3 TRIGGERED 143 small text (18 px) -> 1 region(s) re-detected at full resolu 6s
+IMG_5138@1 TRIGGERED 444 text large enough (42 px) -> quick boxes kept 4s
+IMG_5138@3 TRIGGERED 145 small text (16 px) -> 1 region(s) re-detected at full resolu 5s
+JH1@1 TRIGGERED 458 text large enough (39 px) -> quick boxes kept 2s
+JH1@4 TRIGGERED 128 small text (12 px) -> 1 region(s) re-detected at full resolu 4s
+JH2@1 TRIGGERED 638 large writing (150 px lines) -> detected at 1752 px 3s
+JH2@4 TRIGGERED 244 small text (20 px) -> 1 region(s) re-detected at full resolu 3s
+JH3@1 TRIGGERED 483 text large enough (43 px) -> quick boxes kept 3s
+JH3@4 TRIGGERED 150 small text (14 px) -> 1 region(s) re-detected at full resolu 4s
+JH4@1 TRIGGERED 529 text large enough (49 px) -> quick boxes kept 2s
+JH4@4 TRIGGERED 201 small text (15 px) -> 1 region(s) re-detected at full resolu 4s
+JH5@1 TRIGGERED 474 text large enough (44 px) -> quick boxes kept 3s
+JH5@4 TRIGGERED 147 small text (12 px) -> 1 region(s) re-detected at full resolu 4s
+JH6@1 TRIGGERED 470 text large enough (41 px) -> quick boxes kept 2s
+JH6@4 - 128 small text (13 px) -> 1 region(s) re-detected at full resolu 3s
+JH7@1 TRIGGERED 424 text large enough (39 px) -> quick boxes kept 2s
+JH7@4 TRIGGERED 152 small text (14 px) -> 1 region(s) re-detected at full resolu 4s
+Jy8@1 - 51 text large enough (40 px) -> quick boxes kept 2s
+Jy8@2 - 32 text large enough (23 px) -> quick boxes kept 2s
+Jy9@1 - 64 unchanged app path (boxes reused) 1s
+Jy9@2 - 40 unchanged app path (boxes reused) 1s
+Jy10@1 - 59 unchanged app path (boxes reused) 1s
+Jy10@2 - 39 unchanged app path (boxes reused) 1s
+Jy11@1 - 60 unchanged app path (boxes reused) 1s
+Jy11@2 - 39 unchanged app path (boxes reused) 1s
+Jy12@1 - 66 unchanged app path (boxes reused) 1s
+Jy12@2 - 36 unchanged app path (boxes reused) 1s
+Jy13@1 TRIGGERED 172 large writing (129 px lines) -> detected at 640 px 1s
+Jy13@2 - 80 unchanged app path (boxes reused) 1s
+Jy14@1 - 54 unchanged app path (boxes reused) 1s
+Jy14@2 - 31 unchanged app path (boxes reused) 1s
+Jy15@1 - 64 unchanged app path (boxes reused) 1s
+Jy15@2 - 37 unchanged app path (boxes reused) 1s
+Jy16@1 - 73 unchanged app path (boxes reused) 1s
+Jy16@2 - 41 unchanged app path (boxes reused) 1s
+Jy17@1 - 98 unchanged app path (boxes reused) 1s
+Jy17@2 - 58 unchanged app path (boxes reused) 1s
+Jy18@1 - 71 unchanged app path (boxes reused) 1s
+Jy18@2 - 43 unchanged app path (boxes reused) 1s
+Jy19@1 - 72 unchanged app path (boxes reused) 0s
+Jy19@2 - 36 unchanged app path (boxes reused) 0s
+Jy20@1 - 79 unchanged app path (boxes reused) 1s
+Jy20@2 - 45 unchanged app path (boxes reused) 1s
+Jy21@1 - 71 unchanged app path (boxes reused) 1s
+Jy21@2 - 41 unchanged app path (boxes reused) 1s
+Jy22@1 - 72 unchanged app path (boxes reused) 1s
+Jy22@2 - 40 unchanged app path (boxes reused) 1s
+Jy23@1 - 68 unchanged app path (boxes reused) 1s
+Jy23@2 - 39 unchanged app path (boxes reused) 1s
+EVAL DETECT DONE 82 of 114 variants triggered

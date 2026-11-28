@@ -1,0 +1,11 @@
+{
+  "config": "59f804842da60b403903eb5be3e095ced7a695c0191026b9650f075fdfac5b67",
+  "sets": {
+    "long_test": "77c9097b4d03316b6f6f7ed0641402c47bd629d3bd4fe5cf637cbaf8fa4d6e81",
+    "test_cnn": "1676c84ade145ca89d9c0d7731d8b8943a31a756b660ec99f3027308fafb4eb1",
+    "test_newwriter": "556a72c2beda39fab4fbae8ed60b9dadb3caac2af01ce1121d00caeb11040c45",
+    "val_iam": "5493a662fa1fa30d54587ac5fd1cf789cdafbda59203a3aad93ec3efee26e585",
+    "val_wb": "041e0bae5e4f18cadcb2c5cce29d9edb93e954845d24f590789dba24b52eacf4"
+  },
+  "weights": "8ce5dfc1294af6ee680d562841a9909257d6a9a9242387c2e8dc50ea8f647143"
+}

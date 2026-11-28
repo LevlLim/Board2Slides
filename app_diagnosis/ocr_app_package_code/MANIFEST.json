@@ -1,0 +1,198 @@
+{
+ "package": "board2notes-ocr",
+ "version": "2026-11-09",
+ "created": "2026-11-09 05:56:13 UTC",
+ "configuration": "PP-OCRv5_mobile_det -> existing line grouping and quad cropping -> S1 seed-1 recogniser -> editable OCR text",
+ "status": "provisional development configuration; development evidence only: notebook 15 page CER 27.5% on 16 provisionally annotated Jy photos (mostly reading order), notebook 16 0.87% mean line CER on 59 matched JH lines, earlier crop-level evaluations in PROJECT_PROGRESS.md; no fresh-writer confirmation yet",
+ "detector": {
+  "name": "PP-OCRv5_mobile_det",
+  "folder": "models/PP-OCRv5_mobile_det",
+  "app_args": {
+   "thresh": 0.2,
+   "box_thresh": 0.4,
+   "unclip_ratio": 1.2
+  },
+  "detect_call_unclip": 1.2,
+  "passes": "quick pass with long side limited to 1600 px (limit_type max); if median line height < 20 px as seen by the detector, re-detect text regions at full resolution (<= 4000 px)",
+  "runtime": {
+   "device": "cpu",
+   "enable_mkldnn": false,
+   "engine": "paddle static (PaddleX default)",
+   "cpu_threads": "PaddleOCR default (10); env B2N_DET_CPU_THREADS overrides (use 1 on Linux aarch64 Paddle 3.2.2)"
+  },
+  "model_defaults_overridden": {
+   "thresh": 0.3,
+   "box_thresh": 0.6,
+   "unclip_ratio": 1.5
+  }
+ },
+ "grouping": {
+  "function": "text_lines.group_into_lines",
+  "gap_factor": 1.2,
+  "min_v_overlap": 0.5,
+  "order": "ocr_backend.spatial_order (provisional column/row heuristic; provisionally evaluated in notebook 15, improvement deferred)"
+ },
+ "cropping": {
+  "function": "text_lines.quad_crop",
+  "pad": 0.0,
+  "interpolation": "INTER_CUBIC, BORDER_REPLICATE"
+ },
+ "recogniser": {
+  "name": "S1 seed 1 (PP-OCRv5_server_rec fine-tuned, results_strategies_s0s3)",
+  "folder": "models/PP-OCRv5_server_rec_board2notes_S1",
+  "input_shape": [
+   3,
+   64,
+   1024
+  ],
+  "resize": "ocr_backend.resize_for_reader (= PaddleOCR resize_norm_img_chinese incl. rounding): height 64, width = ceil(64*w/h), zero-padded to >= 1024, (x/255-0.5)/0.5",
+  "decode": "greedy CTC (argmax, collapse repeats, drop blank); space class appended when the output has len(dict)+2 classes",
+  "runtime": "Paddle inference CPU, ir_optim off, custom passes [] (verified export policy), oneDNN off, 4 threads, one crop at a time",
+  "dictionary": {
+   "characters": 18383,
+   "sha256_utf8_newline_joined": "17665d27ed39f0deb82007859992d626d3105d0ee4578c120b7c72138dc04d05",
+   "source": "embedded in inference.yml PostProcess.character_dict"
+  }
+ },
+ "preprocessing": "EXIF orientation applied once (Pillow exif_transpose), RGB->BGR; optional user rotate/trim in the UI; NO enhancement, perspective correction, deskew, tightening, SR, VLM or LLM",
+ "excluded": "training checkpoints, optimizer state, datasets (only 4 fixture photos), other readers, credentials, API keys, private configuration, notebooks",
+ "source_files": {
+  "whiteboard-ocr/preprocessing/text_lines.py": "85c1c4f3a7d6ee4e9e072669d4c67ce87bf0e6afc61205a2a5555e4cd20b4400",
+  "whiteboard-ocr/ocr_prototype/ocr_backend.py": "2782b9d4f0a11b66283567585043d83f18986fd1193abe71881b10b2d2302818",
+  "whiteboard-ocr/ocr_prototype/student_app.py": "2906d734f4902b982e93a90033ca8a98c9c6866328b732ff85263ebcc89cf28c",
+  "whiteboard-ocr/ocr_prototype/student_flow.py": "0a7b6c513af85f5afff2e505c4b899ca6d2df3c0a6ac549fedd7415fda669d1e",
+  "whiteboard-ocr/ocr_prototype/visual_review.py": "51f4380bbcb543182a95790c732f482b1b9e375f49ea89df84abd27cc86e994a",
+  "whiteboard-ocr/ocr_prototype/app.py": "a8472a74d7ee7c21cd6c5fced1bc827bccaeb8086ab085cab3900233a18fb35b",
+  "whiteboard-ocr/ocr_prototype/region_viewer/index.html": "bb90804a759d99d934a385fabfed9ea46f3420a8462bc7c766f534e3915b6c93",
+  "whiteboard-ocr/ocr_prototype/.streamlit/config.toml": "da2bf1e6750fb035522ad9a736aa462887c9987bb8b2a541ddba3cb958165f32",
+  "whiteboard-ocr/ocr_prototype/tests/test_student_flow.py": "35552c75a827d53f8d41be14ff3cfd29de4547ddf5b9dd431611722869d9747a",
+  "whiteboard-ocr/ocr_prototype/tests/test_student_app.py": "f4c1756aa079c9aa4cd38a81589a9817fbf60e8f3c7879669be0ade849758ee3"
+ },
+ "patches": {
+  "ocr_backend.py": [
+   "P1 package-relative paths",
+   "P2 only the packaged S1 reader",
+   "P3 torch import only where torch is installed",
+   "P4 packaged detector weights, no download"
+  ],
+  "preprocessing/text_lines.py": [
+   "P5 Detector accepts a local model folder and runtime options",
+   "P5b Path import for P5"
+  ],
+  "student_app.py": [
+   "P6 packaged sample photo"
+  ]
+ },
+ "fixtures": [
+  {
+   "id": "jy_photo23.jpg",
+   "source": "Jy Dataset/Photo 23.jpg",
+   "purpose": "app sample photo; 9 regions, single column"
+  },
+  {
+   "id": "jy_photo8.jpg",
+   "source": "Jy Dataset/Photo 8.jpg",
+   "purpose": "dense multi-column photo (~38 regions)"
+  },
+  {
+   "id": "jh_photo2.jpg",
+   "source": "JH_datasetNov5Sentence/Photo2.jpg",
+   "purpose": "2304x4096 phone photo; raw split joined by grouping; eraser region with empty reading"
+  },
+  {
+   "id": "jh_photo5.jpg",
+   "source": "JH_datasetNov5Sentence/Photo5.jpg",
+   "purpose": "full-resolution phone photo, 11 regions incl. faint extra text"
+  }
+ ],
+ "files": {
+  "b2n_ocr/.streamlit/config.toml": {
+   "sha256": "da2bf1e6750fb035522ad9a736aa462887c9987bb8b2a541ddba3cb958165f32",
+   "bytes": 253
+  },
+  "b2n_ocr/app.py": {
+   "sha256": "a8472a74d7ee7c21cd6c5fced1bc827bccaeb8086ab085cab3900233a18fb35b",
+   "bytes": 137
+  },
+  "b2n_ocr/ocr_backend.py": {
+   "sha256": "f4f90da291e3a9b96408a3a0875f886bc896aeb761f62941e673e2e8e57d98de",
+   "bytes": 10184
+  },
+  "b2n_ocr/preprocessing/__init__.py": {
+   "sha256": "bc7b90df0328078765a22a62b2b8845ff60b5d5540c8bc40641bbad8a5295a0b",
+   "bytes": 69
+  },
+  "b2n_ocr/preprocessing/text_lines.py": {
+   "sha256": "7af4be752214b8438a2640aae01564bbcbda791f473701120ea0bf2ba3649747",
+   "bytes": 15232
+  },
+  "b2n_ocr/region_viewer/index.html": {
+   "sha256": "bb90804a759d99d934a385fabfed9ea46f3420a8462bc7c766f534e3915b6c93",
+   "bytes": 2703
+  },
+  "b2n_ocr/student_app.py": {
+   "sha256": "f6ee9f13ec541a1081d1d59f2f84e70e1d490a425151438e011e5551a0013ac1",
+   "bytes": 19933
+  },
+  "b2n_ocr/student_flow.py": {
+   "sha256": "0a7b6c513af85f5afff2e505c4b899ca6d2df3c0a6ac549fedd7415fda669d1e",
+   "bytes": 7052
+  },
+  "b2n_ocr/tests/test_student_app.py": {
+   "sha256": "f4c1756aa079c9aa4cd38a81589a9817fbf60e8f3c7879669be0ade849758ee3",
+   "bytes": 14645
+  },
+  "b2n_ocr/tests/test_student_flow.py": {
+   "sha256": "35552c75a827d53f8d41be14ff3cfd29de4547ddf5b9dd431611722869d9747a",
+   "bytes": 4553
+  },
+  "b2n_ocr/visual_review.py": {
+   "sha256": "51f4380bbcb543182a95790c732f482b1b9e375f49ea89df84abd27cc86e994a",
+   "bytes": 1214
+  },
+  "fixtures/photos/jh_photo2.jpg": {
+   "sha256": "3d6713251fbd9f70f9f0ee6aecbf3f9c6cf11df53ce61cfa641f8811ca83b981",
+   "bytes": 2075508
+  },
+  "fixtures/photos/jh_photo5.jpg": {
+   "sha256": "2295c956dd3435209187cf09096e30664a90226d8f7a6ecdde76ef5600bf9f0b",
+   "bytes": 2597667
+  },
+  "fixtures/photos/jy_photo23.jpg": {
+   "sha256": "b9cffe736730bcdb091ee8670559a2e9ce76c801fe3da3fd2aa020d12d128fa8",
+   "bytes": 42065
+  },
+  "fixtures/photos/jy_photo8.jpg": {
+   "sha256": "cdc5c691c314e3490443a13a37ecfda241e18e5d0113b15e9bc020d8ab790144",
+   "bytes": 94646
+  },
+  "models/PP-OCRv5_mobile_det/inference.json": {
+   "sha256": "05feef1acb00aa4cd7362b15f7f501fc4f99d7b1fa73c1c871e0c7b1504b0f5c",
+   "bytes": 229777
+  },
+  "models/PP-OCRv5_mobile_det/inference.pdiparams": {
+   "sha256": "afa1820cb16c1fd0dad589d0f8b389139061c1ef6d68019685fd07be997dda5b",
+   "bytes": 4692937
+  },
+  "models/PP-OCRv5_mobile_det/inference.yml": {
+   "sha256": "98069072e1b6b37d727fd9d9f11725faa46d6ea0de012f2ed26caea011c37699",
+   "bytes": 903
+  },
+  "models/PP-OCRv5_server_rec_board2notes_S1/inference.json": {
+   "sha256": "aea3ba7d7fad92875dcb6e7338f62eee0c619b48449501ddbcb86d804416e27f",
+   "bytes": 325204
+  },
+  "models/PP-OCRv5_server_rec_board2notes_S1/inference.pdiparams": {
+   "sha256": "067b34a571b6f1521534596e74788c6cad80de306c497cd84e439724e8e5b07d",
+   "bytes": 84390117
+  },
+  "models/PP-OCRv5_server_rec_board2notes_S1/inference.yml": {
+   "sha256": "6f47a7dc13bd6e9189f01e13bd4f6efad085484aa1de514269a5025f3e95793d",
+   "bytes": 148346
+  },
+  "models/PP-OCRv5_server_rec_board2notes_S1/verified.json": {
+   "sha256": "c09c88107b8daa0ac77b48a65588f730e30d83a2cd3226dae284fb2e129007ae",
+   "bytes": 457
+  }
+ }
+}

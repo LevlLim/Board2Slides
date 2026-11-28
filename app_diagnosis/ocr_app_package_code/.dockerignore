@@ -1,0 +1,6 @@
+outputs/
+**/__pycache__/
+*.pyc
+.DS_Store
+.venv/
+fresh_photo_confirmation/

@@ -1,0 +1,1432 @@
+[
+ {
+  "n": 1,
+  "name": "jhs__train__JH6.4.jpg",
+  "label": "A botnet is a collection of zombies all used to do things",
+  "group": "control",
+  "kept_h": 1.0,
+  "tight_wh": [
+   1216,
+   278
+  ],
+  "s1_text_px": 280,
+  "s1_positions": 35.0,
+  "label_chars": 57,
+  "need_over_positions": 1.686,
+  "preds": {
+   "S0": "A btti tih ot we o tu e t ntng.",
+   "S0s2": "A ntet ise eten nosese o a   se ting.",
+   "S1": "A btelts te o s s   du f ing.",
+   "S1s2": "A btlt l ti  ayrn nt  ing.",
+   "G0": "A ontet s o o te e e te thing.",
+   "G0s2": "A bot s o ten feo toi tigs"
+  },
+  "cer": {
+   "S0": 0.614,
+   "S0s2": 0.579,
+   "S1": 0.649,
+   "S1s2": 0.719,
+   "G0": 0.579,
+   "G0s2": 0.614
+  },
+  "S": {
+   "S0": 9,
+   "S0s2": 11,
+   "S1": 7,
+   "S1s2": 8,
+   "G0": 6,
+   "G0s2": 4
+  },
+  "D": {
+   "S0": 26,
+   "S0s2": 22,
+   "S1": 30,
+   "S1s2": 33,
+   "G0": 27,
+   "G0s2": 31
+  },
+  "I": {
+   "S0": 0,
+   "S0s2": 0,
+   "S1": 0,
+   "S1s2": 0,
+   "G0": 0,
+   "G0s2": 0
+  }
+ },
+ {
+  "n": 2,
+  "name": "jhs__train__JH7.3.jpg",
+  "label": "relies on the promiscuous mode feature of a network",
+  "group": "flagged",
+  "kept_h": 1.0,
+  "tight_wh": [
+   1161,
+   259
+  ],
+  "s1_text_px": 287,
+  "s1_positions": 35.875,
+  "label_chars": 51,
+  "need_over_positions": 1.422,
+  "preds": {
+   "S0": "Tehes n h pramim o bvev iotu f nt ntort",
+   "S0s2": "ehsenth tpatcioe oe e i  e f ae ature",
+   "S1": "Reohcs on he emteco vo vos ivio tb fo of uature",
+   "S1s2": "Tmoks n h t aeie m mai eiei  rie f n oture",
+   "G0": "Tehs on he rore oe e w eb nt ore",
+   "G0s2": "Recs sn the p e reimom s io e eo twre"
+  },
+  "cer": {
+   "S0": 0.529,
+   "S0s2": 0.608,
+   "S1": 0.627,
+   "S1s2": 0.667,
+   "G0": 0.569,
+   "G0s2": 0.569
+  },
+  "S": {
+   "S0": 13,
+   "S0s2": 16,
+   "S1": 26,
+   "S1s2": 24,
+   "G0": 10,
+   "G0s2": 13
+  },
+  "D": {
+   "S0": 13,
+   "S0s2": 15,
+   "S1": 5,
+   "S1s2": 10,
+   "G0": 19,
+   "G0s2": 15
+  },
+  "I": {
+   "S0": 1,
+   "S0s2": 0,
+   "S1": 1,
+   "S1s2": 0,
+   "G0": 0,
+   "G0s2": 1
+  }
+ },
+ {
+  "n": 3,
+  "name": "jhs__train__JH5.3.jpg",
+  "label": "The requests don't actually need to be succeeded",
+  "group": "flagged",
+  "kept_h": 1.0,
+  "tight_wh": [
+   1100,
+   240
+  ],
+  "s1_text_px": 294,
+  "s1_positions": 36.75,
+  "label_chars": 48,
+  "need_over_positions": 1.415,
+  "preds": {
+   "S0": "The requets ot o noende oe t e ece coeded",
+   "S0s2": "The epects doe t taentlt   s s sseceded",
+   "S1": "Th requestsot tuitaieni t db scsuce uces",
+   "S1s2": "The eqpests toe te wend  do e eue eded",
+   "G0": "Th reqets ot ein avneded",
+   "G0s2": "The reqests ot ta a ndld  d to saceded"
+  },
+  "cer": {
+   "S0": 0.458,
+   "S0s2": 0.479,
+   "S1": 0.521,
+   "S1s2": 0.438,
+   "G0": 0.604,
+   "G0s2": 0.396
+  },
+  "S": {
+   "S0": 13,
+   "S0s2": 12,
+   "S1": 17,
+   "S1s2": 10,
+   "G0": 5,
+   "G0s2": 8
+  },
+  "D": {
+   "S0": 8,
+   "S0s2": 11,
+   "S1": 8,
+   "S1s2": 11,
+   "G0": 24,
+   "G0s2": 11
+  },
+  "I": {
+   "S0": 1,
+   "S0s2": 0,
+   "S1": 0,
+   "S1s2": 0,
+   "G0": 0,
+   "G0s2": 0
+  }
+ },
+ {
+  "n": 4,
+  "name": "jhs__train__JH1.4.jpg",
+  "label": "of people forming a social or professional network",
+  "group": "control",
+  "kept_h": 1.0,
+  "tight_wh": [
+   1082,
+   240
+  ],
+  "s1_text_px": 289,
+  "s1_positions": 36.125,
+  "label_chars": 50,
+  "need_over_positions": 1.412,
+  "preds": {
+   "S0": "Of pole orin n a s o ocffntntwre",
+   "S0s2": "Oo pole fominin a oauta s fn turt",
+   "S1": "of pople f oin o o araoa rf a a twtort",
+   "S1s2": "o eopl r enidi orpop s tringn fneturt",
+   "G0": "of role oto n e olororoerfe ture",
+   "G0s2": "of pole fotinota o o pro wtwart"
+  },
+  "cer": {
+   "S0": 0.52,
+   "S0s2": 0.56,
+   "S1": 0.5,
+   "S1s2": 0.6,
+   "G0": 0.58,
+   "G0s2": 0.5
+  },
+  "S": {
+   "S0": 6,
+   "S0s2": 9,
+   "S1": 13,
+   "S1s2": 13,
+   "G0": 11,
+   "G0s2": 6
+  },
+  "D": {
+   "S0": 19,
+   "S0s2": 18,
+   "S1": 12,
+   "S1s2": 15,
+   "G0": 18,
+   "G0s2": 19
+  },
+  "I": {
+   "S0": 1,
+   "S0s2": 1,
+   "S1": 0,
+   "S1s2": 2,
+   "G0": 0,
+   "G0s2": 0
+  }
+ },
+ {
+  "n": 5,
+  "name": "jhs__test__JH6.3.jpg",
+  "label": "Zombie is an internet-connected computer infected with a bot",
+  "group": "control",
+  "kept_h": 0.879,
+  "tight_wh": [
+   1253,
+   210
+  ],
+  "s1_text_px": 382,
+  "s1_positions": 47.75,
+  "label_chars": 60,
+  "need_over_positions": 1.277,
+  "preds": {
+   "S0": "Zomtie to an nerne  e e oea ece cie tind hn hen ot",
+   "S0s2": "ioamie isa nteineenecne e e eceit d h e bot",
+   "S1": "iomtie i a taune  nte ecetececies e  et h af bout",
+   "S1s2": "Zambieis aintne teteieaecece  ine tnt  out",
+   "G0": "Iionmlie is anint ne ere oe eoe ie bot",
+   "G0s2": "eomtie ts an ntentcetetcnoe tect ee n toth a bat"
+  },
+  "cer": {
+   "S0": 0.55,
+   "S0s2": 0.5,
+   "S1": 0.567,
+   "S1s2": 0.55,
+   "G0": 0.55,
+   "G0s2": 0.483
+  },
+  "S": {
+   "S0": 20,
+   "S0s2": 13,
+   "S1": 17,
+   "S1s2": 11,
+   "G0": 7,
+   "G0s2": 17
+  },
+  "D": {
+   "S0": 12,
+   "S0s2": 17,
+   "S1": 15,
+   "S1s2": 21,
+   "G0": 24,
+   "G0s2": 12
+  },
+  "I": {
+   "S0": 1,
+   "S0s2": 0,
+   "S1": 2,
+   "S1s2": 1,
+   "G0": 2,
+   "G0s2": 0
+  }
+ },
+ {
+  "n": 6,
+  "name": "jhs__train__JH6.2.jpg",
+  "label": "that allows the attacker complete control of the computer",
+  "group": "control",
+  "kept_h": 0.877,
+  "tight_wh": [
+   1148,
+   185
+  ],
+  "s1_text_px": 398,
+  "s1_positions": 49.75,
+  "label_chars": 57,
+  "need_over_positions": 1.186,
+  "preds": {
+   "S0": "heat allows t e taerncmpeovhevtr o to o h ouer",
+   "S0s2": "bhat alos te eaher c mp o pe ecte tot  t e cputer",
+   "S1": "that allos te e taer c cpeovme cte co o ho coputer",
+   "S1s2": "That alows h tahe apo peolectoogo nt oquter",
+   "G0": "hat allows t t a aet ate e oo ompuuter",
+   "G0s2": "that allws the e tatereceteoto o o putr"
+  },
+  "cer": {
+   "S0": 0.456,
+   "S0s2": 0.439,
+   "S1": 0.368,
+   "S1s2": 0.474,
+   "G0": 0.491,
+   "G0s2": 0.404
+  },
+  "S": {
+   "S0": 7,
+   "S0s2": 14,
+   "S1": 12,
+   "S1s2": 13,
+   "G0": 7,
+   "G0s2": 5
+  },
+  "D": {
+   "S0": 15,
+   "S0s2": 10,
+   "S1": 8,
+   "S1s2": 14,
+   "G0": 20,
+   "G0s2": 18
+  },
+  "I": {
+   "S0": 4,
+   "S0s2": 1,
+   "S1": 1,
+   "S1s2": 0,
+   "G0": 1,
+   "G0s2": 0
+  }
+ },
+ {
+  "n": 7,
+  "name": "jhs__train__JH7.5.jpg",
+  "label": "but does not work well in switched network",
+  "group": "control",
+  "kept_h": 0.898,
+  "tight_wh": [
+   1040,
+   228
+  ],
+  "s1_text_px": 292,
+  "s1_positions": 36.5,
+  "label_chars": 42,
+  "need_over_positions": 1.178,
+  "preds": {
+   "S0": "hot hoes mo orkorkiel weveo nentntowne",
+   "S0s2": "but des not a ae eae o e i hnuetwvk",
+   "S1": "but des not or eae s ie  uete t utworke",
+   "S1s2": "bet does moet pae eike we hehctintuntiowurk",
+   "G0": "bos oe ot obre vile eie i twurke",
+   "G0s2": "bit doe nt or eil w ie wh wk"
+  },
+  "cer": {
+   "S0": 0.619,
+   "S0s2": 0.476,
+   "S1": 0.429,
+   "S1s2": 0.619,
+   "G0": 0.571,
+   "G0s2": 0.476
+  },
+  "S": {
+   "S0": 16,
+   "S0s2": 13,
+   "S1": 12,
+   "S1s2": 23,
+   "G0": 12,
+   "G0s2": 6
+  },
+  "D": {
+   "S0": 7,
+   "S0s2": 7,
+   "S1": 5,
+   "S1s2": 1,
+   "G0": 11,
+   "G0s2": 14
+  },
+  "I": {
+   "S0": 3,
+   "S0s2": 0,
+   "S1": 1,
+   "S1s2": 2,
+   "G0": 1,
+   "G0s2": 0
+  }
+ },
+ {
+  "n": 8,
+  "name": "jhs__train__JH1.5.jpg",
+  "label": "Computer network, social network, infrastructure network",
+  "group": "control",
+  "kept_h": 0.912,
+  "tight_wh": [
+   1195,
+   198
+  ],
+  "s1_text_px": 387,
+  "s1_positions": 48.375,
+  "label_chars": 56,
+  "need_over_positions": 1.158,
+  "preds": {
+   "S0": "Comepter netwoert o a  ie rw iniustneotuutnenetentok",
+   "S0s2": "Cotetr metoe ca ln re o  itintetnetnetarlke",
+   "S1": "Compter metwotet ec caca a nt iat ttu te ntwork",
+   "S1s2": "Compter net ort etasiag iet rte wts eiurnetunreork",
+   "G0": "Comptr ntwotey e e oe oe terertre nwurs",
+   "G0s2": "Compter netwolys er e ret f f etfre etwok"
+  },
+  "cer": {
+   "S0": 0.518,
+   "S0s2": 0.625,
+   "S1": 0.5,
+   "S1s2": 0.518,
+   "G0": 0.554,
+   "G0s2": 0.5
+  },
+  "S": {
+   "S0": 20,
+   "S0s2": 17,
+   "S1": 11,
+   "S1s2": 23,
+   "G0": 14,
+   "G0s2": 13
+  },
+  "D": {
+   "S0": 7,
+   "S0s2": 16,
+   "S1": 13,
+   "S1s2": 6,
+   "G0": 17,
+   "G0s2": 15
+  },
+  "I": {
+   "S0": 2,
+   "S0s2": 2,
+   "S1": 4,
+   "S1s2": 0,
+   "G0": 0,
+   "G0s2": 0
+  }
+ },
+ {
+  "n": 9,
+  "name": "jhs__train__JH7.4.jpg",
+  "label": "Passive sniffing is difficult to detect",
+  "group": "control",
+  "kept_h": 0.894,
+  "tight_wh": [
+   846,
+   185
+  ],
+  "s1_text_px": 293,
+  "s1_positions": 36.625,
+  "label_chars": 39,
+  "need_over_positions": 1.147,
+  "preds": {
+   "S0": "possive sitingi fdito otf e etet",
+   "S0s2": "Pasie sittingis d diotit ot  etet",
+   "S1": "passive smitigis ditit t ttct te detest",
+   "S1s2": "Passivesmisigti dioi iuo ot et",
+   "G0": "Peosive snitin ig dfifitfult dedet",
+   "G0s2": "Podsive sitig i dfiiut det"
+  },
+  "cer": {
+   "S0": 0.462,
+   "S0s2": 0.41,
+   "S1": 0.41,
+   "S1s2": 0.487,
+   "G0": 0.385,
+   "G0s2": 0.436
+  },
+  "S": {
+   "S0": 9,
+   "S0s2": 9,
+   "S1": 10,
+   "S1s2": 10,
+   "G0": 8,
+   "G0s2": 4
+  },
+  "D": {
+   "S0": 8,
+   "S0s2": 7,
+   "S1": 3,
+   "S1s2": 9,
+   "G0": 6,
+   "G0s2": 13
+  },
+  "I": {
+   "S0": 1,
+   "S0s2": 0,
+   "S1": 3,
+   "S1s2": 0,
+   "G0": 1,
+   "G0s2": 0
+  }
+ },
+ {
+  "n": 10,
+  "name": "ds__train__1.1.1.jpg",
+  "label": "The ViT architecture relies on three concepts.",
+  "group": "middle",
+  "kept_h": 0.785,
+  "tight_wh": [
+   1207,
+   234
+  ],
+  "s1_text_px": 331,
+  "s1_positions": 41.375,
+  "label_chars": 46,
+  "need_over_positions": 1.136,
+  "preds": {
+   "S0": "The Vit arcuitecture le e re hn ncches.",
+   "S0s2": "The Vit arcatectue lesne t t e ec ncnces.",
+   "S1": "The Vi arcitecture vde e e h e c ec ctes.",
+   "S1s2": "The Vit arcaitecturt re vere nhene ecn ces.",
+   "G0": "The ViT aruitctue eleie netne cs",
+   "G0s2": "The Vi arcnitctr rereie te hrere cus."
+  },
+  "cer": {
+   "S0": 0.348,
+   "S0s2": 0.37,
+   "S1": 0.37,
+   "S1s2": 0.348,
+   "G0": 0.413,
+   "G0s2": 0.391
+  },
+  "S": {
+   "S0": 9,
+   "S0s2": 12,
+   "S1": 10,
+   "S1s2": 11,
+   "G0": 3,
+   "G0s2": 5
+  },
+  "D": {
+   "S0": 7,
+   "S0s2": 5,
+   "S1": 6,
+   "S1s2": 4,
+   "G0": 15,
+   "G0s2": 11
+  },
+  "I": {
+   "S0": 0,
+   "S0s2": 0,
+   "S1": 1,
+   "S1s2": 1,
+   "G0": 1,
+   "G0s2": 2
+  }
+ },
+ {
+  "n": 11,
+  "name": "jhs__train__JH1.1.jpg",
+  "label": "A network is a system of interconnected people",
+  "group": "control",
+  "kept_h": 1.0,
+  "tight_wh": [
+   1166,
+   216
+  ],
+  "s1_text_px": 346,
+  "s1_positions": 43.25,
+  "label_chars": 46,
+  "need_over_positions": 1.087,
+  "preds": {
+   "S0": "A networle isi sto o one ocnne e oale",
+   "S0s2": "A networleis a ystie o f ine ccn n cple",
+   "S1": "A networe s e yst s fof tnet netete eple",
+   "S1s2": "A etworklis a systi f ine g cinedeeple",
+   "G0": "A notworke is a suses o neeneone popple",
+   "G0s2": "A metwore is asystmso fuftooomn tpealle"
+  },
+  "cer": {
+   "S0": 0.435,
+   "S0s2": 0.391,
+   "S1": 0.391,
+   "S1s2": 0.37,
+   "G0": 0.37,
+   "G0s2": 0.435
+  },
+  "S": {
+   "S0": 9,
+   "S0s2": 9,
+   "S1": 10,
+   "S1s2": 9,
+   "G0": 8,
+   "G0s2": 13
+  },
+  "D": {
+   "S0": 10,
+   "S0s2": 8,
+   "S1": 7,
+   "S1s2": 8,
+   "G0": 8,
+   "G0s2": 7
+  },
+  "I": {
+   "S0": 1,
+   "S0s2": 1,
+   "S1": 1,
+   "S1s2": 0,
+   "G0": 1,
+   "G0s2": 0
+  }
+ },
+ {
+  "n": 12,
+  "name": "jhs__train__JH6.6.jpg",
+  "label": "fake WiFi access point that appears to",
+  "group": "control",
+  "kept_h": 0.882,
+  "tight_wh": [
+   892,
+   186
+  ],
+  "s1_text_px": 307,
+  "s1_positions": 38.375,
+  "label_chars": 38,
+  "need_over_positions": 1.068,
+  "preds": {
+   "S0": "fake Wi ces pointnt oecpperer ton",
+   "S0s2": "fae wit cess pon thta preansto0",
+   "S1": "fae hit cess pin htapgremems to",
+   "S1s2": "fake Wi i nces pon thnt hge  ptueien to",
+   "G0": "fake Witi mcess pon thtathapre to",
+   "G0s2": "fake i mces pein ta paps tto"
+  },
+  "cer": {
+   "S0": 0.395,
+   "S0s2": 0.368,
+   "S1": 0.421,
+   "S1s2": 0.421,
+   "G0": 0.289,
+   "G0s2": 0.395
+  },
+  "S": {
+   "S0": 8,
+   "S0s2": 5,
+   "S1": 5,
+   "S1s2": 8,
+   "G0": 4,
+   "G0s2": 3
+  },
+  "D": {
+   "S0": 6,
+   "S0s2": 8,
+   "S1": 9,
+   "S1s2": 4,
+   "G0": 6,
+   "G0s2": 11
+  },
+  "I": {
+   "S0": 1,
+   "S0s2": 1,
+   "S1": 2,
+   "S1s2": 4,
+   "G0": 1,
+   "G0s2": 1
+  }
+ },
+ {
+  "n": 13,
+  "name": "jhs__train__JH5.2.jpg",
+  "label": "HTTP requests, DNS queries, TCP connection request",
+  "group": "control",
+  "kept_h": 0.876,
+  "tight_wh": [
+   1090,
+   176
+  ],
+  "s1_text_px": 397,
+  "s1_positions": 49.625,
+  "label_chars": 50,
+  "need_over_positions": 1.048,
+  "preds": {
+   "S0": "HtTP roquests,DNnsques s Cnnc tcncnenequest",
+   "S0s2": "Hrr rquests, Ns quer ce Cocc ncnn equest",
+   "S1": "HrTP raquests, Nrs qu susrnues CcO cec ecequest",
+   "S1s2": "HtTP raquests, s,q esrr tus otn tcinencennqust",
+   "G0": "HtTP rogves, U epese e e ec tion equust",
+   "G0s2": "THetTP roavests, Dns queres, r oonetio quest"
+  },
+  "cer": {
+   "S0": 0.38,
+   "S0s2": 0.38,
+   "S1": 0.44,
+   "S1s2": 0.48,
+   "G0": 0.46,
+   "G0s2": 0.3
+  },
+  "S": {
+   "S0": 10,
+   "S0s2": 9,
+   "S1": 11,
+   "S1s2": 18,
+   "G0": 10,
+   "G0s2": 5
+  },
+  "D": {
+   "S0": 8,
+   "S0s2": 10,
+   "S1": 7,
+   "S1s2": 5,
+   "G0": 12,
+   "G0s2": 8
+  },
+  "I": {
+   "S0": 1,
+   "S0s2": 0,
+   "S1": 4,
+   "S1s2": 1,
+   "G0": 1,
+   "G0s2": 2
+  }
+ },
+ {
+  "n": 14,
+  "name": "jhs__train__JH6.5.jpg",
+  "label": "Anyone close to your router can get on",
+  "group": "control",
+  "kept_h": 0.899,
+  "tight_wh": [
+   925,
+   204
+  ],
+  "s1_text_px": 291,
+  "s1_positions": 36.375,
+  "label_chars": 38,
+  "need_over_positions": 1.045,
+  "preds": {
+   "S0": "Amyome close to gue oue tocnton",
+   "S0s2": "Amoue close to your ote ean nn cat on",
+   "S1": "Amon lose to youe oaueo  n g agton",
+   "S1s2": "Anmyune close toyo roero ecunneton",
+   "G0": "Anmyone dlose to yous oetorn ge  on",
+   "G0s2": "Amyone clove to youe ruturte gton"
+  },
+  "cer": {
+   "S0": 0.395,
+   "S0s2": 0.316,
+   "S1": 0.395,
+   "S1s2": 0.342,
+   "G0": 0.263,
+   "G0s2": 0.289
+  },
+  "S": {
+   "S0": 8,
+   "S0s2": 5,
+   "S1": 8,
+   "S1s2": 3,
+   "G0": 4,
+   "G0s2": 6
+  },
+  "D": {
+   "S0": 7,
+   "S0s2": 4,
+   "S1": 6,
+   "S1s2": 7,
+   "G0": 5,
+   "G0s2": 5
+  },
+  "I": {
+   "S0": 0,
+   "S0s2": 3,
+   "S1": 1,
+   "S1s2": 3,
+   "G0": 1,
+   "G0s2": 0
+  }
+ },
+ {
+  "n": 15,
+  "name": "jhs__train__JH4.3.jpg",
+  "label": "MitM exploits unsecured physical ports",
+  "group": "control",
+  "kept_h": 0.879,
+  "tight_wh": [
+   860,
+   189
+  ],
+  "s1_text_px": 292,
+  "s1_positions": 36.5,
+  "label_chars": 38,
+  "need_over_positions": 1.041,
+  "preds": {
+   "S0": "mitm expots unrncurend pusicazppapots",
+   "S0s2": "mitm extoits unsecved gta p ponts",
+   "S1": "mitm exptits uancredorusts cports",
+   "S1s2": "mit expit unseced orgwu siiports",
+   "G0": "Mim expoits usecred l isal poorts",
+   "G0s2": "mitm eptitsuseured ghst poats"
+  },
+  "cer": {
+   "S0": 0.316,
+   "S0s2": 0.342,
+   "S1": 0.395,
+   "S1s2": 0.395,
+   "G0": 0.263,
+   "G0s2": 0.342
+  },
+  "S": {
+   "S0": 7,
+   "S0s2": 8,
+   "S1": 10,
+   "S1s2": 9,
+   "G0": 3,
+   "G0s2": 4
+  },
+  "D": {
+   "S0": 3,
+   "S0s2": 5,
+   "S1": 5,
+   "S1s2": 6,
+   "G0": 6,
+   "G0s2": 9
+  },
+  "I": {
+   "S0": 2,
+   "S0s2": 0,
+   "S1": 0,
+   "S1s2": 0,
+   "G0": 1,
+   "G0s2": 0
+  }
+ },
+ {
+  "n": 16,
+  "name": "jhs__train__JH7.1.jpg",
+  "label": "If it is unencrypted, then there may be a loss",
+  "group": "control",
+  "kept_h": 0.99,
+  "tight_wh": [
+   1081,
+   189
+  ],
+  "s1_text_px": 367,
+  "s1_positions": 45.875,
+  "label_chars": 46,
+  "need_over_positions": 1.025,
+  "preds": {
+   "S0": "i it s unencrpted hen hthe he hene llos",
+   "S0s2": "I s it s unencreptede enhth he me e e e a los",
+   "S1": "Ii it is unencrpted hen e e mem e   aos",
+   "S1s2": "I f it is unencrpted hen e he  he o  los",
+   "G0": "Iif it is unencrypted hen hehemoe moe los",
+   "G0s2": "Ie it is unenerpted the hereme b  aloss"
+  },
+  "cer": {
+   "S0": 0.348,
+   "S0s2": 0.348,
+   "S1": 0.283,
+   "S1s2": 0.304,
+   "G0": 0.283,
+   "G0s2": 0.239
+  },
+  "S": {
+   "S0": 9,
+   "S0s2": 9,
+   "S1": 4,
+   "S1s2": 4,
+   "G0": 6,
+   "G0s2": 3
+  },
+  "D": {
+   "S0": 7,
+   "S0s2": 4,
+   "S1": 9,
+   "S1s2": 9,
+   "G0": 6,
+   "G0s2": 8
+  },
+  "I": {
+   "S0": 0,
+   "S0s2": 3,
+   "S1": 0,
+   "S1s2": 1,
+   "G0": 1,
+   "G0s2": 0
+  }
+ },
+ {
+  "n": 17,
+  "name": "jhs__train__JH5.4.jpg",
+  "label": "Distributed reflective denial of service attacks",
+  "group": "control",
+  "kept_h": 0.886,
+  "tight_wh": [
+   1078,
+   179
+  ],
+  "s1_text_px": 386,
+  "s1_positions": 48.25,
+  "label_chars": 48,
+  "need_over_positions": 1.016,
+  "preds": {
+   "S0": "Distribued reflectve evindn ferie n tntntnks",
+   "S0s2": "Distibuted reflecive emeaeanerive ettstmcks",
+   "S1": "Distibute refletiededm na ervn tctcks",
+   "S1s2": "Ditributed refletaeve ediend isere etanincks",
+   "G0": "Ditibutd rofletveneied l nr ratnks",
+   "G0s2": "aitributed refleieteie io er rtncks"
+  },
+  "cer": {
+   "S0": 0.375,
+   "S0s2": 0.354,
+   "S1": 0.375,
+   "S1s2": 0.396,
+   "G0": 0.479,
+   "G0s2": 0.417
+  },
+  "S": {
+   "S0": 8,
+   "S0s2": 8,
+   "S1": 7,
+   "S1s2": 15,
+   "G0": 9,
+   "G0s2": 7
+  },
+  "D": {
+   "S0": 7,
+   "S0s2": 7,
+   "S1": 11,
+   "S1s2": 4,
+   "G0": 14,
+   "G0s2": 13
+  },
+  "I": {
+   "S0": 3,
+   "S0s2": 2,
+   "S1": 0,
+   "S1s2": 0,
+   "G0": 0,
+   "G0s2": 0
+  }
+ },
+ {
+  "n": 18,
+  "name": "ds__test__7.1.1.jpg",
+  "label": "Deep learning, the word deep",
+  "group": "control",
+  "kept_h": 1.0,
+  "tight_wh": [
+   890,
+   204
+  ],
+  "s1_text_px": 280,
+  "s1_positions": 35.0,
+  "label_chars": 28,
+  "need_over_positions": 0.857,
+  "preds": {
+   "S0": "Dece learningthwho d dter",
+   "S0s2": "Deep earning hewo uder",
+   "S1": "Dep learning the wdder",
+   "S1s2": "Deplearning the h une.",
+   "G0": "Dep learing th wowoodee)",
+   "G0s2": "Deplearning th wordees"
+  },
+  "cer": {
+   "S0": 0.357,
+   "S0s2": 0.321,
+   "S1": 0.25,
+   "S1s2": 0.357,
+   "G0": 0.286,
+   "G0s2": 0.25
+  },
+  "S": {
+   "S0": 7,
+   "S0s2": 3,
+   "S1": 1,
+   "S1s2": 4,
+   "G0": 4,
+   "G0s2": 1
+  },
+  "D": {
+   "S0": 3,
+   "S0s2": 6,
+   "S1": 6,
+   "S1s2": 6,
+   "G0": 4,
+   "G0s2": 6
+  },
+  "I": {
+   "S0": 0,
+   "S0s2": 0,
+   "S1": 0,
+   "S1s2": 0,
+   "G0": 0,
+   "G0s2": 0
+  }
+ },
+ {
+  "n": 19,
+  "name": "ds__test__1.4.2.jpg",
+  "label": "extremely data-hungry. They are typically pre-trained on massive datasets",
+  "group": "middle",
+  "kept_h": 0.685,
+  "tight_wh": [
+   1799,
+   137
+  ],
+  "s1_text_px": 841,
+  "s1_positions": 105.125,
+  "label_chars": 73,
+  "need_over_positions": 0.713,
+  "preds": {
+   "S0": "extretnely date hunginy. Thy are tipicll pre trained on massive datacts",
+   "S0s2": "extrennery dath hungey4. Thy aretypiculp Pre trained on massive latasut.",
+   "S1": "extrenely date - hunmh4. Thy are tipical pre -trained on masive dlitasets.",
+   "S1s2": "extretnely dats -hungr4. Thuy are txpical pre -frained on massive lataits",
+   "G0": "extrernely datk - hungm4. Thy are typicall pre -trained on masive datcts",
+   "G0s2": "extrernely dat -hunguy4. Thy are tpicllp pre -trained on massive daitafits"
+  },
+  "cer": {
+   "S0": 0.178,
+   "S0s2": 0.219,
+   "S1": 0.219,
+   "S1s2": 0.192,
+   "G0": 0.192,
+   "G0s2": 0.178
+  },
+  "S": {
+   "S0": 7,
+   "S0s2": 11,
+   "S1": 7,
+   "S1s2": 8,
+   "G0": 5,
+   "G0s2": 6
+  },
+  "D": {
+   "S0": 4,
+   "S0s2": 3,
+   "S1": 4,
+   "S1s2": 3,
+   "G0": 5,
+   "G0s2": 3
+  },
+  "I": {
+   "S0": 2,
+   "S0s2": 2,
+   "S1": 5,
+   "S1s2": 3,
+   "G0": 4,
+   "G0s2": 4
+  }
+ },
+ {
+  "n": 20,
+  "name": "jhw__test__JH5.1.jpg",
+  "label": "Panasonic",
+  "group": "middle",
+  "kept_h": 0.713,
+  "tight_wh": [
+   283,
+   129
+  ],
+  "s1_text_px": 141,
+  "s1_positions": 17.625,
+  "label_chars": 9,
+  "need_over_positions": 0.511,
+  "preds": {
+   "S0": "Panosonin",
+   "S0s2": "Pansone",
+   "S1": "Padnsonio,",
+   "S1s2": "Pansonis",
+   "G0": " Rsnmasan",
+   "G0s2": "Panasanie,"
+  },
+  "cer": {
+   "S0": 0.222,
+   "S0s2": 0.333,
+   "S1": 0.444,
+   "S1s2": 0.222,
+   "G0": 0.667,
+   "G0s2": 0.333
+  },
+  "S": {
+   "S0": 2,
+   "S0s2": 1,
+   "S1": 3,
+   "S1s2": 1,
+   "G0": 3,
+   "G0s2": 2
+  },
+  "D": {
+   "S0": 0,
+   "S0s2": 2,
+   "S1": 0,
+   "S1s2": 1,
+   "G0": 2,
+   "G0s2": 0
+  },
+  "I": {
+   "S0": 0,
+   "S0s2": 0,
+   "S1": 1,
+   "S1s2": 0,
+   "G0": 1,
+   "G0s2": 1
+  }
+ },
+ {
+  "n": 21,
+  "name": "jhw__train__JH19.1.jpg",
+  "label": "Legendary",
+  "group": "large margin",
+  "kept_h": 0.518,
+  "tight_wh": [
+   173,
+   59
+  ],
+  "s1_text_px": 188,
+  "s1_positions": 23.5,
+  "label_chars": 9,
+  "need_over_positions": 0.383,
+  "preds": {
+   "S0": "Legendoin",
+   "S0s2": "Legendain",
+   "S1": "Legeindan",
+   "S1s2": "Legendnn",
+   "G0": "Legeindinin",
+   "G0s2": "Legeindain,"
+  },
+  "cer": {
+   "S0": 0.333,
+   "S0s2": 0.222,
+   "S1": 0.333,
+   "S1s2": 0.333,
+   "G0": 0.556,
+   "G0s2": 0.444
+  },
+  "S": {
+   "S0": 3,
+   "S0s2": 2,
+   "S1": 1,
+   "S1s2": 2,
+   "G0": 3,
+   "G0s2": 2
+  },
+  "D": {
+   "S0": 0,
+   "S0s2": 0,
+   "S1": 1,
+   "S1s2": 1,
+   "G0": 0,
+   "G0s2": 0
+  },
+  "I": {
+   "S0": 0,
+   "S0s2": 0,
+   "S1": 1,
+   "S1s2": 0,
+   "G0": 2,
+   "G0s2": 2
+  }
+ },
+ {
+  "n": 22,
+  "name": "jhw__train__JH22.1.jpg",
+  "label": "Legendary",
+  "group": "large margin",
+  "kept_h": 0.518,
+  "tight_wh": [
+   173,
+   59
+  ],
+  "s1_text_px": 188,
+  "s1_positions": 23.5,
+  "label_chars": 9,
+  "need_over_positions": 0.383,
+  "preds": {
+   "S0": "Legendan",
+   "S0s2": "Legendain",
+   "S1": "Legendain",
+   "S1s2": "Legendgin",
+   "G0": "Legeindain",
+   "G0s2": "Legendain,"
+  },
+  "cer": {
+   "S0": 0.222,
+   "S0s2": 0.222,
+   "S1": 0.222,
+   "S1s2": 0.333,
+   "G0": 0.333,
+   "G0s2": 0.333
+  },
+  "S": {
+   "S0": 1,
+   "S0s2": 2,
+   "S1": 2,
+   "S1s2": 3,
+   "G0": 2,
+   "G0s2": 2
+  },
+  "D": {
+   "S0": 1,
+   "S0s2": 0,
+   "S1": 0,
+   "S1s2": 0,
+   "G0": 0,
+   "G0s2": 0
+  },
+  "I": {
+   "S0": 0,
+   "S0s2": 0,
+   "S1": 0,
+   "S1s2": 0,
+   "G0": 1,
+   "G0s2": 1
+  }
+ },
+ {
+  "n": 23,
+  "name": "jhw__train__JH17.3.jpg",
+  "label": "Yuzu Juice",
+  "group": "large margin",
+  "kept_h": 0.443,
+  "tight_wh": [
+   143,
+   35
+  ],
+  "s1_text_px": 262,
+  "s1_positions": 32.75,
+  "label_chars": 10,
+  "need_over_positions": 0.305,
+  "preds": {
+   "S0": "Vuzu )uice",
+   "S0s2": "Vuzu )uice",
+   "S1": "Vuzu )uice",
+   "S1s2": "Vuzu )uice",
+   "G0": "Vuzu )uice",
+   "G0s2": "Vuzu Duice"
+  },
+  "cer": {
+   "S0": 0.2,
+   "S0s2": 0.2,
+   "S1": 0.2,
+   "S1s2": 0.2,
+   "G0": 0.2,
+   "G0s2": 0.2
+  },
+  "S": {
+   "S0": 2,
+   "S0s2": 2,
+   "S1": 2,
+   "S1s2": 2,
+   "G0": 2,
+   "G0s2": 2
+  },
+  "D": {
+   "S0": 0,
+   "S0s2": 0,
+   "S1": 0,
+   "S1s2": 0,
+   "G0": 0,
+   "G0s2": 0
+  },
+  "I": {
+   "S0": 0,
+   "S0s2": 0,
+   "S1": 0,
+   "S1s2": 0,
+   "G0": 0,
+   "G0s2": 0
+  }
+ },
+ {
+  "n": 24,
+  "name": "jhw__test__JH30.2.jpg",
+  "label": "Giant",
+  "group": "middle",
+  "kept_h": 0.706,
+  "tight_wh": [
+   202,
+   72
+  ],
+  "s1_text_px": 180,
+  "s1_positions": 22.5,
+  "label_chars": 5,
+  "need_over_positions": 0.222,
+  "preds": {
+   "S0": "Ctiant",
+   "S0s2": "Criant",
+   "S1": "Ctiant",
+   "S1s2": "Criant",
+   "G0": "CTiant",
+   "G0s2": "Criant"
+  },
+  "cer": {
+   "S0": 0.4,
+   "S0s2": 0.4,
+   "S1": 0.4,
+   "S1s2": 0.4,
+   "G0": 0.4,
+   "G0s2": 0.4
+  },
+  "S": {
+   "S0": 1,
+   "S0s2": 1,
+   "S1": 1,
+   "S1s2": 1,
+   "G0": 1,
+   "G0s2": 1
+  },
+  "D": {
+   "S0": 0,
+   "S0s2": 0,
+   "S1": 0,
+   "S1s2": 0,
+   "G0": 0,
+   "G0s2": 0
+  },
+  "I": {
+   "S0": 1,
+   "S0s2": 1,
+   "S1": 1,
+   "S1s2": 1,
+   "G0": 1,
+   "G0s2": 1
+  }
+ },
+ {
+  "n": 25,
+  "name": "jhw__train__JH23.2.jpg",
+  "label": "cake",
+  "group": "large margin",
+  "kept_h": 0.551,
+  "tight_wh": [
+   96,
+   38
+  ],
+  "s1_text_px": 162,
+  "s1_positions": 20.25,
+  "label_chars": 4,
+  "need_over_positions": 0.198,
+  "preds": {
+   "S0": "Cale",
+   "S0s2": "CalLe",
+   "S1": "calke",
+   "S1s2": "cale",
+   "G0": "calce",
+   "G0s2": "cale"
+  },
+  "cer": {
+   "S0": 0.25,
+   "S0s2": 0.5,
+   "S1": 0.25,
+   "S1s2": 0.25,
+   "G0": 0.5,
+   "G0s2": 0.25
+  },
+  "S": {
+   "S0": 1,
+   "S0s2": 1,
+   "S1": 0,
+   "S1s2": 1,
+   "G0": 1,
+   "G0s2": 1
+  },
+  "D": {
+   "S0": 0,
+   "S0s2": 0,
+   "S1": 0,
+   "S1s2": 0,
+   "G0": 0,
+   "G0s2": 0
+  },
+  "I": {
+   "S0": 0,
+   "S0s2": 1,
+   "S1": 1,
+   "S1s2": 0,
+   "G0": 1,
+   "G0s2": 0
+  }
+ },
+ {
+  "n": 26,
+  "name": "jhw__train__JH6.1.jpg",
+  "label": "100W",
+  "group": "large margin",
+  "kept_h": 0.397,
+  "tight_wh": [
+   181,
+   48
+  ],
+  "s1_text_px": 242,
+  "s1_positions": 30.25,
+  "label_chars": 4,
+  "need_over_positions": 0.165,
+  "preds": {
+   "S0": "Toosd",
+   "S0s2": "1ooin",
+   "S1": "100u",
+   "S1s2": "100s",
+   "G0": "1o0",
+   "G0s2": "100"
+  },
+  "cer": {
+   "S0": 1.25,
+   "S0s2": 1.0,
+   "S1": 0.25,
+   "S1s2": 0.25,
+   "G0": 0.5,
+   "G0s2": 0.25
+  },
+  "S": {
+   "S0": 4,
+   "S0s2": 3,
+   "S1": 1,
+   "S1s2": 1,
+   "G0": 1,
+   "G0s2": 0
+  },
+  "D": {
+   "S0": 0,
+   "S0s2": 0,
+   "S1": 0,
+   "S1s2": 0,
+   "G0": 1,
+   "G0s2": 1
+  },
+  "I": {
+   "S0": 1,
+   "S0s2": 1,
+   "S1": 0,
+   "S1s2": 0,
+   "G0": 0,
+   "G0s2": 0
+  }
+ }
+]

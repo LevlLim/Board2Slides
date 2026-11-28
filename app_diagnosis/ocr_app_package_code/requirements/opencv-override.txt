@@ -1,0 +1,4 @@
+# Install AFTER base.txt with:  pip install --no-deps --force-reinstall -r requirements/opencv-override.txt
+# paddlex pins opencv-contrib-python 4.10.0.84; the tested app environment resolves `import cv2` to OpenCV 5.0.0
+# (opencv-python 5.0.0.93 installed later). The headless 5.0.0.93 wheel reproduces that cv2 without GUI libraries.
+opencv-python-headless==5.0.0.93

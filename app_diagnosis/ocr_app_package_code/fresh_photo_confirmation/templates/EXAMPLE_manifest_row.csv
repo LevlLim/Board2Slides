@@ -1,0 +1,2 @@
+photo_id,file,writer_id,writer_new_to_project,consent_for_evaluation,captured_on,device,distance_m,angle,lighting,glare,board_type,marker_colours,layout,approx_lines,in_any_training_or_dev_set,transcriber,reviewer,transcription_status,notes
+W1_01,W1_01.HEIC,W1,yes,yes,2026-11-12,iPhone 15 (default camera),2,straight,classroom fluorescent,none,whiteboard,black+blue,single-column,8,no,ZB,JY,reviewed,"line 3: 'chloroplast' second o faint, agreed o"

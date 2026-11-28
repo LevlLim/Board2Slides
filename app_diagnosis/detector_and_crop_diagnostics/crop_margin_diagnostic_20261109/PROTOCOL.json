@@ -1,0 +1,16 @@
+{
+ "created": "2026-11-08 17:21:31 UTC",
+ "author": "Claude, 9 Nov 2026",
+ "status": "frozen BEFORE any new inference on these crops",
+ "question": "Do large crop margins (writing small after resizing to 64 px) contribute to errors, especially deletions, on unfamiliar writers?",
+ "crops": "all 160 JH/DS new-writer crops; Jy excluded (294/298 already tight, and ink detection missed light first strokes, so tightening would cut letters)",
+ "box_rule": "sensitive ink mask (median-background difference > max(10, 0.2*p99.5)), components >= max(6, 5e-5*area) px; box = ink box padded by max(6, 0.35*ink height) vertically and max(10, 0.8*ink height) horizontally; border-touching components dropped for JH19.1/JH22.1/JH26.1/JH5.1 (corner shading). Every changed box was visually checked to keep all target strokes.",
+ "boxes_file": "boxes_final.json (source sha256 per crop)",
+ "boxes_sha256": "6dc3cbfe1f5114247c5550660fedaa69a3cd214faf7415c591d81781e5a2b90a",
+ "groups": "dose = kept height fraction (box height / crop height): large margin <= 0.6; control >= 0.85; middle in between; 4 flagged crops reported separately",
+ "reader": "exported S1 seed-1 model (results_strategies_s0s3/results/models/PP-OCRv5_server_rec_board2notes_S1), Mac CPU static reader, same code for both arms; originals re-scored with the same reader",
+ "metric": "mean line CER (lower-case, spaces normalised), Levenshtein substitutions/deletions/insertions, crops better/worse",
+ "supported_if": "ALL of: (1) large-margin group: mean CER change (tight - original) has photo-cluster bootstrap 95% CI below 0; (2) large-margin deletions decrease; (3) large-margin change minus control change has 95% CI below 0. Otherwise: not supported.",
+ "caveats": "manual/oracle boxes, not an app feature; JH/DS already informed development; one reader; CPU scorer",
+ "inputs": "original arm reads the untouched source files; tight arm reads lossless PNG crops of the same decoded pixels"
+}

@@ -1,0 +1,42 @@
+model  all  A  B  C  D  E
+S0      14.2  20.6   4.4   3.6   9.3   6.4
+S0s2    10.5  12.6  12.8   3.3   8.5   6.7
+S0avg   12.4  16.6   8.6   3.5   8.9   6.5
+S1      10.4  13.4   6.4   9.0   8.0   5.5
+S1s2    12.6  15.7  20.1   3.6   8.1   6.0
+S1avg   11.5  14.6  13.3   6.3   8.0   5.8
+G0       8.8   9.4   8.0   5.7  10.1   6.9
+G0s2     9.5  10.8  14.6   4.8   8.6   5.2
+G0avg    9.1  10.1  11.3   5.2   9.4   6.1
+V2       5.6   4.3  10.5   1.2   8.7   5.8
+S1his    4.6   4.1   1.4   0.0   7.5   5.7
+per-writing mean S0avg 10.62
+per-writing mean S1avg 10.83
+per-writing mean G0avg 8.94
+per-writing mean V2 5.99
+per-writing mean S1his 3.84
+G0avg  - S0avg  by writing  (16 groups):  -3.25 [ -5.98,  -0.61]
+G0avg  - S0avg  by photo    (44 groups):  -3.25 [ -4.94,  -1.53]
+S1avg  - S0avg  by writing  (16 groups):  -0.90 [ -3.94,  +2.90]
+S1avg  - S0avg  by photo    (44 groups):  -0.90 [ -1.98,  +0.25]
+G0     - S0     by writing  (16 groups):  -5.44 [-10.00,  -0.66]
+G0     - S0     by photo    (44 groups):  -5.44 [ -8.24,  -2.52]
+G0s2   - S0s2   by writing  (16 groups):  -1.06 [ -4.98,  +3.21]
+G0s2   - S0s2   by photo    (44 groups):  -1.06 [ -2.55,  +0.43]
+S0s2   - S0     by writing  (16 groups):  -3.72 [ -8.81,  +1.04]
+S0s2   - S0     by photo    (44 groups):  -3.72 [ -5.95,  -1.30]
+S1s2   - S1     by writing  (16 groups):  +2.20 [ -2.19,  +8.08]
+S1s2   - S1     by photo    (44 groups):  +2.20 [ +0.53,  +3.93]
+G0s2   - G0     by writing  (16 groups):  +0.67 [ -2.15,  +3.77]
+G0s2   - G0     by photo    (44 groups):  +0.67 [ -1.16,  +2.41]
+V2     - S0avg  by writing  (16 groups):  -6.77 [-10.74,  -2.60]
+V2     - S0avg  by photo    (44 groups):  -6.77 [ -9.12,  -4.19]
+S1his  - S1avg  by writing  (16 groups):  -6.91 [-14.42,  -2.15]
+S1his  - S1avg  by photo    (44 groups):  -6.91 [ -8.97,  -4.73]
+S1his  - G0avg  by writing  (16 groups):  -4.55 [ -8.95,  -1.50]
+S1his  - G0avg  by photo    (44 groups):  -4.55 [ -6.00,  -3.06]
+board A G0avg-S0avg -6.54 V2-S0avg -12.34
+board B G0avg-S0avg 2.76 V2-S0avg 1.89
+board C G0avg-S0avg 1.79 V2-S0avg -2.26
+board D G0avg-S0avg 0.49 V2-S0avg -0.16
+board E G0avg-S0avg -0.49 V2-S0avg -0.79

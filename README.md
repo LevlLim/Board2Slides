@@ -31,6 +31,38 @@ Drafts live on the server in `data/jobs`. A link or QR code opens the same draft
 ## Dataset 
 Our training dataset hosted [here](https://huggingface.co/datasets/TYW02/whiteboard-notes-v1) on hugging face.
 
+## Model development: the OCR reader
+
+The app's text reader is PaddleOCR's `PP-OCRv5_server_rec`, fine-tuned for whiteboard handwriting. Training scripts,
+every run's `config.yml`, logs and scored predictions are in [`model_development/`](model_development/README.md),
+which also maps every poster number to its source file. Checks of the app's OCR on whole photos are in
+[`app_diagnosis/`](app_diagnosis/README.md). Reader weights: Release
+[Reader_V1](https://github.com/LevlLim/Board2Slides/releases/tag/Reader_V1).
+
+Error = mean line character error rate, lower is better. The pooling and learning-rate changes were each tested
+against a control that differs only in that change.
+
+| Change from PaddleOCR's setup | Why | Result |
+|---|---|---|
+| Fine-tune on our whiteboard line crops | The downloaded reader was not trained on whiteboard handwriting | Whiteboard validation 15.5% → 8.9% |
+| Wider input (48×320 → 64×1024) and width pooling in training: one CTC column per 8 px (128) instead of a fixed 40 | With 40 columns, long lines have too few positions for CTC | Long lines 45.3% → 4.5% (same lines and input, only the pooling differs) |
+| Label limit `max_text_length` 25 → 100 (all runs) | Training skips labels longer than the limit | Long board lines can be trained on |
+| Stage-wise learning rate for the backbone stages `[0.1, 0.1, 0.25, 0.5, 1.0]` | Early layers keep their general features | New writers 26.8% → 24.9% (2 runs each) |
+| Final model: the same settings on the team dataset | More writers and lines | Held-out test lines 16.9% (downloaded) → 7.0% |
+| English 94-character dictionary instead of 18,383 characters (app V2) | Smaller reader that only outputs English | 7.4% on the same test lines (final model 7.0% on those lines); weights 75.5 MB instead of 84.4 MB |
+
+Tried and not adopted: letting the CTC loss train the backbone (by default only the NRTR loss does). Routing it into
+the late layers read new writers and fresh boards slightly better (26.7% → 26.0%, 11.2% → 10.4%), but within the
+difference between two runs of the same recipe (`model_development/experiments/3_*` and `4_*`).
+
+Whole photos through the app (44 photos, 5 boards): characters read right 78% with the downloaded reader, 87% with
+the final model ([`app_diagnosis/whole_photo_test_20261125/`](app_diagnosis/whole_photo_test_20261125/README.md)).
+
+To reproduce a run: each experiment's `source/` folder holds the exact training and scoring script, and each
+`runs/<run>/config.yml` is the PaddleOCR config it trained with. Training needs a GPU (we used RunPod) and the
+dataset above; our own earlier whiteboard crops are not public. The runner scripts expect the RunPod volume layout
+described in each script's header, so they record exactly what ran rather than being a one-command setup.
+
 ## Requirements
 
 - **Windows 64-bit** or **Apple Silicon macOS**. The Mac setup has not yet been physically tested by the team. Intel Macs can use the browser against a Windows or deployed server; local model installation may need a different runtime.

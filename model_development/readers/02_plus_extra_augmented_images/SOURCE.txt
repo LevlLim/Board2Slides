@@ -1,0 +1,4 @@
+Step 2: step 1 plus 3,156 extra augmented images made before training. No clear gain on our tests, so later steps train without them.
+source folder: Assignment/results_versions_2x2/results/models/PP-OCRv5_server_rec_board2notes_C1
+experiment: results_versions_2x2, model C1
+inference.pdiparams sha256: 807f8454e4de2d71f037e79331ed13691333628b596277907b4342ccd062afdb

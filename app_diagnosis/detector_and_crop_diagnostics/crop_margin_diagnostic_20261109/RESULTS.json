@@ -1,0 +1,3998 @@
+{
+ "protocol": {
+  "created": "2026-11-08 17:21:31 UTC",
+  "author": "Claude, 9 Nov 2026",
+  "status": "frozen BEFORE any new inference on these crops",
+  "question": "Do large crop margins (writing small after resizing to 64 px) contribute to errors, especially deletions, on unfamiliar writers?",
+  "crops": "all 160 JH/DS new-writer crops; Jy excluded (294/298 already tight, and ink detection missed light first strokes, so tightening would cut letters)",
+  "box_rule": "sensitive ink mask (median-background difference > max(10, 0.2*p99.5)), components >= max(6, 5e-5*area) px; box = ink box padded by max(6, 0.35*ink height) vertically and max(10, 0.8*ink height) horizontally; border-touching components dropped for JH19.1/JH22.1/JH26.1/JH5.1 (corner shading). Every changed box was visually checked to keep all target strokes.",
+  "boxes_file": "boxes_final.json (source sha256 per crop)",
+  "boxes_sha256": "6dc3cbfe1f5114247c5550660fedaa69a3cd214faf7415c591d81781e5a2b90a",
+  "groups": "dose = kept height fraction (box height / crop height): large margin <= 0.6; control >= 0.85; middle in between; 4 flagged crops reported separately",
+  "reader": "exported S1 seed-1 model (results_strategies_s0s3/results/models/PP-OCRv5_server_rec_board2notes_S1), Mac CPU static reader, same code for both arms; originals re-scored with the same reader",
+  "metric": "mean line CER (lower-case, spaces normalised), Levenshtein substitutions/deletions/insertions, crops better/worse",
+  "supported_if": "ALL of: (1) large-margin group: mean CER change (tight - original) has photo-cluster bootstrap 95% CI below 0; (2) large-margin deletions decrease; (3) large-margin change minus control change has 95% CI below 0. Otherwise: not supported.",
+  "caveats": "manual/oracle boxes, not an app feature; JH/DS already informed development; one reader; CPU scorer",
+  "inputs": "original arm reads the untouched source files; tight arm reads lossless PNG crops of the same decoded pixels"
+ },
+ "reproducibility": {
+  "identical_to_saved_gpu_S1": 114,
+  "n": 160,
+  "gpu_mean_cer": 0.24128435179373367
+ },
+ "groups": {
+  "large margin": {
+   "n": 51,
+   "cer_original": 0.35373529719599583,
+   "cer_tight": 0.06250943211972988,
+   "change": -0.291225865076266,
+   "ci": [
+    -0.3617893489615223,
+    -0.19737813607342455
+   ],
+   "S": [
+    327,
+    51
+   ],
+   "D": [
+    323,
+    24
+   ],
+   "I": [
+    41,
+    6
+   ],
+   "better": 40,
+   "worse": 2
+  },
+  "middle": {
+   "n": 57,
+   "cer_original": 0.1252600080476995,
+   "cer_tight": 0.057082080267651235,
+   "change": -0.06817792778004823,
+   "ci": [
+    -0.11128654166609932,
+    -0.03064434325656117
+   ],
+   "S": [
+    135,
+    69
+   ],
+   "D": [
+    130,
+    34
+   ],
+   "I": [
+    17,
+    14
+   ],
+   "better": 30,
+   "worse": 5
+  },
+  "control": {
+   "n": 48,
+   "cer_original": 0.2463639715929623,
+   "cer_tight": 0.1953480110472876,
+   "change": -0.05101596054567457,
+   "ci": [
+    -0.072660185084678,
+    -0.028388698987690315
+   ],
+   "S": [
+    249,
+    191
+   ],
+   "D": [
+    223,
+    187
+   ],
+   "I": [
+    28,
+    23
+   ],
+   "better": 29,
+   "worse": 3
+  },
+  "flagged": {
+   "n": 4,
+   "cer_original": 0.433639705882353,
+   "cer_tight": 0.3748161764705883,
+   "change": -0.05882352941176471,
+   "ci": [
+    -0.17647058823529413,
+    0.0
+   ],
+   "S": [
+    47,
+    48
+   ],
+   "D": [
+    21,
+    15
+   ],
+   "I": [
+    2,
+    3
+   ],
+   "better": 1,
+   "worse": 0
+  },
+  "all 156 (excl. flagged)": {
+   "n": 156,
+   "cer_original": 0.23721661059087715,
+   "cer_tight": 0.10139977015148813,
+   "change": -0.13581684043938907,
+   "ci": [
+    -0.1888784329757242,
+    -0.08279799811095712
+   ],
+   "S": [
+    711,
+    311
+   ],
+   "D": [
+    676,
+    245
+   ],
+   "I": [
+    86,
+    43
+   ],
+   "better": 99,
+   "worse": 10
+  }
+ },
+ "diff_in_diff": [
+  -0.24020990453059146,
+  -0.3167929242111944,
+  -0.13200322328598854
+ ],
+ "criteria": {
+  "ci_below_0": true,
+  "deletions_down": true,
+  "did_ci_below_0": true
+ },
+ "verdict": "supported",
+ "crops": [
+  {
+   "name": "jhs__train__JH1.1.jpg",
+   "cluster": "writer_JH:jhs:JH1",
+   "group": "control",
+   "kept_h": 1.0,
+   "label": "A network is a system of interconnected people",
+   "pred_original": "A networe s e yst s fof tnet netete eple",
+   "pred_tight": "A networe s e yst s fof tnet netete eple",
+   "o": {
+    "cer": 0.391304347826087,
+    "S": 10,
+    "D": 7,
+    "I": 1,
+    "chars": 46
+   },
+   "t": {
+    "cer": 0.391304347826087,
+    "S": 10,
+    "D": 7,
+    "I": 1,
+    "chars": 46
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__train__JH1.3.jpg",
+   "cluster": "writer_JH:jhs:JH1",
+   "group": "control",
+   "kept_h": 1.0,
+   "label": "mesh of wires or roads to a group",
+   "pred_original": "mesh of wires or roads ts grgour",
+   "pred_tight": "mesh of wires or roads ts grgour",
+   "o": {
+    "cer": 0.15151515151515152,
+    "S": 4,
+    "D": 1,
+    "I": 0,
+    "chars": 33
+   },
+   "t": {
+    "cer": 0.15151515151515152,
+    "S": 4,
+    "D": 1,
+    "I": 0,
+    "chars": 33
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__train__JH1.4.jpg",
+   "cluster": "writer_JH:jhs:JH1",
+   "group": "control",
+   "kept_h": 1.0,
+   "label": "of people forming a social or professional network",
+   "pred_original": "of pople f oin o o araoa rf a a twtort",
+   "pred_tight": "of pople f oin o o araoa rf a a twtort",
+   "o": {
+    "cer": 0.5,
+    "S": 13,
+    "D": 12,
+    "I": 0,
+    "chars": 50
+   },
+   "t": {
+    "cer": 0.5,
+    "S": 13,
+    "D": 12,
+    "I": 0,
+    "chars": 50
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__train__JH1.5.jpg",
+   "cluster": "writer_JH:jhs:JH1",
+   "group": "control",
+   "kept_h": 0.912,
+   "label": "Computer network, social network, infrastructure network",
+   "pred_original": "Compter otmor ora are nar rv rtrert te te nture",
+   "pred_tight": "Compter metwotet ec caca a nt iat ttu te ntwork",
+   "o": {
+    "cer": 0.5714285714285714,
+    "S": 21,
+    "D": 10,
+    "I": 1,
+    "chars": 56
+   },
+   "t": {
+    "cer": 0.5,
+    "S": 11,
+    "D": 13,
+    "I": 4,
+    "chars": 56
+   },
+   "d": -0.0714285714285714
+  },
+  {
+   "name": "jhs__train__JH1.6.jpg",
+   "cluster": "writer_JH:jhs:JH1",
+   "group": "middle",
+   "kept_h": 0.83,
+   "label": "A computer network is a collection",
+   "pred_original": "A computer network is a lolecion",
+   "pred_tight": "A computer network is a lollection",
+   "o": {
+    "cer": 0.08823529411764706,
+    "S": 1,
+    "D": 2,
+    "I": 0,
+    "chars": 34
+   },
+   "t": {
+    "cer": 0.029411764705882353,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 34
+   },
+   "d": -0.05882352941176471
+  },
+  {
+   "name": "jhs__train__JH2.1.jpg",
+   "cluster": "writer_JH:jhs:JH2",
+   "group": "control",
+   "kept_h": 0.907,
+   "label": "Sunlight warms the quiet forest",
+   "pred_original": "Suntight warms theque trest",
+   "pred_tight": "Sunlight warms the quetftrest",
+   "o": {
+    "cer": 0.1935483870967742,
+    "S": 2,
+    "D": 4,
+    "I": 0,
+    "chars": 31
+   },
+   "t": {
+    "cer": 0.0967741935483871,
+    "S": 1,
+    "D": 2,
+    "I": 0,
+    "chars": 31
+   },
+   "d": -0.0967741935483871
+  },
+  {
+   "name": "jhs__train__JH2.2.jpg",
+   "cluster": "writer_JH:jhs:JH2",
+   "group": "control",
+   "kept_h": 0.916,
+   "label": "Bright stars shine every night",
+   "pred_original": "Brght stars shme eirenght",
+   "pred_tight": "Bright stars shim we inght",
+   "o": {
+    "cer": 0.26666666666666666,
+    "S": 3,
+    "D": 5,
+    "I": 0,
+    "chars": 30
+   },
+   "t": {
+    "cer": 0.26666666666666666,
+    "S": 4,
+    "D": 4,
+    "I": 0,
+    "chars": 30
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__train__JH2.3.jpg",
+   "cluster": "writer_JH:jhs:JH2",
+   "group": "control",
+   "kept_h": 0.894,
+   "label": "Cold wind moves the leaves",
+   "pred_original": "Cold vind moves the leavees",
+   "pred_tight": "Cold vind moves the leaves",
+   "o": {
+    "cer": 0.07692307692307693,
+    "S": 1,
+    "D": 0,
+    "I": 1,
+    "chars": 26
+   },
+   "t": {
+    "cer": 0.038461538461538464,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 26
+   },
+   "d": -0.038461538461538464
+  },
+  {
+   "name": "jhs__train__JH2.4.jpg",
+   "cluster": "writer_JH:jhs:JH2",
+   "group": "middle",
+   "kept_h": 0.835,
+   "label": "Small bird sing soft songs",
+   "pred_original": "Small bird sing soft songs",
+   "pred_tight": "Small bird sing soft songs",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 26
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 26
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__train__JH3.1.jpg",
+   "cluster": "writer_JH:jhs:JH3",
+   "group": "control",
+   "kept_h": 0.894,
+   "label": "Network packets are crafted and processed",
+   "pred_original": "etor paclets are raudsad  oo ssed",
+   "pred_tight": "Netore paclet are cratd and rosed",
+   "o": {
+    "cer": 0.34146341463414637,
+    "S": 5,
+    "D": 9,
+    "I": 0,
+    "chars": 41
+   },
+   "t": {
+    "cer": 0.24390243902439024,
+    "S": 2,
+    "D": 8,
+    "I": 0,
+    "chars": 41
+   },
+   "d": -0.09756097560975613
+  },
+  {
+   "name": "jhs__train__JH3.4.jpg",
+   "cluster": "writer_JH:jhs:JH3",
+   "group": "control",
+   "kept_h": 0.852,
+   "label": "added with specific headers for each",
+   "pred_original": "added with specifi haders for eact",
+   "pred_tight": "added with specific headers for ench",
+   "o": {
+    "cer": 0.08333333333333333,
+    "S": 1,
+    "D": 2,
+    "I": 0,
+    "chars": 36
+   },
+   "t": {
+    "cer": 0.027777777777777776,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 36
+   },
+   "d": -0.05555555555555555
+  },
+  {
+   "name": "jhs__train__JH3.6.jpg",
+   "cluster": "writer_JH:jhs:JH3",
+   "group": "middle",
+   "kept_h": 0.812,
+   "label": "network form the source to the destination",
+   "pred_original": "network form the source to the destination",
+   "pred_tight": "network form the source to the destination",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 42
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 42
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__train__JH3.7.jpg",
+   "cluster": "writer_JH:jhs:JH3",
+   "group": "control",
+   "kept_h": 0.855,
+   "label": "The vulnerability will NEVER cause any risk",
+   "pred_original": "The vulnerability will NEVEeR cause any risk",
+   "pred_tight": "The vulnerability will NEVER cause any risk",
+   "o": {
+    "cer": 0.023255813953488372,
+    "S": 0,
+    "D": 0,
+    "I": 1,
+    "chars": 43
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 43
+   },
+   "d": -0.023255813953488372
+  },
+  {
+   "name": "jhs__train__JH3.8.jpg",
+   "cluster": "writer_JH:jhs:JH3",
+   "group": "middle",
+   "kept_h": 0.831,
+   "label": "or loss WITHOUT any attacks or exploits",
+   "pred_original": "Or loss WITHOUT any attacks or expleits",
+   "pred_tight": "Or loss WITHOUT any attacks or expluits",
+   "o": {
+    "cer": 0.02564102564102564,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 39
+   },
+   "t": {
+    "cer": 0.02564102564102564,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 39
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__train__JH4.1.jpg",
+   "cluster": "writer_JH:jhs:JH4",
+   "group": "control",
+   "kept_h": 0.899,
+   "label": "DoS and DDoS exploit open services",
+   "pred_original": "DoS and DDoS exloit oen eices",
+   "pred_tight": "DoS and DDOS explit opn servies",
+   "o": {
+    "cer": 0.14705882352941177,
+    "S": 0,
+    "D": 5,
+    "I": 0,
+    "chars": 34
+   },
+   "t": {
+    "cer": 0.08823529411764706,
+    "S": 0,
+    "D": 3,
+    "I": 0,
+    "chars": 34
+   },
+   "d": -0.058823529411764705
+  },
+  {
+   "name": "jhs__train__JH4.2.jpg",
+   "cluster": "writer_JH:jhs:JH4",
+   "group": "control",
+   "kept_h": 1.0,
+   "label": "for TCP and UDP port numbers",
+   "pred_original": "for TCP and UDP port numbers",
+   "pred_tight": "for TCP and UDP port numbers",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 28
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 28
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__train__JH4.3.jpg",
+   "cluster": "writer_JH:jhs:JH4",
+   "group": "control",
+   "kept_h": 0.879,
+   "label": "MitM exploits unsecured physical ports",
+   "pred_original": "mim exlit uneoesetspu cprts",
+   "pred_tight": "mitm exptits uancredorusts cports",
+   "o": {
+    "cer": 0.47368421052631576,
+    "S": 7,
+    "D": 11,
+    "I": 0,
+    "chars": 38
+   },
+   "t": {
+    "cer": 0.39473684210526316,
+    "S": 10,
+    "D": 5,
+    "I": 0,
+    "chars": 38
+   },
+   "d": -0.0789473684210526
+  },
+  {
+   "name": "jhs__train__JH4.4.jpg",
+   "cluster": "writer_JH:jhs:JH4",
+   "group": "middle",
+   "kept_h": 0.849,
+   "label": "Packet sniffing exploits unencrypted packets",
+   "pred_original": "Padcet siing explais umencrypted accets",
+   "pred_tight": "Packet sniffing exploits unencrypted paciets",
+   "o": {
+    "cer": 0.22727272727272727,
+    "S": 5,
+    "D": 5,
+    "I": 0,
+    "chars": 44
+   },
+   "t": {
+    "cer": 0.022727272727272728,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 44
+   },
+   "d": -0.20454545454545453
+  },
+  {
+   "name": "jhs__train__JH4.5.jpg",
+   "cluster": "writer_JH:jhs:JH4",
+   "group": "middle",
+   "kept_h": 0.846,
+   "label": "that contain credentials. Port scanning",
+   "pred_original": "that contain credentials. Port scanning",
+   "pred_tight": "that contain credentials. Port scanning",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 39
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 39
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__train__JH4.6.jpg",
+   "cluster": "writer_JH:jhs:JH4",
+   "group": "middle",
+   "kept_h": 0.841,
+   "label": "exploits unfiltered service for TCP and UDP",
+   "pred_original": "exploits unfiltered sernce for TCcr and UDp",
+   "pred_tight": "exploits unfiltered service for Tcr and UDp",
+   "o": {
+    "cer": 0.09302325581395349,
+    "S": 2,
+    "D": 1,
+    "I": 1,
+    "chars": 43
+   },
+   "t": {
+    "cer": 0.023255813953488372,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 43
+   },
+   "d": -0.06976744186046512
+  },
+  {
+   "name": "jhs__train__JH4.7.jpg",
+   "cluster": "writer_JH:jhs:JH4",
+   "group": "middle",
+   "kept_h": 0.843,
+   "label": "port numbers. ARP spoofing exploits",
+   "pred_original": "port numbers. ARP spofing exploits",
+   "pred_tight": "port numbers. ARP spoofing exploits",
+   "o": {
+    "cer": 0.02857142857142857,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "chars": 35
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 35
+   },
+   "d": -0.02857142857142857
+  },
+  {
+   "name": "jhs__train__JH4.8.jpg",
+   "cluster": "writer_JH:jhs:JH4",
+   "group": "middle",
+   "kept_h": 0.839,
+   "label": "unsecured physical ports connected to attackers",
+   "pred_original": "Unsecred physical ports connected to attackers",
+   "pred_tight": "Unsecured physical ports connected to attackers",
+   "o": {
+    "cer": 0.02127659574468085,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "chars": 47
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 47
+   },
+   "d": -0.02127659574468085
+  },
+  {
+   "name": "jhs__train__JH4.9.jpg",
+   "cluster": "writer_JH:jhs:JH4",
+   "group": "control",
+   "kept_h": 0.869,
+   "label": "Overwhelm the bandwidth of the target",
+   "pred_original": "Overwhelm the bandwidth of the target",
+   "pred_tight": "Overwhclm the bandwidth of the target",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 37
+   },
+   "t": {
+    "cer": 0.02702702702702703,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 37
+   },
+   "d": 0.02702702702702703
+  },
+  {
+   "name": "jhs__train__JH4.10.jpg",
+   "cluster": "writer_JH:jhs:JH4",
+   "group": "middle",
+   "kept_h": 0.845,
+   "label": "If the target can only service requests",
+   "pred_original": "If the target con onhy serice requests",
+   "pred_tight": "If the target con onhy service requests",
+   "o": {
+    "cer": 0.07692307692307693,
+    "S": 2,
+    "D": 1,
+    "I": 0,
+    "chars": 39
+   },
+   "t": {
+    "cer": 0.05128205128205128,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "chars": 39
+   },
+   "d": -0.025641025641025647
+  },
+  {
+   "name": "jhs__train__JH5.1.jpg",
+   "cluster": "writer_JH:jhs:JH5",
+   "group": "control",
+   "kept_h": 0.88,
+   "label": "Disrupt the service by sending anomaly",
+   "pred_original": "Disrupt the service by sending amammaly",
+   "pred_tight": "Disrupt the sevice by sending anomaly",
+   "o": {
+    "cer": 0.07894736842105263,
+    "S": 2,
+    "D": 0,
+    "I": 1,
+    "chars": 38
+   },
+   "t": {
+    "cer": 0.02631578947368421,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "chars": 38
+   },
+   "d": -0.05263157894736842
+  },
+  {
+   "name": "jhs__train__JH5.2.jpg",
+   "cluster": "writer_JH:jhs:JH5",
+   "group": "control",
+   "kept_h": 0.876,
+   "label": "HTTP requests, DNS queries, TCP connection request",
+   "pred_original": "THiTP rquests, uns ueses t c ttcCreneueqest",
+   "pred_tight": "HrTP raquests, Nrs qu susrnues CcO cec ecequest",
+   "o": {
+    "cer": 0.4,
+    "S": 11,
+    "D": 8,
+    "I": 1,
+    "chars": 50
+   },
+   "t": {
+    "cer": 0.44,
+    "S": 11,
+    "D": 7,
+    "I": 4,
+    "chars": 50
+   },
+   "d": 0.03999999999999998
+  },
+  {
+   "name": "jhs__train__JH5.3.jpg",
+   "cluster": "writer_JH:jhs:JH5",
+   "group": "flagged",
+   "kept_h": 1.0,
+   "label": "The requests don't actually need to be succeeded",
+   "pred_original": "Th requestsot tuitaieni t db scsuce uces",
+   "pred_tight": "Th requestsot tuitaieni t db scsuce uces",
+   "o": {
+    "cer": 0.5208333333333334,
+    "S": 17,
+    "D": 8,
+    "I": 0,
+    "chars": 48
+   },
+   "t": {
+    "cer": 0.5208333333333334,
+    "S": 17,
+    "D": 8,
+    "I": 0,
+    "chars": 48
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__train__JH5.4.jpg",
+   "cluster": "writer_JH:jhs:JH5",
+   "group": "control",
+   "kept_h": 0.886,
+   "label": "Distributed reflective denial of service attacks",
+   "pred_original": "Distiuted etflecte e da eans tcttcks",
+   "pred_tight": "Distibute refletiededm na ervn tctcks",
+   "o": {
+    "cer": 0.4375,
+    "S": 9,
+    "D": 12,
+    "I": 0,
+    "chars": 48
+   },
+   "t": {
+    "cer": 0.375,
+    "S": 7,
+    "D": 11,
+    "I": 0,
+    "chars": 48
+   },
+   "d": -0.0625
+  },
+  {
+   "name": "jhs__train__JH5.5.jpg",
+   "cluster": "writer_JH:jhs:JH5",
+   "group": "control",
+   "kept_h": 0.876,
+   "label": "focus on taking down the availability of an",
+   "pred_original": "Tocus on tkimg dowo heanvaiaitltoff f an",
+   "pred_tight": "tocus on taking dom the availabilil t an",
+   "o": {
+    "cer": 0.3488372093023256,
+    "S": 12,
+    "D": 3,
+    "I": 0,
+    "chars": 43
+   },
+   "t": {
+    "cer": 0.16279069767441862,
+    "S": 4,
+    "D": 3,
+    "I": 0,
+    "chars": 43
+   },
+   "d": -0.18604651162790697
+  },
+  {
+   "name": "jhs__train__JH5.6.jpg",
+   "cluster": "writer_JH:jhs:JH5",
+   "group": "middle",
+   "kept_h": 0.823,
+   "label": "asset through an overwhelming volume of HTTP",
+   "pred_original": "Asset through an overwhelming volume of HTp",
+   "pred_tight": "asset through an overwhelming volume of HTTP",
+   "o": {
+    "cer": 0.022727272727272728,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "chars": 44
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 44
+   },
+   "d": -0.022727272727272728
+  },
+  {
+   "name": "jhs__train__JH5.7.jpg",
+   "cluster": "writer_JH:jhs:JH5",
+   "group": "middle",
+   "kept_h": 0.8,
+   "label": "the attacker would send an HTTP request as the",
+   "pred_original": "the attacker would send an HTTP request as the",
+   "pred_tight": "the attacker would send an HTTP request as the",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 46
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 46
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__train__JH5.8.jpg",
+   "cluster": "writer_JH:jhs:JH5",
+   "group": "control",
+   "kept_h": 0.864,
+   "label": "the protocol of choice for this type",
+   "pred_original": "the protocol of chie e r tos   s tyuope",
+   "pred_tight": "the protocol of choice tor this tupe",
+   "o": {
+    "cer": 0.25,
+    "S": 4,
+    "D": 2,
+    "I": 3,
+    "chars": 36
+   },
+   "t": {
+    "cer": 0.05555555555555555,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "chars": 36
+   },
+   "d": -0.19444444444444445
+  },
+  {
+   "name": "jhs__train__JH5.9.jpg",
+   "cluster": "writer_JH:jhs:JH5",
+   "group": "middle",
+   "kept_h": 0.819,
+   "label": "of attack WITHOUT establish connection state",
+   "pred_original": "Of attack WITHoUT establish Connection state",
+   "pred_tight": "of attack WITHouT establish Connection state",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 44
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 44
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__train__JH6.1.jpg",
+   "cluster": "writer_JH:jhs:JH6",
+   "group": "control",
+   "kept_h": 0.88,
+   "label": "Bot is a type of malicious software",
+   "pred_original": "Bot is a type of maliciousotwure",
+   "pred_tight": "Bot is a type of malieiovs softwhare",
+   "o": {
+    "cer": 0.11428571428571428,
+    "S": 1,
+    "D": 3,
+    "I": 0,
+    "chars": 35
+   },
+   "t": {
+    "cer": 0.08571428571428572,
+    "S": 2,
+    "D": 0,
+    "I": 1,
+    "chars": 35
+   },
+   "d": -0.028571428571428567
+  },
+  {
+   "name": "jhs__train__JH6.2.jpg",
+   "cluster": "writer_JH:jhs:JH6",
+   "group": "control",
+   "kept_h": 0.877,
+   "label": "that allows the attacker complete control of the computer",
+   "pred_original": "that alos se auae ncpr crmecehe tcs t e ho cmuter",
+   "pred_tight": "that allos te e taer c cpeovme cte co o ho coputer",
+   "o": {
+    "cer": 0.47368421052631576,
+    "S": 15,
+    "D": 10,
+    "I": 2,
+    "chars": 57
+   },
+   "t": {
+    "cer": 0.3684210526315789,
+    "S": 12,
+    "D": 8,
+    "I": 1,
+    "chars": 57
+   },
+   "d": -0.10526315789473684
+  },
+  {
+   "name": "jhs__train__JH6.4.jpg",
+   "cluster": "writer_JH:jhs:JH6",
+   "group": "control",
+   "kept_h": 1.0,
+   "label": "A botnet is a collection of zombies all used to do things",
+   "pred_original": "A btelts te o s s   du f ing.",
+   "pred_tight": "A btelts te o s s   du f ing.",
+   "o": {
+    "cer": 0.6491228070175439,
+    "S": 7,
+    "D": 30,
+    "I": 0,
+    "chars": 57
+   },
+   "t": {
+    "cer": 0.6491228070175439,
+    "S": 7,
+    "D": 30,
+    "I": 0,
+    "chars": 57
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__train__JH6.5.jpg",
+   "cluster": "writer_JH:jhs:JH6",
+   "group": "control",
+   "kept_h": 0.899,
+   "label": "Anyone close to your router can get on",
+   "pred_original": "Ampome doset ororeo n   u t on",
+   "pred_tight": "Amon lose to youe oaueo  n g agton",
+   "o": {
+    "cer": 0.47368421052631576,
+    "S": 8,
+    "D": 10,
+    "I": 0,
+    "chars": 38
+   },
+   "t": {
+    "cer": 0.39473684210526316,
+    "S": 8,
+    "D": 6,
+    "I": 1,
+    "chars": 38
+   },
+   "d": -0.0789473684210526
+  },
+  {
+   "name": "jhs__train__JH6.6.jpg",
+   "cluster": "writer_JH:jhs:JH6",
+   "group": "control",
+   "kept_h": 0.882,
+   "label": "fake WiFi access point that appears to",
+   "pred_original": "Aake WiFi ms pontges t  papore uars ton",
+   "pred_tight": "fae hit cess pin htapgremems to",
+   "o": {
+    "cer": 0.4473684210526316,
+    "S": 7,
+    "D": 5,
+    "I": 5,
+    "chars": 38
+   },
+   "t": {
+    "cer": 0.42105263157894735,
+    "S": 5,
+    "D": 9,
+    "I": 2,
+    "chars": 38
+   },
+   "d": -0.026315789473684237
+  },
+  {
+   "name": "jhs__train__JH6.8.jpg",
+   "cluster": "writer_JH:jhs:JH6",
+   "group": "middle",
+   "kept_h": 0.782,
+   "label": "Client is associated to the Hot Spot AP",
+   "pred_original": "Client is associated to the Hot spot Ap",
+   "pred_tight": "Client is associated to the Hot Spot AP",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 39
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 39
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__train__JH7.1.jpg",
+   "cluster": "writer_JH:jhs:JH7",
+   "group": "control",
+   "kept_h": 0.99,
+   "label": "If it is unencrypted, then there may be a loss",
+   "pred_original": "Ii it is nencrpted then e we eo e a  alos",
+   "pred_tight": "Ii it is unencrpted hen e e mem e   aos",
+   "o": {
+    "cer": 0.30434782608695654,
+    "S": 6,
+    "D": 7,
+    "I": 1,
+    "chars": 46
+   },
+   "t": {
+    "cer": 0.2826086956521739,
+    "S": 4,
+    "D": 9,
+    "I": 0,
+    "chars": 46
+   },
+   "d": -0.02173913043478265
+  },
+  {
+   "name": "jhs__train__JH7.3.jpg",
+   "cluster": "writer_JH:jhs:JH7",
+   "group": "flagged",
+   "kept_h": 1.0,
+   "label": "relies on the promiscuous mode feature of a network",
+   "pred_original": "Reohcs on he emteco vo vos ivio tb fo of uature",
+   "pred_tight": "Reohcs on he emteco vo vos ivio tb fo of uature",
+   "o": {
+    "cer": 0.6274509803921569,
+    "S": 26,
+    "D": 5,
+    "I": 1,
+    "chars": 51
+   },
+   "t": {
+    "cer": 0.6274509803921569,
+    "S": 26,
+    "D": 5,
+    "I": 1,
+    "chars": 51
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__train__JH7.4.jpg",
+   "cluster": "writer_JH:jhs:JH7",
+   "group": "control",
+   "kept_h": 0.894,
+   "label": "Passive sniffing is difficult to detect",
+   "pred_original": "Passivesmitigis dti t t o o e detest",
+   "pred_tight": "passive smitigis ditit t ttct te detest",
+   "o": {
+    "cer": 0.4358974358974359,
+    "S": 8,
+    "D": 6,
+    "I": 3,
+    "chars": 39
+   },
+   "t": {
+    "cer": 0.41025641025641024,
+    "S": 10,
+    "D": 3,
+    "I": 3,
+    "chars": 39
+   },
+   "d": -0.02564102564102566
+  },
+  {
+   "name": "jhs__train__JH7.5.jpg",
+   "cluster": "writer_JH:jhs:JH7",
+   "group": "control",
+   "kept_h": 0.898,
+   "label": "but does not work well in switched network",
+   "pred_original": "beu ders os toreoveie sei h nutt utowis.",
+   "pred_tight": "but des not or eae s ie  uete t utworke",
+   "o": {
+    "cer": 0.6666666666666666,
+    "S": 22,
+    "D": 4,
+    "I": 2,
+    "chars": 42
+   },
+   "t": {
+    "cer": 0.42857142857142855,
+    "S": 12,
+    "D": 5,
+    "I": 1,
+    "chars": 42
+   },
+   "d": -0.23809523809523808
+  },
+  {
+   "name": "jhs__train__JH7.6.jpg",
+   "cluster": "writer_JH:jhs:JH7",
+   "group": "control",
+   "kept_h": 0.866,
+   "label": "Web login password capture demo",
+   "pred_original": "Web losim psword capturenemd",
+   "pred_tight": "Web losin password Capture demo",
+   "o": {
+    "cer": 0.22580645161290322,
+    "S": 4,
+    "D": 3,
+    "I": 0,
+    "chars": 31
+   },
+   "t": {
+    "cer": 0.03225806451612903,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 31
+   },
+   "d": -0.1935483870967742
+  },
+  {
+   "name": "jhs__train__JH7.8.jpg",
+   "cluster": "writer_JH:jhs:JH7",
+   "group": "middle",
+   "kept_h": 0.828,
+   "label": "Open a web browser and go to",
+   "pred_original": "Open a web browser and go to",
+   "pred_tight": "Open a web browser and go to",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 28
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 28
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__train__JH7.9.jpg",
+   "cluster": "writer_JH:jhs:JH7",
+   "group": "middle",
+   "kept_h": 0.823,
+   "label": "On the top right of the screen",
+   "pred_original": "On the top right of the screen",
+   "pred_tight": "On the top right of the screen",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 30
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 30
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__train__JH7.10.jpg",
+   "cluster": "writer_JH:jhs:JH7",
+   "group": "middle",
+   "kept_h": 0.841,
+   "label": "a password of top secret password",
+   "pred_original": "A password of top secret password",
+   "pred_tight": "A password of top secret password",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 33
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 33
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__test__JH1.2.jpg",
+   "cluster": "writer_JH:jhs:JH1",
+   "group": "flagged",
+   "kept_h": 1.0,
+   "label": "This can range from a physical",
+   "pred_original": "This canm range ftona haiical",
+   "pred_tight": "This canm range ftona haiical",
+   "o": {
+    "cer": 0.23333333333333334,
+    "S": 4,
+    "D": 2,
+    "I": 1,
+    "chars": 30
+   },
+   "t": {
+    "cer": 0.23333333333333334,
+    "S": 4,
+    "D": 2,
+    "I": 1,
+    "chars": 30
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__test__JH1.7.jpg",
+   "cluster": "writer_JH:jhs:JH1",
+   "group": "control",
+   "kept_h": 0.867,
+   "label": "Client Server architecture is a centralized approach",
+   "pred_original": "Clent Server architecturetst t ece arivenedaiepch",
+   "pred_tight": "Client Server architecture is a entalized apraht",
+   "o": {
+    "cer": 0.34615384615384615,
+    "S": 13,
+    "D": 4,
+    "I": 1,
+    "chars": 52
+   },
+   "t": {
+    "cer": 0.11538461538461539,
+    "S": 2,
+    "D": 4,
+    "I": 0,
+    "chars": 52
+   },
+   "d": -0.23076923076923075
+  },
+  {
+   "name": "jhs__test__JH1.8.jpg",
+   "cluster": "writer_JH:jhs:JH1",
+   "group": "middle",
+   "kept_h": 0.835,
+   "label": "more scalable for large networks",
+   "pred_original": "more scalable for large networks",
+   "pred_tight": "more scalable for large networks",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 32
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 32
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__test__JH1.9.jpg",
+   "cluster": "writer_JH:jhs:JH1",
+   "group": "control",
+   "kept_h": 0.866,
+   "label": "Peer to peer is a decentralised approach",
+   "pred_original": "Peer to peer is a decentralised appruach",
+   "pred_tight": "Peer to peer is a decentralised appruach",
+   "o": {
+    "cer": 0.025,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 40
+   },
+   "t": {
+    "cer": 0.025,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 40
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__test__JH3.2.jpg",
+   "cluster": "writer_JH:jhs:JH3",
+   "group": "control",
+   "kept_h": 0.891,
+   "label": "based on the network layers hierarchy",
+   "pred_original": "based on the network lere resrrchy",
+   "pred_tight": "based on the network layers herchy",
+   "o": {
+    "cer": 0.1891891891891892,
+    "S": 4,
+    "D": 3,
+    "I": 0,
+    "chars": 37
+   },
+   "t": {
+    "cer": 0.08108108108108109,
+    "S": 0,
+    "D": 3,
+    "I": 0,
+    "chars": 37
+   },
+   "d": -0.10810810810810811
+  },
+  {
+   "name": "jhs__test__JH3.3.jpg",
+   "cluster": "writer_JH:jhs:JH3",
+   "group": "control",
+   "kept_h": 0.889,
+   "label": "where the application data will be",
+   "pred_original": "Where the aplicatio nin al u i lll be",
+   "pred_tight": "Where the aplicatio dt l l l l l be",
+   "o": {
+    "cer": 0.3235294117647059,
+    "S": 6,
+    "D": 1,
+    "I": 4,
+    "chars": 34
+   },
+   "t": {
+    "cer": 0.29411764705882354,
+    "S": 5,
+    "D": 2,
+    "I": 3,
+    "chars": 34
+   },
+   "d": -0.02941176470588236
+  },
+  {
+   "name": "jhs__test__JH3.5.jpg",
+   "cluster": "writer_JH:jhs:JH3",
+   "group": "middle",
+   "kept_h": 0.825,
+   "label": "layer before being sent to the",
+   "pred_original": "layer betore being sent to the",
+   "pred_tight": "layer betore being sent to the",
+   "o": {
+    "cer": 0.03333333333333333,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 30
+   },
+   "t": {
+    "cer": 0.03333333333333333,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 30
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhs__test__JH5.10.jpg",
+   "cluster": "writer_JH:jhs:JH5",
+   "group": "middle",
+   "kept_h": 0.835,
+   "label": "Bots send a modified source address, and unsolicited",
+   "pred_original": "Bots send a moditied source address, and unsolicited",
+   "pred_tight": "Bots send a moditied source addrss, and unsolicited",
+   "o": {
+    "cer": 0.019230769230769232,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 52
+   },
+   "t": {
+    "cer": 0.038461538461538464,
+    "S": 1,
+    "D": 1,
+    "I": 0,
+    "chars": 52
+   },
+   "d": 0.019230769230769232
+  },
+  {
+   "name": "jhs__test__JH6.3.jpg",
+   "cluster": "writer_JH:jhs:JH6",
+   "group": "control",
+   "kept_h": 0.879,
+   "label": "Zombie is an internet-connected computer infected with a bot",
+   "pred_original": "Iomtie isa e t e n i er cercnis   neft hf bot",
+   "pred_tight": "iomtie i a taune  nte ecetececies e  et h af bout",
+   "o": {
+    "cer": 0.5833333333333334,
+    "S": 18,
+    "D": 17,
+    "I": 0,
+    "chars": 60
+   },
+   "t": {
+    "cer": 0.5666666666666667,
+    "S": 17,
+    "D": 15,
+    "I": 2,
+    "chars": 60
+   },
+   "d": -0.01666666666666672
+  },
+  {
+   "name": "jhs__test__JH6.7.jpg",
+   "cluster": "writer_JH:jhs:JH6",
+   "group": "middle",
+   "kept_h": 0.841,
+   "label": "be legit but is set up to eavesdrop on",
+   "pred_original": "be legit but is set up to eavesdro on",
+   "pred_tight": "be legit but is set up to eavesdrop on",
+   "o": {
+    "cer": 0.02631578947368421,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "chars": 38
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 38
+   },
+   "d": -0.02631578947368421
+  },
+  {
+   "name": "jhs__test__JH7.2.jpg",
+   "cluster": "writer_JH:jhs:JH7",
+   "group": "control",
+   "kept_h": 0.896,
+   "label": "Passive sniffing use of a sniffer",
+   "pred_original": "Passive sitig useoft  fifor",
+   "pred_tight": "Passive smitting use of a smiffer",
+   "o": {
+    "cer": 0.3333333333333333,
+    "S": 4,
+    "D": 7,
+    "I": 0,
+    "chars": 33
+   },
+   "t": {
+    "cer": 0.12121212121212122,
+    "S": 4,
+    "D": 0,
+    "I": 0,
+    "chars": 33
+   },
+   "d": -0.2121212121212121
+  },
+  {
+   "name": "jhs__test__JH7.7.jpg",
+   "cluster": "writer_JH:jhs:JH7",
+   "group": "middle",
+   "kept_h": 0.846,
+   "label": "Check all the interfaces as shown below",
+   "pred_original": "check all he interfaces ns sown belo",
+   "pred_tight": "check all the interfaces ns shown below",
+   "o": {
+    "cer": 0.10256410256410256,
+    "S": 1,
+    "D": 3,
+    "I": 0,
+    "chars": 39
+   },
+   "t": {
+    "cer": 0.02564102564102564,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 39
+   },
+   "d": -0.07692307692307693
+  },
+  {
+   "name": "jhw__train__JH2.1.jpg",
+   "cluster": "writer_JH:jhw:JH2",
+   "group": "large margin",
+   "kept_h": 0.48,
+   "label": "PowerPac",
+   "pred_original": "PowerPac",
+   "pred_tight": "PowerPac",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 8
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 8
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhw__train__JH3.1.jpg",
+   "cluster": "writer_JH:jhw:JH3",
+   "group": "large margin",
+   "kept_h": 0.361,
+   "label": "Beurre",
+   "pred_original": "Bourre",
+   "pred_tight": "Beurre",
+   "o": {
+    "cer": 0.16666666666666666,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 6
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 6
+   },
+   "d": -0.16666666666666666
+  },
+  {
+   "name": "jhw__train__JH4.1.jpg",
+   "cluster": "writer_JH:jhw:JH4",
+   "group": "large margin",
+   "kept_h": 0.308,
+   "label": "Creative",
+   "pred_original": "Orestino",
+   "pred_tight": "Creative",
+   "o": {
+    "cer": 0.5,
+    "S": 4,
+    "D": 0,
+    "I": 0,
+    "chars": 8
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 8
+   },
+   "d": -0.5
+  },
+  {
+   "name": "jhw__train__JH6.1.jpg",
+   "cluster": "writer_JH:jhw:JH6",
+   "group": "large margin",
+   "kept_h": 0.397,
+   "label": "100W",
+   "pred_original": "oow",
+   "pred_tight": "100u",
+   "o": {
+    "cer": 0.75,
+    "S": 2,
+    "D": 1,
+    "I": 0,
+    "chars": 4
+   },
+   "t": {
+    "cer": 0.25,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 4
+   },
+   "d": -0.5
+  },
+  {
+   "name": "jhw__train__JH7.1.jpg",
+   "cluster": "writer_JH:jhw:JH7",
+   "group": "large margin",
+   "kept_h": 0.449,
+   "label": "96HR",
+   "pred_original": "96HR",
+   "pred_tight": "9GHR",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 4
+   },
+   "t": {
+    "cer": 0.25,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 4
+   },
+   "d": 0.25
+  },
+  {
+   "name": "jhw__train__JH8.1.jpg",
+   "cluster": "writer_JH:jhw:JH8",
+   "group": "large margin",
+   "kept_h": 0.375,
+   "label": "Vegan",
+   "pred_original": "Vegan",
+   "pred_tight": "Vegan",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 5
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 5
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhw__train__JH10.1.jpg",
+   "cluster": "writer_JH:jhw:JH10",
+   "group": "large margin",
+   "kept_h": 0.422,
+   "label": "Prism",
+   "pred_original": "Prism",
+   "pred_tight": "Prism",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 5
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 5
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhw__train__JH16.1.jpg",
+   "cluster": "writer_JH:jhw:JH16",
+   "group": "large margin",
+   "kept_h": 0.386,
+   "label": "Corps",
+   "pred_original": "Corps",
+   "pred_tight": "Corps",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 5
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 5
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhw__train__JH17.2.jpg",
+   "cluster": "writer_JH:jhw:JH17",
+   "group": "middle",
+   "kept_h": 0.757,
+   "label": "with",
+   "pred_original": " with",
+   "pred_tight": "with",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 4
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 4
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhw__train__JH17.3.jpg",
+   "cluster": "writer_JH:jhw:JH17",
+   "group": "large margin",
+   "kept_h": 0.443,
+   "label": "Yuzu Juice",
+   "pred_original": "Vuzu Juice",
+   "pred_tight": "Vuzu )uice",
+   "o": {
+    "cer": 0.1,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 10
+   },
+   "t": {
+    "cer": 0.2,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "chars": 10
+   },
+   "d": 0.1
+  },
+  {
+   "name": "jhw__train__JH18.1.jpg",
+   "cluster": "writer_JH:jhw:JH18",
+   "group": "middle",
+   "kept_h": 0.69,
+   "label": "The breeze",
+   "pred_original": "The breeze",
+   "pred_tight": "The breeze",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 10
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 10
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhw__train__JH18.2.jpg",
+   "cluster": "writer_JH:jhw:JH18",
+   "group": "control",
+   "kept_h": 0.962,
+   "label": "communication",
+   "pred_original": "Communication",
+   "pred_tight": "Communication",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 13
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 13
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhw__train__JH19.1.jpg",
+   "cluster": "writer_JH:jhw:JH19",
+   "group": "large margin",
+   "kept_h": 0.518,
+   "label": "Legendary",
+   "pred_original": "Legendrmng",
+   "pred_tight": "Legeindan",
+   "o": {
+    "cer": 0.4444444444444444,
+    "S": 3,
+    "D": 0,
+    "I": 1,
+    "chars": 9
+   },
+   "t": {
+    "cer": 0.3333333333333333,
+    "S": 1,
+    "D": 1,
+    "I": 1,
+    "chars": 9
+   },
+   "d": -0.1111111111111111
+  },
+  {
+   "name": "jhw__train__JH20.1.jpg",
+   "cluster": "writer_JH:jhw:JH20",
+   "group": "large margin",
+   "kept_h": 0.392,
+   "label": "GeForce",
+   "pred_original": "GeForce",
+   "pred_tight": "GeForce",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 7
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 7
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhw__train__JH21.1.jpg",
+   "cluster": "writer_JH:jhw:JH21",
+   "group": "large margin",
+   "kept_h": 0.302,
+   "label": "Moisture",
+   "pred_original": "moisture",
+   "pred_tight": "Moisture",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 8
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 8
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhw__train__JH22.1.jpg",
+   "cluster": "writer_JH:jhw:JH22",
+   "group": "large margin",
+   "kept_h": 0.518,
+   "label": "Legendary",
+   "pred_original": "Legendnmp",
+   "pred_tight": "Legendain",
+   "o": {
+    "cer": 0.3333333333333333,
+    "S": 3,
+    "D": 0,
+    "I": 0,
+    "chars": 9
+   },
+   "t": {
+    "cer": 0.2222222222222222,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "chars": 9
+   },
+   "d": -0.1111111111111111
+  },
+  {
+   "name": "jhw__train__JH23.1.jpg",
+   "cluster": "writer_JH:jhw:JH23",
+   "group": "middle",
+   "kept_h": 0.845,
+   "label": "chocolate",
+   "pred_original": "chocolate",
+   "pred_tight": "chocolate",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 9
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 9
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhw__train__JH23.2.jpg",
+   "cluster": "writer_JH:jhw:JH23",
+   "group": "large margin",
+   "kept_h": 0.551,
+   "label": "cake",
+   "pred_original": "calde",
+   "pred_tight": "calke",
+   "o": {
+    "cer": 0.5,
+    "S": 1,
+    "D": 0,
+    "I": 1,
+    "chars": 4
+   },
+   "t": {
+    "cer": 0.25,
+    "S": 0,
+    "D": 0,
+    "I": 1,
+    "chars": 4
+   },
+   "d": -0.25
+  },
+  {
+   "name": "jhw__train__JH26.1.jpg",
+   "cluster": "writer_JH:jhw:JH26",
+   "group": "large margin",
+   "kept_h": 0.416,
+   "label": "Lenovo",
+   "pred_original": "Lenovo",
+   "pred_tight": "Lenovo",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 6
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 6
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhw__train__JH27.1.jpg",
+   "cluster": "writer_JH:jhw:JH27",
+   "group": "large margin",
+   "kept_h": 0.368,
+   "label": "Satsuma",
+   "pred_original": "Ssatsouina",
+   "pred_tight": "Satsuma",
+   "o": {
+    "cer": 0.5714285714285714,
+    "S": 1,
+    "D": 0,
+    "I": 3,
+    "chars": 7
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 7
+   },
+   "d": -0.5714285714285714
+  },
+  {
+   "name": "jhw__train__JH29.1.jpg",
+   "cluster": "writer_JH:jhw:JH29",
+   "group": "large margin",
+   "kept_h": 0.396,
+   "label": "Less Sugar",
+   "pred_original": "Less Sigor",
+   "pred_tight": "Less Sugar",
+   "o": {
+    "cer": 0.2,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "chars": 10
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 10
+   },
+   "d": -0.2
+  },
+  {
+   "name": "jhw__train__JH30.1.jpg",
+   "cluster": "writer_JH:jhw:JH30",
+   "group": "middle",
+   "kept_h": 0.762,
+   "label": "Green",
+   "pred_original": " Greoen",
+   "pred_tight": "Green",
+   "o": {
+    "cer": 0.2,
+    "S": 0,
+    "D": 0,
+    "I": 1,
+    "chars": 5
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 5
+   },
+   "d": -0.2
+  },
+  {
+   "name": "jhw__train__JH32.1.jpg",
+   "cluster": "writer_JH:jhw:JH32",
+   "group": "middle",
+   "kept_h": 0.617,
+   "label": "Kerosene",
+   "pred_original": "leise",
+   "pred_tight": "Keroseme",
+   "o": {
+    "cer": 0.625,
+    "S": 2,
+    "D": 3,
+    "I": 0,
+    "chars": 8
+   },
+   "t": {
+    "cer": 0.125,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 8
+   },
+   "d": -0.5
+  },
+  {
+   "name": "jhw__train__JH33.1.jpg",
+   "cluster": "writer_JH:jhw:JH33",
+   "group": "large margin",
+   "kept_h": 0.459,
+   "label": "Tough",
+   "pred_original": "Tosh",
+   "pred_tight": "Tough",
+   "o": {
+    "cer": 0.4,
+    "S": 1,
+    "D": 1,
+    "I": 0,
+    "chars": 5
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 5
+   },
+   "d": -0.4
+  },
+  {
+   "name": "jhw__train__JH34.1.jpg",
+   "cluster": "writer_JH:jhw:JH34",
+   "group": "large margin",
+   "kept_h": 0.451,
+   "label": "SIT Best Uni",
+   "pred_original": "s ",
+   "pred_tight": "- S1T Best un.",
+   "o": {
+    "cer": 0.9166666666666666,
+    "S": 0,
+    "D": 11,
+    "I": 0,
+    "chars": 12
+   },
+   "t": {
+    "cer": 0.3333333333333333,
+    "S": 2,
+    "D": 0,
+    "I": 2,
+    "chars": 12
+   },
+   "d": -0.5833333333333333
+  },
+  {
+   "name": "jhw__test__JH1.1.jpg",
+   "cluster": "writer_JH:jhw:JH1",
+   "group": "large margin",
+   "kept_h": 0.582,
+   "label": "Grape Tea",
+   "pred_original": "Grape Toa",
+   "pred_tight": "Grape Tea",
+   "o": {
+    "cer": 0.1111111111111111,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 9
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 9
+   },
+   "d": -0.1111111111111111
+  },
+  {
+   "name": "jhw__test__JH5.1.jpg",
+   "cluster": "writer_JH:jhw:JH5",
+   "group": "middle",
+   "kept_h": 0.713,
+   "label": "Panasonic",
+   "pred_original": "Prsnsn",
+   "pred_tight": "Padnsonio,",
+   "o": {
+    "cer": 0.6666666666666666,
+    "S": 3,
+    "D": 3,
+    "I": 0,
+    "chars": 9
+   },
+   "t": {
+    "cer": 0.4444444444444444,
+    "S": 3,
+    "D": 0,
+    "I": 1,
+    "chars": 9
+   },
+   "d": -0.2222222222222222
+  },
+  {
+   "name": "jhw__test__JH20.2.jpg",
+   "cluster": "writer_JH:jhw:JH20",
+   "group": "large margin",
+   "kept_h": 0.538,
+   "label": "RTX",
+   "pred_original": "RTX",
+   "pred_tight": "RTX",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 3
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 3
+   },
+   "d": 0.0
+  },
+  {
+   "name": "jhw__test__JH28.1.jpg",
+   "cluster": "writer_JH:jhw:JH28",
+   "group": "large margin",
+   "kept_h": 0.503,
+   "label": "Original Taste",
+   "pred_original": "Oovsinal Tast",
+   "pred_tight": "Original Taste",
+   "o": {
+    "cer": 0.2857142857142857,
+    "S": 3,
+    "D": 1,
+    "I": 0,
+    "chars": 14
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 14
+   },
+   "d": -0.2857142857142857
+  },
+  {
+   "name": "jhw__test__JH30.2.jpg",
+   "cluster": "writer_JH:jhw:JH30",
+   "group": "middle",
+   "kept_h": 0.706,
+   "label": "Giant",
+   "pred_original": "Ciant",
+   "pred_tight": "Ctiant",
+   "o": {
+    "cer": 0.2,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 5
+   },
+   "t": {
+    "cer": 0.4,
+    "S": 1,
+    "D": 0,
+    "I": 1,
+    "chars": 5
+   },
+   "d": 0.2
+  },
+  {
+   "name": "jhw__test__JH31.1.jpg",
+   "cluster": "writer_JH:jhw:JH31",
+   "group": "control",
+   "kept_h": 1.0,
+   "label": "Sprite",
+   "pred_original": "mpite",
+   "pred_tight": "mpite",
+   "o": {
+    "cer": 0.3333333333333333,
+    "S": 1,
+    "D": 1,
+    "I": 0,
+    "chars": 6
+   },
+   "t": {
+    "cer": 0.3333333333333333,
+    "S": 1,
+    "D": 1,
+    "I": 0,
+    "chars": 6
+   },
+   "d": 0.0
+  },
+  {
+   "name": "ds__train__1.1.1.jpg",
+   "cluster": "writer_DS:ds:photo1",
+   "group": "middle",
+   "kept_h": 0.785,
+   "label": "The ViT architecture relies on three concepts.",
+   "pred_original": "The Vit arinutvte trit    e he nctns.",
+   "pred_tight": "The Vi arcitecture vde e e h e c ec ctes.",
+   "o": {
+    "cer": 0.4782608695652174,
+    "S": 10,
+    "D": 12,
+    "I": 0,
+    "chars": 46
+   },
+   "t": {
+    "cer": 0.3695652173913043,
+    "S": 10,
+    "D": 6,
+    "I": 1,
+    "chars": 46
+   },
+   "d": -0.10869565217391308
+  },
+  {
+   "name": "ds__train__1.1.2.jpg",
+   "cluster": "writer_DS:ds:photo1",
+   "group": "large margin",
+   "kept_h": 0.527,
+   "label": "There is tokens, position Embeddings and attention",
+   "pred_original": "There is touns o tco n msons to  a t ttion",
+   "pred_tight": "There is touens, Position Embellings anb attention",
+   "o": {
+    "cer": 0.42,
+    "S": 10,
+    "D": 10,
+    "I": 1,
+    "chars": 50
+   },
+   "t": {
+    "cer": 0.08,
+    "S": 4,
+    "D": 0,
+    "I": 0,
+    "chars": 50
+   },
+   "d": -0.33999999999999997
+  },
+  {
+   "name": "ds__train__1.2.1.jpg",
+   "cluster": "writer_DS:ds:photo1",
+   "group": "large margin",
+   "kept_h": 0.531,
+   "label": "Transformers were originally designed for text",
+   "pred_original": "Transtornerswere ermcn se f fr te tetht",
+   "pred_tight": "Transforners were origimaly besignel for text",
+   "o": {
+    "cer": 0.5,
+    "S": 14,
+    "D": 8,
+    "I": 1,
+    "chars": 46
+   },
+   "t": {
+    "cer": 0.10869565217391304,
+    "S": 4,
+    "D": 1,
+    "I": 0,
+    "chars": 46
+   },
+   "d": -0.391304347826087
+  },
+  {
+   "name": "ds__train__1.2.2.jpg",
+   "cluster": "writer_DS:ds:photo1",
+   "group": "large margin",
+   "kept_h": 0.585,
+   "label": "which NLP. To make them work for images,",
+   "pred_original": "Which NiLP To mave them wovre for imges,",
+   "pred_tight": "Which NLP. To make them work for images,",
+   "o": {
+    "cer": 0.15,
+    "S": 2,
+    "D": 2,
+    "I": 2,
+    "chars": 40
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 40
+   },
+   "d": -0.15
+  },
+  {
+   "name": "ds__train__1.2.3.jpg",
+   "cluster": "writer_DS:ds:photo1",
+   "group": "large margin",
+   "kept_h": 0.411,
+   "label": "ViT splits an image into a grid of fixed-size patches",
+   "pred_original": "vit spts aniai e e n tds e  aft hus.",
+   "pred_tight": "ViT splits an image into a grid of fites-size patches",
+   "o": {
+    "cer": 0.5471698113207547,
+    "S": 9,
+    "D": 19,
+    "I": 1,
+    "chars": 53
+   },
+   "t": {
+    "cer": 0.03773584905660377,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "chars": 53
+   },
+   "d": -0.5094339622641509
+  },
+  {
+   "name": "ds__train__1.3.1.jpg",
+   "cluster": "writer_DS:ds:photo1",
+   "group": "large margin",
+   "kept_h": 0.531,
+   "label": "Each patch is flattened and linearly projected into 1D vector.",
+   "pred_original": "emch teti e tet tene rn i e dt  o  vens.",
+   "pred_tight": "Each Patch is flated and linery Projecte ito dt eator.",
+   "o": {
+    "cer": 0.6129032258064516,
+    "S": 14,
+    "D": 24,
+    "I": 0,
+    "chars": 62
+   },
+   "t": {
+    "cer": 0.1774193548387097,
+    "S": 3,
+    "D": 8,
+    "I": 0,
+    "chars": 62
+   },
+   "d": -0.43548387096774194
+  },
+  {
+   "name": "ds__test__1.3.2.jpg",
+   "cluster": "writer_DS:ds:photo1",
+   "group": "middle",
+   "kept_h": 0.846,
+   "label": "These vectors serves as the tokens which is",
+   "pred_original": "The Vectors seres as he touenswich is",
+   "pred_tight": "These vecors Serves as the touens which is",
+   "o": {
+    "cer": 0.16279069767441862,
+    "S": 1,
+    "D": 6,
+    "I": 0,
+    "chars": 43
+   },
+   "t": {
+    "cer": 0.046511627906976744,
+    "S": 1,
+    "D": 1,
+    "I": 0,
+    "chars": 43
+   },
+   "d": -0.11627906976744187
+  },
+  {
+   "name": "ds__train__1.3.3.jpg",
+   "cluster": "writer_DS:ds:photo1",
+   "group": "middle",
+   "kept_h": 0.845,
+   "label": "the visual equivalence of a word in a sentence",
+   "pred_original": "the Visul eauivlence of a word in a etence",
+   "pred_tight": "the visunl eauivlence of a word in a Sentence",
+   "o": {
+    "cer": 0.10869565217391304,
+    "S": 1,
+    "D": 4,
+    "I": 0,
+    "chars": 46
+   },
+   "t": {
+    "cer": 0.06521739130434782,
+    "S": 2,
+    "D": 1,
+    "I": 0,
+    "chars": 46
+   },
+   "d": -0.043478260869565216
+  },
+  {
+   "name": "ds__train__1.4.1.jpg",
+   "cluster": "writer_DS:ds:photo1",
+   "group": "middle",
+   "kept_h": 0.807,
+   "label": "Vision Transformers lack the inductive biases of CNNs and are",
+   "pred_original": "eision rastoresl ae te de ane e ie covs dde  are.",
+   "pred_tight": "Vision Transtormers laca the inuctive biasof CuNns and are",
+   "o": {
+    "cer": 0.5081967213114754,
+    "S": 14,
+    "D": 15,
+    "I": 2,
+    "chars": 61
+   },
+   "t": {
+    "cer": 0.11475409836065574,
+    "S": 2,
+    "D": 4,
+    "I": 1,
+    "chars": 61
+   },
+   "d": -0.39344262295081966
+  },
+  {
+   "name": "ds__test__1.4.2.jpg",
+   "cluster": "writer_DS:ds:photo1",
+   "group": "middle",
+   "kept_h": 0.685,
+   "label": "extremely data-hungry. They are typically pre-trained on massive datasets",
+   "pred_original": ". emteren data hua te ht ae it e p u in aset t ats.",
+   "pred_tight": "extrenely date - hunmh4. Thy are tipical pre -trained on masive dlitasets.",
+   "o": {
+    "cer": 0.6301369863013698,
+    "S": 20,
+    "D": 24,
+    "I": 2,
+    "chars": 73
+   },
+   "t": {
+    "cer": 0.2191780821917808,
+    "S": 7,
+    "D": 4,
+    "I": 5,
+    "chars": 73
+   },
+   "d": -0.410958904109589
+  },
+  {
+   "name": "ds__train__1.4.3.jpg",
+   "cluster": "writer_DS:ds:photo1",
+   "group": "middle",
+   "kept_h": 0.789,
+   "label": "and then fine-tuned on smaller, task-specific datasets by replacing the",
+   "pred_original": "and then fine-tuned on swaller, tau-speific datasets by replacing the.",
+   "pred_tight": "and then fine-tuned on Swaller, talu- specific datasets by replacing the.",
+   "o": {
+    "cer": 0.07042253521126761,
+    "S": 2,
+    "D": 2,
+    "I": 1,
+    "chars": 71
+   },
+   "t": {
+    "cer": 0.07042253521126761,
+    "S": 3,
+    "D": 0,
+    "I": 2,
+    "chars": 71
+   },
+   "d": 0.0
+  },
+  {
+   "name": "ds__train__1.4.4.jpg",
+   "cluster": "writer_DS:ds:photo1",
+   "group": "control",
+   "kept_h": 0.907,
+   "label": "final classification head",
+   "pred_original": "final classitication head",
+   "pred_tight": "Final Classitication head",
+   "o": {
+    "cer": 0.04,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 25
+   },
+   "t": {
+    "cer": 0.04,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 25
+   },
+   "d": 0.0
+  },
+  {
+   "name": "ds__train__2.1.1.jpg",
+   "cluster": "writer_DS:ds:photo2",
+   "group": "large margin",
+   "kept_h": 0.456,
+   "label": "Slide a classifier method would fail",
+   "pred_original": "Ssld a classter et o  ot d ff fng.",
+   "pred_tight": "Slide a classitier method wourd fail",
+   "o": {
+    "cer": 0.5,
+    "S": 9,
+    "D": 6,
+    "I": 3,
+    "chars": 36
+   },
+   "t": {
+    "cer": 0.05555555555555555,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "chars": 36
+   },
+   "d": -0.4444444444444444
+  },
+  {
+   "name": "ds__train__2.1.2.jpg",
+   "cluster": "writer_DS:ds:photo2",
+   "group": "middle",
+   "kept_h": 0.657,
+   "label": "because evaluating every possible window",
+   "pred_original": "becuse evuluatn every osile indow",
+   "pred_tight": "because cUaluating every posible window",
+   "o": {
+    "cer": 0.2,
+    "S": 1,
+    "D": 7,
+    "I": 0,
+    "chars": 40
+   },
+   "t": {
+    "cer": 0.075,
+    "S": 2,
+    "D": 1,
+    "I": 0,
+    "chars": 40
+   },
+   "d": -0.125
+  },
+  {
+   "name": "ds__train__2.1.3.jpg",
+   "cluster": "writer_DS:ds:photo2",
+   "group": "middle",
+   "kept_h": 0.674,
+   "label": "is computationally too slow",
+   "pred_original": "is computatiomauny too slow",
+   "pred_tight": "is computationaly too slow",
+   "o": {
+    "cer": 0.1111111111111111,
+    "S": 3,
+    "D": 0,
+    "I": 0,
+    "chars": 27
+   },
+   "t": {
+    "cer": 0.037037037037037035,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "chars": 27
+   },
+   "d": -0.07407407407407407
+  },
+  {
+   "name": "ds__train__2.2.1.jpg",
+   "cluster": "writer_DS:ds:photo2",
+   "group": "large margin",
+   "kept_h": 0.452,
+   "label": "Regress one box method would fail because",
+   "pred_original": "Recaes onebo  o o o s  bf e cech ue.",
+   "pred_tight": "Regress one box methob would fail because",
+   "o": {
+    "cer": 0.5609756097560976,
+    "S": 14,
+    "D": 8,
+    "I": 1,
+    "chars": 41
+   },
+   "t": {
+    "cer": 0.024390243902439025,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 41
+   },
+   "d": -0.5365853658536586
+  },
+  {
+   "name": "ds__train__2.2.2.jpg",
+   "cluster": "writer_DS:ds:photo2",
+   "group": "large margin",
+   "kept_h": 0.54,
+   "label": "it can only detect a single object",
+   "pred_original": "it can ony betest sige obieo",
+   "pred_tight": "it can oniy betect a single object",
+   "o": {
+    "cer": 0.29411764705882354,
+    "S": 4,
+    "D": 6,
+    "I": 0,
+    "chars": 34
+   },
+   "t": {
+    "cer": 0.058823529411764705,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "chars": 34
+   },
+   "d": -0.23529411764705882
+  },
+  {
+   "name": "ds__test__2.2.3.jpg",
+   "cluster": "writer_DS:ds:photo2",
+   "group": "large margin",
+   "kept_h": 0.441,
+   "label": "per image.",
+   "pred_original": "Per image.",
+   "pred_tight": "Per image.",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 10
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 10
+   },
+   "d": 0.0
+  },
+  {
+   "name": "ds__train__2.3.1.jpg",
+   "cluster": "writer_DS:ds:photo2",
+   "group": "large margin",
+   "kept_h": 0.404,
+   "label": "Grid of predictors method would fail",
+   "pred_original": " rid of rescters receo i fto h am",
+   "pred_tight": "Grid of pretictors method would tail",
+   "o": {
+    "cer": 0.5,
+    "S": 14,
+    "D": 4,
+    "I": 0,
+    "chars": 36
+   },
+   "t": {
+    "cer": 0.05555555555555555,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "chars": 36
+   },
+   "d": -0.4444444444444444
+  },
+  {
+   "name": "ds__train__2.3.2.jpg",
+   "cluster": "writer_DS:ds:photo2",
+   "group": "middle",
+   "kept_h": 0.714,
+   "label": "because object come in widely varying shapes",
+   "pred_original": " becuse oject om in idn van y s h sapes",
+   "pred_tight": "because object Come in widely vartiny hapes",
+   "o": {
+    "cer": 0.3409090909090909,
+    "S": 5,
+    "D": 8,
+    "I": 2,
+    "chars": 44
+   },
+   "t": {
+    "cer": 0.06818181818181818,
+    "S": 2,
+    "D": 1,
+    "I": 0,
+    "chars": 44
+   },
+   "d": -0.2727272727272727
+  },
+  {
+   "name": "ds__train__2.3.3.jpg",
+   "cluster": "writer_DS:ds:photo2",
+   "group": "middle",
+   "kept_h": 0.668,
+   "label": "that a rigid grid struggles to capture.",
+   "pred_original": " that a rigid si thagses to Capture.",
+   "pred_tight": "that a risid srid strugsles to capture.",
+   "o": {
+    "cer": 0.20512820512820512,
+    "S": 4,
+    "D": 4,
+    "I": 0,
+    "chars": 39
+   },
+   "t": {
+    "cer": 0.07692307692307693,
+    "S": 3,
+    "D": 0,
+    "I": 0,
+    "chars": 39
+   },
+   "d": -0.1282051282051282
+  },
+  {
+   "name": "ds__train__2.4.1.jpg",
+   "cluster": "writer_DS:ds:photo2",
+   "group": "middle",
+   "kept_h": 0.805,
+   "label": "Anchor to distances method fails because",
+   "pred_original": " Aunchor to distance metho fails because",
+   "pred_tight": "Anchor to distancs methob fails because",
+   "o": {
+    "cer": 0.075,
+    "S": 0,
+    "D": 2,
+    "I": 1,
+    "chars": 40
+   },
+   "t": {
+    "cer": 0.05,
+    "S": 1,
+    "D": 1,
+    "I": 0,
+    "chars": 40
+   },
+   "d": -0.024999999999999994
+  },
+  {
+   "name": "ds__test__2.4.2.jpg",
+   "cluster": "writer_DS:ds:photo2",
+   "group": "control",
+   "kept_h": 0.876,
+   "label": "object sizes vary significantly",
+   "pred_original": "Object sizes vary sinilicnt",
+   "pred_tight": "Object sizer vary sisniticantl",
+   "o": {
+    "cer": 0.16129032258064516,
+    "S": 1,
+    "D": 4,
+    "I": 0,
+    "chars": 31
+   },
+   "t": {
+    "cer": 0.12903225806451613,
+    "S": 3,
+    "D": 1,
+    "I": 0,
+    "chars": 31
+   },
+   "d": -0.03225806451612903
+  },
+  {
+   "name": "ds__train__3.1.1.jpg",
+   "cluster": "writer_DS:ds:photo3",
+   "group": "large margin",
+   "kept_h": 0.435,
+   "label": "The first layer of a network act as a visual vocabulary,",
+   "pred_original": "T he first auerot a a awewsneae tsvt  cawa a arg.",
+   "pred_tight": "The first layer of a networy act as a visual vocabulary,",
+   "o": {
+    "cer": 0.5535714285714286,
+    "S": 21,
+    "D": 9,
+    "I": 1,
+    "chars": 56
+   },
+   "t": {
+    "cer": 0.017857142857142856,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 56
+   },
+   "d": -0.5357142857142857
+  },
+  {
+   "name": "ds__test__3.1.2.jpg",
+   "cluster": "writer_DS:ds:photo3",
+   "group": "large margin",
+   "kept_h": 0.576,
+   "label": "detecting basic elements were like edges, colour blobs, and simple textures",
+   "pred_original": "decin bsese e e e e ane e e isv aefe t uaitus.",
+   "pred_tight": "detecting basic elements liue ebges, Color lobs, and simple texture",
+   "o": {
+    "cer": 0.6533333333333333,
+    "S": 20,
+    "D": 29,
+    "I": 0,
+    "chars": 75
+   },
+   "t": {
+    "cer": 0.13333333333333333,
+    "S": 2,
+    "D": 8,
+    "I": 0,
+    "chars": 75
+   },
+   "d": -0.52
+  },
+  {
+   "name": "ds__train__3.2.1.jpg",
+   "cluster": "writer_DS:ds:photo3",
+   "group": "large margin",
+   "kept_h": 0.597,
+   "label": "Saliency via occlusion is a technique that slides a mask over",
+   "pred_original": "A salinct va c eu s e c ne n ein a s  m me o o overs",
+   "pred_tight": "Saliency via occlusion is a technique that slides a masy over",
+   "o": {
+    "cer": 0.5901639344262295,
+    "S": 18,
+    "D": 14,
+    "I": 4,
+    "chars": 61
+   },
+   "t": {
+    "cer": 0.01639344262295082,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 61
+   },
+   "d": -0.5737704918032787
+  },
+  {
+   "name": "ds__test__3.2.2.jpg",
+   "cluster": "writer_DS:ds:photo3",
+   "group": "large margin",
+   "kept_h": 0.459,
+   "label": "different regions of an image to see how hiding a patch affects",
+   "pred_original": " bien resien o a a n ao r aon an a tf fe hefeuns.",
+   "pred_tight": "different regions of an image to see how hiding a Patch affects",
+   "o": {
+    "cer": 0.5714285714285714,
+    "S": 19,
+    "D": 16,
+    "I": 1,
+    "chars": 63
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 63
+   },
+   "d": -0.5714285714285714
+  },
+  {
+   "name": "ds__train__3.2.3.jpg",
+   "cluster": "writer_DS:ds:photo3",
+   "group": "flagged",
+   "kept_h": 0.364,
+   "label": "prediction scores",
+   "pred_original": "Prdion sors",
+   "pred_tight": "Prediction Slores.",
+   "o": {
+    "cer": 0.35294117647058826,
+    "S": 0,
+    "D": 6,
+    "I": 0,
+    "chars": 17
+   },
+   "t": {
+    "cer": 0.11764705882352941,
+    "S": 1,
+    "D": 0,
+    "I": 1,
+    "chars": 17
+   },
+   "d": -0.23529411764705885
+  },
+  {
+   "name": "ds__test__3.3.1.jpg",
+   "cluster": "writer_DS:ds:photo3",
+   "group": "large margin",
+   "kept_h": 0.382,
+   "label": "Limitation for Saliency via occlusion is that it fails when the evidence",
+   "pred_original": "limiation fr sa a t n e iy d e e i a ie te ereemes",
+   "pred_tight": "Limitation for Saliency via Occlusion is that it fails When the evidence",
+   "o": {
+    "cer": 0.5416666666666666,
+    "S": 17,
+    "D": 22,
+    "I": 0,
+    "chars": 72
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 72
+   },
+   "d": -0.5416666666666666
+  },
+  {
+   "name": "ds__train__3.3.2.jpg",
+   "cluster": "writer_DS:ds:photo3",
+   "group": "large margin",
+   "kept_h": 0.592,
+   "label": "for a class is spread throughout the image, as hiding",
+   "pred_original": "for a cas s gspea tromgout tue magente i",
+   "pred_tight": "for a class is spread throughout the image, as hiding",
+   "o": {
+    "cer": 0.37735849056603776,
+    "S": 5,
+    "D": 14,
+    "I": 1,
+    "chars": 53
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 53
+   },
+   "d": -0.37735849056603776
+  },
+  {
+   "name": "ds__train__3.3.3.jpg",
+   "cluster": "writer_DS:ds:photo3",
+   "group": "middle",
+   "kept_h": 0.646,
+   "label": "just one patch at a time isn't enough to change the decision",
+   "pred_original": "just one path at a time isnlt enoug to luame we iion",
+   "pred_tight": "just one patch at a time isnt enough to change the decision",
+   "o": {
+    "cer": 0.21666666666666667,
+    "S": 5,
+    "D": 8,
+    "I": 0,
+    "chars": 60
+   },
+   "t": {
+    "cer": 0.016666666666666666,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "chars": 60
+   },
+   "d": -0.2
+  },
+  {
+   "name": "ds__train__4.1.1.jpg",
+   "cluster": "writer_DS:ds:photo4",
+   "group": "large margin",
+   "kept_h": 0.353,
+   "label": "Class activation map method only requires a forward pass,",
+   "pred_original": "elasativatio o p e on nan on a h ae  as.",
+   "pred_tight": "Class activation map method oniy requires a forward Pass,",
+   "o": {
+    "cer": 0.543859649122807,
+    "S": 13,
+    "D": 18,
+    "I": 0,
+    "chars": 57
+   },
+   "t": {
+    "cer": 0.017543859649122806,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 57
+   },
+   "d": -0.5263157894736843
+  },
+  {
+   "name": "ds__train__4.1.2.jpg",
+   "cluster": "writer_DS:ds:photo4",
+   "group": "control",
+   "kept_h": 1.0,
+   "label": "projecting the head's weights back onto the maps",
+   "pred_original": "Projecting the heats weijhts bacy onto the maps",
+   "pred_tight": "Projecting the heabs weijhts bacy onto the maps",
+   "o": {
+    "cer": 0.08333333333333333,
+    "S": 3,
+    "D": 1,
+    "I": 0,
+    "chars": 48
+   },
+   "t": {
+    "cer": 0.08333333333333333,
+    "S": 3,
+    "D": 1,
+    "I": 0,
+    "chars": 48
+   },
+   "d": 0.0
+  },
+  {
+   "name": "ds__test__4.1.3.jpg",
+   "cluster": "writer_DS:ds:photo4",
+   "group": "middle",
+   "kept_h": 0.687,
+   "label": "it pooled to see where the evidence lies.",
+   "pred_original": "it poolet to see where the evitence lies.",
+   "pred_tight": "it pooied to see wheve the evidence. lies.",
+   "o": {
+    "cer": 0.04878048780487805,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "chars": 41
+   },
+   "t": {
+    "cer": 0.07317073170731707,
+    "S": 2,
+    "D": 0,
+    "I": 1,
+    "chars": 41
+   },
+   "d": 0.02439024390243902
+  },
+  {
+   "name": "ds__train__4.2.1.jpg",
+   "cluster": "writer_DS:ds:photo4",
+   "group": "large margin",
+   "kept_h": 0.38,
+   "label": "Class activation map method have a limitation,",
+   "pred_original": "Daclas activatiotoa aco ch di a ai titit tiong.",
+   "pred_tight": "Class activation map method have a limitation,",
+   "o": {
+    "cer": 0.5,
+    "S": 16,
+    "D": 3,
+    "I": 4,
+    "chars": 46
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 46
+   },
+   "d": -0.5
+  },
+  {
+   "name": "ds__train__4.2.2.jpg",
+   "cluster": "writer_DS:ds:photo4",
+   "group": "large margin",
+   "kept_h": 0.438,
+   "label": "it only works with specific architectures that",
+   "pred_original": "t ony worus with sectie achitecte st",
+   "pred_tight": "it oniy worus with specitic architectures that",
+   "o": {
+    "cer": 0.30434782608695654,
+    "S": 4,
+    "D": 10,
+    "I": 0,
+    "chars": 46
+   },
+   "t": {
+    "cer": 0.06521739130434782,
+    "S": 3,
+    "D": 0,
+    "I": 0,
+    "chars": 46
+   },
+   "d": -0.2391304347826087
+  },
+  {
+   "name": "ds__train__4.2.3.jpg",
+   "cluster": "writer_DS:ds:photo4",
+   "group": "large margin",
+   "kept_h": 0.52,
+   "label": "have a global average pooling layer followed",
+   "pred_original": "hae a lbal averge poain ao a aoouwouve",
+   "pred_tight": "have a global average pooling layer followed",
+   "o": {
+    "cer": 0.4090909090909091,
+    "S": 10,
+    "D": 7,
+    "I": 1,
+    "chars": 44
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 44
+   },
+   "d": -0.4090909090909091
+  },
+  {
+   "name": "ds__train__4.2.4.jpg",
+   "cluster": "writer_DS:ds:photo4",
+   "group": "middle",
+   "kept_h": 0.842,
+   "label": "by a linear head.",
+   "pred_original": "by a linear head.",
+   "pred_tight": "by a linear head.",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 17
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 17
+   },
+   "d": 0.0
+  },
+  {
+   "name": "ds__train__4.3.1.jpg",
+   "cluster": "writer_DS:ds:photo4",
+   "group": "middle",
+   "kept_h": 0.671,
+   "label": "A normalized tensor of numbers, not a photo.",
+   "pred_original": " A normaized tenor ot umbrs os  ph coto.",
+   "pred_tight": "A normalized tensor of numbers, not a photo.",
+   "o": {
+    "cer": 0.2727272727272727,
+    "S": 6,
+    "D": 6,
+    "I": 0,
+    "chars": 44
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 44
+   },
+   "d": -0.2727272727272727
+  },
+  {
+   "name": "ds__train__4.3.2.jpg",
+   "cluster": "writer_DS:ds:photo4",
+   "group": "large margin",
+   "kept_h": 0.581,
+   "label": "Labels defined the task, and can smuggle in",
+   "pred_original": "a dases bti es e te u an nsuese in",
+   "pred_tight": "Labels befined the tasu, and can smuggie in",
+   "o": {
+    "cer": 0.5581395348837209,
+    "S": 11,
+    "D": 11,
+    "I": 2,
+    "chars": 43
+   },
+   "t": {
+    "cer": 0.06976744186046512,
+    "S": 3,
+    "D": 0,
+    "I": 0,
+    "chars": 43
+   },
+   "d": -0.4883720930232558
+  },
+  {
+   "name": "ds__train__4.3.3.jpg",
+   "cluster": "writer_DS:ds:photo4",
+   "group": "control",
+   "kept_h": 0.891,
+   "label": "a shortcut",
+   "pred_original": "a Shortut",
+   "pred_tight": "a Shortlut",
+   "o": {
+    "cer": 0.1,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "chars": 10
+   },
+   "t": {
+    "cer": 0.1,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 10
+   },
+   "d": 0.0
+  },
+  {
+   "name": "ds__train__5.1.1.jpg",
+   "cluster": "writer_DS:ds:photo5",
+   "group": "middle",
+   "kept_h": 0.796,
+   "label": "How do i know when to use",
+   "pred_original": "How o i unow when to use",
+   "pred_tight": "How doi unow when to use",
+   "o": {
+    "cer": 0.08,
+    "S": 1,
+    "D": 1,
+    "I": 0,
+    "chars": 25
+   },
+   "t": {
+    "cer": 0.08,
+    "S": 1,
+    "D": 1,
+    "I": 0,
+    "chars": 25
+   },
+   "d": 0.0
+  },
+  {
+   "name": "ds__train__5.1.2.jpg",
+   "cluster": "writer_DS:ds:photo5",
+   "group": "middle",
+   "kept_h": 0.846,
+   "label": "cross entropy and Mean squared Error?",
+   "pred_original": "-Cross entropy and Mean squared Error!",
+   "pred_tight": "Cross entropy and Mean squareb Error!?",
+   "o": {
+    "cer": 0.05405405405405406,
+    "S": 1,
+    "D": 0,
+    "I": 1,
+    "chars": 37
+   },
+   "t": {
+    "cer": 0.05405405405405406,
+    "S": 1,
+    "D": 0,
+    "I": 1,
+    "chars": 37
+   },
+   "d": 0.0
+  },
+  {
+   "name": "ds__train__5.2.1.jpg",
+   "cluster": "writer_DS:ds:photo5",
+   "group": "middle",
+   "kept_h": 0.711,
+   "label": "Linear model works on the most basic form of a",
+   "pred_original": " Linear mobel worus on the most basic form of a",
+   "pred_tight": "Linear mobel worus on the most basic form of a",
+   "o": {
+    "cer": 0.043478260869565216,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "chars": 46
+   },
+   "t": {
+    "cer": 0.043478260869565216,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "chars": 46
+   },
+   "d": 0.0
+  },
+  {
+   "name": "ds__train__5.2.2.jpg",
+   "cluster": "writer_DS:ds:photo5",
+   "group": "control",
+   "kept_h": 1.0,
+   "label": "neural network, but for realistic data classification,",
+   "pred_original": " neural network, but tor realistic data classitication,",
+   "pred_tight": "neural network, but tor realistic data classitication,",
+   "o": {
+    "cer": 0.037037037037037035,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "chars": 54
+   },
+   "t": {
+    "cer": 0.037037037037037035,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "chars": 54
+   },
+   "d": 0.0
+  },
+  {
+   "name": "ds__train__5.2.3.jpg",
+   "cluster": "writer_DS:ds:photo5",
+   "group": "middle",
+   "kept_h": 0.625,
+   "label": "we used a non-linear boundary to separate data",
+   "pred_original": "We used a non linear boundary to seperate data",
+   "pred_tight": "We useb a non-linear boundary to Seperate data",
+   "o": {
+    "cer": 0.043478260869565216,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "chars": 46
+   },
+   "t": {
+    "cer": 0.043478260869565216,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "chars": 46
+   },
+   "d": 0.0
+  },
+  {
+   "name": "ds__test__5.3.1.jpg",
+   "cluster": "writer_DS:ds:photo5",
+   "group": "middle",
+   "kept_h": 0.842,
+   "label": "Forward Propagation refers to the calculation and storage",
+   "pred_original": "Forvard Propagation refers to the Caiculation and Storage",
+   "pred_tight": "Forward Propagation reters to the Calculation and Storage",
+   "o": {
+    "cer": 0.03508771929824561,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "chars": 57
+   },
+   "t": {
+    "cer": 0.017543859649122806,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 57
+   },
+   "d": -0.017543859649122806
+  },
+  {
+   "name": "ds__test__5.3.2.jpg",
+   "cluster": "writer_DS:ds:photo5",
+   "group": "control",
+   "kept_h": 0.904,
+   "label": "of intermediate variables for a neural network in order",
+   "pred_original": " Of intermediate Variables for a neural network in order",
+   "pred_tight": "Of intermediate Variables for a neural network in order",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 55
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 55
+   },
+   "d": 0.0
+  },
+  {
+   "name": "ds__train__5.3.3.jpg",
+   "cluster": "writer_DS:ds:photo5",
+   "group": "middle",
+   "kept_h": 0.706,
+   "label": "from the input layer to the output layer",
+   "pred_original": " from the input layer to the output layer",
+   "pred_tight": "from the input layer to the output laver",
+   "o": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 40
+   },
+   "t": {
+    "cer": 0.025,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 40
+   },
+   "d": 0.025
+  },
+  {
+   "name": "ds__train__5.4.1.jpg",
+   "cluster": "writer_DS:ds:photo5",
+   "group": "middle",
+   "kept_h": 0.815,
+   "label": "Computation graph represents the process of computing a",
+   "pred_original": " Computation graph represents the process of cormputing a",
+   "pred_tight": "Computation graph represents the process of Computing a",
+   "o": {
+    "cer": 0.01818181818181818,
+    "S": 0,
+    "D": 0,
+    "I": 1,
+    "chars": 55
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 55
+   },
+   "d": -0.01818181818181818
+  },
+  {
+   "name": "ds__train__5.4.2.jpg",
+   "cluster": "writer_DS:ds:photo5",
+   "group": "control",
+   "kept_h": 0.91,
+   "label": "mathematical expression in which we break down the",
+   "pred_original": " Mathematical expression in which we breay down the",
+   "pred_tight": "Mathematical exprssion in which we breay down the",
+   "o": {
+    "cer": 0.02,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 50
+   },
+   "t": {
+    "cer": 0.04,
+    "S": 1,
+    "D": 1,
+    "I": 0,
+    "chars": 50
+   },
+   "d": 0.02
+  },
+  {
+   "name": "ds__train__5.4.3.jpg",
+   "cluster": "writer_DS:ds:photo5",
+   "group": "middle",
+   "kept_h": 0.72,
+   "label": "computation into separate operations, each of us which is",
+   "pred_original": " Cormputation into seperate operations, each of which is",
+   "pred_tight": "Coriputation into Seperate operations, each of Which is",
+   "o": {
+    "cer": 0.08771929824561403,
+    "S": 1,
+    "D": 3,
+    "I": 1,
+    "chars": 57
+   },
+   "t": {
+    "cer": 0.10526315789473684,
+    "S": 2,
+    "D": 3,
+    "I": 1,
+    "chars": 57
+   },
+   "d": 0.017543859649122806
+  },
+  {
+   "name": "ds__test__5.4.4.jpg",
+   "cluster": "writer_DS:ds:photo5",
+   "group": "middle",
+   "kept_h": 0.763,
+   "label": "modelled as a node in a graph",
+   "pred_original": " modbeleb as a node in a graph",
+   "pred_tight": "mobeleb as a node in a graph",
+   "o": {
+    "cer": 0.10344827586206896,
+    "S": 3,
+    "D": 0,
+    "I": 0,
+    "chars": 29
+   },
+   "t": {
+    "cer": 0.10344827586206896,
+    "S": 2,
+    "D": 1,
+    "I": 0,
+    "chars": 29
+   },
+   "d": 0.0
+  },
+  {
+   "name": "ds__train__6.1.1.jpg",
+   "cluster": "writer_DS:ds:photo6",
+   "group": "large margin",
+   "kept_h": 0.563,
+   "label": "Rank predictions sort all predicted",
+   "pred_original": "Ranu predictions srt ad Preducte",
+   "pred_tight": "Ranu Predictions Sort all prebicted",
+   "o": {
+    "cer": 0.17142857142857143,
+    "S": 3,
+    "D": 3,
+    "I": 0,
+    "chars": 35
+   },
+   "t": {
+    "cer": 0.05714285714285714,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "chars": 35
+   },
+   "d": -0.1142857142857143
+  },
+  {
+   "name": "ds__train__6.1.2.jpg",
+   "cluster": "writer_DS:ds:photo6",
+   "group": "control",
+   "kept_h": 0.899,
+   "label": "bounding boxes by their confidence",
+   "pred_original": " bounding boes by their contidemne",
+   "pred_tight": "bounbing boxes by their confilenme",
+   "o": {
+    "cer": 0.11764705882352941,
+    "S": 3,
+    "D": 1,
+    "I": 0,
+    "chars": 34
+   },
+   "t": {
+    "cer": 0.08823529411764706,
+    "S": 3,
+    "D": 0,
+    "I": 0,
+    "chars": 34
+   },
+   "d": -0.029411764705882346
+  },
+  {
+   "name": "ds__train__6.1.3.jpg",
+   "cluster": "writer_DS:ds:photo6",
+   "group": "large margin",
+   "kept_h": 0.562,
+   "label": "scores from highest to lowest",
+   "pred_original": " scores trom highest te troosht",
+   "pred_tight": "Scores trom highest to lowest",
+   "o": {
+    "cer": 0.2413793103448276,
+    "S": 6,
+    "D": 0,
+    "I": 1,
+    "chars": 29
+   },
+   "t": {
+    "cer": 0.034482758620689655,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 29
+   },
+   "d": -0.20689655172413796
+  },
+  {
+   "name": "ds__train__6.2.1.jpg",
+   "cluster": "writer_DS:ds:photo6",
+   "group": "large margin",
+   "kept_h": 0.47,
+   "label": "To plot the precision-Recall curve, graph",
+   "pred_original": " o pot hereso en anen rrppap",
+   "pred_tight": "To Plot the precision- Recall curve, graph",
+   "o": {
+    "cer": 0.5853658536585366,
+    "S": 8,
+    "D": 15,
+    "I": 1,
+    "chars": 41
+   },
+   "t": {
+    "cer": 0.024390243902439025,
+    "S": 0,
+    "D": 0,
+    "I": 1,
+    "chars": 41
+   },
+   "d": -0.5609756097560975
+  },
+  {
+   "name": "ds__train__6.2.2.jpg",
+   "cluster": "writer_DS:ds:photo6",
+   "group": "middle",
+   "kept_h": 0.699,
+   "label": "the precision against the recall to visualize",
+   "pred_original": "the precision ngaio s  ca itnt t etiiizizizeiz.",
+   "pred_tight": " the precision ngainst the reca to visuaize",
+   "o": {
+    "cer": 0.5111111111111111,
+    "S": 20,
+    "D": 1,
+    "I": 2,
+    "chars": 45
+   },
+   "t": {
+    "cer": 0.08888888888888889,
+    "S": 1,
+    "D": 3,
+    "I": 0,
+    "chars": 45
+   },
+   "d": -0.42222222222222217
+  },
+  {
+   "name": "ds__train__6.2.3.jpg",
+   "cluster": "writer_DS:ds:photo6",
+   "group": "middle",
+   "kept_h": 0.766,
+   "label": "the model's trade offs as the confidence threshold lowers.",
+   "pred_original": "e the mobels trabe ofts as the contidence thresioid lowers.",
+   "pred_tight": "the mobels trabe ofts as the contisence thresiod lowers.",
+   "o": {
+    "cer": 0.15517241379310345,
+    "S": 6,
+    "D": 1,
+    "I": 2,
+    "chars": 58
+   },
+   "t": {
+    "cer": 0.13793103448275862,
+    "S": 6,
+    "D": 2,
+    "I": 0,
+    "chars": 58
+   },
+   "d": -0.017241379310344834
+  },
+  {
+   "name": "ds__train__6.3.1.jpg",
+   "cluster": "writer_DS:ds:photo6",
+   "group": "large margin",
+   "kept_h": 0.599,
+   "label": "To calculate average precision, measure the total area under",
+   "pred_original": "T teo catlclteaecut reae ea r scn asea aude t dle.",
+   "pred_tight": "To calculate average precision, measure the total area under",
+   "o": {
+    "cer": 0.6333333333333333,
+    "S": 18,
+    "D": 15,
+    "I": 5,
+    "chars": 60
+   },
+   "t": {
+    "cer": 0.0,
+    "S": 0,
+    "D": 0,
+    "I": 0,
+    "chars": 60
+   },
+   "d": -0.6333333333333333
+  },
+  {
+   "name": "ds__test__6.3.2.jpg",
+   "cluster": "writer_DS:ds:photo6",
+   "group": "middle",
+   "kept_h": 0.843,
+   "label": "the precision-Recall curve to generate a single performance",
+   "pred_original": " the precision Recal curve to generate a single etormance",
+   "pred_tight": "the precision-Recll curve to generate a Single Pertormance",
+   "o": {
+    "cer": 0.0847457627118644,
+    "S": 2,
+    "D": 3,
+    "I": 0,
+    "chars": 59
+   },
+   "t": {
+    "cer": 0.03389830508474576,
+    "S": 1,
+    "D": 1,
+    "I": 0,
+    "chars": 59
+   },
+   "d": -0.05084745762711864
+  },
+  {
+   "name": "ds__train__6.3.3.jpg",
+   "cluster": "writer_DS:ds:photo6",
+   "group": "large margin",
+   "kept_h": 0.579,
+   "label": "score for that specific object class",
+   "pred_original": " Score for tha spesife obict las",
+   "pred_tight": "Score for that specitic object class",
+   "o": {
+    "cer": 0.2222222222222222,
+    "S": 3,
+    "D": 5,
+    "I": 0,
+    "chars": 36
+   },
+   "t": {
+    "cer": 0.027777777777777776,
+    "S": 1,
+    "D": 0,
+    "I": 0,
+    "chars": 36
+   },
+   "d": -0.19444444444444442
+  },
+  {
+   "name": "ds__train__6.4.1.jpg",
+   "cluster": "writer_DS:ds:photo6",
+   "group": "large margin",
+   "kept_h": 0.586,
+   "label": "To calculate mean average precision, take the average",
+   "pred_original": "Tho callulate man averae preson taethe a vcrai",
+   "pred_tight": "To callulate mean average preuision, tuke the avcrage",
+   "o": {
+    "cer": 0.2641509433962264,
+    "S": 3,
+    "D": 9,
+    "I": 2,
+    "chars": 53
+   },
+   "t": {
+    "cer": 0.07547169811320754,
+    "S": 4,
+    "D": 0,
+    "I": 0,
+    "chars": 53
+   },
+   "d": -0.18867924528301888
+  },
+  {
+   "name": "ds__test__6.4.2.jpg",
+   "cluster": "writer_DS:ds:photo6",
+   "group": "control",
+   "kept_h": 0.944,
+   "label": "Ap scores across all object classes in your",
+   "pred_original": " Apscores across al object clasces in your.",
+   "pred_tight": "Ap Scores across all object clases in your",
+   "o": {
+    "cer": 0.09302325581395349,
+    "S": 1,
+    "D": 2,
+    "I": 1,
+    "chars": 43
+   },
+   "t": {
+    "cer": 0.023255813953488372,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "chars": 43
+   },
+   "d": -0.06976744186046512
+  },
+  {
+   "name": "ds__train__6.4.3.jpg",
+   "cluster": "writer_DS:ds:photo6",
+   "group": "middle",
+   "kept_h": 0.8,
+   "label": "dataset to get the final overall metric for the model",
+   "pred_original": "dataset to get the final overan metric for the model",
+   "pred_tight": "dataset to get the final overal metric for the model",
+   "o": {
+    "cer": 0.03773584905660377,
+    "S": 1,
+    "D": 1,
+    "I": 0,
+    "chars": 53
+   },
+   "t": {
+    "cer": 0.018867924528301886,
+    "S": 0,
+    "D": 1,
+    "I": 0,
+    "chars": 53
+   },
+   "d": -0.018867924528301886
+  },
+  {
+   "name": "ds__test__7.1.1.jpg",
+   "cluster": "writer_DS:ds:photo7",
+   "group": "control",
+   "kept_h": 1.0,
+   "label": "Deep learning, the word deep",
+   "pred_original": "Dep learning the wdder",
+   "pred_tight": "Dep learning the wdder",
+   "o": {
+    "cer": 0.25,
+    "S": 1,
+    "D": 6,
+    "I": 0,
+    "chars": 28
+   },
+   "t": {
+    "cer": 0.25,
+    "S": 1,
+    "D": 6,
+    "I": 0,
+    "chars": 28
+   },
+   "d": 0.0
+  },
+  {
+   "name": "ds__train__7.1.2.jpg",
+   "cluster": "writer_DS:ds:photo7",
+   "group": "control",
+   "kept_h": 0.87,
+   "label": "refers to multiple layers of non-linear transformations",
+   "pred_original": "Tefers to muitile layers of non liner transtormations",
+   "pred_tight": "Refers to multiple layers of non linear transtormations",
+   "o": {
+    "cer": 0.10909090909090909,
+    "S": 4,
+    "D": 2,
+    "I": 0,
+    "chars": 55
+   },
+   "t": {
+    "cer": 0.03636363636363636,
+    "S": 2,
+    "D": 0,
+    "I": 0,
+    "chars": 55
+   },
+   "d": -0.07272727272727272
+  },
+  {
+   "name": "ds__train__7.2.1.jpg",
+   "cluster": "writer_DS:ds:photo7",
+   "group": "large margin",
+   "kept_h": 0.55,
+   "label": "Explain why activation functions matter for learning",
+   "pred_original": " expim b tetn antis f ufro te aing.",
+   "pred_tight": "ExpPlain hy actiatio functions mater for tarning",
+   "o": {
+    "cer": 0.5961538461538461,
+    "S": 11,
+    "D": 19,
+    "I": 1,
+    "chars": 52
+   },
+   "t": {
+    "cer": 0.1346153846153846,
+    "S": 1,
+    "D": 5,
+    "I": 1,
+    "chars": 52
+   },
+   "d": -0.46153846153846156
+  },
+  {
+   "name": "ds__train__7.3.1.jpg",
+   "cluster": "writer_DS:ds:photo7",
+   "group": "control",
+   "kept_h": 1.0,
+   "label": "An Optimization algorithm to adjust the",
+   "pred_original": "An Optmization agorithm to ajs t te",
+   "pred_tight": "An Optmizationaigorithm to ajst te",
+   "o": {
+    "cer": 0.15384615384615385,
+    "S": 2,
+    "D": 4,
+    "I": 0,
+    "chars": 39
+   },
+   "t": {
+    "cer": 0.15384615384615385,
+    "S": 1,
+    "D": 5,
+    "I": 0,
+    "chars": 39
+   },
+   "d": 0.0
+  },
+  {
+   "name": "ds__train__7.3.2.jpg",
+   "cluster": "writer_DS:ds:photo7",
+   "group": "large margin",
+   "kept_h": 0.508,
+   "label": "model's parameters to minimize the loss",
+   "pred_original": " mobels parametrst t m i iii e e hef os.",
+   "pred_tight": "mobels parameters to minimize the 1oss",
+   "o": {
+    "cer": 0.358974358974359,
+    "S": 8,
+    "D": 3,
+    "I": 3,
+    "chars": 39
+   },
+   "t": {
+    "cer": 0.07692307692307693,
+    "S": 2,
+    "D": 1,
+    "I": 0,
+    "chars": 39
+   },
+   "d": -0.28205128205128205
+  }
+ ]
+}

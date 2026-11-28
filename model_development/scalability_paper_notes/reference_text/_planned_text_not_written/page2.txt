@@ -1,0 +1,11 @@
+Training a model
+Split the data into train, validation and test
+Learning rate too high → loss diverges
+Batch size 16, 70 epochs
+Cross-entropy loss for classification
+Adam adapts the step size per weight
+Overfitting: train error low, test error high
+Data augmentation adds rotated and blurred copies
+Early stopping keeps the best checkpoint
+Validation loss stopped improving after epoch 40, so we kept that checkpoint
+Accuracy improved from 82% to 91%

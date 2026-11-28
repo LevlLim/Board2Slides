@@ -1,0 +1,12 @@
+{
+  "guided": {
+    "backbone": 0,
+    "ctc_neck": 502.58821810659174,
+    "use_guide": true
+  },
+  "unguided": {
+    "backbone": 11400.881967731337,
+    "ctc_neck": 502.58821810659174,
+    "use_guide": false
+  }
+}

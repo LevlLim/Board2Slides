@@ -1,0 +1,103 @@
+{
+  "comparisons": {
+    "his test: S1his_ensl vs S1his_fulldict": {
+      "diff": 0.004571909722425286,
+      "hi": 0.0122705438654524,
+      "lo": -0.003905766303223954,
+      "verdict": "no clear difference"
+    },
+    "his test: S1his_ensl vs pretrained": {
+      "diff": -0.0949946381503024,
+      "hi": -0.06346097005297775,
+      "lo": -0.12524611452330564,
+      "verdict": "better"
+    },
+    "his val: S1his_ensl vs S1his_fulldict": {
+      "diff": -0.011267682751827044,
+      "hi": -0.00183080497450708,
+      "lo": -0.020156944177696923,
+      "verdict": "better"
+    },
+    "his val: S1his_ensl vs pretrained": {
+      "diff": -0.13150062828077183,
+      "hi": -0.08628937444765457,
+      "lo": -0.1810464721952571,
+      "verdict": "better"
+    }
+  },
+  "his": {
+    "left_out": {
+      "his_test": {
+        "character not in the dictionary": 5
+      },
+      "his_val": {},
+      "train_S1his_ensl": {
+        "character not in the dictionary": 45,
+        "label longer than the limit": 15
+      }
+    },
+    "lines": {
+      "his_test": 164,
+      "his_val": 179,
+      "train_S1his_ensl": 8448
+    }
+  },
+  "summary": {
+    "S1his_ensl | his test": {
+      "corpus_CER": 0.08242424242424243,
+      "exact": 0.6158536585365854,
+      "extra_repeats": 0.012195121951219513,
+      "lines": 164,
+      "mean_line_CER": 0.07415621054243049
+    },
+    "S1his_ensl | his val": {
+      "corpus_CER": 0.054484492875104776,
+      "exact": 0.5698324022346368,
+      "extra_repeats": 0.0111731843575419,
+      "lines": 179,
+      "mean_line_CER": 0.050852786560162164
+    },
+    "S1his_fulldict | his test": {
+      "corpus_CER": 0.07696969696969697,
+      "exact": 0.5609756097560976,
+      "extra_repeats": 0.012195121951219513,
+      "lines": 164,
+      "mean_line_CER": 0.0695843008200052
+    },
+    "S1his_fulldict | his val": {
+      "corpus_CER": 0.06370494551550712,
+      "exact": 0.5754189944134078,
+      "extra_repeats": 0.0335195530726257,
+      "lines": 179,
+      "mean_line_CER": 0.06212046931198918
+    },
+    "pretrained | his test": {
+      "corpus_CER": 0.17757575757575758,
+      "exact": 0.3170731707317073,
+      "extra_repeats": 0.006097560975609756,
+      "lines": 164,
+      "mean_line_CER": 0.1691508486927329
+    },
+    "pretrained | his val": {
+      "corpus_CER": 0.18189438390611903,
+      "exact": 0.35195530726256985,
+      "extra_repeats": 0.0335195530726257,
+      "lines": 179,
+      "mean_line_CER": 0.182353414840934
+    },
+    "pretrained_sliced | his test": {
+      "corpus_CER": 0.17545454545454545,
+      "exact": 0.32926829268292684,
+      "extra_repeats": 0.006097560975609756,
+      "lines": 164,
+      "mean_line_CER": 0.16577525534829013
+    },
+    "pretrained_sliced | his val": {
+      "corpus_CER": 0.18105616093880972,
+      "exact": 0.35195530726256985,
+      "extra_repeats": 0.0446927374301676,
+      "lines": 179,
+      "mean_line_CER": 0.18170880805107587
+    }
+  }
+}
