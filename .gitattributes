@@ -1,4 +1,5 @@
 * text=auto
+Dockerfile text eol=lf
 *.pdiparams binary
 *.safetensors binary
 *.png binary

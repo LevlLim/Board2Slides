@@ -18,6 +18,11 @@ if (!model || !visual || !allowed.has(visual.type)) throw new Error("Input needs
 if (!Array.isArray(model.key_points) || model.key_points.length < 2 || model.key_points.length > 4) {
   throw new Error("Expected 2 to 4 key points");
 }
+const included = new Set(model.included_slides ||
+  (visual.type === "none" ? ["cover", "overview", "example"] : ["cover", "overview", "visual", "example"]));
+if (!included.size || [...included].some(slide => !["cover", "overview", "visual", "example"].includes(slide))) {
+  throw new Error("Keep at least one valid slide in the deck");
+}
 
 function numericTokens(value) {
   return (String(value).replaceAll(",", "").match(/[-+]?\d+(?:\.\d+)?/g) || []).map(Number);
@@ -156,6 +161,8 @@ function base(title, label, page) {
   return slide;
 }
 
+let page = 0;
+if (included.has("cover")) {
 const cover = pptx.addSlide();
 cover.background = { color: C.navy };
 rect(cover, 0.72, 0.9, 0.12, 5.7, C.teal);
@@ -164,8 +171,10 @@ addText(cover, model.title, 1.16, 2.02, 11.35, 1.5, { fontFace: "Aptos Display",
 addText(cover, reviewedDemo ? "From reviewed board notes" : `Adaptive visual: ${visual.type.replaceAll("_", " ")}`, 1.17, 4.27, 10.7, 0.42, { fontSize: 18, color: "C9D9E4" });
 addText(cover, envelope.model_condition || "Qwen3-1.7B with adaptive visual LoRA v2", 1.17, 5.0, 10.7, 0.34, { fontSize: 13, color: "8FA8B9" });
 cover.addNotes(provenance("Cover uses model_output.title and model_output.visual.type."));
+}
 
-const overview = base("Lesson overview", reviewedDemo ? "Reviewed board notes" : "Model generated content", 1);
+if (included.has("overview")) {
+const overview = base("Lesson overview", reviewedDemo ? "Reviewed board notes" : "Model generated content", ++page);
 addText(overview, model.summary, 0.68, 1.72, 12.0, 0.78, { fontSize: 22, bold: true, color: C.navy, valign: "top" });
 const pointCount = model.key_points.length;
 const pointH = 3.7 / pointCount;
@@ -177,6 +186,7 @@ model.key_points.forEach((point, i) => {
   if (i < pointCount - 1) rect(overview, 1.27, y + pointH - 0.12, 11.1, 0.01, C.line);
 });
 overview.addNotes(provenance("Slide uses model_output.summary and model_output.key_points."));
+}
 
 function addComparison(slide, data) {
   const rows = [
@@ -239,7 +249,8 @@ function addFormula(slide, data) {
   });
 }
 
-const visualSlide = base(visual.title || model.title, reviewedDemo ? "Board recap" : visual.type.replaceAll("_", " "), 2);
+if (included.has("visual")) {
+const visualSlide = base(visual.title || model.title, reviewedDemo ? "Board recap" : visual.type.replaceAll("_", " "), ++page);
 addText(visualSlide, visual.reason, 0.7, 1.55, 12.0, 0.42, { fontSize: 16, color: C.muted, italic: true });
 if (visual.type === "comparison_table") addComparison(visualSlide, visual.data);
 else if (visual.type === "line_chart" || visual.type === "bar_chart") addChart(visualSlide, visual.data, visual.type);
@@ -247,8 +258,10 @@ else if (visual.type === "process") addProcess(visualSlide, visual.data);
 else if (visual.type === "formula") addFormula(visualSlide, visual.data);
 else addText(visualSlide, model.summary, 1.0, 2.55, 11.2, 2.0, { fontSize: 28, bold: true, color: C.navy, align: "center" });
 visualSlide.addNotes(provenance("Native editable visual uses model_output.visual.data."));
+}
 
-const exampleSlide = base(model.example.title, reviewedDemo ? "Review activity" : "Model generated example", 3);
+if (included.has("example")) {
+const exampleSlide = base(model.example.title, reviewedDemo ? "Review activity" : "Model generated example", ++page);
 rect(exampleSlide, 0.78, 2.05, 11.75, 3.85, C.white, C.line, true);
 addText(exampleSlide, model.example.description, 1.25, 2.65, 10.8, 2.4, { fontSize: 27, color: C.navy, align: "center", valign: "mid" });
 addText(exampleSlide, reviewedDemo
@@ -256,6 +269,7 @@ addText(exampleSlide, reviewedDemo
   : "Generated from OCR text and the model's pretrained knowledge",
   1.25, 5.37, 10.8, 0.28, { fontSize: 11, color: C.muted, align: "center" });
 exampleSlide.addNotes(provenance("Slide uses model_output.example without rewriting."));
+}
 
 async function removeUnusedMasterDeclarations(filePath) {
   const zip = await JSZip.loadAsync(fs.readFileSync(filePath));

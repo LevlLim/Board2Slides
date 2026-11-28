@@ -1,4 +1,4 @@
-"""Run the official PP-OCRv5 mobile detector with our exported recogniser.
+"""Run the official PP-OCRv5 mobile detector with a selected server recogniser.
 
 Usage: python ocr_infer.py IMAGE OUTPUT_JSON
 The model runs in the separate Paddle environment; the web server reads only
@@ -16,9 +16,9 @@ PROJECT = HERE.parent
 DEFAULT_CACHE = PROJECT / ".cache" / "paddlex"
 DEFAULT_RECOGNIZER = PROJECT / "models" / "ocr" / "recognizer"
 MODEL_NAMES = {
-    "baseline": "V1 · Official PP-OCRv5 mobile baseline",
-    "tuned": "V2 · Team fine-tuned recognizer",
-    "augmented": "V3 · Fine-tuned with augmented data",
+    "baseline": "V1 · Untuned PaddleOCR server reader",
+    "tuned": "V2 · Team 94-character English recognizer",
+    "augmented": "V3 · Multilingual-character recognizer",
 }
 
 
@@ -62,7 +62,7 @@ def main() -> None:
     pipeline = PaddleOCR(
         text_detection_model_name="PP-OCRv5_mobile_det",
         text_detection_model_dir=str(detector),
-        text_recognition_model_name="PP-OCRv5_mobile_rec",
+        text_recognition_model_name="PP-OCRv5_server_rec",
         text_recognition_model_dir=str(recognizer),
         use_doc_orientation_classify=False,
         use_doc_unwarping=False,

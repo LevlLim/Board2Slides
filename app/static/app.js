@@ -1,9 +1,127 @@
 const state = { job: null, step: "upload", busy: false, dirty: false, originalVisual: null,
   ocrReady: false, models: [], files: [], activePhotoId: null, draftByPhoto: new Map(),
-  plannerDraft: [], plannerDirty: false };
+  plannerDraft: [], plannerDirty: false, previewIndex: 0, previewJobId: null,
+  includedSlides: new Set(), turns: new Map() };
 const stepNames = ["upload", "prepare", "review", "plan", "export"];
+const slideOrder = ["cover", "overview", "visual", "example"];
+const slideLabels = { cover: "Cover", overview: "Key points", visual: "Visual", example: "Activity" };
 const regionColor = (index) => `hsl(${Math.round(index * 137.508) % 360} 67% 37%)`;
 const el = (id) => document.getElementById(id);
+
+// In-page replacement for window.confirm(). Same yes/no answer, styled to match the app.
+// Cancel is focused first and Esc cancels, so the safe choice stays the default.
+function askConfirm({ title, message, confirmLabel, cancelLabel = "Cancel" }) {
+  let dialog = el("confirm-dialog");
+  if (!dialog) {
+    dialog = document.createElement("dialog");
+    dialog.id = "confirm-dialog";
+    dialog.className = "confirm-dialog";
+    dialog.setAttribute("aria-labelledby", "confirm-title");
+    dialog.setAttribute("aria-describedby", "confirm-message");
+    dialog.innerHTML = '<h3 id="confirm-title"></h3><p id="confirm-message"></p>' +
+      '<div class="confirm-actions"><button type="button" class="button secondary" data-answer="no"></button>' +
+      '<button type="button" class="button primary danger" data-answer="yes"></button></div>';
+    document.body.append(dialog);
+  }
+  if (typeof dialog.showModal !== "function") return Promise.resolve(window.confirm(`${title}\n\n${message}`));
+  el("confirm-title").textContent = title;
+  el("confirm-message").textContent = message;
+  const yes = dialog.querySelector('[data-answer="yes"]');
+  const no = dialog.querySelector('[data-answer="no"]');
+  yes.textContent = confirmLabel;
+  no.textContent = cancelLabel;
+  return new Promise((resolve) => {
+    const finish = (answer) => {
+      dialog.removeEventListener("cancel", onCancel);
+      yes.onclick = null; no.onclick = null;
+      dialog.close();
+      resolve(answer);
+    };
+    const onCancel = (event) => { event.preventDefault(); finish(false); };
+    yes.onclick = () => finish(true);
+    no.onclick = () => finish(false);
+    dialog.addEventListener("cancel", onCancel);
+    dialog.showModal();
+    no.focus();
+  });
+}
+
+// Before preparation runs, the "Prepared for OCR" pane shows a placeholder, not the original.
+function preparedPlaceholder(image) {
+  let note = image.parentElement.querySelector(".prep-empty");
+  if (!note) {
+    note = document.createElement("p");
+    note.className = "prep-empty";
+    note.textContent = "Not prepared yet. Press Prepare photos to see what the model will read.";
+    image.parentElement.append(note);
+  }
+  return note;
+}
+
+let orientedPreviewVersion = 0;
+function showOrientedPhoto(image, url, turn) {
+  const version = ++orientedPreviewVersion;
+  image.removeAttribute("src");
+  if (!turn) { image.src = url; return; }
+  const source = new Image();
+  source.onload = () => {
+    if (version !== orientedPreviewVersion) return;
+    const scale = Math.min(1, 1600 / Math.max(source.naturalWidth, source.naturalHeight));
+    const width = Math.max(1, Math.round(source.naturalWidth * scale));
+    const height = Math.max(1, Math.round(source.naturalHeight * scale));
+    const canvas = document.createElement("canvas");
+    canvas.width = turn % 180 ? height : width;
+    canvas.height = turn % 180 ? width : height;
+    const context = canvas.getContext("2d");
+    if (!context) return;
+    context.translate(canvas.width / 2, canvas.height / 2);
+    context.rotate(turn * Math.PI / 180);
+    context.drawImage(source, -width / 2, -height / 2, width, height);
+    image.src = canvas.toDataURL("image/jpeg", 0.9);
+  };
+  source.onerror = () => {
+    if (version === orientedPreviewVersion) el("photo-turn-status").textContent = "Could not load the photo preview. Try Prepare photos to check the result.";
+  };
+  source.src = url;
+}
+
+// Outline the kept area on the original after a crop. Skipped when perspective was corrected,
+// because the crop is then measured on the warped image and would not line up with the original.
+function showCropOutline(image, preparation) {
+  let stage = image.parentElement;
+  if (!stage.classList.contains("prep-stage")) {
+    stage = document.createElement("span");
+    stage.className = "prep-stage";
+    image.replaceWith(stage);
+    stage.append(image);
+  }
+  let box = stage.querySelector(".crop-outline");
+  if (!box) {
+    box = document.createElement("span");
+    box.className = "crop-outline";
+    box.setAttribute("aria-hidden", "true");
+    stage.append(box);
+  }
+  box.hidden = true;
+  image.onload = null;
+  const region = preparation?.region;
+  const warped = preparation?.mode === "perspective" ||
+    (preparation?.decisions || []).some((item) => item.name === "perspective" && item.applied);
+  if (warped || !Array.isArray(region) || region.length !== 4) return;
+  const place = () => {
+    const width = image.naturalWidth, height = image.naturalHeight;
+    if (!width || !height) return;
+    const [x0, y0, x1, y1] = region;
+    if (x0 <= 0 && y0 <= 0 && x1 >= width && y1 >= height) return;
+    box.style.left = `${(x0 / width) * 100}%`;
+    box.style.top = `${(y0 / height) * 100}%`;
+    box.style.width = `${((x1 - x0) / width) * 100}%`;
+    box.style.height = `${((y1 - y0) / height) * 100}%`;
+    box.hidden = false;
+  };
+  image.onload = place;
+  if (image.complete && image.naturalWidth) place();
+}
 
 function notify(message, isError) {
   const box = el("toast");
@@ -88,11 +206,13 @@ function setCurrentJob(job) {
     if (!job.photos.some((photo) => photo.id === state.activePhotoId)) state.activePhotoId = job.photos[0].id;
     state.draftByPhoto = new Map(job.photos.map((photo) => [photo.id,
       job.ocr.regions.filter((region) => region.photo_id === photo.id).map((region) => ({ ...region }))]));
+    state.turns = new Map(job.photos.map((photo) => [photo.id, photo.preparation?.turn || 0]));
     if (job.photos[0].preparation) el("prepare-mode").value = job.photos[0].preparation.mode;
     el("ocr-model").value = job.selected_model || "tuned";
   } else {
     state.activePhotoId = null;
     state.draftByPhoto = new Map();
+    state.turns = new Map();
   }
   state.plannerDraft = (job.planner_input?.regions || []).map((line) => ({
     ...line, source_region_ids: [...(line.source_region_ids || [line.id])],
@@ -129,9 +249,20 @@ function renderPrepare() {
   if (!state.job?.photos?.length) return;
   photoTabs("prepare-photo-tabs", (photoId) => { state.activePhotoId = photoId; renderPrepare(); });
   const photo = currentPhoto();
+  const turn = state.turns.get(photo.id) || 0;
+  const photoNumber = state.job.photos.findIndex((item) => item.id === photo.id) + 1;
+  const orientation = { 0: "As uploaded", 90: "Turned right 90°", 180: "Turned 180°", 270: "Turned left 90°" };
+  el("photo-turn-status").textContent = `Photo ${photoNumber} · ${orientation[turn]}`;
   const version = `?v=${state.job.revision}`;
-  el("prepare-original").src = photo.original_url;
-  el("prepare-processed").src = (photo.preparation ? photo.processed_url : photo.original_url) + version;
+  const original = el("prepare-original");
+  const processed = el("prepare-processed");
+  const prepared = Boolean(photo.preparation);
+  showOrientedPhoto(original, photo.original_url, turn);
+  processed.hidden = !prepared;
+  if (prepared) processed.src = photo.processed_url + version;
+  else processed.removeAttribute("src");
+  preparedPlaceholder(processed).hidden = prepared;
+  showCropOutline(original, turn || photo.preparation?.turn ? null : photo.preparation);
   const decision = el("prepare-decision");
   decision.replaceChildren();
   const summary = document.createElement("p");
@@ -151,26 +282,34 @@ function renderPrepare() {
     });
     decision.append(list);
   }
-  if (photo.preparation && photo.preparation.mode !== el("prepare-mode").value) {
+  if (photo.preparation && (photo.preparation.mode !== el("prepare-mode").value ||
+      (photo.preparation.turn || 0) !== turn)) {
     const note = document.createElement("p");
-    note.textContent = "This preview uses the previous mode. Press Prepare photos to see the selected mode.";
+    note.textContent = "This preview uses the previous preparation choices. Press Prepare photos to update it.";
     decision.append(note);
   }
   const ready = state.job.photos.every((item) => item.preparation);
-  const matchingMode = ready && state.job.photos.every((item) => item.preparation.mode === el("prepare-mode").value);
+  const matchingMode = ready && state.job.photos.every((item) =>
+    item.preparation.mode === el("prepare-mode").value &&
+    (item.preparation.turn || 0) === (state.turns.get(item.id) || 0));
   el("run-ocr-button").disabled = !matchingMode || !state.models.some((model) => model.id === el("ocr-model").value && model.available);
   el("skip-ocr-button").disabled = !matchingMode;
 }
 
 async function prepareAll() {
   if (!state.job || state.busy) return;
-  if (state.job.ocr.regions.length && !window.confirm("Prepare again? This replaces the OCR text and any slide draft for this lesson.")) return;
+  if (state.job.ocr.regions.length && !(await askConfirm({
+    title: "Prepare the photos again?",
+    message: "This replaces the OCR text and any slide draft for this lesson.",
+    confirmLabel: "Prepare again", cancelLabel: "Keep current text",
+  }))) return;
   const button = el("prepare-button");
   setBusy(button, true, "Preparing photos…");
   try {
     const job = await request(`/api/jobs/${state.job.id}/prepare`, {
       method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ revision: state.job.revision, mode: el("prepare-mode").value }),
+      body: JSON.stringify({ revision: state.job.revision, mode: el("prepare-mode").value,
+        turns: Object.fromEntries(state.turns) }),
     });
     setCurrentJob(job);
     renderPrepare();
@@ -181,7 +320,11 @@ async function prepareAll() {
 
 async function runSelectedOcr() {
   if (!state.job || state.busy) return;
-  if (state.job.ocr.regions.length && !window.confirm("Run OCR again? This replaces your reviewed lines and any slide draft.")) return;
+  if (state.job.ocr.regions.length && !(await askConfirm({
+    title: "Run OCR again?",
+    message: "This replaces your reviewed lines and any slide draft.",
+    confirmLabel: "Replace and re-read", cancelLabel: "Keep my edits",
+  }))) return;
   const model = el("ocr-model").value;
   const button = el("run-ocr-button");
   setBusy(button, true, "Reading photos; this may take a minute…");
@@ -314,10 +457,13 @@ function renderPlannerInput() {
     };
     const previous = state.plannerDraft[index - 1];
     const next = state.plannerDraft[index + 1];
-    action("Split into boxes", line.source_region_ids.length > 1, () => {
+    action("Split into boxes", line.source_region_ids.length > 1, async () => {
       const originals = line.source_region_ids.map((id) => state.job.ocr.regions.find((row) => row.id === id));
-      if (line.text.trim() !== originals.map((row) => row.text).join(" ").trim() &&
-          !window.confirm("Splitting restores the saved text in each source box. Continue?")) return;
+      if (line.text.trim() !== originals.map((row) => row.text).join(" ").trim() && !(await askConfirm({
+        title: "Split this group?",
+        message: "Splitting restores the saved text in each source box, so your edits to this group are lost.",
+        confirmLabel: "Split and restore", cancelLabel: "Keep group",
+      }))) return;
       state.plannerDraft.splice(index, 1, ...originals.map((row) => ({
         id: row.id, text: row.text, photo_id: row.photo_id || null, source_region_ids: [row.id],
       })));
@@ -465,7 +611,11 @@ async function rerunOcr() {
     if (state.dirty) { notify("Save your text edits before changing the OCR model.", true); return; }
     renderPrepare(); showStep("prepare"); return;
   }
-  if (!window.confirm("Run OCR again? This replaces the current board lines and any slide draft.")) return;
+  if (!(await askConfirm({
+    title: "Run OCR again?",
+    message: "This replaces the current board lines and any slide draft.",
+    confirmLabel: "Replace and re-read", cancelLabel: "Keep my edits",
+  }))) return;
   const button = el("ocr-run");
   setBusy(button, true, "Reading photo…");
   try {
@@ -611,6 +761,10 @@ function makePoint(point, index) {
 function renderPlan() {
   const plan = state.job && state.job.plan;
   if (!plan) return;
+  if (state.previewJobId !== state.job.id) state.previewIndex = 0;
+  state.previewJobId = state.job.id;
+  state.includedSlides = new Set(plan.included_slides ||
+    (plan.visual?.type === "none" ? ["cover", "overview", "example"] : slideOrder));
   el("plan-title-input").value = plan.title;
   el("plan-summary").value = plan.summary;
   el("point-list").replaceChildren(...plan.key_points.map(makePoint));
@@ -635,7 +789,7 @@ function renderVisual() {
   const useVisual = el("visual-choice").value === "model" && visual.type !== "none";
   el("visual-reason").textContent = useVisual
     ? visual.type.replaceAll("_", " ") + " · " + (visual.reason || "Review this visual against the board.")
-    : "Explanation only: the visual slide will use text from the slide plan.";
+    : "Explanation only. The recap slide repeats the summary, so it starts removed from the deck.";
   const box = el("visual-data");
   box.replaceChildren();
   if (!useVisual) return;
@@ -649,8 +803,77 @@ function renderVisual() {
 }
 
 function updatePreview() {
-  el("preview-title").textContent = el("plan-title-input").value || "Your board topic";
-  el("preview-summary").textContent = el("plan-summary").value || "Your reviewed board notes will appear here.";
+  if (!state.job?.plan) return;
+  const kind = slideOrder[state.previewIndex];
+  const included = state.includedSlides.has(kind);
+  const title = el("plan-title-input").value.trim() || "Your board topic";
+  const summary = el("plan-summary").value.trim() || "Your reviewed board notes will appear here.";
+  const points = [...el("point-list").children].map((card) => ({
+    heading: card.querySelector("input").value.trim(),
+    explanation: card.querySelector("textarea").value.trim(),
+  }));
+  const slide = el("preview-slide");
+  slide.replaceChildren();
+  slide.classList.toggle("preview-removed", !included);
+  const accent = document.createElement("div"); accent.className = "preview-accent";
+  const label = document.createElement("p"); label.className = "preview-label";
+  label.textContent = kind === "cover" ? "STUDY DECK" : slideLabels[kind].toUpperCase();
+  const heading = document.createElement("h3");
+  const body = document.createElement("div"); body.className = "preview-body";
+  const paragraph = (value, className = "") => {
+    const node = document.createElement("p"); node.textContent = value; node.className = className;
+    body.append(node);
+  };
+  if (kind === "cover") {
+    heading.textContent = title;
+    paragraph(summary);
+  } else if (kind === "overview") {
+    heading.textContent = "Lesson overview";
+    paragraph(summary, "preview-lead");
+    points.forEach((point, index) => paragraph(`${index + 1}. ${point.heading}: ${point.explanation}`));
+  } else if (kind === "example") {
+    heading.textContent = el("example-title").value.trim() || "Review activity";
+    paragraph(el("example-description").value.trim() || "Your activity prompt appears here.", "preview-lead");
+  } else {
+    const visual = el("visual-choice").value === "model" && state.originalVisual.type !== "none"
+      ? state.originalVisual : { type: "none", title: "No additional visual", data: {} };
+    heading.textContent = visual.title || "Visual";
+    if (visual.type === "none") paragraph("This slide would repeat the opening summary. You can leave it removed.");
+    else if (["bar_chart", "line_chart"].includes(visual.type)) {
+      paragraph(`${visual.type === "bar_chart" ? "Bar" : "Line"} chart · ${visual.data.unit || "values"}`, "preview-lead");
+      (visual.data.labels || []).forEach((item, index) => paragraph(`${item}: ${(visual.data.series || []).map(series => series.values[index]).join(" / ")}`));
+    } else if (visual.type === "process") {
+      (visual.data.steps || []).forEach((step, index) => paragraph(`${index + 1}. ${step}`));
+    } else if (visual.type === "comparison_table") {
+      paragraph((visual.data.columns || []).join(" · "), "preview-lead");
+      (visual.data.rows || []).forEach(row => paragraph(row.join(" · ")));
+    } else if (visual.type === "formula") {
+      paragraph(visual.data.expression || "Formula", "preview-lead");
+      (visual.data.worked_steps || []).forEach((step, index) => paragraph(`${index + 1}. ${step}`));
+    }
+  }
+  const rule = document.createElement("div"); rule.className = "preview-rule";
+  const footer = document.createElement("span"); footer.textContent = "Board2Slides";
+  slide.append(accent, label, heading, rule, body, footer);
+  el("preview-count").textContent = `${String(state.previewIndex + 1).padStart(2, "0")} / 04`;
+  el("preview-prev").disabled = state.previewIndex === 0;
+  el("preview-next").disabled = state.previewIndex === slideOrder.length - 1;
+  el("preview-toggle").textContent = included ? "Remove slide" : "Restore slide";
+  el("preview-status").textContent = included
+    ? `${slideLabels[kind]} is included · ${state.includedSlides.size} slide${state.includedSlides.size === 1 ? "" : "s"} in the PowerPoint.`
+    : `${slideLabels[kind]} is removed from the PowerPoint. Restore it any time.`;
+  const list = el("preview-slide-list");
+  list.replaceChildren(...slideOrder.map((id, index) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "preview-tab" + (index === state.previewIndex ? " active" : "") +
+      (state.includedSlides.has(id) ? "" : " removed");
+    button.textContent = `${index + 1}. ${slideLabels[id]}`;
+    button.setAttribute("aria-label", `${slideLabels[id]} slide, ${state.includedSlides.has(id) ? "included" : "removed"}`);
+    if (index === state.previewIndex) button.setAttribute("aria-current", "step");
+    button.addEventListener("click", () => { state.previewIndex = index; updatePreview(); });
+    return button;
+  }));
 }
 
 function collectPlan() {
@@ -673,7 +896,9 @@ function collectPlan() {
             ? state.job.planner_input.regions.map((region) => region.id)
             : state.job.ocr.regions.map((region) => region.id), data: {} },
     uncertain_ocr_terms: state.job.plan.uncertain_ocr_terms || [],
+    included_slides: slideOrder.filter((slide) => state.includedSlides.has(slide)),
   };
+  if (!plan.included_slides.length) throw new Error("Keep at least one slide in the deck.");
   if (!plan.title || !plan.summary || !plan.example.title || !plan.example.description ||
       plan.key_points.some((point) => !point.heading || !point.explanation)) {
     throw new Error("Complete every slide field before exporting.");
@@ -713,7 +938,11 @@ async function regenerateDraft() {
     notify("Save your slide edits before regenerating; regeneration replaces the current draft.", true);
     return;
   }
-  if (!window.confirm("Regenerate this LLM draft? The new result will replace your saved slide edits.")) return;
+  if (!(await askConfirm({
+    title: "Regenerate the LLM draft?",
+    message: "The new result will replace your saved slide edits.",
+    confirmLabel: "Regenerate", cancelLabel: "Keep this draft",
+  }))) return;
   const button = el("regenerate-plan");
   setBusy(button, true, "Regenerating…");
   try {
@@ -842,6 +1071,14 @@ el("start-upload").addEventListener("click", () => begin(false));
 el("sample-button").addEventListener("click", () => begin(true));
 el("prepare-button").addEventListener("click", prepareAll);
 el("prepare-mode").addEventListener("change", renderPrepare);
+function rotateCurrentPhoto(degrees) {
+  if (!state.activePhotoId || state.busy) return;
+  const turn = state.turns.get(state.activePhotoId) || 0;
+  state.turns.set(state.activePhotoId, (turn + degrees + 360) % 360);
+  renderPrepare();
+}
+el("rotate-left").addEventListener("click", () => rotateCurrentPhoto(-90));
+el("rotate-right").addEventListener("click", () => rotateCurrentPhoto(90));
 el("ocr-model").addEventListener("change", renderPrepare);
 el("run-ocr-button").addEventListener("click", runSelectedOcr);
 el("skip-ocr-button").addEventListener("click", () => {
@@ -874,7 +1111,21 @@ el("plan-back").addEventListener("click", () => {
   renderOcr(); showStep("review");
 });
 el("plan-form").addEventListener("input", () => { updatePreview(); setDirty(true); });
-el("visual-choice").addEventListener("change", () => { renderVisual(); setDirty(true); });
+el("visual-choice").addEventListener("change", () => {
+  if (el("visual-choice").value === "none") state.includedSlides.delete("visual");
+  else if (state.originalVisual.type !== "none") state.includedSlides.add("visual");
+  renderVisual(); updatePreview(); setDirty(true);
+});
+el("preview-prev").addEventListener("click", () => { state.previewIndex--; updatePreview(); });
+el("preview-next").addEventListener("click", () => { state.previewIndex++; updatePreview(); });
+el("preview-toggle").addEventListener("click", () => {
+  const kind = slideOrder[state.previewIndex];
+  if (state.includedSlides.has(kind)) {
+    if (state.includedSlides.size === 1) { notify("Keep at least one slide in the deck.", true); return; }
+    state.includedSlides.delete(kind);
+  } else state.includedSlides.add(kind);
+  updatePreview(); setDirty(true);
+});
 el("plan-form").addEventListener("submit", (event) => event.preventDefault());
 el("save-plan").addEventListener("click", saveDraft);
 el("regenerate-plan").addEventListener("click", regenerateDraft);

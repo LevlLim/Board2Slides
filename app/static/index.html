@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#123f4a">
+  <meta name="theme-color" content="#2a3550">
   <meta name="description" content="Turn a classroom board photo into an editable study deck.">
   <title>Board2Slides · Photo to study deck</title>
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
-  <link rel="stylesheet" href="/assets/styles.css">
-  <script src="/assets/app.js" defer></script>
+  <link rel="stylesheet" href="/assets/styles.css?v=20261125-rotate-buttons">
+  <script src="/assets/app.js?v=20261125-rotate-buttons" defer></script>
 </head>
 <body>
   <div class="site-shell">
@@ -45,7 +45,7 @@
       </div>
 
       <div id="workspace-bar" class="workspace-bar" hidden>
-        <div><strong>Current draft</strong><span id="save-state">Saved on this laptop server</span></div>
+        <div><strong>Current draft</strong><span id="save-state">Saved on this server</span></div>
         <div class="workspace-actions">
           <button id="refresh-job" class="text-button" type="button">Refresh from server</button>
           <button id="share-toggle" class="button secondary" type="button" aria-expanded="false" aria-controls="share-panel">Share this draft</button>
@@ -112,14 +112,23 @@
         <div class="prepare-grid">
           <div class="comparison-card">
             <div class="comparison-images">
-              <figure><figcaption>Original</figcaption><div><img id="prepare-original" alt="Original uploaded photo"></div></figure>
-              <figure><figcaption>Prepared for OCR</figcaption><div><img id="prepare-processed" alt="Photo prepared for OCR"></div></figure>
+              <figure>
+                <figcaption>Photo to read</figcaption>
+                <div class="preparation-image-frame"><img id="prepare-original" alt="Uploaded photo shown at the selected orientation"></div>
+                <div class="rotate-controls" role="group" aria-label="Rotate the selected photo">
+                  <button id="rotate-left" type="button" aria-label="Rotate photo left 90 degrees"><span aria-hidden="true">↶</span> Rotate left</button>
+                  <button id="rotate-right" type="button" aria-label="Rotate photo right 90 degrees">Rotate right <span aria-hidden="true">↷</span></button>
+                </div>
+                <p id="photo-turn-status" class="rotate-status" role="status">As uploaded</p>
+              </figure>
+              <figure><figcaption>Prepared for OCR</figcaption><div class="preparation-image-frame"><img id="prepare-processed" alt="Photo prepared for OCR"></div></figure>
             </div>
             <div id="prepare-decision" class="decision-note">Choose a preparation mode, then prepare the photos.</div>
           </div>
           <div class="settings-card">
             <p class="section-kicker">PHOTO PREPARATION</p>
             <h3>Choose how to read them</h3>
+            <p class="settings-note">Use the arrows under the photo to turn sideways writing upright. The preview changes immediately; press Prepare photos to apply it before OCR.</p>
             <label class="field"><span>Photo preparation</span>
               <select id="prepare-mode">
                 <optgroup label="Recommended for normal use">
@@ -128,13 +137,13 @@
                 </optgroup>
                 <optgroup label="Compare individual steps">
                   <option value="baseline">Crop around detected writing</option>
-                  <option value="rotation">Try rotation correction</option>
+                  <option value="rotation">Correct small tilt (2–15°)</option>
                   <option value="lighting">Try lighting correction</option>
                   <option value="perspective">Try perspective correction</option>
                 </optgroup>
               </select>
             </label>
-            <p class="settings-note">Automatic preparation checks perspective, rotation and lighting for each photo, and crops around detected writing. Compare individual steps for the class demo. Always inspect the result; blemish removal is not enabled.</p>
+            <p class="settings-note">Automatic preparation checks perspective, small tilt and lighting after your orientation choice, then crops around detected writing. Compare individual steps for the class demo. Always inspect the result; blemish removal is not enabled.</p>
             <button id="prepare-button" class="button secondary" type="button">Prepare photos</button>
             <div class="settings-divider"></div>
             <label class="field"><span>OCR recognizer version</span><select id="ocr-model"></select></label>
@@ -212,16 +221,18 @@
               <p>Edit the slide fields, or ask the LLM for another draft. Compare it with every photo before export.</p>
             </div>
             <div class="slide-preview">
-              <div class="preview-topline"><span>CONTENT PREVIEW</span><span>01 / 04</span></div>
-              <div class="preview-slide">
+              <div class="preview-topline"><span>SLIDE CONTENT PREVIEW</span><span id="preview-count">01 / 03</span></div>
+              <div id="preview-slide-list" class="preview-slide-list" aria-label="Choose a slide to preview"></div>
+              <div id="preview-slide" class="preview-slide">
                 <div class="preview-accent"></div>
-                <p>STUDY DECK</p>
-                <h3 id="preview-title">Your board topic</h3>
-                <div class="preview-rule"></div>
-                <p id="preview-summary">Your reviewed board notes will appear here.</p>
-                <span>Board2Slides</span>
               </div>
-              <p class="card-caption">Preview shows the content; the downloaded PowerPoint uses the project renderer.</p>
+              <div class="preview-controls">
+                <button id="preview-prev" class="button secondary" type="button" aria-label="Previous slide">← Previous</button>
+                <button id="preview-toggle" class="button secondary" type="button">Remove slide</button>
+                <button id="preview-next" class="button secondary" type="button" aria-label="Next slide">Next →</button>
+              </div>
+              <p id="preview-status" class="card-caption" role="status"></p>
+              <p class="card-caption">This previews each slide's content. The downloaded PowerPoint uses the project renderer.</p>
             </div>
             <div class="review-reminder"><span aria-hidden="true">✳</span><p><strong>Human check matters.</strong> The current models can miss context or add incorrect details. Compare this draft with the board before sharing.</p></div>
           </div>
@@ -244,7 +255,7 @@
             <a id="download-link" class="button primary" href="#" download>Download PowerPoint <span aria-hidden="true">↓</span></a>
             <button id="export-back" class="button secondary" type="button">Edit slides</button>
           </div>
-          <div class="export-footnote">This photo and draft are saved on the laptop server. Keep the share link if you want to reopen them later.</div>
+          <div class="export-footnote">This draft is saved on this server. Download your PowerPoint before the server restarts.</div>
         </div>
         <button id="start-over" class="text-button start-over" type="button">Start a new board →</button>
       </section>

@@ -17,12 +17,18 @@ def main() -> None:
     parser.add_argument("output_json", type=Path)
     parser.add_argument("--mode", choices=("auto", "original", "baseline", "rotation", "lighting", "perspective"),
                         default="auto")
+    parser.add_argument("--turn", type=int, choices=(0, 90, 180, 270), default=0,
+                        help="Manual clockwise orientation before preparation")
     args = parser.parse_args()
     import cv2
 
     image = cv2.imread(str(args.image))
     if image is None:
         raise ValueError("Could not open the photo for preparation")
+    if args.turn:
+        image = cv2.rotate(image, {90: cv2.ROTATE_90_CLOCKWISE,
+                                   180: cv2.ROTATE_180,
+                                   270: cv2.ROTATE_90_COUNTERCLOCKWISE}[args.turn])
     log: dict = {"mode": args.mode, "applied": False, "reason": "Original upright photo retained."}
     prepared = image
     if args.mode != "original":
@@ -41,6 +47,15 @@ def main() -> None:
         log["mode"] = args.mode
         if args.mode == "baseline" and prepared.shape != image.shape:
             log.update(applied=True, reason="Cropped around detected writing; no other correction applied.")
+    log["turn"] = args.turn
+    if args.turn:
+        turn_reason = {90: "Turned right 90°.", 180: "Turned 180°.",
+                       270: "Turned left 90°."}[args.turn]
+        log["applied"] = True
+        log["reason"] = turn_reason + " " + log.get("reason", "").strip()
+        if isinstance(log.get("decisions"), list):
+            log["decisions"].insert(0, {"name": "orientation", "applied": True,
+                                        "reason": turn_reason})
     if prepared.size == 0:
         raise ValueError("Preparation produced an empty image")
     ok, encoded = cv2.imencode(".jpg", prepared, [cv2.IMWRITE_JPEG_QUALITY, 92])

@@ -1,3 +1,5 @@
+Global:
+  model_name: PP-OCRv5_server_rec
 Hpi:
   backend_configs:
     paddle_infer:
@@ -28,7 +30,7 @@ PreProcess:
       image_shape:
       - 3
       - 64
-      - 640
+      - 1024
   - KeepKeys:
       keep_keys:
       - image
